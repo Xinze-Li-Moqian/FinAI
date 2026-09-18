@@ -1,5 +1,9 @@
 # APS1053_CaseStudies_Reinforcement_GenerativeAI
 
+**[阅读重新组织的案例指南：中文总览、23 个案例与书目](../../../../courses/APS1053/cases/README.md)**
+
+下面保留逐页提取稿，便于与原 PPT 对照。
+
 原文件：[打开原稿](<../../../../materials/APS1053/02_Cases_and_Presentations/APS1053_CaseStudies_Reinforcement_GenerativeAI.pptx>)
 
 自动整理的阅读副本，保留作者内容，不代表已校正其论证或技术主张。原稿是版式依据。

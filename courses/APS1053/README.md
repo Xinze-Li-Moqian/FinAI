@@ -1,5 +1,9 @@
 # APS1053
 
+**[案例选题指南：直接阅读全部 23 个案例](cases/README.md)**
+
+按主题比较选题、跳转书目与章节，不需要在 GitHub 中预览 PowerPoint。
+
 - [课程内容阅读入口](../../knowledge/APS1053/README.md)
 - [全部附件](../../materials/APS1053/README.md)
 - [学习笔记](notes.md)

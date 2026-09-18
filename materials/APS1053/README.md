@@ -2,6 +2,7 @@
 
 这里提供截至 2026-09-18 已收到的课程附件、研究配套文件和参考资料。教师姓名与原文件署名保留；此学生整理仓库不代表学校或教师官方发布，也不为第三方材料添加新的许可证。
 
+- **[案例 PPT 的 Markdown 整理版](../../courses/APS1053/cases/README.md)**
 - [Markdown 阅读与研究入口](../../knowledge/APS1053/README.md)
 - [逐文件目录](CATALOG.md)
 - [原始附件与完整配套包下载](https://github.com/Xinze-Li-Moqian/FinAI/releases/tag/course-materials-2026-09-18)

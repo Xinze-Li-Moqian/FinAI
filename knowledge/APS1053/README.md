@@ -4,6 +4,8 @@
 
 ## Markdown 阅读版
 
+**[案例目录整理版：按主题比较 23 个案例](../../courses/APS1053/cases/README.md)** — 中文说明、可展开英文原文、原始页码和阅读入口。
+
 - [ADMINISTRATIVE_APS1053](documents/ADMINISTRATIVE_APS1053/index.md)
 - [APS1053_SEMINARONAIINFINANCE_new](documents/APS1053_SEMINARONAIINFINANCE_new/index.md)
 - [APS1053_CaseStudies_Reinforcement_GenerativeAI](documents/APS1053_CaseStudies_Reinforcement_GenerativeAI/index.md)

@@ -10,6 +10,8 @@ This repository records learning and exploratory work. Proposed mechanisms are n
 
 ## Contents
 
+- **[APS1053 案例选题指南：23 个案例的 Markdown 阅读版](courses/APS1053/cases/README.md)** — 中文总览、英文原文、书目与原始页码。
+
 - [Course overview](courses/README.md): APS1050, APS1053, and Mathematics for AI Safety.
 - [APS1053 presentation workspace](courses/APS1053/presentations/README.md): requirements, candidate Case 44, upstream notebooks, and an executed tabular-RL warm-up.
 - [APS1053 study notes](courses/APS1053/notes.md): course tasks, case selection, and reading priorities.

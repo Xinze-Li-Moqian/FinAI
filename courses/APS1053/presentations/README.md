@@ -2,6 +2,7 @@
 
 状态：准备中。老师尚未确认分配结果或展示日期；这里的候选选择不代表已获分配。
 
+- **[先浏览全部案例：Markdown 选题指南](../cases/README.md)**
 - [要求与交付检查表](REQUIREMENTS.md)
 - [第一份：Case 44 候选](01-case44-candidate/README.md)
 - [第二份：待分配](02-unassigned/README.md)
