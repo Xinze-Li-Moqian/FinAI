@@ -11,3 +11,4 @@
 - **[两次案例展示工作区](presentations/README.md)**
 - [评分要求与交付清单](presentations/REQUIREMENTS.md)
 - [Case 44 预习 Notebook](presentations/01-case44-candidate/warmup/00_tabular_q_learning.ipynb)
+- [Generative AI homework — Part 1](assignments/generative-ai/part1/README.md): transcript corpus, title index and theme map.

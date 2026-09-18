@@ -10,6 +10,8 @@ This repository records learning and exploratory work. Proposed mechanisms are n
 
 ## Contents
 
+- [APS1053 Generative AI homework — Part 1](courses/APS1053/assignments/generative-ai/part1/README.md): transcript preparation, source index and a preliminary theme map.
+
 - **[APS1053 案例选题指南：23 个案例的 Markdown 阅读版](courses/APS1053/cases/README.md)** — 中文总览、英文原文、书目与原始页码。
 
 - [Course overview](courses/README.md): APS1050, APS1053, and Mathematics for AI Safety.
