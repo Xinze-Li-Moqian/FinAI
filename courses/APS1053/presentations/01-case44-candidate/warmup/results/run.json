@@ -1,0 +1,20 @@
+{
+  "grid": 8,
+  "train_episodes_per_run": 2500,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "alpha": 0.25,
+  "gamma": 0.95,
+  "epsilons": [
+    0.0,
+    0.2
+  ],
+  "finite_transition_checks": 1176,
+  "evaluation": "Frozen greedy policy over every original-support initial state; no learning during evaluation. Same MDP, not held-out market data.",
+  "limitations": "Explicit-state toy game; not neural Q-learning, financial case reproduction, or evidence of market performance. Epsilon=0 still randomly breaks training ties."
+}

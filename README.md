@@ -11,6 +11,7 @@ This repository records learning and exploratory work. Proposed mechanisms are n
 ## Contents
 
 - [Course overview](courses/README.md): APS1050, APS1053, and Mathematics for AI Safety.
+- [APS1053 presentation workspace](courses/APS1053/presentations/README.md): requirements, candidate Case 44, upstream notebooks, and an executed tabular-RL warm-up.
 - [APS1053 study notes](courses/APS1053/notes.md): course tasks, case selection, and reading priorities.
 - [Material coverage](materials/COVERAGE.md): received packages and outstanding material.
 - [Course material index](materials/INDEX.md): descriptions and local links to original attachments.

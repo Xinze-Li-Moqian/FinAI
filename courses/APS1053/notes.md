@@ -28,7 +28,7 @@ The workflow collects and processes financial-video transcripts into a structure
 
 Part 1 concerns downloading and formatting transcripts. The supplied Part 1 instructions say there is nothing to submit yet; they do not provide a precise deadline. Check current course announcements.
 
-Most files in the attachment package are transcript data, not separate readings. No supplied code has been executed as part of this repository setup.
+Most files in the attachment package are transcript data, not separate readings. The supplied course API programs have not been run. A separate tabular-RL warm-up now has recorded results in the presentation workspace; it is not the formal financial case reproduction.
 
 ## Prolog and prompts
 
@@ -42,4 +42,4 @@ The reading draws an analogy between facts/context, rules/instructions, and quer
 - [ ] Inspect Part 1 setup instructions before running code.
 - [ ] Agree on a bounded extension or project with the instructor.
 
-[Local source index](../../materials/INDEX.md)
+[Course material index](../../materials/INDEX.md) · [Presentation workspace](presentations/README.md)
