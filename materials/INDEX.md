@@ -22,3 +22,13 @@ The original APS1053 attachment package is kept locally and excluded from this p
 - `FILE_MANIFEST.json`: original extraction inventory and file hashes, retained locally.
 
 Reference books and datasets are not republished. The original attachment package also contains private-context organizational notes; those remain local.
+
+## Research companion package
+
+- [Prompt-architecture draft](../local-materials/APS1053_Fall2026/06_Research_Drafts/PrologPromptArchitecture.docx)
+- [Source package directory](../local-materials/APS1053_Fall2026/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/) — prompt variants, Python scripts, specifications, sample outputs, transcripts and reference documents; retained locally.
+- [Local searchable knowledge base](../private/knowledge-base/README.md) — converted reading copies, concept links, references and private source review.
+- [Complete received-material catalog](../private/knowledge-base/COURSE_CATALOG.md) — every locally received file, with a separate SHA-256 manifest.
+- [Material coverage](COVERAGE.md) — what has arrived and what remains unavailable.
+
+Unpublished drafts, their converted text, instructor code, data and credentials remain excluded from Git. Archive contents and sample outputs have not been certified as reproducible or correct.

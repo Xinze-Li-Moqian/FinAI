@@ -12,6 +12,7 @@ This repository records learning and exploratory work. Proposed mechanisms are n
 
 - [Course overview](courses/README.md): APS1050, APS1053, and Mathematics for AI Safety.
 - [APS1053 study notes](courses/APS1053/notes.md): course tasks, case selection, and reading priorities.
+- [Material coverage](materials/COVERAGE.md): received packages and outstanding material.
 - [Course material index](materials/INDEX.md): descriptions and local links to original attachments.
 - [RL and preference optimization](reading/rl-and-preference-optimization.md): PPO, GRPO, DPO, and GraphGPO.
 - [Research questions](questions/research-directions.md): allocation, incentives, and verifiable constraints.
