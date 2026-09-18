@@ -1,0 +1,1105 @@
+{
+  "dependencies": {
+    "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+    "phase1_record_hash": "75da15ada524cfaafd5bfc007c97bcf8987d3be62cc3846202236480180ca7df",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-4AF8F42EF118",
+    "filename": "20251001_The Government Shutdown This Time is Different.txt",
+    "stem": "20251001_The Government Shutdown This Time is Different",
+    "date": "2025-10-01",
+    "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+    "source_character_count": 22244,
+    "central_claim": "The current government shutdown threat is a budget-related shutdown distinct from debt ceiling or currency failure shutdowns, and it carries no long-term economic or market consequences.",
+    "themes": [
+      {
+        "local_theme_id": "LT-3B3D6BBA1DB7",
+        "theme": "Debt Ceiling Government Shutdown",
+        "arguments": [
+          {
+            "local_argument_id": "LA-75588BBB1F07",
+            "local_theme_id": "LT-3B3D6BBA1DB7",
+            "conclusion": "A debt ceiling shutdown differs from a budget shutdown and carries the risk of US debt default, which could end the dollar's status as the global reserve currency.",
+            "premises": [
+              "Before 1917, Congress voted on each debt issuance, which created friction.",
+              "The debt ceiling was introduced to limit borrowing but has been repeatedly raised.",
+              "When the debt ceiling is hit, Congress votes to raise it to borrow for already approved spending.",
+              "If not resolved, the government's checking account depletes and it cannot make any payments, including interest, leading to default.",
+              "US default would likely cause the dollar to cease being the global reserve currency."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-447E52917383",
+                "item": "Prior to 1917, the United States Congress used to have to vote for every single debt issuance.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source for this historical claim.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "Prior to 1917, the United States Congress used to have to vote for every single debt issuance.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EB2DF5491917",
+                "item": "Every single time the debt ceiling has been hit, Congress has just decided to vote on raising the debt ceiling.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no supporting data or source for this generalization.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "every single time the debt ceiling has been hit, Congress has just decided to vote on raising the debt ceiling so they can borrow and spend even more.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-AFB33A6DC17D",
+                "device": "Credit card limit analogy",
+                "explanation": "Compares the debt ceiling to a household credit card that gets declined when the limit is reached, and the couple must call to increase the credit limit.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "Now, let's say you and your spouse have agreed where to spend your money, your fund money from your credit card. ... the card gets declined. ... That is a debt sealing budget, government shutdown.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3E0871B06ACB",
+        "theme": "Budget Government Shutdown",
+        "arguments": [
+          {
+            "local_argument_id": "LA-64A0C9CA4E67",
+            "local_theme_id": "LT-3E0871B06ACB",
+            "conclusion": "The current government shutdown threat is a budget disagreement over discretionary spending, which has no long-term economic consequences.",
+            "premises": [
+              "Fiscal year starts in October; Congress must approve discretionary spending before then.",
+              "Mandatory spending (Social Security, Medicare, Medicaid, interest) is already decided and not at issue.",
+              "Discretionary spending is small compared to mandatory; half defense, half non-defense.",
+              "Disagreement is over these small categories.",
+              "If no agreement, non-essential services shut down, but essential ones continue.",
+              "The 2018-2019 shutdown lasted 35 days with no ill effects."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0F765D8D7901",
+                "item": "Pie chart from CBO showing 2024 spending: total $6.8 trillion, mandatory $4.1 trillion, tax revenue $4.9 trillion.",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly names the source (CBO) and provides a reference to cbo.gov.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "This pie chart is from this CBO themselves. You can find them on cbo.gov. But this pie chart shows from 2024. ... total amount of money the government spent was $6.8 trillion. ... mandatory spending 4.1 trillion. ... entire tax revenue was 4.9 trillion.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-35C0E6673DB7",
+                "item": "The 2018-2019 government shutdown lasted 35 days during Trump's first term.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or citation for the duration or context of this shutdown.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "Do you remember the last big shutdown that we had? It was at the end of 2018, beginning of 2019. It lasted 35 days. This was during Trump's first term.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-88E88A1C83CC",
+                "device": "Household budget analogy for budget shutdown",
+                "explanation": "Compares the budget shutdown to a couple arguing over how to spend their 'fun money' on a credit card; if they cannot agree, they do not spend.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "Imagine you and your spouse sit down in order to decide where you're going to spend your money. ... That's an example of a budget shutdown.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2FB523C9A1C5",
+        "theme": "Currency Failure Government Shutdown",
+        "arguments": [
+          {
+            "local_argument_id": "LA-26A07F834687",
+            "local_theme_id": "LT-2FB523C9A1C5",
+            "conclusion": "A currency failure shutdown is the most severe type, leading to permanent government shutdown unless a new acceptable currency is adopted or the government is replaced.",
+            "premises": [
+              "Definition: government shutdown occurs when the government cannot pay for services.",
+              "Government power derives from spending power, which requires accepted currency.",
+              "Fiat currencies allow governments to inflate, stealing purchasing power.",
+              "If inflation goes too far, people stop accepting the currency.",
+              "Historical examples: US Continental, many countries.",
+              "Government then shuts down until it gets new money or is replaced."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8EA7DB4D2D39",
+                "item": "Hasn't happened in the United States since the continental currency, used to fund the Revolutionary War.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source for this historical claim about the Continental currency.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "hasn't happened in the United States since the continental, which was the first currency used before the official establishment of the United States of America, was used to fund the Revolutionary War.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-402060DB0FC8",
+                "item": "Has happened plenty of times throughout history in plenty of different countries.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no specific examples or sources to verify this claim.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "But it has happened plenty of times throughout history in plenty of different countries.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EF1AB2DD5BB2",
+                "device": "Counterfeit money analogy",
+                "explanation": "Compares currency failure to a couple printing fake money at home; eventually nobody accepts it and they must get real money or die.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "Now, the third example with a currency failure shutdown. This would be like for the last couple of decades you and your spouse have just been printing counterfeiting money from your printer at home ... eventually somebody finds out, nobody will accept your fake money anymore.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-249244EA66EB",
+        "theme": "Consequences of Government Shutdowns",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3FC0E0646A9A",
+            "local_theme_id": "LT-249244EA66EB",
+            "conclusion": "Government shutdowns have no long-term consequences; any short-term market volatility is negligible and temporary.",
+            "premises": [
+              "Shutdowns always get resolved (unless currency failure).",
+              "Government waste increases because backpay is given for work not done.",
+              "Regulatory friction and backlogs create real but negligible costs.",
+              "Delays in economic data may cause short-term volatility but markets are forward-looking."
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-927B5297D5B1",
+        "theme": "Gridlock as a Feature of Government Design",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C4FD57308DC4",
+            "local_theme_id": "LT-927B5297D5B1",
+            "conclusion": "Government gridlock is a desirable feature that prevents abuse, because the conditions for an effective government (perfect information, morality, power) are unattainable.",
+            "premises": [
+              "Three things make an effective government: perfect information, perfect morality, perfect power.",
+              "None of these is possible.",
+              "Founding fathers designed government with gridlock: checks and balances, separation of powers.",
+              "Gridlock ensures action only occurs with widespread agreement.",
+              "Gridlock also makes it hard to reduce existing power, leading to growing bureaucracy, but slower growth."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C6E013BFD4A1",
+                "item": "Founding fathers designed our government to be gridlocked with checks and balances.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or citation for the claimed intent of the founding fathers.",
+                "speech_id": "SP-4AF8F42EF118",
+                "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+                "source_excerpt": "founding fathers designed our government to be gridlocked. You have checks and balances on power. You have separations of power.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EC1FC81E427A",
+        "theme": "The 'Big Beautiful Bill' and Budget Distinction",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B34B608323FC",
+            "local_theme_id": "LT-EC1FC81E427A",
+            "conclusion": "The Big Beautiful Bill did not resolve the budget issue because it was not a budget bill; it addressed mandatory spending and tax policy, not annual appropriations.",
+            "premises": [
+              "Big beautiful bill was not actually a budget bill.",
+              "Every year they have to come up with their budget.",
+              "The big beautiful bill was more about mandatory spending and tax policy.",
+              "It was not the specific appropriations voting."
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-D191249C04F1",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "Prior to 1917, the United States Congress used to have to vote for every single debt issuance.",
+        "reason": "The transcript does not provide any source or reference to support this historical claim about U.S. debt issuance procedures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker states this as historical fact without citation; no internal transcript facts to corroborate.",
+        "source_excerpt": "Prior to 1917, the United States Congress used to have to vote for every single debt issuance.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-07F08167FC57",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "Every single time the debt ceiling has been hit, Congress has just decided to vote on raising the debt ceiling.",
+        "reason": "The transcript does not provide data or a source to verify this generalization about congressional behavior.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker asserts a universal pattern without evidence; no internal transcript facts to corroborate.",
+        "source_excerpt": "every single time the debt ceiling has been hit, Congress has just decided to vote on raising the debt ceiling so they can borrow and spend even more.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EA4390CCE462",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "If the US government defaulted on its debt payments, it is very likely the dollar would pretty quickly cease to be the global reserve currency.",
+        "reason": "The transcript presents this as a speculative consequence without citing economic analysis or historical precedent.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker offers an opinion about a hypothetical scenario; no internal transcript facts to corroborate.",
+        "source_excerpt": "if the US government defaulted on its debt payments, it's very likely the dollar would pretty quickly cease to be the global reserve currency.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F1BDDC2AA388",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "The 2018-2019 government shutdown lasted 35 days during Trump's first term and nothing happened.",
+        "reason": "The transcript provides no source for the duration or the claim that 'nothing happened'.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Duration is a known fact but not sourced in transcript; 'nothing happened' is subjective; no internal transcript facts to corroborate.",
+        "source_excerpt": "Do you remember the last big shutdown that we had? It was at the end of 2018, beginning of 2019. It lasted 35 days. This was during Trump's first term. And nothing happened.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-DE6C39934CCB",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "A currency failure shutdown has not happened in the United States since the continental currency was used to fund the Revolutionary War.",
+        "reason": "The transcript does not provide any source or historical citation for this claim about the Continental currency.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker asserts a historical comparison without evidence; no internal transcript facts to corroborate.",
+        "source_excerpt": "hasn't happened in the United States since the continental, which was the first currency used before the official establishment of the United States of America, was used to fund the Revolutionary War.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-933326692C16",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "Currency failure has happened plenty of times throughout history in plenty of different countries.",
+        "reason": "The transcript is vague and provides no specific examples or sources to verify this broad claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker makes a sweeping historical claim without any supporting detail; no internal transcript facts to corroborate.",
+        "source_excerpt": "But it has happened plenty of times throughout history in plenty of different countries.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-27D743A61AEF",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "Founding fathers designed the U.S. government to be gridlocked with checks and balances.",
+        "reason": "The transcript does not provide any citation or evidence for the founders' intent regarding gridlock.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker attributes a design intention to the founding fathers without sourcing; no internal transcript facts to corroborate.",
+        "source_excerpt": "founding fathers designed our government to be gridlocked. You have checks and balances on power.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-67333359A2CF",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "Three things make an effective government: perfect information, perfect morality, and perfect power, and none of these are possible.",
+        "reason": "The transcript presents this as an axiomatic claim without supporting reasoning or external reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker offers a philosophical framework as factual; no internal transcript facts to corroborate.",
+        "source_excerpt": "three things that make an effective government: perfect information, perfect morality, and perfect or all power. ... none of those things are possible.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-EB86AC33657C",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "The Big Beautiful Bill was not a budget bill and did not address the annual appropriations.",
+        "reason": "The transcript asserts this distinction without providing any details about the bill's content or legislative process.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker makes a claim about a specific bill without citation or explanation; no internal transcript facts to corroborate.",
+        "source_excerpt": "the big beautiful bill was not actually a budget bill. ... It was not the specific appropriations voting that they have to be doing right now.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-52C562430ADC",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "Government waste gets increased a lot because they still always backpay everything that they weren't able to pay.",
+        "reason": "The transcript does not provide any data, examples, or sources to support this characterization of backpay.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker asserts a specific effect without evidence; no internal transcript facts to corroborate.",
+        "source_excerpt": "One consequence is government waste gets increased a lot because they still always backpay everything that they weren't able to pay.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-715FFC6DBB70",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "There is regulatory friction and burden because many people were not able to get business permits approved.",
+        "reason": "The transcript offers no specific examples, statistics, or sources to support this claim about regulatory impacts.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker describes an outcome without supporting data; no internal transcript facts to corroborate.",
+        "source_excerpt": "There's also a lot of regulatory friction and burden on this because there's a lot of people who weren't able to get business permits approved.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-E8E1F1963F2C",
+        "speech_id": "SP-4AF8F42EF118",
+        "speech_ref": "20251001_The Government Shutdown This Time is Different.txt",
+        "claim": "The current government shutdown threat is a budget shutdown (not a debt ceiling or currency failure shutdown).",
+        "reason": "The transcript asserts this as the current situation but provides no external verification or reference (e.g., news sources, official statements) to confirm the nature of the threat.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker states this as fact without citing any current events or sources; no internal transcript facts to corroborate.",
+        "source_excerpt": "We are currently facing the second kind of potential government shutdown which is budget issues.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current government shutdown threat is a budget-related shutdown distinct from debt ceiling or currency failure shutdowns, and it carries no long-term economic or market consequences.",
+      "themes": [
+        "Debt Ceiling Government Shutdown",
+        "Budget Government Shutdown",
+        "Currency Failure Government Shutdown",
+        "Consequences of Government Shutdowns",
+        "Gridlock as a Feature of Government Design",
+        "The 'Big Beautiful Bill' and Budget Distinction"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 12
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "714620fbd20f4f99577fda9d8409222f9f6e31ffd76835bf7e3472681b24258c",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "75da15ada524cfaafd5bfc007c97bcf8987d3be62cc3846202236480180ca7df",
+    "canonical_mapping": {
+      "speech_id": "SP-4AF8F42EF118",
+      "filename": "20251001_The Government Shutdown This Time is Different.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC19",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+      "primary_cc_rationale": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T32",
+        "T92",
+        "T81"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T32",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-3E0871B06ACB",
+          "rationale": "Budget government shutdown directly aligns with T32 'Government shutdown and budget gridlock' as the speech's central type."
+        },
+        {
+          "theme_id": "T92",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-EC1FC81E427A",
+          "rationale": "The 'Big Beautiful Bill' and budget distinction is about budget allocation; T92 'Fiscal Deficit, Debt, and Budget Allocation' is the most fitting canonical theme."
+        },
+        {
+          "theme_id": "T81",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-2FB523C9A1C5",
+          "rationale": "Currency failure government shutdown involves collapse of the dollar system; best canonical match is T81 'Dollar system vulnerabilities' among the given options."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC19-T32",
+          "cc_id": "CC19",
+          "theme_id": "T32",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC19-T92",
+          "cc_id": "CC19",
+          "theme_id": "T92",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC19-T81",
+          "cc_id": "CC19",
+          "theme_id": "T81",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_cc_text": "The current government shutdown threat is a budget-related shutdown distinct from debt ceiling or currency failure shutdowns, and it carries no long-term economic or market consequences.",
+        "canonical_cc_id": "CC19",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "rationale": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "candidate_matches": [
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.9347878694534302
+          },
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.5012315511703491
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.4744313359260559
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.42237919569015503
+          },
+          {
+            "id": "CC41",
+            "text": "Despite government shutdown causing stock market volatility and high layoff announcements, the economy is stronger than perceived and jobless claims remain low, indicating resilient underlying conditions.",
+            "similarity": 0.39044106006622314
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_theme_id": "LT-3B3D6BBA1DB7",
+        "local_theme_text": "Debt Ceiling Government Shutdown",
+        "canonical_theme_id": "T32",
+        "confidence": 0.85,
+        "rationale": "Debt ceiling government shutdown is a specific type of government shutdown, best matched by canonical theme T32 'Government shutdown and budget gridlock' with high semantic similarity.",
+        "candidate_matches": [
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.8074327707290649
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5790152549743652
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5765213966369629
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.5284394025802612
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5108397006988525
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.481880247592926
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_theme_id": "LT-3E0871B06ACB",
+        "local_theme_text": "Budget Government Shutdown",
+        "canonical_theme_id": "T32",
+        "confidence": 0.9,
+        "rationale": "Budget government shutdown directly aligns with T32 'Government shutdown and budget gridlock' as the speech's central type.",
+        "candidate_matches": [
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.8759602308273315
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5861046314239502
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5312490463256836
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.5274947881698608
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5035293102264404
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4447631239891052
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_theme_id": "LT-2FB523C9A1C5",
+        "local_theme_text": "Currency Failure Government Shutdown",
+        "canonical_theme_id": "T81",
+        "confidence": 0.7,
+        "rationale": "Currency failure government shutdown involves collapse of the dollar system; best canonical match is T81 'Dollar system vulnerabilities' among the given options.",
+        "candidate_matches": [
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.5690953731536865
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.5149182081222534
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.45087894797325134
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.44513005018234253
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.41816243529319763
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.41180890798568726
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_theme_id": "LT-249244EA66EB",
+        "local_theme_text": "Consequences of Government Shutdowns",
+        "canonical_theme_id": "T32",
+        "confidence": 0.8,
+        "rationale": "Consequences of government shutdowns are inherently part of the 'Government shutdown and budget gridlock' theme, with high similarity to T32.",
+        "candidate_matches": [
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.7823686599731445
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.3859410583972931
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.36772024631500244
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.353543221950531
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.35287755727767944
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.33287882804870605
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_theme_id": "LT-927B5297D5B1",
+        "local_theme_text": "Gridlock as a Feature of Government Design",
+        "canonical_theme_id": "T99",
+        "confidence": 0.65,
+        "rationale": "Gridlock as a feature of government design relates to structural government policy, best mapped to T99 'Government Policy Proposals and Structural Reforms' given the context of desirable gridlock.",
+        "candidate_matches": [
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.49572065472602844
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.4947035610675812
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.4816941022872925
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.4746084213256836
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.4206869304180145
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.36687222123146057
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "local_theme_id": "LT-EC1FC81E427A",
+        "local_theme_text": "The 'Big Beautiful Bill' and Budget Distinction",
+        "canonical_theme_id": "T92",
+        "confidence": 0.75,
+        "rationale": "The 'Big Beautiful Bill' and budget distinction is about budget allocation; T92 'Fiscal Deficit, Debt, and Budget Allocation' is the most fitting canonical theme.",
+        "candidate_matches": [
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.5568441152572632
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.4312537908554077
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.4074324071407318
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.38507235050201416
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.35708606243133545
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.34694597125053406
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-BE61BF3DA61D03",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "date": "2025-10-01",
+        "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+        "pair_id": "PAIR-CC19-T32",
+        "cc_id": "CC19",
+        "theme_id": "T32",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-3B3D6BBA1DB7",
+        "local_theme_text": "Debt Ceiling Government Shutdown",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Debt ceiling government shutdown is a specific type of government shutdown, best matched by canonical theme T32 'Government shutdown and budget gridlock' with high semantic similarity.",
+        "local_argument_id": "LA-75588BBB1F07",
+        "conclusion": "A debt ceiling shutdown differs from a budget shutdown and carries the risk of US debt default, which could end the dollar's status as the global reserve currency.",
+        "premises": [
+          "Before 1917, Congress voted on each debt issuance, which created friction.",
+          "The debt ceiling was introduced to limit borrowing but has been repeatedly raised.",
+          "When the debt ceiling is hit, Congress votes to raise it to borrow for already approved spending.",
+          "If not resolved, the government's checking account depletes and it cannot make any payments, including interest, leading to default.",
+          "US default would likely cause the dollar to cease being the global reserve currency."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-447E52917383",
+            "item": "Prior to 1917, the United States Congress used to have to vote for every single debt issuance.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source for this historical claim.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "Prior to 1917, the United States Congress used to have to vote for every single debt issuance.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-EB2DF5491917",
+            "item": "Every single time the debt ceiling has been hit, Congress has just decided to vote on raising the debt ceiling.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no supporting data or source for this generalization.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "every single time the debt ceiling has been hit, Congress has just decided to vote on raising the debt ceiling so they can borrow and spend even more.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-AFB33A6DC17D",
+            "device": "Credit card limit analogy",
+            "explanation": "Compares the debt ceiling to a household credit card that gets declined when the limit is reached, and the couple must call to increase the credit limit.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "Now, let's say you and your spouse have agreed where to spend your money, your fund money from your credit card. ... the card gets declined. ... That is a debt sealing budget, government shutdown.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-05AC19B2CD04EE",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "date": "2025-10-01",
+        "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+        "pair_id": "PAIR-CC19-T32",
+        "cc_id": "CC19",
+        "theme_id": "T32",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-3E0871B06ACB",
+        "local_theme_text": "Budget Government Shutdown",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Budget government shutdown directly aligns with T32 'Government shutdown and budget gridlock' as the speech's central type.",
+        "local_argument_id": "LA-64A0C9CA4E67",
+        "conclusion": "The current government shutdown threat is a budget disagreement over discretionary spending, which has no long-term economic consequences.",
+        "premises": [
+          "Fiscal year starts in October; Congress must approve discretionary spending before then.",
+          "Mandatory spending (Social Security, Medicare, Medicaid, interest) is already decided and not at issue.",
+          "Discretionary spending is small compared to mandatory; half defense, half non-defense.",
+          "Disagreement is over these small categories.",
+          "If no agreement, non-essential services shut down, but essential ones continue.",
+          "The 2018-2019 shutdown lasted 35 days with no ill effects."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0F765D8D7901",
+            "item": "Pie chart from CBO showing 2024 spending: total $6.8 trillion, mandatory $4.1 trillion, tax revenue $4.9 trillion.",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly names the source (CBO) and provides a reference to cbo.gov.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "This pie chart is from this CBO themselves. You can find them on cbo.gov. But this pie chart shows from 2024. ... total amount of money the government spent was $6.8 trillion. ... mandatory spending 4.1 trillion. ... entire tax revenue was 4.9 trillion.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-35C0E6673DB7",
+            "item": "The 2018-2019 government shutdown lasted 35 days during Trump's first term.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or citation for the duration or context of this shutdown.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "Do you remember the last big shutdown that we had? It was at the end of 2018, beginning of 2019. It lasted 35 days. This was during Trump's first term.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-88E88A1C83CC",
+            "device": "Household budget analogy for budget shutdown",
+            "explanation": "Compares the budget shutdown to a couple arguing over how to spend their 'fun money' on a credit card; if they cannot agree, they do not spend.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "Imagine you and your spouse sit down in order to decide where you're going to spend your money. ... That's an example of a budget shutdown.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-931A84D067ED69",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "date": "2025-10-01",
+        "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+        "pair_id": "PAIR-CC19-T81",
+        "cc_id": "CC19",
+        "theme_id": "T81",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2FB523C9A1C5",
+        "local_theme_text": "Currency Failure Government Shutdown",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Currency failure government shutdown involves collapse of the dollar system; best canonical match is T81 'Dollar system vulnerabilities' among the given options.",
+        "local_argument_id": "LA-26A07F834687",
+        "conclusion": "A currency failure shutdown is the most severe type, leading to permanent government shutdown unless a new acceptable currency is adopted or the government is replaced.",
+        "premises": [
+          "Definition: government shutdown occurs when the government cannot pay for services.",
+          "Government power derives from spending power, which requires accepted currency.",
+          "Fiat currencies allow governments to inflate, stealing purchasing power.",
+          "If inflation goes too far, people stop accepting the currency.",
+          "Historical examples: US Continental, many countries.",
+          "Government then shuts down until it gets new money or is replaced."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-8EA7DB4D2D39",
+            "item": "Hasn't happened in the United States since the continental currency, used to fund the Revolutionary War.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source for this historical claim about the Continental currency.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "hasn't happened in the United States since the continental, which was the first currency used before the official establishment of the United States of America, was used to fund the Revolutionary War.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-402060DB0FC8",
+            "item": "Has happened plenty of times throughout history in plenty of different countries.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no specific examples or sources to verify this claim.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "But it has happened plenty of times throughout history in plenty of different countries.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-EF1AB2DD5BB2",
+            "device": "Counterfeit money analogy",
+            "explanation": "Compares currency failure to a couple printing fake money at home; eventually nobody accepts it and they must get real money or die.",
+            "speech_id": "SP-4AF8F42EF118",
+            "source_speech_filename": "20251001_The Government Shutdown This Time is Different.txt",
+            "source_excerpt": "Now, the third example with a currency failure shutdown. This would be like for the last couple of decades you and your spouse have just been printing counterfeiting money from your printer at home ... eventually somebody finds out, nobody will accept your fake money anymore.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-395E278748A0ED",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "date": "2025-10-01",
+        "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+        "pair_id": "PAIR-CC19-T32",
+        "cc_id": "CC19",
+        "theme_id": "T32",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-249244EA66EB",
+        "local_theme_text": "Consequences of Government Shutdowns",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Consequences of government shutdowns are inherently part of the 'Government shutdown and budget gridlock' theme, with high similarity to T32.",
+        "local_argument_id": "LA-3FC0E0646A9A",
+        "conclusion": "Government shutdowns have no long-term consequences; any short-term market volatility is negligible and temporary.",
+        "premises": [
+          "Shutdowns always get resolved (unless currency failure).",
+          "Government waste increases because backpay is given for work not done.",
+          "Regulatory friction and backlogs create real but negligible costs.",
+          "Delays in economic data may cause short-term volatility but markets are forward-looking."
+        ],
+        "evidence": [],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-3F9D9DE9A89862",
+        "speech_id": "SP-4AF8F42EF118",
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "date": "2025-10-01",
+        "source_hash": "5247181b849eef20644c3a73dd6ef7bb7ce4ca6c72ddae1cd1c9c6852997f1af",
+        "pair_id": "PAIR-CC19-T92",
+        "cc_id": "CC19",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences, which is nearly identical to CC19's proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-EC1FC81E427A",
+        "local_theme_text": "The 'Big Beautiful Bill' and Budget Distinction",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The 'Big Beautiful Bill' and budget distinction is about budget allocation; T92 'Fiscal Deficit, Debt, and Budget Allocation' is the most fitting canonical theme.",
+        "local_argument_id": "LA-B34B608323FC",
+        "conclusion": "The Big Beautiful Bill did not resolve the budget issue because it was not a budget bill; it addressed mandatory spending and tax policy, not annual appropriations.",
+        "premises": [
+          "Big beautiful bill was not actually a budget bill.",
+          "Every year they have to come up with their budget.",
+          "The big beautiful bill was more about mandatory spending and tax policy.",
+          "It was not the specific appropriations voting."
+        ],
+        "evidence": [],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-927B5297D5B1",
+        "local_argument_id": "LA-C4FD57308DC4",
+        "conclusion": "Government gridlock is a desirable feature that prevents abuse, because the conditions for an effective government (perfect information, morality, power) are unattainable.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "714620fbd20f4f99577fda9d8409222f9f6e31ffd76835bf7e3472681b24258c",
+  "complete": true
+}

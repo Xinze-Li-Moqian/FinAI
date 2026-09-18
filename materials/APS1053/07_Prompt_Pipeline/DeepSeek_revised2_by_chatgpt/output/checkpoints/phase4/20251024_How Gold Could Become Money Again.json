@@ -1,0 +1,947 @@
+{
+  "dependencies": {
+    "source_hash": "22251549377ab59928ebc17c836007259dd4de4bb2d58e5758b1e959b42eea0e",
+    "phase1_record_hash": "f6cb6a4161d22ee4b88c341c6bd240992705f093027e1bdc5614e1322d43352b",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-1BA1A1021DCC",
+    "filename": "20251024_How Gold Could Become Money Again.txt",
+    "stem": "20251024_How Gold Could Become Money Again",
+    "date": "2025-10-24",
+    "source_hash": "22251549377ab59928ebc17c836007259dd4de4bb2d58e5758b1e959b42eea0e",
+    "source_character_count": 18535,
+    "central_claim": "Gold could become money again through electronic ownership transfers of physically stored gold, just as it is already used by institutions today, provided trust and verification conditions are met.",
+    "themes": [
+      {
+        "local_theme_id": "LT-4042066768A8",
+        "theme": "Historical problems of physical gold as money",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E53F2BD6E1AF",
+            "local_theme_id": "LT-4042066768A8",
+            "conclusion": "Physical gold was impractical for large-scale global transactions due to high transport costs and deflation making it too valuable for small transactions.",
+            "premises": [
+              "Moving gold across distances requires costly security, food, fuel, and supplies.",
+              "As wealth increases, deflation increases gold's value, making it impractical for everyday transactions without smaller denominations."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-29625F3BCF5C",
+                "item": "Description of transport costs: loading gold onto camels or ships and paying for security, food, fuel, and supplies.",
+                "status": "Verified",
+                "verification_basis": "The transcript provides explicit internal reasoning and description of the process.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "you had to load the gold up onto camel's backs or onto ships and you had to pay for security to make sure it didn't get stolen. You have to pay for all of the food, all the fuel, and all the supplies necessary to move just the payment.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-94B334A1DB21",
+                "item": "Deflation makes gold too valuable for small transactions; slicing gold into small denominations was impractical.",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly states the problem and gives the example of using silver and copper coins as change.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "the problem is that whatever you are using as money eventually gets too valuable for small transactions. This is why other less valuable metals were used as change for gold.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9CAF906B4FC0",
+        "theme": "Evolution of paper money and its perversion into fiat money",
+        "arguments": [
+          {
+            "local_argument_id": "LA-CD6F8403AABD",
+            "local_theme_id": "LT-9CAF906B4FC0",
+            "conclusion": "Paper money solved gold's physical problems but introduced fractional reserve banking, centralization, and eventual government defaults that ended gold redeemability.",
+            "premises": [
+              "Paper receipts represented gold ownership and allowed gold to stay in vaults while ownership changed hands.",
+              "Banks began issuing more paper than gold held (fractional reserve banking), causing booms and busts.",
+              "Governments nationalized banks, centralized gold, and eventually defaulted on redemption promises, confiscating gold and leaving fiat money."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-545F16863379",
+                "item": "Original use of paper receipts as proxy for gold, enabling cheaper transactions.",
+                "status": "Verified",
+                "verification_basis": "The transcript describes the historical process with specific details.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "they would get paper receipts or notes or bills that said that if they brought that back in, they could get a specific weight. And so instead of me having to redeem my paper for gold to make a payment and then that new person go put the gold back in storage, the paper started trading as a proxy for the gold.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8A8E56359309",
+                "item": "Fractional reserve banking led to creation of more paper than gold.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states it as a practice of fraud.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "the practice of fraud, which was fractional reserve banking, where the banks who were holding on to the gold would create more papers that could be redeemed for gold than they actually had gold.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-514863E266F2",
+                "item": "Nationalization of banks and eventual default on gold redemption obligations.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the sequence of events as a historical narrative.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "Eventually, these large-scale national defaults from nationalized fractional reserve banking, confiscating the gold from citizens and then just defaulting on the obligation to redeem the paper for gold meant that the world was plunged into using government paper as money without it being redeemable for anything like gold anymore.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2705AD970DAD",
+        "theme": "Current monetary trends: Gresham's law and the dollar-gold dynamic",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2576FBEC8A2D",
+            "local_theme_id": "LT-2705AD970DAD",
+            "conclusion": "The global economy is experiencing Gresham's law: the dollar is increasingly used as a medium of exchange while gold is being hoarded as a store of value.",
+            "premises": [
+              "The US dollar's share of Swift traffic is over 50% and growing.",
+              "Treasuries are declining as a percentage of foreign reserves while gold is rising.",
+              "Central banks are accumulating gold."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6FF109584EE3",
+                "item": "Claim that US dollar's share of international transactions is over 50% of Swift traffic.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or citation for the statistic.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "The US dollar's share of international transactions has been growing and is now over 50% of all Swift traffic.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9B7398788411",
+                "item": "Claim that treasuries are declining and gold rising in foreign reserves.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or citation is provided for the data.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "you can also see that treasuries are on the decline as a percent of foreign reserves while gold is on the rise as a percent of foreign reserves.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-2CE58A9CF3F6",
+                "item": "Claim that central banks are accumulating more gold.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific evidence or source is given for the trend.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "But central banks are accumulating more and more gold.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-4DABAAE1C94C",
+                "device": "Gresham's law",
+                "explanation": "Bad money drives out good: people spend the depreciating asset (dollars) and hoard the appreciating one (gold or Bitcoin).",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "what I'm describing here is Gresham's law that says bad money drives out good.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9F172BFC7A9E",
+        "theme": "Feasibility of a future gold standard based on electronic vaulting",
+        "arguments": [
+          {
+            "local_argument_id": "LA-68342B1558B5",
+            "local_theme_id": "LT-9F172BFC7A9E",
+            "conclusion": "Gold can become money again through electronic ownership transfers of vaulted gold, as already practiced by institutions, but only if trust conditions (allocated, segregated, insured, independently audited, secure jurisdiction, no confiscation history) are met.",
+            "premises": [
+              "Currently, most institutional gold trading occurs without physical movement of gold, using vaulting and ETFs.",
+              "Conditions for trust are necessary: allocated, segregated, insured, independently audited gold in a country with economic freedom and no history of confiscation.",
+              "Governments will not voluntarily allow this, but if people stop accepting fiat money, governments will be forced to adopt whatever money people accept."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-4B478F30F341",
+                "item": "Description of current gold trading without physical movement: gold stays in vaults, ownership changes electronically.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific examples and explanation of current practices.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "the vast majority of the time physical gold is still not moving. There are trusted third parties who hold the gold in their vaults and only the ownership of that gold is changing hands.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-83736782DEC6",
+                "item": "Example of GLD ETF used by institutions like Bridgewater.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly names the ETF and a fund manager.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "Think of like GLD. When institutions like large hedge funds like Bridgewater, Ray Dalio's hedge fund, when they buy and sell gold, they're doing that with shares of GLD, an ETF, all that gold is still staying in the vault.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-7B2BAA5CB58A",
+                "item": "Claim that America confiscated gold from citizens in 1934 and from the world in 1971.",
+                "status": "Unverifiable",
+                "verification_basis": "The characterization of 1971 as confiscation is an interpretation unsupported by the transcript with a source.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "America has done that twice. First in 1934 when we confiscated all the gold from all American citizens. And then second in 1971 when America confiscated all gold from the entire world.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F277A0122C6D",
+                "item": "Historical claim that money changes from fiat to gold 'countless times' and only when people stop accepting government money.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific historical examples or sources provided; 'countless times' is vague.",
+                "speech_id": "SP-1BA1A1021DCC",
+                "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+                "source_excerpt": "every time throughout history, whenever there is a change of money from a government fiat back to gold, which has happened countless times, it's because people no longer accept the government's money as payment.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-E28F6CE7D446",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "The US dollar's share of international transactions has been growing and is now over 50% of all Swift traffic.",
+        "reason": "The transcript provides no source or citation for this statistic, making it unsupported factual assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript alone does not provide verification for the SWIFT percentage claim.",
+        "source_excerpt": "The US dollar's share of international transactions has been growing and is now over 50% of all Swift traffic.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F0D836E92BE3",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "Treasuries are on the decline as a percent of foreign reserves while gold is on the rise as a percent of foreign reserves.",
+        "reason": "No source or data citation is provided for these reserve trends.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript asserts the trend without backing data.",
+        "source_excerpt": "you can also see that treasuries are on the decline as a percent of foreign reserves while gold is on the rise as a percent of foreign reserves.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FD395A6D7684",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "Central banks are accumulating more and more gold.",
+        "reason": "No specific evidence, institution, or source is cited for this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General statement without supporting data or references.",
+        "source_excerpt": "But central banks are accumulating more and more gold.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7CDD276E3032",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "Gold has doubled in a relatively short amount of time recently.",
+        "reason": "No timeframe or source is given for the price increase.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Vague claim about price movement without specific dates or references.",
+        "source_excerpt": "I mean gold has doubled in a relatively short amount of time recently.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-54CDDEEADD8E",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "America confiscated all gold from all American citizens in 1934 and confiscated all gold from the entire world in 1971.",
+        "reason": "The characterization of 1971 as confiscation is an interpretation; the transcript does not provide sources or standard historical support for 'confiscation from the entire world'.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical claim without verification; 1971 ended convertibility but is not universally described as confiscation.",
+        "source_excerpt": "America has done that twice. First in 1934 when we confiscated all the gold from all American citizens. And then second in 1971 when America confiscated all gold from the entire world.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7AE39A6A9049",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "Every time throughout history, whenever there is a change of money from a government fiat back to gold, which has happened countless times, it's because people no longer accept the government's money as payment.",
+        "reason": "No specific historical examples are provided, and 'countless times' is an unsubstantiated claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Sweeping historical generalization without evidence.",
+        "source_excerpt": "every time throughout history, whenever there is a change of money from a government fiat back to gold, which has happened countless times, it's because people no longer accept the government's money as payment.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-81668C2EE826",
+        "speech_id": "SP-1BA1A1021DCC",
+        "speech_ref": "20251024_How Gold Could Become Money Again.txt",
+        "claim": "It's the only way money's ever change.",
+        "reason": "Absolute statement about monetary transitions without any supporting examples or exceptions.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Dogmatic claim not supported within the transcript.",
+        "source_excerpt": "It's the only way money's ever change.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Gold could become money again through electronic ownership transfers of physically stored gold, just as it is already used by institutions today, provided trust and verification conditions are met.",
+      "themes": [
+        "Historical problems of physical gold as money",
+        "Evolution of paper money and its perversion into fiat money",
+        "Current monetary trends: Gresham's law and the dollar-gold dynamic",
+        "Feasibility of a future gold standard based on electronic vaulting"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "2e5a51349d2f72de30e9f279ff464a4c8927b2c142b6dd05410d20a318ed1571",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "f6cb6a4161d22ee4b88c341c6bd240992705f093027e1bdc5614e1322d43352b",
+    "canonical_mapping": {
+      "speech_id": "SP-1BA1A1021DCC",
+      "filename": "20251024_How Gold Could Become Money Again.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC43",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+      "primary_cc_rationale": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T97",
+        "T78"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T97",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-4042066768A8",
+          "rationale": "Theme 'Gold Standard and Monetary System Evolution' directly matches the historical discussion of physical gold's limitations as money."
+        },
+        {
+          "theme_id": "T78",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-9CAF906B4FC0",
+          "rationale": "Theme 'Critique of the Fiat Monetary System and Alternative Money' aligns with the speech's narrative of paper money perverting into fiat money and the need for alternatives."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC43-T97",
+          "cc_id": "CC43",
+          "theme_id": "T97",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC43-T78",
+          "cc_id": "CC43",
+          "theme_id": "T78",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "local_cc_text": "Gold could become money again through electronic ownership transfers of physically stored gold, just as it is already used by institutions today, provided trust and verification conditions are met.",
+        "canonical_cc_id": "CC43",
+        "confidence": 0.85,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+        "rationale": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+        "candidate_matches": [
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.46600067615509033
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.43283796310424805
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.24575872719287872
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.19048786163330078
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.1886480152606964
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "local_theme_id": "LT-4042066768A8",
+        "local_theme_text": "Historical problems of physical gold as money",
+        "canonical_theme_id": "T97",
+        "confidence": 0.85,
+        "rationale": "Theme 'Gold Standard and Monetary System Evolution' directly matches the historical discussion of physical gold's limitations as money.",
+        "candidate_matches": [
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5907208323478699
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.48580479621887207
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.46847712993621826
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.45215314626693726
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.43899500370025635
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.43245014548301697
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "local_theme_id": "LT-9CAF906B4FC0",
+        "local_theme_text": "Evolution of paper money and its perversion into fiat money",
+        "canonical_theme_id": "T78",
+        "confidence": 0.9,
+        "rationale": "Theme 'Critique of the Fiat Monetary System and Alternative Money' aligns with the speech's narrative of paper money perverting into fiat money and the need for alternatives.",
+        "candidate_matches": [
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.6064780950546265
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5806199908256531
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5280410051345825
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.42299848794937134
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.34241288900375366
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.3194045424461365
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "local_theme_id": "LT-2705AD970DAD",
+        "local_theme_text": "Current monetary trends: Gresham's law and the dollar-gold dynamic",
+        "canonical_theme_id": "T97",
+        "confidence": 0.75,
+        "rationale": "The Gresham's law dynamic between dollar and gold is part of monetary system evolution, fitting T97 well.",
+        "candidate_matches": [
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.6157516837120056
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5348511934280396
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4741373062133789
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.46678295731544495
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.46105119585990906
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.43795955181121826
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "local_theme_id": "LT-9F172BFC7A9E",
+        "local_theme_text": "Feasibility of a future gold standard based on electronic vaulting",
+        "canonical_theme_id": "T97",
+        "confidence": 0.8,
+        "rationale": "Theme 'Gold Standard and Monetary System Evolution' directly covers the feasibility of a future gold standard based on electronic vaulting.",
+        "candidate_matches": [
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4927190840244293
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.44599029421806335
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.3724125623703003
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.35255175828933716
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.31178492307662964
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.2756543457508087
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-FBA61E76998823",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "date": "2025-10-24",
+        "source_hash": "22251549377ab59928ebc17c836007259dd4de4bb2d58e5758b1e959b42eea0e",
+        "pair_id": "PAIR-CC43-T97",
+        "cc_id": "CC43",
+        "theme_id": "T97",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4042066768A8",
+        "local_theme_text": "Historical problems of physical gold as money",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Theme 'Gold Standard and Monetary System Evolution' directly matches the historical discussion of physical gold's limitations as money.",
+        "local_argument_id": "LA-E53F2BD6E1AF",
+        "conclusion": "Physical gold was impractical for large-scale global transactions due to high transport costs and deflation making it too valuable for small transactions.",
+        "premises": [
+          "Moving gold across distances requires costly security, food, fuel, and supplies.",
+          "As wealth increases, deflation increases gold's value, making it impractical for everyday transactions without smaller denominations."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-29625F3BCF5C",
+            "item": "Description of transport costs: loading gold onto camels or ships and paying for security, food, fuel, and supplies.",
+            "status": "Verified",
+            "verification_basis": "The transcript provides explicit internal reasoning and description of the process.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "you had to load the gold up onto camel's backs or onto ships and you had to pay for security to make sure it didn't get stolen. You have to pay for all of the food, all the fuel, and all the supplies necessary to move just the payment.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-94B334A1DB21",
+            "item": "Deflation makes gold too valuable for small transactions; slicing gold into small denominations was impractical.",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly states the problem and gives the example of using silver and copper coins as change.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "the problem is that whatever you are using as money eventually gets too valuable for small transactions. This is why other less valuable metals were used as change for gold.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E3E4C04A47CEAC",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "date": "2025-10-24",
+        "source_hash": "22251549377ab59928ebc17c836007259dd4de4bb2d58e5758b1e959b42eea0e",
+        "pair_id": "PAIR-CC43-T78",
+        "cc_id": "CC43",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-9CAF906B4FC0",
+        "local_theme_text": "Evolution of paper money and its perversion into fiat money",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Theme 'Critique of the Fiat Monetary System and Alternative Money' aligns with the speech's narrative of paper money perverting into fiat money and the need for alternatives.",
+        "local_argument_id": "LA-CD6F8403AABD",
+        "conclusion": "Paper money solved gold's physical problems but introduced fractional reserve banking, centralization, and eventual government defaults that ended gold redeemability.",
+        "premises": [
+          "Paper receipts represented gold ownership and allowed gold to stay in vaults while ownership changed hands.",
+          "Banks began issuing more paper than gold held (fractional reserve banking), causing booms and busts.",
+          "Governments nationalized banks, centralized gold, and eventually defaulted on redemption promises, confiscating gold and leaving fiat money."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-545F16863379",
+            "item": "Original use of paper receipts as proxy for gold, enabling cheaper transactions.",
+            "status": "Verified",
+            "verification_basis": "The transcript describes the historical process with specific details.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "they would get paper receipts or notes or bills that said that if they brought that back in, they could get a specific weight. And so instead of me having to redeem my paper for gold to make a payment and then that new person go put the gold back in storage, the paper started trading as a proxy for the gold.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8A8E56359309",
+            "item": "Fractional reserve banking led to creation of more paper than gold.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states it as a practice of fraud.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "the practice of fraud, which was fractional reserve banking, where the banks who were holding on to the gold would create more papers that could be redeemed for gold than they actually had gold.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-514863E266F2",
+            "item": "Nationalization of banks and eventual default on gold redemption obligations.",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the sequence of events as a historical narrative.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "Eventually, these large-scale national defaults from nationalized fractional reserve banking, confiscating the gold from citizens and then just defaulting on the obligation to redeem the paper for gold meant that the world was plunged into using government paper as money without it being redeemable for anything like gold anymore.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-5C79EDA9C642B0",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "date": "2025-10-24",
+        "source_hash": "22251549377ab59928ebc17c836007259dd4de4bb2d58e5758b1e959b42eea0e",
+        "pair_id": "PAIR-CC43-T97",
+        "cc_id": "CC43",
+        "theme_id": "T97",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2705AD970DAD",
+        "local_theme_text": "Current monetary trends: Gresham's law and the dollar-gold dynamic",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The Gresham's law dynamic between dollar and gold is part of monetary system evolution, fitting T97 well.",
+        "local_argument_id": "LA-2576FBEC8A2D",
+        "conclusion": "The global economy is experiencing Gresham's law: the dollar is increasingly used as a medium of exchange while gold is being hoarded as a store of value.",
+        "premises": [
+          "The US dollar's share of Swift traffic is over 50% and growing.",
+          "Treasuries are declining as a percentage of foreign reserves while gold is rising.",
+          "Central banks are accumulating gold."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6FF109584EE3",
+            "item": "Claim that US dollar's share of international transactions is over 50% of Swift traffic.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or citation for the statistic.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "The US dollar's share of international transactions has been growing and is now over 50% of all Swift traffic.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9B7398788411",
+            "item": "Claim that treasuries are declining and gold rising in foreign reserves.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or citation is provided for the data.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "you can also see that treasuries are on the decline as a percent of foreign reserves while gold is on the rise as a percent of foreign reserves.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-2CE58A9CF3F6",
+            "item": "Claim that central banks are accumulating more gold.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific evidence or source is given for the trend.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "But central banks are accumulating more and more gold.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-4DABAAE1C94C",
+            "device": "Gresham's law",
+            "explanation": "Bad money drives out good: people spend the depreciating asset (dollars) and hoard the appreciating one (gold or Bitcoin).",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "what I'm describing here is Gresham's law that says bad money drives out good.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-E24ED1F6CF7276",
+        "speech_id": "SP-1BA1A1021DCC",
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "date": "2025-10-24",
+        "source_hash": "22251549377ab59928ebc17c836007259dd4de4bb2d58e5758b1e959b42eea0e",
+        "pair_id": "PAIR-CC43-T97",
+        "cc_id": "CC43",
+        "theme_id": "T97",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete proposal for how gold-backed digital money could operate via electronic vaulting, serving as a specific instance of the broader claim that erosion of the dollar system suggests gold-backed digital money as a successor.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-9F172BFC7A9E",
+        "local_theme_text": "Feasibility of a future gold standard based on electronic vaulting",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Theme 'Gold Standard and Monetary System Evolution' directly covers the feasibility of a future gold standard based on electronic vaulting.",
+        "local_argument_id": "LA-68342B1558B5",
+        "conclusion": "Gold can become money again through electronic ownership transfers of vaulted gold, as already practiced by institutions, but only if trust conditions (allocated, segregated, insured, independently audited, secure jurisdiction, no confiscation history) are met.",
+        "premises": [
+          "Currently, most institutional gold trading occurs without physical movement of gold, using vaulting and ETFs.",
+          "Conditions for trust are necessary: allocated, segregated, insured, independently audited gold in a country with economic freedom and no history of confiscation.",
+          "Governments will not voluntarily allow this, but if people stop accepting fiat money, governments will be forced to adopt whatever money people accept."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-4B478F30F341",
+            "item": "Description of current gold trading without physical movement: gold stays in vaults, ownership changes electronically.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides specific examples and explanation of current practices.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "the vast majority of the time physical gold is still not moving. There are trusted third parties who hold the gold in their vaults and only the ownership of that gold is changing hands.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-83736782DEC6",
+            "item": "Example of GLD ETF used by institutions like Bridgewater.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly names the ETF and a fund manager.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "Think of like GLD. When institutions like large hedge funds like Bridgewater, Ray Dalio's hedge fund, when they buy and sell gold, they're doing that with shares of GLD, an ETF, all that gold is still staying in the vault.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-7B2BAA5CB58A",
+            "item": "Claim that America confiscated gold from citizens in 1934 and from the world in 1971.",
+            "status": "Unverifiable",
+            "verification_basis": "The characterization of 1971 as confiscation is an interpretation unsupported by the transcript with a source.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "America has done that twice. First in 1934 when we confiscated all the gold from all American citizens. And then second in 1971 when America confiscated all gold from the entire world.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F277A0122C6D",
+            "item": "Historical claim that money changes from fiat to gold 'countless times' and only when people stop accepting government money.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific historical examples or sources provided; 'countless times' is vague.",
+            "speech_id": "SP-1BA1A1021DCC",
+            "source_speech_filename": "20251024_How Gold Could Become Money Again.txt",
+            "source_excerpt": "every time throughout history, whenever there is a change of money from a government fiat back to gold, which has happened countless times, it's because people no longer accept the government's money as payment.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "2e5a51349d2f72de30e9f279ff464a4c8927b2c142b6dd05410d20a318ed1571",
+  "complete": true
+}

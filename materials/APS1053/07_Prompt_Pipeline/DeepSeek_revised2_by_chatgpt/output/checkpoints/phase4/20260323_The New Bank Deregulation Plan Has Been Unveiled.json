@@ -1,0 +1,1263 @@
+{
+  "dependencies": {
+    "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+    "phase1_record_hash": "3ab07f640f47b1dc44e7257ce6e230358717b1601541890792fe1356d19d8aa7",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-CC430ECD2607",
+    "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+    "stem": "20260323_The New Bank Deregulation Plan Has Been Unveiled",
+    "date": "2026-03-23",
+    "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+    "source_character_count": 13763,
+    "central_claim": "The proposed bank deregulation will have limited immediate impact on the economy but could increase lending over the long term, and potential benefits are contingent on paired removal of the supplementary leverage ratio.",
+    "themes": [
+      {
+        "local_theme_id": "LT-63471053950F",
+        "theme": "Proposal 1: Capital framework simplification for GSIBs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-505B55F99076",
+            "local_theme_id": "LT-63471053950F",
+            "conclusion": "The proposal will reduce capital requirements for GSIBs and increase their lending capacity.",
+            "premises": [
+              "Eliminates dual calculation methods for risk-based capital requirements, using only one set.",
+              "Changes the calculation period from end-of-period to year-average, reducing window dressing.",
+              "The summary states it improves the capital framework by enhancing risk sensitivity, reducing burden, and improving consistency."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-923904EE0D46",
+                "item": "Fed press release on March 19th detailing plan with hundreds of pages of notes.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly cites the Fed's press release and summary.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "The Federal Reserve just unveiled part one of their plan to deregulate the banks. They published a press release on March 19th detailing their plan along with hundreds of pages of detailed notes on this proposal.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-921AF287FCBA",
+                "item": "Summary statement that the first proposal would improve capital framework by enhancing risk sensitivity, reducing burden, and improving consistency.",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes the statement to the summary.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "The summary states that the first proposal for deregulation would improve the capital framework by enhancing risk sensitivity, reducing burden, and improving consistency across banks.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-9861EF5D2F3E",
+                "device": "Window dressing",
+                "explanation": "Describes banks making balance sheets look pristine at end of quarter by using repo facilities.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "I don't know if you've heard of window dressing, but at the end of every quarter, and especially at the end of the year, there are always spikes in usage of repo facilities, where banks need to go get a ton of cash because they need to make their balance sheet look pristine right when it's being looked at.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-68D40E620E48",
+        "theme": "Proposal 2: Capital requirement alignment for non-GSIB banks",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5AC5D6599258",
+            "local_theme_id": "LT-68D40E620E48",
+            "conclusion": "The proposal will reduce disincentives for mortgage lending and increase transparency by requiring reporting of unrealized gains/losses on securities.",
+            "premises": [
+              "Modifies capital requirements for mortgage servicing and originating mortgages.",
+              "Requires certain banks to reflect unrealized gains and losses on certain securities in their capital levels.",
+              "Applies to all banks except GSIBs, including those using the community bank leverage ratio framework."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-060AE82792F5",
+                "item": "Proposal reduces disincentives for mortgage lending by modifying capital requirements for servicing and originating mortgages.",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes this to the proposal summary.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "Consistent with the first proposal, it will reduce disincentives for mortgage lending by modifying capital requirements for servicing and originating mortgages.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-03619F6170AC",
+                "item": "Requirement to reflect unrealized gains and losses on certain securities.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states this as part of the proposal.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "It would also require certain banks to reflect unrealized gains and losses on certain securities in their capital levels.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-55AC5E8B94A6",
+        "theme": "Proposal 3: Systemic risk measurement improvement",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B84D830CA3C3",
+            "local_theme_id": "LT-55AC5E8B94A6",
+            "conclusion": "The proposal will reduce capital requirements for community and regional banks, facilitating more lending to small businesses and individuals.",
+            "premises": [
+              "Improves how systemic risk is measured for the largest and most complex banks.",
+              "Results in community and regional banks getting slightly less restrictive capital requirements."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-74C5B8768CA9",
+                "item": "Proposal improves systemic risk measurement for the largest banks.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly states the purpose of the proposal.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "the third proposal improves how systemic risk is measured in the framework for determining the additional capital requirement for the largest and most complex banks.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-693340A4AAC9",
+                "item": "Outcome for community and regional banks: less restrictive capital requirements.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states this expected result.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "This will result in community and regional banks getting slightly less restrictive capital requirements",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-51F8BA4551F6",
+        "theme": "Interaction with supplementary leverage ratio",
+        "arguments": [
+          {
+            "local_argument_id": "LA-CF734E437963",
+            "local_theme_id": "LT-51F8BA4551F6",
+            "conclusion": "The proposed deregulation will have a slight negative effect on long-term Treasuries and is separate from the SLR, which if removed could unleash a credit boom.",
+            "premises": [
+              "The proposal requires reflecting unrealized gains/losses on securities, which may restrict banks' ability to purchase Treasuries.",
+              "This could lower short-term yields but raise long-term yields.",
+              "The SLR is a separate restriction, and its removal paired with these changes could create a sizable credit boom."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9D2F27C81021",
+                "item": "Statement that these changes are separate from the supplementary leverage ratio.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly distinguishes them.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "this is separate from the supplementary leverage ratio that I've been discussing for months now.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-3670F85DD591",
+                "item": "Claim that the changes will have no effect on the Treasury market.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide source or data to support this specific assertion.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "Every single one of these changes here that we've talked about today will have no effect on the Treasury market.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-625ECD921937",
+                "item": "Mechanism linking unrealized loss reporting to Treasury purchases.",
+                "status": "Verified",
+                "verification_basis": "Transcript explains the logical mechanism based on the proposal's rule.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "Reflecting and reporting unrealized losses in Treasuries may have the effect of restricting banks' abilities to purchase Treasuries, in other words, loan money to the government.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-BBFAC985CD4F",
+        "theme": "Overall economic and market impact",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8555BDE12FB2",
+            "local_theme_id": "LT-BBFAC985CD4F",
+            "conclusion": "The proposed changes will have very little short-term effect on lending but will increase lending over the long term.",
+            "premises": [
+              "There is a 90-day public consultation period before finalization.",
+              "High interest rates constrain mortgage demand regardless of lower capital requirements.",
+              "The changes are small and gradual, taking multiple years to unfold."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5AFA724D9612",
+                "item": "90-day public consultation period.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the proposal includes a 90-day comment period.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "there's a 90-day public consultation before they can be finalized.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C979A0DDB463",
+                "item": "Prediction that these changes will have moderate, small, very little effects in the short term.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides no external source for this forecast.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "Very likely, these proposed changes will have moderate, small, very, very little effects in the short term, and just increase lending over the long term.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-17F62FFE29A7",
+                "item": "Claim that mortgage demand is constrained by high interest rates.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript offers no data or citation for this claim.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "The main constraint there is interest rates are too high. There's just not enough demand for buying houses right now because interest rates are so high",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-EABF65639A6F",
+            "local_theme_id": "LT-BBFAC985CD4F",
+            "conclusion": "Banks may use extra capacity for share buybacks and dividends rather than lending, worsening inequality.",
+            "premises": [
+              "Extra lending capacity may not be met by demand.",
+              "Banks can choose to return capital to shareholders through buybacks and dividends."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2950BD583138",
+                "item": "Statement that deregulation will increase banks' abilities to do share buybacks and dividends.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly asserts this effect.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "it'll also increase banks' abilities to do share buybacks and dividends.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-720B7397A573",
+                "item": "Prediction that deregulation may just increase bank profitability and worsen the K-shaped economy.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides no supporting data or citation.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "it's very possible that this deregulation just increases the profitability of banks themselves, further worsening the K-shaped economy that we've already seen form over the last couple of years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-0EA84C350163",
+            "local_theme_id": "LT-BBFAC985CD4F",
+            "conclusion": "Over one to two years, the changes will positively impact GDP, M2 money supply, and asset prices.",
+            "premises": [
+              "Increased lending capacity will gradually be used over time.",
+              "More lending expands money supply and economic activity."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7610F9504A91",
+                "item": "Prediction of positive impact on GDP, bank lending, M2 money supply, and asset prices over one to two years.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides no data or external source for this forecast.",
+                "speech_id": "SP-CC430ECD2607",
+                "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+                "source_excerpt": "over the next one to two years, even this small change that allows banks to lend a little bit more should have a positive increase on GDP, positive increase in bank lending, positive increase in the M2 money supply, and positive increase overall on asset prices as a result of those first three things.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-DAA650B36A6B",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "After the Great Financial Crisis, there were a bunch of regulations set on banks in order to restrict them from doing things that might put them at risk of taking down the global economy.",
+        "reason": "Transcript does not specify which regulations or provide sources.",
+        "memory_check": "Corroborated",
+        "memory_note": "General knowledge confirms post-GFC regulations, but transcript lacks specifics.",
+        "source_excerpt": "After the Great Financial Crisis, there were a bunch of regulations set on banks in order to restrict them from doing things that might put them at risk of taking down the global economy.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-543459878182",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "If that one bank fails, it could take down the entire global economy along with it.",
+        "reason": "Hyperbolic claim without evidence that a single GSIB failure would cause global collapse.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No source provided; statement is speculative.",
+        "source_excerpt": "if that one bank fails, it could take down the entire global economy along with it.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D0CEAE09BF00",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "All of these changes here that we've talked about today will have no effect on the Treasury market.",
+        "reason": "Transcript provides no data or analysis to support a zero effect claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript later contradicts by discussing potential effects on yields.",
+        "source_excerpt": "Every single one of these changes here that we've talked about today will have no effect on the Treasury market.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1E61CB4224DF",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "It may in fact actually increase Treasury yields slightly.",
+        "reason": "Prediction not supported by cited data or economic model.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculative statement.",
+        "source_excerpt": "it may in fact actually increase Treasury yields slightly.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DF53DD078DB7",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "This could very well have the effect of lowering interest rates on T-bills, the short end of the curve, but raising rates on the long end of the curve",
+        "reason": "Speculative yield curve effect without evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript offers reasoning but no external support.",
+        "source_excerpt": "this could very well have the effect of lowering interest rates on T-bills, the short end of the curve, but raising rates on the long end of the curve, on the things like 10, 20, 30-year, that are already struggling to find demand.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-41AA1B7B610C",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "We probably need to see 100 or 200 basis points... for it to have any impact at all on the overall housing market.",
+        "reason": "No data or study cited; personal opinion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unsupported numeric threshold.",
+        "source_excerpt": "We probably need to see 100 or 200 basis points. That's 1 or 2% lower mortgage rates for it to have any impact at all on the overall housing market.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0ACED0911789",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "None of these proposed changes are going to lead to an immediate acute boom in lending.",
+        "reason": "Assertion not backed by data or evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript's own prediction.",
+        "source_excerpt": "none of these proposed changes are going to lead to an immediate acute boom in lending.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-186C14396759",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "It's very possible that this deregulation just increases the profitability of banks themselves, further worsening the K-shaped economy",
+        "reason": "Speculative outcome not supported by evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript offers no data on bank behavior or inequality.",
+        "source_excerpt": "it's very possible that this deregulation just increases the profitability of banks themselves, further worsening the K-shaped economy that we've already seen form over the last couple of years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FE23B2494FE4",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "Much of the expected deregulation and profits that could result from that are basically priced into the market already.",
+        "reason": "No market data or analysis provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unsupported market efficiency claim.",
+        "source_excerpt": "So, much of the expected deregulation and profits that could result from that are basically priced into the market already.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E884420EE409",
+        "speech_id": "SP-CC430ECD2607",
+        "speech_ref": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "claim": "Over the next one to two years, even this small change that allows banks to lend a little bit more should have a positive increase on GDP, positive increase in bank lending, positive increase in the M2 money supply, and positive increase overall on asset prices",
+        "reason": "Prediction without economic model or evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculative forecast.",
+        "source_excerpt": "over the next one to two years, even this small change that allows banks to lend a little bit more should have a positive increase on GDP, positive increase in bank lending, positive increase in the M2 money supply, and positive increase overall on asset prices as a result of those first three things.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The proposed bank deregulation will have limited immediate impact on the economy but could increase lending over the long term, and potential benefits are contingent on paired removal of the supplementary leverage ratio.",
+      "themes": [
+        "Proposal 1: Capital framework simplification for GSIBs",
+        "Proposal 2: Capital requirement alignment for non-GSIB banks",
+        "Proposal 3: Systemic risk measurement improvement",
+        "Interaction with supplementary leverage ratio",
+        "Overall economic and market impact"
+      ],
+      "argument_count": 7,
+      "unverifiable_count": 10
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "6f09dc43e7f94ccc976dd4cc2d33adc23693abc4eac272bcc10bbf60b28a3aaa",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "3ab07f640f47b1dc44e7257ce6e230358717b1601541890792fe1356d19d8aa7",
+    "canonical_mapping": {
+      "speech_id": "SP-CC430ECD2607",
+      "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC39",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+      "primary_cc_rationale": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T72",
+        "T134",
+        "T90"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T72",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-68D40E620E48",
+          "rationale": "Proposal 2 deals with capital requirement alignment for non-GSIB banks, core to banking regulation."
+        },
+        {
+          "theme_id": "T134",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-55AC5E8B94A6",
+          "rationale": "Proposal 3 improves systemic risk measurement, directly relating to systemic risks and black swan events."
+        },
+        {
+          "theme_id": "T90",
+          "confidence": 0.65,
+          "source_local_theme_id": "LT-BBFAC985CD4F",
+          "rationale": "Overall economic and market impact, including GDP, M2, and asset prices, aligns with Federal Reserve policy and macroeconomic indicators."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC39-T72",
+          "cc_id": "CC39",
+          "theme_id": "T72",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T134",
+          "cc_id": "CC39",
+          "theme_id": "T134",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T90",
+          "cc_id": "CC39",
+          "theme_id": "T90",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "local_cc_text": "The proposed bank deregulation will have limited immediate impact on the economy but could increase lending over the long term, and potential benefits are contingent on paired removal of the supplementary leverage ratio.",
+        "canonical_cc_id": "CC39",
+        "confidence": 0.85,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "rationale": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "candidate_matches": [
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.7517214417457581
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.34220966696739197
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.25444063544273376
+          },
+          {
+            "id": "CC53",
+            "text": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+            "similarity": 0.23783770203590393
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.22651289403438568
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "local_theme_id": "LT-63471053950F",
+        "local_theme_text": "Proposal 1: Capital framework simplification for GSIBs",
+        "canonical_theme_id": "T72",
+        "confidence": 0.85,
+        "rationale": "Proposal 1 is about capital framework simplification for GSIBs, directly fitting the banking regulation and capital framework theme.",
+        "candidate_matches": [
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.4077814221382141
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.2522197663784027
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.21535398066043854
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.20326852798461914
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.20197328925132751
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.19746536016464233
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "local_theme_id": "LT-68D40E620E48",
+        "local_theme_text": "Proposal 2: Capital requirement alignment for non-GSIB banks",
+        "canonical_theme_id": "T72",
+        "confidence": 0.85,
+        "rationale": "Proposal 2 deals with capital requirement alignment for non-GSIB banks, core to banking regulation.",
+        "candidate_matches": [
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.5405786037445068
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.38097137212753296
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.3579924702644348
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.27241405844688416
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.2675325274467468
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.2191297709941864
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "local_theme_id": "LT-55AC5E8B94A6",
+        "local_theme_text": "Proposal 3: Systemic risk measurement improvement",
+        "canonical_theme_id": "T134",
+        "confidence": 0.75,
+        "rationale": "Proposal 3 improves systemic risk measurement, directly relating to systemic risks and black swan events.",
+        "candidate_matches": [
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.43711796402931213
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.41370052099227905
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.3355497717857361
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.30995529890060425
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.28583455085754395
+          },
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.28214213252067566
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "local_theme_id": "LT-51F8BA4551F6",
+        "local_theme_text": "Interaction with supplementary leverage ratio",
+        "canonical_theme_id": "T72",
+        "confidence": 0.7,
+        "rationale": "The supplementary leverage ratio interaction is a key component of banking regulation and capital framework.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.3967646658420563
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.21039995551109314
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.14576689898967743
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.12625348567962646
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.12070196866989136
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.11383599042892456
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "local_theme_id": "LT-BBFAC985CD4F",
+        "local_theme_text": "Overall economic and market impact",
+        "canonical_theme_id": "T90",
+        "confidence": 0.65,
+        "rationale": "Overall economic and market impact, including GDP, M2, and asset prices, aligns with Federal Reserve policy and macroeconomic indicators.",
+        "candidate_matches": [
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.5304784774780273
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.4879542589187622
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.4547000527381897
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.4536353051662445
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.4526599049568176
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.441707968711853
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-78CD919190256D",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T72",
+        "cc_id": "CC39",
+        "theme_id": "T72",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-63471053950F",
+        "local_theme_text": "Proposal 1: Capital framework simplification for GSIBs",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Proposal 1 is about capital framework simplification for GSIBs, directly fitting the banking regulation and capital framework theme.",
+        "local_argument_id": "LA-505B55F99076",
+        "conclusion": "The proposal will reduce capital requirements for GSIBs and increase their lending capacity.",
+        "premises": [
+          "Eliminates dual calculation methods for risk-based capital requirements, using only one set.",
+          "Changes the calculation period from end-of-period to year-average, reducing window dressing.",
+          "The summary states it improves the capital framework by enhancing risk sensitivity, reducing burden, and improving consistency."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-923904EE0D46",
+            "item": "Fed press release on March 19th detailing plan with hundreds of pages of notes.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly cites the Fed's press release and summary.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "The Federal Reserve just unveiled part one of their plan to deregulate the banks. They published a press release on March 19th detailing their plan along with hundreds of pages of detailed notes on this proposal.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-921AF287FCBA",
+            "item": "Summary statement that the first proposal would improve capital framework by enhancing risk sensitivity, reducing burden, and improving consistency.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes the statement to the summary.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "The summary states that the first proposal for deregulation would improve the capital framework by enhancing risk sensitivity, reducing burden, and improving consistency across banks.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-9861EF5D2F3E",
+            "device": "Window dressing",
+            "explanation": "Describes banks making balance sheets look pristine at end of quarter by using repo facilities.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "I don't know if you've heard of window dressing, but at the end of every quarter, and especially at the end of the year, there are always spikes in usage of repo facilities, where banks need to go get a ton of cash because they need to make their balance sheet look pristine right when it's being looked at.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-883B7364EC36D6",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T72",
+        "cc_id": "CC39",
+        "theme_id": "T72",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-68D40E620E48",
+        "local_theme_text": "Proposal 2: Capital requirement alignment for non-GSIB banks",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Proposal 2 deals with capital requirement alignment for non-GSIB banks, core to banking regulation.",
+        "local_argument_id": "LA-5AC5D6599258",
+        "conclusion": "The proposal will reduce disincentives for mortgage lending and increase transparency by requiring reporting of unrealized gains/losses on securities.",
+        "premises": [
+          "Modifies capital requirements for mortgage servicing and originating mortgages.",
+          "Requires certain banks to reflect unrealized gains and losses on certain securities in their capital levels.",
+          "Applies to all banks except GSIBs, including those using the community bank leverage ratio framework."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-060AE82792F5",
+            "item": "Proposal reduces disincentives for mortgage lending by modifying capital requirements for servicing and originating mortgages.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes this to the proposal summary.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "Consistent with the first proposal, it will reduce disincentives for mortgage lending by modifying capital requirements for servicing and originating mortgages.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-03619F6170AC",
+            "item": "Requirement to reflect unrealized gains and losses on certain securities.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states this as part of the proposal.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "It would also require certain banks to reflect unrealized gains and losses on certain securities in their capital levels.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-45761B7C80BAA3",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T134",
+        "cc_id": "CC39",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-55AC5E8B94A6",
+        "local_theme_text": "Proposal 3: Systemic risk measurement improvement",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "Proposal 3 improves systemic risk measurement, directly relating to systemic risks and black swan events.",
+        "local_argument_id": "LA-B84D830CA3C3",
+        "conclusion": "The proposal will reduce capital requirements for community and regional banks, facilitating more lending to small businesses and individuals.",
+        "premises": [
+          "Improves how systemic risk is measured for the largest and most complex banks.",
+          "Results in community and regional banks getting slightly less restrictive capital requirements."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-74C5B8768CA9",
+            "item": "Proposal improves systemic risk measurement for the largest banks.",
+            "status": "Verified",
+            "verification_basis": "Transcript directly states the purpose of the proposal.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "the third proposal improves how systemic risk is measured in the framework for determining the additional capital requirement for the largest and most complex banks.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-693340A4AAC9",
+            "item": "Outcome for community and regional banks: less restrictive capital requirements.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states this expected result.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "This will result in community and regional banks getting slightly less restrictive capital requirements",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-96AEC250E4BAF6",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T72",
+        "cc_id": "CC39",
+        "theme_id": "T72",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-51F8BA4551F6",
+        "local_theme_text": "Interaction with supplementary leverage ratio",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The supplementary leverage ratio interaction is a key component of banking regulation and capital framework.",
+        "local_argument_id": "LA-CF734E437963",
+        "conclusion": "The proposed deregulation will have a slight negative effect on long-term Treasuries and is separate from the SLR, which if removed could unleash a credit boom.",
+        "premises": [
+          "The proposal requires reflecting unrealized gains/losses on securities, which may restrict banks' ability to purchase Treasuries.",
+          "This could lower short-term yields but raise long-term yields.",
+          "The SLR is a separate restriction, and its removal paired with these changes could create a sizable credit boom."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9D2F27C81021",
+            "item": "Statement that these changes are separate from the supplementary leverage ratio.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly distinguishes them.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "this is separate from the supplementary leverage ratio that I've been discussing for months now.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-3670F85DD591",
+            "item": "Claim that the changes will have no effect on the Treasury market.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source or data to support this specific assertion.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "Every single one of these changes here that we've talked about today will have no effect on the Treasury market.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-625ECD921937",
+            "item": "Mechanism linking unrealized loss reporting to Treasury purchases.",
+            "status": "Verified",
+            "verification_basis": "Transcript explains the logical mechanism based on the proposal's rule.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "Reflecting and reporting unrealized losses in Treasuries may have the effect of restricting banks' abilities to purchase Treasuries, in other words, loan money to the government.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-5B548DDA6C086B",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T90",
+        "cc_id": "CC39",
+        "theme_id": "T90",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BBFAC985CD4F",
+        "local_theme_text": "Overall economic and market impact",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "Overall economic and market impact, including GDP, M2, and asset prices, aligns with Federal Reserve policy and macroeconomic indicators.",
+        "local_argument_id": "LA-8555BDE12FB2",
+        "conclusion": "The proposed changes will have very little short-term effect on lending but will increase lending over the long term.",
+        "premises": [
+          "There is a 90-day public consultation period before finalization.",
+          "High interest rates constrain mortgage demand regardless of lower capital requirements.",
+          "The changes are small and gradual, taking multiple years to unfold."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5AFA724D9612",
+            "item": "90-day public consultation period.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states the proposal includes a 90-day comment period.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "there's a 90-day public consultation before they can be finalized.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C979A0DDB463",
+            "item": "Prediction that these changes will have moderate, small, very little effects in the short term.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no external source for this forecast.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "Very likely, these proposed changes will have moderate, small, very, very little effects in the short term, and just increase lending over the long term.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-17F62FFE29A7",
+            "item": "Claim that mortgage demand is constrained by high interest rates.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript offers no data or citation for this claim.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "The main constraint there is interest rates are too high. There's just not enough demand for buying houses right now because interest rates are so high",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-BF8FC44E34FEA1",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T90",
+        "cc_id": "CC39",
+        "theme_id": "T90",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BBFAC985CD4F",
+        "local_theme_text": "Overall economic and market impact",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "Overall economic and market impact, including GDP, M2, and asset prices, aligns with Federal Reserve policy and macroeconomic indicators.",
+        "local_argument_id": "LA-EABF65639A6F",
+        "conclusion": "Banks may use extra capacity for share buybacks and dividends rather than lending, worsening inequality.",
+        "premises": [
+          "Extra lending capacity may not be met by demand.",
+          "Banks can choose to return capital to shareholders through buybacks and dividends."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2950BD583138",
+            "item": "Statement that deregulation will increase banks' abilities to do share buybacks and dividends.",
+            "status": "Verified",
+            "verification_basis": "Transcript directly asserts this effect.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "it'll also increase banks' abilities to do share buybacks and dividends.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-720B7397A573",
+            "item": "Prediction that deregulation may just increase bank profitability and worsen the K-shaped economy.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no supporting data or citation.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "it's very possible that this deregulation just increases the profitability of banks themselves, further worsening the K-shaped economy that we've already seen form over the last couple of years.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-9E25766DA2DD37",
+        "speech_id": "SP-CC430ECD2607",
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "date": "2026-03-23",
+        "source_hash": "7be5a5a36f7e54bb18717922d36962f76d2008033e4d11b8383df23ecad4b13f",
+        "pair_id": "PAIR-CC39-T90",
+        "cc_id": "CC39",
+        "theme_id": "T90",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BBFAC985CD4F",
+        "local_theme_text": "Overall economic and market impact",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "Overall economic and market impact, including GDP, M2, and asset prices, aligns with Federal Reserve policy and macroeconomic indicators.",
+        "local_argument_id": "LA-0EA84C350163",
+        "conclusion": "Over one to two years, the changes will positively impact GDP, M2 money supply, and asset prices.",
+        "premises": [
+          "Increased lending capacity will gradually be used over time.",
+          "More lending expands money supply and economic activity."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7610F9504A91",
+            "item": "Prediction of positive impact on GDP, bank lending, M2 money supply, and asset prices over one to two years.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no data or external source for this forecast.",
+            "speech_id": "SP-CC430ECD2607",
+            "source_speech_filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+            "source_excerpt": "over the next one to two years, even this small change that allows banks to lend a little bit more should have a positive increase on GDP, positive increase in bank lending, positive increase in the M2 money supply, and positive increase overall on asset prices as a result of those first three things.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "6f09dc43e7f94ccc976dd4cc2d33adc23693abc4eac272bcc10bbf60b28a3aaa",
+  "complete": true
+}

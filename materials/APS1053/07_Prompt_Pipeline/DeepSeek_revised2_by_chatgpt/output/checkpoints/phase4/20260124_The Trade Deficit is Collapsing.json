@@ -1,0 +1,818 @@
+{
+  "dependencies": {
+    "source_hash": "9179acfbd41b5487c07a4af73fcb7d13ba617eaf82390be89bff6ca6feb96603",
+    "phase1_record_hash": "928e720aca144e30cc6e8b7dae4b281a1382333a0c5f3cf2fb6874244900ae38",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-F3D5FC63F559",
+    "filename": "20260124_The Trade Deficit is Collapsing.txt",
+    "stem": "20260124_The Trade Deficit is Collapsing",
+    "date": "2026-01-24",
+    "source_hash": "9179acfbd41b5487c07a4af73fcb7d13ba617eaf82390be89bff6ca6feb96603",
+    "source_character_count": 15727,
+    "central_claim": "The collapse of the US trade deficit, driven by tariff front-running and rising gold prices, will lead to a dollar shortage crisis that most observers do not expect.",
+    "themes": [
+      {
+        "local_theme_id": "LT-4EEA4685DDF4",
+        "theme": "Tariff front-running and its effect on the trade deficit",
+        "arguments": [
+          {
+            "local_argument_id": "LA-248D5FC87D78",
+            "local_theme_id": "LT-4EEA4685DDF4",
+            "conclusion": "The spike and subsequent collapse in the US trade deficit in 2025 was primarily caused by businesses front-running anticipated tariffs.",
+            "premises": [
+              "The trade deficit worsened sharply after the November 2024 election and peaked in March 2025 when tariffs began.",
+              "Businesses rationally stockpiled imports before tariffs made them more expensive.",
+              "After stockpiling, businesses reduced imports, causing the deficit to shrink rapidly."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A7B6C50293C9",
+                "item": "The trade deficit peaked in March 2025, coinciding with the start of tariffs.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript references a chart but provides no external source or verifiable data to confirm the peak date and magnitude.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "It didn't peak until March of 2025. Now, if you remember the timeline, that was also right when the tariffs actually started.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-BB4DF0B25A0A",
+                "device": "Bulk discount store analogy",
+                "explanation": "Stockpiling imports before tariffs is compared to buying large quantities of toilet paper or food at a bulk store, reducing the need for future purchases.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "It's like when you go to a bulk discount store and you stock up on toilet paper or you stock up on some food. Now, the next couple of months, you might not need to buy any of it because you already have it.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-FEC74D4B9F8F",
+        "theme": "The role of the gold price surge in the trade deficit reduction",
+        "arguments": [
+          {
+            "local_argument_id": "LA-91BBD6AF976D",
+            "local_theme_id": "LT-FEC74D4B9F8F",
+            "conclusion": "The additional shrinking of the trade deficit in the latter half of 2025 is largely attributable to the increase in the price of gold, which inflated the dollar value of non-monetary gold trade flows.",
+            "premises": [
+              "Gold prices nearly doubled, from about $2,700 to $4,941 per ounce.",
+              "Non-monetary gold made up nearly 70% of the rise in exports and over 100% of the rise in imports.",
+              "Demand for non-monetary gold is inelastic (fixed ounces), so higher prices directly increase trade dollar values.",
+              "Adjusting for gold, the trade deficit change drops from 10% to 3.2%."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-848C247A668C",
+                "item": "Gold is trading at $4,941 per ounce, almost double the $2,700 level one year earlier.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or citation for the gold price figures.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "it is trading at $4,941 per ounce. Just one year ago, it was trading at about $2700 an ounce",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-FA9BBACA91FE",
+                "item": "Non-monetary gold accounted for nearly 70% of the rise in exports and over 100% of the rise in imports.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not cite any specific report or data source for these percentages.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "nonmonetary gold made up nearly 70% of the rise in exports and also accounted for over 100% of the rise in imports.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-822DA6868671",
+                "item": "Imports increased $1.9 billion, fully due to non-monetary gold; exports increased $8.4 billion, with $6.1 billion from non-monetary gold.",
+                "status": "Unverifiable",
+                "verification_basis": "No official trade data source is provided in the transcript.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "The small amount that imports did increase was $ 1.9 billion overall and imports of non-monetary gold accounted for all of that. And then regarding exports, they increased $8.4 billion overall. However, non-monetary gold made up $6.1 billion of the increase.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D53DA68619E1",
+                "item": "Adjusting for gold, the trade deficit change drops from 10% to 3.2%.",
+                "status": "Unverifiable",
+                "verification_basis": "No calculation basis or data source is provided.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "when you adjust for the impact of gold, the change in the trade deficit goes from a 10% change to only a 3.2% change.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-89FA3B11AB29",
+                "device": "Inelastic demand analogy for industrial gold",
+                "explanation": "Non-monetary gold demand is inelastic: manufacturers must buy the same number of ounces regardless of price, so higher price increases trade value.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "if you are manufacturing something that requires gold, you require a specific amount of gold. You are a non-elastic buyer because you need a specific amount. You can't just say, 'Well, gold doubled in price, so I'm going to buy half the gold this year.' No, you still have to buy the same amount of gold.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0F8F9C9C137B",
+        "theme": "The connection between a shrinking trade deficit and a dollar shortage crisis",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BC8E7A11A4D4",
+            "local_theme_id": "LT-0F8F9C9C137B",
+            "conclusion": "A shrinking trade deficit reduces the outflow of dollars, which, given the large unaccounted dollar-denominated debt in the global shadow banking system, could trigger a dollar shortage crisis.",
+            "premises": [
+              "Every import transaction sends dollars overseas; fewer imports mean fewer dollars exported.",
+              "There is at least $65 trillion of unaccounted dollar-denominated debt in the global shadow banking system.",
+              "Debt must be repaid with interest, creating future dollar demand.",
+              "A dollar shortage can cause defaults and credit contractions, as seen in the Credit Suisse case.",
+              "Reduced dollar exports amplify the shortage risk."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9410109956A1",
+                "item": "There is a minimum of $65 trillion, potentially up to $100 trillion, in unaccounted dollar-denominated debt.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or methodology for this estimate is provided in the transcript.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "there's a minimum of 65 trillion, potentially upwards of a hundred trillion in just dollarenominated debt that we don't have any idea of where it is, how much it is, when it's due",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-61E7EDCE67AF",
+                "item": "Credit Suisse had to be bailed out due to a dollar shortage, and the Swiss central bank used Fed swap lines in late 2022.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not cite any news articles, reports, or official statements for this claim.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "just a couple of years ago, Credit Swiss had to get bailed out specifically because of a dollar shortage. ... the Swiss central bank tapped the swap lines to get newly created dollars directly from the Federal Reserve in late 2022",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-5E6E98297A82",
+                "device": "Loan and interest analogy",
+                "explanation": "Illustrates that debt creation implies future demand for more dollars (principal + interest), creating built-in deflation.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "If I loan you $100 and you owe me $105 back, it means that dollar creation has built-in future deflation.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-12F7543D72D8",
+                "device": "Fractional reserve banking expansion and contraction analogy",
+                "explanation": "Explains how credit cycles work and why central banks step in to prevent contraction.",
+                "speech_id": "SP-F3D5FC63F559",
+                "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+                "source_excerpt": "That's what would naturally happen in a fractional reserve banking system where you don't continually bail it out by printing new money.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-8FEE4F0AB93C",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "The trade deficit is smaller than it has been in decades, requiring a return to 1999 to see a consistently smaller deficit.",
+        "reason": "The transcript references a chart but provides no specific data source, date, or verifiable report to support the magnitude or historical comparison.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot internally verify historical trade deficit levels from the transcript alone.",
+        "source_excerpt": "You can see the trade deficit right now is smaller than it's been in basically decades.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-3A627F4A0C25",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "The trade deficit started to get significantly worse right after November 2024 and peaked in March 2025.",
+        "reason": "The transcript does not provide a specific dataset or citation for the monthly trade deficit figures; the timing is presented as self-evident from a chart.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal verification basis for the exact monthly movements of the trade deficit.",
+        "source_excerpt": "You can see the trade deficit started to get significantly worse right after November of 2024.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2CD6878BAE71",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "Gold is trading at $4,941 per ounce, almost double the $2,700 level from one year ago.",
+        "reason": "No source for the gold price is cited; the figure is presented as a known fact but cannot be checked from the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Gold price claims are unsupported by any external reference in the transcript.",
+        "source_excerpt": "it is trading at $4,941 per ounce. Just one year ago, it was trading at about $2700 an ounce",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-94C53DBC6C6D",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "Non-monetary gold made up nearly 70% of the rise in exports and over 100% of the rise in imports.",
+        "reason": "The transcript does not attribute these figures to any specific government report, economic data release, or study.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Percentage breakdowns for gold in trade flows are not internally verifiable.",
+        "source_excerpt": "nonmonetary gold made up nearly 70% of the rise in exports and also accounted for over 100% of the rise in imports.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-638504194579",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "Imports increased $1.9 billion, entirely from non-monetary gold; exports increased $8.4 billion, with $6.1 billion from non-monetary gold.",
+        "reason": "No source or calculation method is provided for these dollar figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Dollar amounts for trade changes are unverifiable from the transcript.",
+        "source_excerpt": "The small amount that imports did increase was $ 1.9 billion overall and imports of non-monetary gold accounted for all of that. And then regarding exports, they increased $8.4 billion overall. However, non-monetary gold made up $6.1 billion of the increase.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-44F92DEFCCB7",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "Adjusting for gold, the trade deficit change goes from 10% to 3.2%.",
+        "reason": "No baseline data or calculation is shown; the adjustment methodology is not explained or sourced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The adjusted percentage change is not internally verifiable.",
+        "source_excerpt": "when you adjust for the impact of gold, the change in the trade deficit goes from a 10% change to only a 3.2% change.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-98AECDE672FC",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "There is a minimum of $65 trillion, potentially up to $100 trillion, of unaccounted dollar-denominated debt in the global shadow banking system.",
+        "reason": "No study, database, or investigation is cited for this estimate; the transcript itself acknowledges lack of visibility.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Debt estimate figures are not supported by any reference in the transcript.",
+        "source_excerpt": "there's a minimum of 65 trillion, potentially upwards of a hundred trillion in just dollarenominated debt that we don't have any idea of where it is, how much it is, when it's due",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-25FD845A200C",
+        "speech_id": "SP-F3D5FC63F559",
+        "speech_ref": "20260124_The Trade Deficit is Collapsing.txt",
+        "claim": "Credit Suisse was bailed out specifically because of a dollar shortage, and the Swiss central bank tapped Fed swap lines in late 2022.",
+        "reason": "The transcript does not provide any news reports, official statements, or detailed chronology to support this causal claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The credit suisse and swap line claims are not internally verifiable from the transcript.",
+        "source_excerpt": "just a couple of years ago, Credit Swiss had to get bailed out specifically because of a dollar shortage. ... the Swiss central bank tapped the swap lines to get newly created dollars directly from the Federal Reserve in late 2022",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The collapse of the US trade deficit, driven by tariff front-running and rising gold prices, will lead to a dollar shortage crisis that most observers do not expect.",
+      "themes": [
+        "Tariff front-running and its effect on the trade deficit",
+        "The role of the gold price surge in the trade deficit reduction",
+        "The connection between a shrinking trade deficit and a dollar shortage crisis"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "29d032417dbb71283ccb9e19f3e5665820b23cbaef3e6bf35e30c8f39c232201",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "928e720aca144e30cc6e8b7dae4b281a1382333a0c5f3cf2fb6874244900ae38",
+    "canonical_mapping": {
+      "speech_id": "SP-F3D5FC63F559",
+      "filename": "20260124_The Trade Deficit is Collapsing.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC48",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+      "primary_cc_rationale": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T135",
+        "T84"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T135",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-4EEA4685DDF4",
+          "rationale": "The theme of tariff front-running and its effect on the trade deficit directly aligns with the canonical theme 'Trade deficits, tariffs, and global geopolitics'."
+        },
+        {
+          "theme_id": "T84",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-0F8F9C9C137B",
+          "rationale": "The connection between a shrinking trade deficit and a dollar shortage crisis relates to the evolution of monetary systems and the dollar's role, matching T84."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC48-T135",
+          "cc_id": "CC48",
+          "theme_id": "T135",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC48-T84",
+          "cc_id": "CC48",
+          "theme_id": "T84",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "local_cc_text": "The collapse of the US trade deficit, driven by tariff front-running and rising gold prices, will lead to a dollar shortage crisis that most observers do not expect.",
+        "canonical_cc_id": "CC48",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+        "rationale": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+        "candidate_matches": [
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.5926136374473572
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.5318843126296997
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.49505865573883057
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.47242122888565063
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.4706246256828308
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "local_theme_id": "LT-4EEA4685DDF4",
+        "local_theme_text": "Tariff front-running and its effect on the trade deficit",
+        "canonical_theme_id": "T135",
+        "confidence": 0.9,
+        "rationale": "The theme of tariff front-running and its effect on the trade deficit directly aligns with the canonical theme 'Trade deficits, tariffs, and global geopolitics'.",
+        "candidate_matches": [
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.6462645530700684
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5019093155860901
+          },
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.47039830684661865
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.2951337397098541
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.2531128525733948
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.24022528529167175
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "local_theme_id": "LT-FEC74D4B9F8F",
+        "local_theme_text": "The role of the gold price surge in the trade deficit reduction",
+        "canonical_theme_id": "T135",
+        "confidence": 0.8,
+        "rationale": "The gold price surge is discussed primarily in the context of its impact on the trade deficit reduction, which falls under trade deficits and tariffs, making T135 the most appropriate canonical theme despite gold-related alternatives.",
+        "candidate_matches": [
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.5627313852310181
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.5240861177444458
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.512139081954956
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.48406291007995605
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4122713506221771
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.38420775532722473
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "local_theme_id": "LT-0F8F9C9C137B",
+        "local_theme_text": "The connection between a shrinking trade deficit and a dollar shortage crisis",
+        "canonical_theme_id": "T84",
+        "confidence": 0.85,
+        "rationale": "The connection between a shrinking trade deficit and a dollar shortage crisis relates to the evolution of monetary systems and the dollar's role, matching T84.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.6001518964767456
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.5943543910980225
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.5418958067893982
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.49358949065208435
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.4438307285308838
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4416104257106781
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-4FCD9E09CA362E",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "date": "2026-01-24",
+        "source_hash": "9179acfbd41b5487c07a4af73fcb7d13ba617eaf82390be89bff6ca6feb96603",
+        "pair_id": "PAIR-CC48-T135",
+        "cc_id": "CC48",
+        "theme_id": "T135",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4EEA4685DDF4",
+        "local_theme_text": "Tariff front-running and its effect on the trade deficit",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme of tariff front-running and its effect on the trade deficit directly aligns with the canonical theme 'Trade deficits, tariffs, and global geopolitics'.",
+        "local_argument_id": "LA-248D5FC87D78",
+        "conclusion": "The spike and subsequent collapse in the US trade deficit in 2025 was primarily caused by businesses front-running anticipated tariffs.",
+        "premises": [
+          "The trade deficit worsened sharply after the November 2024 election and peaked in March 2025 when tariffs began.",
+          "Businesses rationally stockpiled imports before tariffs made them more expensive.",
+          "After stockpiling, businesses reduced imports, causing the deficit to shrink rapidly."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A7B6C50293C9",
+            "item": "The trade deficit peaked in March 2025, coinciding with the start of tariffs.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript references a chart but provides no external source or verifiable data to confirm the peak date and magnitude.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "It didn't peak until March of 2025. Now, if you remember the timeline, that was also right when the tariffs actually started.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-BB4DF0B25A0A",
+            "device": "Bulk discount store analogy",
+            "explanation": "Stockpiling imports before tariffs is compared to buying large quantities of toilet paper or food at a bulk store, reducing the need for future purchases.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "It's like when you go to a bulk discount store and you stock up on toilet paper or you stock up on some food. Now, the next couple of months, you might not need to buy any of it because you already have it.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-79BDC11FD844EA",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "date": "2026-01-24",
+        "source_hash": "9179acfbd41b5487c07a4af73fcb7d13ba617eaf82390be89bff6ca6feb96603",
+        "pair_id": "PAIR-CC48-T135",
+        "cc_id": "CC48",
+        "theme_id": "T135",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-FEC74D4B9F8F",
+        "local_theme_text": "The role of the gold price surge in the trade deficit reduction",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The gold price surge is discussed primarily in the context of its impact on the trade deficit reduction, which falls under trade deficits and tariffs, making T135 the most appropriate canonical theme despite gold-related alternatives.",
+        "local_argument_id": "LA-91BBD6AF976D",
+        "conclusion": "The additional shrinking of the trade deficit in the latter half of 2025 is largely attributable to the increase in the price of gold, which inflated the dollar value of non-monetary gold trade flows.",
+        "premises": [
+          "Gold prices nearly doubled, from about $2,700 to $4,941 per ounce.",
+          "Non-monetary gold made up nearly 70% of the rise in exports and over 100% of the rise in imports.",
+          "Demand for non-monetary gold is inelastic (fixed ounces), so higher prices directly increase trade dollar values.",
+          "Adjusting for gold, the trade deficit change drops from 10% to 3.2%."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-848C247A668C",
+            "item": "Gold is trading at $4,941 per ounce, almost double the $2,700 level one year earlier.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or citation for the gold price figures.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "it is trading at $4,941 per ounce. Just one year ago, it was trading at about $2700 an ounce",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-FA9BBACA91FE",
+            "item": "Non-monetary gold accounted for nearly 70% of the rise in exports and over 100% of the rise in imports.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not cite any specific report or data source for these percentages.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "nonmonetary gold made up nearly 70% of the rise in exports and also accounted for over 100% of the rise in imports.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-822DA6868671",
+            "item": "Imports increased $1.9 billion, fully due to non-monetary gold; exports increased $8.4 billion, with $6.1 billion from non-monetary gold.",
+            "status": "Unverifiable",
+            "verification_basis": "No official trade data source is provided in the transcript.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "The small amount that imports did increase was $ 1.9 billion overall and imports of non-monetary gold accounted for all of that. And then regarding exports, they increased $8.4 billion overall. However, non-monetary gold made up $6.1 billion of the increase.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-D53DA68619E1",
+            "item": "Adjusting for gold, the trade deficit change drops from 10% to 3.2%.",
+            "status": "Unverifiable",
+            "verification_basis": "No calculation basis or data source is provided.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "when you adjust for the impact of gold, the change in the trade deficit goes from a 10% change to only a 3.2% change.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-89FA3B11AB29",
+            "device": "Inelastic demand analogy for industrial gold",
+            "explanation": "Non-monetary gold demand is inelastic: manufacturers must buy the same number of ounces regardless of price, so higher price increases trade value.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "if you are manufacturing something that requires gold, you require a specific amount of gold. You are a non-elastic buyer because you need a specific amount. You can't just say, 'Well, gold doubled in price, so I'm going to buy half the gold this year.' No, you still have to buy the same amount of gold.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-EC98D8533F9E1A",
+        "speech_id": "SP-F3D5FC63F559",
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "date": "2026-01-24",
+        "source_hash": "9179acfbd41b5487c07a4af73fcb7d13ba617eaf82390be89bff6ca6feb96603",
+        "pair_id": "PAIR-CC48-T84",
+        "cc_id": "CC48",
+        "theme_id": "T84",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech details the collapse of the US trade deficit and the rise in gold prices as concrete market indicators that signal an impending dollar shortage crisis, providing a specific instance of the broader claim in CC48 that these signals point to systemic decline.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0F8F9C9C137B",
+        "local_theme_text": "The connection between a shrinking trade deficit and a dollar shortage crisis",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The connection between a shrinking trade deficit and a dollar shortage crisis relates to the evolution of monetary systems and the dollar's role, matching T84.",
+        "local_argument_id": "LA-BC8E7A11A4D4",
+        "conclusion": "A shrinking trade deficit reduces the outflow of dollars, which, given the large unaccounted dollar-denominated debt in the global shadow banking system, could trigger a dollar shortage crisis.",
+        "premises": [
+          "Every import transaction sends dollars overseas; fewer imports mean fewer dollars exported.",
+          "There is at least $65 trillion of unaccounted dollar-denominated debt in the global shadow banking system.",
+          "Debt must be repaid with interest, creating future dollar demand.",
+          "A dollar shortage can cause defaults and credit contractions, as seen in the Credit Suisse case.",
+          "Reduced dollar exports amplify the shortage risk."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9410109956A1",
+            "item": "There is a minimum of $65 trillion, potentially up to $100 trillion, in unaccounted dollar-denominated debt.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or methodology for this estimate is provided in the transcript.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "there's a minimum of 65 trillion, potentially upwards of a hundred trillion in just dollarenominated debt that we don't have any idea of where it is, how much it is, when it's due",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-61E7EDCE67AF",
+            "item": "Credit Suisse had to be bailed out due to a dollar shortage, and the Swiss central bank used Fed swap lines in late 2022.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not cite any news articles, reports, or official statements for this claim.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "just a couple of years ago, Credit Swiss had to get bailed out specifically because of a dollar shortage. ... the Swiss central bank tapped the swap lines to get newly created dollars directly from the Federal Reserve in late 2022",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-5E6E98297A82",
+            "device": "Loan and interest analogy",
+            "explanation": "Illustrates that debt creation implies future demand for more dollars (principal + interest), creating built-in deflation.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "If I loan you $100 and you owe me $105 back, it means that dollar creation has built-in future deflation.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-12F7543D72D8",
+            "device": "Fractional reserve banking expansion and contraction analogy",
+            "explanation": "Explains how credit cycles work and why central banks step in to prevent contraction.",
+            "speech_id": "SP-F3D5FC63F559",
+            "source_speech_filename": "20260124_The Trade Deficit is Collapsing.txt",
+            "source_excerpt": "That's what would naturally happen in a fractional reserve banking system where you don't continually bail it out by printing new money.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "29d032417dbb71283ccb9e19f3e5665820b23cbaef3e6bf35e30c8f39c232201",
+  "complete": true
+}

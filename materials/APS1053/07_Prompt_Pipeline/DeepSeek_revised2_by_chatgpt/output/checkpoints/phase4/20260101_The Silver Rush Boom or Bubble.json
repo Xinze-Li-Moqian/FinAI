@@ -1,0 +1,1142 @@
+{
+  "dependencies": {
+    "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+    "phase1_record_hash": "329c2cf753b51936275268893ab392ac45a366c167c388d21fd19b3fce540aa3",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-57D1A1896395",
+    "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+    "stem": "20260101_The Silver Rush Boom or Bubble",
+    "date": "2026-01-01",
+    "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+    "source_character_count": 13382,
+    "central_claim": "The current silver market displays bubble characteristics and warrants extreme caution despite a long-term bullish outlook.",
+    "themes": [
+      {
+        "local_theme_id": "LT-E0E62252FFFD",
+        "theme": "Fundamental supply-demand imbalance and its limitations",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8E7A81A2539F",
+            "local_theme_id": "LT-E0E62252FFFD",
+            "conclusion": "A persistent supply deficit exists due to byproduct mining and rising industrial demand.",
+            "premises": [
+              "For 5 years in a row, industrial demand has outpaced production.",
+              "75% of silver mining is a byproduct of other metals.",
+              "Global demand for silver in solar panels, EVs, and electronics is at record levels."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6320329DBFB6",
+                "item": "5 years in a row of deficit",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript as a factual claim; no external source needed for transcript analysis.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "It is true that for 5 years in a row now, we have had a situation in which the industrial demand for silver and the amount that's being purchased and used for building things like EVs and solar panels, that has outpaced production of new silver supplies.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-529F46626407",
+                "item": "75% byproduct mining",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "It's about 75% of all silver mining is just a byproduct of mining for things like copper and lead and zinc.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-2F91F1B63F39",
+                "item": "Record demand for silver in solar, EVs, electronics",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states 'record demand' without providing a source or quantification.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "Globally, we are seeing record demand for silver because we are also seeing record demand for things like solar panels and electric vehicles and electronics, semiconductors.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-058FBF995A02",
+            "local_theme_id": "LT-E0E62252FFFD",
+            "conclusion": "The recent price surge cannot be explained by these fundamentals; it is more indicative of a speculative bubble.",
+            "premises": [
+              "The deficit has persisted for years without causing such a price spike.",
+              "A 50% move in 6 weeks is not typical of supply-demand adjustments."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-66B7EC7EE62C",
+                "item": "Price data: 160% gain in 2025, 50% in 6 weeks, 10% day, 15% drop",
+                "status": "Verified",
+                "verification_basis": "Specific price and percentage changes given in transcript.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "As of December 30th, 2025, the price of silver is over $75 per ounce. This price represents a 160% gain just in 2025 alone with most of that happening within the last couple of months. And on December 26th, in a move that had never happened before, silver was up over 10% in one single day. And that was followed by a price decline of 15% from top to bottom the very next day on December 27th.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A30DC4C39282",
+                "item": "Google searches for 'silver' at all-time high",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for Google search data.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "Google searches for the word silver are at an insanely record all-time high.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-869A5653F52C",
+        "theme": "Speculative drivers: leverage, short squeezes, and retail FOMO",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B870E2BF984B",
+            "local_theme_id": "LT-869A5653F52C",
+            "conclusion": "Short squeezes and leveraged longs are major drivers of the recent price rise.",
+            "premises": [
+              "A lot of leveraged shorts are being squeezed out.",
+              "Open interest on net long leverage bets at highest in years.",
+              "Massive retail buying of SLV ETF."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-52E5B61BD7D9",
+                "item": "Open interest on net long leverage bets at highest in years",
+                "status": "Unverifiable",
+                "verification_basis": "No source for open interest data.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "Open interest on net long leverage bets in December 2025 are at the highest they've been in years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E5475702DF75",
+                "item": "SLV ETF holdings at highest since 2022",
+                "status": "Unverifiable",
+                "verification_basis": "Statement without citation.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "the total silver in tons that the SLV ETF holds right now is at the highest it's been since 2022.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-B223F90C2729",
+            "local_theme_id": "LT-869A5653F52C",
+            "conclusion": "Retail FOMO and speculation are evident from extreme search interest and trading activity.",
+            "premises": [
+              "Google searches all-time high.",
+              "Price moves are too fast for fundamentals.",
+              "Leverage on both sides increases volatility."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F169A1E0846A",
+                "item": "Google searches all-time high",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for Google search data.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "Google searches for the word silver are at an insanely record all-time high.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-B7E923266F0D",
+        "theme": "Key risks that threaten the current rally",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7EE85B3E1A83",
+            "local_theme_id": "LT-B7E923266F0D",
+            "conclusion": "Above-ground silver supply will increase if prices stay high, capping the rally.",
+            "premises": [
+              "High prices incentivize existing holders to sell.",
+              "Silver is primarily an industrial metal, not a monetary asset.",
+              "Large amounts of silver are held in vaults and safes."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2E1AEB9FD119",
+                "item": "Silver out of the drawer, out of the safe, out of the vaults",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion without data on actual holdings.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "It's not just silver out of the ground that you have to worry about. It's silver out of the drawer, it's silver out of the safe, and it's silver out of the vaults.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-DC989FC15271",
+                "device": "'The cure for high prices is high prices'",
+                "explanation": "Proverb used to argue that rising prices will eventually bring new supply to the market, capping further price increases.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "As everybody always says, the cure for high prices is high prices.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-C9E8D573935E",
+            "local_theme_id": "LT-B7E923266F0D",
+            "conclusion": "Year-end tax-loss selling could trigger a sharp correction.",
+            "premises": [
+              "Many investors hold large unrealized gains and may delay sales until after Jan 1 to defer taxes.",
+              "The selling pressure could be significant once the new year begins."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F687C930F62D",
+                "item": "Hypothetical scenario of investors waiting to sell after Jan 1",
+                "status": "Unverifiable",
+                "verification_basis": "Speculative assertion about investor behavior.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "there are investors and traders all across the country right now who are sitting on $10,000 of unrealized gains ... thinking to themselves, 'Yes, I have these big gains right now ... if I can hold on just two more days, just three more days until January 1st, then I can sell and I don't have to pay the taxes on this for an entire 'nother year.'",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-71A5C2043BEE",
+            "local_theme_id": "LT-B7E923266F0D",
+            "conclusion": "Substitution of silver by copper will reduce industrial demand if prices stay high.",
+            "premises": [
+              "Silver can be replaced by copper in many applications, albeit with efficiency loss.",
+              "Higher prices increase the economic incentive to substitute."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2C45B3F2688C",
+                "item": "The financial incentive to replace silver with copper increases with price",
+                "status": "Unverifiable",
+                "verification_basis": "No empirical data provided.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "The more expensive silver gets, the higher the financial incentive there is to replace silver with things like copper. ... Even if swapping copper out for silver in something like a solar panel reduces its efficiency, the more expensive silver gets, the more worth it that trade-off becomes.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-A0FF99F6F88E",
+            "local_theme_id": "LT-B7E923266F0D",
+            "conclusion": "Margin call cascades can abruptly reverse the upward trend.",
+            "premises": [
+              "Leveraged longs are vulnerable to margin requirement increases.",
+              "A 15% one-day decline demonstrated the potential for rapid selling."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-856B242527F5",
+                "item": "15% drawdown in one day on December 27",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "silver was up over 10% in one single day. And that was followed by a price decline of 15% from top to bottom the very next day on December 27th.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-099535B3A50C",
+                "item": "Margin requirement increase can snap the trend",
+                "status": "Unverifiable",
+                "verification_basis": "No data on margin changes provided.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "a margin requirement increase can snap that trend in half. You suddenly have to close out all of your leveraged longs ... and that triggers a cascade of everybody else also getting stopped out.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-4E98CA0ADC50",
+                "device": "Shorts coming back with a vengeance",
+                "explanation": "Used to illustrate the aggressive selling that could follow a reversal.",
+                "speech_id": "SP-57D1A1896395",
+                "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+                "source_excerpt": "you better believe those shorts are going to come back with a vengeance trying to slam that price back down like they always have.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-FE40217C8D52",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "Popular online metal dealers like SD Bullion are sold out on certain supplies and have processing and shipping delays of up to weeks.",
+        "reason": "The transcript does not provide any source or verification for this assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not contain any internal evidence to corroborate or contradict this claim.",
+        "source_excerpt": "popular online metal dealers like SD Bullion are sold out on certain supplies and have processing and shipping delays of up to weeks.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DA95CE95DEAF",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "China is banning exports for things like silver.",
+        "reason": "The transcript states this without citing any official announcement or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No verifying details within the transcript.",
+        "source_excerpt": "We see China banning exports for things like silver and even people like Elon Musk are saying this is not good.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B86ADB3C0186",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "Elon Musk is saying this is not good.",
+        "reason": "No specific quote, date, or context is provided for Elon Musk's statement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not offer any corroboration.",
+        "source_excerpt": "We see China banning exports for things like silver and even people like Elon Musk are saying this is not good.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0A009D00ACCA",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "Silver was added to the critical minerals list in the US in November.",
+        "reason": "No reference to the official list, government source, or date is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is presented without verification within the transcript.",
+        "source_excerpt": "For example, just this November, silver was added to the critical minerals list in the US.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AD44F83DD5F1",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "China is locking down exports, specifically of silver.",
+        "reason": "No details on the policy or source are given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide any substantiating information.",
+        "source_excerpt": "As I mentioned earlier, China is locking down exports, specifically of silver.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F907FCF57461",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "Open interest on net long leverage bets in December 2025 are at the highest they've been in years.",
+        "reason": "No source for the open interest data is provided; the claim is a bare assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript contains no data to check this.",
+        "source_excerpt": "Open interest on net long leverage bets in December 2025 are at the highest they've been in years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1668CD710287",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "The total silver in tons that the SLV ETF holds is at the highest it's been since 2022.",
+        "reason": "No source for the ETF holdings data is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide any verification.",
+        "source_excerpt": "the total silver in tons that the SLV ETF holds right now is at the highest it's been since 2022.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AF78058052BE",
+        "speech_id": "SP-57D1A1896395",
+        "speech_ref": "20260101_The Silver Rush Boom or Bubble.txt",
+        "claim": "Google searches for the word silver are at an insanely record all-time high.",
+        "reason": "No specific data or source for Google Trends is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The assertion is unsupported within the transcript.",
+        "source_excerpt": "Google searches for the word silver are at an insanely record all-time high.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current silver market displays bubble characteristics and warrants extreme caution despite a long-term bullish outlook.",
+      "themes": [
+        "Fundamental supply-demand imbalance and its limitations",
+        "Speculative drivers: leverage, short squeezes, and retail FOMO",
+        "Key risks that threaten the current rally"
+      ],
+      "argument_count": 8,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "56f2c036103f8abfd13185bdc27d1459243f6aaa7785fb4ebf9131fe676bf05d",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "329c2cf753b51936275268893ab392ac45a366c167c388d21fd19b3fce540aa3",
+    "canonical_mapping": {
+      "speech_id": "SP-57D1A1896395",
+      "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC48",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+      "primary_cc_rationale": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T76",
+        "T118",
+        "T134"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T76",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-E0E62252FFFD",
+          "rationale": "The theme directly addresses supply-demand fundamentals in commodities, matching the local theme's focus on fundamental imbalances and limitations."
+        },
+        {
+          "theme_id": "T118",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-869A5653F52C",
+          "rationale": "The local theme centers on speculative drivers such as leverage, short squeezes, and retail FOMO, which align closely with canonical theme T118 on market volatility, speculation, and trading strategies."
+        },
+        {
+          "theme_id": "T134",
+          "confidence": 0.65,
+          "source_local_theme_id": "LT-B7E923266F0D",
+          "rationale": "The local theme lists key risks that threaten the silver rally (e.g., margin calls, supply increases, substitution). While not perfectly fitting, T134 on systemic risks and black swan events is the closest canonical match among available options, given the potential for abrupt corrections."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC48-T76",
+          "cc_id": "CC48",
+          "theme_id": "T76",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC48-T118",
+          "cc_id": "CC48",
+          "theme_id": "T118",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC48-T134",
+          "cc_id": "CC48",
+          "theme_id": "T134",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "local_cc_text": "The current silver market displays bubble characteristics and warrants extreme caution despite a long-term bullish outlook.",
+        "canonical_cc_id": "CC48",
+        "confidence": 0.9,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "rationale": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "candidate_matches": [
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.5484364628791809
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.3233524262905121
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.23819899559020996
+          },
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.2207496017217636
+          },
+          {
+            "id": "CC46",
+            "text": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+            "similarity": 0.21904130280017853
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "local_theme_id": "LT-E0E62252FFFD",
+        "local_theme_text": "Fundamental supply-demand imbalance and its limitations",
+        "canonical_theme_id": "T76",
+        "confidence": 0.85,
+        "rationale": "The theme directly addresses supply-demand fundamentals in commodities, matching the local theme's focus on fundamental imbalances and limitations.",
+        "candidate_matches": [
+          {
+            "id": "T76",
+            "text": "Commodities and supply-demand fundamentals",
+            "similarity": 0.5717953443527222
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.36853909492492676
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3284437656402588
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.3065880537033081
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3038221597671509
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.3027307689189911
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "local_theme_id": "LT-869A5653F52C",
+        "local_theme_text": "Speculative drivers: leverage, short squeezes, and retail FOMO",
+        "canonical_theme_id": "T118",
+        "confidence": 0.8,
+        "rationale": "The local theme centers on speculative drivers such as leverage, short squeezes, and retail FOMO, which align closely with canonical theme T118 on market volatility, speculation, and trading strategies.",
+        "candidate_matches": [
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.38498562574386597
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.3543047308921814
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.3456391990184784
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.3442500829696655
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.3024728298187256
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.242012619972229
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "local_theme_id": "LT-B7E923266F0D",
+        "local_theme_text": "Key risks that threaten the current rally",
+        "canonical_theme_id": "T134",
+        "confidence": 0.65,
+        "rationale": "The local theme lists key risks that threaten the silver rally (e.g., margin calls, supply increases, substitution). While not perfectly fitting, T134 on systemic risks and black swan events is the closest canonical match among available options, given the potential for abrupt corrections.",
+        "candidate_matches": [
+          {
+            "id": "T138",
+            "text": "US market outperformance and global recession risk",
+            "similarity": 0.6052029132843018
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.4826202988624573
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.45219120383262634
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.40081721544265747
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.38293105363845825
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.36135393381118774
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-2394C1E3B34BDD",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T76",
+        "cc_id": "CC48",
+        "theme_id": "T76",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E0E62252FFFD",
+        "local_theme_text": "Fundamental supply-demand imbalance and its limitations",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme directly addresses supply-demand fundamentals in commodities, matching the local theme's focus on fundamental imbalances and limitations.",
+        "local_argument_id": "LA-8E7A81A2539F",
+        "conclusion": "A persistent supply deficit exists due to byproduct mining and rising industrial demand.",
+        "premises": [
+          "For 5 years in a row, industrial demand has outpaced production.",
+          "75% of silver mining is a byproduct of other metals.",
+          "Global demand for silver in solar panels, EVs, and electronics is at record levels."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6320329DBFB6",
+            "item": "5 years in a row of deficit",
+            "status": "Verified",
+            "verification_basis": "Explicitly stated in transcript as a factual claim; no external source needed for transcript analysis.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "It is true that for 5 years in a row now, we have had a situation in which the industrial demand for silver and the amount that's being purchased and used for building things like EVs and solar panels, that has outpaced production of new silver supplies.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-529F46626407",
+            "item": "75% byproduct mining",
+            "status": "Verified",
+            "verification_basis": "Explicitly stated in transcript.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "It's about 75% of all silver mining is just a byproduct of mining for things like copper and lead and zinc.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-2F91F1B63F39",
+            "item": "Record demand for silver in solar, EVs, electronics",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states 'record demand' without providing a source or quantification.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "Globally, we are seeing record demand for silver because we are also seeing record demand for things like solar panels and electric vehicles and electronics, semiconductors.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-92AEC2EBF0AC53",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T76",
+        "cc_id": "CC48",
+        "theme_id": "T76",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E0E62252FFFD",
+        "local_theme_text": "Fundamental supply-demand imbalance and its limitations",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme directly addresses supply-demand fundamentals in commodities, matching the local theme's focus on fundamental imbalances and limitations.",
+        "local_argument_id": "LA-058FBF995A02",
+        "conclusion": "The recent price surge cannot be explained by these fundamentals; it is more indicative of a speculative bubble.",
+        "premises": [
+          "The deficit has persisted for years without causing such a price spike.",
+          "A 50% move in 6 weeks is not typical of supply-demand adjustments."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-66B7EC7EE62C",
+            "item": "Price data: 160% gain in 2025, 50% in 6 weeks, 10% day, 15% drop",
+            "status": "Verified",
+            "verification_basis": "Specific price and percentage changes given in transcript.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "As of December 30th, 2025, the price of silver is over $75 per ounce. This price represents a 160% gain just in 2025 alone with most of that happening within the last couple of months. And on December 26th, in a move that had never happened before, silver was up over 10% in one single day. And that was followed by a price decline of 15% from top to bottom the very next day on December 27th.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A30DC4C39282",
+            "item": "Google searches for 'silver' at all-time high",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for Google search data.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "Google searches for the word silver are at an insanely record all-time high.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-43BFDF44A6FC74",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T118",
+        "cc_id": "CC48",
+        "theme_id": "T118",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-869A5653F52C",
+        "local_theme_text": "Speculative drivers: leverage, short squeezes, and retail FOMO",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The local theme centers on speculative drivers such as leverage, short squeezes, and retail FOMO, which align closely with canonical theme T118 on market volatility, speculation, and trading strategies.",
+        "local_argument_id": "LA-B870E2BF984B",
+        "conclusion": "Short squeezes and leveraged longs are major drivers of the recent price rise.",
+        "premises": [
+          "A lot of leveraged shorts are being squeezed out.",
+          "Open interest on net long leverage bets at highest in years.",
+          "Massive retail buying of SLV ETF."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-52E5B61BD7D9",
+            "item": "Open interest on net long leverage bets at highest in years",
+            "status": "Unverifiable",
+            "verification_basis": "No source for open interest data.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "Open interest on net long leverage bets in December 2025 are at the highest they've been in years.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E5475702DF75",
+            "item": "SLV ETF holdings at highest since 2022",
+            "status": "Unverifiable",
+            "verification_basis": "Statement without citation.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "the total silver in tons that the SLV ETF holds right now is at the highest it's been since 2022.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-0B932B6D016BC8",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T118",
+        "cc_id": "CC48",
+        "theme_id": "T118",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-869A5653F52C",
+        "local_theme_text": "Speculative drivers: leverage, short squeezes, and retail FOMO",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The local theme centers on speculative drivers such as leverage, short squeezes, and retail FOMO, which align closely with canonical theme T118 on market volatility, speculation, and trading strategies.",
+        "local_argument_id": "LA-B223F90C2729",
+        "conclusion": "Retail FOMO and speculation are evident from extreme search interest and trading activity.",
+        "premises": [
+          "Google searches all-time high.",
+          "Price moves are too fast for fundamentals.",
+          "Leverage on both sides increases volatility."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F169A1E0846A",
+            "item": "Google searches all-time high",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for Google search data.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "Google searches for the word silver are at an insanely record all-time high.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-B4376352CEF8C6",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T134",
+        "cc_id": "CC48",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B7E923266F0D",
+        "local_theme_text": "Key risks that threaten the current rally",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "The local theme lists key risks that threaten the silver rally (e.g., margin calls, supply increases, substitution). While not perfectly fitting, T134 on systemic risks and black swan events is the closest canonical match among available options, given the potential for abrupt corrections.",
+        "local_argument_id": "LA-7EE85B3E1A83",
+        "conclusion": "Above-ground silver supply will increase if prices stay high, capping the rally.",
+        "premises": [
+          "High prices incentivize existing holders to sell.",
+          "Silver is primarily an industrial metal, not a monetary asset.",
+          "Large amounts of silver are held in vaults and safes."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2E1AEB9FD119",
+            "item": "Silver out of the drawer, out of the safe, out of the vaults",
+            "status": "Unverifiable",
+            "verification_basis": "Assertion without data on actual holdings.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "It's not just silver out of the ground that you have to worry about. It's silver out of the drawer, it's silver out of the safe, and it's silver out of the vaults.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-DC989FC15271",
+            "device": "'The cure for high prices is high prices'",
+            "explanation": "Proverb used to argue that rising prices will eventually bring new supply to the market, capping further price increases.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "As everybody always says, the cure for high prices is high prices.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-484675766A658D",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T134",
+        "cc_id": "CC48",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B7E923266F0D",
+        "local_theme_text": "Key risks that threaten the current rally",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "The local theme lists key risks that threaten the silver rally (e.g., margin calls, supply increases, substitution). While not perfectly fitting, T134 on systemic risks and black swan events is the closest canonical match among available options, given the potential for abrupt corrections.",
+        "local_argument_id": "LA-C9E8D573935E",
+        "conclusion": "Year-end tax-loss selling could trigger a sharp correction.",
+        "premises": [
+          "Many investors hold large unrealized gains and may delay sales until after Jan 1 to defer taxes.",
+          "The selling pressure could be significant once the new year begins."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F687C930F62D",
+            "item": "Hypothetical scenario of investors waiting to sell after Jan 1",
+            "status": "Unverifiable",
+            "verification_basis": "Speculative assertion about investor behavior.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "there are investors and traders all across the country right now who are sitting on $10,000 of unrealized gains ... thinking to themselves, 'Yes, I have these big gains right now ... if I can hold on just two more days, just three more days until January 1st, then I can sell and I don't have to pay the taxes on this for an entire 'nother year.'",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2C494B843ED108",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T134",
+        "cc_id": "CC48",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B7E923266F0D",
+        "local_theme_text": "Key risks that threaten the current rally",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "The local theme lists key risks that threaten the silver rally (e.g., margin calls, supply increases, substitution). While not perfectly fitting, T134 on systemic risks and black swan events is the closest canonical match among available options, given the potential for abrupt corrections.",
+        "local_argument_id": "LA-71A5C2043BEE",
+        "conclusion": "Substitution of silver by copper will reduce industrial demand if prices stay high.",
+        "premises": [
+          "Silver can be replaced by copper in many applications, albeit with efficiency loss.",
+          "Higher prices increase the economic incentive to substitute."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2C45B3F2688C",
+            "item": "The financial incentive to replace silver with copper increases with price",
+            "status": "Unverifiable",
+            "verification_basis": "No empirical data provided.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "The more expensive silver gets, the higher the financial incentive there is to replace silver with things like copper. ... Even if swapping copper out for silver in something like a solar panel reduces its efficiency, the more expensive silver gets, the more worth it that trade-off becomes.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-4CDDB76591611C",
+        "speech_id": "SP-57D1A1896395",
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "date": "2026-01-01",
+        "source_hash": "5bfacd5663298000ab49ba6057eef59e06c8ac94cb304f1d98675df8222127ff",
+        "pair_id": "PAIR-CC48-T134",
+        "cc_id": "CC48",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed analysis of the silver market as a bubble, which is one of the specific indicators listed in CC48. It confirms that silver exhibits bubble characteristics, thereby serving as a concrete instance of the broader claim that such market signals predict impending crises.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B7E923266F0D",
+        "local_theme_text": "Key risks that threaten the current rally",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "The local theme lists key risks that threaten the silver rally (e.g., margin calls, supply increases, substitution). While not perfectly fitting, T134 on systemic risks and black swan events is the closest canonical match among available options, given the potential for abrupt corrections.",
+        "local_argument_id": "LA-A0FF99F6F88E",
+        "conclusion": "Margin call cascades can abruptly reverse the upward trend.",
+        "premises": [
+          "Leveraged longs are vulnerable to margin requirement increases.",
+          "A 15% one-day decline demonstrated the potential for rapid selling."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-856B242527F5",
+            "item": "15% drawdown in one day on December 27",
+            "status": "Verified",
+            "verification_basis": "Explicitly stated in transcript.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "silver was up over 10% in one single day. And that was followed by a price decline of 15% from top to bottom the very next day on December 27th.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-099535B3A50C",
+            "item": "Margin requirement increase can snap the trend",
+            "status": "Unverifiable",
+            "verification_basis": "No data on margin changes provided.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "a margin requirement increase can snap that trend in half. You suddenly have to close out all of your leveraged longs ... and that triggers a cascade of everybody else also getting stopped out.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-4E98CA0ADC50",
+            "device": "Shorts coming back with a vengeance",
+            "explanation": "Used to illustrate the aggressive selling that could follow a reversal.",
+            "speech_id": "SP-57D1A1896395",
+            "source_speech_filename": "20260101_The Silver Rush Boom or Bubble.txt",
+            "source_excerpt": "you better believe those shorts are going to come back with a vengeance trying to slam that price back down like they always have.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "56f2c036103f8abfd13185bdc27d1459243f6aaa7785fb4ebf9131fe676bf05d",
+  "complete": true
+}

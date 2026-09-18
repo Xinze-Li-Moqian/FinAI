@@ -1,0 +1,821 @@
+{
+  "dependencies": {
+    "source_hash": "62a42a395a397d29c305b5907d5f4d6ac7745becb8b3285e80af20d21b9c00f0",
+    "phase1_record_hash": "50b09ccf0f6dcb2bb0eb952660d0d8576c9f2dab920323906376667531bc86b0",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-B82C5CD36460",
+    "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+    "stem": "20260415_The Money Printer is Firing Up - But It’s Different This Time",
+    "date": "2026-04-15",
+    "source_hash": "62a42a395a397d29c305b5907d5f4d6ac7745becb8b3285e80af20d21b9c00f0",
+    "source_character_count": 16506,
+    "central_claim": "The federal government is attempting to resolve the worst debt crisis in almost a century by stimulating economic growth with money printing without causing high inflation, primarily through bank deregulation (removing the supplementary leverage ratio) to enable banks to lend to both the government and the private economy, which could either produce real economic growth or asset price inflation, but in either case benefits asset owners.",
+    "themes": [
+      {
+        "local_theme_id": "LT-454CC8099740",
+        "theme": "The distributional impact of money printing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5DB17DBDF827",
+            "local_theme_id": "LT-454CC8099740",
+            "conclusion": "Money printing that is not evenly distributed transfers real wealth from those who receive the new money last to those who receive it first.",
+            "premises": [
+              "Money is loaned into existence, so each dollar adds future demand.",
+              "First recipients spend at prices that have not yet changed, gaining real purchasing power.",
+              "Later recipients face higher prices from the cumulative demand, eroding their purchasing power."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A32A378C2801",
+                "item": "2020-2021 money printing led to increased economic inequality between top and bottom.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript makes this claim without citing any data or source.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "This is why all the money printing that happened during 2020 and 2021 led to such a difference in the economy between the top and the bottom.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E74903311305",
+                "item": "Stimulus checks were a small portion of money printing; most went to politically connected entities.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker asserts this without providing evidence or sources.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "the majority of the money printing that happened did not go out as stimulus checks. It was loaned to the government and then the government spent it to government contractors, PPP loans, grants, and it filtered its way through first to the people who were most politically connected.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-B7F9B273D5EE",
+                "device": "Stock split analogy",
+                "explanation": "Illustrates that evenly distributed money printing has no real effect on wealth, similar to a stock split where share count increases but value per share decreases proportionally.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "So similar to when a stock splits, there's no real change on wealth. You might have gone from owning 10 shares to now owning a 100 shares, but each share is worth 1/10th of it was before. So it's an even wash.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-D0E83C2508B3",
+                "device": "SpaceX Starship money transport analogy",
+                "explanation": "Illustrates that money printing that is completely isolated (e.g., sent to Mars) has no economic effect, showing that only money that enters the economy matters.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "imagine they print a quadrillion... they load it up on a SpaceX Starship, and they ship it off to Mars. Technically, the money supply did increase by a quadrillion dollars, but nobody has access to it. Therefore, it's not going to be spent. It's not going to enter the economy at all. And so there is no change. There is no net effect. there is no impact.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-74AED9EC2A28",
+        "theme": "Bank deregulation via supplementary leverage ratio removal",
+        "arguments": [
+          {
+            "local_argument_id": "LA-48CC8C88EACB",
+            "local_theme_id": "LT-74AED9EC2A28",
+            "conclusion": "Removing the supplementary leverage ratio will allow banks to purchase unlimited US Treasuries and lend to the private economy, potentially stimulating real growth without high inflation, but the outcome depends on whether banks lend productivity.",
+            "premises": [
+              "The supplementary leverage ratio penalizes banks by forcing them to use risk limits for Treasuries.",
+              "Removing it frees bank balance sheets for government and private lending.",
+              "Banks have a profit incentive to lend to productive private businesses, unlike the Fed's QE.",
+              "In 2020, temporary suspension led to a lending boom."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1F370D9C9BFD",
+                "item": "In 2020, temporary suspension of the supplementary leverage ratio resulted in a significant increase in bank lending.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states this without citing any specific data or source.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "In 2020, they temporarily suspended this supplementary leverage ratio and banks did what they expected them to do, which was they just started lending like crazy.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-36331CE4DE1A",
+                "item": "The supplementary leverage ratio is a current rule that penalizes banks for holding Treasuries.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript describes the rule but provides no sources.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "There's a rule right now on banks called the supplementary leverage ratio. And without getting too technical, basically this rule forces banks to purchase US treasuries and then it penalizes them for doing so with their risk limits.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-179EFCAD2D7D",
+        "theme": "The historical contrast between post-WWII debt reduction and current fiscal trajectory",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0555FDE11E64",
+            "local_theme_id": "LT-179EFCAD2D7D",
+            "conclusion": "Unlike the post-WWII period when government spending collapsed from wartime levels, current government spending remains high and is driven by growing entitlements, preventing a similar debt reduction through growth alone.",
+            "premises": [
+              "Debt to GDP ratio exceeded 120% at the peak of World War II, similar to today.",
+              "Post-war government spending dropped from 40% of GDP to under 10%.",
+              "Current government spending is 22-23% of GDP and entitlements are increasing.",
+              "During WWII, production was directed to destruction; after war, it shifted to real goods."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9F8ECD74364C",
+                "item": "Post-WWII government spending fell from 40% to under 10% of GDP, while current spending is 22-23%.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript mentions a chart but provides no independent source.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "You can see pre-war the federal government spent under 10% of GDP. You can see post war it didn't quite get back down to those levels, but there was a massive drop from wartime 40%. Meanwhile, the government currently spends 22 to 23% of GDP.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4EC58DAEB3A2",
+                "item": "Entitlements like Medicare, Medicaid, and Social Security are increasing and will not drop off a cliff.",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion made without supporting data or projections.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "Entitlements like Medicare and Medicaid and Social Security are not going to drop off a cliff anytime soon like they would need to to get federal spending under control. They're actually increasing.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-DDF1ECADA5AF",
+                "device": "World War II production shift analogy",
+                "explanation": "During WWII, factories produced goods for destruction, which did not add to real wealth; after the war, they switched to producing goods people wanted, boosting real wealth. This illustrates how a rapid shift in spending can reduce debt, unlike the current slow buildup.",
+                "speech_id": "SP-B82C5CD36460",
+                "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+                "source_excerpt": "During World War II, they directed so much of the natural resources and the productive capacity of the economy to the war effort. Factories were literally making things just for destruction. Whether it was tanks, guns, airplanes, and then sending most of our most productive people to go destroy those things. ... Once the war ended, that effect reversed itself. All those factories started producing real stuff that people wanted and needed again and stopped destroying those resources.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-BC8EB03F19A9",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "The federal government is about to try to thread the needle to deal with the worst debt crisis this country has faced in almost a century, specifically by stimulating economic growth with money printing without causing high inflation.",
+        "reason": "No evidence provided for the government's intentions or the characterization of the crisis as the worst in a century.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide sources for policy plans or comparative historical severity.",
+        "source_excerpt": "The federal government looks like they are about to try to thread the needle to deal with the worst debt crisis this country has faced in almost a century. ... Specifically, they are going to try and stimulate economic growth and recovery with money printing without simultaneously causing high inflation.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-EFA061043BED",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "The last chance to have someone who could cut spending was Ron Paul.",
+        "reason": "Opinion statement without factual support; 'last chance' is subjective and unverifiable.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Ron Paul is a historical figure, but the claim of 'last chance' is not supported by evidence in the transcript.",
+        "source_excerpt": "I'm pretty sure the last chance that we had to get somebody in office that could actually get us to spend less money was Ron Paul, and that ship sailed a long time ago.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5A7DEEF3BB30",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "Money supply shrank for a time and then the Fed started printing again to avoid a deflationary death spiral.",
+        "reason": "No specific data or source provided; interpretation of Fed actions is unsupported.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript refers to a chart but does not provide external verification.",
+        "source_excerpt": "You can see that it really increased very quickly in 2020 and 2021 and then the Fed realized their mistakes, saw the inflation that they unleash, tried to back off for a bit. Money supply shrank for a time and then they realized they couldn't keep on going that way or else we'd face a deflationary death spiral. they started printing again and the money supply has been increasing since.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FFB497568100",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "The majority of money printing during 2020-2021 did not go to stimulus checks but was loaned to the government and then spent on politically connected entities.",
+        "reason": "No data breakdown or source provided to support the allocation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is an assertion about the distribution of money printing; no evidence in transcript.",
+        "source_excerpt": "the majority of the money printing that happened did not go out as stimulus checks. It was loaned to the government and then the government spent it to government contractors, PPP loans, grants, and it filtered its way through first to the people who were most politically connected.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9A27652B6FE5",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "The deficit gets worse every single year because the government cannot tax enough to pay for its liabilities.",
+        "reason": "No fiscal data or historical trend provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is presented as fact without supporting figures.",
+        "source_excerpt": "This is why the deficit gets worse every single year because the government cannot tax enough to pay for its liabilities.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5C73E32384F3",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "There is an argument inside the Federal Reserve to remove the supplementary leverage ratio this year.",
+        "reason": "No source or citation given for internal Fed discussions.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Policy discussions are speculative without a quoted source.",
+        "source_excerpt": "So there's an argument coming from inside the Federal Reserve right now that this year they should be deregulating the banks to remove the supplementary leverage ratio.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4FE3CD6E0165",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "Removing the supplementary leverage ratio will push interest rates lower and be like QE but with banks.",
+        "reason": "Predictive claim without evidence or historical precedent for the precise effect.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The speaker offers a possible mechanism but no verification.",
+        "source_excerpt": "It'll push interest rates lower because there will be a bunch of demand for treasuries that they don't have right now. It'll be kind of like QE, but instead of the Fed doing it, it's the banks.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C72B80208825",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "In 2020, temporary suspension of the supplementary leverage ratio caused banks to start lending like crazy.",
+        "reason": "No specific lending data or period comparison provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is plausible but unsourced in transcript.",
+        "source_excerpt": "In 2020, they temporarily suspended this supplementary leverage ratio and banks did what they expected them to do, which was they just started lending like crazy.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BD17D41DFEB4",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "Both scenarios (bank lending to government and private economy, or only to government and financial markets) are broadly bullish for asset prices.",
+        "reason": "Opinion-based forecast without supporting analysis or data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The speaker does not provide evidence for asset price outcomes.",
+        "source_excerpt": "It's important to note here that both of these scenarios are broadly bullish for asset prices.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DC3EC7FE2DAD",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "Returns as high as 1,700% can be achieved in as little as 11 days through Black Swan trades.",
+        "reason": "No trade examples, track record, or verification provided; promotional claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript contains a promotional pitch without substantiation.",
+        "source_excerpt": "I'm going to show you how I've used these trades to take home returns as high as 1,700% in as little as 11 days.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-CDE25275C6DE",
+        "speech_id": "SP-B82C5CD36460",
+        "speech_ref": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "claim": "Things are only going to get worse; debt, entitlements, and liabilities are only going to grow.",
+        "reason": "Predictive statement without evidence or reasoning.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The speaker makes a categorical prediction without data.",
+        "source_excerpt": "Things are only going to get worse. The debt is only going to grow. The entitlements are only going to grow. The liabilities are only going to grow.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The federal government is attempting to resolve the worst debt crisis in almost a century by stimulating economic growth with money printing without causing high inflation, primarily through bank deregulation (removing the supplementary leverage ratio) to enable banks to lend to both the government and the private economy, which could either produce real economic growth or asset price inflation, but in either case benefits asset owners.",
+      "themes": [
+        "The distributional impact of money printing",
+        "Bank deregulation via supplementary leverage ratio removal",
+        "The historical contrast between post-WWII debt reduction and current fiscal trajectory"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 11
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "d6caa06082594e966b3420e793e35095c24e7669485d5ac6526abd4c1954a982",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "50b09ccf0f6dcb2bb0eb952660d0d8576c9f2dab920323906376667531bc86b0",
+    "canonical_mapping": {
+      "speech_id": "SP-B82C5CD36460",
+      "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC39",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+      "primary_cc_rationale": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T78",
+        "T86",
+        "T136"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T78",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-454CC8099740",
+          "rationale": "The distributional impact of money printing is a core critique of the fiat monetary system, where new money creation transfers wealth to early recipients, aligning with T78's focus on critiquing the fiat system."
+        },
+        {
+          "theme_id": "T86",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-74AED9EC2A28",
+          "rationale": "The theme explicitly discusses removing the supplementary leverage ratio, a form of banking deregulation, which directly corresponds to T86's focus on Federal Reserve and banking deregulation."
+        },
+        {
+          "theme_id": "T136",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-179EFCAD2D7D",
+          "rationale": "The historical contrast between post-WWII debt reduction and current fiscal trajectory is a discussion of US fiscal sustainability and debt dynamics, fitting T136's focus on US Fiscal and Monetary Situation and Debt Dynamics."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC39-T78",
+          "cc_id": "CC39",
+          "theme_id": "T78",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T86",
+          "cc_id": "CC39",
+          "theme_id": "T86",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T136",
+          "cc_id": "CC39",
+          "theme_id": "T136",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "local_cc_text": "The federal government is attempting to resolve the worst debt crisis in almost a century by stimulating economic growth with money printing without causing high inflation, primarily through bank deregulation (removing the supplementary leverage ratio) to enable banks to lend to both the government and the private economy, which could either produce real economic growth or asset price inflation, but in either case benefits asset owners.",
+        "canonical_cc_id": "CC39",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+        "rationale": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+        "candidate_matches": [
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.7486361265182495
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.6885584592819214
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.6434311866760254
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.5396069288253784
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.503157913684845
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "local_theme_id": "LT-454CC8099740",
+        "local_theme_text": "The distributional impact of money printing",
+        "canonical_theme_id": "T78",
+        "confidence": 0.85,
+        "rationale": "The distributional impact of money printing is a core critique of the fiat monetary system, where new money creation transfers wealth to early recipients, aligning with T78's focus on critiquing the fiat system.",
+        "candidate_matches": [
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.5057727098464966
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.48187199234962463
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.465640127658844
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.46236905455589294
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.4289468824863434
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4275912642478943
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "local_theme_id": "LT-74AED9EC2A28",
+        "local_theme_text": "Bank deregulation via supplementary leverage ratio removal",
+        "canonical_theme_id": "T86",
+        "confidence": 0.95,
+        "rationale": "The theme explicitly discusses removing the supplementary leverage ratio, a form of banking deregulation, which directly corresponds to T86's focus on Federal Reserve and banking deregulation.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5606690049171448
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.481550931930542
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.4583577513694763
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.3430277109146118
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.3016456663608551
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.29018527269363403
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "local_theme_id": "LT-179EFCAD2D7D",
+        "local_theme_text": "The historical contrast between post-WWII debt reduction and current fiscal trajectory",
+        "canonical_theme_id": "T136",
+        "confidence": 0.8,
+        "rationale": "The historical contrast between post-WWII debt reduction and current fiscal trajectory is a discussion of US fiscal sustainability and debt dynamics, fitting T136's focus on US Fiscal and Monetary Situation and Debt Dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5480177998542786
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.4944753646850586
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.47364550828933716
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.4735092520713806
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.4473724663257599
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.4327189326286316
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-D866A7BDFFB8F5",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "date": "2026-04-15",
+        "source_hash": "62a42a395a397d29c305b5907d5f4d6ac7745becb8b3285e80af20d21b9c00f0",
+        "pair_id": "PAIR-CC39-T78",
+        "cc_id": "CC39",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-454CC8099740",
+        "local_theme_text": "The distributional impact of money printing",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The distributional impact of money printing is a core critique of the fiat monetary system, where new money creation transfers wealth to early recipients, aligning with T78's focus on critiquing the fiat system.",
+        "local_argument_id": "LA-5DB17DBDF827",
+        "conclusion": "Money printing that is not evenly distributed transfers real wealth from those who receive the new money last to those who receive it first.",
+        "premises": [
+          "Money is loaned into existence, so each dollar adds future demand.",
+          "First recipients spend at prices that have not yet changed, gaining real purchasing power.",
+          "Later recipients face higher prices from the cumulative demand, eroding their purchasing power."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A32A378C2801",
+            "item": "2020-2021 money printing led to increased economic inequality between top and bottom.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript makes this claim without citing any data or source.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "This is why all the money printing that happened during 2020 and 2021 led to such a difference in the economy between the top and the bottom.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E74903311305",
+            "item": "Stimulus checks were a small portion of money printing; most went to politically connected entities.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker asserts this without providing evidence or sources.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "the majority of the money printing that happened did not go out as stimulus checks. It was loaned to the government and then the government spent it to government contractors, PPP loans, grants, and it filtered its way through first to the people who were most politically connected.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-B7F9B273D5EE",
+            "device": "Stock split analogy",
+            "explanation": "Illustrates that evenly distributed money printing has no real effect on wealth, similar to a stock split where share count increases but value per share decreases proportionally.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "So similar to when a stock splits, there's no real change on wealth. You might have gone from owning 10 shares to now owning a 100 shares, but each share is worth 1/10th of it was before. So it's an even wash.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-D0E83C2508B3",
+            "device": "SpaceX Starship money transport analogy",
+            "explanation": "Illustrates that money printing that is completely isolated (e.g., sent to Mars) has no economic effect, showing that only money that enters the economy matters.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "imagine they print a quadrillion... they load it up on a SpaceX Starship, and they ship it off to Mars. Technically, the money supply did increase by a quadrillion dollars, but nobody has access to it. Therefore, it's not going to be spent. It's not going to enter the economy at all. And so there is no change. There is no net effect. there is no impact.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-B90F4122B0100A",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "date": "2026-04-15",
+        "source_hash": "62a42a395a397d29c305b5907d5f4d6ac7745becb8b3285e80af20d21b9c00f0",
+        "pair_id": "PAIR-CC39-T86",
+        "cc_id": "CC39",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-74AED9EC2A28",
+        "local_theme_text": "Bank deregulation via supplementary leverage ratio removal",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The theme explicitly discusses removing the supplementary leverage ratio, a form of banking deregulation, which directly corresponds to T86's focus on Federal Reserve and banking deregulation.",
+        "local_argument_id": "LA-48CC8C88EACB",
+        "conclusion": "Removing the supplementary leverage ratio will allow banks to purchase unlimited US Treasuries and lend to the private economy, potentially stimulating real growth without high inflation, but the outcome depends on whether banks lend productivity.",
+        "premises": [
+          "The supplementary leverage ratio penalizes banks by forcing them to use risk limits for Treasuries.",
+          "Removing it frees bank balance sheets for government and private lending.",
+          "Banks have a profit incentive to lend to productive private businesses, unlike the Fed's QE.",
+          "In 2020, temporary suspension led to a lending boom."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-1F370D9C9BFD",
+            "item": "In 2020, temporary suspension of the supplementary leverage ratio resulted in a significant increase in bank lending.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this without citing any specific data or source.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "In 2020, they temporarily suspended this supplementary leverage ratio and banks did what they expected them to do, which was they just started lending like crazy.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-36331CE4DE1A",
+            "item": "The supplementary leverage ratio is a current rule that penalizes banks for holding Treasuries.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript describes the rule but provides no sources.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "There's a rule right now on banks called the supplementary leverage ratio. And without getting too technical, basically this rule forces banks to purchase US treasuries and then it penalizes them for doing so with their risk limits.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-B6C2FCF14F49F1",
+        "speech_id": "SP-B82C5CD36460",
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "date": "2026-04-15",
+        "source_hash": "62a42a395a397d29c305b5907d5f4d6ac7745becb8b3285e80af20d21b9c00f0",
+        "pair_id": "PAIR-CC39-T136",
+        "cc_id": "CC39",
+        "theme_id": "T136",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that bank deregulation via removing the supplementary leverage ratio is the most effective solution to prevent a crisis, stimulate growth, and benefit asset owners, which is a close paraphrase of CC39's core claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-179EFCAD2D7D",
+        "local_theme_text": "The historical contrast between post-WWII debt reduction and current fiscal trajectory",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The historical contrast between post-WWII debt reduction and current fiscal trajectory is a discussion of US fiscal sustainability and debt dynamics, fitting T136's focus on US Fiscal and Monetary Situation and Debt Dynamics.",
+        "local_argument_id": "LA-0555FDE11E64",
+        "conclusion": "Unlike the post-WWII period when government spending collapsed from wartime levels, current government spending remains high and is driven by growing entitlements, preventing a similar debt reduction through growth alone.",
+        "premises": [
+          "Debt to GDP ratio exceeded 120% at the peak of World War II, similar to today.",
+          "Post-war government spending dropped from 40% of GDP to under 10%.",
+          "Current government spending is 22-23% of GDP and entitlements are increasing.",
+          "During WWII, production was directed to destruction; after war, it shifted to real goods."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9F8ECD74364C",
+            "item": "Post-WWII government spending fell from 40% to under 10% of GDP, while current spending is 22-23%.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript mentions a chart but provides no independent source.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "You can see pre-war the federal government spent under 10% of GDP. You can see post war it didn't quite get back down to those levels, but there was a massive drop from wartime 40%. Meanwhile, the government currently spends 22 to 23% of GDP.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-4EC58DAEB3A2",
+            "item": "Entitlements like Medicare, Medicaid, and Social Security are increasing and will not drop off a cliff.",
+            "status": "Unverifiable",
+            "verification_basis": "Assertion made without supporting data or projections.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "Entitlements like Medicare and Medicaid and Social Security are not going to drop off a cliff anytime soon like they would need to to get federal spending under control. They're actually increasing.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-DDF1ECADA5AF",
+            "device": "World War II production shift analogy",
+            "explanation": "During WWII, factories produced goods for destruction, which did not add to real wealth; after the war, they switched to producing goods people wanted, boosting real wealth. This illustrates how a rapid shift in spending can reduce debt, unlike the current slow buildup.",
+            "speech_id": "SP-B82C5CD36460",
+            "source_speech_filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+            "source_excerpt": "During World War II, they directed so much of the natural resources and the productive capacity of the economy to the war effort. Factories were literally making things just for destruction. Whether it was tanks, guns, airplanes, and then sending most of our most productive people to go destroy those things. ... Once the war ended, that effect reversed itself. All those factories started producing real stuff that people wanted and needed again and stopped destroying those resources.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "d6caa06082594e966b3420e793e35095c24e7669485d5ac6526abd4c1954a982",
+  "complete": true
+}

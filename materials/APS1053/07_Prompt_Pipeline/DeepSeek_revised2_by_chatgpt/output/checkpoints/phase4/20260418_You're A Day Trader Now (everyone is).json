@@ -1,0 +1,799 @@
+{
+  "dependencies": {
+    "source_hash": "765e542a7081b014b0af2882cbc481323cccc0ad6bab6af37e82c60a79863afd",
+    "phase1_record_hash": "62ac56758a700578011da4f33146de8286759e24f0fdffbc7e331aa37f89fa6a",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-83EDF732D0AB",
+    "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+    "stem": "20260418_You're A Day Trader Now (everyone is)",
+    "date": "2026-04-18",
+    "source_hash": "765e542a7081b014b0af2882cbc481323cccc0ad6bab6af37e82c60a79863afd",
+    "source_character_count": 11253,
+    "central_claim": "The elimination of the pattern day trader rule is a big win because it allows traders to manage risk effectively by taking small losses without penalty.",
+    "themes": [
+      {
+        "local_theme_id": "LT-681B77EA05E3",
+        "theme": "Historical context of the pattern day trader rule",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E6BB6B79310C",
+            "local_theme_id": "LT-681B77EA05E3",
+            "conclusion": "The $25,000 pattern day trading threshold was introduced in 2001 because the technology at the time could not handle the order flow from many day traders.",
+            "premises": [
+              "Before electronic trading, orders were slow and routed on a not-held basis, which was inefficient and costly.",
+              "Electronic trading became extremely popular, causing too many orders for the technology to handle.",
+              "Regulators introduced the $25,000 threshold and defined pattern day trader as making more than three day trades in a rolling five-day period."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7F6650F825C6",
+                "item": "The rule was introduced in 2001 with a $25,000 threshold and definition of pattern day trader as more than three day trades in five days.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the year, threshold, and definition.",
+                "speech_id": "SP-83EDF732D0AB",
+                "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+                "source_excerpt": "And so starting in 2001, regulators introduced a $25,000 threshold if you wanted to day trade. ... if you made more than three day trades in a rolling 5-day period, that would label you a pattern day trader.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-650FDD04C4CB",
+        "theme": "Obsolescence and negative consequences of the pattern day trader rule",
+        "arguments": [
+          {
+            "local_argument_id": "LA-52F319AA1FE8",
+            "local_theme_id": "LT-650FDD04C4CB",
+            "conclusion": "The pattern day trader rule has been obsolete for 15-20 years due to technological improvements.",
+            "premises": [
+              "Technology rapidly improved to the point where it could have supported everybody being a day trader.",
+              "The rule was implemented because of technological limitations that no longer exist."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C339171BF554",
+                "item": "Claim that technology improved to support everyone.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts this without providing evidence or source.",
+                "speech_id": "SP-83EDF732D0AB",
+                "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+                "source_excerpt": "The technology rapidly improved to the point where it could have supported everybody and their mother-in-law being a day trader for the last 15, 20 plus years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-DEF7A03B03CB",
+            "local_theme_id": "LT-650FDD04C4CB",
+            "conclusion": "The pattern day trader rules caused traders to lose more money and take on more risk because they avoided closing trades to stay under the limit.",
+            "premises": [
+              "Some traders intentionally chose not to close out trades to avoid being labeled a pattern day trader.",
+              "This caused them to suffer more losses than if they had closed the trade."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BD20FCA1F41D",
+                "item": "Statement that traders lost more money due to avoiding the label.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript makes this claim without providing any specific cases or statistics.",
+                "speech_id": "SP-83EDF732D0AB",
+                "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+                "source_excerpt": "So, ironically, the pattern day trader rules have caused many traders to lose more money and take on more risk and stopped them from de-risking because they didn't want to get labeled a pattern day trader.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-AF05417A5D07",
+        "theme": "New regulations after elimination of the pattern day trader rule",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1ED84F933647",
+            "local_theme_id": "LT-AF05417A5D07",
+            "conclusion": "After elimination, traders with margin accounts of $2,000 or more can make unlimited day trades with access to up to four times their cash as day trade buying power.",
+            "premises": [
+              "The $2,000 threshold for margin accounts remains.",
+              "Day trade buying power is four times the starting cash balance.",
+              "Traders can make as many day trades as they want without restrictions."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3E512CBEE33E",
+                "item": "New rule: any margin account over $2,000 can trade without limits.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific numbers and rules.",
+                "speech_id": "SP-83EDF732D0AB",
+                "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+                "source_excerpt": "as long as you have over $2,000 in your account, your account can be a margin account. ... you can place as many day trades as you want, do as many round trips as you want in a single day.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-67FA22430C37",
+                "item": "Day trade buying power is typically four times starting cash.",
+                "status": "Verified",
+                "verification_basis": "Transcript states this explicitly.",
+                "speech_id": "SP-83EDF732D0AB",
+                "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+                "source_excerpt": "Usually, it's four times your starting cash balance.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1C77F8308C72",
+        "theme": "Risk management benefits of eliminating the pattern day trader rule",
+        "arguments": [
+          {
+            "local_argument_id": "LA-661A04724555",
+            "local_theme_id": "LT-1C77F8308C72",
+            "conclusion": "The removal of the pattern day trader rule is a big win because it allows traders to manage risk by taking small losses without facing future restrictions.",
+            "premises": [
+              "Best investors' number one rule is 'never lose money'.",
+              "Only way to avoid large losses is to take small losses before they become large.",
+              "Previously, traders avoided taking small losses to avoid violating the pattern day trader rule."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E9365D17B2B4",
+                "item": "Warren Buffett's rule: never lose money.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly quotes the rule.",
+                "speech_id": "SP-83EDF732D0AB",
+                "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+                "source_excerpt": "It's Warren Buffett's number one rule, and his number two rule is never forget rule number one.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-3DEB9F27398B",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "The SEC has eliminated the $25,000 pattern day trading rule.",
+        "reason": "The transcript states this as a fact but does not cite any official source or provide documentation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot confirm from training data; treat as unsourced assertion.",
+        "source_excerpt": "Well, thankfully, the SEC has finally eliminated the $25,000 pattern day trading rule.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1C78316F7ACE",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "The technology rapidly improved to the point where it could have supported everybody being a day trader for the last 15-20 years.",
+        "reason": "No evidence or data is provided to support the timeline or capacity claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Subjective opinion without technical backing.",
+        "source_excerpt": "The technology rapidly improved to the point where it could have supported everybody and their mother-in-law being a day trader for the last 15, 20 plus years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C5897F6079A3",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "The pattern day trader rules have caused many traders to lose more money and take on more risk.",
+        "reason": "No specific examples, studies, or statistics are given to support this causal claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unsupported generalization.",
+        "source_excerpt": "So, ironically, the pattern day trader rules have caused many traders to lose more money and take on more risk and stopped them from de-risking because they didn't want to get labeled a pattern day trader.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-8BD9DC7DAA6D",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "Every single one of the best traders and investors throughout history all have the exact same number one rule: never lose money.",
+        "reason": "No evidence is provided to verify that all historical best traders hold this rule.",
+        "memory_check": "Corroborated",
+        "memory_note": "The 'never lose money' rule is often attributed to Warren Buffett, but the universal claim is unsubstantiated.",
+        "source_excerpt": "Every single one of the best traders and investors throughout history all have the exact same number one rule, and that's never lose money.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D92D6357787F",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "Pretty much everybody who has ever had a successful career investing and trading has early on blown themselves up by taking on too much risk.",
+        "reason": "This is a sweeping generalization without specific examples or data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Anecdotal claim not supported by transcript evidence.",
+        "source_excerpt": "Pretty much everybody who has ever had a successful career investing and trading has early on blown themselves up by taking on too much risk and letting a small loss turn into a big loss.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-92AE46E3B7EC",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "Most of the time [traders who hold hoping to break even] can't.",
+        "reason": "This is stated as a fact but no data or source is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unsupported assertion.",
+        "source_excerpt": "And most of the time they can't.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-16CF211562B3",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "The likely outcome of that is that they're going to blow themselves up and lose a small amount of money because they had less than $25,000 to begin with. They'll learn their lesson and even though it's a painful and expensive one, hopefully they'll come back better and do it the right way next time.",
+        "reason": "This is a speculative prediction about future outcomes, not supported by any evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Opinion and conjecture.",
+        "source_excerpt": "the likely outcome of that is that they're going to blow themselves up and lose a small amount of money because they had less than $25,000 to begin with. They'll learn their lesson and even though it's a painful and expensive one, hopefully they'll come back better and do it the right way next time.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ED07A7406022",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "Most platforms, especially the ones that have mostly small accounts like Robin Hood and Weeble and Mumu, they're probably going to be updating their systems immediately.",
+        "reason": "No evidence or timeline is provided for platform upgrade plans.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculation without source.",
+        "source_excerpt": "most platforms, especially the ones that have mostly small accounts like Robin Hood and Weeble and Mumu, they're probably going to be updating their systems immediately.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-55E272064128",
+        "speech_id": "SP-83EDF732D0AB",
+        "speech_ref": "20260418_You're A Day Trader Now (everyone is).txt",
+        "claim": "Stocks like Robin Hood are performing well on the news, as well as stocks like Weeble, as well as stocks like Interactive Brokers.",
+        "reason": "No market data or source is given to support the claim of stock performance.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unverified market claim.",
+        "source_excerpt": "And stocks like Robin Hood are performing well on the news, as well as stocks like Weeble, as well as stocks like Interactive Brokers.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The elimination of the pattern day trader rule is a big win because it allows traders to manage risk effectively by taking small losses without penalty.",
+      "themes": [
+        "Historical context of the pattern day trader rule",
+        "Obsolescence and negative consequences of the pattern day trader rule",
+        "New regulations after elimination of the pattern day trader rule",
+        "Risk management benefits of eliminating the pattern day trader rule"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 9
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "1489876d98daa09c9ed2f464a177b1fb707718739c1a366e2295c982e701125b",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "62ac56758a700578011da4f33146de8286759e24f0fdffbc7e331aa37f89fa6a",
+    "canonical_mapping": {
+      "speech_id": "SP-83EDF732D0AB",
+      "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC47",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+      "primary_cc_rationale": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T55",
+        "T118"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T55",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-AF05417A5D07",
+          "rationale": "New regulations after elimination describe updated market structure rules, clearly within securities regulation."
+        },
+        {
+          "theme_id": "T118",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-1C77F8308C72",
+          "rationale": "Risk management benefits of avoiding the rule pertain to trading strategies and market volatility, aligning with T118."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC47-T55",
+          "cc_id": "CC47",
+          "theme_id": "T55",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC47-T118",
+          "cc_id": "CC47",
+          "theme_id": "T118",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "local_cc_text": "The elimination of the pattern day trader rule is a big win because it allows traders to manage risk effectively by taking small losses without penalty.",
+        "canonical_cc_id": "CC47",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+        "rationale": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+        "candidate_matches": [
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.5732936859130859
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.27096542716026306
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.20638616383075714
+          },
+          {
+            "id": "CC14",
+            "text": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies, outweighing risks of increased fraud, insider trading, and volatility.",
+            "similarity": 0.16624432802200317
+          },
+          {
+            "id": "CC53",
+            "text": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+            "similarity": 0.15331116318702698
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "local_theme_id": "LT-681B77EA05E3",
+        "local_theme_text": "Historical context of the pattern day trader rule",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "The historical context of the pattern day trader rule directly pertains to securities regulation and market structure.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.20352937281131744
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.19976577162742615
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.18788279592990875
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.17150798439979553
+          },
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.163607656955719
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.1420097053050995
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "local_theme_id": "LT-650FDD04C4CB",
+        "local_theme_text": "Obsolescence and negative consequences of the pattern day trader rule",
+        "canonical_theme_id": "T55",
+        "confidence": 0.9,
+        "rationale": "The obsolescence and negative consequences of the rule are criticisms of a specific securities regulation, fitting T55.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.27086979150772095
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.2555243968963623
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.25022271275520325
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.22559256851673126
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.22110721468925476
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.17637771368026733
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "local_theme_id": "LT-AF05417A5D07",
+        "local_theme_text": "New regulations after elimination of the pattern day trader rule",
+        "canonical_theme_id": "T55",
+        "confidence": 0.9,
+        "rationale": "New regulations after elimination describe updated market structure rules, clearly within securities regulation.",
+        "candidate_matches": [
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.25843098759651184
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.24850653111934662
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.24644458293914795
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.2202540934085846
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.21354922652244568
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.20697441697120667
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "local_theme_id": "LT-1C77F8308C72",
+        "local_theme_text": "Risk management benefits of eliminating the pattern day trader rule",
+        "canonical_theme_id": "T118",
+        "confidence": 0.9,
+        "rationale": "Risk management benefits of avoiding the rule pertain to trading strategies and market volatility, aligning with T118.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.24106934666633606
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.15738268196582794
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.15304219722747803
+          },
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.13914832472801208
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.1359637975692749
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.1337086260318756
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-00ADB6870056F4",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "date": "2026-04-18",
+        "source_hash": "765e542a7081b014b0af2882cbc481323cccc0ad6bab6af37e82c60a79863afd",
+        "pair_id": "PAIR-CC47-T55",
+        "cc_id": "CC47",
+        "theme_id": "T55",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-650FDD04C4CB",
+        "local_theme_text": "Obsolescence and negative consequences of the pattern day trader rule",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The obsolescence and negative consequences of the rule are criticisms of a specific securities regulation, fitting T55.",
+        "local_argument_id": "LA-52F319AA1FE8",
+        "conclusion": "The pattern day trader rule has been obsolete for 15-20 years due to technological improvements.",
+        "premises": [
+          "Technology rapidly improved to the point where it could have supported everybody being a day trader.",
+          "The rule was implemented because of technological limitations that no longer exist."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C339171BF554",
+            "item": "Claim that technology improved to support everyone.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript asserts this without providing evidence or source.",
+            "speech_id": "SP-83EDF732D0AB",
+            "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+            "source_excerpt": "The technology rapidly improved to the point where it could have supported everybody and their mother-in-law being a day trader for the last 15, 20 plus years.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-F8990A330F7510",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "date": "2026-04-18",
+        "source_hash": "765e542a7081b014b0af2882cbc481323cccc0ad6bab6af37e82c60a79863afd",
+        "pair_id": "PAIR-CC47-T55",
+        "cc_id": "CC47",
+        "theme_id": "T55",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-650FDD04C4CB",
+        "local_theme_text": "Obsolescence and negative consequences of the pattern day trader rule",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The obsolescence and negative consequences of the rule are criticisms of a specific securities regulation, fitting T55.",
+        "local_argument_id": "LA-DEF7A03B03CB",
+        "conclusion": "The pattern day trader rules caused traders to lose more money and take on more risk because they avoided closing trades to stay under the limit.",
+        "premises": [
+          "Some traders intentionally chose not to close out trades to avoid being labeled a pattern day trader.",
+          "This caused them to suffer more losses than if they had closed the trade."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-BD20FCA1F41D",
+            "item": "Statement that traders lost more money due to avoiding the label.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript makes this claim without providing any specific cases or statistics.",
+            "speech_id": "SP-83EDF732D0AB",
+            "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+            "source_excerpt": "So, ironically, the pattern day trader rules have caused many traders to lose more money and take on more risk and stopped them from de-risking because they didn't want to get labeled a pattern day trader.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-106F2F0452055C",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "date": "2026-04-18",
+        "source_hash": "765e542a7081b014b0af2882cbc481323cccc0ad6bab6af37e82c60a79863afd",
+        "pair_id": "PAIR-CC47-T55",
+        "cc_id": "CC47",
+        "theme_id": "T55",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-AF05417A5D07",
+        "local_theme_text": "New regulations after elimination of the pattern day trader rule",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "New regulations after elimination describe updated market structure rules, clearly within securities regulation.",
+        "local_argument_id": "LA-1ED84F933647",
+        "conclusion": "After elimination, traders with margin accounts of $2,000 or more can make unlimited day trades with access to up to four times their cash as day trade buying power.",
+        "premises": [
+          "The $2,000 threshold for margin accounts remains.",
+          "Day trade buying power is four times the starting cash balance.",
+          "Traders can make as many day trades as they want without restrictions."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3E512CBEE33E",
+            "item": "New rule: any margin account over $2,000 can trade without limits.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides specific numbers and rules.",
+            "speech_id": "SP-83EDF732D0AB",
+            "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+            "source_excerpt": "as long as you have over $2,000 in your account, your account can be a margin account. ... you can place as many day trades as you want, do as many round trips as you want in a single day.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-67FA22430C37",
+            "item": "Day trade buying power is typically four times starting cash.",
+            "status": "Verified",
+            "verification_basis": "Transcript states this explicitly.",
+            "speech_id": "SP-83EDF732D0AB",
+            "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+            "source_excerpt": "Usually, it's four times your starting cash balance.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2A1349AE8C0A4F",
+        "speech_id": "SP-83EDF732D0AB",
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "date": "2026-04-18",
+        "source_hash": "765e542a7081b014b0af2882cbc481323cccc0ad6bab6af37e82c60a79863afd",
+        "pair_id": "PAIR-CC47-T118",
+        "cc_id": "CC47",
+        "theme_id": "T118",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech focuses exclusively on the elimination of the pattern day trader rule, providing historical context, explaining its obsolescence and negative consequences, detailing new regulations, and highlighting risk management benefits—thereby offering a detailed specific instance of that market development mentioned in CC47.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1C77F8308C72",
+        "local_theme_text": "Risk management benefits of eliminating the pattern day trader rule",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Risk management benefits of avoiding the rule pertain to trading strategies and market volatility, aligning with T118.",
+        "local_argument_id": "LA-661A04724555",
+        "conclusion": "The removal of the pattern day trader rule is a big win because it allows traders to manage risk by taking small losses without facing future restrictions.",
+        "premises": [
+          "Best investors' number one rule is 'never lose money'.",
+          "Only way to avoid large losses is to take small losses before they become large.",
+          "Previously, traders avoided taking small losses to avoid violating the pattern day trader rule."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E9365D17B2B4",
+            "item": "Warren Buffett's rule: never lose money.",
+            "status": "Verified",
+            "verification_basis": "Transcript directly quotes the rule.",
+            "speech_id": "SP-83EDF732D0AB",
+            "source_speech_filename": "20260418_You're A Day Trader Now (everyone is).txt",
+            "source_excerpt": "It's Warren Buffett's number one rule, and his number two rule is never forget rule number one.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-681B77EA05E3",
+        "local_argument_id": "LA-E6BB6B79310C",
+        "conclusion": "The $25,000 pattern day trading threshold was introduced in 2001 because the technology at the time could not handle the order flow from many day traders.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "1489876d98daa09c9ed2f464a177b1fb707718739c1a366e2295c982e701125b",
+  "complete": true
+}

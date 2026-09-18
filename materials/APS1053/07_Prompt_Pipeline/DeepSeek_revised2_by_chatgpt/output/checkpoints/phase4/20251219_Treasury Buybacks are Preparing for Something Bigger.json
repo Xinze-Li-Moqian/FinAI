@@ -1,0 +1,680 @@
+{
+  "dependencies": {
+    "source_hash": "0bb1fd73354575ec961088410b2f6697f7f853493954586ff82b90dc76e20563",
+    "phase1_record_hash": "68b0a53fa5f201ebd5281f924ca12b1b87204b025235092801c939b88e2045d8",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-3A0CDDFB62A8",
+    "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+    "stem": "20251219_Treasury Buybacks are Preparing for Something Bigger",
+    "date": "2025-12-19",
+    "source_hash": "0bb1fd73354575ec961088410b2f6697f7f853493954586ff82b90dc76e20563",
+    "source_character_count": 16063,
+    "central_claim": "The US Treasury's increasing buybacks of long-term debt, funded by short-term borrowing, are a deliberate strategy to prepare for future refinancing at lower long-term rates, likely through quantitative easing or yield curve control.",
+    "themes": [
+      {
+        "local_theme_id": "LT-143D6F9540CD",
+        "theme": "Treasury Buyback as Balance Transfer Mechanism",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3E84439F35E9",
+            "local_theme_id": "LT-143D6F9540CD",
+            "conclusion": "Treasury buybacks are effectively balance transfers where new short-term debt is used to retire more expensive long-term debt.",
+            "premises": [
+              "The Treasury spends more than it takes in taxes, so it must borrow the difference.",
+              "Buying back bonds early requires borrowing additional funds.",
+              "The Treasury is borrowing at short-term rates (3.5-3.6%) and using proceeds to buy back long-term bonds (yields 4.15-4.826%)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9EE8874B6B5E",
+                "item": "six-month Treasury bond yield of 3.6%",
+                "status": "Verified",
+                "verification_basis": "Specific yield provided in transcript.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "six-month Treasury bond or Treasury bill. Currently has a yield of 3.6%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9BA70312F809",
+                "item": "30-year Treasury bond yield of 4.826%",
+                "status": "Verified",
+                "verification_basis": "Specific yield provided in transcript.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "it's highest at the 30-year at 4.826%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B7CC789CDB1B",
+                "item": "Treasury buyback schedule for December 18, 17, 4, November 25, 20",
+                "status": "Verified",
+                "verification_basis": "Referenced from Treasury website.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "On December 18th, they were buying back the 20-year to 30-year bonds. On December 17th, they were buying back the three-year to five-year bonds. On December 4th, they were buying the 10-year to 20-year bonds. On November 25th, they were buying the one- to 10-year bonds. And on November 20th, they were buying the 20- to 30-year bonds.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-2FEE648A1538",
+                "device": "credit card balance transfer",
+                "explanation": "Used to illustrate that new debt is used to pay off old debt.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "This would be very similar to you doing a credit card balance transfer.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-955DEDC2B4C5",
+                "device": "paying off mortgage with credit card debt",
+                "explanation": "Further analogy highlighting the risk of short-term borrowing to retire long-term debt.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "this is more closely related to if you were taking out debt from a credit card to pay off your mortgage early.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D747E4D2B61A",
+        "theme": "Market Conditions and Liquidity Support",
+        "arguments": [
+          {
+            "local_argument_id": "LA-32FEA2923B64",
+            "local_theme_id": "LT-D747E4D2B61A",
+            "conclusion": "The Treasury's buybacks are labeled as liquidity support because there is insufficient demand for long-term US debt, requiring the government to act as a buyer.",
+            "premises": [
+              "Long-term yields are significantly higher than short-term yields (steep yield curve).",
+              "The buyback operation type on the Treasury website is listed as 'liquidity support' for longer-term maturities.",
+              "The speaker asserts that inflation expectations over 10-30 years are higher than current yields."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-574B9B82EF45",
+                "item": "operation type 'liquidity support' for long-term buybacks",
+                "status": "Verified",
+                "verification_basis": "Referenced from Treasury website.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "every single one of these buybacks, that is the longer-term maturity debt that they're buying back, has liquidity support labeled as the reason.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-18EBC17544C3",
+        "theme": "Strategic Refinancing Plan and Historical Precedent",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DD59234A94B7",
+            "local_theme_id": "LT-18EBC17544C3",
+            "conclusion": "The ultimate goal of the buyback strategy is to shrink the average duration of debt and then refinance at lower long-term rates when they drop, potentially through Fed intervention like QE or yield curve control, as done in the 1940s.",
+            "premises": [
+              "The Treasury is concentrating debt in short-term T-bills to take advantage of low short rates and high demand.",
+              "The speaker states the plan is to refinance into longer-term debt when rates go down.",
+              "Historical parallel: 1940s deleveraging via QE and yield curve control.",
+              "Possible deregulation of banks (SLR) could enable them to buy unlimited Treasuries."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7E38F834DC3E",
+                "item": "Nine trillion dollars of debt needs to be paid back this year (indicating concentration at short end).",
+                "status": "Verified",
+                "verification_basis": "Specific figure provided in transcript.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "I made a video a couple of days ago about how $9 trillion of debt needs to get paid back this year",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-807866B38DAB",
+                "device": "1940s playbook",
+                "explanation": "Used to suggest that current strategy mirrors post-war debt management.",
+                "speech_id": "SP-3A0CDDFB62A8",
+                "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+                "source_excerpt": "This is the 1940s playbook.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 13462,
+                  "character_end": 13489,
+                  "line_start": 357
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-B72B8E231F9D",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "Inflation expectations over the next 10, 20, 30 years are higher than what those yields are paying right now.",
+        "reason": "No supporting data or source is provided in the transcript for this assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The speaker does not cite any survey, market pricing, or economic model.",
+        "source_excerpt": "The most obvious reason why is because inflation expectations over the next 10, 20, 30 years are higher than what those yields are paying right now.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-AAFC1420530E",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "Lenders are just not lining up to loan the government money for 30 years given the deficit, rate of borrowing, and spending increases.",
+        "reason": "The claim is presented as a generalization without evidence or auction data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No auction results or demand figures are provided.",
+        "source_excerpt": "lenders are just not lining up to loan the government money for 30 years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E4662B4BEB56",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "The only way they get long-term interest rates to go down and stay down enough ... is with some form of quantitative easing or yield curve control.",
+        "reason": "The speaker presents this as a likely necessity without supporting analysis or precedent beyond assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No alternative scenarios are considered or evidence given for exclusivity.",
+        "source_excerpt": "likely the only way they get long-term interest rates to go down and stay down enough with enough demand for them to roll over and refinance the national debt to longer-term duration is with some form of quantitative easing or yield curve control.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D0D3941B50A0",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "We are very likely to see quantitative easing start through the banks.",
+        "reason": "This is a prediction with no supporting evidence or timeline.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No policy announcements or specific signals are cited.",
+        "source_excerpt": "we are very likely to see quantitative easing start through the banks.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B408147F2E58",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "There has been a lot of talk about deregulating the banks so that the banks can buy an unlimited number of US Treasuries without risk.",
+        "reason": "No source, quotes, or specific policy proposals are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The phrase 'a lot of talk' is vague and unattributed.",
+        "source_excerpt": "There's been a lot of talk about deregulating the banks so that the banks can buy an unlimited number of US Treasuries without risk.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0E68E3FEEF98",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "Since 2020, we entered into phase two of the long-term debt cycle again, just like we started in 1940.",
+        "reason": "The speaker defines a historical cycle without evidence for phase timing or characteristics.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No data on debt-to-GDP, interest rates, or references to cycle definitions.",
+        "source_excerpt": "Ever since 2020, we entered into phase two of the long-term debt cycle again, just like we started in 1940, it ended in 1980.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BF874F9ED4D5",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "The Fed is buying the six months, the one years, the two years.",
+        "reason": "The speaker refers to his own previous videos but does not provide a verifiable source within this transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No Fed statement or data is cited.",
+        "source_excerpt": "The Fed is buying the six months, the one years, the two years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-32B255022E6E",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "Bessant has been talking about ... getting long-term interest rates ... down.",
+        "reason": "No direct quote, speech reference, or timestamp is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The name 'Bessant' is mentioned without context or documentation.",
+        "source_excerpt": "That is the thing that Bessant has been talking about since this administration got into power.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AEECFC093824",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "speech_ref": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "claim": "The US Treasury's increasing buybacks of long-term debt are a deliberate strategy to prepare for refinancing at lower rates via QE or yield curve control.",
+        "reason": "The central claim is an inference not directly supported by any official statement or data in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is the speaker's interpretation of Treasury actions.",
+        "source_excerpt": "These buybacks have a lot less to do with what is happening right now and a lot more to do with what they are preparing for in the near future.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The US Treasury's increasing buybacks of long-term debt, funded by short-term borrowing, are a deliberate strategy to prepare for future refinancing at lower long-term rates, likely through quantitative easing or yield curve control.",
+      "themes": [
+        "Treasury Buyback as Balance Transfer Mechanism",
+        "Market Conditions and Liquidity Support",
+        "Strategic Refinancing Plan and Historical Precedent"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 9
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "bb3906219f0ffebb22961a43cd92e0a6eb14919ce9a5f216ae58a965b5908755",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "68b0a53fa5f201ebd5281f924ca12b1b87204b025235092801c939b88e2045d8",
+    "canonical_mapping": {
+      "speech_id": "SP-3A0CDDFB62A8",
+      "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech explains the specific mechanism of Treasury buyback operations as a deliberate preparatory step for future Federal Reserve unconventional monetary policies (QE or yield curve control) necessitated by deficit spending, directly illustrating the causal process described in CC54.",
+      "primary_cc_rationale": "The speech explains the specific mechanism of Treasury buyback operations as a deliberate preparatory step for future Federal Reserve unconventional monetary policies (QE or yield curve control) necessitated by deficit spending, directly illustrating the causal process described in CC54.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T119",
+        "T99"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T119",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-D747E4D2B61A",
+          "rationale": "The speech frames buybacks as liquidity support due to insufficient demand, which is a core aspect of monetary policy and liquidity conditions."
+        },
+        {
+          "theme_id": "T99",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-18EBC17544C3",
+          "rationale": "The speech describes a strategic refinancing plan with historical precedent (1940s), fitting the theme of government policy proposals and structural reforms."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T119",
+          "cc_id": "CC54",
+          "theme_id": "T119",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T99",
+          "cc_id": "CC54",
+          "theme_id": "T99",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "local_cc_text": "The US Treasury's increasing buybacks of long-term debt, funded by short-term borrowing, are a deliberate strategy to prepare for future refinancing at lower long-term rates, likely through quantitative easing or yield curve control.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech explains the specific mechanism of Treasury buyback operations as a deliberate preparatory step for future Federal Reserve unconventional monetary policies (QE or yield curve control) necessitated by deficit spending, directly illustrating the causal process described in CC54.",
+        "rationale": "The speech explains the specific mechanism of Treasury buyback operations as a deliberate preparatory step for future Federal Reserve unconventional monetary policies (QE or yield curve control) necessitated by deficit spending, directly illustrating the causal process described in CC54.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.4516146183013916
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.4233877658843994
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.3852810859680176
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.33291852474212646
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.255035400390625
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "local_theme_id": "LT-143D6F9540CD",
+        "local_theme_text": "Treasury Buyback as Balance Transfer Mechanism",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "Directly addresses government debt management operations (buybacks) to refinance long-term debt, aligning with the theme of fiscal debt management.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.3542666733264923
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.292239248752594
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.23607292771339417
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.23082248866558075
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.21757617592811584
+          },
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.21607515215873718
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "local_theme_id": "LT-D747E4D2B61A",
+        "local_theme_text": "Market Conditions and Liquidity Support",
+        "canonical_theme_id": "T119",
+        "confidence": 0.85,
+        "rationale": "The speech frames buybacks as liquidity support due to insufficient demand, which is a core aspect of monetary policy and liquidity conditions.",
+        "candidate_matches": [
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.7764701843261719
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.4979233741760254
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.4884539842605591
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.4077916145324707
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.39450603723526
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.39415138959884644
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "local_theme_id": "LT-18EBC17544C3",
+        "local_theme_text": "Strategic Refinancing Plan and Historical Precedent",
+        "canonical_theme_id": "T99",
+        "confidence": 0.7,
+        "rationale": "The speech describes a strategic refinancing plan with historical precedent (1940s), fitting the theme of government policy proposals and structural reforms.",
+        "candidate_matches": [
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.28881996870040894
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.26437026262283325
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.26405197381973267
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.253905713558197
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.23393923044204712
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.2322125881910324
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-A398A056E40FE2",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "date": "2025-12-19",
+        "source_hash": "0bb1fd73354575ec961088410b2f6697f7f853493954586ff82b90dc76e20563",
+        "pair_id": "PAIR-CC54-T119",
+        "cc_id": "CC54",
+        "theme_id": "T119",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the specific mechanism of Treasury buyback operations as a deliberate preparatory step for future Federal Reserve unconventional monetary policies (QE or yield curve control) necessitated by deficit spending, directly illustrating the causal process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-D747E4D2B61A",
+        "local_theme_text": "Market Conditions and Liquidity Support",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The speech frames buybacks as liquidity support due to insufficient demand, which is a core aspect of monetary policy and liquidity conditions.",
+        "local_argument_id": "LA-32FEA2923B64",
+        "conclusion": "The Treasury's buybacks are labeled as liquidity support because there is insufficient demand for long-term US debt, requiring the government to act as a buyer.",
+        "premises": [
+          "Long-term yields are significantly higher than short-term yields (steep yield curve).",
+          "The buyback operation type on the Treasury website is listed as 'liquidity support' for longer-term maturities.",
+          "The speaker asserts that inflation expectations over 10-30 years are higher than current yields."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-574B9B82EF45",
+            "item": "operation type 'liquidity support' for long-term buybacks",
+            "status": "Verified",
+            "verification_basis": "Referenced from Treasury website.",
+            "speech_id": "SP-3A0CDDFB62A8",
+            "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+            "source_excerpt": "every single one of these buybacks, that is the longer-term maturity debt that they're buying back, has liquidity support labeled as the reason.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-16BF933A335FE1",
+        "speech_id": "SP-3A0CDDFB62A8",
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "date": "2025-12-19",
+        "source_hash": "0bb1fd73354575ec961088410b2f6697f7f853493954586ff82b90dc76e20563",
+        "pair_id": "PAIR-CC54-T99",
+        "cc_id": "CC54",
+        "theme_id": "T99",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the specific mechanism of Treasury buyback operations as a deliberate preparatory step for future Federal Reserve unconventional monetary policies (QE or yield curve control) necessitated by deficit spending, directly illustrating the causal process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-18EBC17544C3",
+        "local_theme_text": "Strategic Refinancing Plan and Historical Precedent",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The speech describes a strategic refinancing plan with historical precedent (1940s), fitting the theme of government policy proposals and structural reforms.",
+        "local_argument_id": "LA-DD59234A94B7",
+        "conclusion": "The ultimate goal of the buyback strategy is to shrink the average duration of debt and then refinance at lower long-term rates when they drop, potentially through Fed intervention like QE or yield curve control, as done in the 1940s.",
+        "premises": [
+          "The Treasury is concentrating debt in short-term T-bills to take advantage of low short rates and high demand.",
+          "The speaker states the plan is to refinance into longer-term debt when rates go down.",
+          "Historical parallel: 1940s deleveraging via QE and yield curve control.",
+          "Possible deregulation of banks (SLR) could enable them to buy unlimited Treasuries."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7E38F834DC3E",
+            "item": "Nine trillion dollars of debt needs to be paid back this year (indicating concentration at short end).",
+            "status": "Verified",
+            "verification_basis": "Specific figure provided in transcript.",
+            "speech_id": "SP-3A0CDDFB62A8",
+            "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+            "source_excerpt": "I made a video a couple of days ago about how $9 trillion of debt needs to get paid back this year",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-807866B38DAB",
+            "device": "1940s playbook",
+            "explanation": "Used to suggest that current strategy mirrors post-war debt management.",
+            "speech_id": "SP-3A0CDDFB62A8",
+            "source_speech_filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+            "source_excerpt": "This is the 1940s playbook.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 13462,
+              "character_end": 13489,
+              "line_start": 357
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-143D6F9540CD",
+        "local_argument_id": "LA-3E84439F35E9",
+        "conclusion": "Treasury buybacks are effectively balance transfers where new short-term debt is used to retire more expensive long-term debt.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "bb3906219f0ffebb22961a43cd92e0a6eb14919ce9a5f216ae58a965b5908755",
+  "complete": true
+}

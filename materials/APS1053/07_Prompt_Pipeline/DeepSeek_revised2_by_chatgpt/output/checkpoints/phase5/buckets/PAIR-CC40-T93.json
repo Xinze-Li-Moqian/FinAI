@@ -1,0 +1,82 @@
+{
+  "dependency_hash": "b3690c3a2c0839719f15b49888ea9be0d3c77a0eadfdcc55070a09e3c86b1e71",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC40-T93",
+    "cc_id": "CC40",
+    "theme_id": "T93",
+    "authoritative_anchor": "cc-cc40-theme-t93",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC40-T93-5FF445E87E",
+        "pair_id": "PAIR-CC40-T93",
+        "conclusion": "Making investment decisions under time pressure and fear of missing out leads to losses.",
+        "source_contribution_ids": [
+          "CONTRIB-6AD8A356F8BD0E"
+        ],
+        "source_speech_filenames": [
+          "20250813_What I Learned Losing a Million Dollars.txt"
+        ],
+        "premise_synthesis": "The speaker recounts an investment in a private gold miner that was presented with a close deadline and limited availability, creating time pressure and fear of missing out. Lacking time for due diligence, the speaker invested $100,000. Subsequently, management ceased communication and the investment plan evaporated, resulting in a total loss of the principal.",
+        "conclusion_supported": "The experience establishes that urgent, due-diligence-deprived decisions in high-pressure situations, particularly in opaque private gold miner investments, are likely to result in significant financial loss, reinforcing the CC's lesson for secure wealth building.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-6AD8A356F8BD0E"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Loss of $100,000 on private gold miner investment",
+            "status": "Unverifiable",
+            "verification_basis": "Personal account without external verification.",
+            "source_contribution_ids": [
+              "CONTRIB-6AD8A356F8BD0E"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ],
+            "source_excerpt": "I lost $100,000 on that investment."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "The Richest Man in Babylon story",
+            "explanation": "Illustrates that waiting for certainty eliminates profit opportunities, but due diligence is still required.",
+            "source_contribution_ids": [
+              "CONTRIB-6AD8A356F8BD0E"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "The argument is derived from a single speech dated 2025-08-13; no cross-temporal evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-6AD8A356F8BD0E"
+    ],
+    "source_speech_filenames": [
+      "20250813_What I Learned Losing a Million Dollars.txt"
+    ],
+    "generated_at": "2026-07-15T03:26:59+00:00",
+    "record_hash": "5f56ff5c238d2625bf85fecf027d2788fa410a1f786ce6a321c04285deb1dd52"
+  },
+  "complete": true
+}

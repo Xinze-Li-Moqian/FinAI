@@ -1,0 +1,1048 @@
+{
+  "dependencies": {
+    "source_hash": "19ec05fb3727615bb1d66cf760f222fab96c7c25d269a58b8af36024810d19d8",
+    "phase1_record_hash": "48f9afb6701d58a1522e0d5bd62d211cb018cc1a85ecb8952bfacefeae889623",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-746948D5C2F6",
+    "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+    "stem": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING",
+    "date": "2026-02-02",
+    "source_hash": "19ec05fb3727615bb1d66cf760f222fab96c7c25d269a58b8af36024810d19d8",
+    "source_character_count": 15825,
+    "central_claim": "The Federal Reserve, under new chair Kevin Warsh, will continue to find ways to expand the money supply and support government borrowing, ultimately benefiting banks and the government at the expense of the average person.",
+    "themes": [
+      {
+        "local_theme_id": "LT-EB0B988F18B8",
+        "theme": "Warsh's nomination market reaction",
+        "arguments": [
+          {
+            "local_argument_id": "LA-40B950688417",
+            "local_theme_id": "LT-EB0B988F18B8",
+            "conclusion": "Kevin Warsh's nomination is less bullish than expected.",
+            "premises": [
+              "Market sold off on Friday as a result of the news",
+              "Gold closed down 9% from the prior day partly due to this news"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D1E9572DAC9E",
+                "item": "Market closed less than half a percent down on Friday",
+                "status": "Verified",
+                "verification_basis": "transcript provides the specific numerical datum",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "the market overall sold off on Friday as a result of this news. Though it only closed less than a half a percent down from the prior day's open",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-19405B620C07",
+                "item": "Gold closed down 9% from prior day on this news",
+                "status": "Verified",
+                "verification_basis": "transcript provides the statistic and its attribution",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "gold as well had an absolutely terrible day on Friday, partly because of the unwind of the blowoff top and precious metals. But it closed down 9% from the prior day, largely on this news of Trump's next pick",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-6C9C7DCD830B",
+        "theme": "Warsh's historical role and criticism",
+        "arguments": [
+          {
+            "local_argument_id": "LA-77BC30C7001E",
+            "local_theme_id": "LT-6C9C7DCD830B",
+            "conclusion": "Kevin Warsh has been critical of the Fed's post-2008 easing policy, attributing it to wealth inequality.",
+            "premises": [
+              "He was instrumental in the initial bailouts and TARP during the financial crisis",
+              "He left the Fed in 2011 and became critical of continued QE after the emergency ended",
+              "He specifically blamed Fed policy for rising asset prices and stagnant wages"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-59509DCE1585",
+                "item": "Joined Fed in 2006, left in 2011",
+                "status": "Verified",
+                "verification_basis": "transcript provides explicit dates",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "He joined all the way back in 2006, left in 2011",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C72B7C48FAF4",
+                "item": "Instrumental in forming bailouts and TARP",
+                "status": "Verified",
+                "verification_basis": "transcript asserts this as fact",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "He was actually instrumental in helping form all of the bailouts and the troubled asset relief program, otherwise known as TARP",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-21157402682A",
+                "item": "Fed balance sheet went from under $1 trillion to over $2 trillion by December 2008",
+                "status": "Verified",
+                "verification_basis": "transcript provides specific numbers",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "from under a trillion dollars in July of 2008 to over $2 trillion by December of 2008",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-563B9688D16E",
+                "item": "Warsh criticized QE for widening wealth gap",
+                "status": "Unverifiable",
+                "verification_basis": "transcript reports his position but does not provide a direct quote or verifiable source",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-9B1F4AAA3034",
+                "item": "Warsh said asset price rise was much larger than Fed expected",
+                "status": "Unverifiable",
+                "verification_basis": "transcript reports his statement without providing a direct quote or source",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-B2DE0884F7B9",
+                "item": "Warsh said wages and employment were much worse than Fed expected",
+                "status": "Unverifiable",
+                "verification_basis": "transcript reports his statement without providing a direct quote or source",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-B4E95AB9684F",
+        "theme": "Interest rate tensions and yield curve",
+        "arguments": [
+          {
+            "local_argument_id": "LA-849BC01F8DE9",
+            "local_theme_id": "LT-B4E95AB9684F",
+            "conclusion": "Lowering short-term rates to please Trump will lead to higher long-term rates due to increased money supply and inflation expectations.",
+            "premises": [
+              "The US government borrows and spends more when short-term rates are low",
+              "Borrowing and spending increases the money supply",
+              "Increased money supply causes prices to rise",
+              "Rational lenders demand higher long-term rates to compensate for inflation",
+              "Long-term rates have been heading higher recently despite short-term cuts"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-67186F2DFBD2",
+                "item": "Money supply at an all-time high",
+                "status": "Verified",
+                "verification_basis": "transcript provides the assertion as a datum",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "money supply... is now sitting at an all-time high",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-17E0BB2BF6A3",
+                "item": "Long-term rates like 20-year and 30-year Treasury yields heading higher",
+                "status": "Verified",
+                "verification_basis": "transcript provides this observation as fact",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "you look at long-term interest rates like the yield on the 20-year Treasury or the 30-year Treasury, they've actually been heading higher",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-53D02B6C14D0",
+        "theme": "Bank deregulation strategy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2A2D050CB5FB",
+            "local_theme_id": "LT-53D02B6C14D0",
+            "conclusion": "Removing the supplementary leverage ratio and providing an implicit Fed backstop will enable banks to buy unlimited US Treasuries, allowing long-term rates to stay low.",
+            "premises": [
+              "The supplementary leverage ratio restricts banks' Treasury purchases",
+              "There is a push to deregulate, especially from Governor Steven Moran",
+              "The Fed's Bank Term Funding Program allows banks to sell Treasuries back to the Fed at full price",
+              "Banks care only about the spread between what they pay depositors and what they earn on Treasuries",
+              "An implicit bailout makes Treasuries effectively risk-free for banks"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-041D53531CFD",
+                "item": "Supplementary leverage ratio limits Treasury holdings",
+                "status": "Verified",
+                "verification_basis": "transcript explains this regulation",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "a restriction on how many treasuries banks can buy because the rules right now regulating banks say that treasuries are risky",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C95AB02FA335",
+                "item": "Governor Steven Moran pushes for permanent deregulation",
+                "status": "Unverifiable",
+                "verification_basis": "transcript mentions this without providing a source or quote",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "especially from people like Governor Steven Moran",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C1C10CF1522B",
+                "item": "Bank Term Funding Program temporarily buys treasuries at full price",
+                "status": "Verified",
+                "verification_basis": "transcript describes this Fed tool",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "the Federal Reserve already has a tool to deal with that called the bank term funding program. If treasuries do go down in value, banks can temporarily sell those treasuries back to the Fed for full price",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-60C6870EB2EB",
+        "theme": "Historical precedent of Fed chairs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-523831E88231",
+            "local_theme_id": "LT-60C6870EB2EB",
+            "conclusion": "Fed chairs often act contrary to their prior rhetoric when faced with economic pressure, so Kevin Warsh will likely continue expansionary policies.",
+            "premises": [
+              "Alan Greenspan was vocal about liking gold and critical of easing, but lowered rates during the dot-com bust",
+              "Greenspan's easing planted seeds for the great financial crisis",
+              "Warsh's past criticism does not guarantee he will resist expansion under pressure"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DA185AFB4C0C",
+                "item": "Greenspan lowered interest rates when the dot-com bubble began to burst",
+                "status": "Verified",
+                "verification_basis": "transcript provides this historical claim as fact",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "when the.com bubble began to burst, he lowered interest rates to try and smooth out the effect on the economy",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-F970159FB755",
+                "item": "Greenspan's easing paved the way for the great financial crisis",
+                "status": "Unverifiable",
+                "verification_basis": "transcript asserts a causal link without supporting data",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-225D025865BB",
+                "device": "Greenspan analogy",
+                "explanation": "To illustrate that Fed chairs' prior statements are not predictive of their actions in office; Warsh will likely follow the same pattern of supporting expansionary policy despite his critical views.",
+                "speech_id": "SP-746948D5C2F6",
+                "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+                "source_excerpt": "Heck, go back all the way to Alan Greenspan who was very vocal about how much he liked gold, very critical about easing monetary policy in order to bail out the economy. But guess what? That's exactly what he did.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-12831AFF640C",
+        "speech_id": "SP-746948D5C2F6",
+        "speech_ref": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "claim": "The market sold off on Friday as a direct result of Trump's pick of Kevin Warsh.",
+        "reason": "The transcript asserts a causal link but provides no supporting data or alternative explanation to isolate the effect.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No other claims in the transcript support this causal relationship beyond the speaker's assertion.",
+        "source_excerpt": "the market overall sold off on Friday as a result of this news",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F28AC800FE06",
+        "speech_id": "SP-746948D5C2F6",
+        "speech_ref": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "claim": "Gold closed down 9% from the prior day largely on the news of Warsh's pick.",
+        "reason": "The transcript also mentions the unwind of the blowoff top in precious metals as a factor, making the attribution unclear.",
+        "memory_check": "Contradicted",
+        "memory_note": "The transcript provides an alternative partial cause ('unwind of the blowoff top and precious metals'), so the claim that it was largely on this news is internally contradicted.",
+        "source_excerpt": "But it closed down 9% from the prior day, largely on this news of Trump's next pick",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A3DF35A1F16A",
+        "speech_id": "SP-746948D5C2F6",
+        "speech_ref": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "claim": "Kevin Warsh has gone on record saying the Fed's policies directly contributed to the widening wealth gap.",
+        "reason": "No direct quotation or source is provided; only reported speech.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No other part of transcript verifies this statement.",
+        "source_excerpt": "he has gone on record saying that this has directly contributed to the widening wealth gap, the inequality that Americans have been experiencing over the last decade plus",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0BF2F988AF1B",
+        "speech_id": "SP-746948D5C2F6",
+        "speech_ref": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "claim": "The Federal Reserve's balance sheet reduction in 2018 failed, resulting in not QE in 2019 and massive printing in 2020-2021.",
+        "reason": "The transcript asserts this as a historical fact but provides no supporting evidence or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No other internal evidence supports this historical assertion.",
+        "source_excerpt": "they did try and wind it down in 2018 and that failed, resulting in what we now call not QE in 2019 and then massive, massive printing in 2020 and 2021",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5F2210917EA6",
+        "speech_id": "SP-746948D5C2F6",
+        "speech_ref": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "claim": "The money supply must continue to expand, otherwise we go into a deflationary death spiral.",
+        "reason": "Presented as an unqualified economic necessity without any supporting data or argument.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No other claims in the transcript validate this necessity.",
+        "source_excerpt": "the money supply must continue to expand, otherwise we go into a deflationary death spiral",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve, under new chair Kevin Warsh, will continue to find ways to expand the money supply and support government borrowing, ultimately benefiting banks and the government at the expense of the average person.",
+      "themes": [
+        "Warsh's nomination market reaction",
+        "Warsh's historical role and criticism",
+        "Interest rate tensions and yield curve",
+        "Bank deregulation strategy",
+        "Historical precedent of Fed chairs"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 5
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "3f3903d86adc030ab615324747a79d79a82a627183b21e7aff01887894194db6",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "48f9afb6701d58a1522e0d5bd62d211cb018cc1a85ecb8952bfacefeae889623",
+    "canonical_mapping": {
+      "speech_id": "SP-746948D5C2F6",
+      "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+      "primary_cc_rationale": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T86",
+        "T75",
+        "T128"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T86",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-53D02B6C14D0",
+          "rationale": "The conclusion specifically discusses removing the supplementary leverage ratio and implicit Fed backstop, which is core to banking deregulation."
+        },
+        {
+          "theme_id": "T75",
+          "confidence": 0.6,
+          "source_local_theme_id": "LT-60C6870EB2EB",
+          "rationale": "The historical precedent of Fed chairs acting contrary to rhetoric under pressure relates to central bank governance and political independence."
+        },
+        {
+          "theme_id": "T128",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-B4E95AB9684F",
+          "rationale": "The conclusion about lower short-term rates leading to higher long-term rates directly addresses yield curve dynamics and interest rate expectations."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T86",
+          "cc_id": "CC50",
+          "theme_id": "T86",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T75",
+          "cc_id": "CC50",
+          "theme_id": "T75",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T128",
+          "cc_id": "CC50",
+          "theme_id": "T128",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "local_cc_text": "The Federal Reserve, under new chair Kevin Warsh, will continue to find ways to expand the money supply and support government borrowing, ultimately benefiting banks and the government at the expense of the average person.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+        "rationale": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.6835916042327881
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.6085656881332397
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.5328031778335571
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.38835301995277405
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.36202239990234375
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "local_theme_id": "LT-EB0B988F18B8",
+        "local_theme_text": "Warsh's nomination market reaction",
+        "canonical_theme_id": "T115",
+        "confidence": 0.6,
+        "rationale": "The conclusion about market reaction to Warsh nomination being less bullish relates to market sentiment.",
+        "candidate_matches": [
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.23433975875377655
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.23152589797973633
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.17518293857574463
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.17282934486865997
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.1667628288269043
+          },
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.1634402722120285
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "local_theme_id": "LT-6C9C7DCD830B",
+        "local_theme_text": "Warsh's historical role and criticism",
+        "canonical_theme_id": "T75",
+        "confidence": 0.5,
+        "rationale": "Warsh's criticism of Fed policy relates to central bank governance and independence.",
+        "candidate_matches": [
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.24844376742839813
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.2157692313194275
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.19287607073783875
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.16454318165779114
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.15231794118881226
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.1462203711271286
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "local_theme_id": "LT-B4E95AB9684F",
+        "local_theme_text": "Interest rate tensions and yield curve",
+        "canonical_theme_id": "T128",
+        "confidence": 0.8,
+        "rationale": "The conclusion about lower short-term rates leading to higher long-term rates directly addresses yield curve dynamics and interest rate expectations.",
+        "candidate_matches": [
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.6116447448730469
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.6073809266090393
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.581427276134491
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.45006000995635986
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.3852906823158264
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3314608931541443
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "local_theme_id": "LT-53D02B6C14D0",
+        "local_theme_text": "Bank deregulation strategy",
+        "canonical_theme_id": "T86",
+        "confidence": 0.9,
+        "rationale": "The conclusion specifically discusses removing the supplementary leverage ratio and implicit Fed backstop, which is core to banking deregulation.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.7427597045898438
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.5527530908584595
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.5125879049301147
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.4989887773990631
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.4404434263706207
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.3946872651576996
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "local_theme_id": "LT-60C6870EB2EB",
+        "local_theme_text": "Historical precedent of Fed chairs",
+        "canonical_theme_id": "T75",
+        "confidence": 0.6,
+        "rationale": "The historical precedent of Fed chairs acting contrary to rhetoric under pressure relates to central bank governance and political independence.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.3801781237125397
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.3594422936439514
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.350153386592865
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.3378623127937317
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.3367443084716797
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.29361259937286377
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-A470F6F1AA3DE1",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "date": "2026-02-02",
+        "source_hash": "19ec05fb3727615bb1d66cf760f222fab96c7c25d269a58b8af36024810d19d8",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-6C9C7DCD830B",
+        "local_theme_text": "Warsh's historical role and criticism",
+        "theme_mapping_confidence": 0.5,
+        "theme_mapping_rationale": "Warsh's criticism of Fed policy relates to central bank governance and independence.",
+        "local_argument_id": "LA-77BC30C7001E",
+        "conclusion": "Kevin Warsh has been critical of the Fed's post-2008 easing policy, attributing it to wealth inequality.",
+        "premises": [
+          "He was instrumental in the initial bailouts and TARP during the financial crisis",
+          "He left the Fed in 2011 and became critical of continued QE after the emergency ended",
+          "He specifically blamed Fed policy for rising asset prices and stagnant wages"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-59509DCE1585",
+            "item": "Joined Fed in 2006, left in 2011",
+            "status": "Verified",
+            "verification_basis": "transcript provides explicit dates",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "He joined all the way back in 2006, left in 2011",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C72B7C48FAF4",
+            "item": "Instrumental in forming bailouts and TARP",
+            "status": "Verified",
+            "verification_basis": "transcript asserts this as fact",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "He was actually instrumental in helping form all of the bailouts and the troubled asset relief program, otherwise known as TARP",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-21157402682A",
+            "item": "Fed balance sheet went from under $1 trillion to over $2 trillion by December 2008",
+            "status": "Verified",
+            "verification_basis": "transcript provides specific numbers",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "from under a trillion dollars in July of 2008 to over $2 trillion by December of 2008",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-563B9688D16E",
+            "item": "Warsh criticized QE for widening wealth gap",
+            "status": "Unverifiable",
+            "verification_basis": "transcript reports his position but does not provide a direct quote or verifiable source",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-9B1F4AAA3034",
+            "item": "Warsh said asset price rise was much larger than Fed expected",
+            "status": "Unverifiable",
+            "verification_basis": "transcript reports his statement without providing a direct quote or source",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-B2DE0884F7B9",
+            "item": "Warsh said wages and employment were much worse than Fed expected",
+            "status": "Unverifiable",
+            "verification_basis": "transcript reports his statement without providing a direct quote or source",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-8689514FFBCD1B",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "date": "2026-02-02",
+        "source_hash": "19ec05fb3727615bb1d66cf760f222fab96c7c25d269a58b8af36024810d19d8",
+        "pair_id": "PAIR-CC50-T128",
+        "cc_id": "CC50",
+        "theme_id": "T128",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B4E95AB9684F",
+        "local_theme_text": "Interest rate tensions and yield curve",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The conclusion about lower short-term rates leading to higher long-term rates directly addresses yield curve dynamics and interest rate expectations.",
+        "local_argument_id": "LA-849BC01F8DE9",
+        "conclusion": "Lowering short-term rates to please Trump will lead to higher long-term rates due to increased money supply and inflation expectations.",
+        "premises": [
+          "The US government borrows and spends more when short-term rates are low",
+          "Borrowing and spending increases the money supply",
+          "Increased money supply causes prices to rise",
+          "Rational lenders demand higher long-term rates to compensate for inflation",
+          "Long-term rates have been heading higher recently despite short-term cuts"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-67186F2DFBD2",
+            "item": "Money supply at an all-time high",
+            "status": "Verified",
+            "verification_basis": "transcript provides the assertion as a datum",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "money supply... is now sitting at an all-time high",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-17E0BB2BF6A3",
+            "item": "Long-term rates like 20-year and 30-year Treasury yields heading higher",
+            "status": "Verified",
+            "verification_basis": "transcript provides this observation as fact",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "you look at long-term interest rates like the yield on the 20-year Treasury or the 30-year Treasury, they've actually been heading higher",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-EA623DBD69A274",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "date": "2026-02-02",
+        "source_hash": "19ec05fb3727615bb1d66cf760f222fab96c7c25d269a58b8af36024810d19d8",
+        "pair_id": "PAIR-CC50-T86",
+        "cc_id": "CC50",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-53D02B6C14D0",
+        "local_theme_text": "Bank deregulation strategy",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The conclusion specifically discusses removing the supplementary leverage ratio and implicit Fed backstop, which is core to banking deregulation.",
+        "local_argument_id": "LA-2A2D050CB5FB",
+        "conclusion": "Removing the supplementary leverage ratio and providing an implicit Fed backstop will enable banks to buy unlimited US Treasuries, allowing long-term rates to stay low.",
+        "premises": [
+          "The supplementary leverage ratio restricts banks' Treasury purchases",
+          "There is a push to deregulate, especially from Governor Steven Moran",
+          "The Fed's Bank Term Funding Program allows banks to sell Treasuries back to the Fed at full price",
+          "Banks care only about the spread between what they pay depositors and what they earn on Treasuries",
+          "An implicit bailout makes Treasuries effectively risk-free for banks"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-041D53531CFD",
+            "item": "Supplementary leverage ratio limits Treasury holdings",
+            "status": "Verified",
+            "verification_basis": "transcript explains this regulation",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "a restriction on how many treasuries banks can buy because the rules right now regulating banks say that treasuries are risky",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C95AB02FA335",
+            "item": "Governor Steven Moran pushes for permanent deregulation",
+            "status": "Unverifiable",
+            "verification_basis": "transcript mentions this without providing a source or quote",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "especially from people like Governor Steven Moran",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C1C10CF1522B",
+            "item": "Bank Term Funding Program temporarily buys treasuries at full price",
+            "status": "Verified",
+            "verification_basis": "transcript describes this Fed tool",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "the Federal Reserve already has a tool to deal with that called the bank term funding program. If treasuries do go down in value, banks can temporarily sell those treasuries back to the Fed for full price",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-94363C933424DA",
+        "speech_id": "SP-746948D5C2F6",
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "date": "2026-02-02",
+        "source_hash": "19ec05fb3727615bb1d66cf760f222fab96c7c25d269a58b8af36024810d19d8",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-60C6870EB2EB",
+        "local_theme_text": "Historical precedent of Fed chairs",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "The historical precedent of Fed chairs acting contrary to rhetoric under pressure relates to central bank governance and political independence.",
+        "local_argument_id": "LA-523831E88231",
+        "conclusion": "Fed chairs often act contrary to their prior rhetoric when faced with economic pressure, so Kevin Warsh will likely continue expansionary policies.",
+        "premises": [
+          "Alan Greenspan was vocal about liking gold and critical of easing, but lowered rates during the dot-com bust",
+          "Greenspan's easing planted seeds for the great financial crisis",
+          "Warsh's past criticism does not guarantee he will resist expansion under pressure"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-DA185AFB4C0C",
+            "item": "Greenspan lowered interest rates when the dot-com bubble began to burst",
+            "status": "Verified",
+            "verification_basis": "transcript provides this historical claim as fact",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "when the.com bubble began to burst, he lowered interest rates to try and smooth out the effect on the economy",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-F970159FB755",
+            "item": "Greenspan's easing paved the way for the great financial crisis",
+            "status": "Unverifiable",
+            "verification_basis": "transcript asserts a causal link without supporting data",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-225D025865BB",
+            "device": "Greenspan analogy",
+            "explanation": "To illustrate that Fed chairs' prior statements are not predictive of their actions in office; Warsh will likely follow the same pattern of supporting expansionary policy despite his critical views.",
+            "speech_id": "SP-746948D5C2F6",
+            "source_speech_filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+            "source_excerpt": "Heck, go back all the way to Alan Greenspan who was very vocal about how much he liked gold, very critical about easing monetary policy in order to bail out the economy. But guess what? That's exactly what he did.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-EB0B988F18B8",
+        "local_argument_id": "LA-40B950688417",
+        "conclusion": "Kevin Warsh's nomination is less bullish than expected.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "3f3903d86adc030ab615324747a79d79a82a627183b21e7aff01887894194db6",
+  "complete": true
+}

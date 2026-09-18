@@ -1,0 +1,171 @@
+{
+  "dependency_hash": "2f61a126af92332b793717a0d017cc42ec9d4c49d8812d35853c6ff7087bb2cb",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC39-T90",
+    "cc_id": "CC39",
+    "theme_id": "T90",
+    "authoritative_anchor": "cc-cc39-theme-t90",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC39-T90-FF110AE4D6",
+        "pair_id": "PAIR-CC39-T90",
+        "conclusion": "Banks may use the extra lending capacity from deregulation for share buybacks and dividends rather than lending, potentially worsening the K-shaped economy and inequality.",
+        "source_contribution_ids": [
+          "CONTRIB-BF8FC44E34FEA1"
+        ],
+        "source_speech_filenames": [
+          "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+        ],
+        "premise_synthesis": "Extra lending capacity may not be met by demand. Banks can choose to return capital to shareholders through buybacks and dividends instead of increasing lending.",
+        "conclusion_supported": "The deregulation may not lead to increased lending if banks choose to prioritize shareholder returns, thus failing to stimulate the economy and exacerbating inequality.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-BF8FC44E34FEA1"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Statement that deregulation will increase banks' abilities to do share buybacks and dividends",
+            "status": "Verified",
+            "verification_basis": "Transcript directly asserts this effect.",
+            "source_contribution_ids": [
+              "CONTRIB-BF8FC44E34FEA1"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "it'll also increase banks' abilities to do share buybacks and dividends."
+          },
+          {
+            "item": "Prediction that deregulation may just increase bank profitability and worsen the K-shaped economy",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no supporting data or citation.",
+            "source_contribution_ids": [
+              "CONTRIB-BF8FC44E34FEA1"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "it's very possible that this deregulation just increases the profitability of banks themselves, further worsening the K-shaped economy that we've already seen form over the last couple of years."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech from 2026-03-23; no cross-speech evolution is available.",
+        "disagreements_or_qualifications": [
+          "This argument qualifies the claim that deregulation will stimulate lending and growth; it suggests banks may not lend but rather return capital to shareholders. This is a disagreement about the expected behavior of banks, not about facts or data."
+        ]
+      },
+      {
+        "argument_id": "ARG-PAIR-CC39-T90-F166B31CA5",
+        "pair_id": "PAIR-CC39-T90",
+        "conclusion": "Removing the supplementary leverage ratio will increase lending over the long term and positively impact GDP, M2 money supply, and asset prices over one to two years, with very little short-term effect.",
+        "source_contribution_ids": [
+          "CONTRIB-5B548DDA6C086B",
+          "CONTRIB-9E25766DA2DD37"
+        ],
+        "source_speech_filenames": [
+          "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+        ],
+        "premise_synthesis": "A 90-day public consultation period precedes finalization. High interest rates currently constrain mortgage demand regardless of lower capital requirements. The changes are small and gradual, taking multiple years to unfold. Increased lending capacity will gradually be used over time, expanding the money supply and economic activity.",
+        "conclusion_supported": "The proposed deregulation will have a positive impact on lending and macroeconomic indicators such as GDP, M2, and asset prices over a one- to two-year horizon, despite minimal short-term effects.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-5B548DDA6C086B",
+              "CONTRIB-9E25766DA2DD37"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "90-day public consultation period",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states the proposal includes a 90-day comment period.",
+            "source_contribution_ids": [
+              "CONTRIB-5B548DDA6C086B"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "there's a 90-day public consultation before they can be finalized."
+          },
+          {
+            "item": "Prediction that these changes will have moderate, small, very little effects in the short term",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no external source for this forecast.",
+            "source_contribution_ids": [
+              "CONTRIB-5B548DDA6C086B"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "Very likely, these proposed changes will have moderate, small, very, very little effects in the short term, and just increase lending over the long term."
+          },
+          {
+            "item": "Claim that mortgage demand is constrained by high interest rates",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript offers no data or citation for this claim.",
+            "source_contribution_ids": [
+              "CONTRIB-5B548DDA6C086B"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "The main constraint there is interest rates are too high. There's just not enough demand for buying houses right now because interest rates are so high"
+          },
+          {
+            "item": "Prediction of positive impact on GDP, bank lending, M2 money supply, and asset prices over one to two years",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no data or external source for this forecast.",
+            "source_contribution_ids": [
+              "CONTRIB-9E25766DA2DD37"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "over the next one to two years, even this small change that allows banks to lend a little bit more should have a positive increase on GDP, positive increase in bank lending, positive increase in the M2 money supply, and positive increase overall on asset prices as a result of those first three things."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech from 2026-03-23; no cross-speech evolution is available. Within this speech, the speaker presents a phased view: very little short-term effect but positive impact over one to two years and beyond.",
+        "disagreements_or_qualifications": [
+          "A competing argument notes that banks may use extra lending capacity for share buybacks and dividends rather than lending, which could worsen the K-shaped economy and inequality. This disagreement concerns the mechanism and assumption that increased capacity will translate into lending."
+        ]
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-5B548DDA6C086B",
+      "CONTRIB-9E25766DA2DD37",
+      "CONTRIB-BF8FC44E34FEA1"
+    ],
+    "source_speech_filenames": [
+      "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+    ],
+    "generated_at": "2026-07-15T03:24:23+00:00",
+    "record_hash": "b24dbe6618246ef5f8b77df39de2fec9bfa9b1b16db1763d598d7358dc79a747"
+  },
+  "complete": true
+}

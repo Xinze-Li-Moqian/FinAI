@@ -1,0 +1,198 @@
+{
+  "dependency_hash": "cf7219f3a8c0d3c44fad16561ce1d7670b15a0006b4dd3bce88840eb08d3772a",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC50-T86",
+    "cc_id": "CC50",
+    "theme_id": "T86",
+    "authoritative_anchor": "cc-cc50-theme-t86",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC50-T86-05A7E43CF1",
+        "pair_id": "PAIR-CC50-T86",
+        "conclusion": "Removing the supplementary leverage ratio and providing an implicit Fed backstop will enable banks to buy unlimited US Treasuries, allowing long-term rates to stay low.",
+        "source_contribution_ids": [
+          "CONTRIB-EA623DBD69A274"
+        ],
+        "source_speech_filenames": [
+          "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt"
+        ],
+        "premise_synthesis": "The supplementary leverage ratio restricts banks' Treasury purchases. There is a push to deregulate, especially from Governor Steven Moran. The Fed's Bank Term Funding Program allows banks to sell Treasuries back to the Fed at full price. Banks care only about the spread between what they pay depositors and what they earn on Treasuries. An implicit bailout makes Treasuries effectively risk-free for banks. Therefore, removing the SLR and providing an implicit Fed backstop would enable banks to buy unlimited Treasuries, keeping long-term rates low.",
+        "conclusion_supported": "The conclusion that removing the SLR and providing an implicit Fed backstop will enable banks to buy unlimited Treasuries and keep long-term rates low is supported by the premise that current regulations limit bank Treasury purchases, a push for deregulation exists, the Bank Term Funding Program provides a backstop, and banks seek the spread between deposit rates and Treasury yields.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-EA623DBD69A274"
+            ],
+            "source_speech_filenames": [
+              "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that under Kevin Warsh, the Federal Reserve will continue expansionary policies, including bank deregulation and SLR removal, to support government borrowing, leading to inflation and benefiting banks at the expense of the public, which directly supports the canonical claim of CC50."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Supplementary leverage ratio limits Treasury holdings",
+            "status": "Verified",
+            "verification_basis": "transcript explains this regulation",
+            "source_contribution_ids": [
+              "CONTRIB-EA623DBD69A274"
+            ],
+            "source_speech_filenames": [
+              "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt"
+            ],
+            "source_excerpt": "a restriction on how many treasuries banks can buy because the rules right now regulating banks say that treasuries are risky"
+          },
+          {
+            "item": "Governor Steven Moran pushes for permanent deregulation",
+            "status": "Unverifiable",
+            "verification_basis": "transcript mentions this without providing a source or quote",
+            "source_contribution_ids": [
+              "CONTRIB-EA623DBD69A274"
+            ],
+            "source_speech_filenames": [
+              "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt"
+            ],
+            "source_excerpt": "especially from people like Governor Steven Moran"
+          },
+          {
+            "item": "Bank Term Funding Program temporarily buys treasuries at full price",
+            "status": "Verified",
+            "verification_basis": "transcript describes this Fed tool",
+            "source_contribution_ids": [
+              "CONTRIB-EA623DBD69A274"
+            ],
+            "source_speech_filenames": [
+              "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt"
+            ],
+            "source_excerpt": "the Federal Reserve already has a tool to deal with that called the bank term funding program. If treasuries do go down in value, banks can temporarily sell those treasuries back to the Fed for full price"
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is from a single speech dated 2026-02-02; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC50-T86-424091DC4B",
+        "pair_id": "PAIR-CC50-T86",
+        "conclusion": "The Federal Reserve has resumed increasing its balance sheet to buy Treasuries because other buyers are scarce.",
+        "source_contribution_ids": [
+          "CONTRIB-8795C563DAE498"
+        ],
+        "source_speech_filenames": [
+          "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+        ],
+        "premise_synthesis": "The Fed started increasing its balance sheet again, as shown in a chart, and previous big rounds of QE were very unpopular. This indicates that the Fed is stepping in to buy Treasuries because other buyers are scarce, which will eventually lead to the deregulation policies described.",
+        "conclusion_supported": "The conclusion that the Fed has resumed increasing its balance sheet to buy Treasuries due to scarce other buyers is supported by the premise of a chart showing the Fed's balance sheet increase and the unpopularity of past QE.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-8795C563DAE498"
+            ],
+            "source_speech_filenames": [
+              "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+            ],
+            "relationship_explanations": [
+              "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Federal Reserve started increasing its balance sheet yet again, as seen at the end of the chart.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart referenced but not provided; no other source given.",
+            "source_contribution_ids": [
+              "CONTRIB-8795C563DAE498"
+            ],
+            "source_speech_filenames": [
+              "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+            ],
+            "source_excerpt": "the Federal Reserve started increasing its balance sheet yet again, as you can see at the end of this chart."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is from a single speech dated 2026-01-26; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC50-T86-66BEDCFA67",
+        "pair_id": "PAIR-CC50-T86",
+        "conclusion": "The supplementary leverage ratio will likely be permanently removed so banks can buy unlimited Treasuries using depositor funds.",
+        "source_contribution_ids": [
+          "CONTRIB-20A12E15888ABE"
+        ],
+        "source_speech_filenames": [
+          "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+        ],
+        "premise_synthesis": "The SLR was temporarily suspended in 2020, allowing massive bank buying. Governor Moran has argued for freeing bank balance sheets. Banks can earn a spread using depositor money, so they will buy regardless of yield level. Therefore, the SLR will likely be permanently removed, enabling banks to buy unlimited Treasuries with depositor funds.",
+        "conclusion_supported": "The conclusion that the SLR will likely be permanently removed to allow banks to buy unlimited Treasuries using depositor funds is supported by the precedent of the 2020 suspension, Governor Moran's arguments, and the incentive for banks to earn the spread.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-20A12E15888ABE"
+            ],
+            "source_speech_filenames": [
+              "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+            ],
+            "relationship_explanations": [
+              "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Governor Moran at the Federal Reserve has talked extensively about freeing up banks' balance sheets.",
+            "status": "Unverifiable",
+            "verification_basis": "Reference to source but no excerpt provided.",
+            "source_contribution_ids": [
+              "CONTRIB-20A12E15888ABE"
+            ],
+            "source_speech_filenames": [
+              "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+            ],
+            "source_excerpt": "Governor Moran at the Federal Reserve has talked about this extensively in speeches and reports that you can find on the Fed's website"
+          },
+          {
+            "item": "SLR was temporarily suspended back in 2020 allowing banks to buy as many treasuries as they wanted.",
+            "status": "Unverifiable",
+            "verification_basis": "Historical claim without citation.",
+            "source_contribution_ids": [
+              "CONTRIB-20A12E15888ABE"
+            ],
+            "source_speech_filenames": [
+              "20260126_Treasuries Look Ready to Break (and what happens when they do).txt"
+            ],
+            "source_excerpt": "That was temporarily suspended back in 2020 and allowed banks to buy as many treasuries as they wanted, and they did."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is from a single speech dated 2026-01-26; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-20A12E15888ABE",
+      "CONTRIB-8795C563DAE498",
+      "CONTRIB-EA623DBD69A274"
+    ],
+    "source_speech_filenames": [
+      "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+      "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt"
+    ],
+    "generated_at": "2026-07-15T03:56:25+00:00",
+    "record_hash": "ef4f812aa527d93505ffee84065f665ea0c524177f642bfe5993017d86662909"
+  },
+  "complete": true
+}

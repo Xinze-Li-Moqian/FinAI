@@ -1,0 +1,875 @@
+{
+  "dependencies": {
+    "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+    "phase1_record_hash": "7a9864b17ef922368e7481192c7d78b44571863ca7581f8f9d56cfc97b21bec3",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-A515B8023D09",
+    "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+    "stem": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings",
+    "date": "2025-11-08",
+    "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+    "source_character_count": 10918,
+    "central_claim": "Most retirees do not have to use their retirement savings because their expenses are funded by taxpayers through Social Security and Medicare, which are wealth transfer systems from younger poorer workers to older richer retirees.",
+    "themes": [
+      {
+        "local_theme_id": "LT-54913DE2F596",
+        "theme": "Retiree savings withdrawal rates",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7E183F1BDCA7",
+            "local_theme_id": "LT-54913DE2F596",
+            "conclusion": "86% of all retirees never have to draw down on their own wealth.",
+            "premises": [
+              "26% of retirees withdraw up to the amount their portfolio earns",
+              "58% of retirees withdraw less than their investments earn"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CB58DDCC4C2C",
+                "item": "26% withdraw up to portfolio earnings",
+                "status": "Verified",
+                "verification_basis": "Transcript cites dollarsendata.com as source for this statistic",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "We can see that 26% of retirees are withdrawing up to the amount that their portfolio earns",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7FB979CB74E7",
+                "item": "58% withdraw less than investments earn",
+                "status": "Verified",
+                "verification_basis": "Transcript cites dollarsendata.com as source",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "an astonishing 58% of all retirees are actually withdrawing less than their investments earn",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-A4C6AA2577B9",
+        "theme": "Social Security and Medicare as wealth transfer systems",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8348E997D372",
+            "local_theme_id": "LT-A4C6AA2577B9",
+            "conclusion": "Social Security and Medicare are direct wealth transfer systems from younger, poorer working people to older, richer retired people.",
+            "premises": [
+              "They are not needs-based but age-based",
+              "Age has a one-to-one correlation with wealth",
+              "Money is taken from current workers to pay current retirees"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6362FEBF5935",
+                "item": "Median net worth by age group shows older people are wealthier",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states the correlation but does not provide an explicit source for the median net worth data beyond the speaker's own claim",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "If you take a look at the median net worth by age group, you can see it is a direct correlation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-407F8D22AAFE",
+                "item": "The age cohort 65-74 has median net worth around $400,000",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for this specific figure",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "the age cohort of 65 to 74 with a median net worth of around $400,000",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-191D696E8C68",
+                "item": "United income study shows average wealth at death increases until 90s",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly names United income study as source",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "A United income study showed that the average retired adult who dies in their 60s leaves behind $296,000 in wealth. But if they don't die till their 70s, they leave behind more, $313,000. And if they die in their 80s, they leave behind even more, 315,000 on average. And it's not until you get to the people who live into their 90s that they start to actually draw that down, leaving behind an average of 238,000.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-D1D8EF1032F7",
+                "device": "Wealth transfer system redefinition",
+                "explanation": "The speaker reframes Social Security and Medicare not as social safety nets but as wealth transfer systems to highlight regressive distribution",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "These are not social safety nets. These are wealth transfer systems from poor, younger working people to older, rich, or retired non-working people.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-B1AB2AA199A4",
+            "local_theme_id": "LT-A4C6AA2577B9",
+            "conclusion": "The majority of American retirees' wealth actually grows because they use so little of it, since taxpayers fund their expenses.",
+            "premises": [
+              "86% never draw down on wealth",
+              "Taxpayers fund retirees' expenses via Social Security and Medicare"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7C1276D51CEE",
+                "item": "86% never have to draw down (same withdrawal data)",
+                "status": "Verified",
+                "verification_basis": "See previous evidence under same theme",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "we can see that 26% of retirees are withdrawing up to the amount that their portfolio earns... but an astonishing 58% of all retirees are actually withdrawing less than their investments earn. This means that a staggering 86% of all retirees in the United States never have to draw down on their own wealth.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-A16C7A137B0D",
+                "item": "Wealth increasing until 90s from United income study",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly names United income study",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "A United income study showed that the average retired adult who dies in their 60s leaves behind $296,000... $313,000... $315,000... $238,000",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-44E67D1A2BA3",
+        "theme": "Social Security trust fund depletion and policy outcomes",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3D70AA814BAA",
+            "local_theme_id": "LT-44E67D1A2BA3",
+            "conclusion": "The Social Security trust fund will be depleted in 2033, one year sooner than last year's estimate.",
+            "premises": [
+              "2010 estimate was 2037",
+              "Fund is being depleted year after year",
+              "Most recent update shows one year sooner"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-4BB76E6F3AC2",
+                "item": "2010 Social Security report estimated depletion in 2037",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly names Social Security report from 2010 as source",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "This is a report from Social Security released all the way back in 2010. And at that time, they thought that the Social Security fund would not run out until 2037.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EEEE71E1F378",
+                "item": "Current estimate depletion in 2033 with 77% benefits payable",
+                "status": "Verified",
+                "verification_basis": "Transcript cites most recent update from this year as source",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "The Social Security trust fund will be depleted in 2033 and at that time 77% of the benefits will be payable.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-44874EB2F941",
+            "local_theme_id": "LT-44E67D1A2BA3",
+            "conclusion": "The most likely outcome of depletion is continued debasement of the dollar, so investors should buy inflation-protected assets.",
+            "premises": [
+              "Benefits will be cut to payables or taxes/inflation increased",
+              "Political constraints make benefit cuts unlikely",
+              "Thus inflation/tax increase is the likely path",
+              "Historical patterns show certain assets rise when money debases"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F6C30B584491",
+                "item": "Legal default provision would cut benefits to 77%",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states this as fact about legal design but provides no source",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "currently that is the only legal outcome because of the way Social Security is designed",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-2894B629DD19",
+                "item": "Historical pattern: assets go up when money goes down",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts this without any specific source or example",
+                "speech_id": "SP-A515B8023D09",
+                "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+                "source_excerpt": "things that historically go up when the money goes down",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7ADA8ECFCFAC",
+        "speech_id": "SP-A515B8023D09",
+        "speech_ref": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "claim": "The United States has $38 trillion in debt, runs $2 trillion deficits every year, and pays over a trillion dollars in interest payments on the debt.",
+        "reason": "The transcript provides no source or internal support for these specific figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Knowledge cutoff may not include current debt figures; no transcript source provided.",
+        "source_excerpt": "$ 38 trillion in debt running $2 trillion deficits every single year with over a trillion dollar in interest payments on the debt alone",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A1FCFDB22FA5",
+        "speech_id": "SP-A515B8023D09",
+        "speech_ref": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "claim": "There is no fund for Medicare.",
+        "reason": "The transcript makes this assertion without any citation or explanation, and it contradicts common knowledge that Medicare has a Hospital Insurance trust fund.",
+        "memory_check": "Contradicted",
+        "memory_note": "Medicare Part A has a trust fund; the statement as given is oversimplified and potentially false.",
+        "source_excerpt": "I'm talking mostly about social security here, but Medicare is the exact same thing. There is no fund for it.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7EE78B9E9516",
+        "speech_id": "SP-A515B8023D09",
+        "speech_ref": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "claim": "The only reason current retirees can receive full benefits is leftover money from past decades when demographics were more favorable.",
+        "reason": "The transcript does not cite any source for this historical demographic explanation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common explanation but not verified within transcript.",
+        "source_excerpt": "The only reason they are able to still pay that $100 to current retirees right now is because there is some left over from back decades ago when the demographics were flipped and there were more working people to take money from than retired people to give that money to.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Most retirees do not have to use their retirement savings because their expenses are funded by taxpayers through Social Security and Medicare, which are wealth transfer systems from younger poorer workers to older richer retirees.",
+      "themes": [
+        "Retiree savings withdrawal rates",
+        "Social Security and Medicare as wealth transfer systems",
+        "Social Security trust fund depletion and policy outcomes"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 3
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "df5ba2d62217b563f6d8214a4b311e90cc0d68016ea8d8e82907147324aea5d0",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "7a9864b17ef922368e7481192c7d78b44571863ca7581f8f9d56cfc97b21bec3",
+    "canonical_mapping": {
+      "speech_id": "SP-A515B8023D09",
+      "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC56",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+      "primary_cc_rationale": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T130",
+        "T137",
+        "T103"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T130",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-A4C6AA2577B9",
+          "rationale": "Directly matches the theme of Social Security and Medicare as wealth transfer systems."
+        },
+        {
+          "theme_id": "T137",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-44E67D1A2BA3",
+          "rationale": "The theme of trust fund depletion and policy outcomes relates to US fiscal sustainability and policy responses."
+        },
+        {
+          "theme_id": "T103",
+          "confidence": 0.6,
+          "source_local_theme_id": "LT-54913DE2F596",
+          "rationale": "The theme of retiree savings withdrawal rates relates to household income trends, as the speech argues that due to Social Security/Medicare funding, retirees do not need to draw down savings, affecting their income sources."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC56-T130",
+          "cc_id": "CC56",
+          "theme_id": "T130",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC56-T137",
+          "cc_id": "CC56",
+          "theme_id": "T137",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC56-T103",
+          "cc_id": "CC56",
+          "theme_id": "T103",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "local_cc_text": "Most retirees do not have to use their retirement savings because their expenses are funded by taxpayers through Social Security and Medicare, which are wealth transfer systems from younger poorer workers to older richer retirees.",
+        "canonical_cc_id": "CC56",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "rationale": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "candidate_matches": [
+          {
+            "id": "CC56",
+            "text": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+            "similarity": 0.5934361219406128
+          },
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.30320554971694946
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.21867476403713226
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.18632787466049194
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.1741454005241394
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "local_theme_id": "LT-54913DE2F596",
+        "local_theme_text": "Retiree savings withdrawal rates",
+        "canonical_theme_id": "T103",
+        "confidence": 0.6,
+        "rationale": "The theme of retiree savings withdrawal rates relates to household income trends, as the speech argues that due to Social Security/Medicare funding, retirees do not need to draw down savings, affecting their income sources.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.27382218837738037
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.2554633617401123
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.21481698751449585
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.15969602763652802
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.15889783203601837
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.15713834762573242
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "local_theme_id": "LT-A4C6AA2577B9",
+        "local_theme_text": "Social Security and Medicare as wealth transfer systems",
+        "canonical_theme_id": "T130",
+        "confidence": 0.95,
+        "rationale": "Directly matches the theme of Social Security and Medicare as wealth transfer systems.",
+        "candidate_matches": [
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.6871087551116943
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.42123448848724365
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3001724183559418
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.24378365278244019
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.23686464130878448
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.22731946408748627
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "local_theme_id": "LT-44E67D1A2BA3",
+        "local_theme_text": "Social Security trust fund depletion and policy outcomes",
+        "canonical_theme_id": "T137",
+        "confidence": 0.75,
+        "rationale": "The theme of trust fund depletion and policy outcomes relates to US fiscal sustainability and policy responses.",
+        "candidate_matches": [
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.3804924488067627
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.36026573181152344
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.33279961347579956
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.2967730164527893
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.2940990924835205
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.2757241129875183
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-50EC1D060E65BA",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "date": "2025-11-08",
+        "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+        "pair_id": "PAIR-CC56-T103",
+        "cc_id": "CC56",
+        "theme_id": "T103",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-54913DE2F596",
+        "local_theme_text": "Retiree savings withdrawal rates",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "The theme of retiree savings withdrawal rates relates to household income trends, as the speech argues that due to Social Security/Medicare funding, retirees do not need to draw down savings, affecting their income sources.",
+        "local_argument_id": "LA-7E183F1BDCA7",
+        "conclusion": "86% of all retirees never have to draw down on their own wealth.",
+        "premises": [
+          "26% of retirees withdraw up to the amount their portfolio earns",
+          "58% of retirees withdraw less than their investments earn"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-CB58DDCC4C2C",
+            "item": "26% withdraw up to portfolio earnings",
+            "status": "Verified",
+            "verification_basis": "Transcript cites dollarsendata.com as source for this statistic",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "We can see that 26% of retirees are withdrawing up to the amount that their portfolio earns",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-7FB979CB74E7",
+            "item": "58% withdraw less than investments earn",
+            "status": "Verified",
+            "verification_basis": "Transcript cites dollarsendata.com as source",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "an astonishing 58% of all retirees are actually withdrawing less than their investments earn",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-C285CD0B1723A4",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "date": "2025-11-08",
+        "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+        "pair_id": "PAIR-CC56-T130",
+        "cc_id": "CC56",
+        "theme_id": "T130",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A4C6AA2577B9",
+        "local_theme_text": "Social Security and Medicare as wealth transfer systems",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Directly matches the theme of Social Security and Medicare as wealth transfer systems.",
+        "local_argument_id": "LA-8348E997D372",
+        "conclusion": "Social Security and Medicare are direct wealth transfer systems from younger, poorer working people to older, richer retired people.",
+        "premises": [
+          "They are not needs-based but age-based",
+          "Age has a one-to-one correlation with wealth",
+          "Money is taken from current workers to pay current retirees"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6362FEBF5935",
+            "item": "Median net worth by age group shows older people are wealthier",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states the correlation but does not provide an explicit source for the median net worth data beyond the speaker's own claim",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "If you take a look at the median net worth by age group, you can see it is a direct correlation.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-407F8D22AAFE",
+            "item": "The age cohort 65-74 has median net worth around $400,000",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for this specific figure",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "the age cohort of 65 to 74 with a median net worth of around $400,000",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-191D696E8C68",
+            "item": "United income study shows average wealth at death increases until 90s",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly names United income study as source",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "A United income study showed that the average retired adult who dies in their 60s leaves behind $296,000 in wealth. But if they don't die till their 70s, they leave behind more, $313,000. And if they die in their 80s, they leave behind even more, 315,000 on average. And it's not until you get to the people who live into their 90s that they start to actually draw that down, leaving behind an average of 238,000.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-D1D8EF1032F7",
+            "device": "Wealth transfer system redefinition",
+            "explanation": "The speaker reframes Social Security and Medicare not as social safety nets but as wealth transfer systems to highlight regressive distribution",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "These are not social safety nets. These are wealth transfer systems from poor, younger working people to older, rich, or retired non-working people.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-EE8382EEE739E8",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "date": "2025-11-08",
+        "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+        "pair_id": "PAIR-CC56-T130",
+        "cc_id": "CC56",
+        "theme_id": "T130",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A4C6AA2577B9",
+        "local_theme_text": "Social Security and Medicare as wealth transfer systems",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Directly matches the theme of Social Security and Medicare as wealth transfer systems.",
+        "local_argument_id": "LA-B1AB2AA199A4",
+        "conclusion": "The majority of American retirees' wealth actually grows because they use so little of it, since taxpayers fund their expenses.",
+        "premises": [
+          "86% never draw down on wealth",
+          "Taxpayers fund retirees' expenses via Social Security and Medicare"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7C1276D51CEE",
+            "item": "86% never have to draw down (same withdrawal data)",
+            "status": "Verified",
+            "verification_basis": "See previous evidence under same theme",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "we can see that 26% of retirees are withdrawing up to the amount that their portfolio earns... but an astonishing 58% of all retirees are actually withdrawing less than their investments earn. This means that a staggering 86% of all retirees in the United States never have to draw down on their own wealth.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-A16C7A137B0D",
+            "item": "Wealth increasing until 90s from United income study",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly names United income study",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "A United income study showed that the average retired adult who dies in their 60s leaves behind $296,000... $313,000... $315,000... $238,000",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-C3BF14CCD8EC51",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "date": "2025-11-08",
+        "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+        "pair_id": "PAIR-CC56-T137",
+        "cc_id": "CC56",
+        "theme_id": "T137",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-44E67D1A2BA3",
+        "local_theme_text": "Social Security trust fund depletion and policy outcomes",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The theme of trust fund depletion and policy outcomes relates to US fiscal sustainability and policy responses.",
+        "local_argument_id": "LA-3D70AA814BAA",
+        "conclusion": "The Social Security trust fund will be depleted in 2033, one year sooner than last year's estimate.",
+        "premises": [
+          "2010 estimate was 2037",
+          "Fund is being depleted year after year",
+          "Most recent update shows one year sooner"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-4BB76E6F3AC2",
+            "item": "2010 Social Security report estimated depletion in 2037",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly names Social Security report from 2010 as source",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "This is a report from Social Security released all the way back in 2010. And at that time, they thought that the Social Security fund would not run out until 2037.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-EEEE71E1F378",
+            "item": "Current estimate depletion in 2033 with 77% benefits payable",
+            "status": "Verified",
+            "verification_basis": "Transcript cites most recent update from this year as source",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "The Social Security trust fund will be depleted in 2033 and at that time 77% of the benefits will be payable.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2BE571BF21862B",
+        "speech_id": "SP-A515B8023D09",
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "date": "2025-11-08",
+        "source_hash": "38124057bff4260badd8c6a8a46de04767b85762158a9766bd4c0a22c9630140",
+        "pair_id": "PAIR-CC56-T137",
+        "cc_id": "CC56",
+        "theme_id": "T137",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-44E67D1A2BA3",
+        "local_theme_text": "Social Security trust fund depletion and policy outcomes",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The theme of trust fund depletion and policy outcomes relates to US fiscal sustainability and policy responses.",
+        "local_argument_id": "LA-44874EB2F941",
+        "conclusion": "The most likely outcome of depletion is continued debasement of the dollar, so investors should buy inflation-protected assets.",
+        "premises": [
+          "Benefits will be cut to payables or taxes/inflation increased",
+          "Political constraints make benefit cuts unlikely",
+          "Thus inflation/tax increase is the likely path",
+          "Historical patterns show certain assets rise when money debases"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F6C30B584491",
+            "item": "Legal default provision would cut benefits to 77%",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states this as fact about legal design but provides no source",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "currently that is the only legal outcome because of the way Social Security is designed",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-2894B629DD19",
+            "item": "Historical pattern: assets go up when money goes down",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript asserts this without any specific source or example",
+            "speech_id": "SP-A515B8023D09",
+            "source_speech_filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+            "source_excerpt": "things that historically go up when the money goes down",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "df5ba2d62217b563f6d8214a4b311e90cc0d68016ea8d8e82907147324aea5d0",
+  "complete": true
+}

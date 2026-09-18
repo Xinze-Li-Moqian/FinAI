@@ -1,0 +1,979 @@
+{
+  "dependencies": {
+    "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+    "phase1_record_hash": "71a06cd6f7a9ca4a27744c925317e9f330a4d856a892bb7ee24d4cba57628dcb",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-D0DB23F15310",
+    "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+    "stem": "20260411_The Iran War Just Killed the Petrodollar",
+    "date": "2026-04-11",
+    "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+    "source_character_count": 19178,
+    "central_claim": "The Iran war has exposed a dollar shortage crisis that will trigger a deflationary debt spiral, marking the beginning of the end of the dollar's reserve currency status.",
+    "themes": [
+      {
+        "local_theme_id": "LT-FF95642186D2",
+        "theme": "The petrodollar system's historical establishment and its role",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DFA2AB4F84AE",
+            "local_theme_id": "LT-FF95642186D2",
+            "conclusion": "The petrodollar system secured the dollar's place as the global reserve currency in a post-gold fiat world.",
+            "premises": [
+              "After Bretton Woods ended, the dollar lost its gold backing and its value plummeted.",
+              "In 1974, Henry Kissinger struck a deal with Saudi Arabia to price oil in dollars and recycle surpluses into US Treasuries.",
+              "Other Gulf states followed, and in exchange the US provided security guarantees."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6FCE94C72F7E",
+                "item": "Deal between Kissinger and Saudi Arabia in 1974",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide a source for this historical claim.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "In 1974, Henry Kissinger struck what some call one of the most consequential financial deals in modern history. And that is that Saudi Arabia would price its oil in dollars and then park their surpluses in US assets like Treasuries.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-3F1591D8D07D",
+                "item": "The value of gold skyrocketed after 1971, indicating dollar collapse",
+                "status": "Unverifiable",
+                "verification_basis": "No source is given for the price movement.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "the value of gold absolutely skyrocketed, which is just an inverse way of saying that the value of the dollar collapsed.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-810C3E87E095",
+                "device": "Fractional reserve banking analogy",
+                "explanation": "Comparing US currency issuance to fractional reserve banking to illustrate that dollars were printed beyond gold reserves.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "It was a fractional reserve system. So, we were printing way more dollars and sending them out to buy stuff than there actually was gold to back it up.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E45684A5342A",
+        "theme": "The unraveling of the petrodollar due to the Iran war",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0DD39D4C2178",
+            "local_theme_id": "LT-E45684A5342A",
+            "conclusion": "The petrodollar system is no longer functioning as intended; the Iran war has exposed its failure.",
+            "premises": [
+              "During previous crises (Russia-Ukraine, China-Taiwan, SVB, Hamas), money flowed into Treasuries.",
+              "During the Iran war, yields skyrocketed, meaning Treasuries were sold off.",
+              "This is because oil price increased demand for dollars from importers, leading them to sell Treasuries, while Gulf producers could not recycle dollars due to Strait closure."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-258B4401E45F",
+                "item": "Treasury yields skyrocketed at the start of the Iran war",
+                "status": "Unverifiable",
+                "verification_basis": "No source or data provided; the speaker only asserts this.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "yields on US government Treasuries from the start of the war absolutely skyrocketed",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4A6DFDE9F1D3",
+                "item": "Previous crises (Russia-Ukraine, China-Taiwan, SVB, Hamas) sent money into Treasuries",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for these historical examples.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "When Russia invaded Ukraine, when China was threatening taking over Taiwan, when Silicon Valley Bank collapsed in 2023, when Hamas attacked Israel. All of these are examples of international, global, geopolitical events and crises that actually sent money into Treasuries, pushing the prices up, pushing yields lower.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-C6E326DB46C8",
+                "device": "Comparison to previous crises",
+                "explanation": "To illustrate that the Iran war is anomalous; normally Treasuries are a safe haven.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "When Russia invaded Ukraine, when China was threatening taking over Taiwan, when Silicon Valley Bank collapsed in 2023, when Hamas attacked Israel. All of these are examples of international, global, geopolitical events and crises that actually sent money into Treasuries, pushing the prices up, pushing yields lower.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-52E25235B168",
+            "local_theme_id": "LT-E45684A5342A",
+            "conclusion": "A dollar shortage is laying the groundwork for a liquidity crisis.",
+            "premises": [
+              "The US trade deficit has collapsed, meaning fewer dollars are being exported.",
+              "There is at least $65 trillion in hidden dollar-denominated debt that needs servicing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D13F58E8B4E4",
+                "item": "Study claiming at least $65 trillion in hidden dollar-denominated debt",
+                "status": "Unverifiable",
+                "verification_basis": "No source or study cited.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "years ago there was a study done trying to find out how much dollar denominated debt there was around the world and all the way back in 2023, they said that they thought there was probably at least 65 trillion dollars in hidden debt that was not accounted for.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-71A44F8865BE",
+                "item": "Chart of US trade deficit showing collapse in October 2025",
+                "status": "Unverifiable",
+                "verification_basis": "No actual chart provided; specific data points not verified.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "This is a chart of the US trade deficit. ... there was a massive increase in the trade deficit followed by a big collapse in the trade deficit... collapsed really, really far in October of 2025",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-0C41D8E0B777",
+            "local_theme_id": "LT-E45684A5342A",
+            "conclusion": "The push for alternatives like Bitcoin and BRICS will accelerate the dollar shortage, not replace the dollar.",
+            "premises": [
+              "Bitcoin is being accepted for tolls at Strait of Hormuz.",
+              "BRICS nations are pushing alternative settlements.",
+              "Reducing dollar usage increases dollar shortage for debt servicing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DA7A36E7A4E4",
+                "item": "Bitcoin accepted for Strait of Hormuz tolls",
+                "status": "Unverifiable",
+                "verification_basis": "Rumors, no source.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "we are also seeing things like reports that Bitcoin is being accepted as payment for the tolls that Iran is trying to charge for passage through the Strait of Hormuz",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-BC33A956D3C2",
+                "item": "BRICS nations pushing alternative currencies",
+                "status": "Unverifiable",
+                "verification_basis": "Rumors.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "We're also seeing rumors of BRICS nations trying to push their currencies, come up with alternative settlements for outside of the dollar.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1D1A2FBF7581",
+        "theme": "The likely sequence of events and its investment implications",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BEFCEB81F5C8",
+            "local_theme_id": "LT-1D1A2FBF7581",
+            "conclusion": "The dollar will spike due to a scramble for dollars, then the Fed will print money to stop the crisis, causing inflation in financial assets.",
+            "premises": [
+              "Dollars are debt; a shortage leads to a deflationary death spiral.",
+              "Similar to the Credit Suisse crisis in 2023 due to dollar shortage.",
+              "In 2020, the Fed printed money to stop a liquidity crisis, which led to inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-51ABCC60969D",
+                "item": "Credit Suisse almost failed in 2023 due to dollar shortage",
+                "status": "Unverifiable",
+                "verification_basis": "Claim about Credit Suisse; no source.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "We got a little tremor before the earthquake here back in 2023 when Credit Suisse almost failed because, again, a lack of dollars.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9DF1BCE6A97C",
+                "item": "Fed printing in 2020 stopped a liquidity crisis but caused inflation",
+                "status": "Unverifiable",
+                "verification_basis": "General historical claim without specific data.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "We all lived through what happened in 2020 when the Fed printed a bunch of money in order to stop a potential deflationary debt spiral from happening just in the United States. At first, it just stopped that liquidity crisis. But then, those new dollars worked themselves through the system and caused a bunch of inflation, devaluing the purchasing power of the dollar.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-21633BBB51B9",
+                "device": "Deflationary death spiral analogy",
+                "explanation": "Describing a domino effect of defaults, similar to a deflationary spiral.",
+                "speech_id": "SP-D0DB23F15310",
+                "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+                "source_excerpt": "This is a domino effect called a deflationary death spiral.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-38538B2A26FD",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "yields on US government Treasuries from the start of the war absolutely skyrocketed",
+        "reason": "No source or data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Possible fact-check: yield data can be obtained from market sources.",
+        "source_excerpt": "yields on US government Treasuries from the start of the war absolutely skyrocketed",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D3CD98E173C4",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "At least 65 trillion dollars in hidden debt that was not accounted for",
+        "reason": "Study not identified; no citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Plausible but unverifiable from transcript.",
+        "source_excerpt": "years ago there was a study done trying to find out how much dollar denominated debt there was around the world and all the way back in 2023, they said that they thought there was probably at least 65 trillion dollars in hidden debt that was not accounted for.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F21EB35FB556",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "Bitcoin is being accepted as payment for the tolls that Iran is trying to charge for passage through the Strait of Hormuz",
+        "reason": "Stated as reports/rumors, no source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Could be checked against news sources.",
+        "source_excerpt": "reports that Bitcoin is being accepted as payment for the tolls that Iran is trying to charge for passage through the Strait of Hormuz",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A796966D7BE9",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "Credit Suisse almost failed because of a lack of dollars",
+        "reason": "No source or corroboration within transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical event in 2023; may be verified externally.",
+        "source_excerpt": "We got a little tremor before the earthquake here back in 2023 when Credit Suisse almost failed because, again, a lack of dollars.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FE31AC16F7BE",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "The trade deficit collapsed in October 2025 and has since gone back up",
+        "reason": "Specific data point not verifiable; chart not provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Future data relative to transcript date (April 2026)? Possible but unverifiable.",
+        "source_excerpt": "it collapsed really, really far in October of 2025, and has since gone back up to levels it was at post tariffs in 2025.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F98BBC1CADD9",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "In 1971, we were about 2 weeks away from all of the gold being completely gone",
+        "reason": "Specific historical claim without source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common narrative but unverifiable from transcript.",
+        "source_excerpt": "In fact, if nothing would have happened, we were about 2 weeks away from all of the gold being completely gone.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C650869D46CC",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "France sent a warship to get their gold from New York",
+        "reason": "Anecdotal; no source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Frequently cited story; not verified in transcript.",
+        "source_excerpt": "one of the last countries to get their gold was France because they actually sent a warship to get their gold from New York.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E3E2C77B34F8",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "The value of gold absolutely skyrocketed after 1971",
+        "reason": "No specific data; subjective quantification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical fact that gold price increased, but 'skyrocketed' is vague.",
+        "source_excerpt": "the value of gold absolutely skyrocketed",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7E7603D08781",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "Some estimates put [hidden debt] over 100 trillion",
+        "reason": "Same study, no source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Consistent with prior claim but unverifiable.",
+        "source_excerpt": "Some estimates put it over 100 trillion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 11822,
+          "character_end": 11862,
+          "line_start": 313
+        }
+      },
+      {
+        "unverifiable_id": "UV-976C4D3D0CA7",
+        "speech_id": "SP-D0DB23F15310",
+        "speech_ref": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "claim": "The Fed printed a bunch of money in 2020 to stop a deflationary debt spiral... caused inflation",
+        "reason": "General claim without specific data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Broadly accepted but not quantified in transcript.",
+        "source_excerpt": "We all lived through what happened in 2020 when the Fed printed a bunch of money in order to stop a potential deflationary debt spiral from happening just in the United States. ...caused a bunch of inflation, devaluing the purchasing power of the dollar.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Iran war has exposed a dollar shortage crisis that will trigger a deflationary debt spiral, marking the beginning of the end of the dollar's reserve currency status.",
+      "themes": [
+        "The petrodollar system's historical establishment and its role",
+        "The unraveling of the petrodollar due to the Iran war",
+        "The likely sequence of events and its investment implications"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 10
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "e7df16676640dbdd744a7081b1cf2cdf5579a744fdeb4337fe5e6b1952e43197",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "71a06cd6f7a9ca4a27744c925317e9f330a4d856a892bb7ee24d4cba57628dcb",
+    "canonical_mapping": {
+      "speech_id": "SP-D0DB23F15310",
+      "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC49",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+      "primary_cc_rationale": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T124",
+        "T134"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T124",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-FF95642186D2",
+          "rationale": "The local theme discusses the historical establishment and role of the petrodollar system, which directly corresponds to canonical theme T124 'Petrodollar system and dollar dominance'."
+        },
+        {
+          "theme_id": "T134",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-1D1A2FBF7581",
+          "rationale": "This local theme describes the likely sequence of events (dollar spike, Fed money printing, inflation in financial assets) and investment implications, which aligns with 'Systemic risks and black swan events' (T134) given the crisis scenario."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC49-T124",
+          "cc_id": "CC49",
+          "theme_id": "T124",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC49-T134",
+          "cc_id": "CC49",
+          "theme_id": "T134",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "local_cc_text": "The Iran war has exposed a dollar shortage crisis that will trigger a deflationary debt spiral, marking the beginning of the end of the dollar's reserve currency status.",
+        "canonical_cc_id": "CC49",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "rationale": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "candidate_matches": [
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.5018081068992615
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.4882968068122864
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.47695547342300415
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.41976845264434814
+          },
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.40127691626548767
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "local_theme_id": "LT-FF95642186D2",
+        "local_theme_text": "The petrodollar system's historical establishment and its role",
+        "canonical_theme_id": "T124",
+        "confidence": 0.95,
+        "rationale": "The local theme discusses the historical establishment and role of the petrodollar system, which directly corresponds to canonical theme T124 'Petrodollar system and dollar dominance'.",
+        "candidate_matches": [
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.7179932594299316
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5279682874679565
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4908311069011688
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.37570083141326904
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.3660960793495178
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.3591715693473816
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "local_theme_id": "LT-E45684A5342A",
+        "local_theme_text": "The unraveling of the petrodollar due to the Iran war",
+        "canonical_theme_id": "T124",
+        "confidence": 0.9,
+        "rationale": "The unraveling of the petrodollar due to the Iran war is a specific instance of the petrodollar system and dollar dominance being challenged, fitting T124.",
+        "candidate_matches": [
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.6497277021408081
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.4877893626689911
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4839542508125305
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4341752529144287
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.41809073090553284
+          },
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.38360708951950073
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "local_theme_id": "LT-1D1A2FBF7581",
+        "local_theme_text": "The likely sequence of events and its investment implications",
+        "canonical_theme_id": "T134",
+        "confidence": 0.8,
+        "rationale": "This local theme describes the likely sequence of events (dollar spike, Fed money printing, inflation in financial assets) and investment implications, which aligns with 'Systemic risks and black swan events' (T134) given the crisis scenario.",
+        "candidate_matches": [
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.4286911189556122
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.42325741052627563
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.3575761616230011
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.35378527641296387
+          },
+          {
+            "id": "T138",
+            "text": "US market outperformance and global recession risk",
+            "similarity": 0.34686076641082764
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.2977941334247589
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-CA138D157F825B",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "date": "2026-04-11",
+        "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+        "pair_id": "PAIR-CC49-T124",
+        "cc_id": "CC49",
+        "theme_id": "T124",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-FF95642186D2",
+        "local_theme_text": "The petrodollar system's historical establishment and its role",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The local theme discusses the historical establishment and role of the petrodollar system, which directly corresponds to canonical theme T124 'Petrodollar system and dollar dominance'.",
+        "local_argument_id": "LA-DFA2AB4F84AE",
+        "conclusion": "The petrodollar system secured the dollar's place as the global reserve currency in a post-gold fiat world.",
+        "premises": [
+          "After Bretton Woods ended, the dollar lost its gold backing and its value plummeted.",
+          "In 1974, Henry Kissinger struck a deal with Saudi Arabia to price oil in dollars and recycle surpluses into US Treasuries.",
+          "Other Gulf states followed, and in exchange the US provided security guarantees."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6FCE94C72F7E",
+            "item": "Deal between Kissinger and Saudi Arabia in 1974",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide a source for this historical claim.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "In 1974, Henry Kissinger struck what some call one of the most consequential financial deals in modern history. And that is that Saudi Arabia would price its oil in dollars and then park their surpluses in US assets like Treasuries.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-3F1591D8D07D",
+            "item": "The value of gold skyrocketed after 1971, indicating dollar collapse",
+            "status": "Unverifiable",
+            "verification_basis": "No source is given for the price movement.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "the value of gold absolutely skyrocketed, which is just an inverse way of saying that the value of the dollar collapsed.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-810C3E87E095",
+            "device": "Fractional reserve banking analogy",
+            "explanation": "Comparing US currency issuance to fractional reserve banking to illustrate that dollars were printed beyond gold reserves.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "It was a fractional reserve system. So, we were printing way more dollars and sending them out to buy stuff than there actually was gold to back it up.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-FA5959FA152E68",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "date": "2026-04-11",
+        "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+        "pair_id": "PAIR-CC49-T124",
+        "cc_id": "CC49",
+        "theme_id": "T124",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E45684A5342A",
+        "local_theme_text": "The unraveling of the petrodollar due to the Iran war",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The unraveling of the petrodollar due to the Iran war is a specific instance of the petrodollar system and dollar dominance being challenged, fitting T124.",
+        "local_argument_id": "LA-0DD39D4C2178",
+        "conclusion": "The petrodollar system is no longer functioning as intended; the Iran war has exposed its failure.",
+        "premises": [
+          "During previous crises (Russia-Ukraine, China-Taiwan, SVB, Hamas), money flowed into Treasuries.",
+          "During the Iran war, yields skyrocketed, meaning Treasuries were sold off.",
+          "This is because oil price increased demand for dollars from importers, leading them to sell Treasuries, while Gulf producers could not recycle dollars due to Strait closure."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-258B4401E45F",
+            "item": "Treasury yields skyrocketed at the start of the Iran war",
+            "status": "Unverifiable",
+            "verification_basis": "No source or data provided; the speaker only asserts this.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "yields on US government Treasuries from the start of the war absolutely skyrocketed",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-4A6DFDE9F1D3",
+            "item": "Previous crises (Russia-Ukraine, China-Taiwan, SVB, Hamas) sent money into Treasuries",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for these historical examples.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "When Russia invaded Ukraine, when China was threatening taking over Taiwan, when Silicon Valley Bank collapsed in 2023, when Hamas attacked Israel. All of these are examples of international, global, geopolitical events and crises that actually sent money into Treasuries, pushing the prices up, pushing yields lower.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-C6E326DB46C8",
+            "device": "Comparison to previous crises",
+            "explanation": "To illustrate that the Iran war is anomalous; normally Treasuries are a safe haven.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "When Russia invaded Ukraine, when China was threatening taking over Taiwan, when Silicon Valley Bank collapsed in 2023, when Hamas attacked Israel. All of these are examples of international, global, geopolitical events and crises that actually sent money into Treasuries, pushing the prices up, pushing yields lower.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-5F374D59D8EA73",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "date": "2026-04-11",
+        "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+        "pair_id": "PAIR-CC49-T124",
+        "cc_id": "CC49",
+        "theme_id": "T124",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E45684A5342A",
+        "local_theme_text": "The unraveling of the petrodollar due to the Iran war",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The unraveling of the petrodollar due to the Iran war is a specific instance of the petrodollar system and dollar dominance being challenged, fitting T124.",
+        "local_argument_id": "LA-52E25235B168",
+        "conclusion": "A dollar shortage is laying the groundwork for a liquidity crisis.",
+        "premises": [
+          "The US trade deficit has collapsed, meaning fewer dollars are being exported.",
+          "There is at least $65 trillion in hidden dollar-denominated debt that needs servicing."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D13F58E8B4E4",
+            "item": "Study claiming at least $65 trillion in hidden dollar-denominated debt",
+            "status": "Unverifiable",
+            "verification_basis": "No source or study cited.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "years ago there was a study done trying to find out how much dollar denominated debt there was around the world and all the way back in 2023, they said that they thought there was probably at least 65 trillion dollars in hidden debt that was not accounted for.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-71A44F8865BE",
+            "item": "Chart of US trade deficit showing collapse in October 2025",
+            "status": "Unverifiable",
+            "verification_basis": "No actual chart provided; specific data points not verified.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "This is a chart of the US trade deficit. ... there was a massive increase in the trade deficit followed by a big collapse in the trade deficit... collapsed really, really far in October of 2025",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-623AE895A4EA6B",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "date": "2026-04-11",
+        "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+        "pair_id": "PAIR-CC49-T124",
+        "cc_id": "CC49",
+        "theme_id": "T124",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E45684A5342A",
+        "local_theme_text": "The unraveling of the petrodollar due to the Iran war",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The unraveling of the petrodollar due to the Iran war is a specific instance of the petrodollar system and dollar dominance being challenged, fitting T124.",
+        "local_argument_id": "LA-0C41D8E0B777",
+        "conclusion": "The push for alternatives like Bitcoin and BRICS will accelerate the dollar shortage, not replace the dollar.",
+        "premises": [
+          "Bitcoin is being accepted for tolls at Strait of Hormuz.",
+          "BRICS nations are pushing alternative settlements.",
+          "Reducing dollar usage increases dollar shortage for debt servicing."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-DA7A36E7A4E4",
+            "item": "Bitcoin accepted for Strait of Hormuz tolls",
+            "status": "Unverifiable",
+            "verification_basis": "Rumors, no source.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "we are also seeing things like reports that Bitcoin is being accepted as payment for the tolls that Iran is trying to charge for passage through the Strait of Hormuz",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-BC33A956D3C2",
+            "item": "BRICS nations pushing alternative currencies",
+            "status": "Unverifiable",
+            "verification_basis": "Rumors.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "We're also seeing rumors of BRICS nations trying to push their currencies, come up with alternative settlements for outside of the dollar.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-B7C4A7DB403945",
+        "speech_id": "SP-D0DB23F15310",
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "date": "2026-04-11",
+        "source_hash": "fe8c4458a3f88a5be2bbc72726343250a17faf4096a2360f34839b9578650250",
+        "pair_id": "PAIR-CC49-T134",
+        "cc_id": "CC49",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1D1A2FBF7581",
+        "local_theme_text": "The likely sequence of events and its investment implications",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "This local theme describes the likely sequence of events (dollar spike, Fed money printing, inflation in financial assets) and investment implications, which aligns with 'Systemic risks and black swan events' (T134) given the crisis scenario.",
+        "local_argument_id": "LA-BEFCEB81F5C8",
+        "conclusion": "The dollar will spike due to a scramble for dollars, then the Fed will print money to stop the crisis, causing inflation in financial assets.",
+        "premises": [
+          "Dollars are debt; a shortage leads to a deflationary death spiral.",
+          "Similar to the Credit Suisse crisis in 2023 due to dollar shortage.",
+          "In 2020, the Fed printed money to stop a liquidity crisis, which led to inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-51ABCC60969D",
+            "item": "Credit Suisse almost failed in 2023 due to dollar shortage",
+            "status": "Unverifiable",
+            "verification_basis": "Claim about Credit Suisse; no source.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "We got a little tremor before the earthquake here back in 2023 when Credit Suisse almost failed because, again, a lack of dollars.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9DF1BCE6A97C",
+            "item": "Fed printing in 2020 stopped a liquidity crisis but caused inflation",
+            "status": "Unverifiable",
+            "verification_basis": "General historical claim without specific data.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "We all lived through what happened in 2020 when the Fed printed a bunch of money in order to stop a potential deflationary debt spiral from happening just in the United States. At first, it just stopped that liquidity crisis. But then, those new dollars worked themselves through the system and caused a bunch of inflation, devaluing the purchasing power of the dollar.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-21633BBB51B9",
+            "device": "Deflationary death spiral analogy",
+            "explanation": "Describing a domino effect of defaults, similar to a deflationary spiral.",
+            "speech_id": "SP-D0DB23F15310",
+            "source_speech_filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+            "source_excerpt": "This is a domino effect called a deflationary death spiral.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "e7df16676640dbdd744a7081b1cf2cdf5579a744fdeb4337fe5e6b1952e43197",
+  "complete": true
+}

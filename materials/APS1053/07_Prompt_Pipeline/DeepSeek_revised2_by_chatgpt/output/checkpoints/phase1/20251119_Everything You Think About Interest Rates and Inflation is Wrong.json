@@ -1,0 +1,323 @@
+{
+  "dependencies": {
+    "source_hash": "c0390fce90ac07eb82ac79654511db1cf37dee4e220e264bc49dd88b27ca23ed",
+    "filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-DFDDF0911A1A",
+    "filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+    "stem": "20251119_Everything You Think About Interest Rates and Inflation is Wrong",
+    "date": "2025-11-19",
+    "source_hash": "c0390fce90ac07eb82ac79654511db1cf37dee4e220e264bc49dd88b27ca23ed",
+    "source_character_count": 13742,
+    "central_claim": "The perceived relationship between interest rates and inflation is backwards: raising rates precedes rising inflation, and lowering rates can lead to lower prices due to increased production.",
+    "themes": [
+      {
+        "local_theme_id": "LT-563DA3C5D041",
+        "theme": "Historical correlation between Fed interest rates and inflation (1960-1980 and shift)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-238F2C29BD22",
+            "local_theme_id": "LT-563DA3C5D041",
+            "conclusion": "From 1960 to 1980, raising the Fed funds rate preceded rising inflation, and lowering the rate preceded falling inflation, contradicting the conventional view that higher rates reduce inflation.",
+            "premises": [
+              "Interest rates and inflation moved in lock step from 1960 to 1980.",
+              "Fed raised rates in 1961 and inflation rose in 1962; Fed lowered rates in 1969 and inflation fell; Fed raised rates in 1972 and inflation rose; Fed lowered rates in 1974 and inflation fell."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2532033CA6E8",
+                "item": "Chart showing Fed funds rate overlaid with CPI from 1960-1980",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes a chart but does not provide raw data or verifiable source; we cannot verify the chart exists or the exact correlation.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "I would like to show you a chart of the Federal Reserves interest rates overlaid with the inflation rate as measured by the CPI. ... the time period in between 1960 and 1980.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-87CC78870025",
+                "item": "Specific claim that Fed rate changes preceded inflation changes with dates 1961-1962, 1969, 1972, 1974",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts these dates without providing external source; we cannot verify the exact timing without data.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "the Federal Reserve began raising interest rates right here in 1961. And then right at the beginning of 1962, inflation started following it up higher. ... here in 1969, the Fed stopped raising interest rates and then started reducing interest rates and shortly after inflation started moving down as well.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-E65612E0B050",
+            "local_theme_id": "LT-563DA3C5D041",
+            "conclusion": "Since 2000, the simple correlation observed in 1960-1980 has broken down, indicating other factors (like debt and money supply) dominate.",
+            "premises": [
+              "From 2002-2004, Fed lowered rates and inflation picked up.",
+              "From 2004-2006, Fed raised rates and inflation eventually fell.",
+              "In 2007, Fed lowered rates and inflation picked up again.",
+              "After 2020, Fed lowered rates to zero, inflation spiked; then Fed raised rates and inflation fell."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1E4BB65429EC",
+                "item": "Claims about Fed rate changes and inflation movement from 2002 to present",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts these relationships without providing data source; we cannot verify the exact inflation responses.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "The Fed was lowering interest rates from 2002 all the way through 2004. And yet, the inflation rate started to pick up. ... after 2020, the inflation rate spiked to a recent record and then finally the Fed started to raise interest rates again and the inflation rate started to fall.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-765D179C605C",
+        "theme": "Free market interest rate determination and savings pool cycle",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6AC03D0BDB1B",
+            "local_theme_id": "LT-765D179C605C",
+            "conclusion": "In a free market without central bank intervention, interest rates are determined by the supply and demand for loanable funds (savings pool), leading to a self-correcting cycle of borrowing and saving.",
+            "premises": [
+              "When savings are abundant, borrowers can get low rates due to lender competition.",
+              "As borrowing increases, savings are depleted, causing interest rates to rise.",
+              "Rising rates incentivize saving and debt repayment, replenishing the savings pool."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C836C31E22F4",
+                "item": "Hypothetical scenario of a gold-based economy to illustrate free market interest rate mechanics",
+                "status": "Unverifiable",
+                "verification_basis": "This is a theoretical model, not an empirical claim; no evidence provided.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "Imagine we have a hypothetical small economy with no market regulations and they use gold coins for money.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-D1E48B016425",
+                "device": "Hypothetical gold-based economy analogy",
+                "explanation": "Illustrates how interest rates would naturally fluctuate based on savings and borrowing without central bank interference.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "Imagine we have a hypothetical small economy with no market regulations and they use gold coins for money... So bear with me in this particular moment where we're dropped into this hypothetical economy.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-AE4C011110D6",
+        "theme": "Interest rate influence on production and goods supply",
+        "arguments": [
+          {
+            "local_argument_id": "LA-36F4A67BC7D6",
+            "local_theme_id": "LT-AE4C011110D6",
+            "conclusion": "Lower interest rates can decrease prices by reducing the cost of capital and stimulating production, increasing supply.",
+            "premises": [
+              "Low rates make it cheaper for businesses to borrow for investment in hiring, R&D, and expansion, increasing production.",
+              "Higher rates encourage holding risk-free assets (treasuries) over investing, stifling production growth.",
+              "Increased supply puts downward pressure on prices, offsetting demand-pull inflation from monetary expansion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-461B4C3E5A88",
+                "item": "Mechanism: low rates drive investment in production, increasing supply",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide empirical evidence; it is a theoretical argument.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "when the interest rate is low and it drives that money into investing and spending, that increases production of goods and services.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9F2E06E13387",
+                "item": "Behavioral incentive: higher rates make treasuries attractive, discouraging business investment",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion without data.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "If I can get 5% risk-free by just sitting that money with the government, I'm not going to take the risk of trying to grow the business.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D62389807874",
+        "theme": "Government debt and money supply as modifying factors in interest rate effects",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3C289A975135",
+            "local_theme_id": "LT-D62389807874",
+            "conclusion": "Higher levels of government debt and money supply today than in 1960-1980 change the effect of interest rate changes on inflation.",
+            "premises": [
+              "US debt-to-GDP fell from 1960-1980 and was around 30%; today it is over 100% and near 125%.",
+              "Money supply relative to economy is much larger today.",
+              "These differences mean interest rate changes have different economic impacts now."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C7EDC5F201F6",
+                "item": "Debt-to-GDP ratio: 30% historically, 125% today",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides rough numbers without source; we cannot verify exact figures without external data.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "if you look at the United States government's debt compared to the size of the economy, it was falling from 1960 through 1980 and it was relatively low, bottoming around 30%. Compare that to last 20 years where we've seen the debt to GDP ratio over 100% pretty much the entire time and near 125% today.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-55894B08A763",
+                "item": "Money supply comparison: much larger today than in 1980",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states 'I can't find this data prior to 1980' and still makes the claim without providing data.",
+                "speech_id": "SP-DFDDF0911A1A",
+                "source_speech_filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+                "source_excerpt": "I can't find this data prior to 1980, but you can see that at least since 1980, the money supply compared to the size of the economy is much larger today than it was back then.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7A8AC026BC41",
+        "speech_id": "SP-DFDDF0911A1A",
+        "speech_ref": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "claim": "The relationship between interest rates and inflation is backwards: raising rates precedes rising inflation, lowering rates precedes falling inflation.",
+        "reason": "The transcript does not provide externally verifiable data; it relies on a described chart and hypothetical mechanism, but the chart is not shown and no sources are cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The relationship is complex and debated; there is no simple consensus in training knowledge that it is backwards.",
+        "source_excerpt": "Is it possible that everything we thought we knew about the relationship between inflation and interest rates is wrong, potentially even backwards?",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-27994043B830",
+        "speech_id": "SP-DFDDF0911A1A",
+        "speech_ref": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "claim": "During 1960-1980, interest rate changes preceded inflation changes, and post-2000 the pattern shifted (e.g., 2002-2004 lowering rates saw inflation rise, etc.).",
+        "reason": "Transcript asserts specific timing without providing verifiable data source.",
+        "memory_check": "Contradicted",
+        "memory_note": "Standard economic theory holds that higher interest rates reduce inflation by reducing demand; the observed correlation in the 1970s is often attributed to supply shocks and delayed policy response.",
+        "source_excerpt": "the correlation between these two things that held up from the '60s through the 80s has not necessarily been happening for the last 20 years",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-85F19FADC1A4",
+        "speech_id": "SP-DFDDF0911A1A",
+        "speech_ref": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "claim": "US debt-to-GDP was around 30% in 1980 and is now near 125%; money supply relative to economy is much larger today.",
+        "reason": "Transcript provides no source for these numbers; we cannot verify.",
+        "memory_check": "Corroborated",
+        "memory_note": "General training knowledge confirms debt-to-GDP has increased from ~30% in 1980 to over 100% today; money supply has also increased relative to GDP.",
+        "source_excerpt": "it was falling from 1960 through 1980 and it was relatively low, bottoming around 30%. Compare that to last 20 years where we've seen the debt to GDP ratio over 100% pretty much the entire time and near 125% today.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-423F0CECCDB7",
+        "speech_id": "SP-DFDDF0911A1A",
+        "speech_ref": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "claim": "The dollar's purchasing power has been declining for a hundred years and will continue.",
+        "reason": "Assertion without specific data or timeframe; cannot be verified from transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "Long-term inflation is a well-known phenomenon, so this claim is generally corroborated by training knowledge.",
+        "source_excerpt": "what the dollar itself is doing in terms of its purchasing power for assets and goods and services is just going down. It's been doing that for a hundred years now, and that is not changing anytime soon.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0D8D52DDF951",
+        "speech_id": "SP-DFDDF0911A1A",
+        "speech_ref": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "claim": "I have used my strategy to generate double and triple-digit returns on individual investments in a matter of months.",
+        "reason": "No evidence or specific examples provided in transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific knowledge about this speaker's performance.",
+        "source_excerpt": "I've been using this strategy in my own account to generate double and triple-digit returns on individual investments in a matter of months.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-169FE613048D",
+        "speech_id": "SP-DFDDF0911A1A",
+        "speech_ref": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "claim": "You've already probably started to see headlines about this space heating up.",
+        "reason": "Vague and unverifiable; no specific headlines cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific knowledge of headlines.",
+        "source_excerpt": "In fact, you've already probably started to see headlines like this about this space heating up already.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The perceived relationship between interest rates and inflation is backwards: raising rates precedes rising inflation, and lowering rates can lead to lower prices due to increased production.",
+      "themes": [
+        "Historical correlation between Fed interest rates and inflation (1960-1980 and shift)",
+        "Free market interest rate determination and savings pool cycle",
+        "Interest rate influence on production and goods supply",
+        "Government debt and money supply as modifying factors in interest rate effects"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 6
+    },
+    "generated_at": "2026-07-14T22:41:21+00:00",
+    "record_hash": "15863679c7ac0093f52c3bdb91bbcaac1f88f59be84e769acefafa2fcca5c3b9",
+    "analysis_truncated": false
+  },
+  "output_hash": "695309472255774d7be814abddc25a4fe1cf6e230f9df41fb099a25855af2776",
+  "complete": true
+}

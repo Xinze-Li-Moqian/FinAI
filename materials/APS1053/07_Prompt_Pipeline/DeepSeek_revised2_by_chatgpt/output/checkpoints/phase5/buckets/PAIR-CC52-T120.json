@@ -1,0 +1,82 @@
+{
+  "dependency_hash": "7fbb6aa2f02bfb6371db6d54ea233c4196da31c5bb978f3cfc2744e9b7faaaf5",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC52-T120",
+    "cc_id": "CC52",
+    "theme_id": "T120",
+    "authoritative_anchor": "cc-cc52-theme-t120",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC52-T120-8FD48DF741",
+        "pair_id": "PAIR-CC52-T120",
+        "conclusion": "In a fixed money supply, interest rates naturally balance saving and spending through market-based signals and incentives, preventing boom-bust cycles.",
+        "source_contribution_ids": [
+          "CONTRIB-93DD81EEB98195"
+        ],
+        "source_speech_filenames": [
+          "20251103_How Artificially Low Rates Actually Destroy Wealth.txt"
+        ],
+        "premise_synthesis": "Within a fixed money supply, fluctuations in the savings pool determine interest rates: a large savings pool drives rates down, encouraging borrowing and investment, while a depleted savings pool pushes rates up, encouraging saving and lending. This self-regulating mechanism prevents the massive boom-bust cycles that occur when central banks artificially distort rates.",
+        "conclusion_supported": "Under a fixed money supply, interest rates self-regulate to balance saving and spending, thereby avoiding boom-bust cycles.",
+        "relationship_roles": [
+          {
+            "relationship_type": "mechanism",
+            "source_contribution_ids": [
+              "CONTRIB-93DD81EEB98195"
+            ],
+            "source_speech_filenames": [
+              "20251103_How Artificially Low Rates Actually Destroy Wealth.txt"
+            ],
+            "relationship_explanations": [
+              "The speech explains the mechanism by which artificially low interest rates destroy wealth through false signals, over-investment, and sustaining zombie companies, directly supporting CC52's broader claim that low rates destroy wealth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Hypothetical example of fixed money supply and changing savings pool sizes.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents a thought experiment without empirical data or external sources.",
+            "source_contribution_ids": [
+              "CONTRIB-93DD81EEB98195"
+            ],
+            "source_speech_filenames": [
+              "20251103_How Artificially Low Rates Actually Destroy Wealth.txt"
+            ],
+            "source_excerpt": "Imagine for a moment there's a fixed supply of money. The total amount of money cannot be increased or decreased."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Fixed money supply thought experiment",
+            "explanation": "Illustrates how interest rates signal scarcity or abundance of savings under a closed system without central bank intervention.",
+            "source_contribution_ids": [
+              "CONTRIB-93DD81EEB98195"
+            ],
+            "source_speech_filenames": [
+              "20251103_How Artificially Low Rates Actually Destroy Wealth.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Based solely on the 2025-11-03 speech; no longitudinal trends can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-93DD81EEB98195"
+    ],
+    "source_speech_filenames": [
+      "20251103_How Artificially Low Rates Actually Destroy Wealth.txt"
+    ],
+    "generated_at": "2026-07-15T04:07:48+00:00",
+    "record_hash": "8b39a8b17ff546bd2c1c392b445d951ac785da0ab5215c67bb97f00ce4eec2e7"
+  },
+  "complete": true
+}

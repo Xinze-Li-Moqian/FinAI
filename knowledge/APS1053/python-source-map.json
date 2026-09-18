@@ -1,0 +1,948 @@
+[
+  {
+    "file": "deepseek_program2_verify_claims_revised.py",
+    "lines": 1379,
+    "syntax": "AST parse passed; not executed",
+    "functions": [
+      {
+        "name": "_utc_now_iso",
+        "line": 240,
+        "end_line": 241
+      },
+      {
+        "name": "_normalise_space",
+        "line": 244,
+        "end_line": 245
+      },
+      {
+        "name": "_normalise_text",
+        "line": 248,
+        "end_line": 252
+      },
+      {
+        "name": "_sequence_similarity",
+        "line": 255,
+        "end_line": 259
+      },
+      {
+        "name": "_token_similarity",
+        "line": 262,
+        "end_line": 268
+      },
+      {
+        "name": "_text_similarity",
+        "line": 271,
+        "end_line": 272
+      },
+      {
+        "name": "_strip_markdown_quotes",
+        "line": 275,
+        "end_line": 281
+      },
+      {
+        "name": "_chunks",
+        "line": 284,
+        "end_line": 286
+      },
+      {
+        "name": "_json_from_llm",
+        "line": 289,
+        "end_line": 301
+      },
+      {
+        "name": "_normalise_verdict",
+        "line": 304,
+        "end_line": 314
+      },
+      {
+        "name": "_is_inherently_unverifiable",
+        "line": 317,
+        "end_line": 319
+      },
+      {
+        "name": "parse_unverifiable_claims",
+        "line": 332,
+        "end_line": 397
+      },
+      {
+        "name": "load_checkpoint",
+        "line": 404,
+        "end_line": 421
+      },
+      {
+        "name": "append_checkpoint",
+        "line": 424,
+        "end_line": 429
+      },
+      {
+        "name": "create_deepseek_client",
+        "line": 436,
+        "end_line": 449
+      },
+      {
+        "name": "call_deepseek",
+        "line": 452,
+        "end_line": 484
+      },
+      {
+        "name": "validate_batch_results",
+        "line": 487,
+        "end_line": 511
+      },
+      {
+        "name": "resolve_web_search_mode",
+        "line": 514,
+        "end_line": 520
+      },
+      {
+        "name": "tavily_search",
+        "line": 523,
+        "end_line": 553
+      },
+      {
+        "name": "make_checkpoint_record",
+        "line": 556,
+        "end_line": 579
+      },
+      {
+        "name": "verify_claims",
+        "line": 582,
+        "end_line": 741
+      },
+      {
+        "name": "_status_from_token",
+        "line": 760,
+        "end_line": 770
+      },
+      {
+        "name": "parse_compendium_evidence",
+        "line": 773,
+        "end_line": 815
+      },
+      {
+        "name": "_claim_match_score",
+        "line": 818,
+        "end_line": 831
+      },
+      {
+        "name": "match_evidence_entries",
+        "line": 834,
+        "end_line": 951
+      },
+      {
+        "name": "patch_compendium_statuses",
+        "line": 954,
+        "end_line": 972
+      },
+      {
+        "name": "_canonicalise_status_tokens",
+        "line": 975,
+        "end_line": 987
+      },
+      {
+        "name": "assert_status_only_change",
+        "line": 990,
+        "end_line": 1020
+      },
+      {
+        "name": "write_verified_compendium",
+        "line": 1023,
+        "end_line": 1045
+      },
+      {
+        "name": "_result_for_claim",
+        "line": 1052,
+        "end_line": 1055
+      },
+      {
+        "name": "write_verification_report",
+        "line": 1058,
+        "end_line": 1113
+      },
+      {
+        "name": "write_updated_claims_report",
+        "line": 1116,
+        "end_line": 1166
+      },
+      {
+        "name": "write_match_report",
+        "line": 1169,
+        "end_line": 1214
+      },
+      {
+        "name": "build_parser",
+        "line": 1221,
+        "end_line": 1277
+      },
+      {
+        "name": "main",
+        "line": 1280,
+        "end_line": 1375
+      }
+    ]
+  },
+  {
+    "file": "deepseek_speech_processing_program1_notree_revised2.py",
+    "lines": 4780,
+    "syntax": "AST parse passed; not executed",
+    "functions": [
+      {
+        "name": "_setup_dirs",
+        "line": 244,
+        "end_line": 258
+      },
+      {
+        "name": "_configure_logging",
+        "line": 261,
+        "end_line": 280
+      },
+      {
+        "name": "_utc_now_iso",
+        "line": 283,
+        "end_line": 284
+      },
+      {
+        "name": "_normalise_whitespace",
+        "line": 287,
+        "end_line": 288
+      },
+      {
+        "name": "_normalise_key",
+        "line": 291,
+        "end_line": 294
+      },
+      {
+        "name": "_safe_filename",
+        "line": 297,
+        "end_line": 299
+      },
+      {
+        "name": "_slug",
+        "line": 302,
+        "end_line": 304
+      },
+      {
+        "name": "_sha256_bytes",
+        "line": 307,
+        "end_line": 308
+      },
+      {
+        "name": "_sha256_text",
+        "line": 311,
+        "end_line": 312
+      },
+      {
+        "name": "_canonical_json_text",
+        "line": 315,
+        "end_line": 321
+      },
+      {
+        "name": "_hash_json",
+        "line": 324,
+        "end_line": 325
+      },
+      {
+        "name": "_hash_file",
+        "line": 328,
+        "end_line": 333
+      },
+      {
+        "name": "_atomic_write_text",
+        "line": 336,
+        "end_line": 340
+      },
+      {
+        "name": "_write_json",
+        "line": 343,
+        "end_line": 347
+      },
+      {
+        "name": "_read_json",
+        "line": 350,
+        "end_line": 351
+      },
+      {
+        "name": "_read_json_if_exists",
+        "line": 354,
+        "end_line": 359
+      },
+      {
+        "name": "_load_transcript",
+        "line": 362,
+        "end_line": 368
+      },
+      {
+        "name": "_parse_date_from_filename",
+        "line": 371,
+        "end_line": 379
+      },
+      {
+        "name": "_stable_speech_id",
+        "line": 382,
+        "end_line": 383
+      },
+      {
+        "name": "_stable_local_id",
+        "line": 386,
+        "end_line": 388
+      },
+      {
+        "name": "_numeric_id_sort_key",
+        "line": 391,
+        "end_line": 395
+      },
+      {
+        "name": "_pair_id",
+        "line": 398,
+        "end_line": 399
+      },
+      {
+        "name": "_pair_anchor",
+        "line": 402,
+        "end_line": 403
+      },
+      {
+        "name": "_chapter_anchor",
+        "line": 406,
+        "end_line": 407
+      },
+      {
+        "name": "_record_dependency_matches",
+        "line": 410,
+        "end_line": 411
+      },
+      {
+        "name": "_phase_configuration",
+        "line": 414,
+        "end_line": 442
+      },
+      {
+        "name": "_manifest_payload",
+        "line": 445,
+        "end_line": 470
+      },
+      {
+        "name": "_candidate_count_range",
+        "line": 473,
+        "end_line": 476
+      },
+      {
+        "name": "_load_env",
+        "line": 483,
+        "end_line": 488
+      },
+      {
+        "name": "_call_llm",
+        "line": 491,
+        "end_line": 532
+      },
+      {
+        "name": "_json_extract",
+        "line": 535,
+        "end_line": 593
+      },
+      {
+        "name": "_llm_json",
+        "line": 596,
+        "end_line": 604
+      },
+      {
+        "name": "_get_embedding_model",
+        "line": 611,
+        "end_line": 616
+      },
+      {
+        "name": "_encode_texts",
+        "line": 619,
+        "end_line": 628
+      },
+      {
+        "name": "_build_embedding_index",
+        "line": 631,
+        "end_line": 645
+      },
+      {
+        "name": "_top_matches_from_index",
+        "line": 648,
+        "end_line": 669
+      },
+      {
+        "name": "_cosine_top_matches",
+        "line": 672,
+        "end_line": 696
+      },
+      {
+        "name": "_semantic_clusters",
+        "line": 699,
+        "end_line": 734
+      },
+      {
+        "name": "_near_duplicate_pairs",
+        "line": 737,
+        "end_line": 769
+      },
+      {
+        "name": "_semantic_fingerprint",
+        "line": 772,
+        "end_line": 774
+      },
+      {
+        "name": "_locate_excerpt",
+        "line": 781,
+        "end_line": 818
+      },
+      {
+        "name": "_validate_nonempty_string",
+        "line": 821,
+        "end_line": 825
+      },
+      {
+        "name": "_clamp_confidence",
+        "line": 828,
+        "end_line": 833
+      },
+      {
+        "name": "_relationship_type_name",
+        "line": 836,
+        "end_line": 852
+      },
+      {
+        "name": "_relationship_type_label",
+        "line": 855,
+        "end_line": 867
+      },
+      {
+        "name": "_status_name",
+        "line": 870,
+        "end_line": 876
+      },
+      {
+        "name": "_status_icon",
+        "line": 879,
+        "end_line": 884
+      },
+      {
+        "name": "_memory_name",
+        "line": 887,
+        "end_line": 893
+      },
+      {
+        "name": "_looks_like_proposition",
+        "line": 896,
+        "end_line": 912
+      },
+      {
+        "name": "_looks_like_theme",
+        "line": 915,
+        "end_line": 921
+      },
+      {
+        "name": "_validate_phase1_payload",
+        "line": 1268,
+        "end_line": 1467
+      },
+      {
+        "name": "phase1_summarise",
+        "line": 1470,
+        "end_line": 1579
+      },
+      {
+        "name": "_load_all_valid_phase1_records",
+        "line": 1586,
+        "end_line": 1602
+      },
+      {
+        "name": "phase2_inventory",
+        "line": 1605,
+        "end_line": 1701
+      },
+      {
+        "name": "_discovery_batch_cache_path",
+        "line": 1708,
+        "end_line": 1711
+      },
+      {
+        "name": "_recursive_discovery_call",
+        "line": 1714,
+        "end_line": 1771
+      },
+      {
+        "name": "_discover_candidates",
+        "line": 1774,
+        "end_line": 1817
+      },
+      {
+        "name": "_validate_cc_candidates",
+        "line": 1820,
+        "end_line": 1858
+      },
+      {
+        "name": "_validate_theme_candidates",
+        "line": 1861,
+        "end_line": 1883
+      },
+      {
+        "name": "_merge_candidate_clusters",
+        "line": 1886,
+        "end_line": 1930
+      },
+      {
+        "name": "_next_numeric_id",
+        "line": 1933,
+        "end_line": 1943
+      },
+      {
+        "name": "_assign_stable_ids",
+        "line": 1946,
+        "end_line": 2049
+      },
+      {
+        "name": "_map_cc_decomposition_to_theme_ids",
+        "line": 2052,
+        "end_line": 2082
+      },
+      {
+        "name": "_classification_candidates_for_speech",
+        "line": 2085,
+        "end_line": 2113
+      },
+      {
+        "name": "_classify_one_speech",
+        "line": 2115,
+        "end_line": 2371
+      },
+      {
+        "name": "_enrich_canonical_aliases_and_sources",
+        "line": 2374,
+        "end_line": 2400
+      },
+      {
+        "name": "_build_cc_theme_pairs",
+        "line": 2403,
+        "end_line": 2464
+      },
+      {
+        "name": "_canonical_model_version",
+        "line": 2467,
+        "end_line": 2533
+      },
+      {
+        "name": "_phase3_discovery_dependencies",
+        "line": 2536,
+        "end_line": 2550
+      },
+      {
+        "name": "_phase3_dependencies",
+        "line": 2553,
+        "end_line": 2571
+      },
+      {
+        "name": "_load_phase3_model",
+        "line": 2574,
+        "end_line": 2582
+      },
+      {
+        "name": "phase3_consolidate",
+        "line": 2585,
+        "end_line": 2837
+      },
+      {
+        "name": "_phase4_dependencies_for_record",
+        "line": 2844,
+        "end_line": 2863
+      },
+      {
+        "name": "_render_remapped_markdown",
+        "line": 2866,
+        "end_line": 2965
+      },
+      {
+        "name": "_contribution_id",
+        "line": 2968,
+        "end_line": 2974
+      },
+      {
+        "name": "phase4_remap",
+        "line": 2977,
+        "end_line": 3234
+      },
+      {
+        "name": "_build_runtime_buckets",
+        "line": 3241,
+        "end_line": 3289
+      },
+      {
+        "name": "_group_contributions_by_relationship_type",
+        "line": 3292,
+        "end_line": 3308
+      },
+      {
+        "name": "_bucket_input_payload",
+        "line": 3311,
+        "end_line": 3333
+      },
+      {
+        "name": "_validate_bucket_synthesis",
+        "line": 3341,
+        "end_line": 3626
+      },
+      {
+        "name": "_group_contributions_by_speech",
+        "line": 3629,
+        "end_line": 3650
+      },
+      {
+        "name": "_synthesise_bucket",
+        "line": 3653,
+        "end_line": 3837
+      },
+      {
+        "name": "_markdown_escape_inline",
+        "line": 3840,
+        "end_line": 3841
+      },
+      {
+        "name": "_source_links_text",
+        "line": 3844,
+        "end_line": 3845
+      },
+      {
+        "name": "_render_argument",
+        "line": 3848,
+        "end_line": 3950
+      },
+      {
+        "name": "_theme_to_pairs",
+        "line": 3953,
+        "end_line": 3959
+      },
+      {
+        "name": "_cc_to_pairs",
+        "line": 3962,
+        "end_line": 3968
+      },
+      {
+        "name": "_render_shared_theme_cross_index",
+        "line": 3971,
+        "end_line": 3999
+      },
+      {
+        "name": "_render_compendium",
+        "line": 4002,
+        "end_line": 4111
+      },
+      {
+        "name": "_render_theme_index",
+        "line": 4114,
+        "end_line": 4185
+      },
+      {
+        "name": "_collect_unverifiable_records",
+        "line": 4188,
+        "end_line": 4239
+      },
+      {
+        "name": "_render_unverifiable_claims",
+        "line": 4242,
+        "end_line": 4276
+      },
+      {
+        "name": "_integrity_checks",
+        "line": 4279,
+        "end_line": 4509
+      },
+      {
+        "name": "phase5_assemble",
+        "line": 4512,
+        "end_line": 4698
+      },
+      {
+        "name": "_parse_args",
+        "line": 4705,
+        "end_line": 4724
+      },
+      {
+        "name": "main",
+        "line": 4727,
+        "end_line": 4776
+      }
+    ]
+  },
+  {
+    "file": "standalone_evaluation_script_notree_revised2.py",
+    "lines": 4673,
+    "syntax": "AST parse passed; not executed",
+    "functions": [
+      {
+        "name": "_read_json",
+        "line": 302,
+        "end_line": 308
+      },
+      {
+        "name": "_read_text",
+        "line": 311,
+        "end_line": 314
+      },
+      {
+        "name": "_sha256_bytes",
+        "line": 317,
+        "end_line": 318
+      },
+      {
+        "name": "_hash_file",
+        "line": 321,
+        "end_line": 324
+      },
+      {
+        "name": "_normalise_whitespace",
+        "line": 327,
+        "end_line": 328
+      },
+      {
+        "name": "_normalise_key",
+        "line": 331,
+        "end_line": 333
+      },
+      {
+        "name": "_relationship_type_name",
+        "line": 337,
+        "end_line": 353
+      },
+      {
+        "name": "_relationship_type_label",
+        "line": 356,
+        "end_line": 368
+      },
+      {
+        "name": "_safe_pct",
+        "line": 371,
+        "end_line": 374
+      },
+      {
+        "name": "_summary_stats",
+        "line": 377,
+        "end_line": 398
+      },
+      {
+        "name": "_gini_from_counts",
+        "line": 401,
+        "end_line": 408
+      },
+      {
+        "name": "_entropy_from_counts",
+        "line": 411,
+        "end_line": 419
+      },
+      {
+        "name": "_distribution_report",
+        "line": 422,
+        "end_line": 456
+      },
+      {
+        "name": "_candidate_count_range",
+        "line": 459,
+        "end_line": 462
+      },
+      {
+        "name": "_looks_like_proposition",
+        "line": 465,
+        "end_line": 479
+      },
+      {
+        "name": "_looks_like_theme",
+        "line": 482,
+        "end_line": 488
+      },
+      {
+        "name": "_json_safe",
+        "line": 491,
+        "end_line": 500
+      },
+      {
+        "name": "_literal_assignments_from_python",
+        "line": 508,
+        "end_line": 527
+      },
+      {
+        "name": "load_pipeline_config",
+        "line": 530,
+        "end_line": 562
+      },
+      {
+        "name": "_load_wrapped_records",
+        "line": 570,
+        "end_line": 591
+      },
+      {
+        "name": "load_evaluation_data",
+        "line": 594,
+        "end_line": 637
+      },
+      {
+        "name": "_load_semantic_dependencies",
+        "line": 645,
+        "end_line": 659
+      },
+      {
+        "name": "_encode",
+        "line": 662,
+        "end_line": 672
+      },
+      {
+        "name": "semantic_near_duplicates",
+        "line": 675,
+        "end_line": 723
+      },
+      {
+        "name": "_manifest_output_hash_checks",
+        "line": 731,
+        "end_line": 776
+      },
+      {
+        "name": "phase_and_manifest_health",
+        "line": 779,
+        "end_line": 903
+      },
+      {
+        "name": "canonical_entity_quality",
+        "line": 911,
+        "end_line": 984
+      },
+      {
+        "name": "classification_and_mapping_quality",
+        "line": 992,
+        "end_line": 1593
+      },
+      {
+        "name": "usage_distributions",
+        "line": 1601,
+        "end_line": 1644
+      },
+      {
+        "name": "pair_and_theme_structure",
+        "line": 1652,
+        "end_line": 1999
+      },
+      {
+        "name": "_count_local_arguments",
+        "line": 2007,
+        "end_line": 2011
+      },
+      {
+        "name": "lossless_remap_quality",
+        "line": 2014,
+        "end_line": 2374
+      },
+      {
+        "name": "pair_synthesis_provenance",
+        "line": 2382,
+        "end_line": 3218
+      },
+      {
+        "name": "_extract_html_anchors",
+        "line": 3226,
+        "end_line": 3227
+      },
+      {
+        "name": "_extract_compendium_pair_ids",
+        "line": 3230,
+        "end_line": 3231
+      },
+      {
+        "name": "_extract_theme_index_pair_ids",
+        "line": 3234,
+        "end_line": 3235
+      },
+      {
+        "name": "_extract_theme_index_theme_ids",
+        "line": 3238,
+        "end_line": 3239
+      },
+      {
+        "name": "_extract_theme_index_compendium_anchors",
+        "line": 3242,
+        "end_line": 3243
+      },
+      {
+        "name": "_extract_cross_index_section",
+        "line": 3246,
+        "end_line": 3249
+      },
+      {
+        "name": "_extract_cross_index_anchors",
+        "line": 3252,
+        "end_line": 3254
+      },
+      {
+        "name": "_extract_model_versions",
+        "line": 3257,
+        "end_line": 3258
+      },
+      {
+        "name": "publication_and_index_integrity",
+        "line": 3261,
+        "end_line": 3501
+      },
+      {
+        "name": "_status_name",
+        "line": 3509,
+        "end_line": 3515
+      },
+      {
+        "name": "_expected_unverifiable_records",
+        "line": 3518,
+        "end_line": 3565
+      },
+      {
+        "name": "_parse_published_unverifiable",
+        "line": 3568,
+        "end_line": 3584
+      },
+      {
+        "name": "unverifiable_claim_completeness",
+        "line": 3587,
+        "end_line": 3642
+      },
+      {
+        "name": "version_and_staleness_consistency",
+        "line": 3650,
+        "end_line": 4203
+      },
+      {
+        "name": "_section",
+        "line": 4211,
+        "end_line": 4214
+      },
+      {
+        "name": "_status_symbol",
+        "line": 4217,
+        "end_line": 4218
+      },
+      {
+        "name": "_print_top_rows",
+        "line": 4221,
+        "end_line": 4230
+      },
+      {
+        "name": "print_report",
+        "line": 4233,
+        "end_line": 4508
+      },
+      {
+        "name": "evaluate",
+        "line": 4511,
+        "end_line": 4576
+      },
+      {
+        "name": "_parse_args",
+        "line": 4584,
+        "end_line": 4638
+      },
+      {
+        "name": "main",
+        "line": 4641,
+        "end_line": 4669
+      }
+    ]
+  }
+]

@@ -1,0 +1,1270 @@
+{
+  "dependencies": {
+    "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+    "phase1_record_hash": "c49aa8bc3fbe2a6ee591a2af83af295f15bdad7aee943cdca0bd37eed4145950",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-138784838E6F",
+    "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+    "stem": "20260226_The Markets will Never Be the Same - AI Takeover",
+    "date": "2026-02-26",
+    "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+    "source_character_count": 22471,
+    "central_claim": "AI will not eliminate profit opportunities in financial markets but will instead democratize access, increase volatility, and shift alpha to higher skill levels.",
+    "themes": [
+      {
+        "local_theme_id": "LT-48CAD976038E",
+        "theme": "AI and democratized access to public markets",
+        "arguments": [
+          {
+            "local_argument_id": "LA-06751D27199F",
+            "local_theme_id": "LT-48CAD976038E",
+            "conclusion": "AI will enable more people around the world to invest in public markets.",
+            "premises": [
+              "The first IPO was in 1602 and access grew slowly since then.",
+              "Current US participation is 62%, and much lower in other countries.",
+              "Technology (free apps, no fees) drove US participation.",
+              "AI will accelerate the technology trend globally."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-63A8F43DA5FB",
+                "item": "US stock market participation rate is 62%",
+                "status": "Verified",
+                "verification_basis": "The transcript cites Visual Capitalist as the source for this statistic.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "stock market participation in the United States is only about 62% meaning for every 100 Americans, only 62 of them have any ownership of any stocks at all, whether that's through a retirement account, pension, or anything else.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8E9DFECEBE85",
+                "item": "Australia has a 37% participation rate",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly references a chart from Visual Capitalist showing these rates.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "Take a look at this chart from Visual Capitalist and you can see that Australia only has a 37% participation rate in investing in stocks.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1E3267669A62",
+                "item": "First IPO took place in 1602",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states this as a historical fact without providing a specific source or citation.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "the very first IPO did not take place until 1602.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-1FF961920330",
+                "device": "Historical comparison of investing accessibility",
+                "explanation": "Illustrates how technology has already transformed investing access and how AI will continue that trend.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "The average person 50 years ago or 100 years ago, even in the United States, it was very difficult to invest in stocks... To invest in a publicly traded security, you had to find a broker, pay massive commissions, get a physical paper certificate in the mail, and it was inaccessible to most people.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7355632FEE1E",
+        "theme": "AI and democratized high-level investment tools",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2FD9192452AE",
+            "local_theme_id": "LT-7355632FEE1E",
+            "conclusion": "AI will make advanced financial planning and investment tools available to the general public at low cost.",
+            "premises": [
+              "Robo-advisors have already made tax-loss harvesting accessible to all.",
+              "AI will further reduce costs and improve quality of financial services.",
+              "Services like estate planning and retirement distribution will become affordable."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3D58E3AB02AA",
+                "item": "Tax-loss harvesting was previously only available to high-net-worth investors",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript makes this claim without citing a specific source or study.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "It used to be that strategies such as tax-loss harvesting were only available to the high-net-worth investors.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-88C09795227A",
+                "item": "Platforms like Wealthfront, Betterment, Acorns, and Schwab Intelligent Portfolio offer tax-loss harvesting for free",
+                "status": "Verified",
+                "verification_basis": "Transcript names specific robo-advisor platforms that currently offer this feature, providing identifiable examples.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "with any of those robo-advisor platforms today like Wealthfront or Betterment or Acorns or Schwab Intelligent Portfolio, you can access that feature with a click of a button, and it is free.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8FBFB7517D15",
+        "theme": "AI and the disappearance of easy alpha",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DA9C80EEFFF4",
+            "local_theme_id": "LT-8FBFB7517D15",
+            "conclusion": "Easy profit opportunities will be arbitraged away by AI traders.",
+            "premises": [
+              "AI can combine the best skills of human traders and replicate them infinitely.",
+              "Historical example of Benjamin Graham's value strategy stopped working as more investors adopted it."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FABCC3F66119",
+                "item": "Benjamin Graham's book 'The Intelligent Investor'",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly names the book and author, providing an identifiable source.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "if you have ever read Benjamin Graham's book, and that's The Intelligent Investor.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-740875661DFB",
+                "item": "It was relatively common to find quality stocks trading at or below book value in Graham's time",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states this as a historical market condition without providing data or a source.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "it was relatively common to be able to find quality stocks that were trading at or below book value.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-5D4A863FEBD2",
+                "device": "Benjamin Graham's value investing strategy as illustration of disappearing edge",
+                "explanation": "Shows how a once highly profitable strategy became ineffective as more market participants exploited it.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "Back in the time period in which Benjamin Graham was investing, it was relatively common to be able to find quality stocks that were trading at or below book value... But as this edge was discovered and exploited by more and more investors, it meant that profit opportunity was soaked up.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-FA0D76A08C6C",
+        "theme": "AI and heightened market volatility",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8B2B1ED5AEC1",
+            "local_theme_id": "LT-FA0D76A08C6C",
+            "conclusion": "AI will lead to more frequent and extreme volatility events in financial markets.",
+            "premises": [
+              "Overfitting on historical data can produce strategies that fail in the future.",
+              "AI models may act on spurious correlations.",
+              "Fake data will make model training more difficult.",
+              "Similar risk limits and margin constraints across AI traders will amplify cascading liquidations."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CA364F017081",
+                "item": "Flash crashes occur when large portions of the market use the same strategies and risk limits",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes the mechanism of flash crashes without citing a specific event or study.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "This is one of the reasons why today we have things like flash crashes in the market because everybody is investing or a large portion of the market is investing with the exact same risk limits and the exact same strategies.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-3B33A50907CE",
+                "item": "Spurious correlation between first name Johnny and burglaries in New Hampshire",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides this as an example but does not cite any source.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "the popularity of the first name Johnny correlates with burglaries in New Hampshire.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-AC8728181D59",
+                "item": "Spurious correlation between pirate attacks and Google searches for download Firefox",
+                "status": "Unverifiable",
+                "verification_basis": "Same as above.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "pirate attacks happening around the world correlate with Google searches for download Firefox.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-CAA2195CEE9C",
+                "device": "Overfitting analogy",
+                "explanation": "Illustrates how a strategy that appears profitable in backtesting can fail once implemented due to being based on random noise.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "imagine you are analyzing the markets and you're looking at past data, and you notice that if you buy every third day and you sell every sixth day, then you will outperform the market by triple... as soon as you implement that strategy, it stops working.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-F20AF76A1A70",
+        "theme": "Human control in AI-driven markets",
+        "arguments": [
+          {
+            "local_argument_id": "LA-704E84CDCE65",
+            "local_theme_id": "LT-F20AF76A1A70",
+            "conclusion": "Humans will remain the ultimate decision-makers in investing due to diverse goals and the inherent inefficiency of markets.",
+            "premises": [
+              "Investors have different goals (income, liquidity, hedging) that go beyond maximizing total return.",
+              "The Grossman-Stiglitz paradox shows that perfect market efficiency is impossible because it would eliminate profit incentives.",
+              "Large investors price themselves out of small opportunities due to capital constraints."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-21AECD201D0E",
+                "item": "Market makers maintain delta neutral books and profit from spreads",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript explains this behavior but does not provide a source or data.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "A market maker is in the business of making money on the spread between the bid and the ask... they will hedge their position so that they're Delta neutral.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-8E275F874579",
+                "item": "Warren Buffett's Berkshire Hathaway has $344 billion in cash",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states this figure without citing a financial statement or source.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "Warren Buffett, his company Berkshire Hathaway currently has $344 billion in cash.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1CC2C33BA869",
+                "item": "Grossman-Stiglitz paradox",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript names the paradox but does not provide a citation or explanation beyond the speaker's own.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "What I've just described is called the Grossman-Stiglitz paradox, which basically states that perfectly efficient markets are impossible because a perfectly efficient market has no alpha potential.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-31B11A47AC48",
+                "device": "Market maker hedging scenario",
+                "explanation": "Illustrates how different market participants have different profit motives and constraints.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "A market maker is in the business of making money on the spread between the bid and the ask... they will hedge their position so that they're Delta neutral.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-49B21E75A29F",
+                "device": "House purchase scenario",
+                "explanation": "Shows that personal financial goals override profit maximization, ensuring market inefficiency.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "the last person in line also has a very different goal with investing cuz he's selling everything cuz he's about to take some money out of the markets to go put money down on a down payment on a house even if that's not going to be the best decision for total return.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-6B075D51B45F",
+                "device": "Warren Buffett scale constraint",
+                "explanation": "Demonstrates how successful investors become unable to exploit small opportunities due to their large capital base.",
+                "speech_id": "SP-138784838E6F",
+                "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+                "source_excerpt": "You will not find Warren Buffett going around on Facebook Marketplace picking up items for free... Because he has $344 billion to deploy.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-2F2293473025",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "IBM's stock fell 12% in just one day",
+        "reason": "The transcript does not provide any source or citation for this specific market movement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "IBM's stock fell 12% in just one day.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FD6A2ED4FC91",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Adobe is down 60% from recent highs",
+        "reason": "No source or citation is provided for this price drop.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "stocks like Adobe are down 60% from recent highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-34CB8345A171",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "A recent Harvard study found that AI can predict 71% of trades in actively managed portfolios",
+        "reason": "Although a study is named, no details (publication, date, methodology) are provided to allow verification from within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "a recent Harvard study just found out that AI can predict 71% of trades that take place in actively managed portfolios.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-10E5AA5ADDC5",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Anthropic stated that its Claude code tool could be used to modernize legacy systems running COBOL",
+        "reason": "The transcript attributes a statement to Anthropic but provides no direct quote or external source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "Anthropic said that its Claude code tool could be used to modernize legacy systems that run COBOL.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E03C6D0B03C5",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Jamie Dimon said AI is reshaping Chase's workforce",
+        "reason": "No specific quote, date, or source is provided for this statement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "We already see people like Jamie Dimon saying that AI is reshaping Chase's workforce.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-B021E95550F4",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "The first IPO took place in 1602",
+        "reason": "This historical fact is stated without any supporting citation or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "the very first IPO did not take place until 1602.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3AA53AC82FB2",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "It used to be that tax-loss harvesting was only available to high-net-worth investors",
+        "reason": "No data or source is given to support this claim about historical availability.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "It used to be that strategies such as tax-loss harvesting were only available to the high-net-worth investors.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-CC9F52B51F6D",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "It was relatively common to find quality stocks trading at or below book value in Benjamin Graham's time",
+        "reason": "No historical market data or source is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "it was relatively common to be able to find quality stocks that were trading at or below book value.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-15A9E5C6EB99",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Flash crashes occur because large portions of the market use the same risk limits and strategies",
+        "reason": "This explanation is not supported by any referenced event or study.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "This is one of the reasons why today we have things like flash crashes in the market because everybody is investing or a large portion of the market is investing with the exact same risk limits and the exact same strategies.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2C477B7564AE",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Spurious correlations exist such as between the first name Johnny and burglaries in New Hampshire",
+        "reason": "No source for this specific example is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "the popularity of the first name Johnny correlates with burglaries in New Hampshire.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2883217DAE87",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Spurious correlation exists between pirate attacks and Google searches for download Firefox",
+        "reason": "No source for this specific example is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "pirate attacks happening around the world correlate with Google searches for download Firefox.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-09CBB3D462A2",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Warren Buffett's Berkshire Hathaway has $344 billion in cash",
+        "reason": "This specific financial figure is given without citation or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "Warren Buffett, his company Berkshire Hathaway currently has $344 billion in cash.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2C495BCC3AED",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "Market makers maintain delta neutral books and profit from spreads",
+        "reason": "This description of market maker behavior is presented as fact without reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "A market maker is in the business of making money on the spread between the bid and the ask... they will hedge their position so that they're Delta neutral.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-663D0890C354",
+        "speech_id": "SP-138784838E6F",
+        "speech_ref": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "claim": "The Grossman-Stiglitz paradox states that perfectly efficient markets are impossible because they would have no alpha potential",
+        "reason": "The paradox is named but no source or academic reference is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence in transcript to verify this claim.",
+        "source_excerpt": "What I've just described is called the Grossman-Stiglitz paradox, which basically states that perfectly efficient markets are impossible because a perfectly efficient market has no alpha potential, which means there would be no profit in making it efficient, so nobody would participate in that market, which would reintroduce that inefficiency.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "AI will not eliminate profit opportunities in financial markets but will instead democratize access, increase volatility, and shift alpha to higher skill levels.",
+      "themes": [
+        "AI and democratized access to public markets",
+        "AI and democratized high-level investment tools",
+        "AI and the disappearance of easy alpha",
+        "AI and heightened market volatility",
+        "Human control in AI-driven markets"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 14
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "1d82d5c27ca30987000bb78bcf940c8d03ae03cacccfb9244b38e46581d957b3",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "c49aa8bc3fbe2a6ee591a2af83af295f15bdad7aee943cdca0bd37eed4145950",
+    "canonical_mapping": {
+      "speech_id": "SP-138784838E6F",
+      "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC38",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+      "primary_cc_rationale": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T69",
+        "T118"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T69",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-7355632FEE1E",
+          "rationale": "Focuses on AI enabling high-level investment tools for the public, a key part of AI in financial markets."
+        },
+        {
+          "theme_id": "T118",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-FA0D76A08C6C",
+          "rationale": "Directly focuses on AI-induced market volatility, matching the canonical theme of market volatility, speculation, and trading strategies."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC38-T69",
+          "cc_id": "CC38",
+          "theme_id": "T69",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC38-T118",
+          "cc_id": "CC38",
+          "theme_id": "T118",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "local_cc_text": "AI will not eliminate profit opportunities in financial markets but will instead democratize access, increase volatility, and shift alpha to higher skill levels.",
+        "canonical_cc_id": "CC38",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "rationale": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "candidate_matches": [
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.8295185565948486
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.46522876620292664
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.31926077604293823
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.24078848958015442
+          },
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.20740532875061035
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "local_theme_id": "LT-48CAD976038E",
+        "local_theme_text": "AI and democratized access to public markets",
+        "canonical_theme_id": "T69",
+        "confidence": 0.95,
+        "rationale": "Directly addresses AI's role in democratizing access to public markets, which is a core aspect of AI in financial markets.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.5983173847198486
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.4842838644981384
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.4393482208251953
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.43197396397590637
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.37307173013687134
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.3528013229370117
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "local_theme_id": "LT-7355632FEE1E",
+        "local_theme_text": "AI and democratized high-level investment tools",
+        "canonical_theme_id": "T69",
+        "confidence": 0.95,
+        "rationale": "Focuses on AI enabling high-level investment tools for the public, a key part of AI in financial markets.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.6235060691833496
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.3296923339366913
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.3232532739639282
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.27173924446105957
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.2504728436470032
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.24967911839485168
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "local_theme_id": "LT-8FBFB7517D15",
+        "local_theme_text": "AI and the disappearance of easy alpha",
+        "canonical_theme_id": "T69",
+        "confidence": 0.9,
+        "rationale": "Discusses AI arbitraging away easy alpha, which is a phenomenon within AI-driven financial markets.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.46935856342315674
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.26005053520202637
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.2199970930814743
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.19504642486572266
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.1848568618297577
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.1726004034280777
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "local_theme_id": "LT-FA0D76A08C6C",
+        "local_theme_text": "AI and heightened market volatility",
+        "canonical_theme_id": "T118",
+        "confidence": 0.95,
+        "rationale": "Directly focuses on AI-induced market volatility, matching the canonical theme of market volatility, speculation, and trading strategies.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.7206413745880127
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.5272663831710815
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.45697712898254395
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.45422831177711487
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.3826018273830414
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.37784343957901
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "local_theme_id": "LT-F20AF76A1A70",
+        "local_theme_text": "Human control in AI-driven markets",
+        "canonical_theme_id": "T69",
+        "confidence": 0.8,
+        "rationale": "Concerns human control in AI-driven markets, a subtopic within artificial intelligence in financial markets.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.6348954439163208
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.44975054264068604
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.4355632960796356
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.4212414026260376
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.4163855314254761
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.3655880093574524
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-EC37A737917660",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "date": "2026-02-26",
+        "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+        "pair_id": "PAIR-CC38-T69",
+        "cc_id": "CC38",
+        "theme_id": "T69",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-48CAD976038E",
+        "local_theme_text": "AI and democratized access to public markets",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Directly addresses AI's role in democratizing access to public markets, which is a core aspect of AI in financial markets.",
+        "local_argument_id": "LA-06751D27199F",
+        "conclusion": "AI will enable more people around the world to invest in public markets.",
+        "premises": [
+          "The first IPO was in 1602 and access grew slowly since then.",
+          "Current US participation is 62%, and much lower in other countries.",
+          "Technology (free apps, no fees) drove US participation.",
+          "AI will accelerate the technology trend globally."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-63A8F43DA5FB",
+            "item": "US stock market participation rate is 62%",
+            "status": "Verified",
+            "verification_basis": "The transcript cites Visual Capitalist as the source for this statistic.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "stock market participation in the United States is only about 62% meaning for every 100 Americans, only 62 of them have any ownership of any stocks at all, whether that's through a retirement account, pension, or anything else.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8E9DFECEBE85",
+            "item": "Australia has a 37% participation rate",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly references a chart from Visual Capitalist showing these rates.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "Take a look at this chart from Visual Capitalist and you can see that Australia only has a 37% participation rate in investing in stocks.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1E3267669A62",
+            "item": "First IPO took place in 1602",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states this as a historical fact without providing a specific source or citation.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "the very first IPO did not take place until 1602.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-1FF961920330",
+            "device": "Historical comparison of investing accessibility",
+            "explanation": "Illustrates how technology has already transformed investing access and how AI will continue that trend.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "The average person 50 years ago or 100 years ago, even in the United States, it was very difficult to invest in stocks... To invest in a publicly traded security, you had to find a broker, pay massive commissions, get a physical paper certificate in the mail, and it was inaccessible to most people.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-03C8627C9BA4DF",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "date": "2026-02-26",
+        "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+        "pair_id": "PAIR-CC38-T69",
+        "cc_id": "CC38",
+        "theme_id": "T69",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7355632FEE1E",
+        "local_theme_text": "AI and democratized high-level investment tools",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Focuses on AI enabling high-level investment tools for the public, a key part of AI in financial markets.",
+        "local_argument_id": "LA-2FD9192452AE",
+        "conclusion": "AI will make advanced financial planning and investment tools available to the general public at low cost.",
+        "premises": [
+          "Robo-advisors have already made tax-loss harvesting accessible to all.",
+          "AI will further reduce costs and improve quality of financial services.",
+          "Services like estate planning and retirement distribution will become affordable."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3D58E3AB02AA",
+            "item": "Tax-loss harvesting was previously only available to high-net-worth investors",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript makes this claim without citing a specific source or study.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "It used to be that strategies such as tax-loss harvesting were only available to the high-net-worth investors.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-88C09795227A",
+            "item": "Platforms like Wealthfront, Betterment, Acorns, and Schwab Intelligent Portfolio offer tax-loss harvesting for free",
+            "status": "Verified",
+            "verification_basis": "Transcript names specific robo-advisor platforms that currently offer this feature, providing identifiable examples.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "with any of those robo-advisor platforms today like Wealthfront or Betterment or Acorns or Schwab Intelligent Portfolio, you can access that feature with a click of a button, and it is free.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E96184AB1F4A2C",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "date": "2026-02-26",
+        "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+        "pair_id": "PAIR-CC38-T69",
+        "cc_id": "CC38",
+        "theme_id": "T69",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8FBFB7517D15",
+        "local_theme_text": "AI and the disappearance of easy alpha",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Discusses AI arbitraging away easy alpha, which is a phenomenon within AI-driven financial markets.",
+        "local_argument_id": "LA-DA9C80EEFFF4",
+        "conclusion": "Easy profit opportunities will be arbitraged away by AI traders.",
+        "premises": [
+          "AI can combine the best skills of human traders and replicate them infinitely.",
+          "Historical example of Benjamin Graham's value strategy stopped working as more investors adopted it."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-FABCC3F66119",
+            "item": "Benjamin Graham's book 'The Intelligent Investor'",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly names the book and author, providing an identifiable source.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "if you have ever read Benjamin Graham's book, and that's The Intelligent Investor.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-740875661DFB",
+            "item": "It was relatively common to find quality stocks trading at or below book value in Graham's time",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states this as a historical market condition without providing data or a source.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "it was relatively common to be able to find quality stocks that were trading at or below book value.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-5D4A863FEBD2",
+            "device": "Benjamin Graham's value investing strategy as illustration of disappearing edge",
+            "explanation": "Shows how a once highly profitable strategy became ineffective as more market participants exploited it.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "Back in the time period in which Benjamin Graham was investing, it was relatively common to be able to find quality stocks that were trading at or below book value... But as this edge was discovered and exploited by more and more investors, it meant that profit opportunity was soaked up.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-BAD932D3B71486",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "date": "2026-02-26",
+        "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+        "pair_id": "PAIR-CC38-T118",
+        "cc_id": "CC38",
+        "theme_id": "T118",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-FA0D76A08C6C",
+        "local_theme_text": "AI and heightened market volatility",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Directly focuses on AI-induced market volatility, matching the canonical theme of market volatility, speculation, and trading strategies.",
+        "local_argument_id": "LA-8B2B1ED5AEC1",
+        "conclusion": "AI will lead to more frequent and extreme volatility events in financial markets.",
+        "premises": [
+          "Overfitting on historical data can produce strategies that fail in the future.",
+          "AI models may act on spurious correlations.",
+          "Fake data will make model training more difficult.",
+          "Similar risk limits and margin constraints across AI traders will amplify cascading liquidations."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-CA364F017081",
+            "item": "Flash crashes occur when large portions of the market use the same strategies and risk limits",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript describes the mechanism of flash crashes without citing a specific event or study.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "This is one of the reasons why today we have things like flash crashes in the market because everybody is investing or a large portion of the market is investing with the exact same risk limits and the exact same strategies.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-3B33A50907CE",
+            "item": "Spurious correlation between first name Johnny and burglaries in New Hampshire",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides this as an example but does not cite any source.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "the popularity of the first name Johnny correlates with burglaries in New Hampshire.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-AC8728181D59",
+            "item": "Spurious correlation between pirate attacks and Google searches for download Firefox",
+            "status": "Unverifiable",
+            "verification_basis": "Same as above.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "pirate attacks happening around the world correlate with Google searches for download Firefox.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-CAA2195CEE9C",
+            "device": "Overfitting analogy",
+            "explanation": "Illustrates how a strategy that appears profitable in backtesting can fail once implemented due to being based on random noise.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "imagine you are analyzing the markets and you're looking at past data, and you notice that if you buy every third day and you sell every sixth day, then you will outperform the market by triple... as soon as you implement that strategy, it stops working.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-6E8620DF051CA7",
+        "speech_id": "SP-138784838E6F",
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "date": "2026-02-26",
+        "source_hash": "d748b4bcbea915c9c07ce406c382e1fab0d0adff061de60836522ab28e242b9d",
+        "pair_id": "PAIR-CC38-T69",
+        "cc_id": "CC38",
+        "theme_id": "T69",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that AI will democratize access to financial markets, increase volatility, and shift alpha to higher skill levels, directly affirming the core claim of CC38 that AI will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-F20AF76A1A70",
+        "local_theme_text": "Human control in AI-driven markets",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Concerns human control in AI-driven markets, a subtopic within artificial intelligence in financial markets.",
+        "local_argument_id": "LA-704E84CDCE65",
+        "conclusion": "Humans will remain the ultimate decision-makers in investing due to diverse goals and the inherent inefficiency of markets.",
+        "premises": [
+          "Investors have different goals (income, liquidity, hedging) that go beyond maximizing total return.",
+          "The Grossman-Stiglitz paradox shows that perfect market efficiency is impossible because it would eliminate profit incentives.",
+          "Large investors price themselves out of small opportunities due to capital constraints."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-21AECD201D0E",
+            "item": "Market makers maintain delta neutral books and profit from spreads",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript explains this behavior but does not provide a source or data.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "A market maker is in the business of making money on the spread between the bid and the ask... they will hedge their position so that they're Delta neutral.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-8E275F874579",
+            "item": "Warren Buffett's Berkshire Hathaway has $344 billion in cash",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states this figure without citing a financial statement or source.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "Warren Buffett, his company Berkshire Hathaway currently has $344 billion in cash.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1CC2C33BA869",
+            "item": "Grossman-Stiglitz paradox",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript names the paradox but does not provide a citation or explanation beyond the speaker's own.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "What I've just described is called the Grossman-Stiglitz paradox, which basically states that perfectly efficient markets are impossible because a perfectly efficient market has no alpha potential.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-31B11A47AC48",
+            "device": "Market maker hedging scenario",
+            "explanation": "Illustrates how different market participants have different profit motives and constraints.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "A market maker is in the business of making money on the spread between the bid and the ask... they will hedge their position so that they're Delta neutral.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-49B21E75A29F",
+            "device": "House purchase scenario",
+            "explanation": "Shows that personal financial goals override profit maximization, ensuring market inefficiency.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "the last person in line also has a very different goal with investing cuz he's selling everything cuz he's about to take some money out of the markets to go put money down on a down payment on a house even if that's not going to be the best decision for total return.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-6B075D51B45F",
+            "device": "Warren Buffett scale constraint",
+            "explanation": "Demonstrates how successful investors become unable to exploit small opportunities due to their large capital base.",
+            "speech_id": "SP-138784838E6F",
+            "source_speech_filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+            "source_excerpt": "You will not find Warren Buffett going around on Facebook Marketplace picking up items for free... Because he has $344 billion to deploy.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "1d82d5c27ca30987000bb78bcf940c8d03ae03cacccfb9244b38e46581d957b3",
+  "complete": true
+}

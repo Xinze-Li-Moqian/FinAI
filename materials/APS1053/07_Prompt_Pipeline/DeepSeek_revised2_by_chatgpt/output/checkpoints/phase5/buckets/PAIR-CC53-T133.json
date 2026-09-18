@@ -1,0 +1,218 @@
+{
+  "dependency_hash": "b9243b0fd6a9b729f584ff247eaaafa6a1bbacd1ba26823018c688ec25728dc9",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC53-T133",
+    "cc_id": "CC53",
+    "theme_id": "T133",
+    "authoritative_anchor": "cc-cc53-theme-t133",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC53-T133-FF85B8C557",
+        "pair_id": "PAIR-CC53-T133",
+        "conclusion": "144-month auto loans are dangerous because they lead to negative equity and high default risk.",
+        "source_contribution_ids": [
+          "CONTRIB-FAF480004CDAA9"
+        ],
+        "source_speech_filenames": [
+          "20251117_Subprime Auto Loans are Imploding.txt"
+        ],
+        "premise_synthesis": "A car loses at least 10% of its value immediately and depreciates further over 12 years. Borrowers who require a 144-month loan because they cannot afford shorter terms are likely to be underwater on the loan, increasing the probability of default and repossession.",
+        "conclusion_supported": "Extended 144-month auto loans expose borrowers to negative equity and heightened default risk due to rapid vehicle depreciation.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-FAF480004CDAA9"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Cars lose 10% value off the lot",
+            "status": "Unverifiable",
+            "verification_basis": "This is a common belief but no specific source or datum is provided in the transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-FAF480004CDAA9"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "source_excerpt": "The moment you roll it off the lot, it loses at least 10% of its value."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech from 2025-11-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC53-T133-C1FB41603C",
+        "pair_id": "PAIR-CC53-T133",
+        "conclusion": "Subprime auto lenders are already collapsing and investor risk aversion is rising.",
+        "source_contribution_ids": [
+          "CONTRIB-3310168B2FB5DD"
+        ],
+        "source_speech_filenames": [
+          "20251117_Subprime Auto Loans are Imploding.txt"
+        ],
+        "premise_synthesis": "Subprime auto lenders Color Holdings and Primolend Capital Partners have recently collapsed, and Automotive Credit Corp has paused new lending. Meanwhile, investors are demanding 0.5% more yield on subprime auto loan asset-backed securities compared to just two months ago.",
+        "conclusion_supported": "The subprime auto lending market is experiencing lender failures and increasing investor caution, as evidenced by specific company collapses and rising yield demands.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-3310168B2FB5DD"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Collapse of Color Holdings and Primolend Capital Partners",
+            "status": "Verified",
+            "verification_basis": "Transcript names specific companies and events.",
+            "source_contribution_ids": [
+              "CONTRIB-3310168B2FB5DD"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "source_excerpt": "Color Holdings and Primolend Capital Partners are two examples of subprime lenders that recently collapsed."
+          },
+          {
+            "item": "Investor demand for higher yield",
+            "status": "Verified",
+            "verification_basis": "Transcript provides a specific yield increase and time frame.",
+            "source_contribution_ids": [
+              "CONTRIB-3310168B2FB5DD"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "source_excerpt": "investors are now demanding roughly a half a percent more yield on this lowest trunch of subprime auto loans compared to even just 2 months ago."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech from 2025-11-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC53-T133-CB22E60F71",
+        "pair_id": "PAIR-CC53-T133",
+        "conclusion": "Subprime auto loan delinquency rates have reached their highest level since 1994.",
+        "source_contribution_ids": [
+          "CONTRIB-0EAF6F5EBD6D58"
+        ],
+        "source_speech_filenames": [
+          "20251117_Subprime Auto Loans are Imploding.txt"
+        ],
+        "premise_synthesis": "The percentage of subprime borrowers who are late on their auto loans is over 6.5% currently, which is the highest delinquency rate since 1994.",
+        "conclusion_supported": "Subprime auto loan delinquency rates have reached a historic high of over 6.5%, surpassing all levels since 1994.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-0EAF6F5EBD6D58"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "6.5% delinquency rate for subprime borrowers",
+            "status": "Verified",
+            "verification_basis": "Transcript provides a specific statistic and a historical comparison.",
+            "source_contribution_ids": [
+              "CONTRIB-0EAF6F5EBD6D58"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "source_excerpt": "the percentage of subprime borrowers who are late on their auto loans is over 6 and a half% right now, which is the highest delinquency rate that we've seen since 1994."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech from 2025-11-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC53-T133-F4E1F55B13",
+        "pair_id": "PAIR-CC53-T133",
+        "conclusion": "The share of subprime borrowers is increasing, indicating broader economic strain.",
+        "source_contribution_ids": [
+          "CONTRIB-D287BA4D26EDC6"
+        ],
+        "source_speech_filenames": [
+          "20251117_Subprime Auto Loans are Imploding.txt"
+        ],
+        "premise_synthesis": "Subprime borrowers account for 14.4% of consumers in Q3 2025, up from 13.9% in Q3 2024.",
+        "conclusion_supported": "The proportion of subprime borrowers in the auto loan market has increased by 0.5 percentage points year-over-year, signaling growing financial distress among consumers.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-D287BA4D26EDC6"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "14.4% of consumers are subprime borrowers, up from 13.9%",
+            "status": "Verified",
+            "verification_basis": "Transcript provides specific percentages and time period.",
+            "source_contribution_ids": [
+              "CONTRIB-D287BA4D26EDC6"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "source_excerpt": "Subprime borrowers account for 14.4% of consumers in the third quarter of 2025, which is up from 13.9% in the same period last year."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech from 2025-11-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-0EAF6F5EBD6D58",
+      "CONTRIB-3310168B2FB5DD",
+      "CONTRIB-D287BA4D26EDC6",
+      "CONTRIB-FAF480004CDAA9"
+    ],
+    "source_speech_filenames": [
+      "20251117_Subprime Auto Loans are Imploding.txt"
+    ],
+    "generated_at": "2026-07-15T04:09:35+00:00",
+    "record_hash": "0b9bbae1d4d6e348e8c4949eb79c19cc0a2a6dd00590dffecf2cafd1e75701e6"
+  },
+  "complete": true
+}

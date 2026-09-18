@@ -1,0 +1,30 @@
+{
+  "schema_version": "2.0",
+  "prompt_version": "2.0",
+  "generated_at": "2026-07-15T04:26:52+00:00",
+  "status": "PASS",
+  "errors": [],
+  "warnings": [
+    "2 speeches remain uncategorised."
+  ],
+  "checks": {
+    "classification_referential_integrity": true,
+    "pair_referential_integrity": true,
+    "anchor_integrity": true,
+    "theme_index_completeness": true,
+    "provenance_coverage": true,
+    "relationship_type_integrity": true,
+    "unverifiable_completeness": true
+  },
+  "referential_integrity_rate": 1.0,
+  "counts": {
+    "canonical_ccs": 24,
+    "canonical_themes": 78,
+    "pairs": 183,
+    "synthesized_pairs": 183,
+    "compendium_anchors": 207,
+    "theme_index_pairs": 183,
+    "unverifiable_records": 1429,
+    "uncategorised_speeches": 2
+  }
+}

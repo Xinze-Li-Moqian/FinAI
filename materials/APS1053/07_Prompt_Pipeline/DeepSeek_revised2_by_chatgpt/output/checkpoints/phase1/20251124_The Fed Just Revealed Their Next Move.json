@@ -1,0 +1,287 @@
+{
+  "dependencies": {
+    "source_hash": "059078d8d26646230d0b348d4d0d1f08a10a9143a93c15ed89d352ea26e2adad",
+    "filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-33A91D51775D",
+    "filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+    "stem": "20251124_The Fed Just Revealed Their Next Move",
+    "date": "2025-11-24",
+    "source_hash": "059078d8d26646230d0b348d4d0d1f08a10a9143a93c15ed89d352ea26e2adad",
+    "source_character_count": 22624,
+    "central_claim": "The Federal Reserve is using banking deregulation, such as removing treasuries from leverage ratios, as a covert means of enabling banks to absorb government debt, effectively continuing quantitative easing without direct central bank involvement.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A5D6906E5514",
+        "theme": "Regulatory Dominance and Its Consequences",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4E58868D3924",
+            "local_theme_id": "LT-A5D6906E5514",
+            "conclusion": "Bank regulations, not fiscal or monetary policy, are the primary force determining the Federal Reserve's balance sheet size and the level of bank reserves, distorting monetary policy.",
+            "premises": [
+              "Moran states that many conversations about reserves and interest are downstream of the bank regulatory framework.",
+              "Regulations force banks to hold high-quality liquid assets including reserves.",
+              "Capital requirements like leverage ratios impose costs on holding treasuries and reserves.",
+              "The demand for reserves is driven by regulatory requirements, not monetary policy needs."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E8A72FC2B81F",
+                "item": "Moran's statement: 'For many years, financial regulation mostly moved in one direction, increasingly restricting the banking sector.'",
+                "status": "Verified",
+                "verification_basis": "Direct quote from Moran sourced from the Federal Reserve website, as claimed in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "For many years, financial regulation mostly moved in one direction, increasingly restricting the banking sector.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-09CECAED5B1B",
+                "item": "Moran's statement: 'Regulatory dominance of the balance sheet must be considered to ensure the Fed has autonomy over conducting monetary policy.'",
+                "status": "Verified",
+                "verification_basis": "Direct quote from Moran reproduced verbatim in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "Regulatory dominance of the balance sheet must be considered to ensure the Fed has autonomy over conducting monetary policy.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-B03FD856AB7F",
+                "device": "Coffee shop regulatory contradictions",
+                "explanation": "Illustrates how overlapping and contradictory government regulations create burdens and inefficiencies, analogous to the regulatory patchwork facing banks.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "Just like the person who's trying to open up a coffee shop, and one government agency comes in and says, 'Your door needs to swing from in to out.' The next government agency says the door needs to swing from out to in. And by the way, the drain that you have is the wrong size. And then the third one comes in and says that drain is actually the right size, but it's in the wrong place.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-FDF3E1B12A7B",
+            "local_theme_id": "LT-A5D6906E5514",
+            "conclusion": "Excessive banking regulations after 2008 have disproportionately harmed small banks and community businesses, driving traditional banking activities into the shadow banking system.",
+            "premises": [
+              "Moran stated that costs and benefits of a regulation on a community bank are rarely comparable to those on a systemically important bank.",
+              "Many traditional banking activities have migrated away from the regulated banking sector due to burdensome rules.",
+              "Large corporations can absorb regulatory costs and often lobby for more rules to eliminate competition from smaller players."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6938B3344877",
+                "item": "Moran's statement on community banks: 'the costs and benefits of a regulation on a community bank are rarely comparable to those of the same regulation on a systemically important bank but heavily impact the credit available to main street businesses where local knowledge is critical.'",
+                "status": "Verified",
+                "verification_basis": "Direct quote from Moran's speech as presented in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "the costs and benefits of a regulation on a community bank are rarely comparable to those of the same regulation on a systemically important bank but heavily impact the credit available to main street businesses where local knowledge is critical.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8B8DD372CD7E",
+                "item": "Moran's statement: 'The signs of this overreach are clear. Many traditional banking activities have migrated away from the regulated banking sector partly because burdensome rules have made provision of these services too costly or otherwise difficult for banks to provide.'",
+                "status": "Verified",
+                "verification_basis": "Direct quote from Moran reproduced in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "The signs of this overreach are clear. Many traditional banking activities have migrated away from the regulated banking sector partly because burdensome rules have made provision of these services too costly or otherwise difficult for banks to provide.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-53D5CAC9A6DB",
+                "item": "Coffee shop regulatory contradictions",
+                "status": "Unverifiable",
+                "verification_basis": "Analogy used by the speaker; not a specific factual claim that can be checked against transcript data.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "Just like the person who's trying to open up a coffee shop, and one government agency comes in and says, 'Your door needs to swing from in to out.' The next government agency says the door needs to swing from out to in. And by the way, the drain that you have is the wrong size. And then the third one comes in and says that drain is actually the right size, but it's in the wrong place.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-C2D7A70DE656",
+        "theme": "The Strategy of Stealth Quantitative Easing via Banking Deregulation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3444E3054662",
+            "local_theme_id": "LT-C2D7A70DE656",
+            "conclusion": "Removing treasuries from leverage ratios and easing regulatory constraints will enable banks to absorb unlimited government debt, functioning as a backdoor quantitative easing program that allows the government to continue deficit spending without the Fed directly monetizing debt.",
+            "premises": [
+              "Eliminating treasuries from leverage ratios allows banks to buy as many treasuries as they want without capital constraints.",
+              "The Bank Term Funding Program (BTFP) backstop ensures treasuries are effectively fungible with reserves, as banks can always exchange them at par.",
+              "The government's borrowing path is unsustainable and requires continuous monetization, but direct Fed purchases are politically unpopular.",
+              "Moran argued for removing treasuries from leverage ratios, citing the successful temporary exclusion in 2020–2021."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8321918648CB",
+                "item": "Moran's proposal: 'Removing these securities from the leverage ratio, as was suggested as an alternative in the proposed rule, would help insulate the Treasury market from stressful episodes when liquidity is in short supply.'",
+                "status": "Verified",
+                "verification_basis": "Direct quote from Moran's speech as presented in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "Removing these securities from the leverage ratio, as was suggested as an alternative in the proposed rule, would help insulate the Treasury market from stressful episodes when liquidity is in short supply.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E829DBEF94E5",
+                "item": "Moran's reference to the temporary exclusion in 2020–2021: 'The banking regulators excluded treasuries and reserves from the leverage ratio denominator in response to the increase in bank deposits during and after 2020 and 2021.'",
+                "status": "Verified",
+                "verification_basis": "Exact wording from Moran's speech as quoted in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "The banking regulators excluded treasuries and reserves from the leverage ratio denominator in response to the increase in bank deposits during and after 2020 and 2021.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F485F0E37725",
+                "item": "Speaker's characterization of the BTFP: 'which allows banks to temporarily sell treasuries at full price to the Fed as long as they buy them back later.'",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide a source or sufficient detail to verify this characterization of the BTFP facility.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "It's called the BTFP, the bank term funding program, which allows banks to temporarily sell treasuries at full price to the Fed as long as they buy them back later.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C90EF2744D87",
+                "item": "Speaker's claim: 'the government borrowing path is on a dead-end path speeding towards a brick wall called deflationary death spiral.'",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion is presented without any supporting evidence or source in the transcript.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "And we also know that currently the path we're going on with how much the Treasury is borrowing, it is on a dead-end path speeding towards a brick wall called deflationary death spiral.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-F103C5E0C438",
+                "device": "Stealth QE / backdoor money printing",
+                "explanation": "Compares the regulatory changes to a covert form of monetary expansion that escapes public scrutiny, allowing the same effect as quantitative easing without the Fed overtly printing money.",
+                "speech_id": "SP-33A91D51775D",
+                "source_speech_filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+                "source_excerpt": "And most importantly, it would allow the Federal Reserve to take a back seat and not look like they're the ones printing the money this time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-A229BC34AC7F",
+        "speech_id": "SP-33A91D51775D",
+        "speech_ref": "20251124_The Fed Just Revealed Their Next Move.txt",
+        "claim": "More money printing is coming, and it will be done through banks instead of the Fed.",
+        "reason": "The speaker presents this as a factual prediction, but the transcript offers no direct evidence that this is the intended outcome; it is an inference from Moran's regulatory proposals.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge includes various regulatory proposals but no confirmation of this specific covert strategy.",
+        "source_excerpt": "all you need to know is that more money printing is coming. It's going to be spent into existence by the government. It's just going to be done through the banks instead of the Fed. At least if Moran has his way.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-485349461CB4",
+        "speech_id": "SP-33A91D51775D",
+        "speech_ref": "20251124_The Fed Just Revealed Their Next Move.txt",
+        "claim": "The government aims to borrow an infinite amount of money without tapping the Fed.",
+        "reason": "Hyperbolic assertion not supported by any statement in the transcript; Moran did not say this.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No evidence in transcript of infinite borrowing intent.",
+        "source_excerpt": "This is about the government being able to borrow an infinite amount of money without having to tap on the Federal Reserve.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1005BC6582E6",
+        "speech_id": "SP-33A91D51775D",
+        "speech_ref": "20251124_The Fed Just Revealed Their Next Move.txt",
+        "claim": "Big business is pro-regulation and uses regulation to eliminate competition from smaller firms.",
+        "reason": "Generalization presented without supporting evidence or source within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common claim but not verified by data in the transcript.",
+        "source_excerpt": "Big business is pro- regulation. Big business is for big government. It helps them by eliminating competition many times from players who are smaller, faster, more agile, have more loyal customers and in a completely free market would out compete them.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8B33FC63F01B",
+        "speech_id": "SP-33A91D51775D",
+        "speech_ref": "20251124_The Fed Just Revealed Their Next Move.txt",
+        "claim": "The BTFP allows banks to temporarily sell treasuries at full price to the Fed.",
+        "reason": "The transcript does not provide a source for this characterization; the actual BTFP facility allowed borrowing at par, not a sale; the details are not verifiable from the transcript alone.",
+        "memory_check": "Contradicted",
+        "memory_note": "Training knowledge indicates the BTFP was a lending facility where banks could borrow up to the par value of treasuries, not a sale-and-repurchase arrangement.",
+        "source_excerpt": "It's called the BTFP, the bank term funding program, which allows banks to temporarily sell treasuries at full price to the Fed as long as they buy them back later.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve is using banking deregulation, such as removing treasuries from leverage ratios, as a covert means of enabling banks to absorb government debt, effectively continuing quantitative easing without direct central bank involvement.",
+      "themes": [
+        "Regulatory Dominance and Its Consequences",
+        "The Strategy of Stealth Quantitative Easing via Banking Deregulation"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 4
+    },
+    "generated_at": "2026-07-14T22:44:14+00:00",
+    "record_hash": "44ae5816cff20ffbea5bf83b57587ad767543ce688a9f9a6e8b256ca5bdad912",
+    "analysis_truncated": false
+  },
+  "output_hash": "31b9e61a3ac6e4d9730b8dcd4b5ac87b8017edd5cfc1c356c90f954181a17827",
+  "complete": true
+}

@@ -1,0 +1,941 @@
+compendium_StructuralDescription_relationshiptypes.txt
+
+
+Notation
+--------
+Canonical = normalised and deduplicated across the corpus.
+
+CC = canonical Central Claim
+T  = canonical Theme
+cc = per-speech/local central claim
+t  = per-speech/local theme
+
+A Canonical Central Claim is a full proposition with a verb.
+A Canonical Theme is a noun phrase with no verb.
+A Canonical CC × T pair is the persistent junction record connecting one
+Canonical Central Claim to one Canonical Theme.
+A runtime CC × T bucket is the temporary aggregation container created from
+that persistent pair during Phase 5 assembly. A bucket is not text and is not
+contained inside a speech.
+
+Speech-to-Canonical-CC relationship = the explicit argumentative role that a
+categorised speech plays relative to its one primary Canonical Central Claim
+chapter. Chapter assignment is based on the best argumentative home for the
+speech, not on a requirement that the local central claim be a paraphrase of,
+or semantically equivalent to, the complete canonical proposition.
+
+Every categorised speech must have exactly one controlled primary relationship
+type and a non-empty relationship explanation. The controlled vocabulary is:
+
+– supports
+  The speech directly argues that the Canonical Central Claim is true.
+
+– specific_instance
+  The speech presents a narrower, concrete, or more specific instance of the
+  broader Canonical Central Claim.
+
+– mechanism
+  The speech explains a process through which the Canonical Central Claim
+  operates or could become true.
+
+– consequence
+  The speech explains a result, implication, or downstream effect of the
+  Canonical Central Claim.
+
+– qualification
+  The speech limits, conditions, refines, or adds an exception to the
+  Canonical Central Claim.
+
+– opposition
+  The speech challenges, disputes, or presents contrary evidence against the
+  Canonical Central Claim.
+
+– historical_example
+  The speech supplies a historical illustration, analogy, or precedent that
+  bears on the Canonical Central Claim.
+
+– application
+  The speech applies the Canonical Central Claim to a specific policy, market,
+  institution, country, period, or event.
+
+– evidence
+  The speech mainly supplies empirical or illustrative evidence relevant to
+  the Canonical Central Claim rather than independently restating its full
+  thesis.
+
+Exact semantic equivalence is not required. Topical similarity alone is
+insufficient. The relationship explanation must state the meaningful
+argumentative connection that justifies placement in the chapter.
+
+
+1. Final Outputs: Visual Diagram of Nested Hierarchy of Entities (=Levels)
+
+A. compendium.md — authoritative argument-oriented publication
+
+Compendium of Speeches  (all confidently categorised transcripts)
+│
+├── Chapter: Canonical Central Claim
+│   │   Heading: full CC proposition
+│   │   Tagline: concise one-line shorthand, distinct from the full proposition
+│   │
+│   │   Chapter-membership rule: a speech is placed here when this chapter is
+│   │   its best argumentative home. Exact semantic equivalence is not required;
+│   │   topical similarity alone is insufficient.
+│   │
+│   │   CONTROLLED SPEECH-TO-CHAPTER RELATIONSHIP TYPES:
+│   │     - supports
+│   │     - specific_instance
+│   │     - mechanism
+│   │     - consequence
+│   │     - qualification
+│   │     - opposition
+│   │     - historical_example
+│   │     - application
+│   │     - evidence
+│   │
+│   ├── Section: Canonical Theme
+│   │   │   This section is the rendered publication view of one persistent
+│   │   │   Canonical CC × T pair. (See Section 2, Junction Tables and Runtime
+│   │   │   Buckets, for the full definition of that pair.)
+│   │   │
+│   │   │   Stable anchor:
+│   │   │   one unique anchor for this exact CC × T section, used by the
+│   │   │   Theme Cross-Index and theme_index.md.
+│   │   │
+│   │   │   Cross-reference note:
+│   │   │   "This theme also appears under: …"
+│   │   │   The note lists other Canonical Central Claims connected to the
+│   │   │   same Canonical Theme, if any.
+│   │   │
+│   │   ├── Canonical Argument Conclusion
+│   │   │   │   A single declarative, falsifiable conclusion.
+│   │   │   │   It is owned by exactly one Canonical CC × T pair.
+│   │   │   │
+│   │   │   ├── Synthesis of premises across speeches
+│   │   │   │       Paragraph explaining how the relevant local premises
+│   │   │   │       combine across source speeches, noting consistency,
+│   │   │   │       variation, qualification, or disagreement.
+│   │   │   │
+│   │   │   ├── Conclusion supported
+│   │   │   │       Precise restatement of what the canonical argument
+│   │   │   │       establishes and whether it appears in one speech or many.
+│   │   │   │
+│   │   │   ├── Speech-to-Chapter Relationship Roles
+│   │   │   │       Deterministically rendered list of the controlled
+│   │   │   │       relationship types represented by the argument's source
+│   │   │   │       contributions. The only permitted values are:
+│   │   │   │
+│   │   │   │         - supports
+│   │   │   │         - specific_instance
+│   │   │   │         - mechanism
+│   │   │   │         - consequence
+│   │   │   │         - qualification
+│   │   │   │         - opposition
+│   │   │   │         - historical_example
+│   │   │   │         - application
+│   │   │   │         - evidence
+│   │   │   │
+│   │   │   │       For each role it retains source speech filenames,
+│   │   │   │       source-contribution IDs, and the stored relationship
+│   │   │   │       explanation stating why the speech belongs in this
+│   │   │   │       Canonical Central Claim chapter.
+│   │   │   │
+│   │   │   ├── Evidence & Support
+│   │   │   │   │   Each item cites at least one source speech and carries
+│   │   │   │   │   exactly one transcript-analysis status:
+│   │   │   │   │
+│   │   │   │   │     ✅ Verified
+│   │   │   │   │        The transcript contains explicit, identifiable
+│   │   │   │   │        support such as a stated datum, named source,
+│   │   │   │   │        quotation, example, or internally checkable claim.
+│   │   │   │   │        This label does NOT mean the item was independently
+│   │   │   │   │        verified against external sources.
+│   │   │   │   │
+│   │   │   │   │     ⚠️ Unverifiable
+│   │   │   │   │        The claim may be plausible, but the transcript does
+│   │   │   │   │        not provide enough information to verify it.
+│   │   │   │   │
+│   │   │   │   │     ❌ Disputed
+│   │   │   │   │        The claim is contradicted by other available
+│   │   │   │   │        transcript evidence, internally inconsistent, or
+│   │   │   │   │        explicitly contested within the analysed corpus.
+│   │   │   │   │
+│   │   │   │   │   Each item retains:
+│   │   │   │   │     – source speech filename(s)
+│   │   │   │   │     – verification_basis
+│   │   │   │   │     – source excerpt where available
+│   │   │   │   │     – deterministic location data where available
+│   │   │   │   │       (line, paragraph, or character span)
+│   │   │   │   │
+│   │   │   │   ├── Quantitative data points
+│   │   │   │   │     Numbers, percentages, dates, dollar amounts, ratios,
+│   │   │   │   │     and other measurable claims, with provenance and status.
+│   │   │   │   │
+│   │   │   │   ├── Illustrative examples / thought experiments
+│   │   │   │   │     Hypothetical or narrative examples used to expose a
+│   │   │   │   │     mechanism, each linked to its source speech.
+│   │   │   │   │
+│   │   │   │   ├── Quoted statements
+│   │   │   │   │     Verbatim or near-verbatim lines attributed to officials,
+│   │   │   │   │     economists, institutions, or news sources, preserving
+│   │   │   │   │     the speech reference and source excerpt.
+│   │   │   │   │
+│   │   │   │   └── Historical precedents
+│   │   │   │         Past episodes used as supporting analogies or evidence,
+│   │   │   │         preserving the speaker's framing and source speech.
+│   │   │   │
+│   │   │   ├── Controlled Relationship-Type Check
+│   │   │   │       After evidence and historical precedents are assembled,
+│   │   │   │       Python verifies that every contributing speech retains one
+│   │   │   │       of exactly these chapter roles: supports, specific_instance,
+│   │   │   │       mechanism, consequence, qualification, opposition,
+│   │   │   │       historical_example, application, or evidence.
+│   │   │   │
+│   │   │   ├── Notable Analogies & Rhetorical Devices
+│   │   │   │       Named analogies, metaphors, slogans, thought experiments,
+│   │   │   │       extended narratives, or rhetorical frames, with the source
+│   │   │   │       speech and a one-sentence explanation of what each device
+│   │   │   │       is intended to illustrate.
+│   │   │   │
+│   │   │   ├── Evolution Over Time
+│   │   │   │       Paragraph tracing how the argument changes, matures,
+│   │   │   │       sharpens, is qualified, or is abandoned across speeches.
+│   │   │   │       It is required when the oldest-to-newest source span for
+│   │   │   │       the argument exceeds one year. Single-speech arguments
+│   │   │   │       state the date and note the absence of later development.
+│   │   │   │
+│   │   │   └── Provenance
+│   │   │           Machine-readable and human-readable references connecting
+│   │   │           the canonical argument, synthesized premises, evidence,
+│   │   │           and rhetorical devices to their local source records.
+│   │   │
+│   │   ├── Canonical Argument Conclusion
+│   │   │   └── … (same sub-structure)
+│   │   │
+│   │   └── Canonical Argument Conclusion
+│   │       └── …
+│   │
+│   ├── Section: Canonical Theme
+│   │   └── … (same structure)
+│   │
+│   └── Section: Canonical Theme
+│       └── …
+│
+├── Chapter: Canonical Central Claim 2
+│   └── … (same structure)
+│
+├── Chapter: Canonical Central Claim …
+│   └── …
+│
+└── Theme Cross-Index
+        A compact navigation index containing only Canonical Themes that
+        appear under more than one Canonical Central Claim.
+
+        For each shared Theme:
+        – Canonical Theme ID and label
+        – all parent Canonical Central Claim IDs and full propositions
+        – a valid link to each authoritative CC × T section anchor
+
+        The Theme Cross-Index does not duplicate the full arguments,
+        premises, evidence, or Evolution Over Time text.
+
+
+B. theme_index.md — complete Theme-oriented navigation view
+
+Complete Theme Index
+│
+├── Canonical Theme
+│   │   Theme ID and canonical noun-phrase label
+│   │
+│   ├── Canonical CC × T pair
+│   │   │   Parent Canonical Central Claim ID and full proposition
+│   │   │   Link to the authoritative Theme section in compendium.md
+│   │   │
+│   │   ├── Canonical Argument Conclusion
+│   │   ├── Canonical Argument Conclusion
+│   │   └── …
+│   │
+│   ├── Canonical CC × T pair
+│   │   └── …
+│   │
+│   └── …
+│
+├── Canonical Theme
+│   └── …
+│
+└── Canonical Theme
+    └── …
+
+Rules:
+– Every Canonical Theme appears exactly once in theme_index.md, including
+  Themes associated with only one Canonical Central Claim.
+– Each Theme entry lists every valid Canonical CC × T pair involving that Theme.
+– Each pair entry lists its canonical argument conclusions.
+– Each pair entry links to exactly one authoritative section anchor in
+  compendium.md.
+– theme_index.md is a navigation and relationship view, not a second copy of
+  the compendium. It does not reproduce the full premise synthesis, evidence,
+  rhetorical-device discussion, or Evolution Over Time text.
+
+
+C. unverifiable_claims.md — structured review list
+
+Master Unverifiable Claims List
+│
+├── SPEECH_REF
+├── CLAIM
+├── REASON
+├── MEMORY
+│     Corroborated | Contradicted | NoInternalBasis
+├── source_excerpt, where available
+└── source location, where available
+
+Rules:
+– Every Phase 1 unverifiable claim must be retained in the complete underlying
+  records.
+– The MEMORY field is an LLM training-knowledge prior, not an external
+  verification verdict.
+– No unverifiable claim may be silently discarded merely because MEMORY is
+  "Corroborated."
+– The published file may group or prioritise records, but it must preserve
+  traceability to the full unfiltered set.
+
+
+D. Supporting machine-readable canonical files
+
+canonical_ccs.json
+│
+└── One record per Canonical Central Claim:
+    – cc_id
+    – full proposition
+    – tagline
+    – aliases
+    – source speech IDs
+    – semantic fingerprint
+    – merged_from / superseded_by, where applicable
+    – optional grammatical decomposition:
+      subject_theme_ids, predicate, object_theme_ids
+
+canonical_themes.json
+│
+└── One record per Canonical Theme:
+    – theme_id
+    – canonical noun-phrase label
+    – aliases
+    – source speech IDs
+    – semantic fingerprint
+    – merged_from / superseded_by, where applicable
+
+speech_classifications.json
+│
+└── One record per inventory speech:
+    – speech_id
+    – filename
+    – status: categorised | uncategorised
+    – classification_prompt_version
+    – classification_schema_version
+    – primary_cc_id, or null when uncategorised
+    – primary_cc_confidence
+    – primary_cc_relationship_type, exactly one controlled value when
+      categorised and null when uncategorised
+    – primary_cc_relationship_explanation, non-empty for every accepted
+      classification and retained as diagnostic explanation when rejected
+    – primary_cc_rationale, retained as a compatibility field
+    – classification_rejection_reasons
+    – theme_ids
+    – theme_assignments
+    – bucket_memberships
+    – best_cc_candidates for rejected or diagnostic cases
+
+The classification question is not whether the local central claim is a
+paraphrase of the complete canonical CC. It is which supplied canonical CC
+provides the speech's best argumentative home. The acceptance threshold remains
+a separate numeric control; the broader relationship definition does not by
+itself relax that threshold.
+
+local_to_canonical_mappings.json
+│
+├── One local-CC-to-canonical-CC mapping record per speech:
+│   – mapping_type: local_cc_to_canonical_cc
+│   – speech_id and filename
+│   – local_cc_text
+│   – canonical_cc_id, or null when no accepted assignment exists
+│   – confidence
+│   – relationship_type
+│   – relationship_explanation
+│   – rationale
+│   – candidate_matches
+│   – classification_prompt_version
+│   – classification_schema_version
+│
+└── Local-Theme-to-canonical-Theme mapping records retain the existing Theme
+    mapping IDs, confidence, rationale, and candidate information.
+
+The local-CC mapping must copy the accepted relationship type and explanation
+from speech_classifications.json exactly. It must not infer or rewrite them.
+
+cc_theme_pairs.json
+│
+└── One record per persistent Canonical CC × T pair:
+    – pair_id
+    – cc_id
+    – theme_id
+    – source_speech_ids
+    – relationship_type_speech_ids
+      mapping each represented controlled relationship type to the speech IDs
+      carrying that role in this exact pair
+    – relationship_type_counts
+      deterministic counts derived from relationship_type_speech_ids
+    – source_contribution_ids
+    – canonical_argument_conclusion_ids
+    – authoritative_anchor
+    – created_at / updated_at or equivalent version metadata
+
+The persistent CC × T pair is the authoritative many-to-many junction entity.
+The runtime bucket is created from this record during assembly and is temporary.
+(See Section 2, Junction Tables and Runtime Buckets, for the full definition
+of both entities and how they relate.)
+
+secondary_cc_contributions.json
+│
+└── One record per explicit secondary contribution, created only when
+    ALLOW_SECONDARY_CC_CONTRIBUTIONS = True. When the flag is False, the file
+    is an empty array; a specific source item is never mapped to a secondary
+    pair regardless of what the item's content might otherwise suggest.
+    – contribution_id
+    – speech_id and filename
+    – primary_cc_id (the speech's own default primary CC, retained for
+      reference; a secondary contribution never changes this value)
+    – secondary_pair_id (the Canonical CC × T pair this contribution maps
+      into; must differ from every pair already reachable through the
+      speech's default primary-CC memberships)
+    – secondary_cc_id and secondary_theme_id
+    – source_item_type: exactly one of local_argument | premise | evidence |
+      rhetorical_device
+    – source_item_id (the specific local argument, premise, evidence item, or
+      rhetorical device this contribution is drawn from — never the whole
+      speech)
+    – relationship_type, drawn from the same controlled vocabulary defined in
+      Notation, describing this specific item's role relative to the
+      secondary CC
+    – relationship_explanation, non-empty, stating why this specific item —
+      not the speech as a whole — belongs to the secondary CC
+    – confidence
+    – rationale
+    – classification_prompt_version / classification_schema_version
+
+[Editorial note: as of the implementation reviewed alongside this document,
+secondary_cc_contributions.json is written as an unconditional empty array
+regardless of the ALLOW_SECONDARY_CC_CONTRIBUTIONS setting — no code path
+currently populates it even when the flag is True. This schema specifies
+what a populated record must contain once that gap is closed; it is not a
+description of current program behavior.]
+
+
+2. Junction Tables and Runtime Buckets
+
+[Editorial note: this section consolidates material that was previously
+scattered across the Notation, the Roles list, the ER cardinality tables, and
+the Structural and Integrity Rules — the persistent Canonical CC × T pair and
+the temporary runtime bucket instantiated from it are the two entities most
+directly responsible for implementing the CC↔T many-to-many relationship, and
+they did not previously have one place a reader could go to see them defined
+together. Field-level schema for the persistent pair is defined in Section 1.D
+above (cc_theme_pairs.json); this section does not repeat that schema, only
+the concepts, cardinalities, and integrity rule references that govern it.]
+
+Canonical CC × T pair
+The persistent junction entity implementing the many-to-many relationship
+between Canonical Central Claims and Canonical Themes. It owns the canonical
+argument conclusions generated for that exact conceptual context. It exists in
+cc_theme_pairs.json, has a stable pair ID, and has one authoritative
+publication anchor.
+
+Runtime CC × T bucket
+A temporary Phase 5 aggregation container instantiated from one persistent
+Canonical CC × T pair. It collects mapped source contributions for synthesis.
+It is not text, is not part of a speech, and does not itself appear as a
+publication heading. For each persistent pair, exactly one runtime bucket is
+instantiated per assembly run; the bucket's validated source contributions are
+grouped by controlled speech-to-chapter relationship type before any synthesis
+call. The bucket input contains: pair metadata fixed by Python;
+relationship_type_counts; source_contributions_by_relationship_type; and
+validated source IDs, filenames, excerpts, and local argument content.
+
+Source contribution
+A provenance record linking a canonical content item to one local speech
+record, local Theme, local argument, premise, evidence item, excerpt, or
+rhetorical device. For primary-default placement it also carries the accepted
+speech-to-CC relationship type and explanation, allowing the final synthesis
+to distinguish support, mechanisms, consequences, qualifications, opposition,
+historical examples, applications, and evidence. This is the entity a runtime
+bucket contains and groups by relationship type.
+
+Relevant cardinalities (full table in Section 5.A, "Entity-Relationship (ER)
+Cardinalities — Table A"): C4–C7 (pair ownership of CC, Theme, and canonical
+argument conclusions), C13–C16 (pair-to-bucket instantiation and bucket-to-
+publication rendering), and C27 and C37 (optional secondary-pair mapping for a
+specific source contribution, and its item-level granularity).
+
+Integrity rule: see StructuralAndIntegrityRules.txt, Rule 6 ("Persistent pair
+versus runtime bucket") for the full statement of what must always be true of
+each entity and how they must not be conflated. That file is a reference only
+and is not an input to the pipeline-construction prompt.
+
+Secondary CC × T contribution (optional)
+A second, narrower junction, active only when ALLOW_SECONDARY_CC_CONTRIBUTIONS
+= True. Where the persistent Canonical CC × T pair links a whole categorised
+speech to one CC × T pair by default, this junction links one specific local
+argument, premise, evidence item, or rhetorical device to a Canonical CC × T
+pair outside the speech's primary CC. It is disabled by default, never
+inferred merely from a shared Theme, and never alters the speech's primary CC
+assignment. Its persistent record schema is secondary_cc_contributions.json,
+defined in Section 1.D above.
+
+
+3. Nested Hierarchy Structure of Entities (=Levels) — Final compendium.md Structure Detail
+
+[Editorial note: this section originally also contained the per-speech Phase 1
+and Phase 4 pipeline record structures and the canonicalisation/assembly flow
+diagram. Those are pipeline mechanics, not final-output ER structure, and have
+been moved to PipelineAndIntermediateOutputs.txt. Only the final compendium.md
+structure detail — which duplicates and elaborates Section 1.A above — remains
+here.]
+
+Title and Metadata
+
+Starts with a top-level compendium title and corpus metadata, including:
+– corpus description
+– number of source transcripts
+– date range
+– generation date
+– canonical model/version identifiers where available
+
+Canonical Central Claim Chapters
+
+Each chapter is introduced with a top-level heading:
+
+# Central Claim: {full canonical proposition}
+
+The next line contains the concise tagline.
+
+Canonical Theme Sections
+
+Within each chapter, each Canonical Theme connected to that CC is introduced
+with a second-level heading:
+
+## Theme: {canonical Theme label}
+
+Each Theme section corresponds to exactly one persistent Canonical CC × T pair
+and exactly one stable anchor.
+
+A cross-reference note names other Canonical Central Claims under which the
+same Theme appears.
+
+Canonical Argument Conclusions
+
+Within each Theme section, one or more canonical argument conclusions appear,
+each under a third-level heading:
+
+### Argument: {canonical conclusion}
+
+Each canonical argument conclusion is owned by exactly one Canonical CC × T
+pair and is reconstructed from one or more local argument contributions.
+
+Every canonical argument follows a consistent substructure:
+
+**Synthesis of premises across speeches:** – paragraph.
+
+**Conclusion supported:** – paragraph.
+
+**Speech-to-Chapter Relationship Roles:** – deterministic list of every
+controlled relationship type represented among the canonical argument's
+validated source contributions. Each role lists the source speech filenames,
+source-contribution IDs, and the stored relationship explanations. This
+subsection makes visible whether the argument is supported by direct support,
+a specific instance, a mechanism, a consequence, a qualification, opposition,
+a historical example, an application, or evidence.
+
+**Evidence & Support:** – structured list with transcript-analysis status,
+source speech, basis, and excerpt where available.
+
+**Notable Analogies & Rhetorical Devices:** – optional structured list.
+
+**Evolution Over Time:** – paragraph, required when the source-date span
+exceeds one year.
+
+**Provenance:** – explicit source references or machine-readable IDs.
+
+Theme Cross-Index
+
+After the final Canonical Central Claim chapter, compendium.md contains one
+deterministically generated Theme Cross-Index for shared Themes only.
+
+The LLM must not independently generate a second competing Theme Cross-Index.
+
+
+4. Roles of the Entities (=Levels) in the Nested Hierarchy
+
+Level / Entity                         Role in the system
+--------------------------------------------------------------------------------
+
+Per-speech central claim cc
+The single overarching proposition inferred from one speech. It is preserved
+as source-level intellectual content and mapped to zero or one primary
+Canonical Central Claim.
+
+Per-speech Theme t
+A noun-phrase topic extracted from one speech. It is preserved as source-level
+content and normalised to one or more Canonical Theme IDs, subject to the
+speech-level limit of one to three assigned Canonical Themes.
+
+Canonical Central Claim CC
+A corpus-level, normalised, deduplicated proposition with a verb. It is the
+authoritative chapter entity in compendium.md. It expresses a relationship,
+causal statement, evaluative statement, prediction, or other thesis.
+
+Speech-to-Canonical-CC relationship type
+The controlled semantic role explaining how one categorised speech contributes
+to its primary Canonical Central Claim chapter. It is selected during Phase 3,
+preserved unchanged through Phase 4, grouped during Phase 5, and rendered in
+the final canonical arguments.
+
+Speech-to-Canonical-CC relationship explanation
+A concise, non-empty explanation stating why the selected CC is the speech's
+best argumentative home. It must identify an argumentative connection rather
+than merely repeat a shared topic.
+
+Canonical Theme T
+A corpus-level, normalised, deduplicated noun phrase naming a topical
+sub-domain. It is cross-cutting rather than owned exclusively by one CC.
+It is the principal navigation entity in theme_index.md.
+
+Canonical CC × T pair
+[See Section 2, Junction Tables and Runtime Buckets, for the full definition.]
+
+Runtime CC × T bucket
+[See Section 2, Junction Tables and Runtime Buckets, for the full definition.]
+
+Canonical Argument Conclusion
+A discrete, falsifiable, deduplicated proposition reconstructed from one or
+more local argument conclusions. It belongs to exactly one Canonical CC × T
+pair and is the primary unit of corpus-level intellectual content beneath
+that pair.
+
+Local argument conclusion
+A source-level conclusion expressed in one speech under one local Theme.
+It may contribute to a canonical argument conclusion through an explicit,
+provenance-preserving mapping.
+
+Premise
+A source-level logical reason supporting a local argument conclusion.
+At corpus level, multiple premises are synthesised without erasing variation
+or disagreement.
+
+Synthesis of premises
+Explains how source premises combine across speeches and whether the reasoning
+is stable, cumulative, inconsistent, qualified, or changing.
+
+Conclusion supported
+States the exact claim established by the canonical argument and reports the
+breadth of support across source speeches.
+
+Evidence & Support
+The evidentiary backbone: data points, quotations, examples, historical
+precedents, anecdotes, or cited claims. Every item has exactly one
+transcript-analysis status and retains source provenance.
+
+Verification basis
+Explains why an evidence item was labelled Verified, Unverifiable, or
+Disputed. It prevents a status label from being interpreted as an unsupported
+external fact-checking verdict.
+
+Source contribution
+[See Section 2, Junction Tables and Runtime Buckets, for the full definition.]
+
+Notable Analogies & Rhetorical Devices
+Named explanatory or persuasive devices used to make mechanisms concrete or
+memorable. They remain linked to their source speeches.
+
+Evolution Over Time
+Tracks how an argument develops, sharpens, weakens, is qualified, or is
+abandoned across dated speeches.
+
+Stable anchor
+A unique publication identifier for one authoritative Canonical CC × T Theme
+section in compendium.md. It is the destination for index links.
+
+Theme Cross-Index
+A compact index inside compendium.md listing only Themes shared across
+multiple Canonical Central Claims and linking to the relevant authoritative
+sections.
+
+Complete Theme Index
+The separate theme_index.md publication view. It lists every Canonical Theme,
+all associated Canonical CC × T pairs, and each pair's canonical argument
+conclusions, linking back to the authoritative compendium sections.
+
+Uncategorised speech
+A speech that does not meet the required confidence threshold for assignment
+to a primary Canonical Central Claim. It is logged and preserved in source
+records but excluded from valid hierarchy buckets and from any
+"Uncategorised Speeches" chapter.
+
+Secondary CC contribution
+An optional, explicit mapping allowing a specific speech-level argument or
+source contribution to support a CC × T pair outside the speech's primary CC.
+This relation is disabled by default and must never be inferred solely because
+a Theme is shared across several CCs. Its persistent record schema is
+secondary_cc_contributions.json, defined in Section 1.D; see also Section 2,
+Junction Tables and Runtime Buckets, "Secondary CC × T contribution."
+
+[Editorial note: the "Remapped record" entry originally here has been moved
+to PipelineAndIntermediateOutputs.txt, since a Phase 4 remapped record is a
+pipeline/intermediate artifact, not a final-model entity.]
+
+
+5. Entity-Relationship (ER) Cardinalities
+
+A. ER table — canonical entities, persistent pairs, runtime buckets, and speeches
+
+#   Source entity                 Relationship                    Target entity                         Cardinality
+--------------------------------------------------------------------------------------------------------------------------------
+
+C1  Canonical Central Claim CC    connected to / contains         Canonical Theme T via CC × T pair     CC 1 → 1..many T
+
+C2  Canonical Theme T             appears under                  Canonical Central Claim CC via pair   T 1 → 1..many CC
+
+C3  Canonical Central Claim CC    cross-indexed with             Canonical Theme T                     CC many ↔ many T,
+                                                                                                      implemented only through
+                                                                                                      persistent CC × T pairs
+
+C4  Canonical CC × T pair         belongs to                     Canonical Central Claim CC            many pairs → 1 CC
+
+C5  Canonical CC × T pair         belongs to                     Canonical Theme T                      many pairs → 1 T
+
+C6  Canonical CC × T pair         owns                           Canonical argument conclusion          1 pair → 1..many conclusions
+
+C7  Canonical argument conclusion owned by                       Canonical CC × T pair                 many conclusions → exactly 1 pair
+
+C8  Categorised Speech            assigned to primary            Canonical Central Claim CC            many speeches → 1 CC
+
+C9  Speech                         may be uncategorised with       no primary Canonical CC               speech 0..1 uncategorised state;
+                                                                                                      therefore Speech → CC is 0..1
+
+C10 Categorised Speech            assigned to                    Canonical Theme T                      speech 1 → 1..3 T;
+                                                                                                      many speeches ↔ many T
+
+C11 Categorised Speech            mapped by default into          Canonical CC × T pairs                speech 1 → 1..3 pairs,
+                                                                                                      all using the same primary CC
+
+C12 Canonical CC × T pair         receives default contributions Categorised Speech                    1 pair → 1..many speeches
+
+C13 Canonical CC × T pair         instantiated as                Runtime CC × T bucket                 1 → 1 per assembly run
+
+C14 Runtime CC × T bucket         contains                       Source contribution                   1 bucket → 1..many contributions
+
+C15 Runtime CC × T bucket         renders                        Authoritative Theme section           1 → 1
+
+C16 Authoritative Theme section   represents                     Canonical CC × T pair                 1 → 1
+
+C17 Canonical argument conclusion reconstructed from             Local argument contribution          1 → 1..many contributions
+
+C18 Canonical argument conclusion supported by                   Evidence item                         1 → 1..many evidence items
+
+C19 Canonical argument conclusion illustrated by                 Rhetorical device                     1 → 0..many devices
+
+C20 Canonical content item        traced through                 Source contribution                   1 → 1..many provenance records
+
+C21 Source contribution           belongs to                     Speech                                many → 1
+
+C22 [moved to PipelineAndIntermediateOutputs.txt — Speech has Phase 1 structured record]
+
+C23 [moved to PipelineAndIntermediateOutputs.txt — Phase 1 structured record augmented into Phase 4 remapped record]
+
+C24 [moved to PipelineAndIntermediateOutputs.txt — Phase 4 remapped record aligned to primary Canonical Central Claim CC]
+
+C25 [moved to PipelineAndIntermediateOutputs.txt — Phase 4 remapped record aligned to Canonical Theme T IDs]
+
+C26 [moved to PipelineAndIntermediateOutputs.txt — Phase 4 remapped record records membership in Canonical CC × T pairs]
+
+C27 Specific source contribution may map through optional        Secondary Canonical CC × T pair      0..many, disabled by default
+
+C37 Secondary CC contribution record identifies specific source  local_argument | premise | evidence  1 record → exactly 1 item reference
+    item as exactly one of                                        | rhetorical_device
+
+C28 Speech                         contributes                   Unverifiable claim                    1 → 0..many
+
+C29 Uncategorised speech          excluded from valid            Canonical CC × T hierarchy            1 → no valid pair membership
+
+C30 Canonical CC × T pair         identified in publication by   Stable anchor                         1 → 1
+
+C31 Categorised Speech            has primary argumentative role  Controlled relationship type          1 → exactly 1
+
+C32 Categorised Speech            has role explanation            Relationship explanation              1 → exactly 1 non-empty explanation
+
+C33 Local-CC mapping record       preserves                       Relationship type and explanation     1 → exactly 1 accepted pair of fields
+                                                                                                      for a categorised speech
+
+C34 Source contribution           inherits                        Speech-to-CC relationship metadata    many contributions → exactly 1 type
+                                                                                                      and 1 explanation each
+
+C35 Canonical argument conclusion aggregates                      Relationship-role records             1 → 1..many represented roles,
+                                                                                                      derived from its contributions
+
+C36 Canonical CC × T pair         aggregates                      Speech IDs by relationship type       1 → 1..many role groups as present;
+                                                                                                      counts are deterministic
+
+
+B. ER table — speech-level/local entities plus speeches
+
+#   Source entity                 Relationship                    Target entity                         Cardinality
+--------------------------------------------------------------------------------------------------------------------------------
+
+S1  Speech                         has local central claim         Per-speech central claim cc           1 → 1
+
+S2  Speech                         has local Themes                Per-speech Theme t                     1 → 1..many
+
+S3  Per-speech Theme t             contains                        Local argument conclusion              1 → 1..many
+
+S4  Speech                         contains                        Local argument conclusion              1 → 1..many
+
+S5  Local argument conclusion     is entailed by                  Premise                               1 → 1..many
+
+S6  Local argument conclusion     supported by                    Evidence                              1 → 0..many
+
+S7  Evidence                       belongs to                      Speech                                many → 1
+
+S8  Local argument conclusion     illustrated by                  Rhetorical device                     1 → 0..many
+
+S9  Rhetorical device             belongs to                      Speech                                many → 1
+
+S10 Speech                         has                             Unverifiable claim                    1 → 0..many
+
+S11 Speech                         has                             Claims Inventory record               1 → 1
+
+S12 [moved to PipelineAndIntermediateOutputs.txt — Speech becomes master_inventory.json record]
+
+S13 [moved to PipelineAndIntermediateOutputs.txt — master_inventory.json record supplies Canonical discovery input]
+
+S14 Per-speech central claim cc   classified into primary         Canonical Central Claim CC            many cc → 0..1 CC
+
+S15 Per-speech Theme t             normalised and mapped to        Canonical Theme T                     conceptual many ↔ many;
+                                                                                                      stored as 1..3 T IDs per speech
+
+S16 Local argument conclusion     accumulated into                Canonical argument conclusion         many local conclusions → 1 canonical
+                                                                                                      conclusion within one CC × T pair
+
+S17 [moved to PipelineAndIntermediateOutputs.txt — Phase 1 structured record augmented as Phase 4 remapped record]
+
+S18 [moved to PipelineAndIntermediateOutputs.txt — Phase 4 remapped record may render Per-speech Markdown view]
+
+S19 Local content item            supplies                        Source contribution                   1 → 1..many
+
+S20 Source contribution           may store                       Source excerpt / location             1 → 0..1 excerpt and 0..1 location
+
+S21 Per-speech central claim cc   has mapping record to           Canonical Central Claim CC            1 → 0..1 mapping record
+
+S22 Per-speech Theme t             has mapping record to           Canonical Theme T                     1 → 0..many mapping records,
+                                                                                                      constrained to speech assignment limits
+
+S23 Per-speech central claim cc   related argumentatively to      Primary Canonical Central Claim CC    1 → 0..1 relationship;
+                                                                                                      exactly 1 type if categorised
+
+S24 Speech classification record  stores                          Controlled relationship type          categorised 1 → 1;
+                                                                                                      uncategorised 1 → null
+
+S25 Speech classification record  stores                          Relationship explanation              categorised 1 → 1 non-empty;
+                                                                                                      rejected records retain diagnostics
+
+S26 Phase 4 source contribution   preserves from                  Speech classification record          many contributions → 1 unchanged
+                                                                                                      relationship type/explanation pair
+
+
+C. ER table — publication and navigation entities
+
+#   Source entity                 Relationship                    Target entity                         Cardinality
+--------------------------------------------------------------------------------------------------------------------------------
+
+P1  Canonical Central Claim CC    rendered as                     Compendium chapter                    1 → 1
+
+P2  Canonical CC × T pair         rendered as                     Compendium Theme section              1 → 1
+
+P3  Compendium Theme section      identified by                   Stable anchor                         1 → 1
+
+P4  Stable anchor                 identifies                      Compendium Theme section              1 → 1
+
+P5  Canonical Theme T             represented by                  Complete Theme Index entry            1 → 1
+
+P6  Complete Theme Index entry    lists                           Canonical CC × T pair                 1 → 1..many
+
+P7  Theme-index pair entry        links to                        Stable anchor                         many entries → 1 anchor
+
+P8  Canonical Theme T shared by
+    more than one CC              represented in                  Theme Cross-Index entry               1 → 1
+
+P9  Theme Cross-Index entry       lists                           Parent Canonical Central Claims       1 → 2..many CCs
+
+P10 Theme Cross-Index pair link   links to                        Stable anchor                         many links → 1 anchor
+
+P11 Canonical argument conclusion listed under                    Theme-index pair entry                many conclusions → 1 pair entry
+
+P12 Full synthesis text           stored authoritatively in       compendium.md                         1 canonical text → 1 location
+
+P13 theme_index.md entry          references but does not copy    Full synthesis text                   many references → 1 authoritative text
+
+P14 Canonical argument conclusion renders                         Relationship Roles subsection         1 → exactly 1 subsection
+
+P15 Relationship Roles subsection lists                           Represented relationship-role records 1 → 1..many roles as present
+
+
+6. Summary of the Authoritative Model
+
+Source level:
+
+Speech
+→ one local central claim
+→ many local Themes
+→ many local arguments
+→ premises, evidence, devices, unverifiable claims
+
+Canonical level:
+
+many local central claims
+→ zero or one primary Canonical Central Claim per speech
+→ exactly one controlled speech-to-CC relationship type and one non-empty
+  explanation for each categorised speech
+
+many local Themes
+→ one to three Canonical Theme assignments per categorised speech
+
+Canonical Central Claims many ↔ many Canonical Themes
+→ implemented through persistent Canonical CC × T pairs
+
+Canonical CC × T pair
+→ deterministic speech-ID counts by relationship type
+→ many canonical argument conclusions
+→ many source contributions carrying relationship type and explanation
+→ one runtime bucket per assembly run, grouped by relationship type
+→ one authoritative Theme section
+→ one stable anchor
+
+Publication level:
+
+Canonical Central Claims
+→ authoritative chapters in compendium.md
+
+Canonical Themes
+→ sections under CC chapters
+→ canonical arguments that visibly report Speech-to-Chapter Relationship Roles
+→ complete navigation entries in theme_index.md
+→ shared-theme entries in the compendium Theme Cross-Index
+
+The same canonical data model therefore supports two complementary views:
+
+1. Argument-oriented authoritative view:
+   CC → T → canonical argument conclusions
+
+2. Theme-oriented navigation view:
+   T → CC × T pairs → canonical argument conclusions → links to compendium
+
+The second view does not replace or duplicate the first.

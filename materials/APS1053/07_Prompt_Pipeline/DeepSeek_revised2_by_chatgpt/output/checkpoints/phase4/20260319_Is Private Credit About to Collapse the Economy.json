@@ -1,0 +1,1073 @@
+{
+  "dependencies": {
+    "source_hash": "7151f1f44681a46fce80368b0bec87a8e17fe087ece7419cb7e763ff724e66df",
+    "phase1_record_hash": "e0f92b1697c0a0a04053330d9a629cded477d1b3acd34c231dd5c0df6ad8fed2",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-8F1CB1E2C7F7",
+    "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+    "stem": "20260319_Is Private Credit About to Collapse the Economy",
+    "date": "2026-03-19",
+    "source_hash": "7151f1f44681a46fce80368b0bec87a8e17fe087ece7419cb7e763ff724e66df",
+    "source_character_count": 19792,
+    "central_claim": "The private credit sector's current distress is a symptom of overregulation, a sluggish economy, and monetary policy mistakes, and bank deregulation (removing the supplementary leverage ratio) is the most likely solution to prevent a broader crisis.",
+    "themes": [
+      {
+        "local_theme_id": "LT-CE4BBAB1C031",
+        "theme": "Post-GFC banking regulation and the rise of private credit",
+        "arguments": [
+          {
+            "local_argument_id": "LA-272F397B6711",
+            "local_theme_id": "LT-CE4BBAB1C031",
+            "conclusion": "Post-GFC banking regulations drove businesses to seek loans from non-bank private credit funds.",
+            "premises": [
+              "Banks were heavily restricted in lending after the Great Financial Crisis due to new regulations.",
+              "Businesses still needed loans to finance growth and production.",
+              "Non-bank lenders (private credit) emerged to fill the gap created by reduced bank lending."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-87203CF0AC59",
+                "item": "Transcript describes that after the GFC, politicians regulated the banking industry heavily, limiting banks' ability to lend.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific source or data provided for the extent of regulation or its causal effect.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "the politicians swooped in and regulated the crap out of the banking industry in the hopes that all of these new rules would stop banks from making the same mistakes in the future.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-3A338B2D56F5",
+                "item": "Transcript states that demand for borrowing was 'fulfilled from somewhere else' due to bank restrictions.",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion without supporting data or citation.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "the appetite for borrowing would have to get fulfilled from somewhere else.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8D5521B3BB74",
+        "theme": "The impact of rising interest rates on private credit funds",
+        "arguments": [
+          {
+            "local_argument_id": "LA-62F08DE56749",
+            "local_theme_id": "LT-8D5521B3BB74",
+            "conclusion": "Rising interest rates have triggered defaults and redemption runs in private credit funds.",
+            "premises": [
+              "Private credit funds charge about 5% above the risk-free rate, now at 9-11% as risk-free rate rose above 4%.",
+              "Many borrowers cannot afford 9-11% interest and are defaulting.",
+              "Investors are withdrawing because the risk premium over Treasuries is no longer attractive.",
+              "Withdrawal requests force funds to call loans, which may not be repaid, creating a spiral."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E0B47CFD5807",
+                "item": "Morgan Stanley's estimate that default rates will reach 8%.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or date provided for the estimate; no way to verify within transcript.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "Morgan Stanley is now saying that default rates are going to reach 8%",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-0F2BD9DEE658",
+                "item": "BlackRock blocking withdrawals from its private credit fund.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific source or details provided.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "BlackRock has just blocked withdrawals from its private credit fund.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A3D6619B327D",
+                "item": "Blue Owl tipping a UK lender into insolvency.",
+                "status": "Unverifiable",
+                "verification_basis": "No details or source provided.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "Blue Owl just tipped a UK lender into insolvency.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-47E0301C74CB",
+                "device": "Bank run analogy for redemption runs",
+                "explanation": "Illustrates how fear of withdrawal restrictions can cause a self-fulfilling run on private credit funds.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "if you allow people to take their money out, and people are afraid that if they don't take it out right now, they might not be able to get it in the future, you get a bank run.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E5B9A4727B87",
+        "theme": "Pension fund exposure and the political economy of bailouts",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2D517DF6C6E7",
+            "local_theme_id": "LT-E5B9A4727B87",
+            "conclusion": "Pension funds' increasing exposure to private credit signals market peak and potential systemic vulnerability, while political connections may determine future bailouts.",
+            "premises": [
+              "VRS has 16% of assets in private credit; CalPERS is targeting 8% exposure.",
+              "Pension fund managers are historically late to market tops, acting as 'bag holders'.",
+              "Previous bailouts (SVB) favored politically connected large depositors, while small banks (First National Bank of Lindsay) were not bailed out."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-699817A6493E",
+                "item": "VRS disclosed $775 million in commitments to three private credit strategies, about 16% of assets.",
+                "status": "Unverifiable",
+                "verification_basis": "Disclosure mentioned but no source link or document cited.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "VRS, which is the Virginia Retirement System, recently disclosed a total of $775 million in commitments to three private credit strategies... It comes out to about 16% of the pension's assets",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-C9F154507ABE",
+                "item": "CalPERS disclosed $16 billion across 22 investments over 12 months, total exposure 3.7%, targeting 8%.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided beyond transcript assertion.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "CalPERS recently disclosed that they had committed $16 billion across 22 investments over the last 12 months, bringing their total private credit exposure to 3.7% of the total fund... their current target was 8%",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-B6FAECD6BA57",
+                "item": "First National Bank of Lindsay failed in October 2024 with $7 million above FDIC limit and no bailout.",
+                "status": "Unverifiable",
+                "verification_basis": "No external data or source provided.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "The First National Bank of Lindsay was a bank that failed in October of 2024. And guess what? That bank did not get the bailout.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C5D45422F658",
+                "item": "Silicon Valley Bank uninsured depositors were fully bailed out via money printing.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or detail beyond common knowledge but not verified in transcript.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "Silicon Valley Bank had a bunch of billionaires... they swooped in, they printed the money, and they bailed it all out.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-4048F52686E6",
+                "device": "'Bag holders' analogy for pension fund managers",
+                "explanation": "Suggests pension funds are known to enter markets at the peak, risking losses.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "Pension fund managers are notorious for getting in, being the bag holders, getting in late, and marking the tops in markets.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-DDF5DADFF740",
+                "device": "Contrast between SVB and First National Bank of Lindsay as example of cronyism",
+                "explanation": "Shows that politically connected large entities get bailouts while small entities do not.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "You remember the First National Bank of Lindsay? Of course not. ... they did not get the bailout. ... But that's not how cronyism works.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1E75E2238F83",
+        "theme": "Bank deregulation as a policy solution to the private credit crisis",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F99F2933AF3B",
+            "local_theme_id": "LT-1E75E2238F83",
+            "conclusion": "Removing the supplementary leverage ratio (SLR) will allow banks to lend more, refinance private credit, and avert a systemic crisis.",
+            "premises": [
+              "The SLR currently restricts banks' ability to lend and forces them to count Treasury purchases against risk limits.",
+              "Removing the SLR would let banks buy unlimited Treasuries and use full risk capacity for private lending.",
+              "Increased bank lending would drive down interest rates, enable refinancing of private credit loans, and allow redemptions without losses."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D9CFD20D64F6",
+                "item": "Transcript mentions the supplementary leverage ratio as a specific regulation limiting banks.",
+                "status": "Unverifiable",
+                "verification_basis": "No quantitative data or source provided for the SLR's impact.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "The specific regulation I'm talking about is called the supplementary leverage ratio",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-9D3A33A2E205",
+                "device": "'Kicking a dead horse' metaphor",
+                "explanation": "Used to emphasize that the speaker has repeatedly advocated for SLR removal.",
+                "speech_id": "SP-8F1CB1E2C7F7",
+                "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+                "source_excerpt": "as they say, these boots were made for kicking a dead horse.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7B22AB3C47FF",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "BlackRock has blocked withdrawals from its private credit fund.",
+        "reason": "No source, date, or fund name provided; transcript does not offer verification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No prominent news about BlackRock blocking private credit withdrawals in training data up to early 2025.",
+        "source_excerpt": "BlackRock has just blocked withdrawals from its private credit fund.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-608C0FC39194",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "Blue Owl tipped a UK lender into insolvency.",
+        "reason": "No details on lender, circumstances, or source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific event of Blue Owl causing a UK lender's insolvency in training data.",
+        "source_excerpt": "Blue Owl just tipped a UK lender into insolvency.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-51AFC8CAAA58",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "JP Morgan is tightening lending to private credit.",
+        "reason": "No source or specific action mentioned.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not corroborated by known data.",
+        "source_excerpt": "JP Morgan is tightening lending to private credit.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7A3C449CD002",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "Morgan Stanley has estimated private credit default rates will reach 8%.",
+        "reason": "No report, date, or methodology provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not clearly referenced in training knowledge.",
+        "source_excerpt": "Morgan Stanley is now saying that default rates are going to reach 8%",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5B6A858438E0",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "KKR stock is falling off a cliff.",
+        "reason": "No price data or time frame given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific crash event for KKR stock known from training.",
+        "source_excerpt": "stocks with private credit exposure like KKR are falling off a cliff.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BC80177636E5",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "Blue Owl stock has taken a nose dive.",
+        "reason": "No price data or time frame given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific crash event for Blue Owl stock known from training.",
+        "source_excerpt": "Blue Owl has taken a nose dive.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 388,
+          "character_end": 419,
+          "line_start": 11
+        }
+      },
+      {
+        "unverifiable_id": "UV-F5288C1BE9E2",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "Ares Management is collapsing.",
+        "reason": "No price data or details provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No collapse of Ares known from training.",
+        "source_excerpt": "Ares is collapsing.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 420,
+          "character_end": 439,
+          "line_start": 12
+        }
+      },
+      {
+        "unverifiable_id": "UV-95DF0EAE479A",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "Default rates in private credit are skyrocketing.",
+        "reason": "No data or source given; vague assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General claim without specific numbers or timeline.",
+        "source_excerpt": "default rates skyrocketing",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 9363,
+          "character_end": 9389,
+          "line_start": 246
+        }
+      },
+      {
+        "unverifiable_id": "UV-9E62290799C6",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "VRS has $775 million in commitments to three private credit strategies, about 16% of assets.",
+        "reason": "No disclosure document or date referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not verifiable from training data; no known public disclosure of such specifics.",
+        "source_excerpt": "VRS, which is the Virginia Retirement System, recently disclosed a total of $775 million in commitments to three private credit strategies... It comes out to about 16% of the pension's assets",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-90E73FD9D625",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "CalPERS committed $16 billion across 22 investments over the last 12 months, total private credit exposure 3.7%, targeting 8%.",
+        "reason": "No source document or date (June 2025) verifiable within transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known CalPERS disclosure with those exact figures in training.",
+        "source_excerpt": "CalPERS recently disclosed that they had committed $16 billion across 22 investments over the last 12 months, bringing their total private credit exposure to 3.7% of the total fund... their current target was 8%",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-4A0F5C8606C4",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "First National Bank of Lindsay failed in October 2024 with $7 million above FDIC limit and was not bailed out.",
+        "reason": "No source or verification provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not aware of this specific bank failure from training data.",
+        "source_excerpt": "The First National Bank of Lindsay was a bank that failed in October of 2024. And guess what? That bank did not get the bailout.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DBCDC9B0020C",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "Silicon Valley Bank's uninsured depositors (billionaires, tech people) were fully bailed out via money printing.",
+        "reason": "Interpretation of events; no detail on the actual bailout mechanism or amounts.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Public knowledge: SVB depositors were made whole under systemic risk exception, but transcript simplifies as 'bailout'.",
+        "source_excerpt": "Silicon Valley Bank had a bunch of billionaires, bunch of tech people, bunch of very rich people. Most of the depositors had uninsured deposits in those accounts above the $250,000 limit. So, they swooped in, they printed the money, and they bailed it all out.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-26B38B7ABE81",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "speech_ref": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "claim": "The 10-year Treasury yield was regularly in the 2% range after GFC, and went below 1% after 2020, then up to 5%.",
+        "reason": "General market observation, but no specific dates or sources cited.",
+        "memory_check": "Corroborated",
+        "memory_note": "Historical yield ranges are broadly consistent with known data, but transcript provides no precise source.",
+        "source_excerpt": "when you look at the yield on the 10-year Treasury, you can see that following the Great Financial Crisis, it was regularly in the 2% range. Yes, sometimes it got up to 3%, but other times it got as low as 0.5%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The private credit sector's current distress is a symptom of overregulation, a sluggish economy, and monetary policy mistakes, and bank deregulation (removing the supplementary leverage ratio) is the most likely solution to prevent a broader crisis.",
+      "themes": [
+        "Post-GFC banking regulation and the rise of private credit",
+        "The impact of rising interest rates on private credit funds",
+        "Pension fund exposure and the political economy of bailouts",
+        "Bank deregulation as a policy solution to the private credit crisis"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 13
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "06c9ff50b2fd52ff682e74568ff54a1e9a4cff6dec98cecbba951878bfe9e3c6",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "e0f92b1697c0a0a04053330d9a629cded477d1b3acd34c231dd5c0df6ad8fed2",
+    "canonical_mapping": {
+      "speech_id": "SP-8F1CB1E2C7F7",
+      "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC39",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+      "primary_cc_rationale": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T127",
+        "T86",
+        "T134"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T127",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-CE4BBAB1C031",
+          "rationale": "Directly addresses the rise of private credit due to post-GFC banking regulation, which is central to T127 on private credit, banking regulation, and systemic risk."
+        },
+        {
+          "theme_id": "T86",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-1E75E2238F83",
+          "rationale": "Explicitly proposes bank deregulation (SLR removal) as a solution, directly matching T86's focus on Federal Reserve and banking deregulation."
+        },
+        {
+          "theme_id": "T134",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-E5B9A4727B87",
+          "rationale": "Pension fund exposure and bailout dynamics relate to systemic vulnerabilities and potential crises, fitting T134's focus on systemic risks and black swan events."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC39-T127",
+          "cc_id": "CC39",
+          "theme_id": "T127",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T86",
+          "cc_id": "CC39",
+          "theme_id": "T86",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T134",
+          "cc_id": "CC39",
+          "theme_id": "T134",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "local_cc_text": "The private credit sector's current distress is a symptom of overregulation, a sluggish economy, and monetary policy mistakes, and bank deregulation (removing the supplementary leverage ratio) is the most likely solution to prevent a broader crisis.",
+        "canonical_cc_id": "CC39",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+        "rationale": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+        "candidate_matches": [
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.8355156183242798
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.3714843690395355
+          },
+          {
+            "id": "CC53",
+            "text": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+            "similarity": 0.361907958984375
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.33448541164398193
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.2668021023273468
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "local_theme_id": "LT-CE4BBAB1C031",
+        "local_theme_text": "Post-GFC banking regulation and the rise of private credit",
+        "canonical_theme_id": "T127",
+        "confidence": 0.85,
+        "rationale": "Directly addresses the rise of private credit due to post-GFC banking regulation, which is central to T127 on private credit, banking regulation, and systemic risk.",
+        "candidate_matches": [
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.7167481184005737
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.42055362462997437
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.3838978707790375
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.34747835993766785
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.30120861530303955
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.245819091796875
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "local_theme_id": "LT-8D5521B3BB74",
+        "local_theme_text": "The impact of rising interest rates on private credit funds",
+        "canonical_theme_id": "T127",
+        "confidence": 0.8,
+        "rationale": "Rising interest rates impacting private credit funds is a mechanism of distress within the private credit sector, aligning with the systemic risk theme in T127.",
+        "candidate_matches": [
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.5295014381408691
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.4599829912185669
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.3923611044883728
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.32385963201522827
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.30498647689819336
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.2558419108390808
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "local_theme_id": "LT-E5B9A4727B87",
+        "local_theme_text": "Pension fund exposure and the political economy of bailouts",
+        "canonical_theme_id": "T134",
+        "confidence": 0.75,
+        "rationale": "Pension fund exposure and bailout dynamics relate to systemic vulnerabilities and potential crises, fitting T134's focus on systemic risks and black swan events.",
+        "candidate_matches": [
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.4193416237831116
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.3700883388519287
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.3100283741950989
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.30256718397140503
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.28191596269607544
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.27035337686538696
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "local_theme_id": "LT-1E75E2238F83",
+        "local_theme_text": "Bank deregulation as a policy solution to the private credit crisis",
+        "canonical_theme_id": "T86",
+        "confidence": 0.9,
+        "rationale": "Explicitly proposes bank deregulation (SLR removal) as a solution, directly matching T86's focus on Federal Reserve and banking deregulation.",
+        "candidate_matches": [
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.7061374187469482
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6707077622413635
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.4878430962562561
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.47431182861328125
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.44155293703079224
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.41388651728630066
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-B72976CDE7BCED",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "date": "2026-03-19",
+        "source_hash": "7151f1f44681a46fce80368b0bec87a8e17fe087ece7419cb7e763ff724e66df",
+        "pair_id": "PAIR-CC39-T127",
+        "cc_id": "CC39",
+        "theme_id": "T127",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-CE4BBAB1C031",
+        "local_theme_text": "Post-GFC banking regulation and the rise of private credit",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Directly addresses the rise of private credit due to post-GFC banking regulation, which is central to T127 on private credit, banking regulation, and systemic risk.",
+        "local_argument_id": "LA-272F397B6711",
+        "conclusion": "Post-GFC banking regulations drove businesses to seek loans from non-bank private credit funds.",
+        "premises": [
+          "Banks were heavily restricted in lending after the Great Financial Crisis due to new regulations.",
+          "Businesses still needed loans to finance growth and production.",
+          "Non-bank lenders (private credit) emerged to fill the gap created by reduced bank lending."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-87203CF0AC59",
+            "item": "Transcript describes that after the GFC, politicians regulated the banking industry heavily, limiting banks' ability to lend.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific source or data provided for the extent of regulation or its causal effect.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "the politicians swooped in and regulated the crap out of the banking industry in the hopes that all of these new rules would stop banks from making the same mistakes in the future.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-3A338B2D56F5",
+            "item": "Transcript states that demand for borrowing was 'fulfilled from somewhere else' due to bank restrictions.",
+            "status": "Unverifiable",
+            "verification_basis": "Assertion without supporting data or citation.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "the appetite for borrowing would have to get fulfilled from somewhere else.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-625A3474D77A16",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "date": "2026-03-19",
+        "source_hash": "7151f1f44681a46fce80368b0bec87a8e17fe087ece7419cb7e763ff724e66df",
+        "pair_id": "PAIR-CC39-T127",
+        "cc_id": "CC39",
+        "theme_id": "T127",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8D5521B3BB74",
+        "local_theme_text": "The impact of rising interest rates on private credit funds",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Rising interest rates impacting private credit funds is a mechanism of distress within the private credit sector, aligning with the systemic risk theme in T127.",
+        "local_argument_id": "LA-62F08DE56749",
+        "conclusion": "Rising interest rates have triggered defaults and redemption runs in private credit funds.",
+        "premises": [
+          "Private credit funds charge about 5% above the risk-free rate, now at 9-11% as risk-free rate rose above 4%.",
+          "Many borrowers cannot afford 9-11% interest and are defaulting.",
+          "Investors are withdrawing because the risk premium over Treasuries is no longer attractive.",
+          "Withdrawal requests force funds to call loans, which may not be repaid, creating a spiral."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E0B47CFD5807",
+            "item": "Morgan Stanley's estimate that default rates will reach 8%.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or date provided for the estimate; no way to verify within transcript.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "Morgan Stanley is now saying that default rates are going to reach 8%",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-0F2BD9DEE658",
+            "item": "BlackRock blocking withdrawals from its private credit fund.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific source or details provided.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "BlackRock has just blocked withdrawals from its private credit fund.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A3D6619B327D",
+            "item": "Blue Owl tipping a UK lender into insolvency.",
+            "status": "Unverifiable",
+            "verification_basis": "No details or source provided.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "Blue Owl just tipped a UK lender into insolvency.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-47E0301C74CB",
+            "device": "Bank run analogy for redemption runs",
+            "explanation": "Illustrates how fear of withdrawal restrictions can cause a self-fulfilling run on private credit funds.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "if you allow people to take their money out, and people are afraid that if they don't take it out right now, they might not be able to get it in the future, you get a bank run.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-68D7A71A0F3171",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "date": "2026-03-19",
+        "source_hash": "7151f1f44681a46fce80368b0bec87a8e17fe087ece7419cb7e763ff724e66df",
+        "pair_id": "PAIR-CC39-T134",
+        "cc_id": "CC39",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E5B9A4727B87",
+        "local_theme_text": "Pension fund exposure and the political economy of bailouts",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "Pension fund exposure and bailout dynamics relate to systemic vulnerabilities and potential crises, fitting T134's focus on systemic risks and black swan events.",
+        "local_argument_id": "LA-2D517DF6C6E7",
+        "conclusion": "Pension funds' increasing exposure to private credit signals market peak and potential systemic vulnerability, while political connections may determine future bailouts.",
+        "premises": [
+          "VRS has 16% of assets in private credit; CalPERS is targeting 8% exposure.",
+          "Pension fund managers are historically late to market tops, acting as 'bag holders'.",
+          "Previous bailouts (SVB) favored politically connected large depositors, while small banks (First National Bank of Lindsay) were not bailed out."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-699817A6493E",
+            "item": "VRS disclosed $775 million in commitments to three private credit strategies, about 16% of assets.",
+            "status": "Unverifiable",
+            "verification_basis": "Disclosure mentioned but no source link or document cited.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "VRS, which is the Virginia Retirement System, recently disclosed a total of $775 million in commitments to three private credit strategies... It comes out to about 16% of the pension's assets",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-C9F154507ABE",
+            "item": "CalPERS disclosed $16 billion across 22 investments over 12 months, total exposure 3.7%, targeting 8%.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided beyond transcript assertion.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "CalPERS recently disclosed that they had committed $16 billion across 22 investments over the last 12 months, bringing their total private credit exposure to 3.7% of the total fund... their current target was 8%",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-B6FAECD6BA57",
+            "item": "First National Bank of Lindsay failed in October 2024 with $7 million above FDIC limit and no bailout.",
+            "status": "Unverifiable",
+            "verification_basis": "No external data or source provided.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "The First National Bank of Lindsay was a bank that failed in October of 2024. And guess what? That bank did not get the bailout.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C5D45422F658",
+            "item": "Silicon Valley Bank uninsured depositors were fully bailed out via money printing.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or detail beyond common knowledge but not verified in transcript.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "Silicon Valley Bank had a bunch of billionaires... they swooped in, they printed the money, and they bailed it all out.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-4048F52686E6",
+            "device": "'Bag holders' analogy for pension fund managers",
+            "explanation": "Suggests pension funds are known to enter markets at the peak, risking losses.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "Pension fund managers are notorious for getting in, being the bag holders, getting in late, and marking the tops in markets.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "device_id": "RD-DDF5DADFF740",
+            "device": "Contrast between SVB and First National Bank of Lindsay as example of cronyism",
+            "explanation": "Shows that politically connected large entities get bailouts while small entities do not.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "You remember the First National Bank of Lindsay? Of course not. ... they did not get the bailout. ... But that's not how cronyism works.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-FEEDB2F66F7234",
+        "speech_id": "SP-8F1CB1E2C7F7",
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "date": "2026-03-19",
+        "source_hash": "7151f1f44681a46fce80368b0bec87a8e17fe087ece7419cb7e763ff724e66df",
+        "pair_id": "PAIR-CC39-T86",
+        "cc_id": "CC39",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that removing the supplementary leverage ratio is the most effective solution to prevent a private credit crisis, directly reinforcing CC39's claim that bank deregulation via SLR removal prevents crisis, reduces stagflation risk, and stimulates economic growth.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1E75E2238F83",
+        "local_theme_text": "Bank deregulation as a policy solution to the private credit crisis",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Explicitly proposes bank deregulation (SLR removal) as a solution, directly matching T86's focus on Federal Reserve and banking deregulation.",
+        "local_argument_id": "LA-F99F2933AF3B",
+        "conclusion": "Removing the supplementary leverage ratio (SLR) will allow banks to lend more, refinance private credit, and avert a systemic crisis.",
+        "premises": [
+          "The SLR currently restricts banks' ability to lend and forces them to count Treasury purchases against risk limits.",
+          "Removing the SLR would let banks buy unlimited Treasuries and use full risk capacity for private lending.",
+          "Increased bank lending would drive down interest rates, enable refinancing of private credit loans, and allow redemptions without losses."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D9CFD20D64F6",
+            "item": "Transcript mentions the supplementary leverage ratio as a specific regulation limiting banks.",
+            "status": "Unverifiable",
+            "verification_basis": "No quantitative data or source provided for the SLR's impact.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "The specific regulation I'm talking about is called the supplementary leverage ratio",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-9D3A33A2E205",
+            "device": "'Kicking a dead horse' metaphor",
+            "explanation": "Used to emphasize that the speaker has repeatedly advocated for SLR removal.",
+            "speech_id": "SP-8F1CB1E2C7F7",
+            "source_speech_filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+            "source_excerpt": "as they say, these boots were made for kicking a dead horse.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "06c9ff50b2fd52ff682e74568ff54a1e9a4cff6dec98cecbba951878bfe9e3c6",
+  "complete": true
+}

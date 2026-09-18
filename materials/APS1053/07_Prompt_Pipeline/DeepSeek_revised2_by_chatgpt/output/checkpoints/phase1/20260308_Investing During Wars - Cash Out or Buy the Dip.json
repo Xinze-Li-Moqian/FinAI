@@ -1,0 +1,374 @@
+{
+  "dependencies": {
+    "source_hash": "3748a825dd98d65e4bdc516e8fce52c0dc0ce2352dabbbbdc1290a69dc54f031",
+    "filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-DE67D18BD700",
+    "filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+    "stem": "20260308_Investing During Wars - Cash Out or Buy the Dip",
+    "date": "2026-03-08",
+    "source_hash": "3748a825dd98d65e4bdc516e8fce52c0dc0ce2352dabbbbdc1290a69dc54f031",
+    "source_character_count": 14252,
+    "central_claim": "Historically, stock markets recover quickly from geopolitical events and any dips represent buying opportunities, unless accompanied by a recession.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A070BEBDF94E",
+        "theme": "Historical market recovery patterns after geopolitical events",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1A391F627B56",
+            "local_theme_id": "LT-A070BEBDF94E",
+            "conclusion": "Market declines after geopolitical events are typically short-lived and followed by positive returns within a year.",
+            "premises": [
+              "Average recovery time is 41 days across major events",
+              "Average one-year return is +2.1%",
+              "Most events show positive one-year performance except when recession occurs"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2A81CA9FE3AA",
+                "item": "Attack on Pearl Harbor: almost 20% drawdown, up 11% one year later",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific numbers in the table",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "The attack on Pearl Harbor was the worst with a total almost 20% draw down. However, just one year later, the market was up over 11%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F7D56298C925",
+                "item": "Iraq's invasion of Kuwait: 17% drawdown, up 14% one year later",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific numbers",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "Iraq's invasion of Kuwait in 1990 with an almost 17% draw down from top to bottom. But again, just one year later, the market was up 14%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E689CEB5A6AA",
+                "item": "Average recovery time 41 days, median less than 41 days",
+                "status": "Verified",
+                "verification_basis": "Transcript states this explicitly based on the table",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "The average time that it takes for the market to reach full recovery across all these major geopolitical events, we're only sitting at 41 days.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-CD7D32779B3A",
+            "local_theme_id": "LT-A070BEBDF94E",
+            "conclusion": "The presence of a recession drastically alters market performance after geopolitical events.",
+            "premises": [
+              "Without recession, market up 9% one year later; with recession, down 11-12%",
+              "The transcript provides a table showing this breakdown"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FC0D1202F3DF",
+                "item": "Without recession: 3 months up 3.1%, 6 months up 6%, 1 year up 9%",
+                "status": "Verified",
+                "verification_basis": "Transcript lists these percentages",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "If there was no recession, 3 months later, the market was up 3.1%, 6 months later the market was up 6%. And a year later, the market was up 9%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-282388C18FC6",
+                "item": "With recession: 3 months down 6%, 6 months down 6%, 1 year down 11-12%",
+                "status": "Verified",
+                "verification_basis": "Transcript lists these percentages",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "However, if there was a recession, 3 months later, the market was down 6%, 6 months later again down 6%. and a year later down 11 12%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E2BDFA948CB1",
+        "theme": "Long-term stock market performance during major wars",
+        "arguments": [
+          {
+            "local_argument_id": "LA-415CEDF45F7B",
+            "local_theme_id": "LT-E2BDFA948CB1",
+            "conclusion": "During major wars, US stock market has achieved positive annualized returns.",
+            "premises": [
+              "WWII, Korean, Vietnam, Gulf, Iraq wars all had positive returns",
+              "Even the worst (Vietnam, Iraq) averaged over 6%"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D70E56E9A675",
+                "item": "Annualized returns during major wars: WWII, Korean, Vietnam, Gulf, Iraq all positive",
+                "status": "Verified",
+                "verification_basis": "Transcript states the returns were positive for each war and gives the worst case as over 6%",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "We're going to look at World War II, the Korean War, the Vietnam War, the Gulf War, the Iraq War, and we see a blue bar and an orange bar for each of these. The blue bar...is going to be the annualized return of the US stock market. And you can see that during every single one of these major wars, stock market performance was positive, not negative. Even the worst of these, the Vietnam War and the Iraq war, still averaged over 6%.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E49C935FA1CF",
+                "device": "When in doubt, zoom out",
+                "explanation": "It is a saying used to encourage looking at long-term trends rather than short-term fluctuations.",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "There's a reason why the saying goes, when in doubt, zoom out.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EAFC252DF44E",
+        "theme": "Current economic indicators and market positioning",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9B6F34B4445B",
+            "local_theme_id": "LT-EAFC252DF44E",
+            "conclusion": "Current indicators like yield curve uninversion and high short interest signal uncertainty but also potential for a rally.",
+            "premises": [
+              "Yield curve uninversion is an accurate recession predictor",
+              "Short interest is at all-time high",
+              "Wall of worry suggests concerns are priced in"
+            ],
+            "evidence": [],
+            "analogies": [
+              {
+                "device_id": "RD-2AC2D5651067",
+                "device": "Wall of worry",
+                "explanation": "An adage that markets tend to rise despite bad news, suggesting current concerns may already be priced in.",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "On the other hand, markets climb a wall of worry.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-E3BB600B1A69",
+                "device": "Ticking time bomb",
+                "explanation": "Metaphor for something that is about to cause a disaster; used for yield curve uninversion.",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "Many people are looking at that right now as a ticking time bomb, the yield curve uninverted.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-0EFFCB9E17EA",
+                "device": "Crystal ball",
+                "explanation": "Common metaphor for predicting the future; used to acknowledge uncertainty.",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "Obviously, nobody has a crystal ball and we don't know how this will play out.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8C352380D86C",
+        "theme": "Investment strategy during wars",
+        "arguments": [
+          {
+            "local_argument_id": "LA-73457940D9F7",
+            "local_theme_id": "LT-8C352380D86C",
+            "conclusion": "Long-term investors should continue buying during dips, while short-term traders can exploit volatility.",
+            "premises": [
+              "Historical pattern shows quick recoveries",
+              "Unless recession, markets are higher within a year",
+              "Bearish positioning could evaporate"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-09EB3D79294E",
+                "item": "Historical data on quick recoveries and positive returns without recession",
+                "status": "Unverifiable",
+                "verification_basis": "The data is referenced but the specific evidence for this argument is not presented anew; it relies on earlier evidence which is verified.",
+                "speech_id": "SP-DE67D18BD700",
+                "source_speech_filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+                "source_excerpt": "",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-F0550B860AF5",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "One of the most accurate predictors of recessions in history is the yield curve uninverted.",
+        "reason": "The transcript asserts this without providing any supporting data or citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a common assertion but its accuracy depends on context; transcript provides no evidence.",
+        "source_excerpt": "In fact, one of the most accurate predictors of recessions in history is the yield curve uninverted.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9B6E2A41A132",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "Short interest in certain areas of the market is at an all-time high.",
+        "reason": "No data or source is provided to verify this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No information available internally to verify.",
+        "source_excerpt": "In fact, short interest in certain areas of the market is at an all-time high, which could even be a contrarian indicator or market positioning for a squeeze.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E4A2EC76082F",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "The frequency of these bear markets is historically unprecedented.",
+        "reason": "The transcript makes this claim without providing historical frequency comparisons.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide data on past bear market frequency.",
+        "source_excerpt": "The frequency of these bear markets is historically unprecedented. Usually 20% draw downs happen once, maybe twice a decade.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-C2E435407487",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "Usually 20% draw downs happen once, maybe twice a decade.",
+        "reason": "This is presented as a fact but no evidence is provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No supporting data in transcript.",
+        "source_excerpt": "Usually 20% draw downs happen once, maybe twice a decade.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5C12B3EFA413",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "A lot of those concerns are currently priced into the market.",
+        "reason": "This is an opinion/subjective assessment, not verifiable from transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Subjective statement, not verifiable.",
+        "source_excerpt": "A lot of those concerns are currently priced into the market.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-759B503AF7FA",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "Much of the bearish positioning in the market right now, which there is a lot of, could evaporate, sending stocks soaring.",
+        "reason": "Speculative, no evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculative claim.",
+        "source_excerpt": "much of the bearish positioning in the market right now, which there is a lot of, could evaporate, sending stocks soaring.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AABD29B339D7",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "We have inflation and even hyperinflation ripping its way throughout major parts of the world.",
+        "reason": "The transcript does not provide evidence of hyperinflation in major parts of the world at that time.",
+        "memory_check": "Corroborated",
+        "memory_note": "1973 did see high inflation in many countries, but 'hyperinflation' is a strong term; transcript provides no data.",
+        "source_excerpt": "We have inflation and even hyperinflation ripping its way throughout major parts of the world.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-712316E2266D",
+        "speech_id": "SP-DE67D18BD700",
+        "speech_ref": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "claim": "And so far, we have not seen a real recession materialize from that.",
+        "reason": "This is a current statement, but no timeline or definition of 'real recession' is given, and no data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Vague statement, no support.",
+        "source_excerpt": "And so far, we have not seen a real recession materialize from that.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Historically, stock markets recover quickly from geopolitical events and any dips represent buying opportunities, unless accompanied by a recession.",
+      "themes": [
+        "Historical market recovery patterns after geopolitical events",
+        "Long-term stock market performance during major wars",
+        "Current economic indicators and market positioning",
+        "Investment strategy during wars"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-14T23:28:14+00:00",
+    "record_hash": "6e48d20c9feb7192e2f7242ba0c4f3cac3488e6762face0fc84d4e9e9a06aba0",
+    "analysis_truncated": false
+  },
+  "output_hash": "a3e4d720c1ff8023aa192867cb46359efd098818f6ca0adcb34c7ea768a1f75e",
+  "complete": true
+}

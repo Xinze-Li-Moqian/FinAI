@@ -1,0 +1,119 @@
+{
+  "dependency_hash": "fcb7957a13c25a96bb23f91720986d1b05b8dbfae3081a80f47e7a54fded71b8",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC42-T135",
+    "cc_id": "CC42",
+    "theme_id": "T135",
+    "authoritative_anchor": "cc-cc42-theme-t135",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC42-T135-0F444F1BAD",
+        "pair_id": "PAIR-CC42-T135",
+        "conclusion": "The record tariff revenues of 2025-2026, representing an unprecedented level of government intervention through trade policy, confirm that such intervention leads to fiscal and economic distortions.",
+        "source_contribution_ids": [
+          "CONTRIB-E5AEBF8087B326"
+        ],
+        "source_speech_filenames": [
+          "20260206_The Effect of Tariffs After One Year.txt"
+        ],
+        "premise_synthesis": "In 2025, total tariff revenue was $288 billion, more than double the previous high of $115 billion in 2022. By January 23, 2026, the US had already brought in over $7 billion in tariff revenue, triple any prior year. Tariff revenue as a percentage of total tax revenue reached 3.72% at the end of 2025 and 7.35% in the first three months of fiscal year 2026.",
+        "conclusion_supported": "The record tariff revenue figures establish that tariff policy under the current administration has dramatically increased government intervention in trade, validating the central claim that excessive intervention causes economic problems.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-E5AEBF8087B326"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how tariff policy, as a form of government intervention, fails to deliver fiscal benefits and harms consumers, directly illustrating CC42's claim that excessive intervention causes economic problems."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "$288 billion collected in 2025",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides the figure without citation to an external source.",
+            "source_contribution_ids": [
+              "CONTRIB-E5AEBF8087B326"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "source_excerpt": "$288 billion was the total collected tariff revenue."
+          },
+          {
+            "item": "$115 billion collected in 2022",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides the figure without citation to an external source.",
+            "source_contribution_ids": [
+              "CONTRIB-E5AEBF8087B326"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "source_excerpt": "largest prior year being 2022 with a 115 billion dollars in tariff revenue."
+          },
+          {
+            "item": "$7 billion collected by January 23, 2026",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides the figure without citation to an external source.",
+            "source_contribution_ids": [
+              "CONTRIB-E5AEBF8087B326"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "source_excerpt": "as of January 23rd, 2026, the US has brought in over $7 billion in tariff revenue."
+          },
+          {
+            "item": "3.72% of total tax revenue in 2025",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides the percentage without citation to an external source.",
+            "source_contribution_ids": [
+              "CONTRIB-E5AEBF8087B326"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "source_excerpt": "tariffs at the end of 2025 ended up being a whopping 3.72% of all collected tax revenue."
+          },
+          {
+            "item": "7.35% of total tax revenue in first three months of fiscal year 2026",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides the percentage without citation to an external source.",
+            "source_contribution_ids": [
+              "CONTRIB-E5AEBF8087B326"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "source_excerpt": "as of December of 2025, which is 3 months into the fiscal year of 2026, tariffs had made up a whopping 7.35% of total collected tax revenue."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Only a single speech dated 2026-02-06 is present, so no cross-speech evolution can be inferred. Within this speech, the reasoning is presented as a static factual summary of tariff revenue data over the preceding year and early 2026; no internal change in argument is indicated.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-E5AEBF8087B326"
+    ],
+    "source_speech_filenames": [
+      "20260206_The Effect of Tariffs After One Year.txt"
+    ],
+    "generated_at": "2026-07-15T03:34:51+00:00",
+    "record_hash": "107107547804d4da2554f943724bc361f0724e6b4afd3eb3a5cf74b0586b5f7a"
+  },
+  "complete": true
+}

@@ -1,0 +1,3621 @@
+{
+  "evaluator": "standalone_evaluation_script_notree_revised.py",
+  "compatible_pipeline": "speech_processing_program_notree_revised.py argumentative-home schema 2.1",
+  "pipeline_config": {
+    "embedding_model": "mukaj/fin-mpnet-base",
+    "cc_dedup_threshold": 0.85,
+    "theme_dedup_threshold": 0.85,
+    "classification_confidence_min": 0.7,
+    "theme_mapping_confidence_min": 0.55,
+    "max_themes_per_speech": 3,
+    "cc_ratio_min": 0.06,
+    "cc_ratio_max": 0.08,
+    "theme_ratio_min": 0.12,
+    "theme_ratio_max": 0.16,
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "bucket_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "assembly_bucket_limit": 20,
+    "bucket_subgroup_size": 10,
+    "target_counts_are_hard": false,
+    "allow_secondary_cc_contributions": false,
+    "source": "fallback defaults"
+  },
+  "paths": {
+    "pipeline_script": "speech_processing_program_notree_revised.py",
+    "transcripts_dir": "transcripts",
+    "output_dir": "output"
+  },
+  "semantic_metrics_enabled": true,
+  "semantic_metrics_error": null,
+  "phase_and_manifest_health": {
+    "transcript_count": 100,
+    "phases": {
+      "phase1": {
+        "expected": 100,
+        "completed": 96,
+        "rate_pct": 96.0,
+        "manifest_complete": false
+      },
+      "phase2": {
+        "expected": 96,
+        "completed": 96,
+        "rate_pct": 100.0,
+        "manifest_complete": true
+      },
+      "phase3": {
+        "expected": 96,
+        "completed": 96,
+        "rate_pct": 100.0,
+        "manifest_complete": true,
+        "categorised_count": 94
+      },
+      "phase4": {
+        "expected": 96,
+        "completed": 96,
+        "rate_pct": 100.0,
+        "manifest_complete": true
+      },
+      "phase5": {
+        "expected_pair_syntheses": 183,
+        "completed_pair_syntheses": 183,
+        "rate_pct": 100.0,
+        "manifest_complete": true,
+        "final_outputs": {
+          "compendium.md": true,
+          "theme_index.md": true,
+          "unverifiable_claims.md": true,
+          "integrity_report.json": true
+        },
+        "integrity_status": "PASS"
+      }
+    },
+    "manifest_output_hashes": {
+      "phase1": {
+        "declared_output_count": 97,
+        "checked_output_count": 96,
+        "missing_outputs": [],
+        "hash_mismatches": [],
+        "skipped_self_referential_manifest_outputs": [
+          "output\\checkpoints\\phase1\\manifest.json"
+        ],
+        "pass": true
+      },
+      "phase2": {
+        "declared_output_count": 2,
+        "checked_output_count": 2,
+        "missing_outputs": [],
+        "hash_mismatches": [],
+        "skipped_self_referential_manifest_outputs": [],
+        "pass": true
+      },
+      "phase3": {
+        "declared_output_count": 7,
+        "checked_output_count": 7,
+        "missing_outputs": [],
+        "hash_mismatches": [
+          {
+            "path": "output\\checkpoints\\phase3\\cc_theme_pairs.json",
+            "resolved_path": "output\\checkpoints\\phase3\\cc_theme_pairs.json",
+            "expected_hash": "d70efcb76b1c56ab2f77b76a45fd6b4392211cee5dbfa20215d971463abc2c4f",
+            "actual_hash": "f8ed3daa3b6d80882cd79ece7560da4d83735042d7ac411931bb68851fd7b075"
+          }
+        ],
+        "skipped_self_referential_manifest_outputs": [],
+        "pass": false
+      },
+      "phase4": {
+        "declared_output_count": 98,
+        "checked_output_count": 97,
+        "missing_outputs": [],
+        "hash_mismatches": [],
+        "skipped_self_referential_manifest_outputs": [
+          "output\\checkpoints\\phase4\\manifest.json"
+        ],
+        "pass": true
+      },
+      "phase5": {
+        "declared_output_count": 5,
+        "checked_output_count": 5,
+        "missing_outputs": [],
+        "hash_mismatches": [],
+        "skipped_self_referential_manifest_outputs": [],
+        "pass": true
+      }
+    },
+    "dependency_links": [
+      {
+        "link": "phase2 -> phase1",
+        "recorded_hash": "5e893104005997790d39aed59108afd29fd22bf24792bd848fd228417925f1d0",
+        "actual_hash": "5e893104005997790d39aed59108afd29fd22bf24792bd848fd228417925f1d0",
+        "pass": true
+      },
+      {
+        "link": "phase3 -> phase2",
+        "recorded_hash": "f312bf8152fdcf002a36d6473204d8df2a5e0a992c255d0d8aaffea42ff353e0",
+        "actual_hash": "f312bf8152fdcf002a36d6473204d8df2a5e0a992c255d0d8aaffea42ff353e0",
+        "pass": true
+      },
+      {
+        "link": "phase4 -> phase3",
+        "recorded_hash": "ad4b01d454a0a79ccf1eaeb09d84842ce0bf14a4454c83e0e275742204221ffe",
+        "actual_hash": "ad4b01d454a0a79ccf1eaeb09d84842ce0bf14a4454c83e0e275742204221ffe",
+        "pass": true
+      },
+      {
+        "link": "phase5 -> phase4",
+        "recorded_hash": "1b68ae8380b794fdd23953c2c487b388a4d947ed4765897a98c877bc3ea50e79",
+        "actual_hash": "1b68ae8380b794fdd23953c2c487b388a4d947ed4765897a98c877bc3ea50e79",
+        "pass": true
+      }
+    ],
+    "errors": [
+      "phase1 manifest is absent or incomplete"
+    ],
+    "warnings": [
+      "phase3 manifest output hashes are stale or incomplete"
+    ],
+    "status": "FAIL"
+  },
+  "canonical_entity_quality": {
+    "canonical_cc_count": 24,
+    "canonical_theme_count": 78,
+    "advisory_cc_count_range": [
+      6,
+      8
+    ],
+    "advisory_theme_count_range": [
+      12,
+      15
+    ],
+    "targets_are_hard": false,
+    "cc_form_warning_count": 3,
+    "cc_form_warnings": [
+      {
+        "cc_id": "CC47",
+        "claim": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets."
+      },
+      {
+        "cc_id": "CC48",
+        "claim": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline."
+      },
+      {
+        "cc_id": "CC56",
+        "claim": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees."
+      }
+    ],
+    "theme_form_warning_count": 0,
+    "theme_form_warnings": [],
+    "exact_duplicate_cc_keys": [],
+    "exact_duplicate_theme_keys": [],
+    "cc_semantic_near_duplicates": {
+      "entity_count": 24,
+      "possible_pair_count": 276,
+      "near_duplicate_pair_count": 0,
+      "pair_rate": 0.0,
+      "affected_entity_count": 0,
+      "affected_entity_rate": 0.0,
+      "pairs": []
+    },
+    "theme_semantic_near_duplicates": {
+      "entity_count": 78,
+      "possible_pair_count": 3003,
+      "near_duplicate_pair_count": 0,
+      "pair_rate": 0.0,
+      "affected_entity_count": 0,
+      "affected_entity_rate": 0.0,
+      "pairs": []
+    },
+    "warnings": [
+      "Canonical CC count 24 is outside advisory range 6-8.",
+      "Canonical Theme count 78 is outside advisory range 12-15."
+    ]
+  },
+  "classification_and_mapping_quality": {
+    "classification_record_count": 96,
+    "categorised_count": 94,
+    "uncategorised_count": 2,
+    "categorisation_rate_pct": 97.9167,
+    "primary_cc_confidence": {
+      "count": 94,
+      "minimum": 0.7,
+      "maximum": 0.98,
+      "mean": 0.896915,
+      "median": 0.9,
+      "p10": 0.85,
+      "p90": 0.95
+    },
+    "classification_confidence_min": 0.7,
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "allowed_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "relationship_type_distribution": {
+      "supports": 54,
+      "specific_instance": 25,
+      "mechanism": 9,
+      "consequence": 1,
+      "qualification": 2,
+      "opposition": 1,
+      "historical_example": 0,
+      "application": 2,
+      "evidence": 0
+    },
+    "relationship_type_by_cc": {
+      "CC14": {
+        "supports": 1,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC19": {
+        "supports": 2,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC29": {
+        "supports": 1,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC37": {
+        "supports": 2,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC38": {
+        "supports": 2,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC39": {
+        "supports": 5,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC40": {
+        "supports": 1,
+        "specific_instance": 2,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC41": {
+        "supports": 2,
+        "specific_instance": 1,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC42": {
+        "supports": 3,
+        "specific_instance": 2,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC43": {
+        "supports": 2,
+        "specific_instance": 2,
+        "mechanism": 1,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC44": {
+        "supports": 1,
+        "specific_instance": 2,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 1,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC45": {
+        "supports": 6,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC46": {
+        "supports": 3,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC47": {
+        "supports": 0,
+        "specific_instance": 3,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC48": {
+        "supports": 1,
+        "specific_instance": 2,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC49": {
+        "supports": 1,
+        "specific_instance": 1,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 1,
+        "evidence": 0
+      },
+      "CC50": {
+        "supports": 3,
+        "specific_instance": 4,
+        "mechanism": 1,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC51": {
+        "supports": 5,
+        "specific_instance": 1,
+        "mechanism": 1,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC52": {
+        "supports": 3,
+        "specific_instance": 1,
+        "mechanism": 1,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC53": {
+        "supports": 2,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC54": {
+        "supports": 3,
+        "specific_instance": 2,
+        "mechanism": 5,
+        "consequence": 0,
+        "qualification": 1,
+        "opposition": 1,
+        "historical_example": 0,
+        "application": 1,
+        "evidence": 0
+      },
+      "CC55": {
+        "supports": 2,
+        "specific_instance": 1,
+        "mechanism": 0,
+        "consequence": 1,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC56": {
+        "supports": 2,
+        "specific_instance": 1,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      },
+      "CC57": {
+        "supports": 1,
+        "specific_instance": 0,
+        "mechanism": 0,
+        "consequence": 0,
+        "qualification": 0,
+        "opposition": 0,
+        "historical_example": 0,
+        "application": 0,
+        "evidence": 0
+      }
+    },
+    "nonaffirmative_classification_count": 3,
+    "invalid_relationship_types": [],
+    "missing_relationship_explanations": [],
+    "classification_version_mismatches": [],
+    "local_cc_mapping_mismatches": [],
+    "uncategorised_rejection_reason_distribution": {
+      "The unchanged classification confidence threshold of 0.70 was not cleared.": 2,
+      "No supplied canonical CC was selected.": 1,
+      "No valid controlled argumentative relationship type was returned.": 1
+    },
+    "uncategorised_without_rejection_reason": [],
+    "below_confidence_count": 0,
+    "below_confidence_records": [],
+    "theme_mapping_confidence": {
+      "count": 354,
+      "minimum": 0.25,
+      "maximum": 1.0,
+      "mean": 0.810508,
+      "median": 0.85,
+      "p10": 0.65,
+      "p90": 0.95
+    },
+    "theme_mapping_confidence_min": 0.55,
+    "low_theme_mapping_count": 14,
+    "invalid_primary_cc_references": [],
+    "invalid_theme_references": [],
+    "invalid_theme_assignment_counts": [],
+    "duplicate_theme_assignments": [],
+    "invalid_default_pair_memberships": [],
+    "cross_cc_default_memberships": [],
+    "secondary_contribution_count": 0,
+    "semantic_alignment": {
+      "mapped_speech_count": 94,
+      "assigned_cc_similarity": {
+        "count": 94,
+        "minimum": 0.108496,
+        "maximum": 0.995944,
+        "mean": 0.533626,
+        "median": 0.550588,
+        "p10": 0.295821,
+        "p90": 0.747022
+      },
+      "assigned_cc_similarity_by_relationship_type": {
+        "application": {
+          "count": 2,
+          "minimum": 0.536052,
+          "maximum": 0.790368,
+          "mean": 0.66321,
+          "median": 0.66321,
+          "p10": 0.561484,
+          "p90": 0.764936
+        },
+        "consequence": {
+          "count": 1,
+          "minimum": 0.287114,
+          "maximum": 0.287114,
+          "mean": 0.287114,
+          "median": 0.287114,
+          "p10": 0.287114,
+          "p90": 0.287114
+        },
+        "mechanism": {
+          "count": 9,
+          "minimum": 0.172701,
+          "maximum": 0.604976,
+          "mean": 0.440133,
+          "median": 0.450157,
+          "p10": 0.284546,
+          "p90": 0.581626
+        },
+        "opposition": {
+          "count": 1,
+          "minimum": 0.418082,
+          "maximum": 0.418082,
+          "mean": 0.418082,
+          "median": 0.418082,
+          "p10": 0.418082,
+          "p90": 0.418082
+        },
+        "qualification": {
+          "count": 2,
+          "minimum": 0.108496,
+          "maximum": 0.47348,
+          "mean": 0.290988,
+          "median": 0.290988,
+          "p10": 0.144994,
+          "p90": 0.436982
+        },
+        "specific_instance": {
+          "count": 25,
+          "minimum": 0.282563,
+          "maximum": 0.653342,
+          "mean": 0.50229,
+          "median": 0.520043,
+          "p10": 0.341297,
+          "p90": 0.620849
+        },
+        "supports": {
+          "count": 54,
+          "minimum": 0.18052,
+          "maximum": 0.995944,
+          "mean": 0.574607,
+          "median": 0.589206,
+          "p10": 0.298822,
+          "p90": 0.76183
+        }
+      },
+      "assignment_gap_vs_embedding_best": {
+        "count": 94,
+        "minimum": -0.215456,
+        "maximum": 0.0,
+        "mean": -0.029382,
+        "median": -0.0,
+        "p10": -0.097845,
+        "p90": 0.0
+      },
+      "low_alignment_threshold": 0.45,
+      "low_alignment_count": 26,
+      "low_alignment_records": [
+        {
+          "speech_id": "SP-C49B1C205B09",
+          "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+          "assigned_cc_id": "CC40",
+          "relationship_type": "specific_instance",
+          "assigned_similarity": 0.282563,
+          "local_central_claim": "Sharing three personal investment losses and the lessons learned from them can help others avoid similar large losses and build wealth more securely."
+        },
+        {
+          "speech_id": "SP-6241A0848FD1",
+          "filename": "20250814_It's Time to Get Your Wealth Outside the System.txt",
+          "assigned_cc_id": "CC46",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.349532,
+          "local_central_claim": "Financial repression is coming and individuals need to move their wealth outside the system before capital controls begin."
+        },
+        {
+          "speech_id": "SP-97D3B466B90D",
+          "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+          "assigned_cc_id": "CC40",
+          "relationship_type": "specific_instance",
+          "assigned_similarity": 0.330005,
+          "local_central_claim": "The current high-cost housing market is not a bubble but a structural shift, making it a strategically sound time to invest in real estate or homebuilding stocks despite high mortgage costs."
+        },
+        {
+          "speech_id": "SP-25CBB43ED14F",
+          "filename": "20250823_What is the Optimal Money Supply.txt",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "specific_instance",
+          "assigned_similarity": 0.312755,
+          "local_central_claim": "Any fixed supply of money works equally well for the economy provided it is sufficiently divisible and interest rates are determined solely by the free market, while any central bank manipulation of the money supply distorts incentives and reduces wealth, making a completely free market in money the optimal solution to poverty."
+        },
+        {
+          "speech_id": "SP-21A6054A5A0B",
+          "filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+          "assigned_cc_id": "CC40",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.364315,
+          "local_central_claim": "MicroStrategy is not a Ponzi scheme because it has a real software business, uses raised capital to buy Bitcoin, and its preferred dividends are cancellable."
+        },
+        {
+          "speech_id": "SP-1B24C77C5AFD",
+          "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.280719,
+          "local_central_claim": "The simultaneous all-time highs across multiple asset classes and goods are not the result of multiple independent bubbles, but rather a consequence of the declining purchasing power of the U.S. dollar."
+        },
+        {
+          "speech_id": "SP-1AA5B228F713",
+          "filename": "20250929_The Rationale for Rate Cuts.txt",
+          "assigned_cc_id": "CC50",
+          "relationship_type": "specific_instance",
+          "assigned_similarity": 0.376659,
+          "local_central_claim": "The real rationale for rate cuts is to reduce the cost of servicing the federal debt, not the economic factors cited by Steven Moran."
+        },
+        {
+          "speech_id": "SP-F800F01507AA",
+          "filename": "20251003_You Aren’t Ready for what Stocks are About To Do.txt",
+          "assigned_cc_id": "CC45",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.337862,
+          "local_central_claim": "A massive bull market, a rip your face off rally, a blowoff top is about to start in the stock market."
+        },
+        {
+          "speech_id": "SP-3DC46BA48274",
+          "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "assigned_similarity": 0.312508,
+          "local_central_claim": "The next major economic crisis will be a sovereign debt crisis affecting the government, because each previous crisis was absorbed by the entity that then becomes the epicenter of the next crisis."
+        },
+        {
+          "speech_id": "SP-16CD52BF0E94",
+          "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.245992,
+          "local_central_claim": "Inflating away the sovereign debt will not succeed this time because the conditions that made it work after WWII (spending crash and productivity boom) are absent and printing will actually increase costs."
+        },
+        {
+          "speech_id": "SP-911ABCAF1DFC",
+          "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.322512,
+          "local_central_claim": "The Federal Reserve does not actually control interest rates (mortgage, auto, credit card, Treasury yields) because its tools (federal funds rate and balance sheet) are limited and market forces, fiscal deficits, and inflation expectations are the primary drivers."
+        },
+        {
+          "speech_id": "SP-9DF66FFD6088",
+          "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "mechanism",
+          "assigned_similarity": 0.172701,
+          "local_central_claim": "Artificially low interest rates destroy wealth over the long term by sending false signals that incentivize over-investment in sub-par returns and sustain unprofitable companies, leading to wealth destruction and extreme bubbles."
+        },
+        {
+          "speech_id": "SP-A6C606895A2C",
+          "filename": "20251105_Repo Market Just Spiked, 2008 Repeat.txt",
+          "assigned_cc_id": "CC19",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.184936,
+          "local_central_claim": "The recent record spike in usage of the Fed's standing repo facility is due to a combination of quantitative tightening draining excess reserves and a spike in the Treasury General Account caused by the government shutdown, but this is not a cause for concern because the standing repo facility automatically provides liquidity and conditions will improve once the government shutdown ends and quantitative tightening stops, though eventually the Fed will have to restart QE."
+        },
+        {
+          "speech_id": "SP-DFDDF0911A1A",
+          "filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.18052,
+          "local_central_claim": "The perceived relationship between interest rates and inflation is backwards: raising rates precedes rising inflation, and lowering rates can lead to lower prices due to increased production."
+        },
+        {
+          "speech_id": "SP-B3F09532C46B",
+          "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "opposition",
+          "assigned_similarity": 0.418082,
+          "local_central_claim": "The $9 trillion of US national debt maturing in 2026 is not a crisis because it will be largely automatically rolled over via money market funds and Fed actions, and will not drastically increase interest costs."
+        },
+        {
+          "speech_id": "SP-A265DC245E31",
+          "filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+          "assigned_cc_id": "CC37",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.432493,
+          "local_central_claim": "Parents should fully fund their own retirement before giving money to their children's accounts, and if that condition is met, the best investment account for children in 2026 is a custodial account (UGMA/UTMA) due to maximum flexibility."
+        },
+        {
+          "speech_id": "SP-3A0CDDFB62A8",
+          "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "assigned_similarity": 0.423388,
+          "local_central_claim": "The US Treasury's increasing buybacks of long-term debt, funded by short-term borrowing, are a deliberate strategy to prepare for future refinancing at lower long-term rates, likely through quantitative easing or yield curve control."
+        },
+        {
+          "speech_id": "SP-DEDB3DBB5C17",
+          "filename": "20251229_2026 Macro Outlook.txt",
+          "assigned_cc_id": "CC51",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.397912,
+          "local_central_claim": "In 2026, the Federal Reserve will continue rate cuts, engage in limited direct QE but facilitate indirect QE through bank deregulation, leading to asset price inflation, heightened volatility, and potential recession, requiring a cautious portfolio with hedges."
+        },
+        {
+          "speech_id": "SP-18F3B4E5CC65",
+          "filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+          "assigned_cc_id": "CC45",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.2653,
+          "local_central_claim": "Investing at all-time highs historically outperforms investing on random days over long time horizons, and any investing strategy, even with poor timing, beats staying in cash."
+        },
+        {
+          "speech_id": "SP-A4E00E732E81",
+          "filename": "20260304_A Declaration of Independence.txt",
+          "assigned_cc_id": "CC44",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.421389,
+          "local_central_claim": "The current US government has violated the unalienable rights of its people through a long pattern of abuse, and peaceful attempts at reform have failed, therefore the people are justified in declaring independence and establishing a new government."
+        },
+        {
+          "speech_id": "SP-AF8BA31831F4",
+          "filename": "20260316_The Iran War has the Fed Trapped.txt",
+          "assigned_cc_id": "CC55",
+          "relationship_type": "consequence",
+          "assigned_similarity": 0.287114,
+          "local_central_claim": "The market is wrong to price out rate cuts for the rest of 2026 because employment and inflation data, along with the need to moderate long-term interest rates, will force the Fed to cut rates later this year."
+        },
+        {
+          "speech_id": "SP-1FE477D37E84",
+          "filename": "20260327_Why is Gold Crashing from the War.txt",
+          "assigned_cc_id": "CC55",
+          "relationship_type": "specific_instance",
+          "assigned_similarity": 0.404416,
+          "local_central_claim": "The recent crash in gold price despite geopolitical chaos is caused by a liquidity crisis that forces selling of gold as a liquid reserve asset, a prior excessive 166% rise that created a blowoff top, gold's tendency to anticipate monetary policy now at risk from war inflation, and market expectations that the current conflict will not be long-lived."
+        },
+        {
+          "speech_id": "SP-B7D0DBD11E22",
+          "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "assigned_similarity": 0.382232,
+          "local_central_claim": "The proposed 50% increase in military budget will increase spending, widen the deficit, accelerate national debt, and ultimately harm the economy through inflation and unsustainable borrowing."
+        },
+        {
+          "speech_id": "SP-C3E5A736962B",
+          "filename": "20260427_All Labor is Exploitation.txt",
+          "assigned_cc_id": "CC44",
+          "relationship_type": "qualification",
+          "assigned_similarity": 0.108496,
+          "local_central_claim": "In any voluntary employment transaction, both the employer and the employee profit by giving up less value than they receive, meaning the employee is always paid less than the value they create for the company, which is both necessary and beneficial."
+        },
+        {
+          "speech_id": "SP-450EB90879FB",
+          "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+          "assigned_cc_id": "CC44",
+          "relationship_type": "specific_instance",
+          "assigned_similarity": 0.358235,
+          "local_central_claim": "The Trump administration's tariff policies were a deliberate mechanism to transfer wealth from consumers to corporations and politically connected insiders."
+        },
+        {
+          "speech_id": "SP-6E47A613F0F8",
+          "filename": "20260504_The 1973 Playbook is Happening Again.txt",
+          "assigned_cc_id": "CC55",
+          "relationship_type": "supports",
+          "assigned_similarity": 0.288669,
+          "local_central_claim": "The current closure of the Strait of Hormuz is the largest oil supply shock in history and will likely lead to a prolonged period of high energy and food prices, with the situation resembling the 1970s more than 2020, driven by similar monetary expansion and supply constraints."
+        }
+      ],
+      "embedding_best_differs_count": 30,
+      "embedding_best_differs_records": [
+        {
+          "speech_id": "SP-25CBB43ED14F",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "specific_instance",
+          "embedding_best_cc_id": "CC39",
+          "assigned_similarity": 0.312755,
+          "best_similarity": 0.413729,
+          "gap": -0.100974
+        },
+        {
+          "speech_id": "SP-ED1091DFDFFF",
+          "assigned_cc_id": "CC50",
+          "relationship_type": "specific_instance",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.457624,
+          "best_similarity": 0.49942,
+          "gap": -0.041796
+        },
+        {
+          "speech_id": "SP-938D787160B6",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.604976,
+          "best_similarity": 0.731779,
+          "gap": -0.126803
+        },
+        {
+          "speech_id": "SP-1B24C77C5AFD",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC48",
+          "assigned_similarity": 0.280719,
+          "best_similarity": 0.371139,
+          "gap": -0.09042
+        },
+        {
+          "speech_id": "SP-F800F01507AA",
+          "assigned_cc_id": "CC45",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC19",
+          "assigned_similarity": 0.337862,
+          "best_similarity": 0.418363,
+          "gap": -0.080501
+        },
+        {
+          "speech_id": "SP-D47DDAE0F72D",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "qualification",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.47348,
+          "best_similarity": 0.54101,
+          "gap": -0.06753
+        },
+        {
+          "speech_id": "SP-3DC46BA48274",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "embedding_best_cc_id": "CC57",
+          "assigned_similarity": 0.312508,
+          "best_similarity": 0.527963,
+          "gap": -0.215456
+        },
+        {
+          "speech_id": "SP-16CD52BF0E94",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.245992,
+          "best_similarity": 0.436823,
+          "gap": -0.190831
+        },
+        {
+          "speech_id": "SP-911ABCAF1DFC",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC50",
+          "assigned_similarity": 0.322512,
+          "best_similarity": 0.44376,
+          "gap": -0.121249
+        },
+        {
+          "speech_id": "SP-9DF66FFD6088",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "mechanism",
+          "embedding_best_cc_id": "CC50",
+          "assigned_similarity": 0.172701,
+          "best_similarity": 0.359618,
+          "gap": -0.186917
+        },
+        {
+          "speech_id": "SP-A6C606895A2C",
+          "assigned_cc_id": "CC19",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.184936,
+          "best_similarity": 0.390086,
+          "gap": -0.20515
+        },
+        {
+          "speech_id": "SP-A13EB5FEDDDB",
+          "assigned_cc_id": "CC41",
+          "relationship_type": "specific_instance",
+          "embedding_best_cc_id": "CC19",
+          "assigned_similarity": 0.492758,
+          "best_similarity": 0.581289,
+          "gap": -0.088531
+        },
+        {
+          "speech_id": "SP-DFDDF0911A1A",
+          "assigned_cc_id": "CC52",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.18052,
+          "best_similarity": 0.382915,
+          "gap": -0.202395
+        },
+        {
+          "speech_id": "SP-787B4A4733C4",
+          "assigned_cc_id": "CC41",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC45",
+          "assigned_similarity": 0.528237,
+          "best_similarity": 0.591156,
+          "gap": -0.062919
+        },
+        {
+          "speech_id": "SP-B3F09532C46B",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "opposition",
+          "embedding_best_cc_id": "CC57",
+          "assigned_similarity": 0.418082,
+          "best_similarity": 0.503617,
+          "gap": -0.085534
+        },
+        {
+          "speech_id": "SP-3A0CDDFB62A8",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.423388,
+          "best_similarity": 0.451615,
+          "gap": -0.028227
+        },
+        {
+          "speech_id": "SP-DEDB3DBB5C17",
+          "assigned_cc_id": "CC51",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC55",
+          "assigned_similarity": 0.397912,
+          "best_similarity": 0.478007,
+          "gap": -0.080095
+        },
+        {
+          "speech_id": "SP-2D1B38FA523A",
+          "assigned_cc_id": "CC46",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC45",
+          "assigned_similarity": 0.453685,
+          "best_similarity": 0.470522,
+          "gap": -0.016837
+        },
+        {
+          "speech_id": "SP-DB5B8E01098C",
+          "assigned_cc_id": "CC50",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC42",
+          "assigned_similarity": 0.584977,
+          "best_similarity": 0.612858,
+          "gap": -0.027881
+        },
+        {
+          "speech_id": "SP-746948D5C2F6",
+          "assigned_cc_id": "CC50",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.608566,
+          "best_similarity": 0.683592,
+          "gap": -0.075026
+        },
+        {
+          "speech_id": "SP-422B65DC1CE5",
+          "assigned_cc_id": "CC54",
+          "relationship_type": "mechanism",
+          "embedding_best_cc_id": "CC51",
+          "assigned_similarity": 0.48046,
+          "best_similarity": 0.578197,
+          "gap": -0.097737
+        },
+        {
+          "speech_id": "SP-A4E00E732E81",
+          "assigned_cc_id": "CC44",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC57",
+          "assigned_similarity": 0.421389,
+          "best_similarity": 0.44322,
+          "gap": -0.021831
+        },
+        {
+          "speech_id": "SP-AF8BA31831F4",
+          "assigned_cc_id": "CC55",
+          "relationship_type": "consequence",
+          "embedding_best_cc_id": "CC41",
+          "assigned_similarity": 0.287114,
+          "best_similarity": 0.344779,
+          "gap": -0.057664
+        },
+        {
+          "speech_id": "SP-1FE477D37E84",
+          "assigned_cc_id": "CC55",
+          "relationship_type": "specific_instance",
+          "embedding_best_cc_id": "CC43",
+          "assigned_similarity": 0.404416,
+          "best_similarity": 0.510834,
+          "gap": -0.106419
+        },
+        {
+          "speech_id": "SP-28905DEEE6E9",
+          "assigned_cc_id": "CC39",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC50",
+          "assigned_similarity": 0.466637,
+          "best_similarity": 0.5402,
+          "gap": -0.073563
+        },
+        {
+          "speech_id": "SP-D0DB23F15310",
+          "assigned_cc_id": "CC49",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC48",
+          "assigned_similarity": 0.488297,
+          "best_similarity": 0.501808,
+          "gap": -0.013511
+        },
+        {
+          "speech_id": "SP-C3E5A736962B",
+          "assigned_cc_id": "CC44",
+          "relationship_type": "qualification",
+          "embedding_best_cc_id": "CC56",
+          "assigned_similarity": 0.108496,
+          "best_similarity": 0.181159,
+          "gap": -0.072663
+        },
+        {
+          "speech_id": "SP-450EB90879FB",
+          "assigned_cc_id": "CC44",
+          "relationship_type": "specific_instance",
+          "embedding_best_cc_id": "CC29",
+          "assigned_similarity": 0.358235,
+          "best_similarity": 0.456126,
+          "gap": -0.097891
+        },
+        {
+          "speech_id": "SP-6E47A613F0F8",
+          "assigned_cc_id": "CC55",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC57",
+          "assigned_similarity": 0.288669,
+          "best_similarity": 0.373022,
+          "gap": -0.084353
+        },
+        {
+          "speech_id": "SP-4ABCA879108E",
+          "assigned_cc_id": "CC45",
+          "relationship_type": "supports",
+          "embedding_best_cc_id": "CC55",
+          "assigned_similarity": 0.450261,
+          "best_similarity": 0.491452,
+          "gap": -0.041191
+        }
+      ],
+      "silhouette_score_cosine": -0.031689,
+      "interpretation": "These metrics measure propositional embedding proximity, not whether the selected chapter is the best argumentative home. Lower similarity can be legitimate for mechanisms, applications, qualifications, opposition, or historical examples."
+    },
+    "errors": [],
+    "warnings": [
+      "Some selected Theme mappings fall below the configured Theme confidence minimum."
+    ],
+    "status": "PASS"
+  },
+  "usage_distributions": {
+    "canonical_cc_usage": {
+      "total_assignments": 94,
+      "distinct_used": 24,
+      "total_available": 24,
+      "unused_ids": [],
+      "entropy": 2.987476,
+      "max_entropy": 3.178054,
+      "normalised_entropy_pct": 94.0033,
+      "gini": 0.333333,
+      "per_entity": [
+        {
+          "id": "CC54",
+          "label": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+          "count": 13,
+          "pct": 13.8298
+        },
+        {
+          "id": "CC50",
+          "label": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+          "count": 8,
+          "pct": 8.5106
+        },
+        {
+          "id": "CC51",
+          "label": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+          "count": 7,
+          "pct": 7.4468
+        },
+        {
+          "id": "CC45",
+          "label": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+          "count": 6,
+          "pct": 6.383
+        },
+        {
+          "id": "CC39",
+          "label": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+          "count": 5,
+          "pct": 5.3191
+        },
+        {
+          "id": "CC42",
+          "label": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+          "count": 5,
+          "pct": 5.3191
+        },
+        {
+          "id": "CC43",
+          "label": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+          "count": 5,
+          "pct": 5.3191
+        },
+        {
+          "id": "CC52",
+          "label": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+          "count": 5,
+          "pct": 5.3191
+        },
+        {
+          "id": "CC44",
+          "label": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+          "count": 4,
+          "pct": 4.2553
+        },
+        {
+          "id": "CC55",
+          "label": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+          "count": 4,
+          "pct": 4.2553
+        },
+        {
+          "id": "CC40",
+          "label": "Current high asset prices, a forthcoming stock market rally, and homebuilding investment opportunities are driven by structural shifts, while MicroStrategy is not a Ponzi scheme and personal investment losses offer lessons for secure wealth building.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC41",
+          "label": "Despite government shutdown causing stock market volatility and high layoff announcements, the economy is stronger than perceived and jobless claims remain low, indicating resilient underlying conditions.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC46",
+          "label": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC47",
+          "label": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC48",
+          "label": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC49",
+          "label": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC56",
+          "label": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+          "count": 3,
+          "pct": 3.1915
+        },
+        {
+          "id": "CC19",
+          "label": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+          "count": 2,
+          "pct": 2.1277
+        },
+        {
+          "id": "CC37",
+          "label": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+          "count": 2,
+          "pct": 2.1277
+        },
+        {
+          "id": "CC38",
+          "label": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+          "count": 2,
+          "pct": 2.1277
+        },
+        {
+          "id": "CC53",
+          "label": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+          "count": 2,
+          "pct": 2.1277
+        },
+        {
+          "id": "CC14",
+          "label": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies, outweighing risks of increased fraud, insider trading, and volatility.",
+          "count": 1,
+          "pct": 1.0638
+        },
+        {
+          "id": "CC29",
+          "label": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+          "count": 1,
+          "pct": 1.0638
+        },
+        {
+          "id": "CC57",
+          "label": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+          "count": 1,
+          "pct": 1.0638
+        }
+      ]
+    },
+    "canonical_theme_usage": {
+      "total_assignments": 233,
+      "distinct_used": 73,
+      "total_available": 78,
+      "unused_ids": [
+        "T110",
+        "T115",
+        "T116",
+        "T79",
+        "T94"
+      ],
+      "entropy": 4.098888,
+      "max_entropy": 4.290459,
+      "normalised_entropy_pct": 95.5349,
+      "gini": 0.342054,
+      "per_entity": [
+        {
+          "id": "T136",
+          "label": "US Fiscal and Monetary Situation and Debt Dynamics",
+          "count": 8,
+          "pct": 3.4335
+        },
+        {
+          "id": "T86",
+          "label": "Federal Reserve and banking deregulation",
+          "count": 8,
+          "pct": 3.4335
+        },
+        {
+          "id": "T106",
+          "label": "Inflation and deflation dynamics",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T108",
+          "label": "Interest Rate Policy and Market Expectations",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T134",
+          "label": "Systemic risks and black swan events",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T70",
+          "label": "Asset price inflation and monetary expansion",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T87",
+          "label": "Federal Reserve Balance Sheet Policy",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T89",
+          "label": "Federal Reserve Monetary Policy Tools and Frameworks",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T91",
+          "label": "Fiscal debt, Treasury market, and dollar concerns",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T92",
+          "label": "Fiscal Deficit, Debt, and Budget Allocation",
+          "count": 7,
+          "pct": 3.0043
+        },
+        {
+          "id": "T118",
+          "label": "Market volatility, speculation, and trading strategies",
+          "count": 6,
+          "pct": 2.5751
+        },
+        {
+          "id": "T119",
+          "label": "Monetary policy and liquidity conditions",
+          "count": 6,
+          "pct": 2.5751
+        },
+        {
+          "id": "T109",
+          "label": "Investment philosophy and risk management",
+          "count": 5,
+          "pct": 2.1459
+        },
+        {
+          "id": "T135",
+          "label": "Trade deficits, tariffs, and global geopolitics",
+          "count": 5,
+          "pct": 2.1459
+        },
+        {
+          "id": "T78",
+          "label": "Critique of the Fiat Monetary System and Alternative Money",
+          "count": 5,
+          "pct": 2.1459
+        },
+        {
+          "id": "T95",
+          "label": "Gold as a monetary indicator and safe haven",
+          "count": 5,
+          "pct": 2.1459
+        },
+        {
+          "id": "T107",
+          "label": "Inflation and stagflation dynamics",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "T111",
+          "label": "Labor market conditions and employment trends",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "T113",
+          "label": "Liquidity Conditions and Repo Market Dynamics",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "T117",
+          "label": "Market timing and valuation metrics",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "T82",
+          "label": "Economic freedom and regulatory policy",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "T97",
+          "label": "Gold Standard and Monetary System Evolution",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "T101",
+          "label": "Historical market performance during geopolitical conflict",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T102",
+          "label": "Household debt indicators",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T112",
+          "label": "Leveraged and Alternative Investment Strategies",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T114",
+          "label": "Market dynamics and investor behavior",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T128",
+          "label": "Recession risk and yield curve signals",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T130",
+          "label": "Social Entitlement Programs and Transfer Systems",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T131",
+          "label": "Sovereign debt crisis and crisis absorption",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T137",
+          "label": "US fiscal sustainability and policy responses",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T140",
+          "label": "Wealth Transfer and Tax Policy",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T55",
+          "label": "Securities regulation and market structure",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T69",
+          "label": "Artificial intelligence in financial markets",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T72",
+          "label": "Banking regulation and capital framework",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T74",
+          "label": "Boom-bust debt cycle theory",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T75",
+          "label": "Central Bank Governance and Political Independence",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T81",
+          "label": "Dollar system vulnerabilities",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T83",
+          "label": "Economic Responsibility and Productivity",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T85",
+          "label": "Federal debt management, fiscal sustainability, and trade policy",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T90",
+          "label": "Federal Reserve policy and macroeconomic indicators",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T96",
+          "label": "Gold Revaluation and Central Bank Gold Accumulation",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T98",
+          "label": "Government debt management and fiscal policy",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T99",
+          "label": "Government Policy Proposals and Structural Reforms",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "T10",
+          "label": "Economic disruption from oil shock",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T103",
+          "label": "Household income trends",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T104",
+          "label": "Housing finance and government intervention",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T120",
+          "label": "Monetary policy rates and interest rate dynamics",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T123",
+          "label": "Peaceful secession",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T124",
+          "label": "Petrodollar system and dollar dominance",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T125",
+          "label": "Philosophical foundations of the Declaration of Independence",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T139",
+          "label": "Wealth inequality, poverty, and consumption",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T24",
+          "label": "Financial Repression and Capital Controls",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T32",
+          "label": "Government shutdown and budget gridlock",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T80",
+          "label": "Dollar dominance mechanisms",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T84",
+          "label": "Evolution of monetary systems and the dollar",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "T100",
+          "label": "Government Workforce Composition and Costs",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T105",
+          "label": "Housing Market Dynamics and Affordability",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T121",
+          "label": "Mutual outcomes of economic transactions",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T122",
+          "label": "Oil supply shock and policy context",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T126",
+          "label": "Portfolio allocation and risk management",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T127",
+          "label": "Private credit, banking regulation, and systemic risk",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T129",
+          "label": "Regulatory impact and securities reporting",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T132",
+          "label": "Subjective and ordinal nature of value",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T133",
+          "label": "Subprime Auto Loan Market and Financial Stability Risks",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T138",
+          "label": "US market outperformance and global recession risk",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T6",
+          "label": "Commodities as investment opportunities",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T63",
+          "label": "Tariff refund profiteering",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T71",
+          "label": "Automotive industry regulatory burden",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T73",
+          "label": "Barriers to competition in the pharmaceutical industry",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T76",
+          "label": "Commodities and supply-demand fundamentals",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T77",
+          "label": "Corporate capital expenditure and bond markets",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T88",
+          "label": "Federal Reserve balance sheet policy and banking regulation",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "T93",
+          "label": "Gold and Precious Metals Investment Strategies",
+          "count": 1,
+          "pct": 0.4292
+        }
+      ]
+    },
+    "pair_membership_usage": {
+      "total_assignments": 233,
+      "distinct_used": 183,
+      "total_available": 183,
+      "unused_ids": [],
+      "entropy": 5.123388,
+      "max_entropy": 5.209486,
+      "normalised_entropy_pct": 98.3473,
+      "gini": 0.177302,
+      "per_entity": [
+        {
+          "id": "PAIR-CC54-T106",
+          "label": "CC54 x T106",
+          "count": 5,
+          "pct": 2.1459
+        },
+        {
+          "id": "PAIR-CC51-T87",
+          "label": "CC51 x T87",
+          "count": 4,
+          "pct": 1.7167
+        },
+        {
+          "id": "PAIR-CC39-T86",
+          "label": "CC39 x T86",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "PAIR-CC43-T95",
+          "label": "CC43 x T95",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "PAIR-CC43-T97",
+          "label": "CC43 x T97",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "PAIR-CC45-T117",
+          "label": "CC45 x T117",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "PAIR-CC50-T75",
+          "label": "CC50 x T75",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "PAIR-CC54-T89",
+          "label": "CC54 x T89",
+          "count": 3,
+          "pct": 1.2876
+        },
+        {
+          "id": "PAIR-CC39-T134",
+          "label": "CC39 x T134",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC39-T136",
+          "label": "CC39 x T136",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC39-T72",
+          "label": "CC39 x T72",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC40-T112",
+          "label": "CC40 x T112",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC41-T111",
+          "label": "CC41 x T111",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC42-T104",
+          "label": "CC42 x T104",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC42-T82",
+          "label": "CC42 x T82",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC42-T92",
+          "label": "CC42 x T92",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC43-T78",
+          "label": "CC43 x T78",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC43-T96",
+          "label": "CC43 x T96",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC45-T101",
+          "label": "CC45 x T101",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC46-T24",
+          "label": "CC46 x T24",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC47-T118",
+          "label": "CC47 x T118",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC49-T124",
+          "label": "CC49 x T124",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC50-T107",
+          "label": "CC50 x T107",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC50-T86",
+          "label": "CC50 x T86",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC50-T91",
+          "label": "CC50 x T91",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC51-T108",
+          "label": "CC51 x T108",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC51-T70",
+          "label": "CC51 x T70",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC51-T86",
+          "label": "CC51 x T86",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T108",
+          "label": "CC54 x T108",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T119",
+          "label": "CC54 x T119",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T131",
+          "label": "CC54 x T131",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T136",
+          "label": "CC54 x T136",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T137",
+          "label": "CC54 x T137",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T70",
+          "label": "CC54 x T70",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T91",
+          "label": "CC54 x T91",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC54-T92",
+          "label": "CC54 x T92",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC55-T10",
+          "label": "CC55 x T10",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC55-T111",
+          "label": "CC55 x T111",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC56-T130",
+          "label": "CC56 x T130",
+          "count": 2,
+          "pct": 0.8584
+        },
+        {
+          "id": "PAIR-CC14-T129",
+          "label": "CC14 x T129",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC14-T55",
+          "label": "CC14 x T55",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC19-T113",
+          "label": "CC19 x T113",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC19-T134",
+          "label": "CC19 x T134",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC19-T32",
+          "label": "CC19 x T32",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC19-T81",
+          "label": "CC19 x T81",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC19-T87",
+          "label": "CC19 x T87",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC19-T92",
+          "label": "CC19 x T92",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC29-T140",
+          "label": "CC29 x T140",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC29-T82",
+          "label": "CC29 x T82",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC37-T109",
+          "label": "CC37 x T109",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC37-T130",
+          "label": "CC37 x T130",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC37-T139",
+          "label": "CC37 x T139",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC37-T6",
+          "label": "CC37 x T6",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC37-T69",
+          "label": "CC37 x T69",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC38-T106",
+          "label": "CC38 x T106",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC38-T118",
+          "label": "CC38 x T118",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC38-T69",
+          "label": "CC38 x T69",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC39-T107",
+          "label": "CC39 x T107",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC39-T127",
+          "label": "CC39 x T127",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC39-T78",
+          "label": "CC39 x T78",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC39-T83",
+          "label": "CC39 x T83",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC39-T90",
+          "label": "CC39 x T90",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC39-T91",
+          "label": "CC39 x T91",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC40-T102",
+          "label": "CC40 x T102",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC40-T105",
+          "label": "CC40 x T105",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC40-T109",
+          "label": "CC40 x T109",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC40-T140",
+          "label": "CC40 x T140",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC40-T55",
+          "label": "CC40 x T55",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC40-T93",
+          "label": "CC40 x T93",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC41-T119",
+          "label": "CC41 x T119",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC41-T32",
+          "label": "CC41 x T32",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC41-T70",
+          "label": "CC41 x T70",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC41-T77",
+          "label": "CC41 x T77",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC41-T87",
+          "label": "CC41 x T87",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC42-T123",
+          "label": "CC42 x T123",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC42-T135",
+          "label": "CC42 x T135",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC42-T70",
+          "label": "CC42 x T70",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC42-T89",
+          "label": "CC42 x T89",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC42-T98",
+          "label": "CC42 x T98",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC42-T99",
+          "label": "CC42 x T99",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC43-T131",
+          "label": "CC43 x T131",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC43-T136",
+          "label": "CC43 x T136",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC43-T84",
+          "label": "CC43 x T84",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T121",
+          "label": "CC44 x T121",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T123",
+          "label": "CC44 x T123",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T125",
+          "label": "CC44 x T125",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T132",
+          "label": "CC44 x T132",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T63",
+          "label": "CC44 x T63",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T73",
+          "label": "CC44 x T73",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC44-T99",
+          "label": "CC44 x T99",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T102",
+          "label": "CC45 x T102",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T103",
+          "label": "CC45 x T103",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T109",
+          "label": "CC45 x T109",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T114",
+          "label": "CC45 x T114",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T118",
+          "label": "CC45 x T118",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T119",
+          "label": "CC45 x T119",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T128",
+          "label": "CC45 x T128",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T74",
+          "label": "CC45 x T74",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC45-T90",
+          "label": "CC45 x T90",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC46-T112",
+          "label": "CC46 x T112",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC46-T118",
+          "label": "CC46 x T118",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC46-T126",
+          "label": "CC46 x T126",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC46-T136",
+          "label": "CC46 x T136",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC46-T70",
+          "label": "CC46 x T70",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC46-T74",
+          "label": "CC46 x T74",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC47-T109",
+          "label": "CC47 x T109",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC47-T114",
+          "label": "CC47 x T114",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC47-T134",
+          "label": "CC47 x T134",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC47-T55",
+          "label": "CC47 x T55",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC47-T69",
+          "label": "CC47 x T69",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC47-T81",
+          "label": "CC47 x T81",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T117",
+          "label": "CC48 x T117",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T118",
+          "label": "CC48 x T118",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T128",
+          "label": "CC48 x T128",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T134",
+          "label": "CC48 x T134",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T135",
+          "label": "CC48 x T135",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T76",
+          "label": "CC48 x T76",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC48-T84",
+          "label": "CC48 x T84",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC49-T134",
+          "label": "CC49 x T134",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC49-T136",
+          "label": "CC49 x T136",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC49-T80",
+          "label": "CC49 x T80",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC49-T81",
+          "label": "CC49 x T81",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T108",
+          "label": "CC50 x T108",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T113",
+          "label": "CC50 x T113",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T119",
+          "label": "CC50 x T119",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T120",
+          "label": "CC50 x T120",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T128",
+          "label": "CC50 x T128",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T135",
+          "label": "CC50 x T135",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T78",
+          "label": "CC50 x T78",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T85",
+          "label": "CC50 x T85",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T89",
+          "label": "CC50 x T89",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC50-T98",
+          "label": "CC50 x T98",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC51-T113",
+          "label": "CC51 x T113",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC51-T85",
+          "label": "CC51 x T85",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC51-T88",
+          "label": "CC51 x T88",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC51-T89",
+          "label": "CC51 x T89",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC51-T91",
+          "label": "CC51 x T91",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC51-T96",
+          "label": "CC51 x T96",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T108",
+          "label": "CC52 x T108",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T114",
+          "label": "CC52 x T114",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T120",
+          "label": "CC52 x T120",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T139",
+          "label": "CC52 x T139",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T74",
+          "label": "CC52 x T74",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T78",
+          "label": "CC52 x T78",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T83",
+          "label": "CC52 x T83",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T89",
+          "label": "CC52 x T89",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T90",
+          "label": "CC52 x T90",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T91",
+          "label": "CC52 x T91",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T92",
+          "label": "CC52 x T92",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T97",
+          "label": "CC52 x T97",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC52-T98",
+          "label": "CC52 x T98",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC53-T106",
+          "label": "CC53 x T106",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC53-T133",
+          "label": "CC53 x T133",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC53-T134",
+          "label": "CC53 x T134",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC53-T135",
+          "label": "CC53 x T135",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC53-T71",
+          "label": "CC53 x T71",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC53-T82",
+          "label": "CC53 x T82",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T107",
+          "label": "CC54 x T107",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T113",
+          "label": "CC54 x T113",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T140",
+          "label": "CC54 x T140",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T72",
+          "label": "CC54 x T72",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T80",
+          "label": "CC54 x T80",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T85",
+          "label": "CC54 x T85",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T86",
+          "label": "CC54 x T86",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T87",
+          "label": "CC54 x T87",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T95",
+          "label": "CC54 x T95",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC54-T99",
+          "label": "CC54 x T99",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T101",
+          "label": "CC55 x T101",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T102",
+          "label": "CC55 x T102",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T108",
+          "label": "CC55 x T108",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T109",
+          "label": "CC55 x T109",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T119",
+          "label": "CC55 x T119",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T122",
+          "label": "CC55 x T122",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T138",
+          "label": "CC55 x T138",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC55-T95",
+          "label": "CC55 x T95",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC56-T100",
+          "label": "CC56 x T100",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC56-T103",
+          "label": "CC56 x T103",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC56-T125",
+          "label": "CC56 x T125",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC56-T137",
+          "label": "CC56 x T137",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC56-T83",
+          "label": "CC56 x T83",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC56-T92",
+          "label": "CC56 x T92",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC57-T135",
+          "label": "CC57 x T135",
+          "count": 1,
+          "pct": 0.4292
+        },
+        {
+          "id": "PAIR-CC57-T136",
+          "label": "CC57 x T136",
+          "count": 1,
+          "pct": 0.4292
+        }
+      ]
+    },
+    "warnings": []
+  },
+  "pair_and_theme_structure": {
+    "pair_count": 183,
+    "possible_pair_count": 1872,
+    "pair_density": 0.09775641,
+    "duplicate_pair_ids": [],
+    "duplicate_pair_relationships": [],
+    "invalid_pairs": [],
+    "invalid_source_speech_ids": [],
+    "pair_source_speech_mismatches": [],
+    "invalid_pair_relationship_types": [],
+    "pair_relationship_source_mismatches": [],
+    "pair_relationship_count_mismatches": [],
+    "relationship_type_pair_distribution": {
+      "supports": 120,
+      "specific_instance": 58,
+      "mechanism": 18,
+      "consequence": 3,
+      "qualification": 4,
+      "opposition": 2,
+      "historical_example": 0,
+      "application": 4,
+      "evidence": 0
+    },
+    "empty_pair_ids": [],
+    "shared_theme_count": 50,
+    "shared_theme_rate": 0.64102564,
+    "shared_themes": [
+      {
+        "theme_id": "T134",
+        "theme": "Systemic risks and black swan events",
+        "cc_count": 6,
+        "cc_ids": [
+          "CC19",
+          "CC39",
+          "CC47",
+          "CC48",
+          "CC49",
+          "CC53"
+        ]
+      },
+      {
+        "theme_id": "T136",
+        "theme": "US Fiscal and Monetary Situation and Debt Dynamics",
+        "cc_count": 6,
+        "cc_ids": [
+          "CC39",
+          "CC43",
+          "CC46",
+          "CC49",
+          "CC54",
+          "CC57"
+        ]
+      },
+      {
+        "theme_id": "T108",
+        "theme": "Interest Rate Policy and Market Expectations",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC50",
+          "CC51",
+          "CC52",
+          "CC54",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T109",
+        "theme": "Investment philosophy and risk management",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC37",
+          "CC40",
+          "CC45",
+          "CC47",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T118",
+        "theme": "Market volatility, speculation, and trading strategies",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC38",
+          "CC45",
+          "CC46",
+          "CC47",
+          "CC48"
+        ]
+      },
+      {
+        "theme_id": "T119",
+        "theme": "Monetary policy and liquidity conditions",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC41",
+          "CC45",
+          "CC50",
+          "CC54",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T135",
+        "theme": "Trade deficits, tariffs, and global geopolitics",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC42",
+          "CC48",
+          "CC50",
+          "CC53",
+          "CC57"
+        ]
+      },
+      {
+        "theme_id": "T70",
+        "theme": "Asset price inflation and monetary expansion",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC41",
+          "CC42",
+          "CC46",
+          "CC51",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T89",
+        "theme": "Federal Reserve Monetary Policy Tools and Frameworks",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC42",
+          "CC50",
+          "CC51",
+          "CC52",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T91",
+        "theme": "Fiscal debt, Treasury market, and dollar concerns",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC39",
+          "CC50",
+          "CC51",
+          "CC52",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T92",
+        "theme": "Fiscal Deficit, Debt, and Budget Allocation",
+        "cc_count": 5,
+        "cc_ids": [
+          "CC19",
+          "CC42",
+          "CC52",
+          "CC54",
+          "CC56"
+        ]
+      },
+      {
+        "theme_id": "T113",
+        "theme": "Liquidity Conditions and Repo Market Dynamics",
+        "cc_count": 4,
+        "cc_ids": [
+          "CC19",
+          "CC50",
+          "CC51",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T78",
+        "theme": "Critique of the Fiat Monetary System and Alternative Money",
+        "cc_count": 4,
+        "cc_ids": [
+          "CC39",
+          "CC43",
+          "CC50",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T86",
+        "theme": "Federal Reserve and banking deregulation",
+        "cc_count": 4,
+        "cc_ids": [
+          "CC39",
+          "CC50",
+          "CC51",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T87",
+        "theme": "Federal Reserve Balance Sheet Policy",
+        "cc_count": 4,
+        "cc_ids": [
+          "CC19",
+          "CC41",
+          "CC51",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T102",
+        "theme": "Household debt indicators",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC40",
+          "CC45",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T106",
+        "theme": "Inflation and deflation dynamics",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC38",
+          "CC53",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T107",
+        "theme": "Inflation and stagflation dynamics",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC39",
+          "CC50",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T114",
+        "theme": "Market dynamics and investor behavior",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC45",
+          "CC47",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T128",
+        "theme": "Recession risk and yield curve signals",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC45",
+          "CC48",
+          "CC50"
+        ]
+      },
+      {
+        "theme_id": "T140",
+        "theme": "Wealth Transfer and Tax Policy",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC29",
+          "CC40",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T55",
+        "theme": "Securities regulation and market structure",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC14",
+          "CC40",
+          "CC47"
+        ]
+      },
+      {
+        "theme_id": "T69",
+        "theme": "Artificial intelligence in financial markets",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC37",
+          "CC38",
+          "CC47"
+        ]
+      },
+      {
+        "theme_id": "T74",
+        "theme": "Boom-bust debt cycle theory",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC45",
+          "CC46",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T81",
+        "theme": "Dollar system vulnerabilities",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC19",
+          "CC47",
+          "CC49"
+        ]
+      },
+      {
+        "theme_id": "T82",
+        "theme": "Economic freedom and regulatory policy",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC29",
+          "CC42",
+          "CC53"
+        ]
+      },
+      {
+        "theme_id": "T83",
+        "theme": "Economic Responsibility and Productivity",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC39",
+          "CC52",
+          "CC56"
+        ]
+      },
+      {
+        "theme_id": "T85",
+        "theme": "Federal debt management, fiscal sustainability, and trade policy",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC50",
+          "CC51",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T90",
+        "theme": "Federal Reserve policy and macroeconomic indicators",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC39",
+          "CC45",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T95",
+        "theme": "Gold as a monetary indicator and safe haven",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC43",
+          "CC54",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T98",
+        "theme": "Government debt management and fiscal policy",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC42",
+          "CC50",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T99",
+        "theme": "Government Policy Proposals and Structural Reforms",
+        "cc_count": 3,
+        "cc_ids": [
+          "CC42",
+          "CC44",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T101",
+        "theme": "Historical market performance during geopolitical conflict",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC45",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T103",
+        "theme": "Household income trends",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC45",
+          "CC56"
+        ]
+      },
+      {
+        "theme_id": "T111",
+        "theme": "Labor market conditions and employment trends",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC41",
+          "CC55"
+        ]
+      },
+      {
+        "theme_id": "T112",
+        "theme": "Leveraged and Alternative Investment Strategies",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC40",
+          "CC46"
+        ]
+      },
+      {
+        "theme_id": "T117",
+        "theme": "Market timing and valuation metrics",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC45",
+          "CC48"
+        ]
+      },
+      {
+        "theme_id": "T120",
+        "theme": "Monetary policy rates and interest rate dynamics",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC50",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T123",
+        "theme": "Peaceful secession",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC42",
+          "CC44"
+        ]
+      },
+      {
+        "theme_id": "T125",
+        "theme": "Philosophical foundations of the Declaration of Independence",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC44",
+          "CC56"
+        ]
+      },
+      {
+        "theme_id": "T130",
+        "theme": "Social Entitlement Programs and Transfer Systems",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC37",
+          "CC56"
+        ]
+      },
+      {
+        "theme_id": "T131",
+        "theme": "Sovereign debt crisis and crisis absorption",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC43",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T137",
+        "theme": "US fiscal sustainability and policy responses",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC54",
+          "CC56"
+        ]
+      },
+      {
+        "theme_id": "T139",
+        "theme": "Wealth inequality, poverty, and consumption",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC37",
+          "CC52"
+        ]
+      },
+      {
+        "theme_id": "T32",
+        "theme": "Government shutdown and budget gridlock",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC19",
+          "CC41"
+        ]
+      },
+      {
+        "theme_id": "T72",
+        "theme": "Banking regulation and capital framework",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC39",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T80",
+        "theme": "Dollar dominance mechanisms",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC49",
+          "CC54"
+        ]
+      },
+      {
+        "theme_id": "T84",
+        "theme": "Evolution of monetary systems and the dollar",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC43",
+          "CC48"
+        ]
+      },
+      {
+        "theme_id": "T96",
+        "theme": "Gold Revaluation and Central Bank Gold Accumulation",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC43",
+          "CC51"
+        ]
+      },
+      {
+        "theme_id": "T97",
+        "theme": "Gold Standard and Monetary System Evolution",
+        "cc_count": 2,
+        "cc_ids": [
+          "CC43",
+          "CC52"
+        ]
+      }
+    ],
+    "unused_theme_ids": [
+      "T110",
+      "T115",
+      "T116",
+      "T79",
+      "T94"
+    ],
+    "cc_ids_without_pairs": [],
+    "themes_per_cc": {
+      "count": 24,
+      "minimum": 2.0,
+      "maximum": 20.0,
+      "mean": 7.625,
+      "median": 7.0,
+      "p10": 2.3,
+      "p90": 12.4
+    },
+    "ccs_per_used_theme": {
+      "count": 73,
+      "minimum": 1.0,
+      "maximum": 6.0,
+      "mean": 2.506849,
+      "median": 2.0,
+      "p10": 1.0,
+      "p90": 5.0
+    },
+    "errors": [],
+    "warnings": [
+      "Some canonical Themes have no observed persistent pair."
+    ],
+    "status": "PASS"
+  },
+  "lossless_remap_quality": {
+    "inventory_record_count": 96,
+    "phase4_record_count": 96,
+    "missing_remapped_speech_ids": [],
+    "extra_remapped_speech_ids": [],
+    "changed_source_fields": [],
+    "phase1_record_hash_mismatches": [],
+    "canonical_mapping_mismatches": [],
+    "duplicate_contribution_ids": [],
+    "orphan_contributions": [],
+    "contribution_relationship_mismatches": [],
+    "relationship_propagation_checked_count": 381,
+    "relationship_propagation_valid_count": 381,
+    "relationship_propagation_pct": 100.0,
+    "categorised_local_argument_count": 455,
+    "mapped_local_argument_count": 381,
+    "source_contribution_count": 381,
+    "explicitly_unmapped_argument_count": 74,
+    "uncategorised_local_argument_count": 9,
+    "categorised_argument_accounting_pct": 100.0,
+    "categorised_argument_mapped_pct": 83.736264,
+    "errors": [],
+    "warnings": [
+      "Some categorised local arguments remain explicitly unmapped."
+    ],
+    "status": "PASS"
+  },
+  "pair_synthesis_provenance": {
+    "known_source_contribution_count": 381,
+    "bucket_synthesis_count": 183,
+    "bucket_prompt_version": "2.1",
+    "bucket_schema_version": "2.1",
+    "missing_bucket_pair_ids": [],
+    "extra_bucket_pair_ids": [],
+    "invalid_bucket_pair_ids": [],
+    "canonical_argument_count": 325,
+    "canonical_argument_valid_provenance_pct": 100.0,
+    "canonical_argument_valid_relationship_roles_pct": 100.0,
+    "relationship_role_distribution": {
+      "supports": 192,
+      "specific_instance": 102,
+      "mechanism": 22,
+      "consequence": 5,
+      "qualification": 5,
+      "opposition": 2,
+      "historical_example": 0,
+      "application": 6,
+      "evidence": 0
+    },
+    "invalid_relationship_roles": [],
+    "role_coverage_mismatches": [],
+    "role_filename_mismatches": [],
+    "role_explanation_mismatches": [],
+    "nonaffirmative_rendering_mismatches": [],
+    "evidence_item_count": 744,
+    "evidence_valid_provenance_pct": 100.0,
+    "rhetorical_device_count": 188,
+    "rhetorical_device_valid_provenance_pct": 100.0,
+    "source_free_argument_ids": [],
+    "invalid_argument_ownership": [],
+    "invalid_argument_contributions": [],
+    "invalid_argument_filenames": [],
+    "source_free_evidence": [],
+    "invalid_evidence_contributions": [],
+    "source_free_rhetorical_devices": [],
+    "duplicate_argument_ids": [],
+    "pair_table_argument_mismatches": [],
+    "pair_table_contribution_mismatches": [],
+    "synthesis_contribution_mismatches": [],
+    "pair_table_source_speech_mismatches": [],
+    "referenced_source_contribution_count": 380,
+    "source_contribution_reference_coverage_pct": 99.737533,
+    "unreferenced_source_contribution_ids": [
+      "CONTRIB-93FBBDC0132058"
+    ],
+    "errors": [],
+    "warnings": [
+      "Some Phase 4 source contributions are not cited by any canonical argument, evidence item, or device."
+    ],
+    "status": "PASS"
+  },
+  "publication_and_index_integrity": {
+    "persistent_pair_count": 183,
+    "expected_pair_anchor_count": 183,
+    "compendium_total_anchor_count": 207,
+    "missing_compendium_pair_anchors": [],
+    "duplicate_compendium_pair_anchors": [],
+    "compendium_pair_id_count": 183,
+    "theme_index_pair_id_count": 183,
+    "theme_index_theme_id_count": 78,
+    "theme_index_anchor_reference_count": 549,
+    "expected_shared_cross_index_anchor_count": 160,
+    "actual_shared_cross_index_anchor_count": 160,
+    "canonical_argument_count": 325,
+    "relationship_role_heading_count": 325,
+    "missing_theme_index_pair_ids": [],
+    "extra_theme_index_pair_ids": [],
+    "missing_cross_index_anchors": [],
+    "extra_cross_index_anchors": [],
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "compendium_model_versions": [
+      "CM-62F51AB9EAA8948A"
+    ],
+    "theme_index_model_versions": [
+      "CM-62F51AB9EAA8948A"
+    ],
+    "pipeline_integrity_report_status": "PASS",
+    "pipeline_integrity_checks": {
+      "classification_referential_integrity": true,
+      "pair_referential_integrity": true,
+      "anchor_integrity": true,
+      "theme_index_completeness": true,
+      "provenance_coverage": true,
+      "relationship_type_integrity": true,
+      "unverifiable_completeness": true
+    },
+    "errors": [],
+    "warnings": [],
+    "status": "PASS"
+  },
+  "unverifiable_claim_completeness": {
+    "expected_unique_record_count": 1429,
+    "published_unique_record_count": 1429,
+    "explicit_unverifiable_claim_count": 836,
+    "unverifiable_evidence_item_count": 593,
+    "memory_distribution": {
+      "NoInternalBasis": 1339,
+      "Corroborated": 65,
+      "Contradicted": 25
+    },
+    "source_match_count": 1154,
+    "source_match_rate_pct": 80.755773,
+    "missing_records": [],
+    "extra_records": [],
+    "duplicate_published_records": [],
+    "missing_corroborated_records": [],
+    "errors": [],
+    "warnings": [
+      "Some unverifiable records lack an exact source-excerpt match."
+    ],
+    "status": "PASS"
+  },
+  "version_and_staleness_consistency": {
+    "configured_schema_version": "2.0",
+    "configured_prompt_version": "2.0",
+    "configured_classification_prompt_version": "2.1",
+    "configured_classification_schema_version": "2.1",
+    "configured_bucket_prompt_version": "2.1",
+    "configured_bucket_schema_version": "2.1",
+    "configured_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "phase3_canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase4_canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase5_canonical_model_version": "CM-62F51AB9EAA8948A",
+    "manifest_version_mismatches": [],
+    "phase4_record_version_mismatches": [],
+    "pair_version_mismatches": [],
+    "bucket_version_mismatches": [],
+    "schema_mismatches": [],
+    "prompt_mismatches": [],
+    "classification_version_mismatches": [],
+    "bucket_prompt_schema_mismatches": [],
+    "relationship_vocabulary_mismatches": [],
+    "phase4_wrapper_dependency_mismatches": [],
+    "incomplete_checkpoint_wrappers": [],
+    "errors": [],
+    "warnings": [],
+    "status": "PASS"
+  },
+  "failed_sections": [
+    "phase_and_manifest_health"
+  ],
+  "warning_count": 8,
+  "overall_status": "FAIL"
+}

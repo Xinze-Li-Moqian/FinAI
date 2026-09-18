@@ -1,0 +1,971 @@
+{
+  "dependencies": {
+    "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+    "phase1_record_hash": "e1177f0e9536353e4ef843c49469e78a2bed56b7d6c92225b658cab86d967002",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-25CBB43ED14F",
+    "filename": "20250823_What is the Optimal Money Supply.txt",
+    "stem": "20250823_What is the Optimal Money Supply",
+    "date": "2025-08-23",
+    "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+    "source_character_count": 19775,
+    "central_claim": "Any fixed supply of money works equally well for the economy provided it is sufficiently divisible and interest rates are determined solely by the free market, while any central bank manipulation of the money supply distorts incentives and reduces wealth, making a completely free market in money the optimal solution to poverty.",
+    "themes": [
+      {
+        "local_theme_id": "LT-70B6772B9953",
+        "theme": "Self-regulation of a fixed money supply with free-market interest rates",
+        "arguments": [
+          {
+            "local_argument_id": "LA-134A9EFBFE9C",
+            "local_theme_id": "LT-70B6772B9953",
+            "conclusion": "A fixed money supply combined with freely-determined interest rates naturally stabilizes the economy through saving-spending cycles.",
+            "premises": [
+              "When people save more, the active money supply falls, prices drop, and interest rates fall, incentivizing more spending and restoring balance.",
+              "When people spend too much, the active money supply rises, prices rise, and interest rates rise, incentivizing saving and again restoring balance."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1F472269DE69",
+                "item": "The thought experiment describing the cycle of saving, falling prices, falling interest rates, then spending, rising prices, rising interest rates.",
+                "status": "Unverifiable",
+                "verification_basis": "This is a theoretical scenario presented without external data or source.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "if people are fearful about the future of the economy and so they start to save up their money... prices adjust lower... interest rates will come down... drives that excess savings back into the economy",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-21DB4101F425",
+        "theme": "Historical gold standard as a market-regulated money supply",
+        "arguments": [
+          {
+            "local_argument_id": "LA-452AF0A61EBF",
+            "local_theme_id": "LT-21DB4101F425",
+            "conclusion": "The gold standard historically demonstrated that market forces can regulate money supply through mining profitability and divisibility.",
+            "premises": [
+              "The cost to mine gold relative to its purchasing power determined whether new mining occurred, keeping inflation low.",
+              "The use of paper redeemable for gold made the money infinitely divisible, enabling its use with falling prices."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5FD53139BB4E",
+                "item": "The claim that the inflation rate for gold was only between about 1 and 2% throughout history.",
+                "status": "Unverifiable",
+                "verification_basis": "This historical claim is stated without any supporting data or citation within the transcript.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "throughout history, the inflation rate for gold was only between about 1 and 2%",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-06B337789CB4",
+                "item": "The claim that it costs about 3 ounces of gold to produce 1 ounce of gold out of the ground.",
+                "status": "Unverifiable",
+                "verification_basis": "This specific cost ratio is asserted without any evidence or source.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "it's going to cost me about 3 ounces of gold to produce 1 ounce of gold out of the ground",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E890D07BFBBC",
+        "theme": "Money's lack of use value and its implications for wealth creation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E1C0CD9D2FFD",
+            "local_theme_id": "LT-E890D07BFBBC",
+            "conclusion": "Increasing the money supply does not increase societal wealth because money has no use value and its exchange value is merely diluted.",
+            "premises": [
+              "Money (dollar, gold, Bitcoin) has no use value, only exchange value.",
+              "Increasing the supply of goods (houses, cars, food) increases use value, but increasing money supply does not.",
+              "Exchange value is relative to goods; adding money dilutes that value without creating any real wealth."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-46413A293581",
+                "item": "Assertion that increasing the money supply does not increase use value in the economy.",
+                "status": "Unverifiable",
+                "verification_basis": "This is an economic claim not supported by data or citation within the transcript.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "if you increase the money supply, you do not increase the use value in the economy",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9AAEDBE56AEC",
+                "item": "Assertion that the dollar's value is only exchange value.",
+                "status": "Unverifiable",
+                "verification_basis": "No evidence provided within the transcript to support this statement.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "The dollar's value is only exchange value.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-980FB1BD6E29",
+                "device": "iPhone use vs exchange value analogy",
+                "explanation": "Illustrates that money differs from goods like an iPhone which have both use and exchange value, whereas money has only exchange value.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "my iPhone has value because I can use it to do stuff... However, there is some exchange value in an iPhone",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7BE020F39888",
+        "theme": "Negative consequences of central bank manipulation of money supply",
+        "arguments": [
+          {
+            "local_argument_id": "LA-101983B81153",
+            "local_theme_id": "LT-7BE020F39888",
+            "conclusion": "Any central bank intervention in the money supply and value necessarily reduces the total wealth an economy could produce.",
+            "premises": [
+              "Central banks exist to make supply and value different from what the market would determine.",
+              "This distorts price signals, leading to malinvestment and incorrect choices by individuals."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A06733B1DE9C",
+                "item": "Claim that by definition any intervention causes less wealth.",
+                "status": "Unverifiable",
+                "verification_basis": "Presented as logical conclusion without empirical support in the transcript.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "any intervention on the supply and value of money necessarily causes an economy to produce less wealth than it could otherwise",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A02B3DB80C74",
+                "item": "Assertion that the purpose of central banks is to ensure the supply and value of money is different from what the market would do.",
+                "status": "Unverifiable",
+                "verification_basis": "No evidence or citation given for this characterization of central banks.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "the very purpose of a central bank, the reason they exist is to ensure that the supply and the value of money is different than what the market would do",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-CCD2E9193E59",
+                "device": "Grocery store analogy",
+                "explanation": "Compares a central bank to a person shouting prices at checkout, pretending to control them when the market actually determines them, to illustrate that central banks artificially alter price signals.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "like a guy standing in a grocery store as somebody's checking out shouting the prices of the items as they're ringing up on the cash register pretending like he's controlling them",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2720186446A1",
+        "theme": "Free market in money as the solution to poverty",
+        "arguments": [
+          {
+            "local_argument_id": "LA-03C98DA1F609",
+            "local_theme_id": "LT-2720186446A1",
+            "conclusion": "A completely free market in money is the most effective way to alleviate poverty.",
+            "premises": [
+              "Poverty is a lack of goods, not money.",
+              "Central bank manipulation reduces wealth.",
+              "Free market in money aligns incentives and maximizes wealth production."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-17CC2208F232",
+                "item": "The concluding statement that the solution to poverty is wealth and a free market in money.",
+                "status": "Unverifiable",
+                "verification_basis": "This is a policy prescription, not a verifiable factual assertion.",
+                "speech_id": "SP-25CBB43ED14F",
+                "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+                "source_excerpt": "the solution to poverty is wealth... the solution to alleviate the most possible poverty is a completely free market in money",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7670F39BB3D0",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "The US dollar supply is $22 trillion.",
+        "reason": "The transcript provides no source or verification for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The dollar supply figure is likely from M2 money supply, but not verified by transcript.",
+        "source_excerpt": "Right now the US dollar supply is $22 trillion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E9E377F22F1F",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "Throughout history, the inflation rate for gold was only between about 1 and 2%.",
+        "reason": "The transcript does not provide any historical data or citation for this rate.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical gold inflation rates are debated; this specific range is not supported within the transcript.",
+        "source_excerpt": "throughout history, the inflation rate for gold was only between about 1 and 2%",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4748D962146C",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "It costs me about 3 ounces of gold to produce 1 ounce of gold out of the ground.",
+        "reason": "No evidence or source provided for this specific cost ratio.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Mining costs vary widely; this example is not attributed.",
+        "source_excerpt": "it's going to cost me about 3 ounces of gold to produce 1 ounce of gold out of the ground",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-98043A334DD8",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "The very purpose of a central bank, the reason they exist is to ensure that the supply and the value of money is different than what the market would do.",
+        "reason": "This is an assertion about central banks' purpose without supporting evidence or citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Central banks' mandates often include price stability and full employment, not explicitly to differ from market forces.",
+        "source_excerpt": "the very purpose of a central bank, the reason they exist is to ensure that the supply and the value of money is different than what the market would do",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B9BC86F0728F",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "Gold historically had zero use value.",
+        "reason": "The transcript asserts gold had no use value historically, but does not provide evidence; modern and historical uses in jewelry and decoration are known.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Gold has been used ornamentally throughout history; the claim is at odds with common knowledge but transcript does not support verification.",
+        "source_excerpt": "When you consider gold historically, it had zero use value.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-20A0052454FA",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "The dollar's value is only exchange value.",
+        "reason": "No evidence provided within the transcript to support this statement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Dollar's value is widely attributed to its status as legal tender and trust; this claim is not verified.",
+        "source_excerpt": "The dollar's value is only exchange value.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8091372A64B8",
+        "speech_id": "SP-25CBB43ED14F",
+        "speech_ref": "20250823_What is the Optimal Money Supply.txt",
+        "claim": "Any intervention on the supply and value of money necessarily causes an economy to produce less wealth than it could otherwise.",
+        "reason": "This is presented as a definitional certainty but lacks empirical evidence within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a contested economic claim; transcript does not provide verification.",
+        "source_excerpt": "any intervention on the supply and value of money necessarily causes an economy to produce less wealth than it could otherwise",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Any fixed supply of money works equally well for the economy provided it is sufficiently divisible and interest rates are determined solely by the free market, while any central bank manipulation of the money supply distorts incentives and reduces wealth, making a completely free market in money the optimal solution to poverty.",
+      "themes": [
+        "Self-regulation of a fixed money supply with free-market interest rates",
+        "Historical gold standard as a market-regulated money supply",
+        "Money's lack of use value and its implications for wealth creation",
+        "Negative consequences of central bank manipulation of money supply",
+        "Free market in money as the solution to poverty"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "6aeff676d639896df368646097c015067f9b08b0bf0186d427ea943c934a50f6",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "e1177f0e9536353e4ef843c49469e78a2bed56b7d6c92225b658cab86d967002",
+    "canonical_mapping": {
+      "speech_id": "SP-25CBB43ED14F",
+      "filename": "20250823_What is the Optimal Money Supply.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC52",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+      "primary_cc_rationale": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T78",
+        "T97",
+        "T139"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T78",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-7BE020F39888",
+          "rationale": "Negative consequences of central bank manipulation of money supply fit under T78 'Critique of the Fiat Monetary System and Alternative Money'."
+        },
+        {
+          "theme_id": "T97",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-21DB4101F425",
+          "rationale": "Historical gold standard as a market-regulated money supply is a clear match for T97 'Gold Standard and Monetary System Evolution'."
+        },
+        {
+          "theme_id": "T139",
+          "confidence": 0.6,
+          "source_local_theme_id": "LT-E890D07BFBBC",
+          "rationale": "Money's lack of use value and its implications for wealth creation align with the theme of wealth inequality, poverty, and consumption in T139."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC52-T78",
+          "cc_id": "CC52",
+          "theme_id": "T78",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC52-T97",
+          "cc_id": "CC52",
+          "theme_id": "T97",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC52-T139",
+          "cc_id": "CC52",
+          "theme_id": "T139",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "local_cc_text": "Any fixed supply of money works equally well for the economy provided it is sufficiently divisible and interest rates are determined solely by the free market, while any central bank manipulation of the money supply distorts incentives and reduces wealth, making a completely free market in money the optimal solution to poverty.",
+        "canonical_cc_id": "CC52",
+        "confidence": 0.85,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "rationale": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "candidate_matches": [
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.413729190826416
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.3976507782936096
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.39573603868484497
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.33456164598464966
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.3127552270889282
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "local_theme_id": "LT-70B6772B9953",
+        "local_theme_text": "Self-regulation of a fixed money supply with free-market interest rates",
+        "canonical_theme_id": "T97",
+        "confidence": 0.7,
+        "rationale": "Self-regulation of a fixed money supply with free-market interest rates directly relates to the gold standard and the evolution of monetary systems, as captured by T97.",
+        "candidate_matches": [
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.5238239765167236
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.5007068514823914
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4747486710548401
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.42995041608810425
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.4229393005371094
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.4092234671115875
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "local_theme_id": "LT-21DB4101F425",
+        "local_theme_text": "Historical gold standard as a market-regulated money supply",
+        "canonical_theme_id": "T97",
+        "confidence": 0.9,
+        "rationale": "Historical gold standard as a market-regulated money supply is a clear match for T97 'Gold Standard and Monetary System Evolution'.",
+        "candidate_matches": [
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.7896825671195984
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5576202869415283
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.507343053817749
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.48200392723083496
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4587192237377167
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.39387744665145874
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "local_theme_id": "LT-E890D07BFBBC",
+        "local_theme_text": "Money's lack of use value and its implications for wealth creation",
+        "canonical_theme_id": "T139",
+        "confidence": 0.6,
+        "rationale": "Money's lack of use value and its implications for wealth creation align with the theme of wealth inequality, poverty, and consumption in T139.",
+        "candidate_matches": [
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.533624529838562
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.454775869846344
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.413141667842865
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3775765895843506
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.371822714805603
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.3709183633327484
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "local_theme_id": "LT-7BE020F39888",
+        "local_theme_text": "Negative consequences of central bank manipulation of money supply",
+        "canonical_theme_id": "T78",
+        "confidence": 0.8,
+        "rationale": "Negative consequences of central bank manipulation of money supply fit under T78 'Critique of the Fiat Monetary System and Alternative Money'.",
+        "candidate_matches": [
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.5082852840423584
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.47022658586502075
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4564396142959595
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.4392758011817932
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.42738422751426697
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.41908445954322815
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "local_theme_id": "LT-2720186446A1",
+        "local_theme_text": "Free market in money as the solution to poverty",
+        "canonical_theme_id": "T78",
+        "confidence": 0.8,
+        "rationale": "Free market in money as the solution to poverty reflects the alternative money aspect of T78 'Critique of the Fiat Monetary System and Alternative Money'.",
+        "candidate_matches": [
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.5237526297569275
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.4556303024291992
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.45393073558807373
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.4357171654701233
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.4150623083114624
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.3885158598423004
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-E5348BE3CC4449",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "date": "2025-08-23",
+        "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+        "pair_id": "PAIR-CC52-T97",
+        "cc_id": "CC52",
+        "theme_id": "T97",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-70B6772B9953",
+        "local_theme_text": "Self-regulation of a fixed money supply with free-market interest rates",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Self-regulation of a fixed money supply with free-market interest rates directly relates to the gold standard and the evolution of monetary systems, as captured by T97.",
+        "local_argument_id": "LA-134A9EFBFE9C",
+        "conclusion": "A fixed money supply combined with freely-determined interest rates naturally stabilizes the economy through saving-spending cycles.",
+        "premises": [
+          "When people save more, the active money supply falls, prices drop, and interest rates fall, incentivizing more spending and restoring balance.",
+          "When people spend too much, the active money supply rises, prices rise, and interest rates rise, incentivizing saving and again restoring balance."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-1F472269DE69",
+            "item": "The thought experiment describing the cycle of saving, falling prices, falling interest rates, then spending, rising prices, rising interest rates.",
+            "status": "Unverifiable",
+            "verification_basis": "This is a theoretical scenario presented without external data or source.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "if people are fearful about the future of the economy and so they start to save up their money... prices adjust lower... interest rates will come down... drives that excess savings back into the economy",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-7FDC62B832EF0A",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "date": "2025-08-23",
+        "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+        "pair_id": "PAIR-CC52-T97",
+        "cc_id": "CC52",
+        "theme_id": "T97",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-21DB4101F425",
+        "local_theme_text": "Historical gold standard as a market-regulated money supply",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Historical gold standard as a market-regulated money supply is a clear match for T97 'Gold Standard and Monetary System Evolution'.",
+        "local_argument_id": "LA-452AF0A61EBF",
+        "conclusion": "The gold standard historically demonstrated that market forces can regulate money supply through mining profitability and divisibility.",
+        "premises": [
+          "The cost to mine gold relative to its purchasing power determined whether new mining occurred, keeping inflation low.",
+          "The use of paper redeemable for gold made the money infinitely divisible, enabling its use with falling prices."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5FD53139BB4E",
+            "item": "The claim that the inflation rate for gold was only between about 1 and 2% throughout history.",
+            "status": "Unverifiable",
+            "verification_basis": "This historical claim is stated without any supporting data or citation within the transcript.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "throughout history, the inflation rate for gold was only between about 1 and 2%",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-06B337789CB4",
+            "item": "The claim that it costs about 3 ounces of gold to produce 1 ounce of gold out of the ground.",
+            "status": "Unverifiable",
+            "verification_basis": "This specific cost ratio is asserted without any evidence or source.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "it's going to cost me about 3 ounces of gold to produce 1 ounce of gold out of the ground",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-21E2F769500641",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "date": "2025-08-23",
+        "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+        "pair_id": "PAIR-CC52-T139",
+        "cc_id": "CC52",
+        "theme_id": "T139",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E890D07BFBBC",
+        "local_theme_text": "Money's lack of use value and its implications for wealth creation",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "Money's lack of use value and its implications for wealth creation align with the theme of wealth inequality, poverty, and consumption in T139.",
+        "local_argument_id": "LA-E1C0CD9D2FFD",
+        "conclusion": "Increasing the money supply does not increase societal wealth because money has no use value and its exchange value is merely diluted.",
+        "premises": [
+          "Money (dollar, gold, Bitcoin) has no use value, only exchange value.",
+          "Increasing the supply of goods (houses, cars, food) increases use value, but increasing money supply does not.",
+          "Exchange value is relative to goods; adding money dilutes that value without creating any real wealth."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-46413A293581",
+            "item": "Assertion that increasing the money supply does not increase use value in the economy.",
+            "status": "Unverifiable",
+            "verification_basis": "This is an economic claim not supported by data or citation within the transcript.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "if you increase the money supply, you do not increase the use value in the economy",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9AAEDBE56AEC",
+            "item": "Assertion that the dollar's value is only exchange value.",
+            "status": "Unverifiable",
+            "verification_basis": "No evidence provided within the transcript to support this statement.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "The dollar's value is only exchange value.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-980FB1BD6E29",
+            "device": "iPhone use vs exchange value analogy",
+            "explanation": "Illustrates that money differs from goods like an iPhone which have both use and exchange value, whereas money has only exchange value.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "my iPhone has value because I can use it to do stuff... However, there is some exchange value in an iPhone",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-72A864F9269C2F",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "date": "2025-08-23",
+        "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+        "pair_id": "PAIR-CC52-T78",
+        "cc_id": "CC52",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7BE020F39888",
+        "local_theme_text": "Negative consequences of central bank manipulation of money supply",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Negative consequences of central bank manipulation of money supply fit under T78 'Critique of the Fiat Monetary System and Alternative Money'.",
+        "local_argument_id": "LA-101983B81153",
+        "conclusion": "Any central bank intervention in the money supply and value necessarily reduces the total wealth an economy could produce.",
+        "premises": [
+          "Central banks exist to make supply and value different from what the market would determine.",
+          "This distorts price signals, leading to malinvestment and incorrect choices by individuals."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A06733B1DE9C",
+            "item": "Claim that by definition any intervention causes less wealth.",
+            "status": "Unverifiable",
+            "verification_basis": "Presented as logical conclusion without empirical support in the transcript.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "any intervention on the supply and value of money necessarily causes an economy to produce less wealth than it could otherwise",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A02B3DB80C74",
+            "item": "Assertion that the purpose of central banks is to ensure the supply and value of money is different from what the market would do.",
+            "status": "Unverifiable",
+            "verification_basis": "No evidence or citation given for this characterization of central banks.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "the very purpose of a central bank, the reason they exist is to ensure that the supply and the value of money is different than what the market would do",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-CCD2E9193E59",
+            "device": "Grocery store analogy",
+            "explanation": "Compares a central bank to a person shouting prices at checkout, pretending to control them when the market actually determines them, to illustrate that central banks artificially alter price signals.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "like a guy standing in a grocery store as somebody's checking out shouting the prices of the items as they're ringing up on the cash register pretending like he's controlling them",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-AB6DF967B806D8",
+        "speech_id": "SP-25CBB43ED14F",
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "date": "2025-08-23",
+        "source_hash": "9254c2a1378ebe3fdd7d2d95b1b59c18c9cc109ae8f31085a500f0987f913ae9",
+        "pair_id": "PAIR-CC52-T78",
+        "cc_id": "CC52",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that a free market in money with a fixed supply (such as gold) is the optimal solution to poverty, directly illustrating the interest in alternative monetary systems mentioned in CC52's claim about flawed Fed policy prompting interest in gold and Bitcoin.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2720186446A1",
+        "local_theme_text": "Free market in money as the solution to poverty",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Free market in money as the solution to poverty reflects the alternative money aspect of T78 'Critique of the Fiat Monetary System and Alternative Money'.",
+        "local_argument_id": "LA-03C98DA1F609",
+        "conclusion": "A completely free market in money is the most effective way to alleviate poverty.",
+        "premises": [
+          "Poverty is a lack of goods, not money.",
+          "Central bank manipulation reduces wealth.",
+          "Free market in money aligns incentives and maximizes wealth production."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-17CC2208F232",
+            "item": "The concluding statement that the solution to poverty is wealth and a free market in money.",
+            "status": "Unverifiable",
+            "verification_basis": "This is a policy prescription, not a verifiable factual assertion.",
+            "speech_id": "SP-25CBB43ED14F",
+            "source_speech_filename": "20250823_What is the Optimal Money Supply.txt",
+            "source_excerpt": "the solution to poverty is wealth... the solution to alleviate the most possible poverty is a completely free market in money",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "6aeff676d639896df368646097c015067f9b08b0bf0186d427ea943c934a50f6",
+  "complete": true
+}

@@ -1,0 +1,916 @@
+{
+  "dependencies": {
+    "source_hash": "2408fe4187df5239a4deba699ba4e9af103be8b7f96a9ed0d1b8e80776f17a4b",
+    "phase1_record_hash": "8bc3c8032ae429c92055b90891768dc2d9a8551a30f1ed3ab7c82c54afb45dfc",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-7DEF4C3CF40F",
+    "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+    "stem": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East",
+    "date": "2026-05-08",
+    "source_hash": "2408fe4187df5239a4deba699ba4e9af103be8b7f96a9ed0d1b8e80776f17a4b",
+    "source_character_count": 11421,
+    "central_claim": "The United States government is planning to use swap lines with countries like the UAE to protect dollar dominance and address the global dollar shortage and sovereign debt crisis.",
+    "themes": [
+      {
+        "local_theme_id": "LT-2D224D5DFD85",
+        "theme": "Swap lines as a tool for dollar dominance and financial influence",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FAE1E3514317",
+            "local_theme_id": "LT-2D224D5DFD85",
+            "conclusion": "The US is considering offering the UAE a currency swap line to project financial power and secure dollar dominance.",
+            "premises": [
+              "The United States government is reportedly planning on using swap lines to project financial power around the world.",
+              "President Trump disclosed that the US was considering offering the UAE financial support through a currency swap line."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D544B3782E15",
+                "item": "President Trump disclosed that the US was considering offering the UAE financial support through a currency swap line.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly attributes this disclosure to a named source (President Trump).",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "In fact, in April, President Trump disclosed that the US was considering offering the UAE financial support through a currency swap line.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-C354B32D3915",
+            "local_theme_id": "LT-2D224D5DFD85",
+            "conclusion": "The UAE seeks a swap line primarily for status and elite membership, not because of financial trouble.",
+            "premises": [
+              "The foreign trade minister of UAE said this is an elite matter and not about bailing out.",
+              "Chief emerging markets economist for Bloomberg said status matters more than the dollars."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7F990AED0DA7",
+                "item": "Chief emerging markets economist for Bloomberg said status matters more than dollars.",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes the statement to a named person with affiliation.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "That status matters more than the dollars. That's according to chief emerging markets economist for Bloomberg.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-84E5EF7BF8C5",
+                "item": "The foreign trade minister of UAE said this is an elite matter and not about bailing out.",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes the statement to a named official.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "In fact, the foreign trade minister in UAE also said this is an elite matter. It is not about bailing out.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3B068BE11C4D",
+        "theme": "The global dollar shortage and the risk of financial contagion",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5033E5E4EA29",
+            "local_theme_id": "LT-3B068BE11C4D",
+            "conclusion": "A growing global dollar shortage is the primary driver of de-dollarization and could lead to a deflationary death spiral.",
+            "premises": [
+              "The reason many countries are trying to de-dollarize is because there is a growing global dollar shortage.",
+              "There is between $100 to $200 trillion worth of dollar-denominated debt globally.",
+              "As countries move away from using dollars, fewer dollars are available, making them more expensive and increasing default risks, which can cascade."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0B08B154F74F",
+                "item": "There's somewhere between a hundred to $200 trillion worth of dollar denominated debt globally",
+                "status": "Unverifiable",
+                "verification_basis": "No source is provided for this statistic; it is stated as fact without attribution.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "There's somewhere between a hundred to $200 trillion worth of dollar denominated debt globally and we have no idea where it is or who holds it",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-76F9CD7C7201",
+                "item": "Back in 2022, Credit Swiss was in trouble and was bailed out via a swap line with the Fed",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source for this historical event; it is stated as fact.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "Back in 2022, Credit Swiss was in trouble. They were bailed out by the Swiss central bank and the Swiss central bank was pulling on its swap line with the Fed in order to get its hands on dollars that it needed in order to accomplish this bailout",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-28E9C9A70843",
+                "device": "Domino effect and deflationary death spiral",
+                "explanation": "Illustrates the potential cascading consequences of a dollar shortage leading to widespread defaults.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "And very quickly you could have a domino effect, a spiraling effect of a dollar shortage, a liquidity crunch turning into a deflationary death spiral because nobody can access the dollars they need.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EC6D7E3B358B",
+        "theme": "Coordination between Federal Reserve and Treasury in financial policy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-583D482B46CC",
+            "local_theme_id": "LT-EC6D7E3B358B",
+            "conclusion": "The incoming Fed chairman suggests the Fed will defer to the Treasury on international finance matters, implying a de facto merger of monetary and fiscal policy.",
+            "premises": [
+              "Kevin Walsh, the incoming Fed chairman, said Federal Reserve independence is limited to the operational conduct of monetary policy and does not extend to areas affecting international finance.",
+              "The speaker interprets this as meaning the Fed will work with the administration and Congress on swap lines."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-AB1746982FC4",
+                "item": "Kevin Walsh's statement to Congress regarding Fed independence",
+                "status": "Verified",
+                "verification_basis": "Transcript provides direct quotes from a named source (Kevin Walsh).",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "He said Federal Reserve independence is at its peak in the operational conduct of monetary policy, but Federal Reserve officials are not entitled to the same special deference in areas affecting international finance, among other matters. In those matters, the Fed will work with the administration and with Congress.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-637E520F5372",
+            "local_theme_id": "LT-EC6D7E3B358B",
+            "conclusion": "The size of the Exchange Stabilization Fund ($220 billion) may not limit swap lines if the Treasury coordinates with the Fed.",
+            "premises": [
+              "The ESF currently has about $220 billion.",
+              "Secretary Scott Bessent has signaled interest in expanding swap lines and said the Treasury would offer them to new countries."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CC3F034AED23",
+                "item": "Scott Bessent said the Treasury will do swap lines with a whole cohort of new countries.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly quotes a named official (Scott Bessent).",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "He said, 'I think you're going to see us doing swap lines with a whole cohort of new countries that the Fed doesn't have swap lines with.'",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-743A643BF9E7",
+                "item": "The ESF has about $220 billion right now",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for this figure.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "there's only about $220 billion in it right now",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-BD8C39350287",
+        "theme": "The US sovereign debt crisis as the underlying motivation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0F23F74DAFC0",
+            "local_theme_id": "LT-BD8C39350287",
+            "conclusion": "All financial actions by the administration, including swap lines, are fundamentally about dealing with the US sovereign debt crisis.",
+            "premises": [
+              "The US government faces a sovereign debt crisis with $39 trillion in debt and 5% long-term interest rates.",
+              "The interest cost on the national debt is increasing toward $2 trillion per year.",
+              "The government needs new ways to solidify dollar usage and recycle dollars back into Treasury loans."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-78E25B1B3172",
+                "item": "$39 trillion in debt and long-term interest rates at 5%",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for these figures.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "39 trillion in debt and long-term interest rates at 5%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8FF9298AA3B7",
+                "item": "Interest cost on the national debt is quickly increasing toward $2 trillion a year",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for this projection.",
+                "speech_id": "SP-7DEF4C3CF40F",
+                "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+                "source_excerpt": "The cost of the interest on the national debt alone is very quickly increasing on its way towards $2 trillion a year.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-C195EFCA3053",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "The United States government is reportedly planning on using its swap lines to project financial power and secure the dollar's dominant position.",
+        "reason": "No specific source is provided for this report; it is stated without attribution.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not identify who is reporting this.",
+        "source_excerpt": "The United States government is reportedly planning on using its swap lines in order to project financial power around the world and secure the dollar's dominant position as the global reserve currency.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4FFC210164E1",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "There is between $100 to $200 trillion worth of dollar-denominated debt globally.",
+        "reason": "No source is given for this statistic; the transcript also admits 'we have no idea where it is or who holds it.'",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The figure is stated without any cited出处.",
+        "source_excerpt": "There's somewhere between a hundred to $200 trillion worth of dollar denominated debt globally and we have no idea where it is or who holds it",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3331264E836F",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "Credit Swiss was bailed out in 2022 via a swap line from the Fed through the Swiss central bank.",
+        "reason": "No source is provided for this historical event; it is asserted as fact.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Missing sourcing for this event.",
+        "source_excerpt": "Back in 2022, Credit Swiss was in trouble. They were bailed out by the Swiss central bank and the Swiss central bank was pulling on its swap line with the Fed in order to get its hands on dollars that it needed in order to accomplish this bailout",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ED988356A2B1",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "The Federal Reserve is doing QE right now to prevent liquidity crunches.",
+        "reason": "No evidence or source is given; this is stated without support.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal support for this claim.",
+        "source_excerpt": "That's why the Federal Reserve is doing QE right now in order to try and prevent liquidity crunches here.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5979C49201F3",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "The Exchange Stabilization Fund has about $220 billion right now.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Amount is stated without attribution.",
+        "source_excerpt": "there's only about $220 billion in it right now",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-74DD383855D3",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "The US has $39 trillion in debt and long-term interest rates at 5%.",
+        "reason": "No source for these figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Debt and interest rate figures are given without citation.",
+        "source_excerpt": "39 trillion in debt and long-term interest rates at 5%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-698B20B6E4FC",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "speech_ref": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "claim": "The interest cost on the national debt is quickly increasing toward $2 trillion a year.",
+        "reason": "No source or basis provided for this projection.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a stated trajectory without supporting data.",
+        "source_excerpt": "The cost of the interest on the national debt alone is very quickly increasing on its way towards $2 trillion a year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The United States government is planning to use swap lines with countries like the UAE to protect dollar dominance and address the global dollar shortage and sovereign debt crisis.",
+      "themes": [
+        "Swap lines as a tool for dollar dominance and financial influence",
+        "The global dollar shortage and the risk of financial contagion",
+        "Coordination between Federal Reserve and Treasury in financial policy",
+        "The US sovereign debt crisis as the underlying motivation"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "8fb8b027d2dd5e0e6e171ee7226a7a88ee5fb46926494d28fd0925fbd60e513e",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "8bc3c8032ae429c92055b90891768dc2d9a8551a30f1ed3ab7c82c54afb45dfc",
+    "canonical_mapping": {
+      "speech_id": "SP-7DEF4C3CF40F",
+      "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC49",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+      "primary_cc_rationale": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T80",
+        "T81",
+        "T136"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T80",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-2D224D5DFD85",
+          "rationale": "The theme 'swap lines as a tool for dollar dominance and financial influence' aligns closely with the canonical theme 'dollar dominance mechanisms', as swap lines are a specific mechanism for maintaining dollar dominance."
+        },
+        {
+          "theme_id": "T81",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-3B068BE11C4D",
+          "rationale": "The theme 'global dollar shortage and risk of financial contagion' matches the canonical theme 'dollar system vulnerabilities', as a dollar shortage is a key vulnerability in the dollar system."
+        },
+        {
+          "theme_id": "T136",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-BD8C39350287",
+          "rationale": "The theme 'the US sovereign debt crisis as the underlying motivation' directly maps to the canonical theme 'US Fiscal and Monetary Situation and Debt Dynamics', which covers debt crisis and motivations."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC49-T80",
+          "cc_id": "CC49",
+          "theme_id": "T80",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC49-T81",
+          "cc_id": "CC49",
+          "theme_id": "T81",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC49-T136",
+          "cc_id": "CC49",
+          "theme_id": "T136",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "local_cc_text": "The United States government is planning to use swap lines with countries like the UAE to protect dollar dominance and address the global dollar shortage and sovereign debt crisis.",
+        "canonical_cc_id": "CC49",
+        "confidence": 0.9,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+        "rationale": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+        "candidate_matches": [
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.6533416509628296
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.49309873580932617
+          },
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.38828423619270325
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.3740776777267456
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.3552994132041931
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "local_theme_id": "LT-2D224D5DFD85",
+        "local_theme_text": "Swap lines as a tool for dollar dominance and financial influence",
+        "canonical_theme_id": "T80",
+        "confidence": 0.9,
+        "rationale": "The theme 'swap lines as a tool for dollar dominance and financial influence' aligns closely with the canonical theme 'dollar dominance mechanisms', as swap lines are a specific mechanism for maintaining dollar dominance.",
+        "candidate_matches": [
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.502106785774231
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.39648354053497314
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.35523420572280884
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.31810760498046875
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.3070242702960968
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.29080870747566223
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "local_theme_id": "LT-3B068BE11C4D",
+        "local_theme_text": "The global dollar shortage and the risk of financial contagion",
+        "canonical_theme_id": "T81",
+        "confidence": 0.85,
+        "rationale": "The theme 'global dollar shortage and risk of financial contagion' matches the canonical theme 'dollar system vulnerabilities', as a dollar shortage is a key vulnerability in the dollar system.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.625795304775238
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.5824649333953857
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4968391954898834
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.47388553619384766
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.4727553129196167
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.46080803871154785
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "local_theme_id": "LT-EC6D7E3B358B",
+        "local_theme_text": "Coordination between Federal Reserve and Treasury in financial policy",
+        "canonical_theme_id": "T89",
+        "confidence": 0.8,
+        "rationale": "The theme 'coordination between Federal Reserve and Treasury in financial policy' relates to the canonical theme 'Federal Reserve Monetary Policy Tools and Frameworks' because this coordination involves the use and framing of monetary policy tools in international finance.",
+        "candidate_matches": [
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.6598513126373291
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6395114064216614
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.6377485394477844
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.6374945640563965
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5279694199562073
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5076936483383179
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "local_theme_id": "LT-BD8C39350287",
+        "local_theme_text": "The US sovereign debt crisis as the underlying motivation",
+        "canonical_theme_id": "T136",
+        "confidence": 0.9,
+        "rationale": "The theme 'the US sovereign debt crisis as the underlying motivation' directly maps to the canonical theme 'US Fiscal and Monetary Situation and Debt Dynamics', which covers debt crisis and motivations.",
+        "candidate_matches": [
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5693776607513428
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.5602952241897583
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5065937042236328
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.4855564832687378
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.48074889183044434
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.4432651996612549
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-2F395103ADDCA7",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "date": "2026-05-08",
+        "source_hash": "2408fe4187df5239a4deba699ba4e9af103be8b7f96a9ed0d1b8e80776f17a4b",
+        "pair_id": "PAIR-CC49-T80",
+        "cc_id": "CC49",
+        "theme_id": "T80",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2D224D5DFD85",
+        "local_theme_text": "Swap lines as a tool for dollar dominance and financial influence",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme 'swap lines as a tool for dollar dominance and financial influence' aligns closely with the canonical theme 'dollar dominance mechanisms', as swap lines are a specific mechanism for maintaining dollar dominance.",
+        "local_argument_id": "LA-FAE1E3514317",
+        "conclusion": "The US is considering offering the UAE a currency swap line to project financial power and secure dollar dominance.",
+        "premises": [
+          "The United States government is reportedly planning on using swap lines to project financial power around the world.",
+          "President Trump disclosed that the US was considering offering the UAE financial support through a currency swap line."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D544B3782E15",
+            "item": "President Trump disclosed that the US was considering offering the UAE financial support through a currency swap line.",
+            "status": "Verified",
+            "verification_basis": "Transcript directly attributes this disclosure to a named source (President Trump).",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "In fact, in April, President Trump disclosed that the US was considering offering the UAE financial support through a currency swap line.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-D70CB112DEEB65",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "date": "2026-05-08",
+        "source_hash": "2408fe4187df5239a4deba699ba4e9af103be8b7f96a9ed0d1b8e80776f17a4b",
+        "pair_id": "PAIR-CC49-T80",
+        "cc_id": "CC49",
+        "theme_id": "T80",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2D224D5DFD85",
+        "local_theme_text": "Swap lines as a tool for dollar dominance and financial influence",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme 'swap lines as a tool for dollar dominance and financial influence' aligns closely with the canonical theme 'dollar dominance mechanisms', as swap lines are a specific mechanism for maintaining dollar dominance.",
+        "local_argument_id": "LA-C354B32D3915",
+        "conclusion": "The UAE seeks a swap line primarily for status and elite membership, not because of financial trouble.",
+        "premises": [
+          "The foreign trade minister of UAE said this is an elite matter and not about bailing out.",
+          "Chief emerging markets economist for Bloomberg said status matters more than the dollars."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7F990AED0DA7",
+            "item": "Chief emerging markets economist for Bloomberg said status matters more than dollars.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes the statement to a named person with affiliation.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "That status matters more than the dollars. That's according to chief emerging markets economist for Bloomberg.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-84E5EF7BF8C5",
+            "item": "The foreign trade minister of UAE said this is an elite matter and not about bailing out.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes the statement to a named official.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "In fact, the foreign trade minister in UAE also said this is an elite matter. It is not about bailing out.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-AC6C65C56121D8",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "date": "2026-05-08",
+        "source_hash": "2408fe4187df5239a4deba699ba4e9af103be8b7f96a9ed0d1b8e80776f17a4b",
+        "pair_id": "PAIR-CC49-T81",
+        "cc_id": "CC49",
+        "theme_id": "T81",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-3B068BE11C4D",
+        "local_theme_text": "The global dollar shortage and the risk of financial contagion",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme 'global dollar shortage and risk of financial contagion' matches the canonical theme 'dollar system vulnerabilities', as a dollar shortage is a key vulnerability in the dollar system.",
+        "local_argument_id": "LA-5033E5E4EA29",
+        "conclusion": "A growing global dollar shortage is the primary driver of de-dollarization and could lead to a deflationary death spiral.",
+        "premises": [
+          "The reason many countries are trying to de-dollarize is because there is a growing global dollar shortage.",
+          "There is between $100 to $200 trillion worth of dollar-denominated debt globally.",
+          "As countries move away from using dollars, fewer dollars are available, making them more expensive and increasing default risks, which can cascade."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0B08B154F74F",
+            "item": "There's somewhere between a hundred to $200 trillion worth of dollar denominated debt globally",
+            "status": "Unverifiable",
+            "verification_basis": "No source is provided for this statistic; it is stated as fact without attribution.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "There's somewhere between a hundred to $200 trillion worth of dollar denominated debt globally and we have no idea where it is or who holds it",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-76F9CD7C7201",
+            "item": "Back in 2022, Credit Swiss was in trouble and was bailed out via a swap line with the Fed",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source for this historical event; it is stated as fact.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "Back in 2022, Credit Swiss was in trouble. They were bailed out by the Swiss central bank and the Swiss central bank was pulling on its swap line with the Fed in order to get its hands on dollars that it needed in order to accomplish this bailout",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-28E9C9A70843",
+            "device": "Domino effect and deflationary death spiral",
+            "explanation": "Illustrates the potential cascading consequences of a dollar shortage leading to widespread defaults.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "And very quickly you could have a domino effect, a spiraling effect of a dollar shortage, a liquidity crunch turning into a deflationary death spiral because nobody can access the dollars they need.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-349C8EAFA7D634",
+        "speech_id": "SP-7DEF4C3CF40F",
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "date": "2026-05-08",
+        "source_hash": "2408fe4187df5239a4deba699ba4e9af103be8b7f96a9ed0d1b8e80776f17a4b",
+        "pair_id": "PAIR-CC49-T136",
+        "cc_id": "CC49",
+        "theme_id": "T136",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of the US government using swap lines with the UAE to protect dollar dominance and address dollar shortage and sovereign debt crisis, directly instantiating the broader claim in CC49 about using such tools to protect dollar hegemony.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BD8C39350287",
+        "local_theme_text": "The US sovereign debt crisis as the underlying motivation",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme 'the US sovereign debt crisis as the underlying motivation' directly maps to the canonical theme 'US Fiscal and Monetary Situation and Debt Dynamics', which covers debt crisis and motivations.",
+        "local_argument_id": "LA-0F23F74DAFC0",
+        "conclusion": "All financial actions by the administration, including swap lines, are fundamentally about dealing with the US sovereign debt crisis.",
+        "premises": [
+          "The US government faces a sovereign debt crisis with $39 trillion in debt and 5% long-term interest rates.",
+          "The interest cost on the national debt is increasing toward $2 trillion per year.",
+          "The government needs new ways to solidify dollar usage and recycle dollars back into Treasury loans."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-78E25B1B3172",
+            "item": "$39 trillion in debt and long-term interest rates at 5%",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for these figures.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "39 trillion in debt and long-term interest rates at 5%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8FF9298AA3B7",
+            "item": "Interest cost on the national debt is quickly increasing toward $2 trillion a year",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for this projection.",
+            "speech_id": "SP-7DEF4C3CF40F",
+            "source_speech_filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+            "source_excerpt": "The cost of the interest on the national debt alone is very quickly increasing on its way towards $2 trillion a year.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-EC6D7E3B358B",
+        "local_argument_id": "LA-583D482B46CC",
+        "conclusion": "The incoming Fed chairman suggests the Fed will defer to the Treasury on international finance matters, implying a de facto merger of monetary and fiscal policy.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-EC6D7E3B358B",
+        "local_argument_id": "LA-637E520F5372",
+        "conclusion": "The size of the Exchange Stabilization Fund ($220 billion) may not limit swap lines if the Treasury coordinates with the Fed.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "8fb8b027d2dd5e0e6e171ee7226a7a88ee5fb46926494d28fd0925fbd60e513e",
+  "complete": true
+}

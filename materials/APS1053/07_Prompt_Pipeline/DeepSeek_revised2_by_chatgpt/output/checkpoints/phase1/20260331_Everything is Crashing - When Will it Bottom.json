@@ -1,0 +1,310 @@
+{
+  "dependencies": {
+    "source_hash": "5578b93af1cd2e75254c6fde581683bf8d6a97cf97ed6e2e3bb0702f24e69930",
+    "filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-01DB6A88BEEC",
+    "filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+    "stem": "20260331_Everything is Crashing - When Will it Bottom",
+    "date": "2026-03-31",
+    "source_hash": "5578b93af1cd2e75254c6fde581683bf8d6a97cf97ed6e2e3bb0702f24e69930",
+    "source_character_count": 19510,
+    "central_claim": "The current stock market crash is a normal market event, and disciplined long-term investing based on data will lead to positive outcomes even if a lost decade occurs.",
+    "themes": [
+      {
+        "local_theme_id": "LT-FDE1F7FD2D9A",
+        "theme": "Missed expectations",
+        "arguments": [
+          {
+            "local_argument_id": "LA-979ACAE18732",
+            "local_theme_id": "LT-FDE1F7FD2D9A",
+            "conclusion": "The current 10% stock market decline is within normal historical pullback averages and should not cause investors to doubt their long-term strategies.",
+            "premises": [
+              "The average annual pullback in the S&P 500 is 14% from top to bottom.",
+              "The current decline is 10% from the high, which is less than the average.",
+              "Unrealistic expectations about the market continuously rising cause investors to panic during normal pullbacks."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6E8A77FFCBBF",
+                "item": "Historical data shows average yearly maximum drawdown of 14% for the S&P 500",
+                "status": "Verified",
+                "verification_basis": "The transcript provides a specific chart reference and the 14% figure.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "This shows you the average drawdowns and the average good years that happen in the stock market and you can see these little diamonds and red bars represent the maximum pullbacks that happen from year to year. And then you'll notice this black line drawn all the way across is at -14%. The average pullback in the market that happens from one year to the next is 14% from top to bottom. It feels like the world might be ending right now, but the market is down 10% from its top to its current low.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-B88780C9391F",
+                "item": "The market is currently down 10% from its top",
+                "status": "Verified",
+                "verification_basis": "The transcript states the market is down 10% from the high and in correction territory.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "It is falling off the edge of a cliff currently in correction territory down 10% from the high.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-11B83B4E2A7C",
+                "device": "John the Baptist parable",
+                "explanation": "Explains how unmet expectations about the Messiah caused John the Baptist to doubt, paralleling how investors doubt when the market does not meet their expectations.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "There was a guy named John the Baptist ... When his expectations were not met ... it caused him to doubt everything that he knew he knew.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2CBFEB847346",
+        "theme": "Data over drama",
+        "arguments": [
+          {
+            "local_argument_id": "LA-15DB37CCAEE5",
+            "local_theme_id": "LT-2CBFEB847346",
+            "conclusion": "Multiple market indicators suggest the current sell-off is near exhaustion and a market bottom is likely, making it an opportune time for long-term investors to buy.",
+            "premises": [
+              "Goldman traders see signs that hedge funds are capitulating.",
+              "Global CTAs are net short $50 billion and have sold $190 billion over the last month, approaching levels of previous market lows.",
+              "The fear and greed model dropped below 10% for only the 31st time since 1998.",
+              "Energy stocks (XLE) are up 38% year-to-date despite high short interest.",
+              "0% of S&P financial stocks are above their 50-day EMA, a pattern that previously marked market bottoms in 2022, 2020, and 2018.",
+              "The VIX has closed above 30, and historically 9 out of 10 times this marks a local bottom.",
+              "The S&P 500 forward multiple has dropped 15%, which historically coincides with market bottoms."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A3B608CDE970",
+                "item": "Goldman traders report hedge fund capitulation",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes the information to Goldman traders.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "Goldman traders are seeing signs that hedge funds are capitulating on stocks right now.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E2020A85BA27",
+                "item": "Global CTAs net short $50 billion and sold $190 billion in the last month",
+                "status": "Verified",
+                "verification_basis": "Transcript states these specific figures.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "You can see global CTAs are net short $50 billion and they've sold $190 billion over the last month approaching the exact same levels of 2020 lows, the stock market crash that was happening when the Fed was tightening at the end of 2018 and then Volmageddon when the volatility spike and volatility funds started to collapse in the beginning of 2018.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7D3D7BF7DE31",
+                "item": "Fear and greed model below 10% for 31st time since 1998",
+                "status": "Verified",
+                "verification_basis": "Transcript cites a post from Sentiment Trader on X.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "This is a post from Sentiment Trader on X and you can see this fear and greed model dropped below 10% for only the 31st time since 1998.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7C38A9325CF0",
+                "item": "Energy ETF XLE up 38% year-to-date with high short interest",
+                "status": "Verified",
+                "verification_basis": "Transcript gives specific performance and short interest level.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "Year-to-date XLE, that is an energy ETF, is up 38% and despite that, shorting interest is basically at an all-time high on these energy stocks.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9BA345E2F9A3",
+                "item": "0% of S&P financial stocks above 50-day EMA",
+                "status": "Verified",
+                "verification_basis": "Transcript states this indicator and its historical correlation with bottoms.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "0% of S&P financial stocks are above their 50-day EMA. EMA is the exponential moving average. ... The last time that we had 0% of financials above their 50-day EMA was in 2022 and that marked a local bottom in the stock market.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-6705D5A19CAD",
+                "item": "VIX above 30, 9 out of 10 times marks local bottom",
+                "status": "Verified",
+                "verification_basis": "Transcript provides the statistic.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "In fact, when the VIX closes above 30, it's about nine out of 10 times that represents a local bottom in the market.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-0A76B3068564",
+                "item": "S&P 500 forward multiple down 15%",
+                "status": "Verified",
+                "verification_basis": "Transcript cites Morgan Stanley research and a specific chart.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "We're looking at Morgan Stanley's research they just released which shows the forward multiple of the S&P 500, and it has drawn down about 15% from where it was just a couple of months ago.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1D6729173386",
+        "theme": "Zooming out for long-term perspective",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8349895CE79E",
+            "local_theme_id": "LT-1D6729173386",
+            "conclusion": "Even in the worst lost decade (2000-2012), disciplined dollar-cost averaging and dividend reinvestment result in positive returns.",
+            "premises": [
+              "In the 2000-2012 period, the S&P 500 took 13 years to break even on a price-only basis.",
+              "With dividends reinvested, the break-even point moved to 2006.",
+              "A hypothetical of investing $10,000 initially and $1,000 per month from January 2000 to December 2012 resulted in total invested of $166,000 and a final value of $238,000.",
+              "Lost decades are relatively rare and require perfect timing at the top followed by no additional income."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-AA619A27F436",
+                "item": "Historical lost decade chart showing 1929-1939 and other decades below zero",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the chart of every decade since 1929.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "This is a chart that shows every single decade that the stock market has had since 1929. ... every decade below this line was a lost decade.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-0B4AB552F8B1",
+                "item": "S&P 500 13-year break-even from 2000 to 2013 without dividends",
+                "status": "Verified",
+                "verification_basis": "Transcript provides the timeline and notes the chart says 'Not adjusted for dividends'.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "This is a 13-year time frame, so you invested in the S&P 500 back here in the year 2000, and then you waited 13 years before you finally got back up to break even for the last time before the market really started to go up from there.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B89E451D78D8",
+                "item": "With dividends, break-even achieved by 2006 and again in 2012",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states these years.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "If you had dumped all your money in and you have no more income to invest in 2000, you can see by the time you get to 2013, you've actually earned 25% in dividends along the way. ... you fully recovered back in 2006 when you included dividends, and had a lot of time where it was higher, and then the last time you fully recovered was earlier in 2012.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-6BF58440ED12",
+                "item": "Hypothetical with $10,000 initial and $1,000/month from 2000-2012 yields $238,000 vs $166,000 invested",
+                "status": "Verified",
+                "verification_basis": "Transcript provides the specific numbers.",
+                "speech_id": "SP-01DB6A88BEEC",
+                "source_speech_filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+                "source_excerpt": "During that exact same time frame from January of 2000 through December of 2012 ... we're going to do a hypothetical starting off with $10,000 invested, and then you invest $1,000 per month from there. ... Your total amount invested along the way would have been $166,000, but the final value would have been $238,000.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-C7D16D6B6F13",
+        "speech_id": "SP-01DB6A88BEEC",
+        "speech_ref": "20260331_Everything is Crashing - When Will it Bottom.txt",
+        "claim": "Treasury yields staying at 5% means the US government is bankrupt.",
+        "reason": "The transcript does not provide any data or source for this conclusion about government solvency.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is an opinion about government fiscal capacity, not a verified fact.",
+        "source_excerpt": "Treasury yields staying at 5% means the US government is bankrupt. They cannot afford that.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B651F6D4B946",
+        "speech_id": "SP-01DB6A88BEEC",
+        "speech_ref": "20260331_Everything is Crashing - When Will it Bottom.txt",
+        "claim": "The more treasuries get sold off and the higher yields go, the more necessary it will become for some sort of emergency intervention, probably by the Federal Reserve.",
+        "reason": "This is a speculative prediction without supporting evidence in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculative claim about future policy actions.",
+        "source_excerpt": "The more treasuries get sold off and the higher yields go, the more necessary it will become for some sort of emergency intervention, probably by the Federal Reserve.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-AD3BDC7377EE",
+        "speech_id": "SP-01DB6A88BEEC",
+        "speech_ref": "20260331_Everything is Crashing - When Will it Bottom.txt",
+        "claim": "When they flip on that emergency printer, you remember what that does to risk assets.",
+        "reason": "Assumes a causal relationship without providing evidence; presented as common knowledge.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Assumption that quantitative easing always boosts risk assets.",
+        "source_excerpt": "When they flip on that emergency printer, you remember what that does to risk assets.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current stock market crash is a normal market event, and disciplined long-term investing based on data will lead to positive outcomes even if a lost decade occurs.",
+      "themes": [
+        "Missed expectations",
+        "Data over drama",
+        "Zooming out for long-term perspective"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 3
+    },
+    "generated_at": "2026-07-14T23:36:29+00:00",
+    "record_hash": "0070977c94a208660d3beeb7ad8e44ccb67e2edebe8203f993bd6142a9e191c7",
+    "analysis_truncated": false
+  },
+  "output_hash": "5f6bf519dc12dc5271258a53a4a1596cebb317c736f5e258db36aa9fdeeeb918",
+  "complete": true
+}

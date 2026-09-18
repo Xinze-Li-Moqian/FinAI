@@ -1,0 +1,871 @@
+{
+  "dependencies": {
+    "source_hash": "0784c1b15b61741e48460b18c3af655a06c6015185d90b11d40c0069ee20706a",
+    "phase1_record_hash": "b996dcf676978a99f58bad3ea6a1845238422726352f45026750907d287e12f9",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-1FE477D37E84",
+    "filename": "20260327_Why is Gold Crashing from the War.txt",
+    "stem": "20260327_Why is Gold Crashing from the War",
+    "date": "2026-03-27",
+    "source_hash": "0784c1b15b61741e48460b18c3af655a06c6015185d90b11d40c0069ee20706a",
+    "source_character_count": 8854,
+    "central_claim": "The recent crash in gold price despite geopolitical chaos is caused by a liquidity crisis that forces selling of gold as a liquid reserve asset, a prior excessive 166% rise that created a blowoff top, gold's tendency to anticipate monetary policy now at risk from war inflation, and market expectations that the current conflict will not be long-lived.",
+    "themes": [
+      {
+        "local_theme_id": "LT-488496B2C9F9",
+        "theme": "Liquidity crunch",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1CBAA7CA720D",
+            "local_theme_id": "LT-488496B2C9F9",
+            "conclusion": "Gold is crashing because a liquidity crisis forces holders to sell gold for liquidity.",
+            "premises": [
+              "During a liquidity crisis, you sell what you can sell, not what you want.",
+              "Almost all assets have sold off: gold down 25%, silver down, S&P down, TLT down 5%.",
+              "Gold is a global reserve asset, so it is one of the first things sold for liquidity."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-61F8C4219660",
+                "item": "Gold is down 25% from start of war to bottom",
+                "status": "Verified",
+                "verification_basis": "Exact figure provided in transcript",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "Gold is down 25% basically from the start of the war until now.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-3DD5BBBD49F0",
+                "item": "TLT is down almost 5% from start of war",
+                "status": "Verified",
+                "verification_basis": "Exact figure provided",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "TLT is down almost 5% from the start of the war.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-375B6368906B",
+                "device": "Old saying about liquidity crisis",
+                "explanation": "Illustrates that in a liquidity crisis, holders sell what is most liquid rather than what they want.",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "when there's a liquidity crisis, you don't sell what you want to sell, you sell what you can sell.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3F60CC4EBA04",
+        "theme": "Gold as a global reserve asset",
+        "arguments": [
+          {
+            "local_argument_id": "LA-85518171BC4A",
+            "local_theme_id": "LT-3F60CC4EBA04",
+            "conclusion": "Gold is down because nations are selling it as part of their reserve assets to make payments.",
+            "premises": [
+              "Gold holdings have overtaken US treasuries as a share of foreign reserves.",
+              "Nations need to make payments, so they draw on their reserves, including gold and treasuries.",
+              "Both gold and treasuries are down (gold 25%, TLT 5%)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-AC0DA7A36BA2",
+                "item": "Claim that gold has overtaken US treasuries in foreign reserve holdings",
+                "status": "Unverifiable",
+                "verification_basis": "Speaker mentions a chart but provides no specific numbers or source.",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "this is a chart that shows the gold holdings as a share of official foreign reserve assets compared to US debt like treasuries. And you can see over the last couple of years, gold has overtaken US treasuries in terms of the percentages of foreign reserve holdings.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0E980F013DF5",
+        "theme": "Gold's blowoff top after a 166% rise",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F733FF3589CA",
+            "local_theme_id": "LT-0E980F013DF5",
+            "conclusion": "Gold is crashing because it had completed a blowoff top after a 166% rise, exhausting upward momentum.",
+            "premises": [
+              "Gold rose 166% from March 2024 to January.",
+              "This price action (explosive rise, big wicks, 21% fall in two days) is characteristic of a blowoff top.",
+              "Even the start of war could not push gold back to new highs."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-AEB4D16CB45D",
+                "item": "Gold rose 166% from March 2024 to January",
+                "status": "Verified",
+                "verification_basis": "Exact percentage provided in transcript",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "Rise of gold from March 2024 to the top that took place in January was a 166% rise.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-FD20F1858DE5",
+                "item": "Gold fell 21% within two trading days",
+                "status": "Verified",
+                "verification_basis": "Exact percentage provided",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "the price falls 21% within the course of just two trading days.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3E1E18E44286",
+        "theme": "Gold's anticipation of monetary policy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6596281B98B7",
+            "local_theme_id": "LT-3E1E18E44286",
+            "conclusion": "Gold is selling off because it had priced in future easing, but now the possibility of tightening from war inflation forces a re-pricing.",
+            "premises": [
+              "Gold tends to anticipate monetary policy in advance.",
+              "Gold moved up ahead of the 2020 money printing and peaked in August 2020 before it started.",
+              "Gold broke out in 2024 in anticipation of future easing.",
+              "Now there is talk of easing measures (deregulation, yield curve control, rate cuts) but also inflation from war could cause tighter policy."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1D8853D9567E",
+                "item": "Historical example: gold bull market started June 2019, peaked August 2020, moved sideways and sold off as tightening was priced in",
+                "status": "Verified",
+                "verification_basis": "Specific dates and outcome described in transcript",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "A great example of this is how gold started a huge bull market in June of 2019, well in advance of all the money printing that was set to take place in early 2020. Gold skyrocketed and then really once the money printing just was getting started, gold had already peaked in August of 2020.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-3341FC8EB9DE",
+                "item": "Claims about current policy discussions: bank deregulation, yield curve control, interest rate cuts being talked about",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided; asserted as fact.",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "We see bank deregulation getting talked about. We see yield curve control getting talked about. we see interest rate cuts getting talked about",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-48A7C9E1BB76",
+        "theme": "Market expectations of conflict duration",
+        "arguments": [
+          {
+            "local_argument_id": "LA-AB8763CD946E",
+            "local_theme_id": "LT-48A7C9E1BB76",
+            "conclusion": "Gold is crashing because the market does not expect the current conflict to be long-lived, unlike the 1979 Iranian revolution.",
+            "premises": [
+              "In 1979, despite a major oil shock from the Iranian revolution, gold rose and continued its massive rise.",
+              "If this conflict were expected to be long and severe, gold would be rising, not falling.",
+              "Therefore, the market is not pricing in a prolonged conflict."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8264C1A37B10",
+                "item": "1979 Iranian revolution: crude oil production declined by almost 5 million barrels per day (7% of world production)",
+                "status": "Verified",
+                "verification_basis": "Exact numbers provided in transcript",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "these strikes began in 1978. And by January of 1979, crude oil production had declined by almost 5 million barrels per day, which was about 7% of world production at that time.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-87B2443FF68B",
+                "item": "Gold rose during the 1979 period and continued its massive rise in subsequent years",
+                "status": "Unverifiable",
+                "verification_basis": "General claim without specific data; transcript does not provide specific gold price figures for that period.",
+                "speech_id": "SP-1FE477D37E84",
+                "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+                "source_excerpt": "overall, gold rose during that time. And if you follow gold price further forward and see what it did over the following years, you see gold continued its massive rise.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-95B9F13482A5",
+        "speech_id": "SP-1FE477D37E84",
+        "speech_ref": "20260327_Why is Gold Crashing from the War.txt",
+        "claim": "Gold has overtaken US treasuries in terms of the percentages of foreign reserve holdings.",
+        "reason": "The speaker refers to a chart but provides no specific numbers, source, or date for this claim within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is plausible but cannot be verified from the transcript alone.",
+        "source_excerpt": "this is a chart that shows the gold holdings as a share of official foreign reserve assets compared to US debt like treasuries. And you can see over the last couple of years, gold has overtaken US treasuries in terms of the percentages of foreign reserve holdings.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-2245C4C5D3CC",
+        "speech_id": "SP-1FE477D37E84",
+        "speech_ref": "20260327_Why is Gold Crashing from the War.txt",
+        "claim": "Gold has fully priced in all of the easing that is coming.",
+        "reason": "This is an opinion about market pricing; no evidence or data is provided to support it.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "A subjective market assessment, not verifiable from transcript context.",
+        "source_excerpt": "But now gold has fully priced in all of the easing that is coming in and start it will be coming in very soon here.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-774045C73E5D",
+        "speech_id": "SP-1FE477D37E84",
+        "speech_ref": "20260327_Why is Gold Crashing from the War.txt",
+        "claim": "The market is not pricing in the chance that this is going to be an extremely extended massive global issue.",
+        "reason": "This is a speculation about market expectations; no data or indicators are cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculative conclusion about market sentiment.",
+        "source_excerpt": "the market is not pricing in the chance that this is going to be an extremely extended massive global issue that's going to cause huge problems for the long term.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B30620E0D751",
+        "speech_id": "SP-1FE477D37E84",
+        "speech_ref": "20260327_Why is Gold Crashing from the War.txt",
+        "claim": "There is talk about bank deregulation, yield curve control, interest rate cuts.",
+        "reason": "No source or evidence is provided to support that these topics are being discussed.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Assertion about current discourse without attribution.",
+        "source_excerpt": "We see bank deregulation getting talked about. We see yield curve control getting talked about. we see interest rate cuts getting talked about",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7C3D21E6D8F7",
+        "speech_id": "SP-1FE477D37E84",
+        "speech_ref": "20260327_Why is Gold Crashing from the War.txt",
+        "claim": "Gold rose during the 1979 period and continued its massive rise in subsequent years.",
+        "reason": "This is a general historical statement without specific price data or time frame within the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "Historical gold price data supports a significant rise during the late 1970s and early 1980s, but transcript does not provide figures.",
+        "source_excerpt": "overall, gold rose during that time. And if you follow gold price further forward and see what it did over the following years, you see gold continued its massive rise.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The recent crash in gold price despite geopolitical chaos is caused by a liquidity crisis that forces selling of gold as a liquid reserve asset, a prior excessive 166% rise that created a blowoff top, gold's tendency to anticipate monetary policy now at risk from war inflation, and market expectations that the current conflict will not be long-lived.",
+      "themes": [
+        "Liquidity crunch",
+        "Gold as a global reserve asset",
+        "Gold's blowoff top after a 166% rise",
+        "Gold's anticipation of monetary policy",
+        "Market expectations of conflict duration"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 5
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "23588e4efdd4223aa9d43a13c3daed0ceb43ef7a1564042e83f137a0ebe76ce7",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "b996dcf676978a99f58bad3ea6a1845238422726352f45026750907d287e12f9",
+    "canonical_mapping": {
+      "speech_id": "SP-1FE477D37E84",
+      "filename": "20260327_Why is Gold Crashing from the War.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC55",
+      "primary_cc_confidence": 0.92,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+      "primary_cc_rationale": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T119",
+        "T95",
+        "T101"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T119",
+          "confidence": 0.94,
+          "source_local_theme_id": "LT-488496B2C9F9",
+          "rationale": "Local theme 'Liquidity crunch' directly corresponds to the canonical theme 'Monetary policy and liquidity conditions', which covers liquidity crises and their market effects."
+        },
+        {
+          "theme_id": "T95",
+          "confidence": 0.91,
+          "source_local_theme_id": "LT-3E1E18E44286",
+          "rationale": "Local theme 'Gold's anticipation of monetary policy' is a core aspect of gold as a monetary indicator, matching canonical theme 'Gold as a monetary indicator and safe haven'."
+        },
+        {
+          "theme_id": "T101",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-48A7C9E1BB76",
+          "rationale": "Local theme 'Market expectations of conflict duration' directly relates to historical market performance during geopolitical conflict, as captured by canonical theme T101."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC55-T119",
+          "cc_id": "CC55",
+          "theme_id": "T119",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC55-T95",
+          "cc_id": "CC55",
+          "theme_id": "T95",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC55-T101",
+          "cc_id": "CC55",
+          "theme_id": "T101",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "local_cc_text": "The recent crash in gold price despite geopolitical chaos is caused by a liquidity crisis that forces selling of gold as a liquid reserve asset, a prior excessive 166% rise that created a blowoff top, gold's tendency to anticipate monetary policy now at risk from war inflation, and market expectations that the current conflict will not be long-lived.",
+        "canonical_cc_id": "CC55",
+        "confidence": 0.92,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+        "rationale": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+        "candidate_matches": [
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.5108343362808228
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.4968690574169159
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.40441572666168213
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.2351883351802826
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.20011833310127258
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "local_theme_id": "LT-488496B2C9F9",
+        "local_theme_text": "Liquidity crunch",
+        "canonical_theme_id": "T119",
+        "confidence": 0.94,
+        "rationale": "Local theme 'Liquidity crunch' directly corresponds to the canonical theme 'Monetary policy and liquidity conditions', which covers liquidity crises and their market effects.",
+        "candidate_matches": [
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.5378004312515259
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.4660581946372986
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.39284747838974
+          },
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.28773263096809387
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.25694555044174194
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.25379371643066406
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "local_theme_id": "LT-3F60CC4EBA04",
+        "local_theme_text": "Gold as a global reserve asset",
+        "canonical_theme_id": "T94",
+        "confidence": 1.0,
+        "rationale": "Exact match: local theme 'Gold as a global reserve asset' is identical to canonical theme T94.",
+        "candidate_matches": [
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 1.0000001192092896
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.7223935127258301
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5262433290481567
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.5041661262512207
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.3349904417991638
+          },
+          {
+            "id": "T6",
+            "text": "Commodities as investment opportunities",
+            "similarity": 0.33418795466423035
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "local_theme_id": "LT-0E980F013DF5",
+        "local_theme_text": "Gold's blowoff top after a 166% rise",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "Local theme 'Gold's blowoff top after a 166% rise' describes a market dynamic and investor behavior phenomenon, which aligns well with canonical theme 'Market dynamics and investor behavior'.",
+        "candidate_matches": [
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.38792580366134644
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.23729953169822693
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.2123292088508606
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.20358039438724518
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.18644478917121887
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.17772725224494934
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "local_theme_id": "LT-3E1E18E44286",
+        "local_theme_text": "Gold's anticipation of monetary policy",
+        "canonical_theme_id": "T95",
+        "confidence": 0.91,
+        "rationale": "Local theme 'Gold's anticipation of monetary policy' is a core aspect of gold as a monetary indicator, matching canonical theme 'Gold as a monetary indicator and safe haven'.",
+        "candidate_matches": [
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.6119933724403381
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5739871263504028
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.5731037259101868
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.4820405840873718
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.3525129556655884
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.3308544158935547
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "local_theme_id": "LT-48A7C9E1BB76",
+        "local_theme_text": "Market expectations of conflict duration",
+        "canonical_theme_id": "T101",
+        "confidence": 0.9,
+        "rationale": "Local theme 'Market expectations of conflict duration' directly relates to historical market performance during geopolitical conflict, as captured by canonical theme T101.",
+        "candidate_matches": [
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.5108625292778015
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.3483724594116211
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.31610530614852905
+          },
+          {
+            "id": "T123",
+            "text": "Peaceful secession",
+            "similarity": 0.3099514842033386
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.30038607120513916
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.2844845950603485
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-4F128058DD1DC5",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "date": "2026-03-27",
+        "source_hash": "0784c1b15b61741e48460b18c3af655a06c6015185d90b11d40c0069ee20706a",
+        "pair_id": "PAIR-CC55-T119",
+        "cc_id": "CC55",
+        "theme_id": "T119",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+        "primary_cc_confidence": 0.92,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-488496B2C9F9",
+        "local_theme_text": "Liquidity crunch",
+        "theme_mapping_confidence": 0.94,
+        "theme_mapping_rationale": "Local theme 'Liquidity crunch' directly corresponds to the canonical theme 'Monetary policy and liquidity conditions', which covers liquidity crises and their market effects.",
+        "local_argument_id": "LA-1CBAA7CA720D",
+        "conclusion": "Gold is crashing because a liquidity crisis forces holders to sell gold for liquidity.",
+        "premises": [
+          "During a liquidity crisis, you sell what you can sell, not what you want.",
+          "Almost all assets have sold off: gold down 25%, silver down, S&P down, TLT down 5%.",
+          "Gold is a global reserve asset, so it is one of the first things sold for liquidity."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-61F8C4219660",
+            "item": "Gold is down 25% from start of war to bottom",
+            "status": "Verified",
+            "verification_basis": "Exact figure provided in transcript",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "Gold is down 25% basically from the start of the war until now.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-3DD5BBBD49F0",
+            "item": "TLT is down almost 5% from start of war",
+            "status": "Verified",
+            "verification_basis": "Exact figure provided",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "TLT is down almost 5% from the start of the war.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-375B6368906B",
+            "device": "Old saying about liquidity crisis",
+            "explanation": "Illustrates that in a liquidity crisis, holders sell what is most liquid rather than what they want.",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "when there's a liquidity crisis, you don't sell what you want to sell, you sell what you can sell.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-CC2B1A387BD1FE",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "date": "2026-03-27",
+        "source_hash": "0784c1b15b61741e48460b18c3af655a06c6015185d90b11d40c0069ee20706a",
+        "pair_id": "PAIR-CC55-T95",
+        "cc_id": "CC55",
+        "theme_id": "T95",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+        "primary_cc_confidence": 0.92,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-3E1E18E44286",
+        "local_theme_text": "Gold's anticipation of monetary policy",
+        "theme_mapping_confidence": 0.91,
+        "theme_mapping_rationale": "Local theme 'Gold's anticipation of monetary policy' is a core aspect of gold as a monetary indicator, matching canonical theme 'Gold as a monetary indicator and safe haven'.",
+        "local_argument_id": "LA-6596281B98B7",
+        "conclusion": "Gold is selling off because it had priced in future easing, but now the possibility of tightening from war inflation forces a re-pricing.",
+        "premises": [
+          "Gold tends to anticipate monetary policy in advance.",
+          "Gold moved up ahead of the 2020 money printing and peaked in August 2020 before it started.",
+          "Gold broke out in 2024 in anticipation of future easing.",
+          "Now there is talk of easing measures (deregulation, yield curve control, rate cuts) but also inflation from war could cause tighter policy."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-1D8853D9567E",
+            "item": "Historical example: gold bull market started June 2019, peaked August 2020, moved sideways and sold off as tightening was priced in",
+            "status": "Verified",
+            "verification_basis": "Specific dates and outcome described in transcript",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "A great example of this is how gold started a huge bull market in June of 2019, well in advance of all the money printing that was set to take place in early 2020. Gold skyrocketed and then really once the money printing just was getting started, gold had already peaked in August of 2020.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-3341FC8EB9DE",
+            "item": "Claims about current policy discussions: bank deregulation, yield curve control, interest rate cuts being talked about",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided; asserted as fact.",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "We see bank deregulation getting talked about. We see yield curve control getting talked about. we see interest rate cuts getting talked about",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-1C5BCD26A26966",
+        "speech_id": "SP-1FE477D37E84",
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "date": "2026-03-27",
+        "source_hash": "0784c1b15b61741e48460b18c3af655a06c6015185d90b11d40c0069ee20706a",
+        "pair_id": "PAIR-CC55-T101",
+        "cc_id": "CC55",
+        "theme_id": "T101",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk.",
+        "primary_cc_confidence": 0.92,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-48A7C9E1BB76",
+        "local_theme_text": "Market expectations of conflict duration",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Local theme 'Market expectations of conflict duration' directly relates to historical market performance during geopolitical conflict, as captured by canonical theme T101.",
+        "local_argument_id": "LA-AB8763CD946E",
+        "conclusion": "Gold is crashing because the market does not expect the current conflict to be long-lived, unlike the 1979 Iranian revolution.",
+        "premises": [
+          "In 1979, despite a major oil shock from the Iranian revolution, gold rose and continued its massive rise.",
+          "If this conflict were expected to be long and severe, gold would be rising, not falling.",
+          "Therefore, the market is not pricing in a prolonged conflict."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-8264C1A37B10",
+            "item": "1979 Iranian revolution: crude oil production declined by almost 5 million barrels per day (7% of world production)",
+            "status": "Verified",
+            "verification_basis": "Exact numbers provided in transcript",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "these strikes began in 1978. And by January of 1979, crude oil production had declined by almost 5 million barrels per day, which was about 7% of world production at that time.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-87B2443FF68B",
+            "item": "Gold rose during the 1979 period and continued its massive rise in subsequent years",
+            "status": "Unverifiable",
+            "verification_basis": "General claim without specific data; transcript does not provide specific gold price figures for that period.",
+            "speech_id": "SP-1FE477D37E84",
+            "source_speech_filename": "20260327_Why is Gold Crashing from the War.txt",
+            "source_excerpt": "overall, gold rose during that time. And if you follow gold price further forward and see what it did over the following years, you see gold continued its massive rise.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-3F60CC4EBA04",
+        "local_argument_id": "LA-85518171BC4A",
+        "conclusion": "Gold is down because nations are selling it as part of their reserve assets to make payments.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-0E980F013DF5",
+        "local_argument_id": "LA-F733FF3589CA",
+        "conclusion": "Gold is crashing because it had completed a blowoff top after a 166% rise, exhausting upward momentum.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "23588e4efdd4223aa9d43a13c3daed0ceb43ef7a1564042e83f137a0ebe76ce7",
+  "complete": true
+}

@@ -1,0 +1,209 @@
+PipelineAndIntermediateOutputs.txt
+PIPELINE MECHANICS AND INTERMEDIATE-OUTPUT RECORDS
+Split out of compendium_StructuralDescription_relationshiptypes.txt
+
+[Editorial note: this document holds everything from the original
+compendium_StructuralDescription_relationshiptypes.txt that describes
+pipeline processing, phase-by-phase mechanics, and intermediate/checkpoint
+records — as opposed to the entity-relationship (ER) structure of the final
+compendium model, which remains in compendium_StructuralDescription_
+relationshiptypes.txt. The persistent Canonical CC × T junction table and the
+runtime bucket instantiated from it are NOT here — they are part of the ER
+model itself and are defined in that document's Section 1.D and Section 2
+(Junction Tables and Runtime Buckets), because they persist and are consumed
+as ground truth by later phases, unlike the per-speech records below, which
+are working artifacts superseded by later phases.
+
+This document is being kept as a reference only. It is not being used as an
+input to the pipeline-construction prompt itself, pending a comparison
+between this document and the prompt to determine whether the prompt is
+missing anything captured here.
+
+ALREADY INCORPORATED INTO prompt_reorganized.md — the Phase 4 lossless-
+remapping constraint (Section 2 below) already exists there in DIRECTIVES,
+Principle of Fidelity to Underlying Data, "Output Fidelity Rules," and in
+QUERY, Query Elaboration, Five-Phase Pipeline, Phase 4. The Phase 5
+behavioral prohibitions on the LLM (Section 4 below — must not convert
+qualification/opposition into support, invent a consensus, etc.) already
+exist there in DIRECTIVES, Principle of Least Agency, "Relationship-Type
+Preservation." This document is documentation of where that content came
+from, not a second independent source of it.
+
+Every ER cardinality ID (C-number, S-number) below is preserved exactly as it
+appeared in the original document's ER tables, so that any existing citation
+to that ID elsewhere remains valid even though the row has been moved out of
+the ER tables themselves.]
+
+
+1. Per-speech Phase 1 Structured Record
+
+Each source speech has one JSON record containing:
+
+– filename
+– date
+– local central claim cc
+– local themes t
+– local argument conclusions
+– premises
+– evidence
+– analogies and rhetorical devices
+– unverifiable claims
+– source excerpts / locations where available
+– Claims Inventory fields
+
+The local central claim and local themes remain source-level entities. They
+are not overwritten by canonical labels.
+
+
+2. Per-speech Phase 4 Remapped Record
+
+Phase 4 creates one lossless augmented record per speech.
+
+The remapped record preserves the complete Phase 1 content unchanged and adds:
+
+– primary canonical CC ID, or uncategorised status
+– primary_cc_relationship_type
+– primary_cc_relationship_explanation
+– primary canonical CC confidence
+– classification prompt and schema versions
+– canonical Theme IDs
+– local-to-canonical mapping records
+– confidence or similarity values
+– mapping rationale
+– Canonical CC × T pair IDs
+– default bucket memberships
+– unmapped or ambiguous flags
+– optional secondary CC contributions, only when explicitly enabled
+– canonical model/version identifier
+
+For every mapped local argument, Phase 4 also creates a source-contribution
+record containing at least:
+
+– contribution_id
+– speech_id, filename, date, and source_hash
+– pair_id, cc_id, and theme_id
+– membership_type
+– primary_cc_relationship_type
+– primary_cc_relationship_explanation
+– primary_cc_confidence
+– classification_prompt_version and classification_schema_version
+– local_theme_id and local_theme_text
+– Theme-mapping confidence and rationale
+– local_argument_id and conclusion
+– preserved premises, evidence, and analogies
+
+The source contribution must inherit the speech's accepted relationship type,
+explanation, confidence, and classification versions exactly. Python validates
+this propagation; the Phase 4 LLM is not permitted to reinterpret the role.
+
+Phase 4 is an augmentation and mapping operation, not a semantic rewrite.
+An optional Markdown view may be rendered from the structured record, but the
+structured remapped record remains authoritative.
+
+Remapped record (role definition, moved from the ER document's Roles list)
+A lossless Phase 4 augmentation of the Phase 1 speech record. It adds
+canonical mappings and pair memberships without replacing or paraphrasing the
+local intellectual content.
+
+
+3. Canonicalisation and Assembly Pipeline Flow
+
+Local records
+→ canonical CC discovery
+→ canonical Theme discovery
+→ local-to-canonical mappings
+→ persistent CC × T pair records
+→ runtime CC × T buckets
+→ canonical argument synthesis
+→ authoritative compendium sections
+→ Theme Cross-Index and complete theme_index.md
+
+The system must preserve the distinction between:
+
+1. source speech entities;
+2. canonical entities;
+3. persistent relationship entities;
+4. temporary runtime aggregation containers; and
+5. rendered publication text.
+
+[Note: item 3 above ("persistent relationship entities") and item 4
+("temporary runtime aggregation containers") are, concretely, the Canonical
+CC × T pair and the runtime CC × T bucket — defined in the ER document's
+Section 2, not here, since they are part of the ER model rather than pipeline
+mechanics. This taxonomy is retained here because it is itself a statement
+about pipeline architecture — which category of entity a given pipeline stage
+is allowed to produce or consume — rather than a definition of the entities
+themselves.]
+
+
+4. Phase 5 Relationship-Aware Bucket Organisation and Synthesis — Process Behavior
+
+For each persistent Canonical CC × T pair, Python instantiates one runtime
+bucket and groups its validated source contributions by the controlled
+speech-to-chapter relationship type before any synthesis call.
+
+The bucket input contains:
+
+– pair metadata fixed by Python;
+– relationship_type_counts;
+– source_contributions_by_relationship_type;
+– validated source IDs, filenames, excerpts, and local argument content.
+
+The LLM synthesises only inside the fixed pair and must respect the stored
+roles:
+
+– supports, specific_instance, mechanism, consequence, application, and
+  evidence contributions may develop the affirmative case;
+– qualification contributions must remain limits, conditions, refinements, or
+  exceptions;
+– opposition contributions must remain explicit challenges, disagreements, or
+  contrary evidence;
+– historical_example contributions must be described as illustrations or
+  precedents and must not automatically be treated as proof.
+
+The LLM must not convert qualification or opposition into support, invent a
+consensus, change a relationship type, add source records, or move content to a
+different CC × T pair. Python validates the returned source-contribution IDs,
+derives canonical-argument relationship_roles from the accepted contributions,
+and ensures that qualification and opposition are represented in
+Disagreements and Qualifications where relevant.
+
+[Note: the bucket's structural definition — what a runtime bucket is, what it
+contains, and its relationship to the persistent pair — is in the ER
+document's Section 2, Junction Tables and Runtime Buckets, and is not repeated
+here. Only the process behavior governing what the LLM may and may not do
+during synthesis is retained in this document.]
+
+
+5. Pipeline-Flow Cardinalities
+
+[These rows were originally listed in the ER document's cardinality tables
+(Section 5.A and 5.B, formerly Section 4.A and 4.B) but describe pipeline
+artifacts — Phase 1 structured records and Phase 4 remapped records — as the
+source or target entity, rather than persistent structural entities of the ER
+model. They are reproduced here with their original IDs preserved for
+cross-reference; the corresponding row in the ER document's tables has been
+replaced with a pointer to this document.]
+
+From Table A (canonical entities, persistent pairs, runtime buckets, and speeches):
+
+C22 Speech                         has                             Phase 1 structured record             1 → 1
+
+C23 Phase 1 structured record     augmented into                 Phase 4 remapped record               1 → 1
+
+C24 Phase 4 remapped record       aligned to primary             Canonical Central Claim CC            0..1 → 1
+
+C25 Phase 4 remapped record       aligned to                     Canonical Theme T IDs                  1 → 0..3,
+                                                                                                      depending on categorisation
+
+C26 Phase 4 remapped record       records membership in          Canonical CC × T pairs                1 → 0..3 default pairs
+
+From Table B (speech-level/local entities plus speeches):
+
+S12 Speech                         becomes                         master_inventory.json record          1 → 1
+
+S13 master_inventory.json record  supplies                        Canonical discovery input             many records → canonical structures
+
+S17 Phase 1 structured record     augmented as                    Phase 4 remapped record               1 → 1
+
+S18 Phase 4 remapped record       may render                      Per-speech Markdown view              1 → 0..1

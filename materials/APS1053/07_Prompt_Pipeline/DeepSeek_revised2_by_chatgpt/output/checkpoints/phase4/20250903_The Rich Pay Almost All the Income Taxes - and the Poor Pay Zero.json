@@ -1,0 +1,1233 @@
+{
+  "dependencies": {
+    "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+    "phase1_record_hash": "f64f163f4d0abe78e4d043b8c049bd674d01885f04cc9b9fc39105b02ad78d45",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-13B5AED3F296",
+    "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+    "stem": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero",
+    "date": "2025-09-03",
+    "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+    "source_character_count": 16864,
+    "central_claim": "The rich pay almost all federal income taxes while the poor pay none, disproving the narrative that the rich do not pay their fair share, and the United States has implemented many of Karl Marx's communist planks, making it closer to communism than capitalism.",
+    "themes": [
+      {
+        "local_theme_id": "LT-C15FA7A5CD74",
+        "theme": "Federal income tax burden distribution across income groups",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7E6A4D7CEC4C",
+            "local_theme_id": "LT-C15FA7A5CD74",
+            "conclusion": "The bottom 40% pay a net zero in federal income tax.",
+            "premises": [
+              "76 million tax units will pay zero federal income tax in 2025, which is 40% of US households.",
+              "After refunds, deductions, and credits, the net result is zero."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9FC1672046CD",
+                "item": "In 2025, about 76 million tax units will pay zero federal income tax, which comes out to about 40% of all US households.",
+                "status": "Unverifiable",
+                "verification_basis": "No source is provided; the speaker states it as fact without citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "In 2025, about 76 million tax units will pay zero federal income tax, which comes out to about 40% of all US households.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-8E2471027791",
+            "local_theme_id": "LT-C15FA7A5CD74",
+            "conclusion": "The top 1% pay 40% of total individual income taxes.",
+            "premises": [
+              "The top 1% pay 26.1% of their income on average.",
+              "The bottom 50% pay only 3% of total income taxes.",
+              "The top 5% pay 61%, and the top 10% pay 72% of total income taxes."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F01E9E58A895",
+                "item": "The top 1% pay 26.1% of their income on average to the US government.",
+                "status": "Unverifiable",
+                "verification_basis": "No source is given; it is stated as fact.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "the top 1% of income earners pay 26.1% of their income on average to the US government.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-91090B173093",
+                "item": "The bottom 50% pay only 3% of the total number of dollars the federal government takes in taxes.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "the bottom 50% only pay 3% of the total number of dollars that the federal government takes in taxes",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F45BA52A1667",
+                "item": "The top 1% pay a whopping 40% of all of the dollars in taxes.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "the top 1% pay a whopping 40% of all of the dollars in taxes that the US government takes every year",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1447C3F9C245",
+                "item": "The top 5% pay 61% of the total tax burden, and the top 10% pay 72%.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "we are now at 61% of the total tax burden paid by the top 5%... 72% of the tax burden",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-C65915694C86",
+            "local_theme_id": "LT-C15FA7A5CD74",
+            "conclusion": "The data destroys the narrative that the rich don't pay their fair share.",
+            "premises": [
+              "The top 1% pay the highest percentage of their income in taxes.",
+              "The top 1% pay 40% of total income taxes.",
+              "Those who still claim unfairness are motivated by resentment and envy."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2B82C6640F45",
+                "item": "Rebuttal that the rich still do not pay their fair share is dismissed as resentment.",
+                "status": "Disputed",
+                "verification_basis": "The speaker dismisses the counter-argument without providing evidence that the claim is false; it is a rhetorical dismissal.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "then I would just say you're full of resentment and envy because there's no amount that the rich could pay before you would be satisfied.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-CD59BC8B102B",
+        "theme": "The United States' implementation of Karl Marx's 10 communist planks",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FCF8FB829D70",
+            "local_theme_id": "LT-CD59BC8B102B",
+            "conclusion": "We are a lot closer to a communist nation than we are to a capitalist nation.",
+            "premises": [
+              "Plank 1: Abolition of property in land – property taxes act as government rent.",
+              "Plank 2: Heavy progressive income tax – US has progressive income tax.",
+              "Plank 3: Abolition of inheritance rights – estate tax accomplishes this.",
+              "Plank 4: Confiscation of property of immigrants and rebels – civil asset forfeiture serves this.",
+              "Plank 5: Centralization of credit – the Federal Reserve central bank.",
+              "Plank 6: Centralization of communication and transport – government controls internet, broadcasting, roads.",
+              "Plank 7: Extension of factories owned by state – US government taking stakes in private companies like Intel and Palantir.",
+              "Plank 8: Equal obligation to work – Federal Reserve manipulates currency for maximum employment.",
+              "Plank 9: Combination of agriculture with manufacturing – government subsidies and regulations shape agriculture.",
+              "Plank 10: Free education for all children – public schools and abolition of child labor."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-4477931200D1",
+                "item": "The estate tax essentially accomplishes the abolition of inheritance rights.",
+                "status": "Disputed",
+                "verification_basis": "The existence of estate tax is factual, but its equivalence to abolition of inheritance rights is interpretive and disputed.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "The third plank is the abolition of all rights of inheritance. The estate tax essentially accomplishes this.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-47308EA9C2E6",
+                "item": "The US government is taking a 10% stake in Intel and considering an ownership stake in Palantir.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for these specific claims.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "the US government is taking stakes of ownership in private companies, taking a 10% stake in ownership in Intel, considering taking an ownership stake in Palunteer",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F3E2E3C3D74D",
+                "item": "The Federal Reserve manipulates the currency to ensure maximum employment, preventing people from retiring and building wealth.",
+                "status": "Unverifiable",
+                "verification_basis": "Interpretive claim about Fed's motives and effects; no source or evidence provided.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "the Federal Reserve is constantly manipulating the currency in order to ensure that as many people as possible have to work as many years of their life as possible, never be able to retire or build enough wealth",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C9562F86395C",
+                "item": "Corn is artificially cheaper in the US due to regulations and subsidies.",
+                "status": "Unverifiable",
+                "verification_basis": "Claim stated without supporting evidence or citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "Why do you think corn is in everything in the United States but not around the world? It's because it is artificially cheaper to do things with corn here due to regulations and subsidies.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-129D6AF809ED",
+                "item": "Sugar beets are artificially cheaper than sugar cane in the US due to regulations and subsidies, even though sugar cane is naturally cheaper.",
+                "status": "Unverifiable",
+                "verification_basis": "Claim stated without evidence or source.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "Why do you think we use sugar beets from the United States instead of sugar cane? It is because it is artificially cheaper through regulations and subsidies. Sugar cane is naturally a cheaper ingredient, but not in the United States.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E5AE0C1D20EE",
+                "item": "Civil asset forfeiture can be wielded beyond immigrants and rebels.",
+                "status": "Unverifiable",
+                "verification_basis": "Claim about the scope of civil asset forfeiture without citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "we do have civil asset forfeite, which can be wielded in many ways beyond just immigrants and rebels.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E89316069686",
+                "device": "Karl Marx's 10 planks as a checklist for communism",
+                "explanation": "To argue that the US has implemented many communist policies by measuring current policies against Marx's criteria.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "Karl Marx laid out 10 planks to transition a nation to communism... Clearly, I've already demonstrated we are there, but we're a lot closer than just that.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-A3029DB88251",
+        "theme": "Tax avoidance strategies and their opportunity costs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5858A387A3AD",
+            "local_theme_id": "LT-A3029DB88251",
+            "conclusion": "Chasing tax deductions is often not worth the time and can reduce overall wealth.",
+            "premises": [
+              "The real estate professional loophole requires 750 hours and more than 50% of time.",
+              "The short-term rental loophole requires 100 hours and more work than anyone else.",
+              "Personal experience: spending 130-150 hours on a short-term rental produced less net wealth than if the time were spent on the main business."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0A8B95F76252",
+                "item": "To qualify as a real estate tax professional, you need 750 hours in a qualified real estate profession and it must be more than 50% of your time.",
+                "status": "Unverifiable",
+                "verification_basis": "Tax rule statement without citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "You have to number one get 750 hours in a qualified real estate profession and it has to be more than 50% of your time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CAD06D5FAB23",
+                "item": "For short-term rentals, you need 100 hours of qualified activity and it must be more than anybody else.",
+                "status": "Unverifiable",
+                "verification_basis": "Tax rule statement without citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "For short-term rentals specifically, you have to get 100 hours of qualified activity working on your property. Not only that, it has to be more than anybody else.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-DE3C51AEFC0D",
+                "item": "Personal experience: 130-150 hours spent on short-term rental yielded less than if spent on the main business.",
+                "status": "Unverifiable",
+                "verification_basis": "Personal anecdote, no external verification.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "if I would have spent those 130, 150 hours just working on my business, I would have made so much more money, even after taxes",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-20523F98ADF4",
+            "local_theme_id": "LT-A3029DB88251",
+            "conclusion": "Focus on making money first, then take tax deductions that align with business activities.",
+            "premises": [
+              "Starting a business and becoming a contractor allows deductions such as home office and business vehicle.",
+              "If an expense does not help make money, it is not worth it.",
+              "100% bonus depreciation is available but recaptured on sale."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-20AB3AF53B11",
+                "item": "Turning yourself into a contractor allows home office deduction, business vehicle, and other deductions.",
+                "status": "Unverifiable",
+                "verification_basis": "General tax advice without citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "turn yourself into a contractor instead of an employee. Then you can start taking advantage of things like home office deduction, business vehicle, if you need to buy an office space or a building for your business.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-AA94BB228D14",
+                "item": "100% bonus depreciation on business vehicles allows writing off 100% of cost in the first year, but recaptured upon sale.",
+                "status": "Unverifiable",
+                "verification_basis": "Tax rule statement without citation.",
+                "speech_id": "SP-13B5AED3F296",
+                "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+                "source_excerpt": "100% bonus depreciation brought back... you can write off 100% of the cost in the first year... whenever you go to sell that vehicle, all of that is recaptured.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-2FF84E417C90",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "In 2025, about 76 million tax units will pay zero federal income tax, which is about 40% of all US households.",
+        "reason": "The speaker provides no source or methodology for this projection.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No training data to corroborate this specific projection.",
+        "source_excerpt": "In 2025, about 76 million tax units will pay zero federal income tax, which comes out to about 40% of all US households.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-417D2BF3E5FC",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "50% of US government tax revenue comes from individual income taxes, about $2.2 trillion.",
+        "reason": "No source or year is specified; the transcript does not support this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal knowledge of this exact figure.",
+        "source_excerpt": "about 50% of it comes from individual income taxes, about $2.2 trillion worth",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-ECB7789E820F",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The bottom 50% have an average tax rate of only 3.7%.",
+        "reason": "No source provided for this calculation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot verify without external data.",
+        "source_excerpt": "the bottom 50% has an average tax rate of only 3.7%",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-75680B048F17",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The top 1% pay 26.1% of their income on average in federal income taxes.",
+        "reason": "No source given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot verify from transcript alone.",
+        "source_excerpt": "the top 1% of income earners pay 26.1% of their income on average to the US government",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A6EC21830168",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "Elon Musk paid the largest tax bill in history.",
+        "reason": "Speaker does not provide any evidence or detail about this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common knowledge may exist, but transcript does not verify.",
+        "source_excerpt": "Elon Musk, who has paid the largest tax bill that's ever been paid in history",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1A462533DF5C",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The US government is taking a 10% stake in Intel and considering an ownership stake in Palantir.",
+        "reason": "No source or context provided; these are specific factual claims without support.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot confirm from transcript alone.",
+        "source_excerpt": "the US government is taking stakes of ownership in private companies, taking a 10% stake in ownership in Intel, considering taking an ownership stake in Palunteer",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5751A797EB38",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "Civil asset forfeiture can be wielded in many ways beyond immigrants and rebels.",
+        "reason": "Interpretive claim about the use of civil asset forfeiture; no evidence provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot verify scope within transcript.",
+        "source_excerpt": "we do have civil asset forfeite, which can be wielded in many ways beyond just immigrants and rebels.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D559F0F1E17C",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The Federal Reserve was created to centralize credit in the hands of the state.",
+        "reason": "Claim about the purpose of the Fed is stated without historical evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not internally verifiable.",
+        "source_excerpt": "the creation of a central bank, and in the United States that is called the Federal Reserve, the entity that controls the issuance of money and interest rates.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DB59A67A1C0A",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The government has control over the internet, broadcasting, and communication frequencies.",
+        "reason": "Assertion of government control without specifics or citations.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Partially true but overgeneralized; not verified in transcript.",
+        "source_excerpt": "we have government control over the internet. We have censorship. We have outright full ownership of broadcasting and communication frequencies.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F05B698E1CB9",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "Government subsidies and regulations make corn artificially cheaper in the US, leading to its widespread use.",
+        "reason": "No source or data provided to support the causal link.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Can be externally supported but transcript does not provide evidence.",
+        "source_excerpt": "It's because it is artificially cheaper to do things with corn here due to regulations and subsidies.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7FC58D79C676",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "Government subsidies and regulations make sugar beets artificially cheaper than sugar cane in the US.",
+        "reason": "No source or data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not verifiable from transcript.",
+        "source_excerpt": "Why do you think we use sugar beets from the United States instead of sugar cane? It is because it is artificially cheaper through regulations and subsidies.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BB01A36C6BF9",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The estate tax essentially accomplishes the abolition of all rights of inheritance.",
+        "reason": "This is an interpretive claim that equates a specific tax with a broader communist plank; no evidence is provided for the equivalence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Debatable interpretation; transcript does not provide supporting evidence.",
+        "source_excerpt": "The third plank is the abolition of all rights of inheritance. The estate tax essentially accomplishes this.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-54362747AB15",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The Federal Reserve manipulates the currency to ensure maximum employment, which prevents people from retiring or building wealth.",
+        "reason": "Claim about the Fed's motives and effects is presented as fact without evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Controversial economic interpretation; not substantiated.",
+        "source_excerpt": "the Federal Reserve is constantly manipulating the currency in order to ensure that as many people as possible have to work as many years of their life as possible, never be able to retire or build enough wealth",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7324D840BB60",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "The US government indirectly controls what crops are planted through subsidies and regulations.",
+        "reason": "Assertion without specific examples or data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Partially true but transcript does not provide verified details.",
+        "source_excerpt": "the United States government is heavily involved in subsidizing and regulating farming and agriculture across the United States to the point where the crops that get planted and the foods and the ingredients that we are able to choose are indirectly controlled by the government.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EF5DC0E534A6",
+        "speech_id": "SP-13B5AED3F296",
+        "speech_ref": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "claim": "Free public schooling and outlawing child labor constitute Marx's tenth plank and result in indoctrination and delayed useful skill acquisition.",
+        "reason": "Interpretive claim with no evidence for the indoctrination or skill delay.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Opinion presented as fact; not supported.",
+        "source_excerpt": "free public schooling, outlawing child labor, so they can't learn any useful skills for the world to be able to take care of themselves or others until they're at least 18 and now 22 or beyond and spend their entire lives being indoctrinated by government chosen curriculum.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The rich pay almost all federal income taxes while the poor pay none, disproving the narrative that the rich do not pay their fair share, and the United States has implemented many of Karl Marx's communist planks, making it closer to communism than capitalism.",
+      "themes": [
+        "Federal income tax burden distribution across income groups",
+        "The United States' implementation of Karl Marx's 10 communist planks",
+        "Tax avoidance strategies and their opportunity costs"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 15
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "e2ec0a099a1143ed3c02095b858c8c45035d2d905751c0705415be891e6ab20d",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "f64f163f4d0abe78e4d043b8c049bd674d01885f04cc9b9fc39105b02ad78d45",
+    "canonical_mapping": {
+      "speech_id": "SP-13B5AED3F296",
+      "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC29",
+      "primary_cc_confidence": 0.98,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+      "primary_cc_rationale": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T140",
+        "T82"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T140",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-C15FA7A5CD74",
+          "rationale": "The theme concerns federal income tax burden distribution, which directly aligns with 'Wealth Transfer and Tax Policy' as it involves tax policy and wealth transfer across income groups."
+        },
+        {
+          "theme_id": "T82",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-CD59BC8B102B",
+          "rationale": "The theme addresses implementation of Marx's communist planks, which contrasts with free-market capitalism; 'Economic freedom and regulatory policy' captures the ideological dimension of this contrast."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC29-T140",
+          "cc_id": "CC29",
+          "theme_id": "T140",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC29-T82",
+          "cc_id": "CC29",
+          "theme_id": "T82",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "local_cc_text": "The rich pay almost all federal income taxes while the poor pay none, disproving the narrative that the rich do not pay their fair share, and the United States has implemented many of Karl Marx's communist planks, making it closer to communism than capitalism.",
+        "canonical_cc_id": "CC29",
+        "confidence": 0.98,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "rationale": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "candidate_matches": [
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.9614595174789429
+          },
+          {
+            "id": "CC56",
+            "text": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+            "similarity": 0.486514687538147
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.34345436096191406
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.30326396226882935
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.21192365884780884
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "local_theme_id": "LT-C15FA7A5CD74",
+        "local_theme_text": "Federal income tax burden distribution across income groups",
+        "canonical_theme_id": "T140",
+        "confidence": 0.85,
+        "rationale": "The theme concerns federal income tax burden distribution, which directly aligns with 'Wealth Transfer and Tax Policy' as it involves tax policy and wealth transfer across income groups.",
+        "candidate_matches": [
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.4604053497314453
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.4062217175960541
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.3305579721927643
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.3227938115596771
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.2937306761741638
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.2819533944129944
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "local_theme_id": "LT-CD59BC8B102B",
+        "local_theme_text": "The United States' implementation of Karl Marx's 10 communist planks",
+        "canonical_theme_id": "T82",
+        "confidence": 0.7,
+        "rationale": "The theme addresses implementation of Marx's communist planks, which contrasts with free-market capitalism; 'Economic freedom and regulatory policy' captures the ideological dimension of this contrast.",
+        "candidate_matches": [
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.5011109113693237
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.36909496784210205
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.36903077363967896
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.34455132484436035
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.33469435572624207
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.32932955026626587
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "local_theme_id": "LT-A3029DB88251",
+        "local_theme_text": "Tax avoidance strategies and their opportunity costs",
+        "canonical_theme_id": "T140",
+        "confidence": 0.8,
+        "rationale": "Tax avoidance strategies and opportunity costs are a key aspect of tax policy and wealth transfer, fitting well under 'Wealth Transfer and Tax Policy'.",
+        "candidate_matches": [
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.34004855155944824
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.32921552658081055
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.26741907000541687
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.21146544814109802
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.19103366136550903
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.18777981400489807
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-8DC9609E1FE6EB",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "date": "2025-09-03",
+        "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+        "pair_id": "PAIR-CC29-T140",
+        "cc_id": "CC29",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "primary_cc_confidence": 0.98,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C15FA7A5CD74",
+        "local_theme_text": "Federal income tax burden distribution across income groups",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme concerns federal income tax burden distribution, which directly aligns with 'Wealth Transfer and Tax Policy' as it involves tax policy and wealth transfer across income groups.",
+        "local_argument_id": "LA-7E6A4D7CEC4C",
+        "conclusion": "The bottom 40% pay a net zero in federal income tax.",
+        "premises": [
+          "76 million tax units will pay zero federal income tax in 2025, which is 40% of US households.",
+          "After refunds, deductions, and credits, the net result is zero."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9FC1672046CD",
+            "item": "In 2025, about 76 million tax units will pay zero federal income tax, which comes out to about 40% of all US households.",
+            "status": "Unverifiable",
+            "verification_basis": "No source is provided; the speaker states it as fact without citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "In 2025, about 76 million tax units will pay zero federal income tax, which comes out to about 40% of all US households.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2E7D9474C138D9",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "date": "2025-09-03",
+        "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+        "pair_id": "PAIR-CC29-T140",
+        "cc_id": "CC29",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "primary_cc_confidence": 0.98,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C15FA7A5CD74",
+        "local_theme_text": "Federal income tax burden distribution across income groups",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme concerns federal income tax burden distribution, which directly aligns with 'Wealth Transfer and Tax Policy' as it involves tax policy and wealth transfer across income groups.",
+        "local_argument_id": "LA-8E2471027791",
+        "conclusion": "The top 1% pay 40% of total individual income taxes.",
+        "premises": [
+          "The top 1% pay 26.1% of their income on average.",
+          "The bottom 50% pay only 3% of total income taxes.",
+          "The top 5% pay 61%, and the top 10% pay 72% of total income taxes."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F01E9E58A895",
+            "item": "The top 1% pay 26.1% of their income on average to the US government.",
+            "status": "Unverifiable",
+            "verification_basis": "No source is given; it is stated as fact.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "the top 1% of income earners pay 26.1% of their income on average to the US government.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-91090B173093",
+            "item": "The bottom 50% pay only 3% of the total number of dollars the federal government takes in taxes.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "the bottom 50% only pay 3% of the total number of dollars that the federal government takes in taxes",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F45BA52A1667",
+            "item": "The top 1% pay a whopping 40% of all of the dollars in taxes.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "the top 1% pay a whopping 40% of all of the dollars in taxes that the US government takes every year",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1447C3F9C245",
+            "item": "The top 5% pay 61% of the total tax burden, and the top 10% pay 72%.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "we are now at 61% of the total tax burden paid by the top 5%... 72% of the tax burden",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-A5593CDFA9A8EF",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "date": "2025-09-03",
+        "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+        "pair_id": "PAIR-CC29-T140",
+        "cc_id": "CC29",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "primary_cc_confidence": 0.98,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C15FA7A5CD74",
+        "local_theme_text": "Federal income tax burden distribution across income groups",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme concerns federal income tax burden distribution, which directly aligns with 'Wealth Transfer and Tax Policy' as it involves tax policy and wealth transfer across income groups.",
+        "local_argument_id": "LA-C65915694C86",
+        "conclusion": "The data destroys the narrative that the rich don't pay their fair share.",
+        "premises": [
+          "The top 1% pay the highest percentage of their income in taxes.",
+          "The top 1% pay 40% of total income taxes.",
+          "Those who still claim unfairness are motivated by resentment and envy."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2B82C6640F45",
+            "item": "Rebuttal that the rich still do not pay their fair share is dismissed as resentment.",
+            "status": "Disputed",
+            "verification_basis": "The speaker dismisses the counter-argument without providing evidence that the claim is false; it is a rhetorical dismissal.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "then I would just say you're full of resentment and envy because there's no amount that the rich could pay before you would be satisfied.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-AED636EFDDBAB1",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "date": "2025-09-03",
+        "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+        "pair_id": "PAIR-CC29-T82",
+        "cc_id": "CC29",
+        "theme_id": "T82",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "primary_cc_confidence": 0.98,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-CD59BC8B102B",
+        "local_theme_text": "The United States' implementation of Karl Marx's 10 communist planks",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The theme addresses implementation of Marx's communist planks, which contrasts with free-market capitalism; 'Economic freedom and regulatory policy' captures the ideological dimension of this contrast.",
+        "local_argument_id": "LA-FCF8FB829D70",
+        "conclusion": "We are a lot closer to a communist nation than we are to a capitalist nation.",
+        "premises": [
+          "Plank 1: Abolition of property in land – property taxes act as government rent.",
+          "Plank 2: Heavy progressive income tax – US has progressive income tax.",
+          "Plank 3: Abolition of inheritance rights – estate tax accomplishes this.",
+          "Plank 4: Confiscation of property of immigrants and rebels – civil asset forfeiture serves this.",
+          "Plank 5: Centralization of credit – the Federal Reserve central bank.",
+          "Plank 6: Centralization of communication and transport – government controls internet, broadcasting, roads.",
+          "Plank 7: Extension of factories owned by state – US government taking stakes in private companies like Intel and Palantir.",
+          "Plank 8: Equal obligation to work – Federal Reserve manipulates currency for maximum employment.",
+          "Plank 9: Combination of agriculture with manufacturing – government subsidies and regulations shape agriculture.",
+          "Plank 10: Free education for all children – public schools and abolition of child labor."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-4477931200D1",
+            "item": "The estate tax essentially accomplishes the abolition of inheritance rights.",
+            "status": "Disputed",
+            "verification_basis": "The existence of estate tax is factual, but its equivalence to abolition of inheritance rights is interpretive and disputed.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "The third plank is the abolition of all rights of inheritance. The estate tax essentially accomplishes this.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-47308EA9C2E6",
+            "item": "The US government is taking a 10% stake in Intel and considering an ownership stake in Palantir.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for these specific claims.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "the US government is taking stakes of ownership in private companies, taking a 10% stake in ownership in Intel, considering taking an ownership stake in Palunteer",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F3E2E3C3D74D",
+            "item": "The Federal Reserve manipulates the currency to ensure maximum employment, preventing people from retiring and building wealth.",
+            "status": "Unverifiable",
+            "verification_basis": "Interpretive claim about Fed's motives and effects; no source or evidence provided.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "the Federal Reserve is constantly manipulating the currency in order to ensure that as many people as possible have to work as many years of their life as possible, never be able to retire or build enough wealth",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C9562F86395C",
+            "item": "Corn is artificially cheaper in the US due to regulations and subsidies.",
+            "status": "Unverifiable",
+            "verification_basis": "Claim stated without supporting evidence or citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "Why do you think corn is in everything in the United States but not around the world? It's because it is artificially cheaper to do things with corn here due to regulations and subsidies.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-129D6AF809ED",
+            "item": "Sugar beets are artificially cheaper than sugar cane in the US due to regulations and subsidies, even though sugar cane is naturally cheaper.",
+            "status": "Unverifiable",
+            "verification_basis": "Claim stated without evidence or source.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "Why do you think we use sugar beets from the United States instead of sugar cane? It is because it is artificially cheaper through regulations and subsidies. Sugar cane is naturally a cheaper ingredient, but not in the United States.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E5AE0C1D20EE",
+            "item": "Civil asset forfeiture can be wielded beyond immigrants and rebels.",
+            "status": "Unverifiable",
+            "verification_basis": "Claim about the scope of civil asset forfeiture without citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "we do have civil asset forfeite, which can be wielded in many ways beyond just immigrants and rebels.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-E89316069686",
+            "device": "Karl Marx's 10 planks as a checklist for communism",
+            "explanation": "To argue that the US has implemented many communist policies by measuring current policies against Marx's criteria.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "Karl Marx laid out 10 planks to transition a nation to communism... Clearly, I've already demonstrated we are there, but we're a lot closer than just that.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-5E482676756419",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "date": "2025-09-03",
+        "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+        "pair_id": "PAIR-CC29-T140",
+        "cc_id": "CC29",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "primary_cc_confidence": 0.98,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A3029DB88251",
+        "local_theme_text": "Tax avoidance strategies and their opportunity costs",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Tax avoidance strategies and opportunity costs are a key aspect of tax policy and wealth transfer, fitting well under 'Wealth Transfer and Tax Policy'.",
+        "local_argument_id": "LA-5858A387A3AD",
+        "conclusion": "Chasing tax deductions is often not worth the time and can reduce overall wealth.",
+        "premises": [
+          "The real estate professional loophole requires 750 hours and more than 50% of time.",
+          "The short-term rental loophole requires 100 hours and more work than anyone else.",
+          "Personal experience: spending 130-150 hours on a short-term rental produced less net wealth than if the time were spent on the main business."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0A8B95F76252",
+            "item": "To qualify as a real estate tax professional, you need 750 hours in a qualified real estate profession and it must be more than 50% of your time.",
+            "status": "Unverifiable",
+            "verification_basis": "Tax rule statement without citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "You have to number one get 750 hours in a qualified real estate profession and it has to be more than 50% of your time.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-CAD06D5FAB23",
+            "item": "For short-term rentals, you need 100 hours of qualified activity and it must be more than anybody else.",
+            "status": "Unverifiable",
+            "verification_basis": "Tax rule statement without citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "For short-term rentals specifically, you have to get 100 hours of qualified activity working on your property. Not only that, it has to be more than anybody else.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-DE3C51AEFC0D",
+            "item": "Personal experience: 130-150 hours spent on short-term rental yielded less than if spent on the main business.",
+            "status": "Unverifiable",
+            "verification_basis": "Personal anecdote, no external verification.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "if I would have spent those 130, 150 hours just working on my business, I would have made so much more money, even after taxes",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-5C7DDDD57B4193",
+        "speech_id": "SP-13B5AED3F296",
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "date": "2025-09-03",
+        "source_hash": "b703b6e657b3d865082e2a536cb6f0cfd037f7262474ebe25c3c7cba9bfe8c47",
+        "pair_id": "PAIR-CC29-T140",
+        "cc_id": "CC29",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to the canonical claim of CC29, directly supporting it by arguing that the rich pay most taxes and the US has implemented communist policies.",
+        "primary_cc_confidence": 0.98,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A3029DB88251",
+        "local_theme_text": "Tax avoidance strategies and their opportunity costs",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Tax avoidance strategies and opportunity costs are a key aspect of tax policy and wealth transfer, fitting well under 'Wealth Transfer and Tax Policy'.",
+        "local_argument_id": "LA-20523F98ADF4",
+        "conclusion": "Focus on making money first, then take tax deductions that align with business activities.",
+        "premises": [
+          "Starting a business and becoming a contractor allows deductions such as home office and business vehicle.",
+          "If an expense does not help make money, it is not worth it.",
+          "100% bonus depreciation is available but recaptured on sale."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-20AB3AF53B11",
+            "item": "Turning yourself into a contractor allows home office deduction, business vehicle, and other deductions.",
+            "status": "Unverifiable",
+            "verification_basis": "General tax advice without citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "turn yourself into a contractor instead of an employee. Then you can start taking advantage of things like home office deduction, business vehicle, if you need to buy an office space or a building for your business.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-AA94BB228D14",
+            "item": "100% bonus depreciation on business vehicles allows writing off 100% of cost in the first year, but recaptured upon sale.",
+            "status": "Unverifiable",
+            "verification_basis": "Tax rule statement without citation.",
+            "speech_id": "SP-13B5AED3F296",
+            "source_speech_filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+            "source_excerpt": "100% bonus depreciation brought back... you can write off 100% of the cost in the first year... whenever you go to sell that vehicle, all of that is recaptured.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "e2ec0a099a1143ed3c02095b858c8c45035d2d905751c0705415be891e6ab20d",
+  "complete": true
+}

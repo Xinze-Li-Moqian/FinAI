@@ -1,0 +1,71 @@
+{
+  "dependency_hash": "505a04d6e3daba00e4e16e399cc1cb4c8c3357d6afa44513bd71c54c12a166d3",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC53-T106",
+    "cc_id": "CC53",
+    "theme_id": "T106",
+    "authoritative_anchor": "cc-cc53-theme-t106",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC53-T106-216F1A50F4",
+        "pair_id": "PAIR-CC53-T106",
+        "conclusion": "Official CPI data understates the true increase in vehicle prices because it adjusts for quality improvements.",
+        "source_contribution_ids": [
+          "CONTRIB-48D2A23954639B"
+        ],
+        "source_speech_filenames": [
+          "20251117_Subprime Auto Loans are Imploding.txt"
+        ],
+        "premise_synthesis": "The BLS adjusts new and used car prices for quality changes such as safety features and mechanical enhancements. Even if nominal prices rise, quality adjustments reduce the reported cost. In practice, consumers cannot opt out of these features and face higher prices.",
+        "conclusion_supported": "The official CPI understates vehicle price inflation due to quality adjustments, establishing that reported vehicle prices do not reflect the true cost consumers face.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-48D2A23954639B"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "BLS quality adjustment methodology",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the adjustment process and references BLS website.",
+            "source_contribution_ids": [
+              "CONTRIB-48D2A23954639B"
+            ],
+            "source_speech_filenames": [
+              "20251117_Subprime Auto Loans are Imploding.txt"
+            ],
+            "source_excerpt": "You can see that straight from their website when they talk about quality adjustment in the CPI."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Based on a single speech from 2025-11-17. No cross-speech evolution can be inferred; reasoning is confined to this date.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-48D2A23954639B"
+    ],
+    "source_speech_filenames": [
+      "20251117_Subprime Auto Loans are Imploding.txt"
+    ],
+    "generated_at": "2026-07-15T04:09:12+00:00",
+    "record_hash": "0666c11ee00b69778887b89ac6e78c34ff05c319072645d24659878bb22dfd09"
+  },
+  "complete": true
+}

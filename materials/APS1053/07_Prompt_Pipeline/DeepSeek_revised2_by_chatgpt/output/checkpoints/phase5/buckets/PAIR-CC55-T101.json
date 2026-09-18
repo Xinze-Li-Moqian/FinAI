@@ -1,0 +1,83 @@
+{
+  "dependency_hash": "4288c3805b26f94ed52135da6373f298c7200a543bd37df2b9b9536768dea2bc",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC55-T101",
+    "cc_id": "CC55",
+    "theme_id": "T101",
+    "authoritative_anchor": "cc-cc55-theme-t101",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC55-T101-BB8B0A0301",
+        "pair_id": "PAIR-CC55-T101",
+        "conclusion": "Gold is crashing because the market does not expect the current conflict to be long-lived, unlike the 1979 Iranian revolution.",
+        "source_contribution_ids": [
+          "CONTRIB-1C5BCD26A26966"
+        ],
+        "source_speech_filenames": [
+          "20260327_Why is Gold Crashing from the War.txt"
+        ],
+        "premise_synthesis": "In 1979, despite a major oil shock from the Iranian revolution, gold rose and continued its massive rise. If this conflict were expected to be long and severe, gold would be rising, not falling. Therefore, the market is not pricing in a prolonged conflict.",
+        "conclusion_supported": "The current gold crash is interpreted as a market signal that the geopolitical conflict is expected to be short-lived, contrary to historical precedent from 1979.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-1C5BCD26A26966"
+            ],
+            "source_speech_filenames": [
+              "20260327_Why is Gold Crashing from the War.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete example of a gold crash driven by a liquidity crisis, which is explicitly identified in CC55 as a key mechanism linking economic downturn to gold. It elaborates on additional factors (blowoff top, monetary policy repricing, conflict duration) that instantiate CC55's broader claim about high economic risk."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "1979 Iranian revolution: crude oil production declined by almost 5 million barrels per day (7% of world production)",
+            "status": "Verified",
+            "verification_basis": "Exact numbers provided in transcript",
+            "source_contribution_ids": [
+              "CONTRIB-1C5BCD26A26966"
+            ],
+            "source_speech_filenames": [
+              "20260327_Why is Gold Crashing from the War.txt"
+            ],
+            "source_excerpt": "these strikes began in 1978. And by January of 1979, crude oil production had declined by almost 5 million barrels per day, which was about 7% of world production at that time."
+          },
+          {
+            "item": "Gold rose during the 1979 period and continued its massive rise in subsequent years",
+            "status": "Unverifiable",
+            "verification_basis": "General claim without specific data; transcript does not provide specific gold price figures for that period.",
+            "source_contribution_ids": [
+              "CONTRIB-1C5BCD26A26966"
+            ],
+            "source_speech_filenames": [
+              "20260327_Why is Gold Crashing from the War.txt"
+            ],
+            "source_excerpt": "overall, gold rose during that time. And if you follow gold price further forward and see what it did over the following years, you see gold continued its massive rise."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "The argument is derived from a single speech (20260327_Why is Gold Crashing from the War.txt) dated 2026-03-27. No cross-speech temporal evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-1C5BCD26A26966"
+    ],
+    "source_speech_filenames": [
+      "20260327_Why is Gold Crashing from the War.txt"
+    ],
+    "generated_at": "2026-07-15T04:21:24+00:00",
+    "record_hash": "4aef6b0230c3556981e32e70f02f5dac84ac6dda8fd0e42a7a92c71ff7e66cfc"
+  },
+  "complete": true
+}

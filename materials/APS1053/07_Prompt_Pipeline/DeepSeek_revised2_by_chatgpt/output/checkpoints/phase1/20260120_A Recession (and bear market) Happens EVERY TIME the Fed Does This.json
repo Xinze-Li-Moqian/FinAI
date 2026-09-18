@@ -1,0 +1,368 @@
+{
+  "dependencies": {
+    "source_hash": "d1f73f00b546efce2dae75cdc327f2f956a767330b93189207b400dd0818c355",
+    "filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-F9B2CF903DA9",
+    "filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+    "stem": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This",
+    "date": "2026-01-20",
+    "source_hash": "d1f73f00b546efce2dae75cdc327f2f956a767330b93189207b400dd0818c355",
+    "source_character_count": 15128,
+    "central_claim": "The current yield curve uninversion and steepening have already resulted in a recession and bear market when broader definitions are used, confirming that the historical pattern holds and this time is not different.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A56F2705E499",
+        "theme": "Yield curve inversion and steepening as recession predictors",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9D2C40EE9664",
+            "local_theme_id": "LT-A56F2705E499",
+            "conclusion": "The inverted yield curve of 2022-2024 predicted a recession, and this prediction has already been fulfilled by GDP declines in 2022 and 2025.",
+            "premises": [
+              "Since 1900, the yield curve has inverted 28 times and recessions followed 22 times.",
+              "The yield curve was inverted from July 2022 to August 2024.",
+              "GDP declined in Q2 2022 (after revision) and Q1 2025 after the uninversion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EE533B5906D6",
+                "item": "28 inversions since 1900, 22 followed by recessions",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the numbers.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "if we go back all the way to 1900, the yield curve has inverted 28 times. and recessions have followed 22 of those times.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-DC2B4B0B5BDE",
+                "item": "GDP declined in Q2 2022 and Q1 2025 after uninversion",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript mentions GDP growth chart and specific quarters but does not cite a specific data source.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "quarter 2 of 2022 was revised upwards. So we do not have the classical definition of a recession met even though we had one quarter of a decline in GDP. ... we also got a decline in GDP in quarter 1 of 2025",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-C9316612AD44",
+            "local_theme_id": "LT-A56F2705E499",
+            "conclusion": "Yield curve steepening after inversion is a more reliable recession predictor in the post-1980 era.",
+            "premises": [
+              "From 1980 onwards, every time the yield curve inverted and then steepened, a recession followed (1980, 1981-82, 1990, 2001, 2007, 2020).",
+              "The current period is the only exception if we use strict definitions."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5061AD03B12B",
+                "item": "Historical chart from 1980s shows recessions after inversion and steepening",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes a chart but no specific data points given.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "we can see every time it dips below and then starts to move back higher, we have a recession. Back in 1980, again, in 1981 and 82, we had an inversion and then a steepening leading to the 1990 recession. We had an inversion in 2000 and then a steepening leading to the 2001 recession. We had an inversion very briefly and then a steepening leading to the 2007 recession. Then we had a very very brief inversion and then steepening leading to the 2020 recession",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-AE9FD34777B1",
+        "theme": "Arbitrariness of recession and bear market definitions",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7BA25C2FC9FD",
+            "local_theme_id": "LT-AE9FD34777B1",
+            "conclusion": "The traditional two-quarter GDP decline definition is arbitrary and can misrepresent economic reality.",
+            "premises": [
+              "One quarter of a huge decline matters more than four quarters of slight decline.",
+              "The official definition is not set by law but is a common convention.",
+              "2022 had one quarter of GDP decline after revision but was not called a recession due to jobs."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6161EA0717E6",
+                "item": "2022 had two consecutive quarters of GDP decline initially but then revised to one quarter, not classified as recession",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states the revision but no external source.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "in 2022 they came out and said, you know what, we don't actually have a recession even though we have two consecutive quarters of a decline in GDP. we're not going to classify it as a recession because of jobs. But now if you go back and look at the GDP data, quarter 2 of 2022 was revised upwards.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-2888D0966991",
+                "item": "Binary definition doesn't capture financial struggle of everyday Americans",
+                "status": "Unverifiable",
+                "verification_basis": "This is a subjective claim.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "that kind of binary definition doesn't really meet people in the real world in a way that matters to most.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-8175EF74D014",
+            "local_theme_id": "LT-AE9FD34777B1",
+            "conclusion": "Using a more flexible interpretation, the 2022 and 2025 GDP declines and bear markets constitute the expected recession and bear market after yield curve uninversion.",
+            "premises": [
+              "GDP declined in 2022 and 2025.",
+              "Bear markets (20% drops) occurred in 2022 and 2025.",
+              "These declines followed the yield curve inversion and uninversion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-092B255381D4",
+                "item": "Bear market in 2022 (10 months) and 2025 (20% drop)",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes S&P 500 chart with bear markets but no external data.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "we got a bear market in 2025, just a little under one year ago. We also got a bear market in 2022. And that one lasted longer about 10 months.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-1216C6E8D7D9",
+                "item": "GDP declines in Q1 2022 and Q1 2025",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript mentions but no source.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "Both quarter 1 of 2022 and quarter 1 of 2025",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4E563B6FB721",
+        "theme": "Difficulty of market timing based on yield curve signals",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0AB955564741",
+            "local_theme_id": "LT-4E563B6FB721",
+            "conclusion": "Timing the market based on yield curve uninversion is nearly impossible because the lag is variable and markets are forward-looking.",
+            "premises": [
+              "Historical examples show bear markets starting before, during, and after recessions.",
+              "The stock market is a forward-looking discounting machine, so expectations are priced in immediately."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-95F4B3C85949",
+                "item": "List of historical bear markets relative to recessions (started before, after, or with)",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes a historical chart but no specific data points.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "Let's go back through history the other way, and we can see this bear market started before the recession, whereas this bear market started well after the recession. This bear market started well before the recession. This one started well before the recession. This one started at the same time as the recession. This one started before the recession. This bear market happened with no recession. This bear market started before the recession. This bear market started before the recession and continued well after the recession. This bear market started before the recession and ended before the recession ended. This bear market started before and ended during. This bear market happened with no r",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-8BE4EA9FB264",
+                "device": "Stock market as a forward-looking machine",
+                "explanation": "It illustrates that the market prices in future expectations, so selling after a signal may be too late.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "The stock market is a forward-looking machine. It's a future discounting machine.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4CC4D1D85052",
+        "theme": "Performance of investing at all-time highs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FA7435E3CE7E",
+            "local_theme_id": "LT-4CC4D1D85052",
+            "conclusion": "Investing at all-time highs historically outperforms investing on other days, so selling based on highs is counterproductive.",
+            "premises": [
+              "A chart shows that for timeframes from 3 months to 5 years, investing on new highs gives better returns.",
+              "This is because assets in uptrends frequently hit new highs."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D5910CFAFBFE",
+                "item": "Chart showing performance of investing at new highs vs other days",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes a chart but no specific data or source.",
+                "speech_id": "SP-F9B2CF903DA9",
+                "source_speech_filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+                "source_excerpt": "take a look at this chart, which indicates your performance investing in the market by only buying on days where you hit a new high versus buying on any other day. And you can see that on time frames varying from 3 months all the way to 5 years, generally investing on new highs gets you better performance",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-9FA88525173E",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "The 2-year yield is just over 3.5% and the 10-year yield is at 4.2%.",
+        "reason": "The transcript does not provide a source for these interest rate figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Interest rate data is typically available from financial databases.",
+        "source_excerpt": "The 2-year yield is just over 3.5%. But the 10-year yield is at 4.2%",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-C7AB9B2FFC8D",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "From July 2022 to August 2024, the yield curve was inverted.",
+        "reason": "No source for the inversion period is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Yield curve data is publicly available.",
+        "source_excerpt": "from about July of 2022 until about August of 2024, so for just over 2 years, this yield curve was inverted.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0C1D349BE04F",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "Since 1900, the yield curve has inverted 28 times and recessions followed 22 of those.",
+        "reason": "The transcript does not cite a source for this statistic.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common financial knowledge, but specific numbers may vary.",
+        "source_excerpt": "if we go back all the way to 1900, the yield curve has inverted 28 times. and recessions have followed 22 of those times.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3C60A5838A06",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "There were inversions followed by steepening leading to recessions in 1980, 1981-82, 1990, 2001, 2007, and 2020.",
+        "reason": "Historical pattern described without data source.",
+        "memory_check": "Corroborated",
+        "memory_note": "Generally accepted financial history.",
+        "source_excerpt": "Back in 1980, again, in 1981 and 82, we had an inversion and then a steepening leading to the 1990 recession. We had an inversion in 2000 and then a steepening leading to the 2001 recession. We had an inversion very briefly and then a steepening leading to the 2007 recession. Then we had a very very brief inversion and then steepening leading to the 2020 recession",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5F945959BD07",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "Quarter 2 of 2022 GDP was revised upwards, leaving only one quarter of decline.",
+        "reason": "No source for GDP revision.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "GDP data is available from BEA.",
+        "source_excerpt": "But now if you go back and look at the GDP data, quarter 2 of 2022 was revised upwards.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C4ED19E6176D",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "There was a decline in GDP in quarter 1 of 2025.",
+        "reason": "No source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "GDP data is available from BEA.",
+        "source_excerpt": "we also got a decline in GDP in quarter 1 of 2025",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-465B62BBB6D6",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "There was a bear market in 2025 (20% drop) and a bear market in 2022 (10 months).",
+        "reason": "No source for S&P 500 data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "S&P 500 data is publicly available.",
+        "source_excerpt": "we got a bear market in 2025, just a little under one year ago. We also got a bear market in 2022. And that one lasted longer about 10 months.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-BA0C075E1053",
+        "speech_id": "SP-F9B2CF903DA9",
+        "speech_ref": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "claim": "Investing at all-time highs yields better performance over timeframes from 3 months to 5 years.",
+        "reason": "No source for the chart or data.",
+        "memory_check": "Corroborated",
+        "memory_note": "Market timing studies are mixed, but transcript internally asserts this.",
+        "source_excerpt": "take a look at this chart, which indicates your performance investing in the market by only buying on days where you hit a new high versus buying on any other day. And you can see that on time frames varying from 3 months all the way to 5 years, generally investing on new highs gets you better performance",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current yield curve uninversion and steepening have already resulted in a recession and bear market when broader definitions are used, confirming that the historical pattern holds and this time is not different.",
+      "themes": [
+        "Yield curve inversion and steepening as recession predictors",
+        "Arbitrariness of recession and bear market definitions",
+        "Difficulty of market timing based on yield curve signals",
+        "Performance of investing at all-time highs"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-14T23:09:51+00:00",
+    "record_hash": "10732d6dda3b44b1fa1b9e1f2e5348866b9c4236a44e24c44a37d4b04021313b",
+    "analysis_truncated": false
+  },
+  "output_hash": "b94dc25ba494efb0e5da850f120ca1adb0915b6588d71af509eeb7b1be7aff4c",
+  "complete": true
+}

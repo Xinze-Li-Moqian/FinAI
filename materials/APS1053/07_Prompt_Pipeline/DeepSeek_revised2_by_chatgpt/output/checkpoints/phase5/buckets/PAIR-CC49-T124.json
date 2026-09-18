@@ -1,0 +1,513 @@
+{
+  "dependency_hash": "1b2f5bbb12bab084ab29df9f3ef8c45e3f2fad889c4c5a9c094abebbd2dd18aa",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC49-T124",
+    "cc_id": "CC49",
+    "theme_id": "T124",
+    "authoritative_anchor": "cc-cc49-theme-t124",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-ED602F5CE1",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "A dollar shortage is laying the groundwork for a liquidity crisis.",
+        "source_contribution_ids": [
+          "CONTRIB-5F374D59D8EA73"
+        ],
+        "source_speech_filenames": [
+          "20260411_The Iran War Just Killed the Petrodollar.txt"
+        ],
+        "premise_synthesis": "The US trade deficit has collapsed in October 2025, meaning fewer dollars are being exported into the global system. Meanwhile, there is at least $65 trillion in hidden dollar-denominated debt that needs servicing, creating a demand for dollars that exceeds supply.",
+        "conclusion_supported": "The contraction of the US trade deficit combined with massive hidden dollar-denominated debt is setting up a severe dollar shortage, potentially triggering a liquidity crisis.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-5F374D59D8EA73"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Study claiming at least $65 trillion in hidden dollar-denominated debt",
+            "status": "Unverifiable",
+            "verification_basis": "No source or study cited.",
+            "source_contribution_ids": [
+              "CONTRIB-5F374D59D8EA73"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "years ago there was a study done trying to find out how much dollar denominated debt there was around the world and all the way back in 2023, they said that they thought there was probably at least 65 trillion dollars in hidden debt that was not accounted for."
+          },
+          {
+            "item": "Chart of US trade deficit showing collapse in October 2025",
+            "status": "Unverifiable",
+            "verification_basis": "No actual chart provided; specific data points not verified.",
+            "source_contribution_ids": [
+              "CONTRIB-5F374D59D8EA73"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "This is a chart of the US trade deficit. ... there was a massive increase in the trade deficit followed by a big collapse in the trade deficit... collapsed really, really far in October of 2025"
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-04-11, referencing data from October 2025. It does not show changes within the speech period, and cross-speech evolution cannot be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-51E285ABC9",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "Stablecoins regulated by the Clarity Act will operate as a quasi-central bank digital currency, enabling fine-tuned monetary control but hidden under the guise of private cryptocurrency.",
+        "source_contribution_ids": [
+          "CONTRIB-AA6B038F32F5AE"
+        ],
+        "source_speech_filenames": [
+          "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+        ],
+        "premise_synthesis": "CBDCs would consolidate ledgers and allow specific interest rates or penalties on transactions, enabling fine-tuned control. Stablecoins are private but explicitly regulated by Congress and the Treasury, making them an extension of the Treasury. The Clarity Act allows rewards based on activity, including holding period, which can be used to fine-tune incentives globally without political backlash.",
+        "conclusion_supported": "The Clarity Act effectively creates a mechanism for the US government to exert quasi-CBDC control over money through regulated stablecoins, avoiding the political resistance to a direct CBDC.",
+        "relationship_roles": [
+          {
+            "relationship_type": "application",
+            "source_contribution_ids": [
+              "CONTRIB-AA6B038F32F5AE"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "relationship_explanations": [
+              "The speech presents the Clarity Act stablecoin regulation as a concrete legislative instance of the broader strategy (described in CC49) of using stablecoin regulation to protect dollar dominance, arguing it functions as a quasi-CBDC that channels global purchasing power into US treasuries."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "CBDC hypothetical: negative interest rates for long-held money, penalties for exceeding gasoline purchase averages, cash back for green energy.",
+            "status": "Unverifiable",
+            "verification_basis": "These are hypothetical scenarios described by the speaker, not based on factual data.",
+            "source_contribution_ids": [
+              "CONTRIB-AA6B038F32F5AE"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "you could earn 3% in your high yield savings account, but only on dollars that are held there for less than a year... once you hold dollars in your account for ... a year or longer, now suddenly you start paying an interest rate to keep that money there"
+          },
+          {
+            "item": "Stablecoins will be an extension of the Treasury.",
+            "status": "Unverifiable",
+            "verification_basis": "This is an interpretive claim; the transcript does not provide evidence that the Treasury directly controls stablecoin operations.",
+            "source_contribution_ids": [
+              "CONTRIB-AA6B038F32F5AE"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "stable coins are going to be an extension of the Treasury"
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Boiling the frog",
+            "explanation": "Used to convey that CBDC-like controls will be implemented gradually through stablecoins to avoid public opposition.",
+            "source_contribution_ids": [
+              "CONTRIB-AA6B038F32F5AE"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ]
+          },
+          {
+            "device": "Trojan horse (repeated)",
+            "explanation": "Reinforces that stablecoins are a deceptive vehicle for introducing CBDC-like control.",
+            "source_contribution_ids": [
+              "CONTRIB-AA6B038F32F5AE"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-05-06. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-CEE4D6D429",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "The Clarity Act's compromise on stablecoin rewards allows rewards tied to activity, which effectively functions like interest, making stablecoins globally attractive and channeling dollars into US treasuries, thereby supporting dollar hegemony.",
+        "source_contribution_ids": [
+          "CONTRIB-7CDDBB21C6E3B3"
+        ],
+        "source_speech_filenames": [
+          "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+        ],
+        "premise_synthesis": "The original agreement supposedly banned interest on stablecoins, but the Clarity Act compromise restricts passive interest but allows rewards tied to activity such as trading, transactions, or staking. These rewards can be structured to mimic interest. Additionally, rewards can be based on holding period. Since stablecoins are backed by US Treasuries, global usage of stablecoins increases demand for Treasuries, reinforcing dollar dominance.",
+        "conclusion_supported": "The Clarity Act's reward structure effectively creates a yield-bearing stablecoin system that funnels global capital into US Treasuries, thereby propping up the dollar's reserve status.",
+        "relationship_roles": [
+          {
+            "relationship_type": "application",
+            "source_contribution_ids": [
+              "CONTRIB-7CDDBB21C6E3B3"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "relationship_explanations": [
+              "The speech presents the Clarity Act stablecoin regulation as a concrete legislative instance of the broader strategy (described in CC49) of using stablecoin regulation to protect dollar dominance, arguing it functions as a quasi-CBDC that channels global purchasing power into US treasuries."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Companies like Circle were up 20% on Monday, May 4th.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this as a fact but provides no source or supporting data.",
+            "source_contribution_ids": [
+              "CONTRIB-7CDDBB21C6E3B3"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "companies like Circle were up 20% on Monday, May 4th"
+          },
+          {
+            "item": "The Clarity Act's language restricts saving-like interest but allows rewards tied to activity such as trading, transactions, or staking, and rewards can be based on holding period.",
+            "status": "Verified",
+            "verification_basis": "The transcript directly describes the legislative language and compromise.",
+            "source_contribution_ids": [
+              "CONTRIB-7CDDBB21C6E3B3"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "the language is updated to restrict crypto companies from paying savings account-like interest or yield to users on passive stable coin deposits leaving that function to traditional banks. So the compromise was that the bill allows rewards as usdriven incentives that could be tied to activity like trading transactions or staking."
+          },
+          {
+            "item": "Global purchasing power will be funneled into US treasuries through stablecoins.",
+            "status": "Unverifiable",
+            "verification_basis": "This is a predictive assertion without supporting evidence in the transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-7CDDBB21C6E3B3"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "behind the scenes, your purchasing power will be funneled into US treasuries"
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Trojan horse",
+            "explanation": "Illustrates that stablecoins appear as harmless private cryptocurrencies but actually serve as a vehicle for extending US government control over global dollar usage and treasury demand.",
+            "source_contribution_ids": [
+              "CONTRIB-7CDDBB21C6E3B3"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ]
+          },
+          {
+            "device": "Bretton Woods 3.0",
+            "explanation": "Draws a parallel to historical Bretton Woods agreements that established the dollar as global reserve currency; this regulation is portrayed as the next phase.",
+            "source_contribution_ids": [
+              "CONTRIB-7CDDBB21C6E3B3"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-05-06. It references a market event on May 4, but no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-28A4D1D24D",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "The current US treasury demand problem (high yields) necessitates new mechanisms to attract dollar users; stablecoin regulation is a pillar of the administration's plan, analogous to the petrodollar agreement.",
+        "source_contribution_ids": [
+          "CONTRIB-F030D4C91C70DB"
+        ],
+        "source_speech_filenames": [
+          "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+        ],
+        "premise_synthesis": "Treasury yields are at multi-decade highs (30-year over 5%, 20-year over 5%, 10-year breaking out). Historically, the US found new dollar users via the petrodollar agreement to create demand for Treasuries. Now, stablecoins will attract global users to hold dollars, which are backed by Treasuries, thus boosting demand.",
+        "conclusion_supported": "The US government is using stablecoin regulation as a strategic tool to generate new demand for Treasuries, drawing a direct parallel to the 1974 petrodollar agreement.",
+        "relationship_roles": [
+          {
+            "relationship_type": "application",
+            "source_contribution_ids": [
+              "CONTRIB-F030D4C91C70DB"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "relationship_explanations": [
+              "The speech presents the Clarity Act stablecoin regulation as a concrete legislative instance of the broader strategy (described in CC49) of using stablecoin regulation to protect dollar dominance, arguing it functions as a quasi-CBDC that channels global purchasing power into US treasuries."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "30-year yield exceeding 5%, 20-year yield also exceeding 5%, 10-year yield breaking out.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states these yields without citing a source or providing a date context.",
+            "source_contribution_ids": [
+              "CONTRIB-F030D4C91C70DB"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "the 30-year exceeding 5% now the 20-year yield also exceeding 5% and the 10-year yield breaking out"
+          },
+          {
+            "item": "US government is in desperate need of finding new demand for its treasuries.",
+            "status": "Unverifiable",
+            "verification_basis": "This is an assertion of government urgency with no supporting evidence.",
+            "source_contribution_ids": [
+              "CONTRIB-F030D4C91C70DB"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ],
+            "source_excerpt": "US government is in desperate need of finding new demand for its treasuries"
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Petrodollar agreement",
+            "explanation": "Used to explain that just as the 1974 oil-for-treasuries pact forced global oil buyers to hold dollars, stablecoins will similarly compel global users to channel purchasing power into US treasuries.",
+            "source_contribution_ids": [
+              "CONTRIB-F030D4C91C70DB"
+            ],
+            "source_speech_filenames": [
+              "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-05-06. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-E8029C7711",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "The petrodollar system is no longer functioning as intended; the Iran war has exposed its failure.",
+        "source_contribution_ids": [
+          "CONTRIB-FA5959FA152E68"
+        ],
+        "source_speech_filenames": [
+          "20260411_The Iran War Just Killed the Petrodollar.txt"
+        ],
+        "premise_synthesis": "During previous crises (Russia-Ukraine, China-Taiwan, SVB, Hamas), money flowed into Treasuries. However, during the Iran war, yields skyrocketed because Treasuries were sold off. This occurred because oil price increases demanded more dollars from importers, causing them to sell Treasuries, while Gulf producers could not recycle dollars due to the Strait closure. Thus the petrodollar mechanism broke.",
+        "conclusion_supported": "The Iran war has shattered the normal safe-haven demand for Treasuries, revealing the petrodollar system's failure to maintain dollar dominance during this crisis.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-FA5959FA152E68"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Treasury yields skyrocketed at the start of the Iran war",
+            "status": "Unverifiable",
+            "verification_basis": "No source or data provided; the speaker only asserts this.",
+            "source_contribution_ids": [
+              "CONTRIB-FA5959FA152E68"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "yields on US government Treasuries from the start of the war absolutely skyrocketed"
+          },
+          {
+            "item": "Previous crises (Russia-Ukraine, China-Taiwan, SVB, Hamas) sent money into Treasuries",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for these historical examples.",
+            "source_contribution_ids": [
+              "CONTRIB-FA5959FA152E68"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "When Russia invaded Ukraine, when China was threatening taking over Taiwan, when Silicon Valley Bank collapsed in 2023, when Hamas attacked Israel. All of these are examples of international, global, geopolitical events and crises that actually sent money into Treasuries, pushing the prices up, pushing yields lower."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Comparison to previous crises",
+            "explanation": "To illustrate that the Iran war is anomalous; normally Treasuries are a safe haven.",
+            "source_contribution_ids": [
+              "CONTRIB-FA5959FA152E68"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-04-11, comparing the Iran war to prior crises. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-43AE278C55",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "The petrodollar system secured the dollar's place as the global reserve currency in a post-gold fiat world.",
+        "source_contribution_ids": [
+          "CONTRIB-CA138D157F825B"
+        ],
+        "source_speech_filenames": [
+          "20260411_The Iran War Just Killed the Petrodollar.txt"
+        ],
+        "premise_synthesis": "After Bretton Woods ended, the dollar lost its gold backing and its value plummeted. In 1974, Henry Kissinger struck a deal with Saudi Arabia to price oil in dollars and recycle surpluses into US Treasuries. Other Gulf states followed in exchange for US security guarantees. This system established the dollar as the global reserve currency in a post-gold fiat world.",
+        "conclusion_supported": "The historical petrodollar agreement created the structural foundation for dollar dominance.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-CA138D157F825B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Deal between Kissinger and Saudi Arabia in 1974",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide a source for this historical claim.",
+            "source_contribution_ids": [
+              "CONTRIB-CA138D157F825B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "In 1974, Henry Kissinger struck what some call one of the most consequential financial deals in modern history. And that is that Saudi Arabia would price its oil in dollars and then park their surpluses in US assets like Treasuries."
+          },
+          {
+            "item": "The value of gold skyrocketed after 1971, indicating dollar collapse",
+            "status": "Unverifiable",
+            "verification_basis": "No source is given for the price movement.",
+            "source_contribution_ids": [
+              "CONTRIB-CA138D157F825B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "the value of gold absolutely skyrocketed, which is just an inverse way of saying that the value of the dollar collapsed."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Fractional reserve banking analogy",
+            "explanation": "Comparing US currency issuance to fractional reserve banking to illustrate that dollars were printed beyond gold reserves.",
+            "source_contribution_ids": [
+              "CONTRIB-CA138D157F825B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-04-11. It describes a historical process and does not address changes over time within the speech period. Cross-speech evolution cannot be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC49-T124-644BC8422B",
+        "pair_id": "PAIR-CC49-T124",
+        "conclusion": "The push for alternatives like Bitcoin and BRICS will accelerate the dollar shortage, not replace the dollar.",
+        "source_contribution_ids": [
+          "CONTRIB-623AE895A4EA6B"
+        ],
+        "source_speech_filenames": [
+          "20260411_The Iran War Just Killed the Petrodollar.txt"
+        ],
+        "premise_synthesis": "Bitcoin is being accepted for tolls at the Strait of Hormuz. BRICS nations are pushing alternative currencies and settlement systems. However, these actions reduce the usage of dollars in global trade, which paradoxically worsens the dollar shortage because dollars are still needed for existing debt servicing.",
+        "conclusion_supported": "Efforts to bypass the dollar in international transactions will exacerbate the dollar shortage rather than eliminate the need for dollars, because the existing stock of dollar-denominated debt still requires dollars to service.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-623AE895A4EA6B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Iran war has triggered a dollar shortage crisis and deflationary debt spiral that marks the beginning of the end of the dollar's reserve currency status, thereby supporting the core claim of CC49 that the dollar's hegemony is under threat from such a crisis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Bitcoin accepted for Strait of Hormuz tolls",
+            "status": "Unverifiable",
+            "verification_basis": "Rumors, no source.",
+            "source_contribution_ids": [
+              "CONTRIB-623AE895A4EA6B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "we are also seeing things like reports that Bitcoin is being accepted as payment for the tolls that Iran is trying to charge for passage through the Strait of Hormuz"
+          },
+          {
+            "item": "BRICS nations pushing alternative currencies",
+            "status": "Unverifiable",
+            "verification_basis": "Rumors.",
+            "source_contribution_ids": [
+              "CONTRIB-623AE895A4EA6B"
+            ],
+            "source_speech_filenames": [
+              "20260411_The Iran War Just Killed the Petrodollar.txt"
+            ],
+            "source_excerpt": "We're also seeing rumors of BRICS nations trying to push their currencies, come up with alternative settlements for outside of the dollar."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is presented in a single speech from 2026-04-11. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-5F374D59D8EA73",
+      "CONTRIB-623AE895A4EA6B",
+      "CONTRIB-7CDDBB21C6E3B3",
+      "CONTRIB-AA6B038F32F5AE",
+      "CONTRIB-CA138D157F825B",
+      "CONTRIB-F030D4C91C70DB",
+      "CONTRIB-FA5959FA152E68"
+    ],
+    "source_speech_filenames": [
+      "20260411_The Iran War Just Killed the Petrodollar.txt",
+      "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt"
+    ],
+    "generated_at": "2026-07-15T03:54:12+00:00",
+    "record_hash": "a789cbc7fe5c4ad78e3aee275f0219eaf75042b0c003828843dd6fa3429acee4"
+  },
+  "complete": true
+}

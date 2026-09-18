@@ -1,0 +1,1272 @@
+{
+  "dependencies": {
+    "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+    "phase1_record_hash": "81804911d75c502cbbb07ee1309ddb2226d24e2e814f4adfa007d2bfe799fe29",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-CDA920CAE9F8",
+    "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+    "stem": "20251222_Get Your Wealth Out of the System Before it’s Too Late",
+    "date": "2025-12-22",
+    "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+    "source_character_count": 15343,
+    "central_claim": "People should move at least some of their wealth outside the current financial system to protect against future government-imposed financial repression and inflation.",
+    "themes": [
+      {
+        "local_theme_id": "LT-67D8016375F1",
+        "theme": "Historical debt deleveraging after World War II and current parallels",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3AB91C27A226",
+            "local_theme_id": "LT-67D8016375F1",
+            "conclusion": "The US government cannot rely on the same factors (end of war, productivity boost) to reduce debt this time, so it will rely more on inflation.",
+            "premises": [
+              "Post-WWII US debt-to-GDP peaked above 120%, and the current ratio is about 125%.",
+              "After WWII, the government cut spending, the economy grew with a productivity boost from returning workers, and the Fed used yield curve control and capital controls.",
+              "Current spending on entitlements like Social Security and Medicare is mandatory, and there is no large increase in the working population expected."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F23939C9F038",
+                "item": "US debt-to-GDP was above 120% after WWII and is now 125%.",
+                "status": "Unverifiable",
+                "verification_basis": "No external source or citation is provided in the transcript; the speaker states these figures without supporting data or reference.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Back in the 1940s, right after World War II ended, the US government's debt to GDP ratio briefly peaked above 120%. ... today sitting around 125% debt to GDP ratio",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-38054A879D74",
+                "item": "The government shrank expenses after WWII, economy grew, productivity increased, and the Fed used yield curve control and capital controls.",
+                "status": "Unverifiable",
+                "verification_basis": "Historical claims are asserted without specific sources or quantifiable data in the transcript.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "And so following this, the government shrank its expenses. The economy grew, had a big increase in productivity. The Federal Reserve engaged in yield curve control. And the government instituted capital controls and financial repression.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B0D287591399",
+                "item": "Current spending on entitlements is legally required and even canceling all discretionary spending would leave a deficit.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim about the budget shortfall is not backed by a specific budget document or citation in the transcript.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "you could cancel the entire discretionary part of the government's budget and they'd still be spending more than they take in taxes",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-88F03706B8D1",
+                "item": "There is no significant increase in the working population expected, unlike after WWII when men returned from war.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim about current labor force demographics is stated without reference to any study or data.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "today all the men are already here working and being productive and in fact most of the women are too",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-0037DA2A77A8",
+                "device": "Historical parallel between post-WWII deleveraging and current situation",
+                "explanation": "The speaker uses the post-WWII period as an analogy to argue that the current high debt-to-GDP ratio will lead to similar government actions (financial repression, inflation) but without the same favorable conditions.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "today sitting around 125% debt to GDP ratio which means the government is in the exact same position they were at the end of World War II only this time we don't have a war to end to cancel the spending",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-B7070A26B5CC",
+        "theme": "Financial repression as a likely policy tool",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4603AFC804E6",
+            "local_theme_id": "LT-B7070A26B5CC",
+            "conclusion": "Financial repression will be used to force citizens to hold government assets at below-inflation returns, effectively paying off the debt.",
+            "premises": [
+              "The Federal Reserve's own website discusses financial repression as a monetary policy tool and admits it can create a captive market for government debt.",
+              "The World Economic Forum posted an article in March 2025 suggesting countries embrace financial repression to reduce debt loads.",
+              "President Trump issued a travel ban over golden passports, indicating government actions to prevent wealth from leaving.",
+              "In the 1940s, financial repression was effective because savings were concentrated in bank accounts and citizens had few alternatives."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-636E18C9E3EF",
+                "item": "The Richmond Fed website discusses financial repression and asks whether it will return.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker references the Richmond Fed website but does not quote it directly, so the claim cannot be verified from the transcript alone.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "you can actually go back onto the Fed's own website. This one is richmondfed.org, and you can read what they say about using financial repression as a monetary policy tool, specifically asking the question on whether or not they will come back.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-34D4DD4689CE",
+                "item": "The World Economic Forum posted an article in March 2025 about financial repression using the post-WWII example.",
+                "status": "Unverifiable",
+                "verification_basis": "No direct quote or link is provided in the transcript; the claim relies on the speaker's assertion.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "In fact, in just March of this year, the World Economic Forum posted an article about financial repression and whether countries should embrace it as their debt load climbs.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B085D9D86BCF",
+                "item": "President Trump issued a travel ban over golden passports in the Caribbean a few days ago.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific source or details are provided in the transcript; the claim is asserted without corroboration.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Just days ago, President Trump issued a travel ban over golden passports in the Caribbean.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-22C7820D04EB",
+        "theme": "Recommended strategies for moving wealth outside the system",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5006A956ABE9",
+            "local_theme_id": "LT-22C7820D04EB",
+            "conclusion": "Buying physical gold stored privately in a country with no history of confiscation is a way to have wealth outside the system.",
+            "premises": [
+              "Physical gold outside the US is outside the dollar system and government control.",
+              "Allocated, segregated, insured, independently audited, private vault storage protects against nationalization.",
+              "The US, Canada, and the Bank of England have histories of gold confiscation or wealth seizure."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-75FDDE94C65A",
+                "item": "FDR outlawed gold ownership and seized gold from American citizens; Nixon seized gold from the rest of the world.",
+                "status": "Unverifiable",
+                "verification_basis": "Historical claims about gold confiscation are stated without citation or specific legal details in the transcript.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "FDR outlawed gold ownership and stole it from all American citizens. Then Nixon stole gold from the rest of the world.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-BFA5BCF078F8",
+                "item": "Canada has a history of at least temporary wealth confiscation.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific instance or source is provided for Canada's wealth confiscation history.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Canada has history with at least temporary wealth confiscation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8EEF1B063AFC",
+                "item": "The Bank of England has a history of gold confiscation, telling other countries they cannot have their gold.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific event or source is provided for the Bank of England's confiscation.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "The Bank of England has history with wealth confiscation, specifically gold confiscation, telling other countries, 'No, you cannot have the gold.'",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-B911C48B4F1F",
+            "local_theme_id": "LT-22C7820D04EB",
+            "conclusion": "Bitcoin held in cold storage is permissionless and can be taken anywhere as a hedge against totalitarian financial regimes.",
+            "premises": [
+              "Bitcoin is peer-to-peer and does not require permission to send or receive payments.",
+              "Cold storage allows the owner to move wealth using a seed phrase without relying on any institution."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-608D4182B388",
+                "item": "Bitcoin is described as permissionless and peer-to-peer with no oversight.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker states characteristics of Bitcoin without providing external verification or technical references.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Bitcoin is permissionless. If you hold your Bitcoin in cold storage, you can go anywhere in the world with a phrase in your head and take that wealth with you anywhere.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-73959B8EAF4C",
+            "local_theme_id": "LT-22C7820D04EB",
+            "conclusion": "A 30-year fixed rate mortgage on a cash-flowing rental property provides a short position on the dollar, hedging against inflation.",
+            "premises": [
+              "Borrowing dollars via a mortgage and exchanging for real estate creates a short position on the dollar.",
+              "Tenant rent covers the mortgage payments in depreciating dollars.",
+              "Inflation reduces the real value of the fixed-rate debt, benefiting the borrower."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A3EC63990E3F",
+                "item": "The concept of a 30-year fixed rate mortgage being a short position on the dollar due to borrowing dollars to buy real estate.",
+                "status": "Verified",
+                "verification_basis": "The speaker provides an internally consistent explanation and definition of a short position, supported by logical reasoning within the transcript.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Technically speaking, a short position means you borrow something and then exchange it for something else. So when you borrow dollars and exchange it for real estate, you owe back dollars.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-46F7404918E1",
+                "device": "Short position analogy",
+                "explanation": "The speaker compares taking a mortgage to a short position in investing, illustrating how the borrower profits from the declining value of the dollar.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Technically speaking, a short position means you borrow something and then exchange it for something else. So when you borrow dollars and exchange it for real estate, you owe back dollars.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-220EAF5575C2",
+            "local_theme_id": "LT-22C7820D04EB",
+            "conclusion": "Buying real estate in other countries can provide a path to residency or citizenship, enabling wealth relocation.",
+            "premises": [
+              "Many countries offer residency or citizenship through real estate investment."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-427B0C32BE1A",
+                "item": "The claim that there are countries that allow paths to residency or citizenship through real estate purchases.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific countries, programs, or examples are provided in the transcript.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "There are other countries, plenty of them actually, that allow paths to residency or even citizenship through purchasing real estate in those countries.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-DCD5ED011A83",
+            "local_theme_id": "LT-22C7820D04EB",
+            "conclusion": "Starting a side business provides portable skills that cannot be confiscated, allowing wealth rebuilding anywhere.",
+            "premises": [
+              "The skill to make money is an asset that cannot be taken by the government.",
+              "Immigrant entrepreneurs historically have used business skills to succeed in new countries."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2BD037A81762",
+                "item": "Historical pattern of immigrants being small business owners and entrepreneurs.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific data or studies are cited; the claim is a general observation.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "There's a reason why for the last hundred years, 200 years, as immigrants have moved to the United States, whether from Ireland or Italy or anywhere, many times they are entrepreneurs.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-841CAD64E58D",
+            "local_theme_id": "LT-22C7820D04EB",
+            "conclusion": "Obtaining second citizenship by descent, investment, or residency is a way to move wealth and physical location.",
+            "premises": [
+              "Dual citizenship by descent is possible for many people based on ancestry.",
+              "Some countries offer citizenship by investment programs.",
+              "Such programs are becoming scarcer and more expensive, signaling government efforts to prevent wealth flight."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3B4F1BF18A25",
+                "item": "Second citizenship programs are becoming harder and more expensive.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific programs or cost changes are cited; the claim is general.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "These are getting harder and harder and more and more scarce and more and more expensive signaling what we were talking about earlier that the government is seemingly leaning towards trying to make it more and more difficult for wealth to leave.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-0D7E4D94B7D9",
+                "item": "Trump travel ban over golden passports is cited as evidence of government restrictions.",
+                "status": "Unverifiable",
+                "verification_basis": "As above, no source is provided for the travel ban.",
+                "speech_id": "SP-CDA920CAE9F8",
+                "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+                "source_excerpt": "Just days ago, President Trump issued a travel ban over golden passports in the Caribbean.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-202C3BF3F341",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "US debt-to-GDP peaked above 120% after WWII and is now 125%.",
+        "reason": "The speaker provides no source or citation for these specific figures.",
+        "memory_check": "Corroborated",
+        "memory_note": "Historical data confirms US debt-to-GDP was around 120% in 1946; current ratio is approximately 125%.",
+        "source_excerpt": "Back in the 1940s... debt to GDP ratio briefly peaked above 120% ... today sitting around 125% debt to GDP ratio",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-9FFE787CB23F",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "After WWII, the government shrank expenses, the economy grew with a productivity boost, and the Fed used yield curve control and capital controls.",
+        "reason": "No specific sources or data points are provided for these historical conditions.",
+        "memory_check": "Corroborated",
+        "memory_note": "Economic history supports these general facts, but specific details are not verifiable from the transcript.",
+        "source_excerpt": "the government shrank its expenses. The economy grew, had a big increase in productivity. The Federal Reserve engaged in yield curve control.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DADB74EFE660",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "Canceling all discretionary spending would still leave the government in deficit.",
+        "reason": "No budget breakdown or official figures are cited to support this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Without specific budget numbers, this cannot be confirmed from general knowledge alone.",
+        "source_excerpt": "you could cancel the entire discretionary part of the government's budget and they'd still be spending more than they take in taxes",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0F2E5949737F",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "There is no expected significant increase in the working population.",
+        "reason": "No demographic data or projections are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Demographic trends vary; requires specific data to verify.",
+        "source_excerpt": "today all the men are already here working and being productive and in fact most of the women are too",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EF118F8AF467",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "The Federal Reserve's Richmond website discusses financial repression as a tool and questions its return.",
+        "reason": "The website is referenced but not quoted; the content cannot be confirmed from the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific knowledge of this exact resource.",
+        "source_excerpt": "You can actually go back onto the Fed's own website. This one is richmondfed.org, and you can read what they say about using financial repression as a monetary policy tool",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-A41EA3411E2F",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "The World Economic Forum posted an article about financial repression in March 2025.",
+        "reason": "No article title, author, or direct quote is provided in the transcript.",
+        "memory_check": "Contradicted",
+        "memory_note": "The transcript date is 2025-12-22, but the speaker says 'just March of this year' which would be March 2025. WEF articles are published frequently, but without specifics the claim is not internally verifiable.",
+        "source_excerpt": "In fact, in just March of this year, the World Economic Forum posted an article about financial repression",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DA486795F9D0",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "President Trump issued a travel ban over golden passports in the Caribbean days ago.",
+        "reason": "No official source, proclamation number, or country names are given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No knowledge of such a specific travel ban in the context of golden passports.",
+        "source_excerpt": "Just days ago, President Trump issued a travel ban over golden passports in the Caribbean.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7871028E0BB4",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "FDR outlawed gold ownership and seized gold from American citizens; Nixon seized gold from the rest of the world.",
+        "reason": "Historical claims made without citation to specific legislation or executive orders.",
+        "memory_check": "Corroborated",
+        "memory_note": "FDR's Executive Order 6102 in 1933 made gold ownership illegal; Nixon closed the gold window in 1971. The characterization 'stole' is interpretive but the events are historical.",
+        "source_excerpt": "FDR outlawed gold ownership and stole it from all American citizens. Then Nixon stole gold from the rest of the world.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9B2FF0502144",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "Canada has a history of at least temporary wealth confiscation.",
+        "reason": "No specific instances or details are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General knowledge does not include prominent examples of Canadian wealth confiscation in this context.",
+        "source_excerpt": "Canada has history with at least temporary wealth confiscation.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7F44B6318861",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "The Bank of England has a history of gold confiscation, telling other countries they cannot have their gold.",
+        "reason": "No specific events or dates are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "There have been instances like the 2002 case of Venezuela's gold, but not all details are universally known.",
+        "source_excerpt": "The Bank of England has history with wealth confiscation, specifically gold confiscation, telling other countries, 'No, you cannot have the gold.'",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-DDC57743F4A9",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "Many countries offer paths to residency or citizenship through real estate purchases.",
+        "reason": "No specific countries or programs are named.",
+        "memory_check": "Corroborated",
+        "memory_note": "Known programs exist in Portugal, Greece, Malta, etc., but the claim remains general.",
+        "source_excerpt": "There are other countries, plenty of them actually, that allow paths to residency or even citizenship through purchasing real estate in those countries.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2142E395B03D",
+        "speech_id": "SP-CDA920CAE9F8",
+        "speech_ref": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "claim": "Second citizenship programs are getting harder, scarcer, and more expensive, signaling government efforts to prevent wealth flight.",
+        "reason": "No specific trends or program changes are cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Some programs have increased minimum investments, but no specific data is in the transcript.",
+        "source_excerpt": "These are getting harder and harder and more and more scarce and more and more expensive",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "People should move at least some of their wealth outside the current financial system to protect against future government-imposed financial repression and inflation.",
+      "themes": [
+        "Historical debt deleveraging after World War II and current parallels",
+        "Financial repression as a likely policy tool",
+        "Recommended strategies for moving wealth outside the system"
+      ],
+      "argument_count": 8,
+      "unverifiable_count": 12
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "e67f72c8547cb5270ab42d3a87af7d38cda962004b722d4de2a3b4e78d47d007",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "81804911d75c502cbbb07ee1309ddb2226d24e2e814f4adfa007d2bfe799fe29",
+    "canonical_mapping": {
+      "speech_id": "SP-CDA920CAE9F8",
+      "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC46",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+      "primary_cc_rationale": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T24",
+        "T74",
+        "T112"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T24",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-B7070A26B5CC",
+          "rationale": "The theme directly names 'Financial Repression' as a likely policy tool, matching the canonical theme of Financial Repression and Capital Controls."
+        },
+        {
+          "theme_id": "T74",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-67D8016375F1",
+          "rationale": "The theme of historical debt deleveraging and parallels to current debt dynamics aligns with the boom-bust debt cycle theory, which explains how governments manage debt through inflation and repression."
+        },
+        {
+          "theme_id": "T112",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-22C7820D04EB",
+          "rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC46-T24",
+          "cc_id": "CC46",
+          "theme_id": "T24",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC46-T74",
+          "cc_id": "CC46",
+          "theme_id": "T74",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC46-T112",
+          "cc_id": "CC46",
+          "theme_id": "T112",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "local_cc_text": "People should move at least some of their wealth outside the current financial system to protect against future government-imposed financial repression and inflation.",
+        "canonical_cc_id": "CC46",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "rationale": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "candidate_matches": [
+          {
+            "id": "CC46",
+            "text": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+            "similarity": 0.4645560681819916
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.31532925367355347
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.2679722309112549
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.2666378915309906
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.2624695599079132
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "local_theme_id": "LT-67D8016375F1",
+        "local_theme_text": "Historical debt deleveraging after World War II and current parallels",
+        "canonical_theme_id": "T74",
+        "confidence": 0.8,
+        "rationale": "The theme of historical debt deleveraging and parallels to current debt dynamics aligns with the boom-bust debt cycle theory, which explains how governments manage debt through inflation and repression.",
+        "candidate_matches": [
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.446685254573822
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.4025168716907501
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.39922383427619934
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.39528772234916687
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.38241881132125854
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3564909100532532
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "local_theme_id": "LT-B7070A26B5CC",
+        "local_theme_text": "Financial repression as a likely policy tool",
+        "canonical_theme_id": "T24",
+        "confidence": 0.95,
+        "rationale": "The theme directly names 'Financial Repression' as a likely policy tool, matching the canonical theme of Financial Repression and Capital Controls.",
+        "candidate_matches": [
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.7977098226547241
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.5505414605140686
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.46777719259262085
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.4599597454071045
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.4544380307197571
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.4078347980976105
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "canonical_theme_id": "T112",
+        "confidence": 0.7,
+        "rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "candidate_matches": [
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.47029417753219604
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.2870350182056427
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.2250768542289734
+          },
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.22297802567481995
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.18575727939605713
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.16965940594673157
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-789197C09FF428",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T74",
+        "cc_id": "CC46",
+        "theme_id": "T74",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-67D8016375F1",
+        "local_theme_text": "Historical debt deleveraging after World War II and current parallels",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The theme of historical debt deleveraging and parallels to current debt dynamics aligns with the boom-bust debt cycle theory, which explains how governments manage debt through inflation and repression.",
+        "local_argument_id": "LA-3AB91C27A226",
+        "conclusion": "The US government cannot rely on the same factors (end of war, productivity boost) to reduce debt this time, so it will rely more on inflation.",
+        "premises": [
+          "Post-WWII US debt-to-GDP peaked above 120%, and the current ratio is about 125%.",
+          "After WWII, the government cut spending, the economy grew with a productivity boost from returning workers, and the Fed used yield curve control and capital controls.",
+          "Current spending on entitlements like Social Security and Medicare is mandatory, and there is no large increase in the working population expected."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F23939C9F038",
+            "item": "US debt-to-GDP was above 120% after WWII and is now 125%.",
+            "status": "Unverifiable",
+            "verification_basis": "No external source or citation is provided in the transcript; the speaker states these figures without supporting data or reference.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Back in the 1940s, right after World War II ended, the US government's debt to GDP ratio briefly peaked above 120%. ... today sitting around 125% debt to GDP ratio",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-38054A879D74",
+            "item": "The government shrank expenses after WWII, economy grew, productivity increased, and the Fed used yield curve control and capital controls.",
+            "status": "Unverifiable",
+            "verification_basis": "Historical claims are asserted without specific sources or quantifiable data in the transcript.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "And so following this, the government shrank its expenses. The economy grew, had a big increase in productivity. The Federal Reserve engaged in yield curve control. And the government instituted capital controls and financial repression.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-B0D287591399",
+            "item": "Current spending on entitlements is legally required and even canceling all discretionary spending would leave a deficit.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim about the budget shortfall is not backed by a specific budget document or citation in the transcript.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "you could cancel the entire discretionary part of the government's budget and they'd still be spending more than they take in taxes",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-88F03706B8D1",
+            "item": "There is no significant increase in the working population expected, unlike after WWII when men returned from war.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim about current labor force demographics is stated without reference to any study or data.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "today all the men are already here working and being productive and in fact most of the women are too",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-0037DA2A77A8",
+            "device": "Historical parallel between post-WWII deleveraging and current situation",
+            "explanation": "The speaker uses the post-WWII period as an analogy to argue that the current high debt-to-GDP ratio will lead to similar government actions (financial repression, inflation) but without the same favorable conditions.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "today sitting around 125% debt to GDP ratio which means the government is in the exact same position they were at the end of World War II only this time we don't have a war to end to cancel the spending",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-14CE7728FFE43F",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T24",
+        "cc_id": "CC46",
+        "theme_id": "T24",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B7070A26B5CC",
+        "local_theme_text": "Financial repression as a likely policy tool",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The theme directly names 'Financial Repression' as a likely policy tool, matching the canonical theme of Financial Repression and Capital Controls.",
+        "local_argument_id": "LA-4603AFC804E6",
+        "conclusion": "Financial repression will be used to force citizens to hold government assets at below-inflation returns, effectively paying off the debt.",
+        "premises": [
+          "The Federal Reserve's own website discusses financial repression as a monetary policy tool and admits it can create a captive market for government debt.",
+          "The World Economic Forum posted an article in March 2025 suggesting countries embrace financial repression to reduce debt loads.",
+          "President Trump issued a travel ban over golden passports, indicating government actions to prevent wealth from leaving.",
+          "In the 1940s, financial repression was effective because savings were concentrated in bank accounts and citizens had few alternatives."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-636E18C9E3EF",
+            "item": "The Richmond Fed website discusses financial repression and asks whether it will return.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker references the Richmond Fed website but does not quote it directly, so the claim cannot be verified from the transcript alone.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "you can actually go back onto the Fed's own website. This one is richmondfed.org, and you can read what they say about using financial repression as a monetary policy tool, specifically asking the question on whether or not they will come back.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-34D4DD4689CE",
+            "item": "The World Economic Forum posted an article in March 2025 about financial repression using the post-WWII example.",
+            "status": "Unverifiable",
+            "verification_basis": "No direct quote or link is provided in the transcript; the claim relies on the speaker's assertion.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "In fact, in just March of this year, the World Economic Forum posted an article about financial repression and whether countries should embrace it as their debt load climbs.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-B085D9D86BCF",
+            "item": "President Trump issued a travel ban over golden passports in the Caribbean a few days ago.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific source or details are provided in the transcript; the claim is asserted without corroboration.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Just days ago, President Trump issued a travel ban over golden passports in the Caribbean.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-DBBD8590090541",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T112",
+        "cc_id": "CC46",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-5006A956ABE9",
+        "conclusion": "Buying physical gold stored privately in a country with no history of confiscation is a way to have wealth outside the system.",
+        "premises": [
+          "Physical gold outside the US is outside the dollar system and government control.",
+          "Allocated, segregated, insured, independently audited, private vault storage protects against nationalization.",
+          "The US, Canada, and the Bank of England have histories of gold confiscation or wealth seizure."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-75FDDE94C65A",
+            "item": "FDR outlawed gold ownership and seized gold from American citizens; Nixon seized gold from the rest of the world.",
+            "status": "Unverifiable",
+            "verification_basis": "Historical claims about gold confiscation are stated without citation or specific legal details in the transcript.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "FDR outlawed gold ownership and stole it from all American citizens. Then Nixon stole gold from the rest of the world.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-BFA5BCF078F8",
+            "item": "Canada has a history of at least temporary wealth confiscation.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific instance or source is provided for Canada's wealth confiscation history.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Canada has history with at least temporary wealth confiscation.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8EEF1B063AFC",
+            "item": "The Bank of England has a history of gold confiscation, telling other countries they cannot have their gold.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific event or source is provided for the Bank of England's confiscation.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "The Bank of England has history with wealth confiscation, specifically gold confiscation, telling other countries, 'No, you cannot have the gold.'",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-D3981B3ECF543A",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T112",
+        "cc_id": "CC46",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-B911C48B4F1F",
+        "conclusion": "Bitcoin held in cold storage is permissionless and can be taken anywhere as a hedge against totalitarian financial regimes.",
+        "premises": [
+          "Bitcoin is peer-to-peer and does not require permission to send or receive payments.",
+          "Cold storage allows the owner to move wealth using a seed phrase without relying on any institution."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-608D4182B388",
+            "item": "Bitcoin is described as permissionless and peer-to-peer with no oversight.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker states characteristics of Bitcoin without providing external verification or technical references.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Bitcoin is permissionless. If you hold your Bitcoin in cold storage, you can go anywhere in the world with a phrase in your head and take that wealth with you anywhere.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-F760EF949BDADF",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T112",
+        "cc_id": "CC46",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-73959B8EAF4C",
+        "conclusion": "A 30-year fixed rate mortgage on a cash-flowing rental property provides a short position on the dollar, hedging against inflation.",
+        "premises": [
+          "Borrowing dollars via a mortgage and exchanging for real estate creates a short position on the dollar.",
+          "Tenant rent covers the mortgage payments in depreciating dollars.",
+          "Inflation reduces the real value of the fixed-rate debt, benefiting the borrower."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A3EC63990E3F",
+            "item": "The concept of a 30-year fixed rate mortgage being a short position on the dollar due to borrowing dollars to buy real estate.",
+            "status": "Verified",
+            "verification_basis": "The speaker provides an internally consistent explanation and definition of a short position, supported by logical reasoning within the transcript.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Technically speaking, a short position means you borrow something and then exchange it for something else. So when you borrow dollars and exchange it for real estate, you owe back dollars.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-46F7404918E1",
+            "device": "Short position analogy",
+            "explanation": "The speaker compares taking a mortgage to a short position in investing, illustrating how the borrower profits from the declining value of the dollar.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Technically speaking, a short position means you borrow something and then exchange it for something else. So when you borrow dollars and exchange it for real estate, you owe back dollars.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-B07647550ABCE8",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T112",
+        "cc_id": "CC46",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-220EAF5575C2",
+        "conclusion": "Buying real estate in other countries can provide a path to residency or citizenship, enabling wealth relocation.",
+        "premises": [
+          "Many countries offer residency or citizenship through real estate investment."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-427B0C32BE1A",
+            "item": "The claim that there are countries that allow paths to residency or citizenship through real estate purchases.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific countries, programs, or examples are provided in the transcript.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "There are other countries, plenty of them actually, that allow paths to residency or even citizenship through purchasing real estate in those countries.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-C2D64F287713FC",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T112",
+        "cc_id": "CC46",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-DCD5ED011A83",
+        "conclusion": "Starting a side business provides portable skills that cannot be confiscated, allowing wealth rebuilding anywhere.",
+        "premises": [
+          "The skill to make money is an asset that cannot be taken by the government.",
+          "Immigrant entrepreneurs historically have used business skills to succeed in new countries."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2BD037A81762",
+            "item": "Historical pattern of immigrants being small business owners and entrepreneurs.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific data or studies are cited; the claim is a general observation.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "There's a reason why for the last hundred years, 200 years, as immigrants have moved to the United States, whether from Ireland or Italy or anywhere, many times they are entrepreneurs.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-25BC59CB1F0BB5",
+        "speech_id": "SP-CDA920CAE9F8",
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "date": "2025-12-22",
+        "source_hash": "6673278ddf366b82fb494370d2bd5ccae7a4faafb3d58185d2785d2911220475",
+        "pair_id": "PAIR-CC46-T112",
+        "cc_id": "CC46",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that investors should move wealth outside the financial system to protect against inflation and financial repression, which is the exact proposition of CC46.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-22C7820D04EB",
+        "local_theme_text": "Recommended strategies for moving wealth outside the system",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The recommended strategies for moving wealth outside the system (gold, Bitcoin, real estate, etc.) are alternative investment strategies, fitting the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-841CAD64E58D",
+        "conclusion": "Obtaining second citizenship by descent, investment, or residency is a way to move wealth and physical location.",
+        "premises": [
+          "Dual citizenship by descent is possible for many people based on ancestry.",
+          "Some countries offer citizenship by investment programs.",
+          "Such programs are becoming scarcer and more expensive, signaling government efforts to prevent wealth flight."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3B4F1BF18A25",
+            "item": "Second citizenship programs are becoming harder and more expensive.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific programs or cost changes are cited; the claim is general.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "These are getting harder and harder and more and more scarce and more and more expensive signaling what we were talking about earlier that the government is seemingly leaning towards trying to make it more and more difficult for wealth to leave.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-0D7E4D94B7D9",
+            "item": "Trump travel ban over golden passports is cited as evidence of government restrictions.",
+            "status": "Unverifiable",
+            "verification_basis": "As above, no source is provided for the travel ban.",
+            "speech_id": "SP-CDA920CAE9F8",
+            "source_speech_filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+            "source_excerpt": "Just days ago, President Trump issued a travel ban over golden passports in the Caribbean.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "e67f72c8547cb5270ab42d3a87af7d38cda962004b722d4de2a3b4e78d47d007",
+  "complete": true
+}

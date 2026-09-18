@@ -1,0 +1,360 @@
+{
+  "dependencies": {
+    "source_hash": "223747291aaae1f26afbd545ecd96be758a96977e847420ae135549dea797b0b",
+    "filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-D47DDAE0F72D",
+    "filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+    "stem": "20251008_How Long Will it Take for the Dollar to Hyperinflate",
+    "date": "2025-10-08",
+    "source_hash": "223747291aaae1f26afbd545ecd96be758a96977e847420ae135549dea797b0b",
+    "source_character_count": 16116,
+    "central_claim": "The dollar will not hyperinflate quickly because its money creation through lending, rather than physical printing, creates future demand and allows the Federal Reserve to backstop deflation, leading to a prolonged period of inflation before any potential collapse.",
+    "themes": [
+      {
+        "local_theme_id": "LT-D5627810489E",
+        "theme": "Physical money printing vs. lending into existence",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3CF4624D3227",
+            "local_theme_id": "LT-D5627810489E",
+            "conclusion": "Physical money printing, as seen in historical hyperinflations, only increases the money supply and thus leads quickly to hyperinflation.",
+            "premises": [
+              "Physical printing increases the supply of money without creating any future demand for money.",
+              "Historical examples like Zimbabwe, Weimar, and US Continentals demonstrate that physical printing causes hyperinflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7F21E7E90AAB",
+                "item": "Zimbabwe printed 100 trillion dollar bills, leading to hyperinflation and worthless currency.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript describes the example but does not cite a source or provide verifiable data.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "This is 100 trillion dollars, displaying the in the most absurd way possible that poverty is not a lack of money.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C544FBA609A7",
+                "item": "Weimar Republic Germany: people needed wheelbarrows of cash for bread due to hyperinflation from printing.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript mentions the historical example without external citation.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "people had to take wheelbarrows full of cash in order for them to pay for everyday transactions like loaves of bread.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8D4F8D22C84B",
+                "item": "US Continental currency: overprinted to fund Revolutionary War, caused hyperinflation, leading to saying 'not worth a Continental'.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides historical example without source.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "leading to the saying, not worth a Continental.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-918E4039F92B",
+                "device": "Not worth a Continental",
+                "explanation": "Saying used to indicate something is worthless, analogous to the value of Continental currency after hyperinflation.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "leading to the saying, not worth a Continental.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-4117063335A0",
+                "device": "Wheelbarrows of cash",
+                "explanation": "Image of people using wheelbarrows to carry cash for daily purchases illustrates severity of Weimar hyperinflation.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "people had to take wheelbarrows full of cash in order for them to pay for everyday transactions like loaves of bread.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-F08B98CFA986",
+                "device": "Poverty not a lack of money",
+                "explanation": "Analogy to argue that creating more money does not solve poverty, as shown by Zimbabwe having 100 trillion dollar bills but poverty remains.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "poverty is not a lack of money. Poverty is actually a lack of wealth, and those two things are very different.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-D3BAAD8052E7",
+            "local_theme_id": "LT-D5627810489E",
+            "conclusion": "Dollars are lent into existence through debt, which not only increases the money supply now but also creates greater future demand for dollars, thus delaying hyperinflation.",
+            "premises": [
+              "Dollars are loaned into existence, not physically printed.",
+              "Loans require repayment with interest, increasing future demand for more dollars than were lent.",
+              "Fractional reserve banking (rehypothecation) multiplies the money supply but does not create reserve backing.",
+              "The Federal Reserve backstops contractions to prevent deflation, which would otherwise cause a money supply collapse and crash prices."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-72E11CF687B0",
+                "item": "M2 money supply is over $22 trillion, but bank reserves are only about $3 trillion, indicating most money is loaned into existence.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides these numbers without citing a specific source or methodology.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "the US money supply is $22 trillion... bank reserves right now only about $3 trillion.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-8BD47E001B4E",
+                "item": "Description of fractional reserve process: bank takes $10,000 deposit, keeps $1,000, lends $9,000 out, then that money is deposited again and lent out again.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript explains the process but does not provide external evidence for the example.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "So, you get 10 grand deposited into your bank account. That bank... is going to take 9 grand of it, and we're going to go loan it out to somebody.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-0A9D04E14ED3",
+                "item": "The Great Depression occurred due to contraction after credit expansion; Fed vowed not to let that happen again.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript mentions historical event without citation.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "This is why things like the Great Depression happened... after the Great Depression, the Federal Reserve vowed to never let something like that happen again.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-254EF8C0E4D7",
+                "device": "Kicking the can down the road",
+                "explanation": "Metaphor for the Fed's actions: each backstop delays the contraction but makes it larger.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "This is kind of like kicking the can down the road, but every single time you kick the can, it becomes bigger.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-C36E815545A9",
+                "device": "Bank run illustration",
+                "explanation": "Describes a scenario where depositors all try to withdraw money, leading to bank collapse because money has been lent out; illustrates rehypothecation.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "if you and everybody at your bank actually tried to go get your money, you wouldn't be able to. That's called a bank run, the bank collapses cuz the bank doesn't actually have the money.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-838A3F630F43",
+        "theme": "Implications for the dollar's hyperinflation timeline",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B6206332C38B",
+            "local_theme_id": "LT-838A3F630F43",
+            "conclusion": "The dollar system will likely lead to prolonged inflation rather than immediate hyperinflation, with the potential for a larger crisis later.",
+            "premises": [
+              "The Fed's intervention prevents deflationary collapses, but makes the eventual contraction larger.",
+              "Global dollar debt adds to the complexity and potential for deflationary events.",
+              "The cycle of inflation backstopping deflation will continue, prolonging the timeline."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6C8535075D99",
+                "item": "The speaker states that each backstop creates a larger future contraction, analogous to a can being kicked and growing bigger.",
+                "status": "Unverifiable",
+                "verification_basis": "This is an argument based on the previous premises and analogies, not an externally verifiable fact.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "Technically, you can actually keep on kicking it, but because that can gets bigger and bigger every single time you do, the damage... becomes worse and worse.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-CFDDAE162F1B",
+                "item": "Global dollar debt outside the US is much larger, adding potential for deflationary events outside Fed's direct control.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts this without providing data or sources.",
+                "speech_id": "SP-D47DDAE0F72D",
+                "source_speech_filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+                "source_excerpt": "the total amount of dollar debt is much, much larger outside the US than it is here.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-2742489E3D9A",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "Total tariff revenue collected year-to-date is a couple hundred billion dollars.",
+        "reason": "Transcript does not cite a source for this figure or provide a means to verify the number.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "Total tariff revenue collected year-to-date is a couple hundred billion dollars",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6E7B798E062B",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "United States still ran a deficit of almost two trillion dollars after tariffs.",
+        "reason": "Transcript does not provide a source or details on the deficit calculation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "the United States still ran a deficit of almost two trillion dollars",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-636404AB90CD",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "President Trump is proposing to send stimulus checks to American citizens for up to $2,000 funded by all of the tariff revenue.",
+        "reason": "Transcript does not provide a source for this policy proposal or current news.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "President Trump is proposing to send stimulus checks to American citizens for up to $2,000 funded by all of the tariff revenue",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0A7173949B88",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "M2 money supply is over 22 trillion dollars.",
+        "reason": "Transcript does not cite a source for this specific number or time of measurement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "We are at a new all-time record over 22 trillion dollars in the US M2",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1799C36069E4",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "Bank reserves right now only about $3 trillion.",
+        "reason": "Transcript does not provide a source for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "bank reserves right now only about $3 trillion",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B084156BCDF4",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "The Federal Reserve vowed after the Great Depression to never let something like that happen again.",
+        "reason": "Transcript does not provide a historical source or reference for this vow.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript; may be a simplification of Fed's mandate.",
+        "source_excerpt": "after the Great Depression, the Federal Reserve vowed to never let something like that happen again.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A28ABE0D15D9",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "Social security is a transfer tool; young workers fund retirements of old people.",
+        "reason": "Transcript states this as fact without providing analysis or data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "social security is not some trust fund... It is a transfer tool, which means young workers... are just funding the retirements of all of the people who have.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-1BF84CD34811",
+        "speech_id": "SP-D47DDAE0F72D",
+        "speech_ref": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "claim": "Total amount of dollar debt is much, much larger outside the US than it is here.",
+        "reason": "Transcript provides no data or source for this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification provided in transcript.",
+        "source_excerpt": "the total amount of dollar debt is much, much larger outside the US than it is here.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The dollar will not hyperinflate quickly because its money creation through lending, rather than physical printing, creates future demand and allows the Federal Reserve to backstop deflation, leading to a prolonged period of inflation before any potential collapse.",
+      "themes": [
+        "Physical money printing vs. lending into existence",
+        "Implications for the dollar's hyperinflation timeline"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-14T22:20:48+00:00",
+    "record_hash": "5e1473737a3789bd7fb19c90e6bcdab0e53d6b9158d5796805cc07d3262f2390",
+    "analysis_truncated": false
+  },
+  "output_hash": "d48e5e4ec14357cae2d3c26f992770961a48dc555756e7a091b07f9fd6693f77",
+  "complete": true
+}

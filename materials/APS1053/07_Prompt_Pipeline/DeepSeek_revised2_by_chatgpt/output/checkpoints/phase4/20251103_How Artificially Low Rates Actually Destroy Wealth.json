@@ -1,0 +1,547 @@
+{
+  "dependencies": {
+    "source_hash": "8449bdf66c213913549306e092bd3e490b1ee27349397f4e1486d47ad4c01acf",
+    "phase1_record_hash": "912247d453ebd5b6d8a9415d8db5aa3b01d5d7d19179a159f31afd56d8b516ea",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-9DF66FFD6088",
+    "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+    "stem": "20251103_How Artificially Low Rates Actually Destroy Wealth",
+    "date": "2025-11-03",
+    "source_hash": "8449bdf66c213913549306e092bd3e490b1ee27349397f4e1486d47ad4c01acf",
+    "source_character_count": 10215,
+    "central_claim": "Artificially low interest rates destroy wealth over the long term by sending false signals that incentivize over-investment in sub-par returns and sustain unprofitable companies, leading to wealth destruction and extreme bubbles.",
+    "themes": [
+      {
+        "local_theme_id": "LT-D9203C9FFF0C",
+        "theme": "Natural interest rate mechanism",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FF22C482B8F9",
+            "local_theme_id": "LT-D9203C9FFF0C",
+            "conclusion": "In a fixed money supply, interest rates naturally balance saving and spending through market-based signals and incentives, preventing boom-bust cycles.",
+            "premises": [
+              "When the savings pool is large, interest rates are low, incentivizing borrowing and investment.",
+              "When the savings pool is depleted, interest rates are high, incentivizing saving and lending.",
+              "This dynamic prevents massive boom-bust cycles."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1C5E7158E907",
+                "item": "Hypothetical example of fixed money supply and changing savings pool sizes.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript presents a thought experiment without empirical data or external sources.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "Imagine for a moment there's a fixed supply of money. The total amount of money cannot be increased or decreased.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-C68A134FB0E0",
+                "device": "Fixed money supply thought experiment",
+                "explanation": "Illustrates how interest rates signal scarcity or abundance of savings under a closed system without central bank intervention.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "Imagine for a moment there's a fixed supply of money. The total amount of money cannot be increased or decreased.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-51514DEFF6AE",
+        "theme": "Consequences of artificially low rates",
+        "arguments": [
+          {
+            "local_argument_id": "LA-083EF16803C8",
+            "local_theme_id": "LT-51514DEFF6AE",
+            "conclusion": "Artificially low interest rates cause net wealth destruction by forcing capital into investments with negative real returns after inflation.",
+            "premises": [
+              "Low bank rates make even 3-4% stock returns appear attractive, but those returns are often below inflation.",
+              "Investing in sub-par returns results in a net loss of purchasing power, destroying wealth in real terms."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FD5969BA87D2",
+                "item": "Claim that 3-4% returns are insufficient to offset inflation, leading to real wealth destruction.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific inflation rate, time period, or comparative data is provided to support the assertion.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "usually that's not even enough to make up for inflation, which means in real terms you have a net destruction of wealth going on.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E63FC6A77FCD",
+                "device": "Credit card lender analogy",
+                "explanation": "Compares artificially low rates to a lender who keeps lending to a wasteful borrower, preventing the natural failure that would stop wealth destruction.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "just like if interest rates go down and the lenders of the credit card company were to just continue to lend to you and let you continue to waste and spend and spend.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-278BAB39E298",
+            "local_theme_id": "LT-51514DEFF6AE",
+            "conclusion": "Artificially low interest rates sustain unprofitable companies (zombie companies) that destroy wealth by continuing to operate with negative real returns.",
+            "premises": [
+              "With easy credit, companies that would otherwise go bankrupt can access capital indefinitely.",
+              "These companies produce returns (e.g., 3-4%) that are negative in real terms, thus destroying wealth.",
+              "This is analogous to a person who continually borrows to fund wasteful spending."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E313829C08D8",
+                "item": "Claim that companies that would be bankrupt receive capital floods and produce negative real returns.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific companies, industries, or data are cited to validate the existence or behavior of such zombie companies.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "Companies that would be bankrupt otherwise now have floods of capital coming at them even though they can only produce a 3%, 4% return, which is negative in real terms.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E44E38728A5E",
+                "device": "Personal bankruptcy analogy (maxed-out borrower)",
+                "explanation": "Illustrates how continued borrowing allows wasteful spending to persist, analogous to zombie companies sustained by cheap credit.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "This is the person who maxes out their credit cards, has auto loans, and then they can't pay those, so they start leasing. ... they declare bankruptcy and they cannot borrow any more, at least for a certain number of years.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-F350AE3F430E",
+            "local_theme_id": "LT-51514DEFF6AE",
+            "conclusion": "The current easy money environment will produce bubble dynamics on a scale larger than the dot-com bubble, followed by a future crash.",
+            "premises": [
+              "Low rates push capital into bad investments, inflating valuations to record levels.",
+              "These effects accumulate over time, leading to extreme bubbles.",
+              "History shows that crashes usually occur once tightening begins, but the current easing phase could still produce volatility."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-746762851E62",
+                "item": "Prediction that upcoming bubbles will exceed the dot-com bubble in valuations and prices.",
+                "status": "Unverifiable",
+                "verification_basis": "This is a forward-looking statement without supporting data or historical comparison metrics.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "I think there's a good chance that this means we will see bubble dynamics like we have not seen before. It'll make the dot-com bubble look small in comparison in terms of valuations and prices.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-522D410A14F7",
+                "device": "Dot-com bubble comparison",
+                "explanation": "Uses the dot-com bubble as a benchmark to emphasize the expected magnitude of future bubbles.",
+                "speech_id": "SP-9DF66FFD6088",
+                "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+                "source_excerpt": "It'll make the dot-com bubble look small in comparison in terms of valuations and prices.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7B9F813662A4",
+        "speech_id": "SP-9DF66FFD6088",
+        "speech_ref": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "claim": "Artificially low interest rates destroy wealth in the long term.",
+        "reason": "The transcript relies on logical reasoning and analogies but provides no empirical data or external sources to verify this causal claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Standard economic theory holds that artificially low rates can lead to malinvestment, but the transcript does not cite any evidence.",
+        "source_excerpt": "The artificially low interest rates pushing that money into bad investments means wealth is being destroyed when you account for inflation.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-0D9839172FBF",
+        "speech_id": "SP-9DF66FFD6088",
+        "speech_ref": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "claim": "3-4% stock returns are insufficient to beat inflation, resulting in negative real returns.",
+        "reason": "No specific inflation rate or time period is provided to verify this assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Inflation rates vary; the claim is not supported within the transcript.",
+        "source_excerpt": "usually that's not even enough to make up for inflation, which means in real terms you have a net destruction of wealth going on.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E1E5D4EA211D",
+        "speech_id": "SP-9DF66FFD6088",
+        "speech_ref": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "claim": "Unprofitable companies are sustained by artificially low rates, turning them into zombie companies that waste wealth.",
+        "reason": "No specific examples or data of such companies are provided.",
+        "memory_check": "Corroborated",
+        "memory_note": "The concept of zombie companies is recognized in economics, but the transcript does not provide evidence for its application here.",
+        "source_excerpt": "Companies that would be bankrupt otherwise now have floods of capital coming at them even though they can only produce a 3%, 4% return, which is negative in real terms.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-D2B4EC9B88A3",
+        "speech_id": "SP-9DF66FFD6088",
+        "speech_ref": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "claim": "The current easy money environment will lead to bubbles larger than the dot-com bubble.",
+        "reason": "This is a prediction with no supporting data or analysis.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Predictions are inherently unverifiable within the transcript.",
+        "source_excerpt": "I think there's a good chance that this means we will see bubble dynamics like we have not seen before. It'll make the dot-com bubble look small in comparison in terms of valuations and prices.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-65A476CAC7EB",
+        "speech_id": "SP-9DF66FFD6088",
+        "speech_ref": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "claim": "Artificially low rates subsidize loss and protect failure.",
+        "reason": "Asserted without evidence of specific subsidies or failures protected.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General claim without empirical backing.",
+        "source_excerpt": "all of this leads to subsidizing loss and protecting failure.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0C2CC68EF1EC",
+        "speech_id": "SP-9DF66FFD6088",
+        "speech_ref": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "claim": "Central bank control of interest rates sends false signals that cause over-investment and over-draining of the real savings pool.",
+        "reason": "No empirical evidence of such over-investment is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is supported only by the transcript's own reasoning.",
+        "source_excerpt": "the signal being sent to economic actors is false. It's artificial. It is imposed and created by the central bank.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Artificially low interest rates destroy wealth over the long term by sending false signals that incentivize over-investment in sub-par returns and sustain unprofitable companies, leading to wealth destruction and extreme bubbles.",
+      "themes": [
+        "Natural interest rate mechanism",
+        "Consequences of artificially low rates"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 6
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "907e8b428b829bfc9df2f39ec6c7f99cecf3417e638f6325a63ca62cb134bfb3",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "912247d453ebd5b6d8a9415d8db5aa3b01d5d7d19179a159f31afd56d8b516ea",
+    "canonical_mapping": {
+      "speech_id": "SP-9DF66FFD6088",
+      "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC52",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech explains the mechanism by which artificially low interest rates destroy wealth through false signals, over-investment, and sustaining zombie companies, directly supporting CC52's broader claim that low rates destroy wealth.",
+      "primary_cc_rationale": "The speech explains the mechanism by which artificially low interest rates destroy wealth through false signals, over-investment, and sustaining zombie companies, directly supporting CC52's broader claim that low rates destroy wealth.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T120"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T120",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-D9203C9FFF0C",
+          "rationale": "The natural interest rate mechanism concerns how rates balance saving and spending, which aligns with monetary policy rates and interest rate dynamics."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC52-T120",
+          "cc_id": "CC52",
+          "theme_id": "T120",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-9DF66FFD6088",
+        "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "local_cc_text": "Artificially low interest rates destroy wealth over the long term by sending false signals that incentivize over-investment in sub-par returns and sustain unprofitable companies, leading to wealth destruction and extreme bubbles.",
+        "canonical_cc_id": "CC52",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech explains the mechanism by which artificially low interest rates destroy wealth through false signals, over-investment, and sustaining zombie companies, directly supporting CC52's broader claim that low rates destroy wealth.",
+        "rationale": "The speech explains the mechanism by which artificially low interest rates destroy wealth through false signals, over-investment, and sustaining zombie companies, directly supporting CC52's broader claim that low rates destroy wealth.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.3596179485321045
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.32707181572914124
+          },
+          {
+            "id": "CC53",
+            "text": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+            "similarity": 0.3032309412956238
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.2812443971633911
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.24649840593338013
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-9DF66FFD6088",
+        "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "local_theme_id": "LT-D9203C9FFF0C",
+        "local_theme_text": "Natural interest rate mechanism",
+        "canonical_theme_id": "T120",
+        "confidence": 0.85,
+        "rationale": "The natural interest rate mechanism concerns how rates balance saving and spending, which aligns with monetary policy rates and interest rate dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.5560017824172974
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.49734067916870117
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.2939627766609192
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.2792828679084778
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.2401529848575592
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.2177785038948059
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-9DF66FFD6088",
+        "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "local_theme_id": "LT-51514DEFF6AE",
+        "local_theme_text": "Consequences of artificially low rates",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "The consequences of artificially low rates include extreme bubbles and wealth destruction, directly relating to boom-bust debt cycle theory.",
+        "candidate_matches": [
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.44522520899772644
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.37576955556869507
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3162294030189514
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.23585408926010132
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.20657189190387726
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.20526456832885742
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-93DD81EEB98195",
+        "speech_id": "SP-9DF66FFD6088",
+        "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "date": "2025-11-03",
+        "source_hash": "8449bdf66c213913549306e092bd3e490b1ee27349397f4e1486d47ad4c01acf",
+        "pair_id": "PAIR-CC52-T120",
+        "cc_id": "CC52",
+        "theme_id": "T120",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the mechanism by which artificially low interest rates destroy wealth through false signals, over-investment, and sustaining zombie companies, directly supporting CC52's broader claim that low rates destroy wealth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-D9203C9FFF0C",
+        "local_theme_text": "Natural interest rate mechanism",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The natural interest rate mechanism concerns how rates balance saving and spending, which aligns with monetary policy rates and interest rate dynamics.",
+        "local_argument_id": "LA-FF22C482B8F9",
+        "conclusion": "In a fixed money supply, interest rates naturally balance saving and spending through market-based signals and incentives, preventing boom-bust cycles.",
+        "premises": [
+          "When the savings pool is large, interest rates are low, incentivizing borrowing and investment.",
+          "When the savings pool is depleted, interest rates are high, incentivizing saving and lending.",
+          "This dynamic prevents massive boom-bust cycles."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-1C5E7158E907",
+            "item": "Hypothetical example of fixed money supply and changing savings pool sizes.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents a thought experiment without empirical data or external sources.",
+            "speech_id": "SP-9DF66FFD6088",
+            "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+            "source_excerpt": "Imagine for a moment there's a fixed supply of money. The total amount of money cannot be increased or decreased.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-C68A134FB0E0",
+            "device": "Fixed money supply thought experiment",
+            "explanation": "Illustrates how interest rates signal scarcity or abundance of savings under a closed system without central bank intervention.",
+            "speech_id": "SP-9DF66FFD6088",
+            "source_speech_filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+            "source_excerpt": "Imagine for a moment there's a fixed supply of money. The total amount of money cannot be increased or decreased.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-51514DEFF6AE",
+        "local_argument_id": "LA-083EF16803C8",
+        "conclusion": "Artificially low interest rates cause net wealth destruction by forcing capital into investments with negative real returns after inflation.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-51514DEFF6AE",
+        "local_argument_id": "LA-278BAB39E298",
+        "conclusion": "Artificially low interest rates sustain unprofitable companies (zombie companies) that destroy wealth by continuing to operate with negative real returns.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-51514DEFF6AE",
+        "local_argument_id": "LA-F350AE3F430E",
+        "conclusion": "The current easy money environment will produce bubble dynamics on a scale larger than the dot-com bubble, followed by a future crash.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "907e8b428b829bfc9df2f39ec6c7f99cecf3417e638f6325a63ca62cb134bfb3",
+  "complete": true
+}

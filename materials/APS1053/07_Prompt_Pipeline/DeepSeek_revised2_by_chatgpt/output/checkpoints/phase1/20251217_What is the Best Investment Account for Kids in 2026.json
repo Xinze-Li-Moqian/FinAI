@@ -1,0 +1,412 @@
+{
+  "dependencies": {
+    "source_hash": "85cb3135901030a648cb12ab7818124c5e4ab9bcefd4aea5c00c738d29b36ede",
+    "filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-A265DC245E31",
+    "filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+    "stem": "20251217_What is the Best Investment Account for Kids in 2026",
+    "date": "2025-12-17",
+    "source_hash": "85cb3135901030a648cb12ab7818124c5e4ab9bcefd4aea5c00c738d29b36ede",
+    "source_character_count": 22517,
+    "central_claim": "Parents should fully fund their own retirement before giving money to their children's accounts, and if that condition is met, the best investment account for children in 2026 is a custodial account (UGMA/UTMA) due to maximum flexibility.",
+    "themes": [
+      {
+        "local_theme_id": "LT-6A8744CE9665",
+        "theme": "Trump accounts (new government-sponsored children's accounts)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0D3FF1208089",
+            "local_theme_id": "LT-6A8744CE9665",
+            "conclusion": "Trump accounts are not the best choice for parents with children who have earned income; a Roth IRA is preferable.",
+            "premises": [
+              "Trump accounts lock funds until age 18 then convert to IRAs with limited index-fund-only investments.",
+              "Roth IRAs offer more flexible investment options and can be funded if the child has earned income.",
+              "Both have tax advantages, but Roth IRAs are not tied to a specific government program."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-46543091CDFC",
+                "item": "Trump accounts can only invest in broad-based no leverage index funds like SPY or VO.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "they're going to be index funds only, mutual funds or ETFs that are broad-based no leverage index funds like SPY or VO.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CEDAFCDF6F53",
+                "item": "Roth IRAs for children have same contribution rules as adults, up to $7,000 in 2025 based on earned income.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "The maximum you can contribute is 100% of your income up to the IRA contribution limit for that year. As of 2025, the IRA contribution limit is $7,000.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-815D50270C7E",
+            "local_theme_id": "LT-6A8744CE9665",
+            "conclusion": "The $1,000 seed money in Trump accounts is a benefit but insufficient to change the preference for Roth IRAs.",
+            "premises": [
+              "The $1,000 seed grows to about $150,000 after 65 years at 8% real return.",
+              "That amount is not life-changing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DDF3B7F6FD45",
+                "item": "$1,000 seed with 8% real return over 65 years yields $150,000 in today's dollars.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides the claim without showing the calculation or source.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "After 65 years, that $1,000 will be worth in today's purchasing power about $150,000.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8ADA28C57EE9",
+        "theme": "Custodial accounts (UGMA/UTMA)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BF495B86D3A8",
+            "local_theme_id": "LT-8ADA28C57EE9",
+            "conclusion": "Custodial accounts are the best investment account for children when parents have fully funded their own retirement.",
+            "premises": [
+              "No contribution limits.",
+              "Complete investment freedom.",
+              "No spending restrictions.",
+              "Risk of child control at 18 can be mitigated by transferring to an IRA when the child has earned income."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-668C4DE33BE1",
+                "item": "These accounts offer the most flexibility. No contribution limits. You can invest the funds however you'd like.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "These accounts are going to offer the most flexibility. No contribution limits. You can invest the funds however you'd like.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-EBA66AB7263C",
+                "item": "The big downside is that when the kid turns 18, that is too much money for them to be able to handle.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "Obviously, the big downside to this is that when the kid turns 18, that is too much money for them to be able to handle.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-00134C39DB48",
+        "theme": "Retirement savings priority and generosity philosophy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-A7DD0B9D1522",
+            "local_theme_id": "LT-00134C39DB48",
+            "conclusion": "Parents should never give money to their children's accounts until their own retirement is completely funded.",
+            "premises": [
+              "Putting own mask first ensures survival; similarly, prioritizing retirement prevents becoming a financial burden on children.",
+              "If you become a burden, your generosity becomes a curse rather than a blessing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-07C9F7FD5884",
+                "item": "I don't think that anybody should ever give anything to their kids until their own retirement is completely set.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "I don't think that anybody should ever give anything to their kids until their own retirement is completely set.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-86159392B306",
+                "device": "Airplane oxygen mask analogy",
+                "explanation": "Putting your own mask on first before helping others to ensure survival; analogy to prioritizing own retirement before giving to children.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "When you're on an airplane, the flight attendant during that pre-flight safety demonstration always says, 'Don't put on the mask to the on the person or the kid next to you first. Put your own oxygen mask on first and then help out the people next to you.' The reason why is because... if you pass out in that situation because you were trying to help them, it's very likely or at least possible that you will die and your kid will die because you tried to help them first.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-23E4CACE642A",
+            "local_theme_id": "LT-00134C39DB48",
+            "conclusion": "The aim should be to give as much as possible while alive rather than leaving an inheritance.",
+            "premises": [
+              "Time value of money makes present smaller amounts more valuable than future larger amounts.",
+              "Giving after death involves no sacrifice.",
+              "Real generosity requires voluntarily giving away what you have produced and not consumed."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EAD59BB799CE",
+                "item": "I think you should do all of your giving and all of your generosity and all of your charity while you are alive.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "I think you should do all of your giving and all of your generosity and all of your charity while you are alive.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CE5E542055FA",
+                "item": "The reality is given the time value of money it is much much more valuable to receive smaller amounts in the present rather than larger amounts in the future.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from transcript.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "The reality is given the time value of money it is much much more valuable to receive smaller amounts in the present rather than larger amounts in the future.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-994F1A6DAE84",
+                "device": "John 3:16 biblical reference",
+                "explanation": "Example of ultimate love through giving; used to support the idea that true love involves giving and sacrifice.",
+                "speech_id": "SP-A265DC245E31",
+                "source_speech_filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+                "source_excerpt": "The ultimate example I think is in John 3:16 where it says, 'For God so loved the world that he gave.'",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-1D32C7B8C05D",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "Michael and Susan Dell have donated $6.25 billion to go into these accounts.",
+        "reason": "The transcript does not provide a source or citation for this specific monetary figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript states this as a fact without providing a source. No internal evidence supports or contradicts it.",
+        "source_excerpt": "Michael and Susan Dell have donated $6.25 billion to go into these accounts.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F9184454C512",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "The first 25 million American children who are age 10 and under living in zip codes with median incomes below 150 grand will receive an additional $250 from the Dell gift.",
+        "reason": "No source or methodology provided for the figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript provides eligibility criteria but no external verification.",
+        "source_excerpt": "it looks like it's the first 25 million American children who are age 10 and under living in zip codes with median incomes below 150 grand.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-45AD987D3425",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "Trump accounts will be available to any US citizen born between January 1st, 2025 and December 31st, 2028.",
+        "reason": "No source or legislative reference provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript states birth window without citation.",
+        "source_excerpt": "These accounts will be available to any US citizen born between January 1st of 2025 and December 31st, 2028.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E35520632C1C",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "Every single one of these accounts will launch with a one-time $1,000 government seed contribution.",
+        "reason": "No government source or policy document cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript asserts government seed funding without citation.",
+        "source_excerpt": "Every single one of these accounts will launch with a one-time $1,000 government seed contribution.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-13A074918163",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "You will be able to contribute up to $5,000 every year to this account.",
+        "reason": "Contribution limit stated without source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript gives specific dollar amount without backing.",
+        "source_excerpt": "you will be able to contribute up to $5,000 every year to this account.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2D8531AAD1E8",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "That $5,000 cap will increase adjusted for inflation starting in 2027.",
+        "reason": "Future regulatory details not sourced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript projects inflation adjustment without basis.",
+        "source_excerpt": "that $5,000 cap will increase adjusted for inflation starting in 2027.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-5E25ACB5620B",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "You will be able to start contributing to these accounts by July 4th, 2026.",
+        "reason": "Start date stated without official announcement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript selects a specific date without citation.",
+        "source_excerpt": "You will be able to start contributing to these accounts by July 4th, 2026.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-339A2BCB7F7A",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "Money cannot come out of the account before the kid is 18.",
+        "reason": "Withdrawal rule stated without regulatory source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript states restriction without backing.",
+        "source_excerpt": "money cannot come out of the account before the kid is 18.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-29268B3679EF",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "Once a kid turns 18, these accounts either operate exactly like an IRA or they will just be converted into an IRA. Either way, they will be treated the exact same way a regular IRA is treated.",
+        "reason": "Conversion details are uncertain; speaker admits 'either/or' and 'that part is unclear'.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript itself acknowledges uncertainty but still states conversion as fact.",
+        "source_excerpt": "Once a kid turns 18, these accounts either operate exactly like an IRA or they will just be converted into an IRA. That part is unclear. Either way, they will be treated the exact same way a regular IRA is treated.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1743DD463407",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "$1,000 seed with 8% real return over 65 years yields $150,000 in today's dollars.",
+        "reason": "No calculation method or inflation assumptions provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript gives a projection without demonstrating the math or sources for return assumptions.",
+        "source_excerpt": "After 65 years, that $1,000 will be worth in today's purchasing power about $150,000. That's after 65 years at an afterinflation rate of 8% growth per year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D51112A1A94C",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "As of 2025, the IRA contribution limit is $7,000.",
+        "reason": "No citation of IRS or regulatory source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript states a specific tax limit without reference.",
+        "source_excerpt": "As of 2025, the IRA contribution limit is $7,000.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F402D516152E",
+        "speech_id": "SP-A265DC245E31",
+        "speech_ref": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "claim": "I've worked with clients before who have been in a situation where they did not want the minor to be able to get their hands on the money.",
+        "reason": "Personal anecdote; cannot be independently verified.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript asserts personal experience without supporting detail.",
+        "source_excerpt": "I've worked with clients before who have been in a situation where they did not want the minor to be able to get their hands on the money.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Parents should fully fund their own retirement before giving money to their children's accounts, and if that condition is met, the best investment account for children in 2026 is a custodial account (UGMA/UTMA) due to maximum flexibility.",
+      "themes": [
+        "Trump accounts (new government-sponsored children's accounts)",
+        "Custodial accounts (UGMA/UTMA)",
+        "Retirement savings priority and generosity philosophy"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 12
+    },
+    "generated_at": "2026-07-14T22:58:29+00:00",
+    "record_hash": "4b619e2ecb2ebcfffcf227b7f988ba9ae0b132f10310251af2058744d6081b8c",
+    "analysis_truncated": false
+  },
+  "output_hash": "11ba20999cc7164aa75f82046181a5ac7939ba998d229c4a02c5a408e57667f7",
+  "complete": true
+}

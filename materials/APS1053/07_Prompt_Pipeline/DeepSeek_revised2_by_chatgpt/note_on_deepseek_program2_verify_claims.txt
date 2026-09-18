@@ -1,0 +1,2 @@
+Note on running deepseek_program2_verify_claims.py:
+Without a TAVILY_API_KEY, it uses DeepSeek’s stored knowledge only. With a Tavily key in .env, unresolved claims are automatically escalated to live search. I tested compilation, parsing, claim matching, and the prose-preservation mechanism; I did not execute the external verification calls because API credentials were not available in this environment.

@@ -1,19 +1,20 @@
-# Course material coverage
+# 已上传内容与范围
 
-Updated 2026-09-18. This inventory describes received material, not everything that will be taught during the semester.
+更新：2026-09-18。本次上传截至该日收到的附件和链接配套包，不代表整个学期尚未发放的内容也已取得。
 
-| Material | Local status | Reading entry |
-|---|---|---|
-| APS1053 administration and syllabus | Received | Course information folder and converted Markdown |
-| Case-selection and LLM presentation decks | Received | Original slides and slide-numbered reading copies |
-| Generative AI assignment Part 1 | Received | Instructions, notebook, scripts, transcript dataset |
-| Prolog and prompting readings | Received | Short slides, longer document, reference books |
-| Prompt-architecture draft | Received | Original document and local Markdown |
-| Linked research companion archive | Downloaded and extracted; 640 files verified against the extracted copy | Local package directory and source-review note |
-| Later assignments, announcements, lecture recordings and Quercus-only content | Not collected; availability unknown | Add when received or accessible |
-| APS1050 full course materials | Not present in this local collection | Course listing is a reference, not the full materials |
-| MAT1510 full course materials | Not present in this local collection | Course listing is a reference, not the full materials |
+| 内容 | GitHub 位置 |
+|---|---|
+| APS1053 大纲与评分要求 | [01_Course_Info](APS1053/01_Course_Info/) |
+| 案例 PPT、LLM 讲义 | [02_Cases_and_Presentations](APS1053/02_Cases_and_Presentations/) |
+| GenAI 作业、Notebook、代码和字幕 | [03_Generative_AI_Assignment](APS1053/03_Generative_AI_Assignment/) |
+| Prolog 与提示词资料、参考书 | [04_Prolog_and_Prompts](APS1053/04_Prolog_and_Prompts/) |
+| Prompt Architecture 草稿 | [06_Research_Drafts](APS1053/06_Research_Drafts/) |
+| 两版提示词、三个 Python 程序、规范、样例数据和更多参考文献 | [07_Prompt_Pipeline](APS1053/07_Prompt_Pipeline/) |
+| Markdown 阅读副本与分析 | [knowledge/APS1053](../knowledge/APS1053/README.md) |
+| ZIP/RAR 下载 | [GitHub Release](https://github.com/Xinze-Li-Moqian/FinAI/releases/tag/course-materials-2026-09-18) |
 
-The APS1053 collection currently contains 1622 files, counting original archives, extracted files, duplicates and earlier organizational files. This is not a lecture or reading count. Extracted package documents may repeat earlier versions; originals are retained with hashes rather than overwritten.
+课程资料目录包含 1614 个文件，阅读层包含 82 个文件，包括参考书、字幕、样例中间结果、图片、清单及导航。文件数不是课件数。
 
-Originals and detailed derivative notes are local only. Public notes and this index can be version-controlled; local attachment links intentionally do not resolve in a fresh clone without the materials.
+三个较早的原始压缩包原样提供。DeepSeek 配套包重新打成 ZIP，去除凭据和运行缓存，并把私人共享超链接指向已上传的配套文件。修改记录和文件哈希见 [MANIFEST.json](APS1053/MANIFEST.json)。不发布个人行政记录和私人通信。
+
+尚未取得：后续课程材料、公告、录课和 Quercus 专有内容，以及 APS1050、MAT1510 的完整课件。当前代码完成静态初查，没有执行模型 API 流程或验证样例可复现性。

@@ -1,0 +1,82 @@
+{
+  "dependency_hash": "9d9e3a51918e88a954ba50654c3da0e62fb675b35b0e2b4c657fadcd3fc14812",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC56-T125",
+    "cc_id": "CC56",
+    "theme_id": "T125",
+    "authoritative_anchor": "cc-cc56-theme-t125",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC56-T125-2DC92A7332",
+        "pair_id": "PAIR-CC56-T125",
+        "conclusion": "Social Security and Medicare are wealth transfer systems that transfer wealth from younger, poorer workers to older, richer retirees, constituting a net drain on the economy.",
+        "source_contribution_ids": [
+          "CONTRIB-1D8A179C1F90D7"
+        ],
+        "source_speech_filenames": [
+          "20251029_Over 40 Million Americans are on Food Stamps.txt"
+        ],
+        "premise_synthesis": "The speech argues that dependence on government support reduces freedom, using the biblical story of Egypt's descent into slavery to illustrate the danger of relying on government provision. It contrasts food stamps as a welfare program with Social Security and Medicare, claiming that the latter are larger wealth transfer programs that systematically take money from younger, poorer workers and give it to older, richer retirees, thus imposing a net drain on the economy.",
+        "conclusion_supported": "The speech establishes that Social Security and Medicare are wealth transfers from the young and poor to the old and rich, supporting the claim that these entitlement programs are a net drain on the economy.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-1D8A179C1F90D7"
+            ],
+            "source_speech_filenames": [
+              "20251029_Over 40 Million Americans are on Food Stamps.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "No specific verifiable facts; argument relies on analogy and personal exhortation.",
+            "status": "Unverifiable",
+            "verification_basis": "No verifiable factual evidence provided; only rhetorical and narrative elements.",
+            "source_contribution_ids": [
+              "CONTRIB-1D8A179C1F90D7"
+            ],
+            "source_speech_filenames": [
+              "20251029_Over 40 Million Americans are on Food Stamps.txt"
+            ],
+            "source_excerpt": ""
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Biblical story of Egypt's descent into slavery",
+            "explanation": "Used to illustrate that reliance on government provision during famine led to loss of freedom and the origin of taxation.",
+            "source_contribution_ids": [
+              "CONTRIB-1D8A179C1F90D7"
+            ],
+            "source_speech_filenames": [
+              "20251029_Over 40 Million Americans are on Food Stamps.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech (2025-10-29) is available; no cross-speech evolution can be inferred. The argument is presented as a standalone claim on that date.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-1D8A179C1F90D7"
+    ],
+    "source_speech_filenames": [
+      "20251029_Over 40 Million Americans are on Food Stamps.txt"
+    ],
+    "generated_at": "2026-07-15T04:25:07+00:00",
+    "record_hash": "3159e306a0533be18759bc3bf2af4738fb49bb2f066d54aec5b818d9065625b2"
+  },
+  "complete": true
+}

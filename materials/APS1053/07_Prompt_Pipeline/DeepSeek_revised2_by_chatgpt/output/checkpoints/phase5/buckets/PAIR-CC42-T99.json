@@ -1,0 +1,94 @@
+{
+  "dependency_hash": "eac3483af19c3d8dff18000aadc884e0f1c9d98a670474cff02d62b8f4662622",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC42-T99",
+    "cc_id": "CC42",
+    "theme_id": "T99",
+    "authoritative_anchor": "cc-cc42-theme-t99",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC42-T99-A9CB3901D7",
+        "pair_id": "PAIR-CC42-T99",
+        "conclusion": "The 50-year mortgage will drive up home prices and worsen long-term affordability.",
+        "source_contribution_ids": [
+          "CONTRIB-A2DC6BE113802C"
+        ],
+        "source_speech_filenames": [
+          "20260112_The Government is Taking Over the US Housing Market.txt"
+        ],
+        "premise_synthesis": "The 50-year mortgage proposal increases affordability by only a couple hundred dollars per month. The average American lives paycheck to paycheck and would use the extra borrowing to buy a more expensive home, not to invest. This artificially increased demand drives up prices, mirroring the effect of the 30-year mortgage which similarly drove up prices.",
+        "conclusion_supported": "It establishes that the 50-year mortgage, as a government intervention, will lead to higher home prices and worsen long-term affordability.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-A2DC6BE113802C"
+            ],
+            "source_speech_filenames": [
+              "20260112_The Government is Taking Over the US Housing Market.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Affordability increase of 'a couple hundred per month' for a $700,000 home.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or data provided in the transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-A2DC6BE113802C"
+            ],
+            "source_speech_filenames": [
+              "20260112_The Government is Taking Over the US Housing Market.txt"
+            ],
+            "source_excerpt": "it really only increases affordability by a couple hundred per month. And that's assuming you're looking at a fairly expensive home in the $700,000 range."
+          },
+          {
+            "item": "Claim that the average American lives paycheck to paycheck and cannot cover a $1,000 expense.",
+            "status": "Unverifiable",
+            "verification_basis": "No supporting data, citation, or survey reference provided.",
+            "source_contribution_ids": [
+              "CONTRIB-A2DC6BE113802C"
+            ],
+            "source_speech_filenames": [
+              "20260112_The Government is Taking Over the US Housing Market.txt"
+            ],
+            "source_excerpt": "the average American lives paycheck to paycheck, has debt up to their eyeballs, has a negative net worth, and if even a $1,000 expense came up unexpectedly, they would not be able to cover it."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Comparison of President Trump to FDR",
+            "explanation": "Used to illustrate the push for the 50-year mortgage as an ambitious government intervention similar to FDR's New Deal.",
+            "source_contribution_ids": [
+              "CONTRIB-A2DC6BE113802C"
+            ],
+            "source_speech_filenames": [
+              "20260112_The Government is Taking Over the US Housing Market.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is based on a single speech from January 12, 2026. Cross-speech evolution cannot be inferred from a single source.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-A2DC6BE113802C"
+    ],
+    "source_speech_filenames": [
+      "20260112_The Government is Taking Over the US Housing Market.txt"
+    ],
+    "generated_at": "2026-07-15T03:33:47+00:00",
+    "record_hash": "dceb58bd7aec97caf9ac14bccf6b6cbe14ace8a76cf837fbf2a2f9cfc4c96704"
+  },
+  "complete": true
+}

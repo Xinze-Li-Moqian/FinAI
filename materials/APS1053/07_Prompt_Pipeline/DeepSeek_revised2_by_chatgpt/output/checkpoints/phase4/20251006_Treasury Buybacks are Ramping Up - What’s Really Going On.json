@@ -1,0 +1,860 @@
+{
+  "dependencies": {
+    "source_hash": "708bf51403da23084806d554c65877fc04a0276f077c44e5656b35031fed07eb",
+    "phase1_record_hash": "fd7ca57ab2657e8a89b68d9dc1fc3f53e2839e0208c2882fc9fe2ad6f1d0b219",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-C1E22D5732AD",
+    "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+    "stem": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On",
+    "date": "2025-10-06",
+    "source_hash": "708bf51403da23084806d554c65877fc04a0276f077c44e5656b35031fed07eb",
+    "source_character_count": 11628,
+    "central_claim": "The recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals the beginning of an endgame where the Fed will have to print money, leading to inflation.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A8E00AB7119E",
+        "theme": "Distinction between Treasury buybacks and quantitative easing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FA7B9B4C1078",
+            "local_theme_id": "LT-A8E00AB7119E",
+            "conclusion": "Treasury buybacks are not quantitative easing.",
+            "premises": [
+              "Treasury buybacks are done by the government borrowing new debt to pay off old debt, so there is no net change to the financial system.",
+              "Quantitative easing involves the Federal Reserve creating money out of nothing to buy assets, which increases the money supply."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FB1C81E2BB34",
+                "item": "Description of QE: the Fed 'print money into existence' and 'create dollars out of nothing' to buy assets.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no external source for the claim that QE works this way; it relies on the speaker's own description.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "This is different than when the Federal Reserve performs QE where they print money into existence. They create dollars out of nothing in order to buy assets out of the financial system.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7047B77D9B7F",
+        "theme": "Ineffectiveness of Treasury buybacks on interest costs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-488D92B997A4",
+            "local_theme_id": "LT-7047B77D9B7F",
+            "conclusion": "Treasury buybacks are too small to meaningfully reduce interest costs on the national debt.",
+            "premises": [
+              "The US has $38 trillion in debt and spends $1 trillion per year on interest alone.",
+              "Daily buyback amounts ($1-$4 billion) are a 'drop in the bucket' compared to that scale."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FDD1860D92D5",
+                "item": "Total debt figure of $37.8 trillion and deficit of $1.9 trillion for 2025.",
+                "status": "Unverifiable",
+                "verification_basis": "These numbers are asserted without citation to any official source within the transcript.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "the US government has a whopping $ 37.8 trillion in debt. And the budget deficit for 2025 is $1.9 trillion dollar.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-80FCFA00DA25",
+                "item": "Annual interest spending of $1 trillion.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide a source for this figure.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "the trillion dollar they're spending on interest alone on the $ 38 trillion debt pile every single year",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-A9670AFE2444",
+                "device": "Balance transfer analogy",
+                "explanation": "Illustrates replacing debt with new debt, like putting a mortgage on a credit card.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "it would be simply like placing your mortgage on a credit card. You're paying down some of your debt, a small amount of your debt with new debt. Basically, a balance transfer.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-41B93C22A5A3",
+        "theme": "Liquidity support as the true reason for buybacks",
+        "arguments": [
+          {
+            "local_argument_id": "LA-ACACF1161D63",
+            "local_theme_id": "LT-41B93C22A5A3",
+            "conclusion": "The stated reason for Treasury buybacks is liquidity support, which indicates market weaknesses and undermines confidence in U.S. Treasuries.",
+            "premises": [
+              "The Treasury schedule states the reason for buybacks is 'liquidity support'.",
+              "Liquidity support means the market lacks private buyers and sellers, implying large spreads and volatility, and the government's presence signals trouble."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F09BC1F433B3",
+                "item": "Treasury schedule showing the stated reason as 'liquidity support' for each buyback.",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly states that the schedule shows 'liquidity support' as the stated reason. This is a direct claim from the transcript itself.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "We can see the stated reason for that particular buyback. And we can see it is liquidity support.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-30FC93D854EB",
+        "theme": "Historical precedent of currency and debt manipulation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F32CEDAA823C",
+            "local_theme_id": "LT-30FC93D854EB",
+            "conclusion": "The current situation with Treasury buybacks resembles the Mississippi bubble, where artificial buying to support a currency leads to collapse.",
+            "premises": [
+              "John Law printed money to buy Mississippi Company shares to support the currency's value.",
+              "This created overvaluation and eventually a collapse when the central bank had to buy all shares, destroying both the company and the currency."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-41373C7E38C9",
+                "item": "Description of the Mississippi bubble and John Law's scheme.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no external source or reference to verify the historical account; it is presented as narrative by the speaker.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "If you're not familiar with the Mississippi bubble, there was a man named John Law who convinced France to allow him to start a central bank in France.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-C13E7B1B184E",
+                "device": "Mississippi bubble analogy",
+                "explanation": "Illustrates how artificial buying to maintain currency value can lead to a loss of confidence and systemic collapse, drawing a parallel to potential Fed intervention.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "Now, I'm not saying that something like this, at least quickly, is happening with the US dollar and treasuries right now, but you can certainly see the similarities",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-75FAE1C4B4D5",
+        "theme": "Expected Federal Reserve intervention and inflationary outcome",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1A71A1E6386B",
+            "local_theme_id": "LT-75FAE1C4B4D5",
+            "conclusion": "Ultimately, the Fed will have to print money to buy Treasuries, leading to inflation and the end of the dollar's value.",
+            "premises": [
+              "Confidence in Treasuries is undermined by the $38 trillion debt and growing deficits.",
+              "Treasury buybacks are a sign of liquidity problems that will force the Fed to step in.",
+              "Printing money to support debt is inflationary."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F1928738CBBD",
+                "item": "Claim that the Fed 'has to step in and print money' and that this leads to 'inflation' and 'endgame'.",
+                "status": "Unverifiable",
+                "verification_basis": "These are predictions and interpretations by the speaker, not supported by evidence within the transcript.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "ultimately we do get to a point where the Fed does have to step in and print money to buy up these treasuries. And when a central government in coordination with the central bank has to maintain the value of its debt through printing and the debt is what gives the money its value, you've entered the endgame.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-952FC5DC1668",
+                "device": "Paper bridge rhetorical device",
+                "explanation": "Used sarcastically to dismiss alternative solutions other than printing money.",
+                "speech_id": "SP-C1E22D5732AD",
+                "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+                "source_excerpt": "if you think there is any way out of this mess other than the US government trying to print its way and inflate its way out, then I have a paper bridge to sell you.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-638C74E02EEE",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "The US government has $37.8 trillion in debt.",
+        "reason": "The transcript asserts this figure without any citation to official data or sources.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence supports or contradicts this claim; it is taken entirely from the speaker's statement.",
+        "source_excerpt": "the US government has a whopping $ 37.8 trillion in debt.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D0823D30CB6C",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "The budget deficit for 2025 is $1.9 trillion.",
+        "reason": "No source is provided for this figure within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not cite any budget document or official forecast.",
+        "source_excerpt": "the budget deficit for 2025 is $1.9 trillion dollar.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-67252C2F88EC",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "The US government spends $1 trillion per year on interest alone on the national debt.",
+        "reason": "The transcript provides no source or calculation for this amount.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is stated as fact without supporting data.",
+        "source_excerpt": "the trillion dollar they're spending on interest alone on the $ 38 trillion debt pile every single year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B496206F6327",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "The pace and volume of Treasury buybacks has increased rapidly compared to last year.",
+        "reason": "The speaker says 'you can see' but does not present actual data or a source for comparison.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No historical buyback figures are provided in the transcript.",
+        "source_excerpt": "Comparing the buybacks this year versus last year, you can see that the pace and volume of Treasury buybacks has increased rapidly.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5E121DEA3B54",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "The debt is increasing by about $2 trillion a year right now and that amount is accelerating.",
+        "reason": "No source or evidence is given for the debt growth rate or acceleration.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The speaker asserts acceleration without data.",
+        "source_excerpt": "that number is increasing by about $2 trillion a year right now. And that amount is accelerating.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3938AB50FE34",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "Big financial players are not there buying and selling this debt enough, leading to large spreads and volatility.",
+        "reason": "This is an inference from the need for liquidity support, but no specific data on market participation is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not include any market data on spreads, volumes, or player behavior.",
+        "source_excerpt": "It means big financial players are not there buying and selling this debt enough which means that large purchases or sales could actually move the market.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5B42141C7DED",
+        "speech_id": "SP-C1E22D5732AD",
+        "speech_ref": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "claim": "The Mississippi bubble historical account is accurate as described.",
+        "reason": "The transcript presents the story without any historical source or verification; it is plausible but unsubstantiated.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No reference or citation is provided for the historical narrative.",
+        "source_excerpt": "If you're not familiar with the Mississippi bubble, there was a man named John Law who convinced France to allow him to start a central bank in France.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals the beginning of an endgame where the Fed will have to print money, leading to inflation.",
+      "themes": [
+        "Distinction between Treasury buybacks and quantitative easing",
+        "Ineffectiveness of Treasury buybacks on interest costs",
+        "Liquidity support as the true reason for buybacks",
+        "Historical precedent of currency and debt manipulation",
+        "Expected Federal Reserve intervention and inflationary outcome"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "b153d6269ae0e1be0d70568987e105ed9fb4c9f292c3c8262da8d594df35eda7",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "fd7ca57ab2657e8a89b68d9dc1fc3f53e2839e0208c2882fc9fe2ad6f1d0b219",
+    "canonical_mapping": {
+      "speech_id": "SP-C1E22D5732AD",
+      "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+      "primary_cc_rationale": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T113",
+        "T107",
+        "T78"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T113",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-41B93C22A5A3",
+          "rationale": "The theme asserts that liquidity support is the true reason for buybacks, directly aligning with liquidity conditions and repo market dynamics."
+        },
+        {
+          "theme_id": "T107",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-75FAE1C4B4D5",
+          "rationale": "The theme predicts Fed money printing leading to inflation, directly matching inflation and stagflation dynamics."
+        },
+        {
+          "theme_id": "T78",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-30FC93D854EB",
+          "rationale": "The theme draws a historical parallel to the Mississippi bubble, serving as a critique of the fiat monetary system and alternative money."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T113",
+          "cc_id": "CC50",
+          "theme_id": "T113",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T107",
+          "cc_id": "CC50",
+          "theme_id": "T107",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T78",
+          "cc_id": "CC50",
+          "theme_id": "T78",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "local_cc_text": "The recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals the beginning of an endgame where the Fed will have to print money, leading to inflation.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "rationale": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.667214035987854
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.5983338356018066
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.5920822620391846
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.4075963497161865
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.40704384446144104
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "local_theme_id": "LT-A8E00AB7119E",
+        "local_theme_text": "Distinction between Treasury buybacks and quantitative easing",
+        "canonical_theme_id": "T98",
+        "confidence": 0.8,
+        "rationale": "The theme distinguishes Treasury buybacks from quantitative easing, which is a matter of government debt management and fiscal policy.",
+        "candidate_matches": [
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.3689523935317993
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.3631993532180786
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.36136266589164734
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.31336814165115356
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.288335382938385
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.28156617283821106
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "local_theme_id": "LT-7047B77D9B7F",
+        "local_theme_text": "Ineffectiveness of Treasury buybacks on interest costs",
+        "canonical_theme_id": "T91",
+        "confidence": 0.7,
+        "rationale": "The theme discusses the ineffectiveness of buybacks on interest costs, directly related to fiscal debt, Treasury market, and dollar concerns.",
+        "candidate_matches": [
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.30421996116638184
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.30019301176071167
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.2792311906814575
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.2770610451698303
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.2744279205799103
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.2494610846042633
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "local_theme_id": "LT-41B93C22A5A3",
+        "local_theme_text": "Liquidity support as the true reason for buybacks",
+        "canonical_theme_id": "T113",
+        "confidence": 0.85,
+        "rationale": "The theme asserts that liquidity support is the true reason for buybacks, directly aligning with liquidity conditions and repo market dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.45436644554138184
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3207908570766449
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.2361774444580078
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.22915272414684296
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.22480186820030212
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.1889660656452179
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "local_theme_id": "LT-30FC93D854EB",
+        "local_theme_text": "Historical precedent of currency and debt manipulation",
+        "canonical_theme_id": "T78",
+        "confidence": 0.7,
+        "rationale": "The theme draws a historical parallel to the Mississippi bubble, serving as a critique of the fiat monetary system and alternative money.",
+        "candidate_matches": [
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4383624196052551
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.40127065777778625
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.3634631931781769
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.3419548273086548
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.3398556113243103
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.3109544515609741
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "local_theme_id": "LT-75FAE1C4B4D5",
+        "local_theme_text": "Expected Federal Reserve intervention and inflationary outcome",
+        "canonical_theme_id": "T107",
+        "confidence": 0.9,
+        "rationale": "The theme predicts Fed money printing leading to inflation, directly matching inflation and stagflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.5903570055961609
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.5367715358734131
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5179600119590759
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5141443014144897
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.4843705892562866
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.4385302662849426
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-DF77FAA60D5362",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "date": "2025-10-06",
+        "source_hash": "708bf51403da23084806d554c65877fc04a0276f077c44e5656b35031fed07eb",
+        "pair_id": "PAIR-CC50-T113",
+        "cc_id": "CC50",
+        "theme_id": "T113",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-41B93C22A5A3",
+        "local_theme_text": "Liquidity support as the true reason for buybacks",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme asserts that liquidity support is the true reason for buybacks, directly aligning with liquidity conditions and repo market dynamics.",
+        "local_argument_id": "LA-ACACF1161D63",
+        "conclusion": "The stated reason for Treasury buybacks is liquidity support, which indicates market weaknesses and undermines confidence in U.S. Treasuries.",
+        "premises": [
+          "The Treasury schedule states the reason for buybacks is 'liquidity support'.",
+          "Liquidity support means the market lacks private buyers and sellers, implying large spreads and volatility, and the government's presence signals trouble."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F09BC1F433B3",
+            "item": "Treasury schedule showing the stated reason as 'liquidity support' for each buyback.",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly states that the schedule shows 'liquidity support' as the stated reason. This is a direct claim from the transcript itself.",
+            "speech_id": "SP-C1E22D5732AD",
+            "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+            "source_excerpt": "We can see the stated reason for that particular buyback. And we can see it is liquidity support.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-4A1C4F7C44E94C",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "date": "2025-10-06",
+        "source_hash": "708bf51403da23084806d554c65877fc04a0276f077c44e5656b35031fed07eb",
+        "pair_id": "PAIR-CC50-T78",
+        "cc_id": "CC50",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-30FC93D854EB",
+        "local_theme_text": "Historical precedent of currency and debt manipulation",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The theme draws a historical parallel to the Mississippi bubble, serving as a critique of the fiat monetary system and alternative money.",
+        "local_argument_id": "LA-F32CEDAA823C",
+        "conclusion": "The current situation with Treasury buybacks resembles the Mississippi bubble, where artificial buying to support a currency leads to collapse.",
+        "premises": [
+          "John Law printed money to buy Mississippi Company shares to support the currency's value.",
+          "This created overvaluation and eventually a collapse when the central bank had to buy all shares, destroying both the company and the currency."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-41373C7E38C9",
+            "item": "Description of the Mississippi bubble and John Law's scheme.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no external source or reference to verify the historical account; it is presented as narrative by the speaker.",
+            "speech_id": "SP-C1E22D5732AD",
+            "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+            "source_excerpt": "If you're not familiar with the Mississippi bubble, there was a man named John Law who convinced France to allow him to start a central bank in France.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-C13E7B1B184E",
+            "device": "Mississippi bubble analogy",
+            "explanation": "Illustrates how artificial buying to maintain currency value can lead to a loss of confidence and systemic collapse, drawing a parallel to potential Fed intervention.",
+            "speech_id": "SP-C1E22D5732AD",
+            "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+            "source_excerpt": "Now, I'm not saying that something like this, at least quickly, is happening with the US dollar and treasuries right now, but you can certainly see the similarities",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-A8D88BB29B5FD8",
+        "speech_id": "SP-C1E22D5732AD",
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "date": "2025-10-06",
+        "source_hash": "708bf51403da23084806d554c65877fc04a0276f077c44e5656b35031fed07eb",
+        "pair_id": "PAIR-CC50-T107",
+        "cc_id": "CC50",
+        "theme_id": "T107",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that the recent ramping up of Treasury buybacks is liquidity support that undermines confidence and signals future Federal Reserve money printing and inflation, directly supporting CC50's claim that such policies (including buybacks) are aimed at supporting government borrowing and will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-75FAE1C4B4D5",
+        "local_theme_text": "Expected Federal Reserve intervention and inflationary outcome",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme predicts Fed money printing leading to inflation, directly matching inflation and stagflation dynamics.",
+        "local_argument_id": "LA-1A71A1E6386B",
+        "conclusion": "Ultimately, the Fed will have to print money to buy Treasuries, leading to inflation and the end of the dollar's value.",
+        "premises": [
+          "Confidence in Treasuries is undermined by the $38 trillion debt and growing deficits.",
+          "Treasury buybacks are a sign of liquidity problems that will force the Fed to step in.",
+          "Printing money to support debt is inflationary."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F1928738CBBD",
+            "item": "Claim that the Fed 'has to step in and print money' and that this leads to 'inflation' and 'endgame'.",
+            "status": "Unverifiable",
+            "verification_basis": "These are predictions and interpretations by the speaker, not supported by evidence within the transcript.",
+            "speech_id": "SP-C1E22D5732AD",
+            "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+            "source_excerpt": "ultimately we do get to a point where the Fed does have to step in and print money to buy up these treasuries. And when a central government in coordination with the central bank has to maintain the value of its debt through printing and the debt is what gives the money its value, you've entered the endgame.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-952FC5DC1668",
+            "device": "Paper bridge rhetorical device",
+            "explanation": "Used sarcastically to dismiss alternative solutions other than printing money.",
+            "speech_id": "SP-C1E22D5732AD",
+            "source_speech_filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+            "source_excerpt": "if you think there is any way out of this mess other than the US government trying to print its way and inflate its way out, then I have a paper bridge to sell you.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-A8E00AB7119E",
+        "local_argument_id": "LA-FA7B9B4C1078",
+        "conclusion": "Treasury buybacks are not quantitative easing.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-7047B77D9B7F",
+        "local_argument_id": "LA-488D92B997A4",
+        "conclusion": "Treasury buybacks are too small to meaningfully reduce interest costs on the national debt.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "b153d6269ae0e1be0d70568987e105ed9fb4c9f292c3c8262da8d594df35eda7",
+  "complete": true
+}

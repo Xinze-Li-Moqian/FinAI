@@ -1,0 +1,83 @@
+{
+  "dependency_hash": "517d527a35276ef87ce77f9012b8fb94fa182aa1d2ba167e301379989569a1bb",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC45-T74",
+    "cc_id": "CC45",
+    "theme_id": "T74",
+    "authoritative_anchor": "cc-cc45-theme-t74",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC45-T74-7A1E2B8857",
+        "pair_id": "PAIR-CC45-T74",
+        "conclusion": "Without a preceding boom of excessive leverage, a severe bust cannot occur.",
+        "source_contribution_ids": [
+          "CONTRIB-0609BCA5D4E46A"
+        ],
+        "source_speech_filenames": [
+          "20260511_Economic Collapse is Not Possible Now.txt"
+        ],
+        "premise_synthesis": "Busts are caused by debt cycles, not business cycles. The Great Financial Crisis and the Great Depression were both preceded by massive leverage build-ups. Current household leverage is low, so no such boom exists today. Thus, without a preceding boom of excessive leverage, a severe bust cannot occur.",
+        "conclusion_supported": "The conclusion that a severe economic collapse or major stock market crash is not imminent is supported by the theory that busts require prior excessive leverage, which is absent in current household balance sheets.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-0609BCA5D4E46A"
+            ],
+            "source_speech_filenames": [
+              "20260511_Economic Collapse is Not Possible Now.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that a severe economic collapse is unlikely because US household balance sheets are not overleveraged, directly supporting CC45's claim that a major stock market crash or recession is not imminent, especially given that household balance sheets are not overleveraged."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Great Financial Crisis caused by leverage buildup",
+            "status": "Verified",
+            "verification_basis": "Explicitly stated in transcript",
+            "source_contribution_ids": [
+              "CONTRIB-0609BCA5D4E46A"
+            ],
+            "source_speech_filenames": [
+              "20260511_Economic Collapse is Not Possible Now.txt"
+            ],
+            "source_excerpt": "that is exactly what happened in the Great Financial Crisis."
+          },
+          {
+            "item": "Great Depression also involved excessive leverage",
+            "status": "Verified",
+            "verification_basis": "Explicitly stated in transcript",
+            "source_contribution_ids": [
+              "CONTRIB-0609BCA5D4E46A"
+            ],
+            "source_speech_filenames": [
+              "20260511_Economic Collapse is Not Possible Now.txt"
+            ],
+            "source_excerpt": "That's also what happened during the Great Depression."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Single speech dated 2026-05-11; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-0609BCA5D4E46A"
+    ],
+    "source_speech_filenames": [
+      "20260511_Economic Collapse is Not Possible Now.txt"
+    ],
+    "generated_at": "2026-07-15T03:40:50+00:00",
+    "record_hash": "25836326cf4b09d0735a076669dab2198b7522720bc737279eec92cbc81ae785"
+  },
+  "complete": true
+}

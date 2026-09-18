@@ -1,0 +1,826 @@
+{
+  "dependencies": {
+    "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+    "phase1_record_hash": "7d71ef2c859d2ef1924a79e60f0b6259a9f4b3d12126cf4c6b7b6bdd441dde76",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-9D59B1E587DF",
+    "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+    "stem": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements",
+    "date": "2025-09-25",
+    "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+    "source_character_count": 10137,
+    "central_claim": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies over the long term, outweighing the risks of increased fraud, insider trading, and volatility.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A1A8C270F6DA",
+        "theme": "Regulatory backfire: examples from pattern day trader and accredited investor rules",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5F97131ECAEF",
+            "local_theme_id": "LT-A1A8C270F6DA",
+            "conclusion": "The pattern day trader rule, initially justified by a tech limitation, is now obsolete and harms young and low-income investors.",
+            "premises": [
+              "The rule requires a $25,000 minimum balance to day trade more than four times in five days.",
+              "It was created because the NASDAQ could not handle high volumes from small accounts in the late 1990s.",
+              "Current systems can handle higher volumes, removing the original justification.",
+              "The rule persists without cause, damaging those it was supposedly meant to protect."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-18BEF75804B3",
+                "item": "Origin and specifics of the pattern day trader rule: $25,000 minimum, created due to NASDAQ volume limits in the late 1990s.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides explicit historical and regulatory details consistent with known rules.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "The reason why the pattern day trader rule was put into place in the first place is because back in the late '90s when electronic trading began, there were so many small account individuals that were day trading that the NASDAQ couldn't handle the volume of trades coming through. So they just said, \"Okay, if you're going to be day trading, you have to have at least $25,000 in your account.\"",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1E8D7703DF99",
+                "item": "Claim of unquantifiable damage to young and low-income investors.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides no data or source to quantify the alleged damage.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "There is now an unquantifiable amount of damage that has been done to lowincome and young investors who were prevented from investing potentially the most effective way they needed to because of a rule that was set in place in the '90s because of a tech limitation.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-9551A1E87557",
+            "local_theme_id": "LT-A1A8C270F6DA",
+            "conclusion": "Accredited investor rules prevent non-wealthy individuals from investing in high-return opportunities, contradicting their stated protective purpose.",
+            "premises": [
+              "Accredited investor requirements: net worth above $1 million (excluding primary residence) or income above $200k/$300k.",
+              "These restrictions block access to private placements and hedge funds.",
+              "Best investment gains often occur before public offerings, which are only available to accredited investors."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-91A43E6C464F",
+                "item": "Specific income and net worth thresholds for accredited investor status.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly lists the quantitative requirements matching standard SEC rules.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "To qualify as an accredited investor, you need to have a net worth that exceeds $1 million, which excludes your primary residence. Or you need to have an annual income of $200,000 for an individual or $300,000 for a couple for the last 2 years with the expectation that that earning will continue.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4506DF6050FF",
+        "theme": "Trade-offs in transitioning from quarterly to semi-annual earnings reporting",
+        "arguments": [
+          {
+            "local_argument_id": "LA-331E70D54D43",
+            "local_theme_id": "LT-4506DF6050FF",
+            "conclusion": "Moving to semi-annual reporting will increase risks of fraud, insider trading, and stock price volatility.",
+            "premises": [
+              "Less frequent reporting reduces transparency, allowing fraud to go undetected longer.",
+              "Insiders have more time to trade on hidden bad news before public disclosure.",
+              "Earnings moves (2–40%) would likely be larger after six months because underlying changes compound.",
+              "Removing a safety net guarantees that some investors will suffer losses."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-50509BD5F647",
+                "item": "Claim that fraud is currently most often found by investors examining quarterly reports.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or statistic provided for the claim that this is the 'number one way' fraud is detected.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "The number one way that that fraud is found out today is by investors digging through the financial reporting seeing that the numbers don't add up.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-F76C034C182D",
+                "item": "Observation that stocks can move 2–40% on earnings days.",
+                "status": "Unverifiable",
+                "verification_basis": "No supporting data or examples given within the transcript.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "We already have stocks that will shoot up or fall down 2, 5, 10, 20, sometimes 40% on earnings.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-DB6D1E3860EF",
+                "device": "Safety railing / safety net metaphor",
+                "explanation": "Removing quarterly reporting is like removing a safety railing; it allows freedom but some 'dumb people' will fall and get hurt.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "Anytime you have a safety railing in place, a safety net, and you just remove it, you are almost guaranteed that there are going to be some dumb people who trip and fall and hurt themselves tumbling over the edge.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-22DEE38D47E0",
+            "local_theme_id": "LT-4506DF6050FF",
+            "conclusion": "Semi-annual reporting will reduce costs and allow companies to focus on long-term growth, benefiting investors.",
+            "premises": [
+              "Quarterly reporting is costly, requiring entire divisions dedicated to reporting every quarter.",
+              "Freeing resources from reporting allows more productive investment in growth.",
+              "Short-term pressure from quarterly targets hinders long-term value creation.",
+              "Patience (‘wealth loves patience’) leads to better growth outcomes."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F45AB84E122D",
+                "item": "Assertion that quarterly reporting costs are 'colossal' for most companies.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific figures or sources are provided for the claim.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "The main benefit here of going to six months is that it would allow companies to number one avoid the cost of quarterly reporting which is actually pretty colossal for most companies.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-7A85BDCD52BE",
+                "item": "Claim that freeing resources from reporting will direct them to productive uses.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript offers no empirical support or case studies.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "It would free up more financial resources to go to being actually productive and growing the company, providing a return to investors, which at the end of the day is what investors want.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-60414603E489",
+            "local_theme_id": "LT-4506DF6050FF",
+            "conclusion": "Over the long term, the benefits of semi-annual reporting outweigh the risks, leading to a net positive effect.",
+            "premises": [
+              "Risks are real but fraud and insider trading remain illegal and will eventually be uncovered.",
+              "The change is modest (3 to 6 months, not zero reporting).",
+              "Other countries already use six-month reporting without catastrophic outcomes.",
+              "Less government intervention generally produces better long-term results, as seen in other deregulatory precedents."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7F9B904494B5",
+                "item": "Assertion that many countries do not require quarterly reporting.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific countries or examples are cited within the transcript.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "There are actually plenty of countries around the world that don't have quarterly earnings reporting requirements. They already only have six-month reporting requirements.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A1B7FBE101E0",
+                "item": "Quote attributed to Thomas Jefferson: sacrifice freedom for security and lose both.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no citation for the quote; it relies on the speaker's assertion.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "In the wise words of Thomas Jefferson, those who sacrifice freedom to achieve security will lose both and deserve neither.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-06D0091D0203",
+                "device": "Freedom–security trade-off adage",
+                "explanation": "Analogizes the reporting change to a broader principle that sacrificing freedom for security leads to loss of both.",
+                "speech_id": "SP-9D59B1E587DF",
+                "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+                "source_excerpt": "In the wise words of Thomas Jefferson, those who sacrifice freedom to achieve security will lose both and deserve neither.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-E61857257801",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "The SEC is considering ending quarterly earnings reporting requirements.",
+        "reason": "The transcript asserts this as fact without providing any source or official announcement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence supports this; may reflect current news but not verifiable from text.",
+        "source_excerpt": "Quarterly earnings reporting for US-based companies may be going away soon. The SEC is considering ending quarterly earnings reporting requirements.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-D3D69A2DF76C",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "The Trump administration has been floating the idea and pushing more and more for it recently.",
+        "reason": "No citation, source, or specific action is mentioned to verify administration involvement.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence supports this; speaker's claim only.",
+        "source_excerpt": "The Trump administration has been floating the idea and pushing more and more for it recently.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-25EB67587230",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "There is now an unquantifiable amount of damage that has been done to lowincome and young investors who were prevented from investing potentially the most effective way they needed to because of a rule that was set in place in the '90s because of a tech limitation.",
+        "reason": "The speaker offers no metrics, studies, or examples to quantify or support the existence of this damage.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim is stated as fact but entirely unsupported within transcript.",
+        "source_excerpt": "There is now an unquantifiable amount of damage that has been done to lowincome and young investors who were prevented from investing potentially the most effective way they needed to because of a rule that was set in place in the '90s because of a tech limitation.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-5FC0A7ED7165",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "The number one way that that fraud is found out today is by investors digging through the financial reporting seeing that the numbers don't add up.",
+        "reason": "No source, study, or data is provided to support the claim that this is the primary method of fraud detection.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common belief, but transcript provides no verification.",
+        "source_excerpt": "The number one way that that fraud is found out today is by investors digging through the financial reporting seeing that the numbers don't add up.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-95209C2F5D7B",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "There are many investments that you are not legally allowed to invest in unless you're already rich. ... investments that have the best performance throughout history.",
+        "reason": "The assertion that excluded investments have 'the best performance throughout history' is unsupported by any data or examples.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No evidence provided for historical performance claim.",
+        "source_excerpt": "There are many investments that you are not legally allowed to invest in unless you're already rich. things like private placements or hedge funds. ... investments that have the best performance throughout history.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-BF43B3F36B07",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "There are actually plenty of countries around the world that don't have quarterly earnings reporting requirements. They already only have six-month reporting requirements.",
+        "reason": "No specific countries, laws, or examples are cited to verify this assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "True in some jurisdictions (e.g., EU, UK, Japan), but transcript does not provide verification.",
+        "source_excerpt": "There are actually plenty of countries around the world that don't have quarterly earnings reporting requirements. They already only have six-month reporting requirements.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C9C3379EF532",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "The cost of quarterly reporting is actually pretty colossal for most companies.",
+        "reason": "No figures, studies, or cost estimates are provided to support the magnitude of the claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common assertion, but transcript lacks data.",
+        "source_excerpt": "The main benefit here of going to six months is that it would allow companies to number one avoid the cost of quarterly reporting which is actually pretty colossal for most companies.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-93003C899A8D",
+        "speech_id": "SP-9D59B1E587DF",
+        "speech_ref": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "claim": "Thomas Jefferson said 'those who sacrifice freedom to achieve security will lose both and deserve neither.'",
+        "reason": "No source (e.g., letter, speech) is provided to verify that Jefferson made this statement; the quote is attributed without citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Widely attributed to Jefferson but disputed; transcript does not provide verification.",
+        "source_excerpt": "In the wise words of Thomas Jefferson, those who sacrifice freedom to achieve security will lose both and deserve neither.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies over the long term, outweighing the risks of increased fraud, insider trading, and volatility.",
+      "themes": [
+        "Regulatory backfire: examples from pattern day trader and accredited investor rules",
+        "Trade-offs in transitioning from quarterly to semi-annual earnings reporting"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "b4b848aaf5a716ef9cef5de81111bac1883f3129a0ab3df5a6611899fae9f8a4",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "7d71ef2c859d2ef1924a79e60f0b6259a9f4b3d12126cf4c6b7b6bdd441dde76",
+    "canonical_mapping": {
+      "speech_id": "SP-9D59B1E587DF",
+      "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC14",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+      "primary_cc_rationale": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T55",
+        "T129"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T55",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-A1A8C270F6DA",
+          "rationale": "The theme discusses pattern day trader and accredited investor rules, which are examples of securities regulation and market structure."
+        },
+        {
+          "theme_id": "T129",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-4506DF6050FF",
+          "rationale": "The theme directly addresses trade-offs in transitioning earnings reporting frequency, which is central to regulatory impact and securities reporting."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC14-T55",
+          "cc_id": "CC14",
+          "theme_id": "T55",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC14-T129",
+          "cc_id": "CC14",
+          "theme_id": "T129",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "local_cc_text": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies over the long term, outweighing the risks of increased fraud, insider trading, and volatility.",
+        "canonical_cc_id": "CC14",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "rationale": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "candidate_matches": [
+          {
+            "id": "CC14",
+            "text": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies, outweighing risks of increased fraud, insider trading, and volatility.",
+            "similarity": 0.9959444403648376
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.14663363993167877
+          },
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.11990448832511902
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.10378504544496536
+          },
+          {
+            "id": "CC46",
+            "text": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+            "similarity": 0.09509491920471191
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "local_theme_id": "LT-A1A8C270F6DA",
+        "local_theme_text": "Regulatory backfire: examples from pattern day trader and accredited investor rules",
+        "canonical_theme_id": "T55",
+        "confidence": 0.7,
+        "rationale": "The theme discusses pattern day trader and accredited investor rules, which are examples of securities regulation and market structure.",
+        "candidate_matches": [
+          {
+            "id": "T129",
+            "text": "Regulatory impact and securities reporting",
+            "similarity": 0.3098439574241638
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.2907963991165161
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.2866087555885315
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.2667161226272583
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.25013428926467896
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.20527121424674988
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "local_theme_id": "LT-4506DF6050FF",
+        "local_theme_text": "Trade-offs in transitioning from quarterly to semi-annual earnings reporting",
+        "canonical_theme_id": "T129",
+        "confidence": 0.8,
+        "rationale": "The theme directly addresses trade-offs in transitioning earnings reporting frequency, which is central to regulatory impact and securities reporting.",
+        "candidate_matches": [
+          {
+            "id": "T129",
+            "text": "Regulatory impact and securities reporting",
+            "similarity": 0.23672348260879517
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.13393953442573547
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.1330927163362503
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.10521239042282104
+          },
+          {
+            "id": "T123",
+            "text": "Peaceful secession",
+            "similarity": 0.09637022018432617
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.091372549533844
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-CABAC4B8802337",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "date": "2025-09-25",
+        "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+        "pair_id": "PAIR-CC14-T55",
+        "cc_id": "CC14",
+        "theme_id": "T55",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A1A8C270F6DA",
+        "local_theme_text": "Regulatory backfire: examples from pattern day trader and accredited investor rules",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The theme discusses pattern day trader and accredited investor rules, which are examples of securities regulation and market structure.",
+        "local_argument_id": "LA-5F97131ECAEF",
+        "conclusion": "The pattern day trader rule, initially justified by a tech limitation, is now obsolete and harms young and low-income investors.",
+        "premises": [
+          "The rule requires a $25,000 minimum balance to day trade more than four times in five days.",
+          "It was created because the NASDAQ could not handle high volumes from small accounts in the late 1990s.",
+          "Current systems can handle higher volumes, removing the original justification.",
+          "The rule persists without cause, damaging those it was supposedly meant to protect."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-18BEF75804B3",
+            "item": "Origin and specifics of the pattern day trader rule: $25,000 minimum, created due to NASDAQ volume limits in the late 1990s.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides explicit historical and regulatory details consistent with known rules.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "The reason why the pattern day trader rule was put into place in the first place is because back in the late '90s when electronic trading began, there were so many small account individuals that were day trading that the NASDAQ couldn't handle the volume of trades coming through. So they just said, \"Okay, if you're going to be day trading, you have to have at least $25,000 in your account.\"",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1E8D7703DF99",
+            "item": "Claim of unquantifiable damage to young and low-income investors.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no data or source to quantify the alleged damage.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "There is now an unquantifiable amount of damage that has been done to lowincome and young investors who were prevented from investing potentially the most effective way they needed to because of a rule that was set in place in the '90s because of a tech limitation.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-15110A7C8DA5D9",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "date": "2025-09-25",
+        "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+        "pair_id": "PAIR-CC14-T55",
+        "cc_id": "CC14",
+        "theme_id": "T55",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A1A8C270F6DA",
+        "local_theme_text": "Regulatory backfire: examples from pattern day trader and accredited investor rules",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The theme discusses pattern day trader and accredited investor rules, which are examples of securities regulation and market structure.",
+        "local_argument_id": "LA-9551A1E87557",
+        "conclusion": "Accredited investor rules prevent non-wealthy individuals from investing in high-return opportunities, contradicting their stated protective purpose.",
+        "premises": [
+          "Accredited investor requirements: net worth above $1 million (excluding primary residence) or income above $200k/$300k.",
+          "These restrictions block access to private placements and hedge funds.",
+          "Best investment gains often occur before public offerings, which are only available to accredited investors."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-91A43E6C464F",
+            "item": "Specific income and net worth thresholds for accredited investor status.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly lists the quantitative requirements matching standard SEC rules.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "To qualify as an accredited investor, you need to have a net worth that exceeds $1 million, which excludes your primary residence. Or you need to have an annual income of $200,000 for an individual or $300,000 for a couple for the last 2 years with the expectation that that earning will continue.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-6FB99B8F764FC7",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "date": "2025-09-25",
+        "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+        "pair_id": "PAIR-CC14-T129",
+        "cc_id": "CC14",
+        "theme_id": "T129",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4506DF6050FF",
+        "local_theme_text": "Trade-offs in transitioning from quarterly to semi-annual earnings reporting",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The theme directly addresses trade-offs in transitioning earnings reporting frequency, which is central to regulatory impact and securities reporting.",
+        "local_argument_id": "LA-331E70D54D43",
+        "conclusion": "Moving to semi-annual reporting will increase risks of fraud, insider trading, and stock price volatility.",
+        "premises": [
+          "Less frequent reporting reduces transparency, allowing fraud to go undetected longer.",
+          "Insiders have more time to trade on hidden bad news before public disclosure.",
+          "Earnings moves (2–40%) would likely be larger after six months because underlying changes compound.",
+          "Removing a safety net guarantees that some investors will suffer losses."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-50509BD5F647",
+            "item": "Claim that fraud is currently most often found by investors examining quarterly reports.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or statistic provided for the claim that this is the 'number one way' fraud is detected.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "The number one way that that fraud is found out today is by investors digging through the financial reporting seeing that the numbers don't add up.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-F76C034C182D",
+            "item": "Observation that stocks can move 2–40% on earnings days.",
+            "status": "Unverifiable",
+            "verification_basis": "No supporting data or examples given within the transcript.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "We already have stocks that will shoot up or fall down 2, 5, 10, 20, sometimes 40% on earnings.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-DB6D1E3860EF",
+            "device": "Safety railing / safety net metaphor",
+            "explanation": "Removing quarterly reporting is like removing a safety railing; it allows freedom but some 'dumb people' will fall and get hurt.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "Anytime you have a safety railing in place, a safety net, and you just remove it, you are almost guaranteed that there are going to be some dumb people who trip and fall and hurt themselves tumbling over the edge.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-13E23EA09BAECC",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "date": "2025-09-25",
+        "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+        "pair_id": "PAIR-CC14-T129",
+        "cc_id": "CC14",
+        "theme_id": "T129",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4506DF6050FF",
+        "local_theme_text": "Trade-offs in transitioning from quarterly to semi-annual earnings reporting",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The theme directly addresses trade-offs in transitioning earnings reporting frequency, which is central to regulatory impact and securities reporting.",
+        "local_argument_id": "LA-22DEE38D47E0",
+        "conclusion": "Semi-annual reporting will reduce costs and allow companies to focus on long-term growth, benefiting investors.",
+        "premises": [
+          "Quarterly reporting is costly, requiring entire divisions dedicated to reporting every quarter.",
+          "Freeing resources from reporting allows more productive investment in growth.",
+          "Short-term pressure from quarterly targets hinders long-term value creation.",
+          "Patience (‘wealth loves patience’) leads to better growth outcomes."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F45AB84E122D",
+            "item": "Assertion that quarterly reporting costs are 'colossal' for most companies.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific figures or sources are provided for the claim.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "The main benefit here of going to six months is that it would allow companies to number one avoid the cost of quarterly reporting which is actually pretty colossal for most companies.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-7A85BDCD52BE",
+            "item": "Claim that freeing resources from reporting will direct them to productive uses.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript offers no empirical support or case studies.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "It would free up more financial resources to go to being actually productive and growing the company, providing a return to investors, which at the end of the day is what investors want.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2A291B64AD2A11",
+        "speech_id": "SP-9D59B1E587DF",
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "date": "2025-09-25",
+        "source_hash": "45d1654053e15a31295075ac961e5d010bb976d9bea814afc85fbb710969c58a",
+        "pair_id": "PAIR-CC14-T129",
+        "cc_id": "CC14",
+        "theme_id": "T129",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech's central claim is nearly identical to CC14, arguing that moving to semi-annual reporting is net beneficial, and it provides arguments weighing risks and benefits.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4506DF6050FF",
+        "local_theme_text": "Trade-offs in transitioning from quarterly to semi-annual earnings reporting",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The theme directly addresses trade-offs in transitioning earnings reporting frequency, which is central to regulatory impact and securities reporting.",
+        "local_argument_id": "LA-60414603E489",
+        "conclusion": "Over the long term, the benefits of semi-annual reporting outweigh the risks, leading to a net positive effect.",
+        "premises": [
+          "Risks are real but fraud and insider trading remain illegal and will eventually be uncovered.",
+          "The change is modest (3 to 6 months, not zero reporting).",
+          "Other countries already use six-month reporting without catastrophic outcomes.",
+          "Less government intervention generally produces better long-term results, as seen in other deregulatory precedents."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7F9B904494B5",
+            "item": "Assertion that many countries do not require quarterly reporting.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific countries or examples are cited within the transcript.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "There are actually plenty of countries around the world that don't have quarterly earnings reporting requirements. They already only have six-month reporting requirements.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A1B7FBE101E0",
+            "item": "Quote attributed to Thomas Jefferson: sacrifice freedom for security and lose both.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no citation for the quote; it relies on the speaker's assertion.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "In the wise words of Thomas Jefferson, those who sacrifice freedom to achieve security will lose both and deserve neither.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-06D0091D0203",
+            "device": "Freedom–security trade-off adage",
+            "explanation": "Analogizes the reporting change to a broader principle that sacrificing freedom for security leads to loss of both.",
+            "speech_id": "SP-9D59B1E587DF",
+            "source_speech_filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+            "source_excerpt": "In the wise words of Thomas Jefferson, those who sacrifice freedom to achieve security will lose both and deserve neither.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "b4b848aaf5a716ef9cef5de81111bac1883f3129a0ab3df5a6611899fae9f8a4",
+  "complete": true
+}

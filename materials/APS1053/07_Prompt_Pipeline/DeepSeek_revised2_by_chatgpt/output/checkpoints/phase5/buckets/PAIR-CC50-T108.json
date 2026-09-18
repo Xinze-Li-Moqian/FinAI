@@ -1,0 +1,71 @@
+{
+  "dependency_hash": "72ae6fefd43464acecf248baa15d02fc9e6de144efaf2cb25a44d88a822b165d",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC50-T108",
+    "cc_id": "CC50",
+    "theme_id": "T108",
+    "authoritative_anchor": "cc-cc50-theme-t108",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC50-T108-CB09A253AC",
+        "pair_id": "PAIR-CC50-T108",
+        "conclusion": "Reducing the federal funds rate can lead to higher long-term interest rates because it increases inflation expectations.",
+        "source_contribution_ids": [
+          "CONTRIB-E5D50AE184B4C2"
+        ],
+        "source_speech_filenames": [
+          "20250918_Rate Cuts are a Distraction, Watch This Instead.txt"
+        ],
+        "premise_synthesis": "Fed rate cuts reduce the cost of government borrowing, which increases the money supply and fuels inflation. In response, lenders demand higher yields to compensate for the expected loss of purchasing power, thereby driving up long-term interest rates.",
+        "conclusion_supported": "The mechanism by which Fed rate cuts increase inflation expectations, causing higher long-term yields, is established.",
+        "relationship_roles": [
+          {
+            "relationship_type": "mechanism",
+            "source_contribution_ids": [
+              "CONTRIB-E5D50AE184B4C2"
+            ],
+            "source_speech_filenames": [
+              "20250918_Rate Cuts are a Distraction, Watch This Instead.txt"
+            ],
+            "relationship_explanations": [
+              "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Historical data: after September 2024 rate cuts, the 10-year yield rose from 3.6% to 4.8%.",
+            "status": "Verified",
+            "verification_basis": "Specific numbers provided in the transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-E5D50AE184B4C2"
+            ],
+            "source_speech_filenames": [
+              "20250918_Rate Cuts are a Distraction, Watch This Instead.txt"
+            ],
+            "source_excerpt": "when they cut rates... in September of 2024... it actually made the 10-year yield rise. It went from 3.6% all the way up to 4.8%."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is synthesized from a single speech dated 2025-09-18. No cross-speech evolution can be inferred from this sole source.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-E5D50AE184B4C2"
+    ],
+    "source_speech_filenames": [
+      "20250918_Rate Cuts are a Distraction, Watch This Instead.txt"
+    ],
+    "generated_at": "2026-07-15T03:58:35+00:00",
+    "record_hash": "4cbd65680a15bb372696cf1f2a4539a516a5ec60c207d45ff6cbf4c1bc6f1e10"
+  },
+  "complete": true
+}

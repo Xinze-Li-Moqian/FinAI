@@ -1,0 +1,809 @@
+{
+  "dependencies": {
+    "source_hash": "c8be0eaad46fb3c237c5ace959a09f292556ff0ff5d2676ef7bf306e4abf096e",
+    "phase1_record_hash": "9990190e6d14ea22d4f537a89574c5c8a1e693ab4f95f083dd2527815d1202a1",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-450EB90879FB",
+    "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+    "stem": "20260430_Front Running the Tariffs and Profiting from Refunds",
+    "date": "2026-04-30",
+    "source_hash": "c8be0eaad46fb3c237c5ace959a09f292556ff0ff5d2676ef7bf306e4abf096e",
+    "source_character_count": 6653,
+    "central_claim": "The Trump administration's tariff policies were a deliberate mechanism to transfer wealth from consumers to corporations and politically connected insiders.",
+    "themes": [
+      {
+        "local_theme_id": "LT-BF94757F6A3F",
+        "theme": "Corporate windfall from tariff refunds",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DB385780677E",
+            "local_theme_id": "LT-BF94757F6A3F",
+            "conclusion": "Tariff refunds are a windfall for corporations at the expense of consumers.",
+            "premises": [
+              "Companies raised prices when tariffs were imposed",
+              "Tariffs are being refunded due to Supreme Court ruling",
+              "Companies are not expected to lower prices"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C00FD61D31F3",
+                "item": "Walmart is due back over $10 billion",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide source for this figure",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "Companies like Walmart are due back over $10 billion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-38765C3C3450",
+                "item": "Target is due $2 billion",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide source for this figure",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "Target is due $2 billion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 2758,
+                  "character_end": 2783,
+                  "line_start": 72
+                }
+              },
+              {
+                "evidence_id": "EV-1715EB279C04",
+                "item": "Nike could get $1 billion",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide source for this figure",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "Nike could get $1 billion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C200E9FCAE59",
+                "item": "Supreme Court ruled president lacks authority to impose blanket tariffs",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide case name, date, or citation",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "the Supreme Court ruled that no, the president does not have the authority to just blanket lay tariffs like this.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-15CBED3FBB53",
+                "item": "Interest is being paid back to companies on tariff payments",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide source or legal basis",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "there's interest being paid back to these companies as well on the money that they were out for that amount of time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-DCD2435353AC",
+                "device": "Taxes on alcohol and nicotine as analogy for tariff impact",
+                "explanation": "Illustrates that taxes reduce purchasing power and are passed to consumers",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "It's like we all collectively accept that there are taxes on things like alcohol and nicotine products in order to persuade people to buy those things less, because we acknowledge that taxes and fiscal policy incentivizes behavior.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-312A122B4C99",
+        "theme": "Insider profiteering through tariff refund rights",
+        "arguments": [
+          {
+            "local_argument_id": "LA-58461D4DAB18",
+            "local_theme_id": "LT-312A122B4C99",
+            "conclusion": "Howard Lutnick and Cantor Fitzgerald profited from insider knowledge by designing tariffs to be overturned and buying refund rights.",
+            "premises": [
+              "Cantor Fitzgerald bought refund rights at a discount",
+              "Howard Lutnick was involved in tariff design",
+              "The tariffs were designed to be likely overturned"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5588F02BDD97",
+                "item": "Cantor Fitzgerald bought rights to tariff refunds for pennies on the dollar",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide source or transaction details",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "Cantor Fitzgerald has been running around buying the rights to tariff refunds if they were ever to happen. And they've been buying them for pennies on the dollar.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-06DE32B6636C",
+                "item": "Howard Lutnick was heavily involved in designing the tariffs",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide evidence of Lutnick's role",
+                "speech_id": "SP-450EB90879FB",
+                "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+                "source_excerpt": "Guess what Howard Lutnick was also heavily involved in? Designing the tariffs from the start in a way that was extremely expensive, in a way that was very likely to be overturned and overruled by the Supreme Court.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-81F51F515355",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "The tariff policy has been one big forced wealth transfer from Main Street to Wall Street, especially the politically connected.",
+        "reason": "Transcript presents this as an interpretation without supporting data or sources for the claim of orchestration.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge does not contain independent verification of this characterization.",
+        "source_excerpt": "Unfortunately, it looks like this whole tariff thing that's been going on since the beginning of this administration has been one big forced wealth transfer from Main Street to Wall Street, especially the politically connected.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-76029D8A9B7F",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Prices went up to compensate for these tariffs.",
+        "reason": "Transcript provides no data or citation showing that prices increased specifically due to tariffs.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General economic principle, but specific price increases are not verified.",
+        "source_excerpt": "prices went up to compensate for these tariffs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5829728EAA7B",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "All the tariffs have been collected since the beginning of last year.",
+        "reason": "No source for the timeline or aggregate tariff collection.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification of collection timeline.",
+        "source_excerpt": "all the tariffs have been collected since the beginning of last year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-12AC209F4184",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "All the tariffs have to be returned.",
+        "reason": "No legal citation or official statement confirming refund process.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No verification of the refund mandate.",
+        "source_excerpt": "now all that has to be returned.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4A092A359CE5",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Walmart is due back over $10 billion.",
+        "reason": "No source provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "Companies like Walmart are due back over $10 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F99BB83FF0D6",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Target is due $2 billion.",
+        "reason": "No source provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "Target is due $2 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 2758,
+          "character_end": 2783,
+          "line_start": 72
+        }
+      },
+      {
+        "unverifiable_id": "UV-748A061D396E",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Nike could get $1 billion.",
+        "reason": "No source provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "Nike could get $1 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A754A72A3D22",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Interest is being paid back to companies on tariff payments.",
+        "reason": "No source or legal basis provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "there's interest being paid back to these companies as well on the money that they were out for that amount of time.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BEFDAB88C1B3",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Companies will not be lowering their prices from here.",
+        "reason": "Predictive assertion with no evidence or precedent cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "they're not going to be lowering their prices from here.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-76FE99E7B269",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "These companies are going to be getting refunds for the vast majority of all of the money that they paid out.",
+        "reason": "No evidence for the refund percentage.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "So these companies are going to be getting refunds for the vast majority of all of the money that they paid out",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-CF3DB0957369",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "These tariffs were not paid by other countries, they were paid by you.",
+        "reason": "Assertion about tariff incidence with no supporting economic analysis.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Economic claims about incidence require data not provided.",
+        "source_excerpt": "no, these tariffs were not paid by other countries, they were paid by you.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E509F5CD875D",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "The tariff revenue did not go to decreasing the deficit, paying off national debt, or social security.",
+        "reason": "No evidence on allocation of tariff revenue.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification of revenue use.",
+        "source_excerpt": "it did not go to decreasing the deficit, to paying off the national debt, didn't go to social security, didn't go to any expenses that the government has",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-51DFF21C45B2",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "The Supreme Court ruled that the president does not have the authority to just blanket lay tariffs like this.",
+        "reason": "No case name, date, or citation provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification of this specific ruling.",
+        "source_excerpt": "the Supreme Court ruled that no, the president does not have the authority to just blanket lay tariffs like this.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EA34F895D46D",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "People knew this is how it was going to happen from the very beginning.",
+        "reason": "No evidence of insider knowledge.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "people knew this is how it was going to happen from the very beginning.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5C62C419E90B",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Cantor Fitzgerald has been buying the rights to tariff refunds for pennies on the dollar.",
+        "reason": "No transaction details or sources provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "Cantor Fitzgerald has been running around buying the rights to tariff refunds if they were ever to happen. And they've been buying them for pennies on the dollar.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3309D9C1AB43",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Howard Lutnick was heavily involved in designing the tariffs.",
+        "reason": "No evidence of his role or actions.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "Guess what Howard Lutnick was also heavily involved in? Designing the tariffs from the start in a way that was extremely expensive, in a way that was very likely to be overturned and overruled by the Supreme Court.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4BFD4395DCDD",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "Cantor Fitzgerald is going to be receiving a massive windfall from refunds.",
+        "reason": "Predictive claim based on preceding unverified assertions.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "And now Cantor Fitzgerald is going to be receiving a massive windfall as they have the rights to hundreds of millions of dollars in refunds.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-51D5F9F6425E",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "There has been front running of the news announcements of the war in Iran.",
+        "reason": "No evidence provided for this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "the front running of the news announcements of the war in Iran",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8F679155851D",
+        "speech_id": "SP-450EB90879FB",
+        "speech_ref": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "claim": "There has been insider trading by members of Congress.",
+        "reason": "General assertion without specific examples or sources.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independent verification.",
+        "source_excerpt": "all of the insider trading taken place by members of Congress",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Trump administration's tariff policies were a deliberate mechanism to transfer wealth from consumers to corporations and politically connected insiders.",
+      "themes": [
+        "Corporate windfall from tariff refunds",
+        "Insider profiteering through tariff refund rights"
+      ],
+      "argument_count": 2,
+      "unverifiable_count": 19
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "7cf75f0973130a1fee44ef7385b835f4241abe9162da3e570eae048e062c559c",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "9990190e6d14ea22d4f537a89574c5c8a1e693ab4f95f083dd2527815d1202a1",
+    "canonical_mapping": {
+      "speech_id": "SP-450EB90879FB",
+      "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC44",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a concrete example of tariff wealth transfers, one of the harmful government policies enumerated in CC44, by detailing how the Trump administration's tariff refund system was designed to benefit corporations and politically connected insiders at the expense of consumers.",
+      "primary_cc_rationale": "The speech provides a concrete example of tariff wealth transfers, one of the harmful government policies enumerated in CC44, by detailing how the Trump administration's tariff refund system was designed to benefit corporations and politically connected insiders at the expense of consumers.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T63"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T63",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-BF94757F6A3F",
+          "rationale": "Directly matches the theme of corporate windfall from tariff refunds."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC44-T63",
+          "cc_id": "CC44",
+          "theme_id": "T63",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-450EB90879FB",
+        "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "local_cc_text": "The Trump administration's tariff policies were a deliberate mechanism to transfer wealth from consumers to corporations and politically connected insiders.",
+        "canonical_cc_id": "CC44",
+        "confidence": 0.9,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a concrete example of tariff wealth transfers, one of the harmful government policies enumerated in CC44, by detailing how the Trump administration's tariff refund system was designed to benefit corporations and politically connected insiders at the expense of consumers.",
+        "rationale": "The speech provides a concrete example of tariff wealth transfers, one of the harmful government policies enumerated in CC44, by detailing how the Trump administration's tariff refund system was designed to benefit corporations and politically connected insiders at the expense of consumers.",
+        "candidate_matches": [
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.45612552762031555
+          },
+          {
+            "id": "CC56",
+            "text": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+            "similarity": 0.4452853798866272
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.36699217557907104
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.3582346737384796
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.34165436029434204
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-450EB90879FB",
+        "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "local_theme_id": "LT-BF94757F6A3F",
+        "local_theme_text": "Corporate windfall from tariff refunds",
+        "canonical_theme_id": "T63",
+        "confidence": 0.95,
+        "rationale": "Directly matches the theme of corporate windfall from tariff refunds.",
+        "candidate_matches": [
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.7927083373069763
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.35532787442207336
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.34959763288497925
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3118744492530823
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.23188652098178864
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.21963821351528168
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-450EB90879FB",
+        "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "local_theme_id": "LT-312A122B4C99",
+        "local_theme_text": "Insider profiteering through tariff refund rights",
+        "canonical_theme_id": "T63",
+        "confidence": 0.95,
+        "rationale": "Directly matches the theme of insider profiteering through tariff refund rights.",
+        "candidate_matches": [
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.8637902140617371
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.40753763914108276
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3917175829410553
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3521644175052643
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.33502423763275146
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.28090929985046387
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-F11BD5AABEDB97",
+        "speech_id": "SP-450EB90879FB",
+        "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "date": "2026-04-30",
+        "source_hash": "c8be0eaad46fb3c237c5ace959a09f292556ff0ff5d2676ef7bf306e4abf096e",
+        "pair_id": "PAIR-CC44-T63",
+        "cc_id": "CC44",
+        "theme_id": "T63",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of tariff wealth transfers, one of the harmful government policies enumerated in CC44, by detailing how the Trump administration's tariff refund system was designed to benefit corporations and politically connected insiders at the expense of consumers.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BF94757F6A3F",
+        "local_theme_text": "Corporate windfall from tariff refunds",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Directly matches the theme of corporate windfall from tariff refunds.",
+        "local_argument_id": "LA-DB385780677E",
+        "conclusion": "Tariff refunds are a windfall for corporations at the expense of consumers.",
+        "premises": [
+          "Companies raised prices when tariffs were imposed",
+          "Tariffs are being refunded due to Supreme Court ruling",
+          "Companies are not expected to lower prices"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C00FD61D31F3",
+            "item": "Walmart is due back over $10 billion",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source for this figure",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "Companies like Walmart are due back over $10 billion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-38765C3C3450",
+            "item": "Target is due $2 billion",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source for this figure",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "Target is due $2 billion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 2758,
+              "character_end": 2783,
+              "line_start": 72
+            }
+          },
+          {
+            "evidence_id": "EV-1715EB279C04",
+            "item": "Nike could get $1 billion",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source for this figure",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "Nike could get $1 billion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C200E9FCAE59",
+            "item": "Supreme Court ruled president lacks authority to impose blanket tariffs",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide case name, date, or citation",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "the Supreme Court ruled that no, the president does not have the authority to just blanket lay tariffs like this.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-15CBED3FBB53",
+            "item": "Interest is being paid back to companies on tariff payments",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source or legal basis",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "there's interest being paid back to these companies as well on the money that they were out for that amount of time.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-DCD2435353AC",
+            "device": "Taxes on alcohol and nicotine as analogy for tariff impact",
+            "explanation": "Illustrates that taxes reduce purchasing power and are passed to consumers",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "It's like we all collectively accept that there are taxes on things like alcohol and nicotine products in order to persuade people to buy those things less, because we acknowledge that taxes and fiscal policy incentivizes behavior.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-1B8F99E5A36071",
+        "speech_id": "SP-450EB90879FB",
+        "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "date": "2026-04-30",
+        "source_hash": "c8be0eaad46fb3c237c5ace959a09f292556ff0ff5d2676ef7bf306e4abf096e",
+        "pair_id": "PAIR-CC44-T63",
+        "cc_id": "CC44",
+        "theme_id": "T63",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete example of tariff wealth transfers, one of the harmful government policies enumerated in CC44, by detailing how the Trump administration's tariff refund system was designed to benefit corporations and politically connected insiders at the expense of consumers.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-312A122B4C99",
+        "local_theme_text": "Insider profiteering through tariff refund rights",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Directly matches the theme of insider profiteering through tariff refund rights.",
+        "local_argument_id": "LA-58461D4DAB18",
+        "conclusion": "Howard Lutnick and Cantor Fitzgerald profited from insider knowledge by designing tariffs to be overturned and buying refund rights.",
+        "premises": [
+          "Cantor Fitzgerald bought refund rights at a discount",
+          "Howard Lutnick was involved in tariff design",
+          "The tariffs were designed to be likely overturned"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5588F02BDD97",
+            "item": "Cantor Fitzgerald bought rights to tariff refunds for pennies on the dollar",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source or transaction details",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "Cantor Fitzgerald has been running around buying the rights to tariff refunds if they were ever to happen. And they've been buying them for pennies on the dollar.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-06DE32B6636C",
+            "item": "Howard Lutnick was heavily involved in designing the tariffs",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide evidence of Lutnick's role",
+            "speech_id": "SP-450EB90879FB",
+            "source_speech_filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+            "source_excerpt": "Guess what Howard Lutnick was also heavily involved in? Designing the tariffs from the start in a way that was extremely expensive, in a way that was very likely to be overturned and overruled by the Supreme Court.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "7cf75f0973130a1fee44ef7385b835f4241abe9162da3e570eae048e062c559c",
+  "complete": true
+}

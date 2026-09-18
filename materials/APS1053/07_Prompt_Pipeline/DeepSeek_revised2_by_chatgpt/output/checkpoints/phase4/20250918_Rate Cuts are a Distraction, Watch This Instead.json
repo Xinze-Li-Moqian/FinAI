@@ -1,0 +1,632 @@
+{
+  "dependencies": {
+    "source_hash": "4e00cc1109bcc7ca4f624fe4fb932fb663ca078dd08852da0a669762193a5250",
+    "phase1_record_hash": "862e5debb34cd23de7a7d7587da346773316fefe9fdb4e66252d82c0f9b0d83e",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-C928BA55F7B1",
+    "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+    "stem": "20250918_Rate Cuts are a Distraction, Watch This Instead",
+    "date": "2025-09-18",
+    "source_hash": "4e00cc1109bcc7ca4f624fe4fb932fb663ca078dd08852da0a669762193a5250",
+    "source_character_count": 14131,
+    "central_claim": "The Federal Reserve's balance sheet and third mandate to maintain moderate long-term interest rates are more important than interest rate cuts for influencing the bond market and the economy.",
+    "themes": [
+      {
+        "local_theme_id": "LT-5ECB6DD17D37",
+        "theme": "The statutory basis of the Fed's third mandate",
+        "arguments": [
+          {
+            "local_argument_id": "LA-59B430709D62",
+            "local_theme_id": "LT-5ECB6DD17D37",
+            "conclusion": "The Federal Reserve has a statutory mandate to maintain moderate long-term interest rates, in addition to maximum employment and stable prices.",
+            "premises": [
+              "The Federal Reserve Act of 1977 lists three goals: maximum employment, stable prices, and moderate long-term interest rates.",
+              "Steven Moran cited this third mandate in a congressional testimony."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2B0CB6E1CA67",
+                "item": "Text of the Federal Reserve Act of 1977, Section 2A, listing the three goals.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly quotes the Act text.",
+                "speech_id": "SP-C928BA55F7B1",
+                "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+                "source_excerpt": "so as to promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E5AE4DA870C7",
+                "item": "Steven Moran's congressional testimony citing the third mandate.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript mentions the testimony but provides no source or quotation.",
+                "speech_id": "SP-C928BA55F7B1",
+                "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+                "source_excerpt": "All eyes are on the Federal Reserve's interest rate policy... Steven Moran, who cited in a congressional testimony that the Federal Reserve must pursue moderate long-term interest rates.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-09C4803A2E30",
+        "theme": "The failure of interest rate cuts to lower long-term rates",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6BDDDA2E2FD2",
+            "local_theme_id": "LT-09C4803A2E30",
+            "conclusion": "Reducing the federal funds rate can lead to higher long-term interest rates because it increases inflation expectations.",
+            "premises": [
+              "Fed rate cuts make borrowing cheaper for the government, increasing the money supply and inflation.",
+              "Lenders demand higher yields to compensate for the loss of purchasing power."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F3222A2DB256",
+                "item": "Historical data: after September 2024 rate cuts, the 10-year yield rose from 3.6% to 4.8%.",
+                "status": "Verified",
+                "verification_basis": "Specific numbers provided in the transcript.",
+                "speech_id": "SP-C928BA55F7B1",
+                "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+                "source_excerpt": "when they cut rates... in September of 2024... it actually made the 10-year yield rise. It went from 3.6% all the way up to 4.8%.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E12BBF3DD05F",
+        "theme": "Mechanisms to enforce moderate long-term interest rates",
+        "arguments": [
+          {
+            "local_argument_id": "LA-973AE0D029C1",
+            "local_theme_id": "LT-E12BBF3DD05F",
+            "conclusion": "The Federal Reserve can maintain moderate long-term interest rates by buying long-term Treasuries (QE) or through Treasury operations of short-term borrowing to buy back long-term bonds.",
+            "premises": [
+              "Fed buying 10-year Treasuries with newly printed money drives prices up and yields down.",
+              "The Treasury can issue short-term T-bills and use the proceeds to buy back longer-term bonds, keeping total debt constant.",
+              "This strategy resembles yield curve control used from 1942 to 1951."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-47C64FCEB9F3",
+                "item": "Explanation of QE mechanics: buying long-term bonds raises prices and lowers yields.",
+                "status": "Unverifiable",
+                "verification_basis": "Theoretical explanation, no specific data or source provided.",
+                "speech_id": "SP-C928BA55F7B1",
+                "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+                "source_excerpt": "the easiest way to accomplish this would be for the Federal Reserve to go out into the open market and just start buying up 10-year treasuries with newly printed money. that drives the price of 10-year treasuries up, which drives the yield lower.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7A48D81066FA",
+                "item": "Historical precedent of yield curve control from 1942 to 1951.",
+                "status": "Unverifiable",
+                "verification_basis": "Mentioned without supporting detail or citation.",
+                "speech_id": "SP-C928BA55F7B1",
+                "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+                "source_excerpt": "we are likely to get some sort of a return to the playbook from 1942 through 1951 when the Federal Reserve engaged in yield curve control.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-0E8FF0AEDF8D",
+                "device": "Opening new credit cards to pay off a long-term personal loan",
+                "explanation": "Illustrates how the Treasury could borrow short-term to pay off long-term debt, keeping total debt constant.",
+                "speech_id": "SP-C928BA55F7B1",
+                "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+                "source_excerpt": "This would be like you opening up some new credit cards, getting a cash advance in order to pay off a longer term personal loan.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-DE90A4C42C25",
+        "speech_id": "SP-C928BA55F7B1",
+        "speech_ref": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "claim": "The newest Fed member, Steven Moran, was confirmed by the Senate in a vote of 48 to 47.",
+        "reason": "The transcript provides no source or verification for the vote count.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating or contradicting information in the transcript.",
+        "source_excerpt": "He was confirmed just hours before the Federal Reserve's 2-day FOMC meeting began.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-577E75ADAC9D",
+        "speech_id": "SP-C928BA55F7B1",
+        "speech_ref": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "claim": "The Federal Reserve exists to transfer purchasing power from the entire economy to the government.",
+        "reason": "This is presented as a factual assertion about the Fed's purpose, but no evidence or support is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Interpretation not substantiated within the transcript.",
+        "source_excerpt": "This is why the Fed exists to transfer purchasing power as efficiently as possible from the entire economy to the government.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6D21FF8F0FB4",
+        "speech_id": "SP-C928BA55F7B1",
+        "speech_ref": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "claim": "During the yield curve control period (1942–1951), it was very difficult for the average person to invest in stocks and it was considered patriotic to buy Treasury bonds.",
+        "reason": "Historical claim made without citation or evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No supporting detail in the transcript.",
+        "source_excerpt": "It was very difficult for the average person to invest in stocks and it was considered patriotic to buy things like US Treasury bonds.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DE30AF913227",
+        "speech_id": "SP-C928BA55F7B1",
+        "speech_ref": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "claim": "Treasury Secretary Scott Bessent would consider a sovereign debt crisis to be a true emergency justifying QE.",
+        "reason": "Speculation about the Treasury Secretary's opinion, unsupported.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No evidence or direct quote from Bessent provided.",
+        "source_excerpt": "the sovereign debt crisis would probably be considered a true emergency by the Treasury Secretary.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve's balance sheet and third mandate to maintain moderate long-term interest rates are more important than interest rate cuts for influencing the bond market and the economy.",
+      "themes": [
+        "The statutory basis of the Fed's third mandate",
+        "The failure of interest rate cuts to lower long-term rates",
+        "Mechanisms to enforce moderate long-term interest rates"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 4
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "71355f49832ec2a8fc75d0cfdf33847924d972ec74d9dbc393b56bca69df1360",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "862e5debb34cd23de7a7d7587da346773316fefe9fdb4e66252d82c0f9b0d83e",
+    "canonical_mapping": {
+      "speech_id": "SP-C928BA55F7B1",
+      "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+      "primary_cc_rationale": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T89",
+        "T108"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T89",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-5ECB6DD17D37",
+          "rationale": "The statutory basis of the Fed's third mandate directly relates to the Federal Reserve's monetary policy tools and frameworks."
+        },
+        {
+          "theme_id": "T108",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-09C4803A2E30",
+          "rationale": "The failure of interest rate cuts to lower long-term rates is a key discussion in interest rate policy and market expectations."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T89",
+          "cc_id": "CC50",
+          "theme_id": "T89",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T108",
+          "cc_id": "CC50",
+          "theme_id": "T108",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "local_cc_text": "The Federal Reserve's balance sheet and third mandate to maintain moderate long-term interest rates are more important than interest rate cuts for influencing the bond market and the economy.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+        "rationale": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.45015716552734375
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.392997682094574
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.3805049657821655
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.31406307220458984
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.30980730056762695
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "local_theme_id": "LT-5ECB6DD17D37",
+        "local_theme_text": "The statutory basis of the Fed's third mandate",
+        "canonical_theme_id": "T89",
+        "confidence": 0.8,
+        "rationale": "The statutory basis of the Fed's third mandate directly relates to the Federal Reserve's monetary policy tools and frameworks.",
+        "candidate_matches": [
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.6439448595046997
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.574928879737854
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5711603760719299
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.5490872859954834
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.4822216331958771
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.42088496685028076
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "local_theme_id": "LT-09C4803A2E30",
+        "local_theme_text": "The failure of interest rate cuts to lower long-term rates",
+        "canonical_theme_id": "T108",
+        "confidence": 0.85,
+        "rationale": "The failure of interest rate cuts to lower long-term rates is a key discussion in interest rate policy and market expectations.",
+        "candidate_matches": [
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.5065190196037292
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.4916292428970337
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.32271990180015564
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.2816261649131775
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.27573728561401367
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.24567937850952148
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "local_theme_id": "LT-E12BBF3DD05F",
+        "local_theme_text": "Mechanisms to enforce moderate long-term interest rates",
+        "canonical_theme_id": "T89",
+        "confidence": 0.75,
+        "rationale": "The mechanisms to enforce moderate long-term interest rates (QE, Treasury operations) are part of the Fed's monetary policy tools and frameworks.",
+        "candidate_matches": [
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.4469591975212097
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.4354732632637024
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3019525408744812
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.28861570358276367
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.27525973320007324
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.25606220960617065
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-5B3C801269117F",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "date": "2025-09-18",
+        "source_hash": "4e00cc1109bcc7ca4f624fe4fb932fb663ca078dd08852da0a669762193a5250",
+        "pair_id": "PAIR-CC50-T89",
+        "cc_id": "CC50",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-5ECB6DD17D37",
+        "local_theme_text": "The statutory basis of the Fed's third mandate",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The statutory basis of the Fed's third mandate directly relates to the Federal Reserve's monetary policy tools and frameworks.",
+        "local_argument_id": "LA-59B430709D62",
+        "conclusion": "The Federal Reserve has a statutory mandate to maintain moderate long-term interest rates, in addition to maximum employment and stable prices.",
+        "premises": [
+          "The Federal Reserve Act of 1977 lists three goals: maximum employment, stable prices, and moderate long-term interest rates.",
+          "Steven Moran cited this third mandate in a congressional testimony."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2B0CB6E1CA67",
+            "item": "Text of the Federal Reserve Act of 1977, Section 2A, listing the three goals.",
+            "status": "Verified",
+            "verification_basis": "Transcript directly quotes the Act text.",
+            "speech_id": "SP-C928BA55F7B1",
+            "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+            "source_excerpt": "so as to promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E5AE4DA870C7",
+            "item": "Steven Moran's congressional testimony citing the third mandate.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript mentions the testimony but provides no source or quotation.",
+            "speech_id": "SP-C928BA55F7B1",
+            "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+            "source_excerpt": "All eyes are on the Federal Reserve's interest rate policy... Steven Moran, who cited in a congressional testimony that the Federal Reserve must pursue moderate long-term interest rates.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E5D50AE184B4C2",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "date": "2025-09-18",
+        "source_hash": "4e00cc1109bcc7ca4f624fe4fb932fb663ca078dd08852da0a669762193a5250",
+        "pair_id": "PAIR-CC50-T108",
+        "cc_id": "CC50",
+        "theme_id": "T108",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-09C4803A2E30",
+        "local_theme_text": "The failure of interest rate cuts to lower long-term rates",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The failure of interest rate cuts to lower long-term rates is a key discussion in interest rate policy and market expectations.",
+        "local_argument_id": "LA-6BDDDA2E2FD2",
+        "conclusion": "Reducing the federal funds rate can lead to higher long-term interest rates because it increases inflation expectations.",
+        "premises": [
+          "Fed rate cuts make borrowing cheaper for the government, increasing the money supply and inflation.",
+          "Lenders demand higher yields to compensate for the loss of purchasing power."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F3222A2DB256",
+            "item": "Historical data: after September 2024 rate cuts, the 10-year yield rose from 3.6% to 4.8%.",
+            "status": "Verified",
+            "verification_basis": "Specific numbers provided in the transcript.",
+            "speech_id": "SP-C928BA55F7B1",
+            "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+            "source_excerpt": "when they cut rates... in September of 2024... it actually made the 10-year yield rise. It went from 3.6% all the way up to 4.8%.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-55875828105221",
+        "speech_id": "SP-C928BA55F7B1",
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "date": "2025-09-18",
+        "source_hash": "4e00cc1109bcc7ca4f624fe4fb932fb663ca078dd08852da0a669762193a5250",
+        "pair_id": "PAIR-CC50-T89",
+        "cc_id": "CC50",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains how the Federal Reserve's third mandate and balance sheet policies (such as QE and Treasury operations) provide mechanisms to control long-term interest rates, thereby supporting the claim in CC50 that the Fed is implementing policies like yield curve control and QE to support government borrowing.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E12BBF3DD05F",
+        "local_theme_text": "Mechanisms to enforce moderate long-term interest rates",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The mechanisms to enforce moderate long-term interest rates (QE, Treasury operations) are part of the Fed's monetary policy tools and frameworks.",
+        "local_argument_id": "LA-973AE0D029C1",
+        "conclusion": "The Federal Reserve can maintain moderate long-term interest rates by buying long-term Treasuries (QE) or through Treasury operations of short-term borrowing to buy back long-term bonds.",
+        "premises": [
+          "Fed buying 10-year Treasuries with newly printed money drives prices up and yields down.",
+          "The Treasury can issue short-term T-bills and use the proceeds to buy back longer-term bonds, keeping total debt constant.",
+          "This strategy resembles yield curve control used from 1942 to 1951."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-47C64FCEB9F3",
+            "item": "Explanation of QE mechanics: buying long-term bonds raises prices and lowers yields.",
+            "status": "Unverifiable",
+            "verification_basis": "Theoretical explanation, no specific data or source provided.",
+            "speech_id": "SP-C928BA55F7B1",
+            "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+            "source_excerpt": "the easiest way to accomplish this would be for the Federal Reserve to go out into the open market and just start buying up 10-year treasuries with newly printed money. that drives the price of 10-year treasuries up, which drives the yield lower.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-7A48D81066FA",
+            "item": "Historical precedent of yield curve control from 1942 to 1951.",
+            "status": "Unverifiable",
+            "verification_basis": "Mentioned without supporting detail or citation.",
+            "speech_id": "SP-C928BA55F7B1",
+            "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+            "source_excerpt": "we are likely to get some sort of a return to the playbook from 1942 through 1951 when the Federal Reserve engaged in yield curve control.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-0E8FF0AEDF8D",
+            "device": "Opening new credit cards to pay off a long-term personal loan",
+            "explanation": "Illustrates how the Treasury could borrow short-term to pay off long-term debt, keeping total debt constant.",
+            "speech_id": "SP-C928BA55F7B1",
+            "source_speech_filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+            "source_excerpt": "This would be like you opening up some new credit cards, getting a cash advance in order to pay off a longer term personal loan.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "71355f49832ec2a8fc75d0cfdf33847924d972ec74d9dbc393b56bca69df1360",
+  "complete": true
+}

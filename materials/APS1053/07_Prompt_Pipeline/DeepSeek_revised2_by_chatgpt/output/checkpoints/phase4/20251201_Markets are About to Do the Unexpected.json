@@ -1,0 +1,1051 @@
+{
+  "dependencies": {
+    "source_hash": "99917dedc1bc9670eb7043312ee5c8f119a2238e2f8f2af1a58948829fe2aa2d",
+    "phase1_record_hash": "a9d3b77817ce20f6af32d4375e5b1120bb5a31b7e29154379b437343c90babb5",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-787B4A4733C4",
+    "filename": "20251201_Markets are About to Do the Unexpected.txt",
+    "stem": "20251201_Markets are About to Do the Unexpected",
+    "date": "2025-12-01",
+    "source_hash": "99917dedc1bc9670eb7043312ee5c8f119a2238e2f8f2af1a58948829fe2aa2d",
+    "source_character_count": 9392,
+    "central_claim": "Despite widespread investor fear and negative economic signals, multiple data points indicate the economy and markets are stronger than perceived, suggesting a continued bull market.",
+    "themes": [
+      {
+        "local_theme_id": "LT-667E16235861",
+        "theme": "Consumer sentiment as contrarian indicator",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F2B2A8899BA1",
+            "local_theme_id": "LT-667E16235861",
+            "conclusion": "Low consumer sentiment is a bullish contrarian signal because actual retail sales remain strong.",
+            "premises": [
+              "Retail sales increased about 4% over the past year.",
+              "Consumer sentiment has dropped during that period.",
+              "Sentiment is often a contrarian indicator at market bottoms."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F85FD8587C04",
+                "item": "Retail sales increased about 4% over the past year",
+                "status": "Unverifiable",
+                "verification_basis": "Transcription states the figure without citing any source or report.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "retail sales have increased about 4% over the past year.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F8996D313313",
+                "item": "Consumer sentiment dropped off a cliff during the same period",
+                "status": "Unverifiable",
+                "verification_basis": "No specific sentiment index or data source is cited.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "consumer sentiment has dropped off a cliff during that period of time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0AB3AA299A36",
+        "theme": "Corporate capital expenditure and Berkshire's signal",
+        "arguments": [
+          {
+            "local_argument_id": "LA-02556383BB47",
+            "local_theme_id": "LT-0AB3AA299A36",
+            "conclusion": "High corporate capEx and Berkshire Hathaway's stake indicate the start of a bull market, not a bubble top.",
+            "premises": [
+              "CapEx spending from tech and tech-related stocks is off the charts right now.",
+              "Berkshire Hathaway took a large stake in one of the companies doing the most spending in that area.",
+              "Berkshire typically takes stakes near the beginning of big bull markets, not at the end."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-400FAD5E0AD6",
+                "item": "CapEx spending from tech and tech-related stocks is off the charts",
+                "status": "Unverifiable",
+                "verification_basis": "No data or report is cited to support this claim.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "capex spending from tech and tech related stocks is off the charts right now.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-5167EDA02284",
+                "item": "Berkshire Hathaway took a large stake in a company with heavy capEx",
+                "status": "Unverifiable",
+                "verification_basis": "No specific company, SEC filing, or other source is named.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "Berkshire Hathaway taking a stake in one of the companies that is doing some of the most spending in that area.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0C6DDFCB1E8C",
+        "theme": "Global monetary easing cycle",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2AF74782E4FF",
+            "local_theme_id": "LT-0C6DDFCB1E8C",
+            "conclusion": "The global shift to monetary easing will increase liquidity and support higher asset prices.",
+            "premises": [
+              "Interest rate cuts by the Fed are priced in at an 87% chance at the next meeting.",
+              "Fed implementation notes show rollover of Treasury principal payments and reinvestment of MBS payments into T-bills starting December 1.",
+              "Central banks around the world have recently stopped raising rates or started cutting."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-62FE476B32F3",
+                "item": "87% chance of rate cut at next Fed meeting",
+                "status": "Unverifiable",
+                "verification_basis": "Market pricing claim without citing a source (e.g., CME FedWatch).",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "interest rate cuts by the Fed are now priced in at an 87% chance of happening at the next meeting.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-476F82F69D24",
+                "item": "Fed implementation notes: roll over Treasury principal and reinvest MBS payments into T-bills starting Dec 1",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript references FOMC implementation notes but does not provide an exact quotation, making internal verification impossible.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "looking at the implementation notes from the last FOMC statement, we see that beginning on December 1st, Federal Reserve will roll over at auction all principal payments from the Fed's holdings of Treasury securities, which means any treasuries that get paid back to the Fed, Fed will take that cash and just go out to the market and buy more treasuries. They won't let them bleed off their balance sheet anymore. But it doesn't stop there because again starting on December 1st, they will also be reinvesting all principal payments from the Fed holdings of agency mortgage back securities into Treasury bills.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-34E0C4FE60E1",
+                "item": "Central banks around the world have stopped raising rates or started cutting",
+                "status": "Unverifiable",
+                "verification_basis": "No specific central banks, dates, or sources cited.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "Central banks all around the world have recently stopped raising rates or started cutting.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-DCD754992F6D",
+        "theme": "Wage growth and labor market strength",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4DBA93B28107",
+            "local_theme_id": "LT-DCD754992F6D",
+            "conclusion": "The labor market is improving with positive real wage growth for 29 months and falling jobless claims.",
+            "premises": [
+              "Real wage growth has been positive for 29 months.",
+              "Initial jobless claims are at their lowest level since August."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9CE79A98BFFB",
+                "item": "Real wage growth positive for 29 months",
+                "status": "Unverifiable",
+                "verification_basis": "No source for wage or inflation data is provided; the speaker notes the inflation adjustment may be disputed.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "for 29 months now, real wage growth has been positive.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-03B8E4171C18",
+                "item": "Initial jobless claims at lowest level since August",
+                "status": "Unverifiable",
+                "verification_basis": "No source for jobless claims data is cited.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "initial jobless claims are actually moving down. They're at their lowest level right now since August.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-7AD7BCFD8817",
+                "device": "Cantillon effect (canon effect)",
+                "explanation": "Describes how newly printed money first benefits those closest to the money printer, causing inflation to outpace wage growth initially, but later wages catch up.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "This is how the canon effect works. When new money gets printed, first it gets paid and goes to the hands of whoever is closest to the money printer. So, it goes to the government first, then it goes to the politically connected. As that money gets spent the first couple of times from one person's bank account to the next, prices have not yet had the time to adjust. they haven't had the increased demand from the increased amount of money in order to get bit up. But as that money gets spent through the economy, filters its way down into the paychecks and the wages of individuals, prices have now gotten bit up. Which means by the time people get raises and get those wage increases, prices have",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EAE3DD23E29B",
+        "theme": "Corporate bond sales and business investment",
+        "arguments": [
+          {
+            "local_argument_id": "LA-606978EE256F",
+            "local_theme_id": "LT-EAE3DD23E29B",
+            "conclusion": "Record corporate bond sales signal future economic expansion as corporations invest borrowed funds for growth.",
+            "premises": [
+              "Corporate bond sales hit a new record at about $6 trillion in 2025.",
+              "Corporations borrow to spend on activities with positive ROI, such as R&D, hiring, and building factories."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9597F543DAA2",
+                "item": "Corporate bond sales record of about $6 trillion in 2025",
+                "status": "Unverifiable",
+                "verification_basis": "No source for bond sales data is cited.",
+                "speech_id": "SP-787B4A4733C4",
+                "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+                "source_excerpt": "corporate bond sales, which so far in 2025 just hit a new record at about 6 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-CA15B163CFAE",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "The stock market is basically back up to all-time highs.",
+        "reason": "No index or data source is provided to verify the claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "the stock market is basically back up to all-time highs",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1F5201D386B0",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "The fear and greed index is still reading extreme fear territories.",
+        "reason": "No specific index or date is cited; the source of the reading is not named.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "the fear and greed index is still reading extreme fear territories",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1AC8688D3AD5",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "This is the first year with multiple negative months since 2020 in the jobs market.",
+        "reason": "No source or definition of 'negative months' (e.g., negative payrolls) is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "this being the first year with multiple negative months since 2020",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9E406BE77041",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Delinquencies on debt from student loans to credit cards to auto loans are spiking.",
+        "reason": "No data source or specific delinquency rates are cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "delinquencies on debt from student loans to credit cards to auto loans are spiking",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9F4C37E44B9B",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Retail sales have increased about 4% over the past year.",
+        "reason": "No government or industry data source is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "retail sales have increased about 4% over the past year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7DBED73839B9",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Consumer sentiment has dropped off a cliff during that period.",
+        "reason": "No specific sentiment index (e.g., University of Michigan) or numbers are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "consumer sentiment has dropped off a cliff during that period of time",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-37ABFACD4A6B",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "CapEx spending from tech and tech-related stocks is off the charts right now.",
+        "reason": "No data or comparison baseline is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "capex spending from tech and tech related stocks is off the charts right now",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-399172E7E26D",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Berkshire Hathaway took a large stake in one of the companies doing the most spending in that area.",
+        "reason": "No specific company, filing, or date is named.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "Berkshire Hathaway taking a stake in one of the companies that is doing some of the most spending in that area",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-285FFFE77A41",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Interest rate cuts by the Fed are priced in at an 87% chance at the next meeting.",
+        "reason": "No source (e.g., CME FedWatch) is cited for the probability.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "interest rate cuts by the Fed are now priced in at an 87% chance of happening at the next meeting",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9A8430E199F7",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Central banks around the world have recently stopped raising rates or started cutting.",
+        "reason": "No specific central banks, dates, or policy changes are cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "central banks all around the world have recently stopped raising rates or started cutting",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-2B2EE8302D2E",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Gold has skyrocketed like 100% over the last 2 years.",
+        "reason": "No price source or specific period boundaries are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "gold has skyrocketed like 100% over the last 2 years or so",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F757B95C1527",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Real wage growth has been positive for 29 months.",
+        "reason": "No source for wage or inflation data is cited; the speaker acknowledges the inflation adjustment is contestable.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "for 29 months now, real wage growth has been positive",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C33DAC6401C7",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Initial jobless claims are at their lowest level since August.",
+        "reason": "No source for claims data is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "initial jobless claims are actually moving down. They're at their lowest level right now since August",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A42D738D72C5",
+        "speech_id": "SP-787B4A4733C4",
+        "speech_ref": "20251201_Markets are About to Do the Unexpected.txt",
+        "claim": "Corporate bond sales hit a new record at about $6 trillion in 2025.",
+        "reason": "No source for bond sales data is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal evidence provided; external fact-checking required.",
+        "source_excerpt": "corporate bond sales, which so far in 2025 just hit a new record at about 6 trillion",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Despite widespread investor fear and negative economic signals, multiple data points indicate the economy and markets are stronger than perceived, suggesting a continued bull market.",
+      "themes": [
+        "Consumer sentiment as contrarian indicator",
+        "Corporate capital expenditure and Berkshire's signal",
+        "Global monetary easing cycle",
+        "Wage growth and labor market strength",
+        "Corporate bond sales and business investment"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 14
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "0e91d6e31b084b6b7d6d63f9269d6ec4b74e6aa7e378f9204f5a5baa24c2cb91",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "a9d3b77817ce20f6af32d4375e5b1120bb5a31b7e29154379b437343c90babb5",
+    "canonical_mapping": {
+      "speech_id": "SP-787B4A4733C4",
+      "filename": "20251201_Markets are About to Do the Unexpected.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC41",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+      "primary_cc_rationale": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T77",
+        "T70",
+        "T111"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T77",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-EAE3DD23E29B",
+          "rationale": "Corporate bond sales and business investment are directly covered by T77 'Corporate capital expenditure and bond markets'."
+        },
+        {
+          "theme_id": "T70",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-0C6DDFCB1E8C",
+          "rationale": "Global monetary easing cycle leading to increased liquidity and higher asset prices aligns directly with T70 'Asset price inflation and monetary expansion'."
+        },
+        {
+          "theme_id": "T111",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-DCD754992F6D",
+          "rationale": "Wage growth and labor market strength with falling jobless claims maps precisely to T111 'Labor market conditions and employment trends'."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC41-T77",
+          "cc_id": "CC41",
+          "theme_id": "T77",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC41-T70",
+          "cc_id": "CC41",
+          "theme_id": "T70",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC41-T111",
+          "cc_id": "CC41",
+          "theme_id": "T111",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "local_cc_text": "Despite widespread investor fear and negative economic signals, multiple data points indicate the economy and markets are stronger than perceived, suggesting a continued bull market.",
+        "canonical_cc_id": "CC41",
+        "confidence": 0.85,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+        "rationale": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+        "candidate_matches": [
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.5911561250686646
+          },
+          {
+            "id": "CC41",
+            "text": "Despite government shutdown causing stock market volatility and high layoff announcements, the economy is stronger than perceived and jobless claims remain low, indicating resilient underlying conditions.",
+            "similarity": 0.5282374024391174
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.3573126196861267
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.350900799036026
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.26040175557136536
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "local_theme_id": "LT-667E16235861",
+        "local_theme_text": "Consumer sentiment as contrarian indicator",
+        "canonical_theme_id": "T115",
+        "confidence": 0.7,
+        "rationale": "Consumer sentiment as a contrarian indicator relates directly to market sentiment; T115 'Market sentiment and technology' captures the sentiment aspect despite the technology component.",
+        "candidate_matches": [
+          {
+            "id": "T76",
+            "text": "Commodities and supply-demand fundamentals",
+            "similarity": 0.3574398159980774
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.3340955376625061
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.27872762084007263
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.26597440242767334
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.26167815923690796
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.2341616153717041
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "local_theme_id": "LT-0AB3AA299A36",
+        "local_theme_text": "Corporate capital expenditure and Berkshire's signal",
+        "canonical_theme_id": "T77",
+        "confidence": 0.95,
+        "rationale": "Theme of corporate capital expenditure and Berkshire's stake is a near-exact match to T77 'Corporate capital expenditure and bond markets'.",
+        "candidate_matches": [
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.49018949270248413
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.2543090879917145
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.20833903551101685
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.1760370433330536
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.16276973485946655
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.159013032913208
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "local_theme_id": "LT-0C6DDFCB1E8C",
+        "local_theme_text": "Global monetary easing cycle",
+        "canonical_theme_id": "T70",
+        "confidence": 0.9,
+        "rationale": "Global monetary easing cycle leading to increased liquidity and higher asset prices aligns directly with T70 'Asset price inflation and monetary expansion'.",
+        "candidate_matches": [
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.6060016751289368
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.5322936773300171
+          },
+          {
+            "id": "T138",
+            "text": "US market outperformance and global recession risk",
+            "similarity": 0.49445560574531555
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.47905659675598145
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.43877357244491577
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.4328736662864685
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "local_theme_id": "LT-DCD754992F6D",
+        "local_theme_text": "Wage growth and labor market strength",
+        "canonical_theme_id": "T111",
+        "confidence": 0.95,
+        "rationale": "Wage growth and labor market strength with falling jobless claims maps precisely to T111 'Labor market conditions and employment trends'.",
+        "candidate_matches": [
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.6769001483917236
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.6608471870422363
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.4601083993911743
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.41726383566856384
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.40994614362716675
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.40254372358322144
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "local_theme_id": "LT-EAE3DD23E29B",
+        "local_theme_text": "Corporate bond sales and business investment",
+        "canonical_theme_id": "T77",
+        "confidence": 0.95,
+        "rationale": "Corporate bond sales and business investment are directly covered by T77 'Corporate capital expenditure and bond markets'.",
+        "candidate_matches": [
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.7277141809463501
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.2478136122226715
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.23470479249954224
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.22593370079994202
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.21946996450424194
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.21782508492469788
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-A30DC82FB3179A",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "date": "2025-12-01",
+        "source_hash": "99917dedc1bc9670eb7043312ee5c8f119a2238e2f8f2af1a58948829fe2aa2d",
+        "pair_id": "PAIR-CC41-T77",
+        "cc_id": "CC41",
+        "theme_id": "T77",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0AB3AA299A36",
+        "local_theme_text": "Corporate capital expenditure and Berkshire's signal",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Theme of corporate capital expenditure and Berkshire's stake is a near-exact match to T77 'Corporate capital expenditure and bond markets'.",
+        "local_argument_id": "LA-02556383BB47",
+        "conclusion": "High corporate capEx and Berkshire Hathaway's stake indicate the start of a bull market, not a bubble top.",
+        "premises": [
+          "CapEx spending from tech and tech-related stocks is off the charts right now.",
+          "Berkshire Hathaway took a large stake in one of the companies doing the most spending in that area.",
+          "Berkshire typically takes stakes near the beginning of big bull markets, not at the end."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-400FAD5E0AD6",
+            "item": "CapEx spending from tech and tech-related stocks is off the charts",
+            "status": "Unverifiable",
+            "verification_basis": "No data or report is cited to support this claim.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "capex spending from tech and tech related stocks is off the charts right now.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-5167EDA02284",
+            "item": "Berkshire Hathaway took a large stake in a company with heavy capEx",
+            "status": "Unverifiable",
+            "verification_basis": "No specific company, SEC filing, or other source is named.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "Berkshire Hathaway taking a stake in one of the companies that is doing some of the most spending in that area.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-14474419F94280",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "date": "2025-12-01",
+        "source_hash": "99917dedc1bc9670eb7043312ee5c8f119a2238e2f8f2af1a58948829fe2aa2d",
+        "pair_id": "PAIR-CC41-T70",
+        "cc_id": "CC41",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0C6DDFCB1E8C",
+        "local_theme_text": "Global monetary easing cycle",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Global monetary easing cycle leading to increased liquidity and higher asset prices aligns directly with T70 'Asset price inflation and monetary expansion'.",
+        "local_argument_id": "LA-2AF74782E4FF",
+        "conclusion": "The global shift to monetary easing will increase liquidity and support higher asset prices.",
+        "premises": [
+          "Interest rate cuts by the Fed are priced in at an 87% chance at the next meeting.",
+          "Fed implementation notes show rollover of Treasury principal payments and reinvestment of MBS payments into T-bills starting December 1.",
+          "Central banks around the world have recently stopped raising rates or started cutting."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-62FE476B32F3",
+            "item": "87% chance of rate cut at next Fed meeting",
+            "status": "Unverifiable",
+            "verification_basis": "Market pricing claim without citing a source (e.g., CME FedWatch).",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "interest rate cuts by the Fed are now priced in at an 87% chance of happening at the next meeting.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-476F82F69D24",
+            "item": "Fed implementation notes: roll over Treasury principal and reinvest MBS payments into T-bills starting Dec 1",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript references FOMC implementation notes but does not provide an exact quotation, making internal verification impossible.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "looking at the implementation notes from the last FOMC statement, we see that beginning on December 1st, Federal Reserve will roll over at auction all principal payments from the Fed's holdings of Treasury securities, which means any treasuries that get paid back to the Fed, Fed will take that cash and just go out to the market and buy more treasuries. They won't let them bleed off their balance sheet anymore. But it doesn't stop there because again starting on December 1st, they will also be reinvesting all principal payments from the Fed holdings of agency mortgage back securities into Treasury bills.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-34E0C4FE60E1",
+            "item": "Central banks around the world have stopped raising rates or started cutting",
+            "status": "Unverifiable",
+            "verification_basis": "No specific central banks, dates, or sources cited.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "Central banks all around the world have recently stopped raising rates or started cutting.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-415FB34729B599",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "date": "2025-12-01",
+        "source_hash": "99917dedc1bc9670eb7043312ee5c8f119a2238e2f8f2af1a58948829fe2aa2d",
+        "pair_id": "PAIR-CC41-T111",
+        "cc_id": "CC41",
+        "theme_id": "T111",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DCD754992F6D",
+        "local_theme_text": "Wage growth and labor market strength",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Wage growth and labor market strength with falling jobless claims maps precisely to T111 'Labor market conditions and employment trends'.",
+        "local_argument_id": "LA-4DBA93B28107",
+        "conclusion": "The labor market is improving with positive real wage growth for 29 months and falling jobless claims.",
+        "premises": [
+          "Real wage growth has been positive for 29 months.",
+          "Initial jobless claims are at their lowest level since August."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9CE79A98BFFB",
+            "item": "Real wage growth positive for 29 months",
+            "status": "Unverifiable",
+            "verification_basis": "No source for wage or inflation data is provided; the speaker notes the inflation adjustment may be disputed.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "for 29 months now, real wage growth has been positive.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-03B8E4171C18",
+            "item": "Initial jobless claims at lowest level since August",
+            "status": "Unverifiable",
+            "verification_basis": "No source for jobless claims data is cited.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "initial jobless claims are actually moving down. They're at their lowest level right now since August.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-7AD7BCFD8817",
+            "device": "Cantillon effect (canon effect)",
+            "explanation": "Describes how newly printed money first benefits those closest to the money printer, causing inflation to outpace wage growth initially, but later wages catch up.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "This is how the canon effect works. When new money gets printed, first it gets paid and goes to the hands of whoever is closest to the money printer. So, it goes to the government first, then it goes to the politically connected. As that money gets spent the first couple of times from one person's bank account to the next, prices have not yet had the time to adjust. they haven't had the increased demand from the increased amount of money in order to get bit up. But as that money gets spent through the economy, filters its way down into the paychecks and the wages of individuals, prices have now gotten bit up. Which means by the time people get raises and get those wage increases, prices have",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-DABEFBA6B47390",
+        "speech_id": "SP-787B4A4733C4",
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "date": "2025-12-01",
+        "source_hash": "99917dedc1bc9670eb7043312ee5c8f119a2238e2f8f2af1a58948829fe2aa2d",
+        "pair_id": "PAIR-CC41-T77",
+        "cc_id": "CC41",
+        "theme_id": "T77",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the economy is stronger than perceived, citing multiple data points (consumer sentiment as contrarian indicator, corporate capex, global monetary easing, labor market strength, corporate bond sales) to support the claim that underlying conditions are resilient, which is the core proposition of CC41.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-EAE3DD23E29B",
+        "local_theme_text": "Corporate bond sales and business investment",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Corporate bond sales and business investment are directly covered by T77 'Corporate capital expenditure and bond markets'.",
+        "local_argument_id": "LA-606978EE256F",
+        "conclusion": "Record corporate bond sales signal future economic expansion as corporations invest borrowed funds for growth.",
+        "premises": [
+          "Corporate bond sales hit a new record at about $6 trillion in 2025.",
+          "Corporations borrow to spend on activities with positive ROI, such as R&D, hiring, and building factories."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9597F543DAA2",
+            "item": "Corporate bond sales record of about $6 trillion in 2025",
+            "status": "Unverifiable",
+            "verification_basis": "No source for bond sales data is cited.",
+            "speech_id": "SP-787B4A4733C4",
+            "source_speech_filename": "20251201_Markets are About to Do the Unexpected.txt",
+            "source_excerpt": "corporate bond sales, which so far in 2025 just hit a new record at about 6 trillion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-667E16235861",
+        "local_argument_id": "LA-F2B2A8899BA1",
+        "conclusion": "Low consumer sentiment is a bullish contrarian signal because actual retail sales remain strong.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "0e91d6e31b084b6b7d6d63f9269d6ec4b74e6aa7e378f9204f5a5baa24c2cb91",
+  "complete": true
+}

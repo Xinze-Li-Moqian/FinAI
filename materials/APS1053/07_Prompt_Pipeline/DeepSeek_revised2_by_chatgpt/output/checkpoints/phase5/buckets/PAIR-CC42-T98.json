@@ -1,0 +1,82 @@
+{
+  "dependency_hash": "89ba359b479b18f4a8856489a8dc882861d7a689bf8c3751a79f593d4e6750cd",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC42-T98",
+    "cc_id": "CC42",
+    "theme_id": "T98",
+    "authoritative_anchor": "cc-cc42-theme-t98",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC42-T98-84F5CDF088",
+        "pair_id": "PAIR-CC42-T98",
+        "conclusion": "Government deficit spending imposes costs on citizens through taxes and inflation.",
+        "source_contribution_ids": [
+          "CONTRIB-0FBEC6AACE0F0B"
+        ],
+        "source_speech_filenames": [
+          "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+        ],
+        "premise_synthesis": "The argument is built on two premises: first, deficits lead to borrowing which causes inflation; second, every dollar spent by the government is taken from citizens directly or indirectly. These premises together support the conclusion that deficit spending harms citizens.",
+        "conclusion_supported": "It is established that government deficit spending results in costs to citizens through taxes and inflation, based on the asserted economic mechanism.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-0FBEC6AACE0F0B"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a specific instance and evidence that excessive government spending (a form of intervention) causes high fiscal deficits, directly supporting the CC42 claim that excessive government intervention causes economic problems such as fiscal deficits."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Claim that every dollar spent comes from citizens",
+            "status": "Unverifiable",
+            "verification_basis": "No evidence provided; it is an assertion of economic mechanism",
+            "source_contribution_ids": [
+              "CONTRIB-0FBEC6AACE0F0B"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "every single dollar the government spends is money coming out of your pocket."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Boat metaphor",
+            "explanation": "Suggests that the direction of fiscal policy is clear and citizens should take independent action",
+            "source_contribution_ids": [
+              "CONTRIB-0FBEC6AACE0F0B"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech from 2026-02-04; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-0FBEC6AACE0F0B"
+    ],
+    "source_speech_filenames": [
+      "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+    ],
+    "generated_at": "2026-07-15T03:33:32+00:00",
+    "record_hash": "e243995311fc9a1ea7ea8c5dcefc768513741ad844741e6f764d16fd56c1973f"
+  },
+  "complete": true
+}

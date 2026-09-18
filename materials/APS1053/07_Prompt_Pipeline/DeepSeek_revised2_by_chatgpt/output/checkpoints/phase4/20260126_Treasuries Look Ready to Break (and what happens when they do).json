@@ -1,0 +1,1200 @@
+{
+  "dependencies": {
+    "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+    "phase1_record_hash": "a8204546879ea745548f9625e9618ecd7731b70f1f54762c88b6bf8167ef1b2e",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-EE89CD3EA865",
+    "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+    "stem": "20260126_Treasuries Look Ready to Break (and what happens when they do)",
+    "date": "2026-01-26",
+    "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+    "source_character_count": 9403,
+    "central_claim": "The Treasury market looks ready to break to the downside (bond prices falling, yields rising), and when it does, banks will be deregulated to buy unlimited Treasuries with depositor money, leading to severe inflation.",
+    "themes": [
+      {
+        "local_theme_id": "LT-0F11F909D80A",
+        "theme": "Signals of declining demand for Treasuries",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5E0F1736A556",
+            "local_theme_id": "LT-0F11F909D80A",
+            "conclusion": "Central banks and funds accumulating gold instead of Treasuries shows trust is shifting to gold.",
+            "premises": [
+              "Gold has been a monetary asset for thousands of years and is still treated as such by central banks.",
+              "Treasuries have only been a safe haven temporarily for a few decades."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5BF92CDD1A8C",
+                "item": "Gold is on the brink of breaking $5,000 per ounce.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides price claim without source or external verification.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "gold is on the brink of breaking $5,000 per ounce",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D61F3316FD8B",
+                "item": "Official reserves of US debt have been overtaken by reserves held in gold.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for this claim.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "official reserves of US debt have now been overtaken by reserves held in gold",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-F3BA5FD78235",
+            "local_theme_id": "LT-0F11F909D80A",
+            "conclusion": "Foreign selling of Treasuries, though small in individual amounts, is a signpost of declining demand.",
+            "premises": [
+              "A Danish pension fund announced selling all its Treasury holdings.",
+              "Treasury Secretary Scott Bessent dismissed it as irrelevant in amount.",
+              "Gold accumulation by central banks shows a similar trend."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-98A4723F3517",
+                "item": "A Danish pension fund would be selling off its entire treasury holding.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or details provided.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "Just recently, it was announced that a Danish pension fund would be selling off its entire treasury holding.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-476808B7910A",
+                "item": "Official reserves of US debt overtaken by gold reserves (repeated here for completeness).",
+                "status": "Unverifiable",
+                "verification_basis": "Same as previous.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "official reserves of US debt have now been overtaken by reserves held in gold",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-AD8DAB54D0B2",
+        "theme": "Dollar's real purchasing power decline due to money supply growth",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BE2668716753",
+            "local_theme_id": "LT-AD8DAB54D0B2",
+            "conclusion": "The dollar is weakening in real terms because money supply growth outpaces production.",
+            "premises": [
+              "Money supply is at all-time highs.",
+              "Prices of assets and cost of living are rising.",
+              "More money chasing the same goods causes inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3967FF3640AE",
+                "item": "Money supply keeps making new all-time highs.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific data or timeframe given.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "Money supply keeps on it making new all-time highs.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7871CB3786D8",
+                "item": "The dollar is getting much weaker across asset classes and cost of living.",
+                "status": "Unverifiable",
+                "verification_basis": "General assertion without specific metrics or sources.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "whether we're looking at pretty much any asset class, or whether we're looking at the cost of living through things like housing, transportation, or food, the dollar is getting much, much weaker.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-C009587FC4BF",
+        "theme": "Rising Treasury yields and structural debt issues",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5FC589911C0B",
+            "local_theme_id": "LT-C009587FC4BF",
+            "conclusion": "Long-term Treasury yields are about to break out upwards because lenders demand higher compensation for inflation risk.",
+            "premises": [
+              "Future inflation expectations are high due to government borrowing and money supply growth.",
+              "Lenders demand at least the inflation rate to maintain purchasing power.",
+              "Short-term yields are suppressed by the Fed, but long-term yields are rising."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A5076D6C82C7",
+                "item": "The 10-year yield has been getting higher quickly and looks about to break out.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart observation not provided in text.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "the 10-year yield, you can see recently it's been getting higher quickly, and it looks like it's about to break out",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-D9D43A10D3B4",
+                "device": "Lending $100 dinner analogy",
+                "explanation": "Illustrates why lenders demand higher interest rates when inflation rises.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "if I'm going to lend you $100... I'm going to demand at least 5% cuz otherwise, in real terms, I'm losing.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-AEE39FD20BC5",
+            "local_theme_id": "LT-C009587FC4BF",
+            "conclusion": "The US government is increasingly reliant on short-term debt because it cannot find enough long-term lenders.",
+            "premises": [
+              "Only 17% of national debt is in bonds (20-30 year).",
+              "50% is in notes, 21% in bills.",
+              "Almost 72% matures in under 10 years, increasingly at 2 years or less."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-36451BC942AD",
+                "item": "Debt composition statistics: 17% bonds, 50% notes, 21% bills, 72% short-term.",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited for debt composition data.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "only 17% of the national debt is currently held in bonds. Bonds are the 30-year treasuries and the 20-year treasuries. And we can see that 50% of the national debt is in notes. Notes are 2-year, 3-year, 5-year, 7-year, and 10-year. And now, 21% of the national debt is in bills. Bills are short-term from 4-week maturity up to 52-week maturity. So, almost 72% of the entire national debt is held at the short end of the curve, maturing in under 10 years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-944EC7BD7E1F",
+        "theme": "Federal Reserve and bank deregulation as solution",
+        "arguments": [
+          {
+            "local_argument_id": "LA-AC1FAEBA329C",
+            "local_theme_id": "LT-944EC7BD7E1F",
+            "conclusion": "The Federal Reserve has resumed increasing its balance sheet to buy Treasuries because other buyers are scarce.",
+            "premises": [
+              "Fed started increasing its balance sheet again, as shown in chart.",
+              "Previous big round of QE was very unpopular."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C4274D01B55F",
+                "item": "Federal Reserve started increasing its balance sheet yet again, as seen at the end of the chart.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart referenced but not provided; no other source given.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "the Federal Reserve started increasing its balance sheet yet again, as you can see at the end of this chart.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-A1E7AE01C770",
+            "local_theme_id": "LT-944EC7BD7E1F",
+            "conclusion": "The supplementary leverage ratio will likely be permanently removed so banks can buy unlimited Treasuries using depositor funds.",
+            "premises": [
+              "SLR was temporarily suspended in 2020, allowing massive bank buying.",
+              "Governor Moran has argued for freeing bank balance sheets.",
+              "Banks can earn a spread using depositor money, so they will buy regardless of yield level."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6A0A55A78402",
+                "item": "Governor Moran at the Federal Reserve has talked extensively about freeing up banks' balance sheets.",
+                "status": "Unverifiable",
+                "verification_basis": "Reference to source but no excerpt provided.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "Governor Moran at the Federal Reserve has talked about this extensively in speeches and reports that you can find on the Fed's website",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9F60AD8D3187",
+                "item": "SLR was temporarily suspended back in 2020 allowing banks to buy as many treasuries as they wanted.",
+                "status": "Unverifiable",
+                "verification_basis": "Historical claim without citation.",
+                "speech_id": "SP-EE89CD3EA865",
+                "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+                "source_excerpt": "That was temporarily suspended back in 2020 and allowed banks to buy as many treasuries as they wanted, and they did.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-28A23BF97C51",
+        "theme": "Inflation consequences of bank Treasury purchases",
+        "arguments": [
+          {
+            "local_argument_id": "LA-D9C1AE9238D7",
+            "local_theme_id": "LT-28A23BF97C51",
+            "conclusion": "If banks buy Treasuries with depositor money, it will cause severe inflation.",
+            "premises": [
+              "Banks will pay depositors very little while earning government yield.",
+              "They will drive yields lower, increasing money supply and inflation."
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-808C9C0B409A",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "Gold is on the brink of breaking $5,000 per ounce.",
+        "reason": "The transcript asserts a current price without any source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external verification available from transcript content.",
+        "source_excerpt": "gold is on the brink of breaking $5,000 per ounce",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-57CD87F2DCC4",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "Official reserves of US debt have been overtaken by reserves held in gold.",
+        "reason": "No source or data provided for this comparison.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal data to verify.",
+        "source_excerpt": "official reserves of US debt have now been overtaken by reserves held in gold",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-51F7006F011E",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "Money supply keeps making new all-time highs.",
+        "reason": "No specific money supply metric or timeframe mentioned.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal data provided.",
+        "source_excerpt": "Money supply keeps on it making new all-time highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3B2E93AF64D7",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "The dollar is getting much weaker across asset classes and cost of living.",
+        "reason": "General statement with no specific indices or examples.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal data to support.",
+        "source_excerpt": "whether we're looking at pretty much any asset class, or whether we're looking at the cost of living through things like housing, transportation, or food, the dollar is getting much, much weaker.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A80B71F00339",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "The 10-year yield looks about to break out to the upside.",
+        "reason": "Observation of chart without numeric data or timeframe.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal chart provided.",
+        "source_excerpt": "the 10-year yield, you can see recently it's been getting higher quickly, and it looks like it's about to break out",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4FEE93BA08E8",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "Only 17% of national debt is in bonds, 50% in notes, 21% in bills, and almost 72% matures under 10 years.",
+        "reason": "No source cited for debt composition statistics.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Data presented without verification basis.",
+        "source_excerpt": "only 17% of the national debt is currently held in bonds. Bonds are the 30-year treasuries and the 20-year treasuries. And we can see that 50% of the national debt is in notes. Notes are 2-year, 3-year, 5-year, 7-year, and 10-year. And now, 21% of the national debt is in bills.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-66C7EE046281",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "A Danish pension fund announced selling off its entire treasury holding.",
+        "reason": "No specific fund name or source given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal verification possible.",
+        "source_excerpt": "Just recently, it was announced that a Danish pension fund would be selling off its entire treasury holding.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AA1945F784CE",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "The Federal Reserve started increasing its balance sheet again (as shown in chart).",
+        "reason": "Chart not provided; no data or date range.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal data to confirm.",
+        "source_excerpt": "the Federal Reserve started increasing its balance sheet yet again, as you can see at the end of this chart.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-96DF8C175F5C",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "The supplementary leverage ratio was temporarily suspended in 2020.",
+        "reason": "Historical claim without citation or specific reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal record provided.",
+        "source_excerpt": "That was temporarily suspended back in 2020 and allowed banks to buy as many treasuries as they wanted, and they did.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0CB88661EFD4",
+        "speech_id": "SP-EE89CD3EA865",
+        "speech_ref": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "claim": "Governor Moran at the Federal Reserve has talked extensively about freeing banks' balance sheets.",
+        "reason": "Reference to external source but no excerpt or date given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal excerpt to evaluate.",
+        "source_excerpt": "Governor Moran at the Federal Reserve has talked about this extensively in speeches and reports that you can find on the Fed's website",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Treasury market looks ready to break to the downside (bond prices falling, yields rising), and when it does, banks will be deregulated to buy unlimited Treasuries with depositor money, leading to severe inflation.",
+      "themes": [
+        "Signals of declining demand for Treasuries",
+        "Dollar's real purchasing power decline due to money supply growth",
+        "Rising Treasury yields and structural debt issues",
+        "Federal Reserve and bank deregulation as solution",
+        "Inflation consequences of bank Treasury purchases"
+      ],
+      "argument_count": 8,
+      "unverifiable_count": 10
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "d19d924f0580db26ca675f9d473615ded54350b9aedf60c2b319f8361a5f6c05",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "a8204546879ea745548f9625e9618ecd7731b70f1f54762c88b6bf8167ef1b2e",
+    "canonical_mapping": {
+      "speech_id": "SP-EE89CD3EA865",
+      "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+      "primary_cc_rationale": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T86",
+        "T107",
+        "T91"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T86",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-944EC7BD7E1F",
+          "rationale": "The Federal Reserve and banking deregulation, specifically SLR removal, directly matches canonical theme 'Federal Reserve and banking deregulation'."
+        },
+        {
+          "theme_id": "T107",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-28A23BF97C51",
+          "rationale": "Severe inflation from bank Treasury purchases is a direct inflation consequence, fitting 'Inflation and stagflation dynamics'."
+        },
+        {
+          "theme_id": "T91",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-C009587FC4BF",
+          "rationale": "Rising Treasury yields and structural debt issues are core components of 'Fiscal debt, Treasury market, and dollar concerns'."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T86",
+          "cc_id": "CC50",
+          "theme_id": "T86",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T107",
+          "cc_id": "CC50",
+          "theme_id": "T107",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T91",
+          "cc_id": "CC50",
+          "theme_id": "T91",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "local_cc_text": "The Treasury market looks ready to break to the downside (bond prices falling, yields rising), and when it does, banks will be deregulated to buy unlimited Treasuries with depositor money, leading to severe inflation.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "rationale": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.6283826231956482
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.4894868731498718
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.4828760027885437
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.45801833271980286
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.41472214460372925
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "local_theme_id": "LT-0F11F909D80A",
+        "local_theme_text": "Signals of declining demand for Treasuries",
+        "canonical_theme_id": "T91",
+        "confidence": 0.85,
+        "rationale": "Theme of declining demand for Treasuries directly maps to canonical theme 'Fiscal debt, Treasury market, and dollar concerns' which encompasses Treasury market dynamics and demand shifts.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4691851735115051
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.3864947557449341
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.37736472487449646
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.3749088644981384
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3748684227466583
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.36555904150009155
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "local_theme_id": "LT-AD8DAB54D0B2",
+        "local_theme_text": "Dollar's real purchasing power decline due to money supply growth",
+        "canonical_theme_id": "T107",
+        "confidence": 0.75,
+        "rationale": "The decline in dollar purchasing power due to money supply growth is a direct inflationary effect, best captured by canonical theme 'Inflation and stagflation dynamics'.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.6609899401664734
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.628756046295166
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.5158087015151978
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5031291246414185
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.47599196434020996
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.44399571418762207
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "local_theme_id": "LT-C009587FC4BF",
+        "local_theme_text": "Rising Treasury yields and structural debt issues",
+        "canonical_theme_id": "T91",
+        "confidence": 0.9,
+        "rationale": "Rising Treasury yields and structural debt issues are core components of 'Fiscal debt, Treasury market, and dollar concerns'.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.6313655972480774
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.4935174286365509
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4557719826698303
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.4496610164642334
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.42087531089782715
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.4189458191394806
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "local_theme_id": "LT-944EC7BD7E1F",
+        "local_theme_text": "Federal Reserve and bank deregulation as solution",
+        "canonical_theme_id": "T86",
+        "confidence": 0.95,
+        "rationale": "The Federal Reserve and banking deregulation, specifically SLR removal, directly matches canonical theme 'Federal Reserve and banking deregulation'.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.8532058000564575
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.6683518886566162
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.5217677354812622
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.4984210133552551
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.47882428765296936
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.4554966688156128
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "local_theme_id": "LT-28A23BF97C51",
+        "local_theme_text": "Inflation consequences of bank Treasury purchases",
+        "canonical_theme_id": "T107",
+        "confidence": 0.8,
+        "rationale": "Severe inflation from bank Treasury purchases is a direct inflation consequence, fitting 'Inflation and stagflation dynamics'.",
+        "candidate_matches": [
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5323545932769775
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.47049498558044434
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4639029800891876
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.41816458106040955
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.4068435728549957
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.401874303817749
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-14088CE9DBD126",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0F11F909D80A",
+        "local_theme_text": "Signals of declining demand for Treasuries",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Theme of declining demand for Treasuries directly maps to canonical theme 'Fiscal debt, Treasury market, and dollar concerns' which encompasses Treasury market dynamics and demand shifts.",
+        "local_argument_id": "LA-5E0F1736A556",
+        "conclusion": "Central banks and funds accumulating gold instead of Treasuries shows trust is shifting to gold.",
+        "premises": [
+          "Gold has been a monetary asset for thousands of years and is still treated as such by central banks.",
+          "Treasuries have only been a safe haven temporarily for a few decades."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5BF92CDD1A8C",
+            "item": "Gold is on the brink of breaking $5,000 per ounce.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides price claim without source or external verification.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "gold is on the brink of breaking $5,000 per ounce",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-D61F3316FD8B",
+            "item": "Official reserves of US debt have been overtaken by reserves held in gold.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for this claim.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "official reserves of US debt have now been overtaken by reserves held in gold",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-60E88DE3A8CBA6",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0F11F909D80A",
+        "local_theme_text": "Signals of declining demand for Treasuries",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Theme of declining demand for Treasuries directly maps to canonical theme 'Fiscal debt, Treasury market, and dollar concerns' which encompasses Treasury market dynamics and demand shifts.",
+        "local_argument_id": "LA-F3BA5FD78235",
+        "conclusion": "Foreign selling of Treasuries, though small in individual amounts, is a signpost of declining demand.",
+        "premises": [
+          "A Danish pension fund announced selling all its Treasury holdings.",
+          "Treasury Secretary Scott Bessent dismissed it as irrelevant in amount.",
+          "Gold accumulation by central banks shows a similar trend."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-98A4723F3517",
+            "item": "A Danish pension fund would be selling off its entire treasury holding.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or details provided.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "Just recently, it was announced that a Danish pension fund would be selling off its entire treasury holding.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-476808B7910A",
+            "item": "Official reserves of US debt overtaken by gold reserves (repeated here for completeness).",
+            "status": "Unverifiable",
+            "verification_basis": "Same as previous.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "official reserves of US debt have now been overtaken by reserves held in gold",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-DA9DF6695B9C67",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T107",
+        "cc_id": "CC50",
+        "theme_id": "T107",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-AD8DAB54D0B2",
+        "local_theme_text": "Dollar's real purchasing power decline due to money supply growth",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The decline in dollar purchasing power due to money supply growth is a direct inflationary effect, best captured by canonical theme 'Inflation and stagflation dynamics'.",
+        "local_argument_id": "LA-BE2668716753",
+        "conclusion": "The dollar is weakening in real terms because money supply growth outpaces production.",
+        "premises": [
+          "Money supply is at all-time highs.",
+          "Prices of assets and cost of living are rising.",
+          "More money chasing the same goods causes inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3967FF3640AE",
+            "item": "Money supply keeps making new all-time highs.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific data or timeframe given.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "Money supply keeps on it making new all-time highs.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-7871CB3786D8",
+            "item": "The dollar is getting much weaker across asset classes and cost of living.",
+            "status": "Unverifiable",
+            "verification_basis": "General assertion without specific metrics or sources.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "whether we're looking at pretty much any asset class, or whether we're looking at the cost of living through things like housing, transportation, or food, the dollar is getting much, much weaker.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2168B6AD90B9F7",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C009587FC4BF",
+        "local_theme_text": "Rising Treasury yields and structural debt issues",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Rising Treasury yields and structural debt issues are core components of 'Fiscal debt, Treasury market, and dollar concerns'.",
+        "local_argument_id": "LA-5FC589911C0B",
+        "conclusion": "Long-term Treasury yields are about to break out upwards because lenders demand higher compensation for inflation risk.",
+        "premises": [
+          "Future inflation expectations are high due to government borrowing and money supply growth.",
+          "Lenders demand at least the inflation rate to maintain purchasing power.",
+          "Short-term yields are suppressed by the Fed, but long-term yields are rising."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A5076D6C82C7",
+            "item": "The 10-year yield has been getting higher quickly and looks about to break out.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart observation not provided in text.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "the 10-year yield, you can see recently it's been getting higher quickly, and it looks like it's about to break out",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-D9D43A10D3B4",
+            "device": "Lending $100 dinner analogy",
+            "explanation": "Illustrates why lenders demand higher interest rates when inflation rises.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "if I'm going to lend you $100... I'm going to demand at least 5% cuz otherwise, in real terms, I'm losing.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-59AE7BCDB8B325",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C009587FC4BF",
+        "local_theme_text": "Rising Treasury yields and structural debt issues",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Rising Treasury yields and structural debt issues are core components of 'Fiscal debt, Treasury market, and dollar concerns'.",
+        "local_argument_id": "LA-AEE39FD20BC5",
+        "conclusion": "The US government is increasingly reliant on short-term debt because it cannot find enough long-term lenders.",
+        "premises": [
+          "Only 17% of national debt is in bonds (20-30 year).",
+          "50% is in notes, 21% in bills.",
+          "Almost 72% matures in under 10 years, increasingly at 2 years or less."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-36451BC942AD",
+            "item": "Debt composition statistics: 17% bonds, 50% notes, 21% bills, 72% short-term.",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited for debt composition data.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "only 17% of the national debt is currently held in bonds. Bonds are the 30-year treasuries and the 20-year treasuries. And we can see that 50% of the national debt is in notes. Notes are 2-year, 3-year, 5-year, 7-year, and 10-year. And now, 21% of the national debt is in bills. Bills are short-term from 4-week maturity up to 52-week maturity. So, almost 72% of the entire national debt is held at the short end of the curve, maturing in under 10 years.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-8795C563DAE498",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T86",
+        "cc_id": "CC50",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-944EC7BD7E1F",
+        "local_theme_text": "Federal Reserve and bank deregulation as solution",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The Federal Reserve and banking deregulation, specifically SLR removal, directly matches canonical theme 'Federal Reserve and banking deregulation'.",
+        "local_argument_id": "LA-AC1FAEBA329C",
+        "conclusion": "The Federal Reserve has resumed increasing its balance sheet to buy Treasuries because other buyers are scarce.",
+        "premises": [
+          "Fed started increasing its balance sheet again, as shown in chart.",
+          "Previous big round of QE was very unpopular."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C4274D01B55F",
+            "item": "Federal Reserve started increasing its balance sheet yet again, as seen at the end of the chart.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart referenced but not provided; no other source given.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "the Federal Reserve started increasing its balance sheet yet again, as you can see at the end of this chart.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-20A12E15888ABE",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T86",
+        "cc_id": "CC50",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-944EC7BD7E1F",
+        "local_theme_text": "Federal Reserve and bank deregulation as solution",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The Federal Reserve and banking deregulation, specifically SLR removal, directly matches canonical theme 'Federal Reserve and banking deregulation'.",
+        "local_argument_id": "LA-A1E7AE01C770",
+        "conclusion": "The supplementary leverage ratio will likely be permanently removed so banks can buy unlimited Treasuries using depositor funds.",
+        "premises": [
+          "SLR was temporarily suspended in 2020, allowing massive bank buying.",
+          "Governor Moran has argued for freeing bank balance sheets.",
+          "Banks can earn a spread using depositor money, so they will buy regardless of yield level."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6A0A55A78402",
+            "item": "Governor Moran at the Federal Reserve has talked extensively about freeing up banks' balance sheets.",
+            "status": "Unverifiable",
+            "verification_basis": "Reference to source but no excerpt provided.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "Governor Moran at the Federal Reserve has talked about this extensively in speeches and reports that you can find on the Fed's website",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9F60AD8D3187",
+            "item": "SLR was temporarily suspended back in 2020 allowing banks to buy as many treasuries as they wanted.",
+            "status": "Unverifiable",
+            "verification_basis": "Historical claim without citation.",
+            "speech_id": "SP-EE89CD3EA865",
+            "source_speech_filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+            "source_excerpt": "That was temporarily suspended back in 2020 and allowed banks to buy as many treasuries as they wanted, and they did.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-51964E046B80C2",
+        "speech_id": "SP-EE89CD3EA865",
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "date": "2026-01-26",
+        "source_hash": "fab04c01fee9b51eb2ffeea85305ecf3dc1afab726773304c38c977007f74ab7",
+        "pair_id": "PAIR-CC50-T107",
+        "cc_id": "CC50",
+        "theme_id": "T107",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete scenario (Treasury market breaking to the downside) that leads to the deregulation policies (SLR removal) and inflationary consequences described in CC50, serving as a specific instance of the general claim that government actions to support borrowing cause inflation and benefit banks.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-28A23BF97C51",
+        "local_theme_text": "Inflation consequences of bank Treasury purchases",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Severe inflation from bank Treasury purchases is a direct inflation consequence, fitting 'Inflation and stagflation dynamics'.",
+        "local_argument_id": "LA-D9C1AE9238D7",
+        "conclusion": "If banks buy Treasuries with depositor money, it will cause severe inflation.",
+        "premises": [
+          "Banks will pay depositors very little while earning government yield.",
+          "They will drive yields lower, increasing money supply and inflation."
+        ],
+        "evidence": [],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "d19d924f0580db26ca675f9d473615ded54350b9aedf60c2b319f8361a5f6c05",
+  "complete": true
+}

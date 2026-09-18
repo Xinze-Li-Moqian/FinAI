@@ -1,0 +1,953 @@
+{
+  "dependencies": {
+    "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+    "phase1_record_hash": "7a9439c24764445711368b72c35e3bb90bdf0a8be60b0c4006138d69b85fee72",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-3DC46BA48274",
+    "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+    "stem": "20251013_The Next Economic Crisis is Not What You Think",
+    "date": "2025-10-13",
+    "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+    "source_character_count": 15067,
+    "central_claim": "The next major economic crisis will be a sovereign debt crisis affecting the government, because each previous crisis was absorbed by the entity that then becomes the epicenter of the next crisis.",
+    "themes": [
+      {
+        "local_theme_id": "LT-65AA8B2BE845",
+        "theme": "The historical chain of crisis absorption from 1998 to 2020",
+        "arguments": [
+          {
+            "local_argument_id": "LA-98026B378C66",
+            "local_theme_id": "LT-65AA8B2BE845",
+            "conclusion": "The banks became the epicenter of the 2008 crisis after absorbing the 1998 LTCM crisis.",
+            "premises": [
+              "LTCM, a highly leveraged hedge fund, was bailed out by a consortium of banks orchestrated by the Federal Reserve in 1998.",
+              "The speaker asserts a historical pattern: the next crisis always hits the entity that absorbed the previous one."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D3BD8A224334",
+                "item": "The Federal Reserve forced banks to bail out Long-Term Capital Management in 1998.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states this as fact but provides no source or supporting data.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "So the Federal Reserve got together with a couple big banks and they said, \"Hey, we need you to deal with this problem.\"",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CE0D8066C1A9",
+                "item": "The banks purchased and wound down LTCM.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this but does not cite any external verification.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "The banks handled it. They got together and they purchased and bailed out long-term capital management and wound it down.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-55391D9135F7",
+            "local_theme_id": "LT-65AA8B2BE845",
+            "conclusion": "Taxpayers became the epicenter of the 2020 crisis after absorbing the 2008 financial crisis via government bailout.",
+            "premises": [
+              "In 2008, the government orchestrated a bailout of the banks at the expense of the taxpayer.",
+              "Taxpayers bore the cost through rising prices, increased taxes, and a worse job market.",
+              "The pattern holds: the entity that absorbs the crisis becomes the next epicenter."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D1E5BB27AEA5",
+                "item": "The government bailed out banks at taxpayer expense in 2008.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states this but provides no specific fiscal data or source.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "the government orchestrated a bailout of the banks and they did so at the expense of the taxpayer",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9ED71A77869D",
+                "item": "The cost to taxpayers included rising prices, increased taxes, and worse jobs market over the next decade.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript lists these consequences but provides no quantitative evidence or citation.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "the cost of that over the next decade was rising prices of food and services, rising cost of housing, yes, increased taxes, a worse jobs market",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-548870AA8560",
+            "local_theme_id": "LT-65AA8B2BE845",
+            "conclusion": "The government became the epicenter of the next crisis after absorbing the 2020 crisis through massive borrowing and money printing.",
+            "premises": [
+              "In 2020, the government bailed out the taxpayer by printing and borrowing trillions of dollars.",
+              "The government's debt is now unsustainable because it cannot tax enough to cover spending.",
+              "The pattern implies the government will be the next epicenter."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2B95CF8C6658",
+                "item": "The government printed and borrowed trillions of dollars in 2020 to bail out the taxpayer.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this without providing the exact amount or source.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "the government decided we are going to print and borrow into existence trillions of dollars",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-417B48E11961",
+                "item": "The repo rate spiked in September 2019, indicating the crisis started before the pandemic.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript mentions the spike but does not provide a specific rate or data source.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "repo rates in September of 2019 spiked",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-680F59D3C291",
+        "theme": "The impending sovereign debt crisis and the role of the Federal Reserve",
+        "arguments": [
+          {
+            "local_argument_id": "LA-EAD633BB1680",
+            "local_theme_id": "LT-680F59D3C291",
+            "conclusion": "The government will default on its debt unless the Federal Reserve intervenes by printing money.",
+            "premises": [
+              "The government cannot tax enough to pay its liabilities and must borrow the difference.",
+              "Borrowing is increasing expenses faster than income, making debt unsustainable.",
+              "No entity other than the Federal Reserve can absorb a sovereign debt crisis."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6057C294F598",
+                "item": "The government cannot tax enough to pay its liabilities.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states this as fact without citing any fiscal data.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "the government cannot tax enough to pay its liabilities and so it must borrow the difference",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EF5D0CFDA6ED",
+                "item": "The rate of borrowing is increasing expenses faster than income.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript makes this claim without specifying figures or a source.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "the rate at which it is borrowing is increasing its expenses faster than it can increase its income",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-591D5E839A1B",
+                "device": "Credit card analogy for government debt",
+                "explanation": "Compares the government's fiscal situation to an individual earning $100k and spending $200k on credit cards, constantly rolling over debt and adding to it.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "it would be like you making a h 100red grand a year, spending 200 grand a year just on credit cards. You have to keep on doing a balance transfer just to get that introductory rate so your interest rate doesn't skyrocket and payments just get out of hand. But you can only make the minimum payment, but you also have to keep on funding your lifestyle that you keep on increasing.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-C4C38CEFF1B2",
+            "local_theme_id": "LT-680F59D3C291",
+            "conclusion": "The Federal Reserve will use money printing and financial repression to bail out the government, causing inflation.",
+            "premises": [
+              "Historically, central banks always print money to absorb sovereign debt crises.",
+              "Tools such as quantitative easing, yield curve control, capital controls, and financial repression are used."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C5B2BEDA04E9",
+                "item": "Central banks always print money when governments face sovereign debt crises.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript presents this as an historical pattern without citing specific examples or sources.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "This is what always happens when any government throughout history faces a sovereign debt crisis. The central bank comes in and they print the difference.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-6AD1B2EFDC4F",
+        "theme": "Investment recommendations for protection against inflation from the anticipated bailout",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E1D193641B9E",
+            "local_theme_id": "LT-6AD1B2EFDC4F",
+            "conclusion": "Investors should avoid government bonds and cash and instead hold real assets such as stocks, gold, Bitcoin, and real estate.",
+            "premises": [
+              "Real interest rates on cash will be deeply negative over the coming years.",
+              "Gold doubling indicates big money is front-running monetary policy mistakes.",
+              "Real assets have historically protected against inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7592CAE86622",
+                "item": "Gold has doubled in the last year and a half.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this price movement but provides no specific data or source.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "Like gold doubling in the last year and a half.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-71C3DC7AD4F4",
+                "item": "Real interest rates on cash will be deeply negative.",
+                "status": "Unverifiable",
+                "verification_basis": "This is a prediction without any supporting data or precedent cited.",
+                "speech_id": "SP-3DC46BA48274",
+                "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+                "source_excerpt": "The real interest rate on those will be deeply negative over the coming years if history is any guy.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-659209C301F3",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "Every single time for the last 30 years that there has been a major crisis, the next crisis happens to whoever absorbed the one from before.",
+        "reason": "The transcript provides no evidence or historical examples to support this universal pattern; it is a sweeping inductive claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a rhetorical pattern claim; no specific data is provided to verify it within the transcript.",
+        "source_excerpt": "because every single time for the last 30 years that there has been a major crisis, the next crisis happens to whoever absorbed the one from before.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-B63BA899875B",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "Merton, Scholes, and Black were Nobel Prize winners in economics and ran Long-Term Capital Management; the options pricing model was named after them.",
+        "reason": "While the names and Nobel connection are well-known, the transcript presents this as a fact without citation; the accuracy is partially correct (Scholes and Merton won, Black died before), but the transcript bundles it as one unsupported assertion.",
+        "memory_check": "Corroborated",
+        "memory_note": "Common knowledge: Scholes and Merton won the Nobel in 1997; Black was deceased. The Black-Scholes model is indeed named after them. The claim is broadly accurate.",
+        "source_excerpt": "These guys names were Mertton, Scholes, and Black. If those names sound familiar to you, it's because you're an options trader and the options pricing model was named after them. It's not because these guys were idiots. In fact, they are Nobel Prize winners in economics",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5A96CB0C5DF7",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "The Federal Reserve did no printing and no rate cuts in 1998; it simply told banks to handle the LTCM bailout.",
+        "reason": "The transcript provides no evidence that the Fed did not use any monetary tools; it is an unsupported assertion about Fed policy.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical records show the Fed did not cut rates specifically for LTCM, but the claim about 'no printing' is vague; the transcript offers no verification.",
+        "source_excerpt": "The Federal Reserve did no printing. They did no cuts. They just told the banks, \"You better handle this.\"",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C533B2CCB5DB",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "The repo market spike in September 2019 was caused by the government having borrowed so much that it sucked liquidity out of financial markets.",
+        "reason": "The transcript asserts a causal link without citing any data or analysis to support it.",
+        "memory_check": "Contradicted",
+        "memory_note": "The repo spike in September 2019 is well-documented, but the cause is often attributed to reserve scarcity and regulatory constraints, not solely government borrowing. The transcript's explanation is contested by other analyses.",
+        "source_excerpt": "This time it was just because the government had borrowed so much that it had sucked all of the liquidity out of the financial markets.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-62F4EF2A7795",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "The taxpayer would have faced a deflationary death spiral in 2019–2020 rivaling or exceeding the Great Depression had the government not bailed them out.",
+        "reason": "This is a highly speculative prediction with no supporting evidence or counterfactual analysis in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No data is provided to substantiate this severity; it remains an unsubstantiated claim.",
+        "source_excerpt": "The taxpayer would have faced a deflationary death spiral in 2019 and in 2020. ... rivaling or even exceeding what the Great Depression looked like.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-3AAA571E5931",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "Gold doubling in the last year and a half is a sign that big money is front-running bad monetary policy decisions.",
+        "reason": "The transcript provides no specific price data or attribution for this price movement; the interpretation is unsupported.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Gold prices can be affected by many factors; the causal claim is not verifiable from the transcript.",
+        "source_excerpt": "Like gold doubling in the last year and a half. Gold does not make moves like this for no reason. It's because big money is frontrunning bad monetary policy decisions so that they can protect their purchasing power.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-D6FFD55F6C76",
+        "speech_id": "SP-3DC46BA48274",
+        "speech_ref": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "claim": "On the current path with no changes, the government defaults.",
+        "reason": "This is a prediction without any fiscal projections or analysis provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is an assertion of future outcome with no basis in the transcript's content.",
+        "source_excerpt": "And if nothing happens from here, the government defaults on the path we're on with no changes, that is the outcome. The government defaults.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The next major economic crisis will be a sovereign debt crisis affecting the government, because each previous crisis was absorbed by the entity that then becomes the epicenter of the next crisis.",
+      "themes": [
+        "The historical chain of crisis absorption from 1998 to 2020",
+        "The impending sovereign debt crisis and the role of the Federal Reserve",
+        "Investment recommendations for protection against inflation from the anticipated bailout"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "c31b7d3818a1554d05ca668e9824ed53accb1d1bb0b12b2f344b4b31362fa34a",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "7a9439c24764445711368b72c35e3bb90bdf0a8be60b0c4006138d69b85fee72",
+    "canonical_mapping": {
+      "speech_id": "SP-3DC46BA48274",
+      "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+      "primary_cc_rationale": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T131",
+        "T91"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T131",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-65AA8B2BE845",
+          "rationale": "The theme describes the historical chain of crisis absorption from 1998 to 2020, which directly matches T131 'Sovereign debt crisis and crisis absorption' with high semantic similarity (0.634)."
+        },
+        {
+          "theme_id": "T91",
+          "confidence": 0.65,
+          "source_local_theme_id": "LT-6AD1B2EFDC4F",
+          "rationale": "The theme of investment recommendations to protect against inflation from the anticipated bailout relates to concerns about fiscal debt and dollar erosion captured by T91 'Fiscal debt, Treasury market, and dollar concerns'. While not a perfect match, it is the best available candidate among the supplied themes."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T131",
+          "cc_id": "CC54",
+          "theme_id": "T131",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T91",
+          "cc_id": "CC54",
+          "theme_id": "T91",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "local_cc_text": "The next major economic crisis will be a sovereign debt crisis affecting the government, because each previous crisis was absorbed by the entity that then becomes the epicenter of the next crisis.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "rationale": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "candidate_matches": [
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.5279630422592163
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.513242244720459
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.4049583673477173
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.3733235001564026
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.36270618438720703
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "local_theme_id": "LT-65AA8B2BE845",
+        "local_theme_text": "The historical chain of crisis absorption from 1998 to 2020",
+        "canonical_theme_id": "T131",
+        "confidence": 0.95,
+        "rationale": "The theme describes the historical chain of crisis absorption from 1998 to 2020, which directly matches T131 'Sovereign debt crisis and crisis absorption' with high semantic similarity (0.634).",
+        "candidate_matches": [
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.6343919634819031
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.3753410577774048
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.33082783222198486
+          },
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.32945138216018677
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.29589399695396423
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.2956167757511139
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "local_theme_id": "LT-680F59D3C291",
+        "local_theme_text": "The impending sovereign debt crisis and the role of the Federal Reserve",
+        "canonical_theme_id": "T131",
+        "confidence": 0.9,
+        "rationale": "The theme of an impending sovereign debt crisis and the role of the Federal Reserve closely aligns with T131 'Sovereign debt crisis and crisis absorption', as the crisis absorption chain leads directly to sovereign debt concerns and Fed intervention.",
+        "candidate_matches": [
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.5897445678710938
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5563064813613892
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5536022782325745
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5318264961242676
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.5275676250457764
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5080676078796387
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "local_theme_id": "LT-6AD1B2EFDC4F",
+        "local_theme_text": "Investment recommendations for protection against inflation from the anticipated bailout",
+        "canonical_theme_id": "T91",
+        "confidence": 0.65,
+        "rationale": "The theme of investment recommendations to protect against inflation from the anticipated bailout relates to concerns about fiscal debt and dollar erosion captured by T91 'Fiscal debt, Treasury market, and dollar concerns'. While not a perfect match, it is the best available candidate among the supplied themes.",
+        "candidate_matches": [
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.38514983654022217
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.361998975276947
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.3321608006954193
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.30625438690185547
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.2939997911453247
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.28810086846351624
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-77A103E136322C",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "date": "2025-10-13",
+        "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+        "pair_id": "PAIR-CC54-T131",
+        "cc_id": "CC54",
+        "theme_id": "T131",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-65AA8B2BE845",
+        "local_theme_text": "The historical chain of crisis absorption from 1998 to 2020",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The theme describes the historical chain of crisis absorption from 1998 to 2020, which directly matches T131 'Sovereign debt crisis and crisis absorption' with high semantic similarity (0.634).",
+        "local_argument_id": "LA-98026B378C66",
+        "conclusion": "The banks became the epicenter of the 2008 crisis after absorbing the 1998 LTCM crisis.",
+        "premises": [
+          "LTCM, a highly leveraged hedge fund, was bailed out by a consortium of banks orchestrated by the Federal Reserve in 1998.",
+          "The speaker asserts a historical pattern: the next crisis always hits the entity that absorbed the previous one."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D3BD8A224334",
+            "item": "The Federal Reserve forced banks to bail out Long-Term Capital Management in 1998.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this as fact but provides no source or supporting data.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "So the Federal Reserve got together with a couple big banks and they said, \"Hey, we need you to deal with this problem.\"",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-CE0D8066C1A9",
+            "item": "The banks purchased and wound down LTCM.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this but does not cite any external verification.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "The banks handled it. They got together and they purchased and bailed out long-term capital management and wound it down.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-31DAE38CDB98B9",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "date": "2025-10-13",
+        "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+        "pair_id": "PAIR-CC54-T131",
+        "cc_id": "CC54",
+        "theme_id": "T131",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-65AA8B2BE845",
+        "local_theme_text": "The historical chain of crisis absorption from 1998 to 2020",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The theme describes the historical chain of crisis absorption from 1998 to 2020, which directly matches T131 'Sovereign debt crisis and crisis absorption' with high semantic similarity (0.634).",
+        "local_argument_id": "LA-55391D9135F7",
+        "conclusion": "Taxpayers became the epicenter of the 2020 crisis after absorbing the 2008 financial crisis via government bailout.",
+        "premises": [
+          "In 2008, the government orchestrated a bailout of the banks at the expense of the taxpayer.",
+          "Taxpayers bore the cost through rising prices, increased taxes, and a worse job market.",
+          "The pattern holds: the entity that absorbs the crisis becomes the next epicenter."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D1E5BB27AEA5",
+            "item": "The government bailed out banks at taxpayer expense in 2008.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this but provides no specific fiscal data or source.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "the government orchestrated a bailout of the banks and they did so at the expense of the taxpayer",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9ED71A77869D",
+            "item": "The cost to taxpayers included rising prices, increased taxes, and worse jobs market over the next decade.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript lists these consequences but provides no quantitative evidence or citation.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "the cost of that over the next decade was rising prices of food and services, rising cost of housing, yes, increased taxes, a worse jobs market",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-6803E0630BFD9C",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "date": "2025-10-13",
+        "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+        "pair_id": "PAIR-CC54-T131",
+        "cc_id": "CC54",
+        "theme_id": "T131",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-65AA8B2BE845",
+        "local_theme_text": "The historical chain of crisis absorption from 1998 to 2020",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The theme describes the historical chain of crisis absorption from 1998 to 2020, which directly matches T131 'Sovereign debt crisis and crisis absorption' with high semantic similarity (0.634).",
+        "local_argument_id": "LA-548870AA8560",
+        "conclusion": "The government became the epicenter of the next crisis after absorbing the 2020 crisis through massive borrowing and money printing.",
+        "premises": [
+          "In 2020, the government bailed out the taxpayer by printing and borrowing trillions of dollars.",
+          "The government's debt is now unsustainable because it cannot tax enough to cover spending.",
+          "The pattern implies the government will be the next epicenter."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2B95CF8C6658",
+            "item": "The government printed and borrowed trillions of dollars in 2020 to bail out the taxpayer.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this without providing the exact amount or source.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "the government decided we are going to print and borrow into existence trillions of dollars",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-417B48E11961",
+            "item": "The repo rate spiked in September 2019, indicating the crisis started before the pandemic.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript mentions the spike but does not provide a specific rate or data source.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "repo rates in September of 2019 spiked",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-98581F578C4194",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "date": "2025-10-13",
+        "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+        "pair_id": "PAIR-CC54-T131",
+        "cc_id": "CC54",
+        "theme_id": "T131",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-680F59D3C291",
+        "local_theme_text": "The impending sovereign debt crisis and the role of the Federal Reserve",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme of an impending sovereign debt crisis and the role of the Federal Reserve closely aligns with T131 'Sovereign debt crisis and crisis absorption', as the crisis absorption chain leads directly to sovereign debt concerns and Fed intervention.",
+        "local_argument_id": "LA-EAD633BB1680",
+        "conclusion": "The government will default on its debt unless the Federal Reserve intervenes by printing money.",
+        "premises": [
+          "The government cannot tax enough to pay its liabilities and must borrow the difference.",
+          "Borrowing is increasing expenses faster than income, making debt unsustainable.",
+          "No entity other than the Federal Reserve can absorb a sovereign debt crisis."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6057C294F598",
+            "item": "The government cannot tax enough to pay its liabilities.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this as fact without citing any fiscal data.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "the government cannot tax enough to pay its liabilities and so it must borrow the difference",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-EF5D0CFDA6ED",
+            "item": "The rate of borrowing is increasing expenses faster than income.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript makes this claim without specifying figures or a source.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "the rate at which it is borrowing is increasing its expenses faster than it can increase its income",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-591D5E839A1B",
+            "device": "Credit card analogy for government debt",
+            "explanation": "Compares the government's fiscal situation to an individual earning $100k and spending $200k on credit cards, constantly rolling over debt and adding to it.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "it would be like you making a h 100red grand a year, spending 200 grand a year just on credit cards. You have to keep on doing a balance transfer just to get that introductory rate so your interest rate doesn't skyrocket and payments just get out of hand. But you can only make the minimum payment, but you also have to keep on funding your lifestyle that you keep on increasing.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-C47A0D2F3C8C08",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "date": "2025-10-13",
+        "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+        "pair_id": "PAIR-CC54-T131",
+        "cc_id": "CC54",
+        "theme_id": "T131",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-680F59D3C291",
+        "local_theme_text": "The impending sovereign debt crisis and the role of the Federal Reserve",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme of an impending sovereign debt crisis and the role of the Federal Reserve closely aligns with T131 'Sovereign debt crisis and crisis absorption', as the crisis absorption chain leads directly to sovereign debt concerns and Fed intervention.",
+        "local_argument_id": "LA-C4C38CEFF1B2",
+        "conclusion": "The Federal Reserve will use money printing and financial repression to bail out the government, causing inflation.",
+        "premises": [
+          "Historically, central banks always print money to absorb sovereign debt crises.",
+          "Tools such as quantitative easing, yield curve control, capital controls, and financial repression are used."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C5B2BEDA04E9",
+            "item": "Central banks always print money when governments face sovereign debt crises.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents this as an historical pattern without citing specific examples or sources.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "This is what always happens when any government throughout history faces a sovereign debt crisis. The central bank comes in and they print the difference.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-64FF2896D92D4D",
+        "speech_id": "SP-3DC46BA48274",
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "date": "2025-10-13",
+        "source_hash": "57e4363f4699cc9adaffcc357f2cd437dd37a49f9b0f06d6f7a9a887a46e9890",
+        "pair_id": "PAIR-CC54-T91",
+        "cc_id": "CC54",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the historical chain of crisis absorption (1998 LTCM → banks, 2008 banks → taxpayers via bailout, 2020 taxpayers → government via borrowing/money printing) as the mechanism that has led the U.S. government to become the epicenter of the next crisis, forcing Federal Reserve intervention that will cause inflation and dollar erosion—exactly the process described in CC54.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-6AD1B2EFDC4F",
+        "local_theme_text": "Investment recommendations for protection against inflation from the anticipated bailout",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "The theme of investment recommendations to protect against inflation from the anticipated bailout relates to concerns about fiscal debt and dollar erosion captured by T91 'Fiscal debt, Treasury market, and dollar concerns'. While not a perfect match, it is the best available candidate among the supplied themes.",
+        "local_argument_id": "LA-E1D193641B9E",
+        "conclusion": "Investors should avoid government bonds and cash and instead hold real assets such as stocks, gold, Bitcoin, and real estate.",
+        "premises": [
+          "Real interest rates on cash will be deeply negative over the coming years.",
+          "Gold doubling indicates big money is front-running monetary policy mistakes.",
+          "Real assets have historically protected against inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7592CAE86622",
+            "item": "Gold has doubled in the last year and a half.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this price movement but provides no specific data or source.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "Like gold doubling in the last year and a half.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-71C3DC7AD4F4",
+            "item": "Real interest rates on cash will be deeply negative.",
+            "status": "Unverifiable",
+            "verification_basis": "This is a prediction without any supporting data or precedent cited.",
+            "speech_id": "SP-3DC46BA48274",
+            "source_speech_filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+            "source_excerpt": "The real interest rate on those will be deeply negative over the coming years if history is any guy.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "c31b7d3818a1554d05ca668e9824ed53accb1d1bb0b12b2f344b4b31362fa34a",
+  "complete": true
+}

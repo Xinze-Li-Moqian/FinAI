@@ -1,0 +1,968 @@
+{
+  "dependencies": {
+    "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+    "phase1_record_hash": "bd0a5b32c83c17dcc3d9b0c76dc0cdcd9663e0f1230138d306661b8da6576bec",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-911ABCAF1DFC",
+    "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+    "stem": "20251027_It’s Not the Fed Who Actually Controls Interest Rates",
+    "date": "2025-10-27",
+    "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+    "source_character_count": 17349,
+    "central_claim": "The Federal Reserve does not actually control interest rates (mortgage, auto, credit card, Treasury yields) because its tools (federal funds rate and balance sheet) are limited and market forces, fiscal deficits, and inflation expectations are the primary drivers.",
+    "themes": [
+      {
+        "local_theme_id": "LT-9A3FADC40A41",
+        "theme": "The Fed's limited tools (federal funds rate and balance sheet)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7D7F26518F3A",
+            "local_theme_id": "LT-9A3FADC40A41",
+            "conclusion": "The federal funds rate does not affect consumer or long-term interest rates because it only applies to overnight bank lending.",
+            "premises": [
+              "This is the rate that banks get paid on their cash when they lend to each other in overnight markets.",
+              "It has nothing to do with T-bills, treasuries, auto loans, or mortgages."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F9C940BF4432",
+                "item": "The effective federal funds rate right now is 4.22%.",
+                "status": "Unverifiable",
+                "verification_basis": "No external source provided for this statistic.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "The effective federal funds rate right now is 4.22%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-321D566CE0A8",
+            "local_theme_id": "LT-9A3FADC40A41",
+            "conclusion": "Quantitative easing does not directly set interest rates because it targets the quantity of purchases, not the price of bonds.",
+            "premises": [
+              "Quantitative easing is a decision based on how many bonds to buy or sell.",
+              "They are not saying we want interest rates for this specific bond to be exactly here."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7E1F127955CA",
+                "item": "For example, if the Federal Reserve decides to buy $100 billion worth of treasuries over a couple of years, it's not really going to move the markets at all.",
+                "status": "Unverifiable",
+                "verification_basis": "Hypothetical scenario, not a factual claim.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "For example, if the Federal Reserve decides to go out there and buy a hundred billion dollars worth of treasuries over the course of a couple of years, it's not really going to move the markets at all.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F353E773C127",
+                "item": "when the Fed buys $5 trillion worth of treasuries from 2020 through 2022, that had a huge impact, pushing interest rates down.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the $5 trillion figure or the causal impact.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "when the Fed goes out and buys $5 trillion worth of treasuries from 2020 through 2022, that's going to have a huge impact on the market, and that's going to push interest rates down.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-60DEFA07E177",
+                "device": "Brokerage account analogy for Fed's balance sheet",
+                "explanation": "Describes the Fed creating money to buy assets, analogous to a brokerage account.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "You can think of the Fed's balance sheet like a brokerage account.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7C1C7D34F19C",
+        "theme": "Market expectations and the crowding-out effect",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4C7163785BE1",
+            "local_theme_id": "LT-7C1C7D34F19C",
+            "conclusion": "The crowding-out effect from the Fed paying high interest on reserves causes banks to park cash, reducing lending and raising other rates.",
+            "premises": [
+              "The Fed was paying a risk-free interest rate of 5% to banks via reverse repo facility.",
+              "Banks parked all that cash with the Fed instead of lending it out.",
+              "When the Fed lowers rates, cash leaves that facility and goes into the market, pushing rates down."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F3B1F34ADDC0",
+                "item": "after all the money printing... all of that cash was literally parked... because the Fed didn't want all of that cash being flooded out into the marketplace.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the condition of the reverse repo facility at the time.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "This meant that all of that cash was literally parked, hidden, taken, shielded, held on to by the Federal Reserve on purpose because the Fed didn't want all of that cash being flooded out into the marketplace.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-0ED450435990",
+            "local_theme_id": "LT-7C1C7D34F19C",
+            "conclusion": "Market expectations of future Fed rate cuts are causing long-term rates to fall as investors front-run the cuts.",
+            "premises": [
+              "Big money locks up longer-term bonds at current yields to avoid rolling over at lower rates later.",
+              "4-week T-bill yields 4%, while 1-year yields 3.12%."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-294C418BA6F4",
+                "item": "the market expects that... the Fed will have lowered interest rates. And so big money is willing to lock up their funds for a longer period of time right now, which puts a bid on Treasury prices, which pushes yields lower.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for market expectations or specific yields.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "the market expects that by the time you get to a half a year from now or a full year from now, the Fed will have lowered interest rates. And so big money is willing to lock up their funds for a longer period of time right now, which puts a bid on Treasury prices, which pushes yields lower",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-57E0535716C3",
+                "item": "you can get tea bills for over 4% when you're looking at 4 weeks or 6 weeks, but go out to like a year and you're looking at like 3 and 12%.",
+                "status": "Unverifiable",
+                "verification_basis": "Numeric claims stated without source or date.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "you can get tea bills for over 4% when you're looking at 4 weeks or 6 weeks, but go out to like a year and you're looking at like 3 and 12%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EBE1F06D609D",
+                "device": "10% vs 5% for 50 years analogy",
+                "explanation": "Illustrates why locking in a lower but stable long-term yield can be better than a higher short-term yield followed by much lower yields.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "let's say you could get 10% in the first year, but 1% every year after that for like 50 years. Or you could get 5% every single year, lock that in for 50 years. Clearly, it would be better to get 5% every year, lock that in for 50 years, than to get a higher rate in the beginning, and then a much lower rate for the rest of the term. That's what's going on here.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7B988A1BEEEB",
+        "theme": "Fiscal deficits and yield curve control",
+        "arguments": [
+          {
+            "local_argument_id": "LA-85CB9917C10F",
+            "local_theme_id": "LT-7B988A1BEEEB",
+            "conclusion": "The current high fiscal deficits and debt-to-GDP ratio will force the Federal Reserve to resume yield curve control to keep government borrowing costs low.",
+            "premises": [
+              "US debt is at 120% of GDP, same level as after WWII.",
+              "Interest costs exceed $1 trillion per year.",
+              "Government spending adds $2 trillion new money per year, causing inflation.",
+              "During WWII, the Fed used yield curve control from 1942 to 1951 to keep rates low."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-846E06AD8CB0",
+                "item": "interest costs alone above a trillion dollars per year.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the figure.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "interest costs alone above a trillion dollars per year.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1EEDC4FAC701",
+                "item": "the United States government's debt had reached 120% of the value of GDP. and we are there again.",
+                "status": "Unverifiable",
+                "verification_basis": "Historical claim about WWII and current debt level without source.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "At the peak from World War II, the United States government's debt had reached 120% of the value of GDP. and we are there again.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-86C872708EF3",
+            "local_theme_id": "LT-7B988A1BEEEB",
+            "conclusion": "Yield curve control may cause other interest rates (mortgages, auto loans) to rise because it expands money supply and inflation.",
+            "premises": [
+              "If the Fed buys treasuries to peg yields, it expands money supply, fueling inflation.",
+              "Lenders for mortgages and auto loans will demand higher rates to compensate for erosion of purchasing power.",
+              "The speaker predicts an inverse correlation: the more the Fed controls government yields, the more other rates may rise (unless they also intervene)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-76A1291DB1AC",
+                "item": "if the Federal Reserve steps in with yield curve control and we see government treasury yields plummet as a result... it does not necessarily mean it will translate over to mortgages... the expansion of the money supply will only be that much faster... inflation will only be that much higher... we could actually see an inverse correlation.",
+                "status": "Unverifiable",
+                "verification_basis": "Interpretive prediction, not a factual claim.",
+                "speech_id": "SP-911ABCAF1DFC",
+                "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+                "source_excerpt": "if the Federal Reserve steps in with yield curve control and we see government treasury yields plummet as a result because the Fed just goes on a buying spree and they buy any and all treasuries necessary in order to make sure the government has the low interest rates that they need to support their spending. It does not necessarily mean it will translate over to mortgages, over to auto loans, credit cards, or other forms of debt. Because if the government is doing that, the expansion of the money supply will only be that much faster. which means inflation will only be that much higher. And so as long as there's some free market influence on mortgage rates or on auto loans, then we could act",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-FBB53399A2F1",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "The effective federal funds rate right now is 4.22%.",
+        "reason": "Transcript states the number without citing a source or providing a date.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Current fed funds rate may be obtained from FRED, but transcript does not specify date.",
+        "source_excerpt": "The effective federal funds rate right now is 4.22%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FAA6B504065E",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "currently there's about $3.2 $2 trillion in bank reserves that banks are just holding at the Fed",
+        "reason": "Unclear figure (likely a typo) and no source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Likely a typo; reserves data available but not cited.",
+        "source_excerpt": "currently there's about $3.2 $2 trillion in bank reserves that banks are just holding at the Fed and getting the Fed funds rate directly from the Federal Reserve themselves.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ECA25F4F3816",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "the Fed has a balance sheet worth about $6.5 trillion, significantly lower than where it was when it peaked in 2022 at almost $9 trillion.",
+        "reason": "No source for these figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Fed balance sheet data is public, but not cited.",
+        "source_excerpt": "You can see currently the Fed has a balance sheet worth about $6.5 trillion, significantly lower than where it was when it peaked in 2022 at almost $9 trillion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D453A5B1F93D",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "interest costs alone above a trillion dollars per year.",
+        "reason": "No source provided for the figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "US interest costs may be over $1T, but not cited.",
+        "source_excerpt": "interest costs alone above a trillion dollars per year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6EF0356E67A3",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "the United States government's debt had reached 120% of the value of GDP. and we are there again.",
+        "reason": "Historical claim about WWII debt level and current level without source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Debt-to-GDP ratio data available, but not cited.",
+        "source_excerpt": "At the peak from World War II, the United States government's debt had reached 120% of the value of GDP. and we are there again.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-70BC7624E965",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "the Federal Reserve was paying a risk-free interest rate of 5% to banks",
+        "reason": "No mention of the specific period or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "IORR rate may have been 5% during a period, but not specified.",
+        "source_excerpt": "the Federal Reserve was paying a risk-free interest rate of 5% to banks just to hold all this cash with the Fed.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-506D4831164B",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "you can get tea bills for over 4% when you're looking at 4 weeks or 6 weeks, but go out to like a year and you're looking at like 3 and 12%.",
+        "reason": "Specific yields stated without source or date, and the '3 and 12%' appears garbled.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Likely means 3.12%, but no verification.",
+        "source_excerpt": "you can get tea bills for over 4% when you're looking at 4 weeks or 6 weeks, but go out to like a year and you're looking at like 3 and 12%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8195C4EF9129",
+        "speech_id": "SP-911ABCAF1DFC",
+        "speech_ref": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "claim": "when the Fed went out and buys $5 trillion worth of treasuries from 2020 through 2022, that's going to have a huge impact on the market, and that's going to push interest rates down.",
+        "reason": "The claim that the Fed bought $5 trillion and it pushed rates down is not sourced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Fed QE data available, but causal claim is speculative.",
+        "source_excerpt": "when the Fed goes out and buys $5 trillion worth of treasuries from 2020 through 2022, that's going to have a huge impact on the market, and that's going to push interest rates down.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve does not actually control interest rates (mortgage, auto, credit card, Treasury yields) because its tools (federal funds rate and balance sheet) are limited and market forces, fiscal deficits, and inflation expectations are the primary drivers.",
+      "themes": [
+        "The Fed's limited tools (federal funds rate and balance sheet)",
+        "Market expectations and the crowding-out effect",
+        "Fiscal deficits and yield curve control"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "32321913022e29abe8fe894a1229cae3ca1e8678caf95f61ae947220d1d7aefd",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "bd0a5b32c83c17dcc3d9b0c76dc0cdcd9663e0f1230138d306661b8da6576bec",
+    "canonical_mapping": {
+      "speech_id": "SP-911ABCAF1DFC",
+      "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC52",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+      "primary_cc_rationale": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T89",
+        "T114",
+        "T98"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T89",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-9A3FADC40A41",
+          "rationale": "The local theme discusses the Federal Reserve's limited tools (federal funds rate and balance sheet), which directly maps to T89 'Federal Reserve Monetary Policy Tools and Frameworks'."
+        },
+        {
+          "theme_id": "T114",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-7C1C7D34F19C",
+          "rationale": "The local theme covers market expectations and crowding-out effect, which relates to market dynamics and investor behavior, aligning with T114."
+        },
+        {
+          "theme_id": "T98",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-7B988A1BEEEB",
+          "rationale": "The local theme focuses on fiscal deficits and yield curve control, which fits T98 'Government debt management and fiscal policy'."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC52-T89",
+          "cc_id": "CC52",
+          "theme_id": "T89",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC52-T114",
+          "cc_id": "CC52",
+          "theme_id": "T114",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC52-T98",
+          "cc_id": "CC52",
+          "theme_id": "T98",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "local_cc_text": "The Federal Reserve does not actually control interest rates (mortgage, auto, credit card, Treasury yields) because its tools (federal funds rate and balance sheet) are limited and market forces, fiscal deficits, and inflation expectations are the primary drivers.",
+        "canonical_cc_id": "CC52",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "rationale": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.44376039505004883
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.43195557594299316
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.3512311279773712
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.3371443450450897
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.3225116729736328
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "local_theme_id": "LT-9A3FADC40A41",
+        "local_theme_text": "The Fed's limited tools (federal funds rate and balance sheet)",
+        "canonical_theme_id": "T89",
+        "confidence": 0.85,
+        "rationale": "The local theme discusses the Federal Reserve's limited tools (federal funds rate and balance sheet), which directly maps to T89 'Federal Reserve Monetary Policy Tools and Frameworks'.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.7538851499557495
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.7060338258743286
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.6889665722846985
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5568318963050842
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.4959162473678589
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.4265236258506775
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "local_theme_id": "LT-7C1C7D34F19C",
+        "local_theme_text": "Market expectations and the crowding-out effect",
+        "canonical_theme_id": "T114",
+        "confidence": 0.75,
+        "rationale": "The local theme covers market expectations and crowding-out effect, which relates to market dynamics and investor behavior, aligning with T114.",
+        "candidate_matches": [
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.6244183778762817
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.5065171718597412
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.5004987120628357
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3697962164878845
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.36278223991394043
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.3436305522918701
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "local_theme_id": "LT-7B988A1BEEEB",
+        "local_theme_text": "Fiscal deficits and yield curve control",
+        "canonical_theme_id": "T98",
+        "confidence": 0.7,
+        "rationale": "The local theme focuses on fiscal deficits and yield curve control, which fits T98 'Government debt management and fiscal policy'.",
+        "candidate_matches": [
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5537315607070923
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.5075861811637878
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.5007991194725037
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4696279764175415
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4379225969314575
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.42979198694229126
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-E890F219E636E3",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "date": "2025-10-27",
+        "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+        "pair_id": "PAIR-CC52-T89",
+        "cc_id": "CC52",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-9A3FADC40A41",
+        "local_theme_text": "The Fed's limited tools (federal funds rate and balance sheet)",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme discusses the Federal Reserve's limited tools (federal funds rate and balance sheet), which directly maps to T89 'Federal Reserve Monetary Policy Tools and Frameworks'.",
+        "local_argument_id": "LA-7D7F26518F3A",
+        "conclusion": "The federal funds rate does not affect consumer or long-term interest rates because it only applies to overnight bank lending.",
+        "premises": [
+          "This is the rate that banks get paid on their cash when they lend to each other in overnight markets.",
+          "It has nothing to do with T-bills, treasuries, auto loans, or mortgages."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F9C940BF4432",
+            "item": "The effective federal funds rate right now is 4.22%.",
+            "status": "Unverifiable",
+            "verification_basis": "No external source provided for this statistic.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "The effective federal funds rate right now is 4.22%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-5D4C71B58DB088",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "date": "2025-10-27",
+        "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+        "pair_id": "PAIR-CC52-T89",
+        "cc_id": "CC52",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-9A3FADC40A41",
+        "local_theme_text": "The Fed's limited tools (federal funds rate and balance sheet)",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme discusses the Federal Reserve's limited tools (federal funds rate and balance sheet), which directly maps to T89 'Federal Reserve Monetary Policy Tools and Frameworks'.",
+        "local_argument_id": "LA-321D566CE0A8",
+        "conclusion": "Quantitative easing does not directly set interest rates because it targets the quantity of purchases, not the price of bonds.",
+        "premises": [
+          "Quantitative easing is a decision based on how many bonds to buy or sell.",
+          "They are not saying we want interest rates for this specific bond to be exactly here."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7E1F127955CA",
+            "item": "For example, if the Federal Reserve decides to buy $100 billion worth of treasuries over a couple of years, it's not really going to move the markets at all.",
+            "status": "Unverifiable",
+            "verification_basis": "Hypothetical scenario, not a factual claim.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "For example, if the Federal Reserve decides to go out there and buy a hundred billion dollars worth of treasuries over the course of a couple of years, it's not really going to move the markets at all.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F353E773C127",
+            "item": "when the Fed buys $5 trillion worth of treasuries from 2020 through 2022, that had a huge impact, pushing interest rates down.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the $5 trillion figure or the causal impact.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "when the Fed goes out and buys $5 trillion worth of treasuries from 2020 through 2022, that's going to have a huge impact on the market, and that's going to push interest rates down.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-60DEFA07E177",
+            "device": "Brokerage account analogy for Fed's balance sheet",
+            "explanation": "Describes the Fed creating money to buy assets, analogous to a brokerage account.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "You can think of the Fed's balance sheet like a brokerage account.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-37CAA5919D8C17",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "date": "2025-10-27",
+        "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+        "pair_id": "PAIR-CC52-T114",
+        "cc_id": "CC52",
+        "theme_id": "T114",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7C1C7D34F19C",
+        "local_theme_text": "Market expectations and the crowding-out effect",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The local theme covers market expectations and crowding-out effect, which relates to market dynamics and investor behavior, aligning with T114.",
+        "local_argument_id": "LA-4C7163785BE1",
+        "conclusion": "The crowding-out effect from the Fed paying high interest on reserves causes banks to park cash, reducing lending and raising other rates.",
+        "premises": [
+          "The Fed was paying a risk-free interest rate of 5% to banks via reverse repo facility.",
+          "Banks parked all that cash with the Fed instead of lending it out.",
+          "When the Fed lowers rates, cash leaves that facility and goes into the market, pushing rates down."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F3B1F34ADDC0",
+            "item": "after all the money printing... all of that cash was literally parked... because the Fed didn't want all of that cash being flooded out into the marketplace.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the condition of the reverse repo facility at the time.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "This meant that all of that cash was literally parked, hidden, taken, shielded, held on to by the Federal Reserve on purpose because the Fed didn't want all of that cash being flooded out into the marketplace.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-1542EE9CB0C9B5",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "date": "2025-10-27",
+        "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+        "pair_id": "PAIR-CC52-T114",
+        "cc_id": "CC52",
+        "theme_id": "T114",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7C1C7D34F19C",
+        "local_theme_text": "Market expectations and the crowding-out effect",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The local theme covers market expectations and crowding-out effect, which relates to market dynamics and investor behavior, aligning with T114.",
+        "local_argument_id": "LA-0ED450435990",
+        "conclusion": "Market expectations of future Fed rate cuts are causing long-term rates to fall as investors front-run the cuts.",
+        "premises": [
+          "Big money locks up longer-term bonds at current yields to avoid rolling over at lower rates later.",
+          "4-week T-bill yields 4%, while 1-year yields 3.12%."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-294C418BA6F4",
+            "item": "the market expects that... the Fed will have lowered interest rates. And so big money is willing to lock up their funds for a longer period of time right now, which puts a bid on Treasury prices, which pushes yields lower.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for market expectations or specific yields.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "the market expects that by the time you get to a half a year from now or a full year from now, the Fed will have lowered interest rates. And so big money is willing to lock up their funds for a longer period of time right now, which puts a bid on Treasury prices, which pushes yields lower",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-57E0535716C3",
+            "item": "you can get tea bills for over 4% when you're looking at 4 weeks or 6 weeks, but go out to like a year and you're looking at like 3 and 12%.",
+            "status": "Unverifiable",
+            "verification_basis": "Numeric claims stated without source or date.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "you can get tea bills for over 4% when you're looking at 4 weeks or 6 weeks, but go out to like a year and you're looking at like 3 and 12%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-EBE1F06D609D",
+            "device": "10% vs 5% for 50 years analogy",
+            "explanation": "Illustrates why locking in a lower but stable long-term yield can be better than a higher short-term yield followed by much lower yields.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "let's say you could get 10% in the first year, but 1% every year after that for like 50 years. Or you could get 5% every single year, lock that in for 50 years. Clearly, it would be better to get 5% every year, lock that in for 50 years, than to get a higher rate in the beginning, and then a much lower rate for the rest of the term. That's what's going on here.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-338C351C6624F4",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "date": "2025-10-27",
+        "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+        "pair_id": "PAIR-CC52-T98",
+        "cc_id": "CC52",
+        "theme_id": "T98",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7B988A1BEEEB",
+        "local_theme_text": "Fiscal deficits and yield curve control",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The local theme focuses on fiscal deficits and yield curve control, which fits T98 'Government debt management and fiscal policy'.",
+        "local_argument_id": "LA-85CB9917C10F",
+        "conclusion": "The current high fiscal deficits and debt-to-GDP ratio will force the Federal Reserve to resume yield curve control to keep government borrowing costs low.",
+        "premises": [
+          "US debt is at 120% of GDP, same level as after WWII.",
+          "Interest costs exceed $1 trillion per year.",
+          "Government spending adds $2 trillion new money per year, causing inflation.",
+          "During WWII, the Fed used yield curve control from 1942 to 1951 to keep rates low."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-846E06AD8CB0",
+            "item": "interest costs alone above a trillion dollars per year.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the figure.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "interest costs alone above a trillion dollars per year.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1EEDC4FAC701",
+            "item": "the United States government's debt had reached 120% of the value of GDP. and we are there again.",
+            "status": "Unverifiable",
+            "verification_basis": "Historical claim about WWII and current debt level without source.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "At the peak from World War II, the United States government's debt had reached 120% of the value of GDP. and we are there again.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E096AC8FFBBBAC",
+        "speech_id": "SP-911ABCAF1DFC",
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "date": "2025-10-27",
+        "source_hash": "267e40fbb0205ea40d745f6765e86a5e44c96c49a255417808d97eb50b0291f9",
+        "pair_id": "PAIR-CC52-T98",
+        "cc_id": "CC52",
+        "theme_id": "T98",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7B988A1BEEEB",
+        "local_theme_text": "Fiscal deficits and yield curve control",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The local theme focuses on fiscal deficits and yield curve control, which fits T98 'Government debt management and fiscal policy'.",
+        "local_argument_id": "LA-86C872708EF3",
+        "conclusion": "Yield curve control may cause other interest rates (mortgages, auto loans) to rise because it expands money supply and inflation.",
+        "premises": [
+          "If the Fed buys treasuries to peg yields, it expands money supply, fueling inflation.",
+          "Lenders for mortgages and auto loans will demand higher rates to compensate for erosion of purchasing power.",
+          "The speaker predicts an inverse correlation: the more the Fed controls government yields, the more other rates may rise (unless they also intervene)."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-76A1291DB1AC",
+            "item": "if the Federal Reserve steps in with yield curve control and we see government treasury yields plummet as a result... it does not necessarily mean it will translate over to mortgages... the expansion of the money supply will only be that much faster... inflation will only be that much higher... we could actually see an inverse correlation.",
+            "status": "Unverifiable",
+            "verification_basis": "Interpretive prediction, not a factual claim.",
+            "speech_id": "SP-911ABCAF1DFC",
+            "source_speech_filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+            "source_excerpt": "if the Federal Reserve steps in with yield curve control and we see government treasury yields plummet as a result because the Fed just goes on a buying spree and they buy any and all treasuries necessary in order to make sure the government has the low interest rates that they need to support their spending. It does not necessarily mean it will translate over to mortgages, over to auto loans, credit cards, or other forms of debt. Because if the government is doing that, the expansion of the money supply will only be that much faster. which means inflation will only be that much higher. And so as long as there's some free market influence on mortgage rates or on auto loans, then we could act",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "32321913022e29abe8fe894a1229cae3ca1e8678caf95f61ae947220d1d7aefd",
+  "complete": true
+}

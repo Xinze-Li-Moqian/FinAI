@@ -1,0 +1,827 @@
+{
+  "dependencies": {
+    "source_hash": "bed1c6d02c32e23f24691584d8138de9de17d3a541a8ac62a4b7695a73ec0c4c",
+    "phase1_record_hash": "c8a3f4e2db3ad1a109edd2698780130851df24415c98c3895a76619d5a010df1",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-69174818D4C7",
+    "filename": "20250915_The History of Money - and What Comes Next.txt",
+    "stem": "20250915_The History of Money - and What Comes Next",
+    "date": "2025-09-15",
+    "source_hash": "bed1c6d02c32e23f24691584d8138de9de17d3a541a8ac62a4b7695a73ec0c4c",
+    "source_character_count": 34805,
+    "central_claim": "Money is the most salailable good, and its historical evolution from barter to gold to paper to digital fiat demonstrates that the current dollar system is eroding, making gold-backed digital money and Bitcoin likely successors.",
+    "themes": [
+      {
+        "local_theme_id": "LT-26F03432DD6E",
+        "theme": "Definition of money as the most salailable good",
+        "arguments": [
+          {
+            "local_argument_id": "LA-A181EAF69776",
+            "local_theme_id": "LT-26F03432DD6E",
+            "conclusion": "Money is best defined as the most salailable good.",
+            "premises": [
+              "People accept a medium as payment because they know others will accept it in the future.",
+              "Different items have historically served as money based on their salability."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-672AB04E93CF",
+                "item": "Definition of money as the most salailable good",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide an identifiable source or empirical support for this definition.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "I would argue the best definition for money is the most salailable good.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-83108DB30121",
+        "theme": "The evolution from barter to commodity money (salt, seashells, gold)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C3C63B303227",
+            "local_theme_id": "LT-83108DB30121",
+            "conclusion": "The coincidence of wants in barter leads to the emergence of a commodity money, eventually settling on gold due to its ideal properties.",
+            "premises": [
+              "Barter becomes impractical with more than a few people due to the coincidence of wants problem.",
+              "Salt emerged as an early money because it is divisible, durable, and needed, but it dissolves when wet.",
+              "Seashells solved the durability problem but are too easy to obtain.",
+              "Gold has ideal properties: durable, scarce, divisible, easily identifiable, and indestructible."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8D13D4DDCBD9",
+                "item": "Hypothetical scenario of four settlers illustrating barter and coincidence of wants",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript presents a hypothetical scenario without citing any anthropological or historical sources.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "Imagine you and I have traveled to a new land... It reveals a problem called the coincidence of wants.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-D35EF5B5BB9C",
+                "device": "The four settlers scenario",
+                "explanation": "An analogy used to illustrate how barter leads to the coincidence of wants problem and how a commodity like salt naturally emerges as a medium of exchange.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "Imagine you and I have traveled to a new land... It reveals a problem called the coincidence of wants.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-159F807FF3FD",
+        "theme": "The invention of paper money and fractional reserve banking",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BB44696F908A",
+            "local_theme_id": "LT-159F807FF3FD",
+            "conclusion": "The invention of paper receipts for gold enabled easier transactions and infinite divisibility, but fractional reserve banking is fraudulent and leads to boom-bust cycles.",
+            "premises": [
+              "People deposited gold with goldsmiths and received paper receipts redeemable for gold.",
+              "These receipts began circulating as money themselves.",
+              "Goldsmiths issued more receipts than gold on hand, which is contractual fraud.",
+              "This led to bank runs and economic busts."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-60EECC304B8F",
+                "item": "Historical narrative of goldsmiths and fractional reserve banking",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides a narrative without citations to specific historical sources.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "These early bankers got an idea... they were committing fraud because they were telling people, 'You can come get your gold at any time when they actually couldn't.'",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2C1D58A91D14",
+        "theme": "Government intervention and the creation of fiat money (FDR, Bretton Woods, Nixon)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0828B99E6073",
+            "local_theme_id": "LT-2C1D58A91D14",
+            "conclusion": "Government actions, including FDR's gold confiscation, the Bretton Woods system, and Nixon closing the gold window, transformed the dollar from a gold-redeemable claim into pure fiat money.",
+            "premises": [
+              "FDR confiscated gold and banned private ownership in 1934.",
+              "Bretton Woods pegged other currencies to the dollar, with the dollar redeemable for gold by foreign governments.",
+              "The Federal Reserve printed more dollars than gold reserves.",
+              "In 1971, Nixon closed the gold window, making the dollar pure fiat."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C4D87D31AB77",
+                "item": "Historical events: 1934 gold confiscation, Bretton Woods, 1971 Nixon closing gold window",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript mentions these events but does not provide any primary or secondary sources for verification.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "FDR issued an executive order to ban the personal ownership of gold... and then raised the price of gold.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8A07CD794EE4",
+        "theme": "The future of money: gold-backed digital, Bitcoin, and Gresham's law",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F545D11F113C",
+            "local_theme_id": "LT-8A07CD794EE4",
+            "conclusion": "Due to the erosion of the dollar's store of value, gold-backed digital money and Bitcoin are likely candidates to become the next dominant form of money.",
+            "premises": [
+              "Gold has historically been a good store of value and could be transferred digitally.",
+              "Bitcoin offers a public, transparent, decentralized ledger with pseudonymity.",
+              "People are currently hoarding gold and Bitcoin as stores of value, indicating a shift.",
+              "Gresham's law suggests that as the dollar erodes, people will hoard alternative stores of value."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0F4856A2388F",
+                "item": "Observation that people are hoarding gold and Bitcoin; mention that central bank gold holdings have surpassed US treasuries",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide specific data or sources for these trends.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "Central bank holdings of gold has now surpassed US treasuries for the first time in 50 years.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-722B6E2D501C",
+                "device": "Gresham's law",
+                "explanation": "Explains why bad money drives out good money, applied to the current dollar system.",
+                "speech_id": "SP-69174818D4C7",
+                "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+                "source_excerpt": "This is called Gresham's law. In other words, bad money drives out good money.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-05389A0A03A6",
+        "speech_id": "SP-69174818D4C7",
+        "speech_ref": "20250915_The History of Money - and What Comes Next.txt",
+        "claim": "Money is the most salailable good.",
+        "reason": "The transcript asserts this as a definition without empirical evidence or citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a conceptual definition, not subject to external verification from the transcript.",
+        "source_excerpt": "I would argue the best definition for money is the most salailable good.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3FA1B8008362",
+        "speech_id": "SP-69174818D4C7",
+        "speech_ref": "20250915_The History of Money - and What Comes Next.txt",
+        "claim": "Barter was historically used and leads to the coincidence of wants problem.",
+        "reason": "The transcript uses a hypothetical scenario without citing anthropological evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not claim to cite anthropological records; it acknowledges lack of records for complex barter systems.",
+        "source_excerpt": "It is true that we do not have any anthropological records of barter being used as a complex system of money.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-3AF10261985D",
+        "speech_id": "SP-69174818D4C7",
+        "speech_ref": "20250915_The History of Money - and What Comes Next.txt",
+        "claim": "Gold is indestructible, scarce, divisible, and easily identifiable.",
+        "reason": "These properties are stated as facts without any supporting evidence or citations.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript provides no references to verify these physical claims.",
+        "source_excerpt": "The physical characteristics of gold made it fit pretty much perfectly... It's actually indestructible.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-33D931D429B8",
+        "speech_id": "SP-69174818D4C7",
+        "speech_ref": "20250915_The History of Money - and What Comes Next.txt",
+        "claim": "FDR issued an executive order to ban personal ownership of gold in 1934 and confiscated it.",
+        "reason": "The transcript mentions this historical event but provides no citation or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The narrative is presented without external verification.",
+        "source_excerpt": "FDR issued an executive order to ban the personal ownership of gold in the United States. He confiscated it all.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-15B6D641A1A0",
+        "speech_id": "SP-69174818D4C7",
+        "speech_ref": "20250915_The History of Money - and What Comes Next.txt",
+        "claim": "Central bank holdings of gold have surpassed US treasuries for the first time in 50 years.",
+        "reason": "This specific claim is made without any data or source attribution.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide the origin of this statistic.",
+        "source_excerpt": "Central bank holdings of gold has now surpassed US treasuries for the first time in 50 years.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Money is the most salailable good, and its historical evolution from barter to gold to paper to digital fiat demonstrates that the current dollar system is eroding, making gold-backed digital money and Bitcoin likely successors.",
+      "themes": [
+        "Definition of money as the most salailable good",
+        "The evolution from barter to commodity money (salt, seashells, gold)",
+        "The invention of paper money and fractional reserve banking",
+        "Government intervention and the creation of fiat money (FDR, Bretton Woods, Nixon)",
+        "The future of money: gold-backed digital, Bitcoin, and Gresham's law"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 5
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "2addbe199734ca50ad435450447447a4210bccc00b8e4c320739e0a63ecdb595",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "c8a3f4e2db3ad1a109edd2698780130851df24415c98c3895a76619d5a010df1",
+    "canonical_mapping": {
+      "speech_id": "SP-69174818D4C7",
+      "filename": "20250915_The History of Money - and What Comes Next.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC43",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+      "primary_cc_rationale": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T78",
+        "T84",
+        "T97"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T78",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-8A07CD794EE4",
+          "rationale": "The discussion of gold-backed digital money and Bitcoin as successors to the eroded dollar system directly represents alternative money within the critique of the fiat system."
+        },
+        {
+          "theme_id": "T84",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-83108DB30121",
+          "rationale": "The evolution from barter to commodity money is a core part of the historical development of monetary systems, directly matching T84."
+        },
+        {
+          "theme_id": "T97",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-2C1D58A91D14",
+          "rationale": "Government interventions (FDR, Bretton Woods, Nixon) represent key steps in the movement away from the gold standard, aligning with T97 on gold standard and monetary system evolution."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC43-T78",
+          "cc_id": "CC43",
+          "theme_id": "T78",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC43-T84",
+          "cc_id": "CC43",
+          "theme_id": "T84",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC43-T97",
+          "cc_id": "CC43",
+          "theme_id": "T97",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "local_cc_text": "Money is the most salailable good, and its historical evolution from barter to gold to paper to digital fiat demonstrates that the current dollar system is eroding, making gold-backed digital money and Bitcoin likely successors.",
+        "canonical_cc_id": "CC43",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+        "rationale": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+        "candidate_matches": [
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.574234127998352
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.49963611364364624
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.4281874895095825
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.2591460347175598
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.24840712547302246
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "local_theme_id": "LT-26F03432DD6E",
+        "local_theme_text": "Definition of money as the most salailable good",
+        "canonical_theme_id": "T132",
+        "confidence": 0.7,
+        "rationale": "Defining money as the most salailable good aligns with the subjective and ordinal nature of value, as marketability depends on subjective preferences.",
+        "candidate_matches": [
+          {
+            "id": "T132",
+            "text": "Subjective and ordinal nature of value",
+            "similarity": 0.47541165351867676
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.36558613181114197
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.3406027555465698
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.33837151527404785
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.2865869104862213
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.27724695205688477
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "local_theme_id": "LT-83108DB30121",
+        "local_theme_text": "The evolution from barter to commodity money (salt, seashells, gold)",
+        "canonical_theme_id": "T84",
+        "confidence": 0.9,
+        "rationale": "The evolution from barter to commodity money is a core part of the historical development of monetary systems, directly matching T84.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.4802597165107727
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.47500941157341003
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.39740368723869324
+          },
+          {
+            "id": "T6",
+            "text": "Commodities as investment opportunities",
+            "similarity": 0.36979132890701294
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.35144299268722534
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.3459048271179199
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "local_theme_id": "LT-159F807FF3FD",
+        "local_theme_text": "The invention of paper money and fractional reserve banking",
+        "canonical_theme_id": "T78",
+        "confidence": 0.8,
+        "rationale": "The invention of paper money and fractional reserve banking is critiqued as fraudulent and part of the fiat system, fitting the critique of the fiat monetary system in T78.",
+        "candidate_matches": [
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.5351941585540771
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.49566733837127686
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.4917919635772705
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.47554102540016174
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.4472222924232483
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.4028967320919037
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "local_theme_id": "LT-2C1D58A91D14",
+        "local_theme_text": "Government intervention and the creation of fiat money (FDR, Bretton Woods, Nixon)",
+        "canonical_theme_id": "T97",
+        "confidence": 0.85,
+        "rationale": "Government interventions (FDR, Bretton Woods, Nixon) represent key steps in the movement away from the gold standard, aligning with T97 on gold standard and monetary system evolution.",
+        "candidate_matches": [
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5857101082801819
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.5328669548034668
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5077340602874756
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.4275461733341217
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.4253286123275757
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.41209304332733154
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "local_theme_id": "LT-8A07CD794EE4",
+        "local_theme_text": "The future of money: gold-backed digital, Bitcoin, and Gresham's law",
+        "canonical_theme_id": "T78",
+        "confidence": 0.9,
+        "rationale": "The discussion of gold-backed digital money and Bitcoin as successors to the eroded dollar system directly represents alternative money within the critique of the fiat system.",
+        "candidate_matches": [
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.4744361340999603
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4475821852684021
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.4023372530937195
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.39356181025505066
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.335152268409729
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.2967546582221985
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-6188322D4E3CC9",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "date": "2025-09-15",
+        "source_hash": "bed1c6d02c32e23f24691584d8138de9de17d3a541a8ac62a4b7695a73ec0c4c",
+        "pair_id": "PAIR-CC43-T84",
+        "cc_id": "CC43",
+        "theme_id": "T84",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-83108DB30121",
+        "local_theme_text": "The evolution from barter to commodity money (salt, seashells, gold)",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The evolution from barter to commodity money is a core part of the historical development of monetary systems, directly matching T84.",
+        "local_argument_id": "LA-C3C63B303227",
+        "conclusion": "The coincidence of wants in barter leads to the emergence of a commodity money, eventually settling on gold due to its ideal properties.",
+        "premises": [
+          "Barter becomes impractical with more than a few people due to the coincidence of wants problem.",
+          "Salt emerged as an early money because it is divisible, durable, and needed, but it dissolves when wet.",
+          "Seashells solved the durability problem but are too easy to obtain.",
+          "Gold has ideal properties: durable, scarce, divisible, easily identifiable, and indestructible."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-8D13D4DDCBD9",
+            "item": "Hypothetical scenario of four settlers illustrating barter and coincidence of wants",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents a hypothetical scenario without citing any anthropological or historical sources.",
+            "speech_id": "SP-69174818D4C7",
+            "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+            "source_excerpt": "Imagine you and I have traveled to a new land... It reveals a problem called the coincidence of wants.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-D35EF5B5BB9C",
+            "device": "The four settlers scenario",
+            "explanation": "An analogy used to illustrate how barter leads to the coincidence of wants problem and how a commodity like salt naturally emerges as a medium of exchange.",
+            "speech_id": "SP-69174818D4C7",
+            "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+            "source_excerpt": "Imagine you and I have traveled to a new land... It reveals a problem called the coincidence of wants.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-831ACCEFACFBD3",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "date": "2025-09-15",
+        "source_hash": "bed1c6d02c32e23f24691584d8138de9de17d3a541a8ac62a4b7695a73ec0c4c",
+        "pair_id": "PAIR-CC43-T78",
+        "cc_id": "CC43",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-159F807FF3FD",
+        "local_theme_text": "The invention of paper money and fractional reserve banking",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The invention of paper money and fractional reserve banking is critiqued as fraudulent and part of the fiat system, fitting the critique of the fiat monetary system in T78.",
+        "local_argument_id": "LA-BB44696F908A",
+        "conclusion": "The invention of paper receipts for gold enabled easier transactions and infinite divisibility, but fractional reserve banking is fraudulent and leads to boom-bust cycles.",
+        "premises": [
+          "People deposited gold with goldsmiths and received paper receipts redeemable for gold.",
+          "These receipts began circulating as money themselves.",
+          "Goldsmiths issued more receipts than gold on hand, which is contractual fraud.",
+          "This led to bank runs and economic busts."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-60EECC304B8F",
+            "item": "Historical narrative of goldsmiths and fractional reserve banking",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides a narrative without citations to specific historical sources.",
+            "speech_id": "SP-69174818D4C7",
+            "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+            "source_excerpt": "These early bankers got an idea... they were committing fraud because they were telling people, 'You can come get your gold at any time when they actually couldn't.'",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-7F2DF9FA1652C3",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "date": "2025-09-15",
+        "source_hash": "bed1c6d02c32e23f24691584d8138de9de17d3a541a8ac62a4b7695a73ec0c4c",
+        "pair_id": "PAIR-CC43-T97",
+        "cc_id": "CC43",
+        "theme_id": "T97",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2C1D58A91D14",
+        "local_theme_text": "Government intervention and the creation of fiat money (FDR, Bretton Woods, Nixon)",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Government interventions (FDR, Bretton Woods, Nixon) represent key steps in the movement away from the gold standard, aligning with T97 on gold standard and monetary system evolution.",
+        "local_argument_id": "LA-0828B99E6073",
+        "conclusion": "Government actions, including FDR's gold confiscation, the Bretton Woods system, and Nixon closing the gold window, transformed the dollar from a gold-redeemable claim into pure fiat money.",
+        "premises": [
+          "FDR confiscated gold and banned private ownership in 1934.",
+          "Bretton Woods pegged other currencies to the dollar, with the dollar redeemable for gold by foreign governments.",
+          "The Federal Reserve printed more dollars than gold reserves.",
+          "In 1971, Nixon closed the gold window, making the dollar pure fiat."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C4D87D31AB77",
+            "item": "Historical events: 1934 gold confiscation, Bretton Woods, 1971 Nixon closing gold window",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript mentions these events but does not provide any primary or secondary sources for verification.",
+            "speech_id": "SP-69174818D4C7",
+            "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+            "source_excerpt": "FDR issued an executive order to ban the personal ownership of gold... and then raised the price of gold.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2F9D01013C24B5",
+        "speech_id": "SP-69174818D4C7",
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "date": "2025-09-15",
+        "source_hash": "bed1c6d02c32e23f24691584d8138de9de17d3a541a8ac62a4b7695a73ec0c4c",
+        "pair_id": "PAIR-CC43-T78",
+        "cc_id": "CC43",
+        "theme_id": "T78",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech provides a historical narrative from barter to fiat, demonstrating how the dollar system eroded through government interventions, and concludes that gold-backed digital money and Bitcoin are likely successors, directly supporting the CC43 claim that the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8A07CD794EE4",
+        "local_theme_text": "The future of money: gold-backed digital, Bitcoin, and Gresham's law",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The discussion of gold-backed digital money and Bitcoin as successors to the eroded dollar system directly represents alternative money within the critique of the fiat system.",
+        "local_argument_id": "LA-F545D11F113C",
+        "conclusion": "Due to the erosion of the dollar's store of value, gold-backed digital money and Bitcoin are likely candidates to become the next dominant form of money.",
+        "premises": [
+          "Gold has historically been a good store of value and could be transferred digitally.",
+          "Bitcoin offers a public, transparent, decentralized ledger with pseudonymity.",
+          "People are currently hoarding gold and Bitcoin as stores of value, indicating a shift.",
+          "Gresham's law suggests that as the dollar erodes, people will hoard alternative stores of value."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0F4856A2388F",
+            "item": "Observation that people are hoarding gold and Bitcoin; mention that central bank gold holdings have surpassed US treasuries",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide specific data or sources for these trends.",
+            "speech_id": "SP-69174818D4C7",
+            "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+            "source_excerpt": "Central bank holdings of gold has now surpassed US treasuries for the first time in 50 years.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-722B6E2D501C",
+            "device": "Gresham's law",
+            "explanation": "Explains why bad money drives out good money, applied to the current dollar system.",
+            "speech_id": "SP-69174818D4C7",
+            "source_speech_filename": "20250915_The History of Money - and What Comes Next.txt",
+            "source_excerpt": "This is called Gresham's law. In other words, bad money drives out good money.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-26F03432DD6E",
+        "local_argument_id": "LA-A181EAF69776",
+        "conclusion": "Money is best defined as the most salailable good.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "2addbe199734ca50ad435450447447a4210bccc00b8e4c320739e0a63ecdb595",
+  "complete": true
+}

@@ -1,0 +1,290 @@
+{
+  "dependency_hash": "48f7e9e30feeeaf1244fd4ccab2b7b2e3f89b252edb8267397912cfed7c23ba9",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC39-T72",
+    "cc_id": "CC39",
+    "theme_id": "T72",
+    "authoritative_anchor": "cc-cc39-theme-t72",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC39-T72-8C381BC1F7",
+        "pair_id": "PAIR-CC39-T72",
+        "conclusion": "The proposal will reduce capital requirements for GSIBs and increase their lending capacity.",
+        "source_contribution_ids": [
+          "CONTRIB-78CD919190256D"
+        ],
+        "source_speech_filenames": [
+          "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+        ],
+        "premise_synthesis": "Eliminates dual calculation methods for risk-based capital requirements, using only one set. Changes the calculation period from end-of-period to year-average, reducing window dressing. The summary states it improves the capital framework by enhancing risk sensitivity, reducing burden, and improving consistency.",
+        "conclusion_supported": "The deregulation proposal for GSIBs reduces capital requirements and increases lending capacity, supporting the claim that SLR removal and broader deregulation stimulate growth.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-78CD919190256D"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Fed press release on March 19th detailing plan with hundreds of pages of notes.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly cites the Fed's press release and summary.",
+            "source_contribution_ids": [
+              "CONTRIB-78CD919190256D"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "The Federal Reserve just unveiled part one of their plan to deregulate the banks. They published a press release on March 19th detailing their plan along with hundreds of pages of detailed notes on this proposal."
+          },
+          {
+            "item": "Summary statement that the first proposal would improve capital framework by enhancing risk sensitivity, reducing burden, and improving consistency.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes the statement to the summary.",
+            "source_contribution_ids": [
+              "CONTRIB-78CD919190256D"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "The summary states that the first proposal for deregulation would improve the capital framework by enhancing risk sensitivity, reducing burden, and improving consistency across banks."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Window dressing",
+            "explanation": "Describes banks making balance sheets look pristine at end of quarter by using repo facilities.",
+            "source_contribution_ids": [
+              "CONTRIB-78CD919190256D"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented on 2026-03-23. No earlier speeches in this bucket discuss this specific proposal, so no longitudinal comparison is possible.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC39-T72-04BD31F991",
+        "pair_id": "PAIR-CC39-T72",
+        "conclusion": "The proposal will reduce disincentives for mortgage lending and increase transparency by requiring reporting of unrealized gains/losses on securities.",
+        "source_contribution_ids": [
+          "CONTRIB-883B7364EC36D6"
+        ],
+        "source_speech_filenames": [
+          "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+        ],
+        "premise_synthesis": "Modifies capital requirements for mortgage servicing and originating mortgages. Requires certain banks to reflect unrealized gains and losses on certain securities in their capital levels. Applies to all banks except GSIBs, including those using the community bank leverage ratio framework.",
+        "conclusion_supported": "The proposal reduces disincentives for mortgage lending and increases transparency through unrealized gains/losses reporting, which supports the CC by showing deregulation encourages private credit expansion.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-883B7364EC36D6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Proposal reduces disincentives for mortgage lending by modifying capital requirements for servicing and originating mortgages.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes this to the proposal summary.",
+            "source_contribution_ids": [
+              "CONTRIB-883B7364EC36D6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "Consistent with the first proposal, it will reduce disincentives for mortgage lending by modifying capital requirements for servicing and originating mortgages."
+          },
+          {
+            "item": "Requirement to reflect unrealized gains and losses on certain securities.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states this as part of the proposal.",
+            "source_contribution_ids": [
+              "CONTRIB-883B7364EC36D6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "It would also require certain banks to reflect unrealized gains and losses on certain securities in their capital levels."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is presented on 2026-03-23. No earlier speeches in this bucket discuss this specific proposal, so no longitudinal comparison is possible.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC39-T72-A85335C57A",
+        "pair_id": "PAIR-CC39-T72",
+        "conclusion": "The proposed deregulation will have a slight negative effect on long-term Treasuries and is separate from the SLR, which if removed could unleash a credit boom.",
+        "source_contribution_ids": [
+          "CONTRIB-96AEC250E4BAF6"
+        ],
+        "source_speech_filenames": [
+          "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+        ],
+        "premise_synthesis": "The proposal requires reflecting unrealized gains/losses on securities, which may restrict banks' ability to purchase Treasuries. This could lower short-term yields but raise long-term yields. The SLR is a separate restriction, and its removal paired with these changes could create a sizable credit boom.",
+        "conclusion_supported": "The proposed deregulation (excluding SLR) has a slight negative effect on long-term Treasuries, but removal of SLR could unleash a credit boom, reinforcing the importance of SLR removal for stimulating growth.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-96AEC250E4BAF6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that bank deregulation, particularly the removal of the supplementary leverage ratio, will increase lending over the long term and have positive economic effects, directly supporting the canonical claim that SLR removal is key to stimulating growth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Statement that these changes are separate from the supplementary leverage ratio.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly distinguishes them.",
+            "source_contribution_ids": [
+              "CONTRIB-96AEC250E4BAF6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "this is separate from the supplementary leverage ratio that I've been discussing for months now."
+          },
+          {
+            "item": "Claim that the changes will have no effect on the Treasury market.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide source or data to support this specific assertion.",
+            "source_contribution_ids": [
+              "CONTRIB-96AEC250E4BAF6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "Every single one of these changes here that we've talked about today will have no effect on the Treasury market."
+          },
+          {
+            "item": "Mechanism linking unrealized loss reporting to Treasury purchases.",
+            "status": "Verified",
+            "verification_basis": "Transcript explains the logical mechanism based on the proposal's rule.",
+            "source_contribution_ids": [
+              "CONTRIB-96AEC250E4BAF6"
+            ],
+            "source_speech_filenames": [
+              "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+            ],
+            "source_excerpt": "Reflecting and reporting unrealized losses in Treasuries may have the effect of restricting banks' abilities to purchase Treasuries, in other words, loan money to the government."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is presented on 2026-03-23 and references the earlier discussion of SLR from 2026-02-18, showing continuity in the speaker's reasoning but proposing additional context.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC39-T72-1CA8DEB5DC",
+        "pair_id": "PAIR-CC39-T72",
+        "conclusion": "The SLR and LCR are contradictory regulations that constrain bank lending.",
+        "source_contribution_ids": [
+          "CONTRIB-58F7A60F8AAF83"
+        ],
+        "source_speech_filenames": [
+          "20260218_Get Ready for Bank Deregulation.txt"
+        ],
+        "premise_synthesis": "SLR is a hard cap on total assets relative to capital, regardless of risk. LCR requires banks to hold a certain amount of high-quality liquid assets, primarily treasuries. These two rules together force banks to hold treasuries but then limit their ability to hold anything else.",
+        "conclusion_supported": "The contradiction between SLR and LCR constrains bank lending, establishing a regulatory barrier that removal of the SLR could alleviate.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-58F7A60F8AAF83"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that removing the supplementary leverage ratio will allow banks to buy unlimited treasuries and lend more, lowering Treasury yields and government borrowing costs, which is the core proposition of CC39 that bank deregulation (SLR removal) is the most effective solution to stimulate growth and prevent crisis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "SLR established in 2014, measures tier 1 capital relative to total leverage.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states the year but does not cite a specific source.",
+            "source_contribution_ids": [
+              "CONTRIB-58F7A60F8AAF83"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "source_excerpt": "This was established in 2014"
+          },
+          {
+            "item": "Banks subject to Fed standards have SLR of 3%; global systemically important banks have 5%.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "source_contribution_ids": [
+              "CONTRIB-58F7A60F8AAF83"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "source_excerpt": "Banks that are subject to the Federal Reserve's credential standards have an SLR of 3%. However, globally systemically important banks have an enhanced SLR which requires them to maintain at least 5%."
+          },
+          {
+            "item": "LCR ensures banks hold sufficient HQLA to survive 30-day liquidity stress.",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited.",
+            "source_contribution_ids": [
+              "CONTRIB-58F7A60F8AAF83"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "source_excerpt": "The liquidity coverage ratio or the LCR is designed to ensure that banks hold a sufficient reserve of high quality liquid assets, HQLA, to allow them to survive a period of significant liquidity stress lasting 30 calendar days."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is articulated on 2026-02-18. No subsequent speeches in this bucket address this specific contradiction, so inference of evolution beyond this date is not possible.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-58F7A60F8AAF83",
+      "CONTRIB-78CD919190256D",
+      "CONTRIB-883B7364EC36D6",
+      "CONTRIB-96AEC250E4BAF6"
+    ],
+    "source_speech_filenames": [
+      "20260218_Get Ready for Bank Deregulation.txt",
+      "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt"
+    ],
+    "generated_at": "2026-07-15T03:22:34+00:00",
+    "record_hash": "f0795a5f512c1ae840f70c515202b8161a3afc7535ac486bdd74c6b8a547ec6f"
+  },
+  "complete": true
+}

@@ -1,0 +1,740 @@
+{
+  "dependencies": {
+    "source_hash": "c35ade5fa19716af5fd5a9b59f4b305a3fdd9cefb396dbf9c0961e7803f8366e",
+    "phase1_record_hash": "ee5877e50e59b33320785b16276c446a3f5dbaf7cde31a50b7ad7ffa07a9bbfe",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-938D787160B6",
+    "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+    "stem": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month",
+    "date": "2025-09-01",
+    "source_hash": "c35ade5fa19716af5fd5a9b59f4b305a3fdd9cefb396dbf9c0961e7803f8366e",
+    "source_character_count": 12858,
+    "central_claim": "The US government's borrowing at a rate of $1.1 trillion in two months, with additional borrowing to build up its Treasury General Account, will fuel money supply growth, inflation, and prevent long-term interest rates from falling as expected, mirroring the inflationary deleveraging of 1940-1980.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A9E3069BF0D7",
+        "theme": "Scale and trajectory of US government borrowing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4896717B4040",
+            "local_theme_id": "LT-A9E3069BF0D7",
+            "conclusion": "The US government is borrowing at an accelerating and historically unprecedented rate, with an annualized deficit of $6 trillion from the current run rate.",
+            "premises": [
+              "In the last two months, the national debt increased by $1.1 trillion ($700 billion in July and $400 billion in August).",
+              "The 2024 deficit was $2 trillion and the 2020 deficit record was $3.3 trillion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C0A8E02D4938",
+                "item": "Debt data from fiscalata.treasury.gov showing end-of-June debt $36.2T, end-of-July $36.9T, end-of-August $37.3T.",
+                "status": "Verified",
+                "verification_basis": "the transcript explicitly names the source fiscalata.treasury.gov and quotes specific figures",
+                "speech_id": "SP-938D787160B6",
+                "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+                "source_excerpt": "This table comes straight from the Treasury itself. website is fiscalata.treasury.gov and you can see that at the end of June the total national debt was $ 36.2 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-5840B463275F",
+        "theme": "Purpose and implications of Treasury General Account buildup",
+        "arguments": [
+          {
+            "local_argument_id": "LA-53F67ACCCEC5",
+            "local_theme_id": "LT-5840B463275F",
+            "conclusion": "The government is borrowing additional money solely to increase its cash buffer in the Treasury General Account, not for immediate spending.",
+            "premises": [
+              "TGA increased from $296 billion in mid-July to $589 billion at end of August.",
+              "Treasury plans to raise TGA to $850 billion by end of September, requiring another $260 billion in borrowing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5808ED7A8F8C",
+                "item": "TGA data ($296B to $589B) and Treasury announcement of $850B target.",
+                "status": "Unverifiable",
+                "verification_basis": "the transcript does not name a specific source for TGA data or the Treasury statement, relying on implied charts or announcements",
+                "speech_id": "SP-938D787160B6",
+                "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+                "source_excerpt": "You can see that in mid July, the Treasury General account was sitting at around $296 billion. By the end of August, this account was up to $589 billion... And the Treasury announced in their most recent statement their plans through the end of the year is to get this balance up to 850 billion.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-AC7AC0C4F3B0",
+                "device": "Personal finance analogy of taking a cash advance on a credit card to pad a checking account",
+                "explanation": "to illustrate that borrowing to increase the cash buffer is wasteful and foolish",
+                "speech_id": "SP-938D787160B6",
+                "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+                "source_excerpt": "imagine you're sitting there with an annual income of $100,000, but every year you spend $200,000... You just take a cash advance on your credit card... Sound ridiculous? Well, that is literally exactly what the US government is doing right now.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-5042ABB86A52",
+        "theme": "Money supply growth and inflation dynamics",
+        "arguments": [
+          {
+            "local_argument_id": "LA-ED8EF35B54B4",
+            "local_theme_id": "LT-5042ABB86A52",
+            "conclusion": "The resumption of money supply growth, now nearly 5% year-over-year and accelerating with expected Fed rate cuts, will lead to higher inflation.",
+            "premises": [
+              "The money supply growth rate has climbed from -4.7% in April 2023 to just under 5% year-over-year now.",
+              "The total money supply is at a new record of over $22 trillion.",
+              "When interest rates are cut, debt rolls over more cheaply, allowing money supply to grow."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CB12CFC6A8F0",
+                "item": "Money supply growth rate numbers: Dec 2018: 3.66%, Feb 2021: 26%, Apr 2023: -4.7% (transcribed as 'over 4 1.5%'), now just under 5%.",
+                "status": "Unverifiable",
+                "verification_basis": "transcript does not cite a specific source for money supply data, only refers to charts",
+                "speech_id": "SP-938D787160B6",
+                "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+                "source_excerpt": "In December of 2018, the US money supply had grown by 3.66%... in February of 2021 the US money supply had grown 26%... in April of 2023, the money supply had actually shrunk by over 4 1.5%... the growth rate has consistently climbed to the point where it is now just under 5% growth year-over-year.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8660C478DBEB",
+        "theme": "Impact of Fed policy on long-term interest rates and historical precedent",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B2B7097D7EE8",
+            "local_theme_id": "LT-8660C478DBEB",
+            "conclusion": "Fed rate cuts will not lower long-term interest rates; instead, long-term rates will rise due to inflation expectations, similar to the 1940-1980 period.",
+            "premises": [
+              "Money supply growth leads to inflation, which makes lenders demand higher yields on long-term debt.",
+              "Short-term rates are controlled by the Fed, but long-term rates are market-driven.",
+              "In 1940-1980, despite government deleveraging through inflation, the 10-year Treasury yield rose from 2% to 15%."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BFC2F4D4F39B",
+                "item": "Historical 10-year yield chart from 1940-1980 showing rise from 2% to 15%.",
+                "status": "Unverifiable",
+                "verification_basis": "transcript does not name a source for historical yield data, refers to a chart",
+                "speech_id": "SP-938D787160B6",
+                "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+                "source_excerpt": "And if you look at this, higher interest rates. This is the 10-year Treasury... And you can see from the 40s through 1980... the 10-year yield went from around 2% all the way up to around 15%.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3AB1C2634E96",
+                "device": "Historical analogy to 1940-1980 period of high debt-to-GDP and inflationary deleveraging",
+                "explanation": "to argue that current conditions will lead to a similar outcome of rising long-term interest rates despite government efforts to lower them",
+                "speech_id": "SP-938D787160B6",
+                "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+                "source_excerpt": "The reason I say this is because the United States government is in the same position they were in from 1940 through 1980. Debt to GDP ratio was over 120%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-A9A1F6A9E021",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "The Treasury General account was sitting at around $296 billion in mid-July and $589 billion by end of August.",
+        "reason": "the transcript does not name a source for the TGA data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "You can see that in mid July, the Treasury General account was sitting at around $296 billion. By the end of August, this account was up to $589 billion.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-4CB354EE8EEE",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "The Treasury announced plans to get the Treasury General Account balance up to $850 billion by the end of September.",
+        "reason": "the transcript does not cite which Treasury statement or provide a direct quote",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "And the Treasury announced in their most recent statement their plans through the end of the year is to get this balance up to 850 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-013739E8B964",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "In December 2018, the US money supply had grown by 3.66% year-over-year.",
+        "reason": "no source is given for the money supply growth rate data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "In December of 2018, the US money supply had grown by 3.66%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7863BDC88709",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "In February 2021, the US money supply had grown 26% year-over-year.",
+        "reason": "no source is given for the money supply growth rate data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "in February of 2021 the US money supply had grown 26% year-over-year.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-FE14FA5AAB90",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "In April 2023, the money supply had actually shrunk by over 4 1.5% year-over-year.",
+        "reason": "no source is given for the money supply growth rate data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally; number is transcribed as 'over 4 1.5%'",
+        "source_excerpt": "in April of 2023, the money supply had actually shrunk by over 4 1.5% compared to one year earlier.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C81340FB5EDB",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "The total US money supply is at a new record of over $22 trillion.",
+        "reason": "no source is given for the money supply level data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "This has pushed the total US money supply up to a brand new record of over $22 trillion.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-CB982B39F740",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "The debt-to-GDP ratio was over 120% during 1940-1980.",
+        "reason": "no source is given for the historical debt-to-GDP data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "Debt to GDP ratio was over 120%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 11619,
+          "character_end": 11651,
+          "line_start": 308
+        }
+      },
+      {
+        "unverifiable_id": "UV-5355987DBD17",
+        "speech_id": "SP-938D787160B6",
+        "speech_ref": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "claim": "The 10-year Treasury yield went from around 2% in the 1940s to around 15% by 1980.",
+        "reason": "no source is given for the historical yield data",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "transcript only provides the claim internally",
+        "source_excerpt": "the 10-year yield went from around 2% all the way up to around 15%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The US government's borrowing at a rate of $1.1 trillion in two months, with additional borrowing to build up its Treasury General Account, will fuel money supply growth, inflation, and prevent long-term interest rates from falling as expected, mirroring the inflationary deleveraging of 1940-1980.",
+      "themes": [
+        "Scale and trajectory of US government borrowing",
+        "Purpose and implications of Treasury General Account buildup",
+        "Money supply growth and inflation dynamics",
+        "Impact of Fed policy on long-term interest rates and historical precedent"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "0e7417d51d1396450184d6fac3ae9ea4300cd98c6523edcf29555fdb878491b4",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "ee5877e50e59b33320785b16276c446a3f5dbaf7cde31a50b7ad7ffa07a9bbfe",
+    "canonical_mapping": {
+      "speech_id": "SP-938D787160B6",
+      "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+      "primary_cc_rationale": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T136",
+        "T106",
+        "T108"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T136",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-A9E3069BF0D7",
+          "rationale": "Focuses on the scale and trajectory of US government borrowing, directly matching the theme of US fiscal and monetary situation and debt dynamics."
+        },
+        {
+          "theme_id": "T106",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-5042ABB86A52",
+          "rationale": "Directly addresses money supply growth leading to inflation, which is the core of inflation and deflation dynamics."
+        },
+        {
+          "theme_id": "T108",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-8660C478DBEB",
+          "rationale": "Explains the impact of Fed policy on long-term interest rates and the role of inflation expectations, aligning with interest rate policy and market expectations."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T136",
+          "cc_id": "CC54",
+          "theme_id": "T136",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T106",
+          "cc_id": "CC54",
+          "theme_id": "T106",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T108",
+          "cc_id": "CC54",
+          "theme_id": "T108",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "local_cc_text": "The US government's borrowing at a rate of $1.1 trillion in two months, with additional borrowing to build up its Treasury General Account, will fuel money supply growth, inflation, and prevent long-term interest rates from falling as expected, mirroring the inflationary deleveraging of 1940-1980.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+        "rationale": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.7317789793014526
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.6049758195877075
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5402304530143738
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.33996278047561646
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.33831286430358887
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "local_theme_id": "LT-A9E3069BF0D7",
+        "local_theme_text": "Scale and trajectory of US government borrowing",
+        "canonical_theme_id": "T136",
+        "confidence": 0.85,
+        "rationale": "Focuses on the scale and trajectory of US government borrowing, directly matching the theme of US fiscal and monetary situation and debt dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.6516132354736328
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.558823823928833
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.528750479221344
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5263453722000122
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5140174627304077
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4976552426815033
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "local_theme_id": "LT-5840B463275F",
+        "local_theme_text": "Purpose and implications of Treasury General Account buildup",
+        "canonical_theme_id": "T87",
+        "confidence": 0.8,
+        "rationale": "Discusses the buildup of the Treasury General Account, a key component of the Federal Reserve's balance sheet policy and its implications.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.47658318281173706
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.3809894919395447
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.32594484090805054
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.30101335048675537
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.29136180877685547
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.2717675566673279
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "local_theme_id": "LT-5042ABB86A52",
+        "local_theme_text": "Money supply growth and inflation dynamics",
+        "canonical_theme_id": "T106",
+        "confidence": 0.9,
+        "rationale": "Directly addresses money supply growth leading to inflation, which is the core of inflation and deflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.6812394857406616
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.656451940536499
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.6419601440429688
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5928734540939331
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.531193733215332
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.5147926807403564
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "local_theme_id": "LT-8660C478DBEB",
+        "local_theme_text": "Impact of Fed policy on long-term interest rates and historical precedent",
+        "canonical_theme_id": "T108",
+        "confidence": 0.85,
+        "rationale": "Explains the impact of Fed policy on long-term interest rates and the role of inflation expectations, aligning with interest rate policy and market expectations.",
+        "candidate_matches": [
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.6026211977005005
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.5989677906036377
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5217382907867432
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.497547447681427
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.43598008155822754
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.42680624127388
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-D4283E16A3068A",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "date": "2025-09-01",
+        "source_hash": "c35ade5fa19716af5fd5a9b59f4b305a3fdd9cefb396dbf9c0961e7803f8366e",
+        "pair_id": "PAIR-CC54-T136",
+        "cc_id": "CC54",
+        "theme_id": "T136",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A9E3069BF0D7",
+        "local_theme_text": "Scale and trajectory of US government borrowing",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Focuses on the scale and trajectory of US government borrowing, directly matching the theme of US fiscal and monetary situation and debt dynamics.",
+        "local_argument_id": "LA-4896717B4040",
+        "conclusion": "The US government is borrowing at an accelerating and historically unprecedented rate, with an annualized deficit of $6 trillion from the current run rate.",
+        "premises": [
+          "In the last two months, the national debt increased by $1.1 trillion ($700 billion in July and $400 billion in August).",
+          "The 2024 deficit was $2 trillion and the 2020 deficit record was $3.3 trillion."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C0A8E02D4938",
+            "item": "Debt data from fiscalata.treasury.gov showing end-of-June debt $36.2T, end-of-July $36.9T, end-of-August $37.3T.",
+            "status": "Verified",
+            "verification_basis": "the transcript explicitly names the source fiscalata.treasury.gov and quotes specific figures",
+            "speech_id": "SP-938D787160B6",
+            "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+            "source_excerpt": "This table comes straight from the Treasury itself. website is fiscalata.treasury.gov and you can see that at the end of June the total national debt was $ 36.2 trillion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-DE8A643AEF2537",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "date": "2025-09-01",
+        "source_hash": "c35ade5fa19716af5fd5a9b59f4b305a3fdd9cefb396dbf9c0961e7803f8366e",
+        "pair_id": "PAIR-CC54-T106",
+        "cc_id": "CC54",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-5042ABB86A52",
+        "local_theme_text": "Money supply growth and inflation dynamics",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Directly addresses money supply growth leading to inflation, which is the core of inflation and deflation dynamics.",
+        "local_argument_id": "LA-ED8EF35B54B4",
+        "conclusion": "The resumption of money supply growth, now nearly 5% year-over-year and accelerating with expected Fed rate cuts, will lead to higher inflation.",
+        "premises": [
+          "The money supply growth rate has climbed from -4.7% in April 2023 to just under 5% year-over-year now.",
+          "The total money supply is at a new record of over $22 trillion.",
+          "When interest rates are cut, debt rolls over more cheaply, allowing money supply to grow."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-CB12CFC6A8F0",
+            "item": "Money supply growth rate numbers: Dec 2018: 3.66%, Feb 2021: 26%, Apr 2023: -4.7% (transcribed as 'over 4 1.5%'), now just under 5%.",
+            "status": "Unverifiable",
+            "verification_basis": "transcript does not cite a specific source for money supply data, only refers to charts",
+            "speech_id": "SP-938D787160B6",
+            "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+            "source_excerpt": "In December of 2018, the US money supply had grown by 3.66%... in February of 2021 the US money supply had grown 26%... in April of 2023, the money supply had actually shrunk by over 4 1.5%... the growth rate has consistently climbed to the point where it is now just under 5% growth year-over-year.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2C44EFD47143C8",
+        "speech_id": "SP-938D787160B6",
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "date": "2025-09-01",
+        "source_hash": "c35ade5fa19716af5fd5a9b59f4b305a3fdd9cefb396dbf9c0961e7803f8366e",
+        "pair_id": "PAIR-CC54-T108",
+        "cc_id": "CC54",
+        "theme_id": "T108",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech explains the causal mechanism by which accelerating government borrowing fuels money supply growth and inflation, and prevents long-term interest rates from falling due to inflation expectations, thereby providing a concrete illustration of the process described in CC54: deficit spending leading to inflation and dollar erosion.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8660C478DBEB",
+        "local_theme_text": "Impact of Fed policy on long-term interest rates and historical precedent",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Explains the impact of Fed policy on long-term interest rates and the role of inflation expectations, aligning with interest rate policy and market expectations.",
+        "local_argument_id": "LA-B2B7097D7EE8",
+        "conclusion": "Fed rate cuts will not lower long-term interest rates; instead, long-term rates will rise due to inflation expectations, similar to the 1940-1980 period.",
+        "premises": [
+          "Money supply growth leads to inflation, which makes lenders demand higher yields on long-term debt.",
+          "Short-term rates are controlled by the Fed, but long-term rates are market-driven.",
+          "In 1940-1980, despite government deleveraging through inflation, the 10-year Treasury yield rose from 2% to 15%."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-BFC2F4D4F39B",
+            "item": "Historical 10-year yield chart from 1940-1980 showing rise from 2% to 15%.",
+            "status": "Unverifiable",
+            "verification_basis": "transcript does not name a source for historical yield data, refers to a chart",
+            "speech_id": "SP-938D787160B6",
+            "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+            "source_excerpt": "And if you look at this, higher interest rates. This is the 10-year Treasury... And you can see from the 40s through 1980... the 10-year yield went from around 2% all the way up to around 15%.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-3AB1C2634E96",
+            "device": "Historical analogy to 1940-1980 period of high debt-to-GDP and inflationary deleveraging",
+            "explanation": "to argue that current conditions will lead to a similar outcome of rising long-term interest rates despite government efforts to lower them",
+            "speech_id": "SP-938D787160B6",
+            "source_speech_filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+            "source_excerpt": "The reason I say this is because the United States government is in the same position they were in from 1940 through 1980. Debt to GDP ratio was over 120%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-5840B463275F",
+        "local_argument_id": "LA-53F67ACCCEC5",
+        "conclusion": "The government is borrowing additional money solely to increase its cash buffer in the Treasury General Account, not for immediate spending.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "0e7417d51d1396450184d6fac3ae9ea4300cd98c6523edcf29555fdb878491b4",
+  "complete": true
+}

@@ -1,0 +1,830 @@
+{
+  "dependencies": {
+    "source_hash": "0df3dc7bb5ea4536b0f0eb0cf132a03d6da0bf0fc76420b15e4c1f00fb61d70f",
+    "phase1_record_hash": "1308f6798f93cf3b5bbeead9601285e928bb18e620f0c7e5d1697b0df6a05d3d",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-0798B5188978",
+    "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+    "stem": "20250816_Now the Fed is Talking about Gold Revaluation",
+    "date": "2025-08-16",
+    "source_hash": "0df3dc7bb5ea4536b0f0eb0cf132a03d6da0bf0fc76420b15e4c1f00fb61d70f",
+    "source_character_count": 16866,
+    "central_claim": "The Federal Reserve is discussing gold revaluation as a budget-neutral method to increase government spending without raising taxes or borrowing, which is effectively money printing and will be inflationary.",
+    "themes": [
+      {
+        "local_theme_id": "LT-6D4FD212A643",
+        "theme": "Federal Reserve's paper on gold revaluation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B7F8ECB19A44",
+            "local_theme_id": "LT-6D4FD212A643",
+            "conclusion": "The Federal Reserve is considering gold revaluation as a way to finance additional expenditures without raising taxes or increasing public debt.",
+            "premises": [
+              "The US faces a fiscal crisis with debt-to-GDP above 120% and a growing spending problem.",
+              "The Fed's paper explicitly states that some governments are exploring financing expenditures without taxes or debt.",
+              "The paper was published on the Federal Reserve's website on August 1, 2025."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-83DA51C20AA4",
+                "item": "The title of the Fed paper: 'The Official Reserve Revaluations: The International Experience'",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly names the paper and states it was published on the Federal Reserve's website.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "straight on the Federal Reserve's own website, they published this paper titled The Official Reserve Revaluations: The International Experience.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-22E9812DF0DF",
+                "item": "The first line of the paper: 'with public debt at high levels, some governments have begun to explore financing additional expenditures without raising taxes while also not increasing public debt outstanding.'",
+                "status": "Verified",
+                "verification_basis": "The transcript directly quotes the first line of the paper.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "with public debt at high levels, some governments have begun to explore financing additional expenditures without raising taxes while also not increasing public debt outstanding.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1FE95BB4A74A",
+        "theme": "Inflationary effects of gold revaluation as money printing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3BAD715410C9",
+            "local_theme_id": "LT-1FE95BB4A74A",
+            "conclusion": "Gold revaluation is an accounting gimmick that prints new money, which will cause inflation or upward pressure on prices.",
+            "premises": [
+              "The Federal Reserve holds gold certificates valued at $42/oz while market price is over $3,300/oz.",
+              "Revaluation requires the Fed to pay the Treasury the difference in newly printed cash.",
+              "The new money does not come from taxes or borrowing, so it increases the money supply."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-4C0469D2E003",
+                "item": "Explanation of the process: Fed exchanges old certificate for new one and pays the difference in cash.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript describes the mechanism but provides no external source or data to confirm that this is exactly how it works in practice.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "I have a piece of paper that says 42 on it. ... I give it to you. ... you say, 'Thank you. In exchange, I would like to give you ... a piece of paper that has the word 3,300 on it.' ... you say, 'You have to pay for that.' So now I have to give you $3,258 for the privilege of having this paper that says 3,300 on it.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-7E7DF061C16F",
+                "device": "Certificate exchange analogy",
+                "explanation": "The speaker uses a simplified analogy of exchanging a certificate worth $42 for one worth $3,300, with the Fed paying the difference, to illustrate the mechanics of gold revaluation.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "I have a piece of paper that says 42 on it. ... I give it to you. ... you say, 'Thank you. In exchange, I would like to give you ... a piece of paper that has the word 3,300 on it.' ... you say, 'You have to pay for that.' So now I have to give you $3,258 for the privilege of having this paper that says 3,300 on it.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-A22CCD7875B9",
+                "device": "Historical analogy to FDR's Gold Reserve Act of 1934",
+                "explanation": "The speaker compares the current proposal to the 1934 gold revaluation when the US government confiscated gold and raised its legal price from $20.67 to $35 per ounce, which also printed money.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "If you look at the Gold Reserve Act of 1934, most Americans remember this as the act where FDR stole all of the gold from American citizens. ... Then he raised the price of that gold to $35 per ounce and was able to give the US government a nice boost in cash spending power.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-F895F6F8A624",
+            "local_theme_id": "LT-1FE95BB4A74A",
+            "conclusion": "The Bitcoin Act (S.954) proposes using gold revaluation proceeds to purchase Bitcoin, which would be another form of money printing.",
+            "premises": [
+              "Section 9 of the Bitcoin Act requires the Fed to tender old gold certificates and the Treasury to issue new ones at fair market value.",
+              "The Fed must remit the cash difference to the Treasury, which would then be used to buy Bitcoin.",
+              "Treasury Secretary Bessant said they are exploring budget-neutral pathways to acquire Bitcoin."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-235340CAA2CF",
+                "item": "Quote from Section 9 of the Bitcoin Act regarding gold certificate revaluation and remittance.",
+                "status": "Verified",
+                "verification_basis": "The transcript quotes the bill section directly, including the tender and issuance process.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "Not later than 120 days after the enactment of this act, the Federal Reserve banks shall tend all outstanding gold certificates in their custody to the Secretary. ... The secretary shall issue new gold certificates to the Federal Reserve banks that reflect the fair market value price of the gold held against such certificates ... each Federal Reserve Bank that receives a new gold certificate shall remit the difference in cash value between the old and new gold certificates to the secretary for deposit in the general fund.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-8E398045E2F6",
+                "item": "Bessant's statement on Fox Business: 'We are not going to be buying that.'",
+                "status": "Verified",
+                "verification_basis": "The transcript quotes the Treasury Secretary's interview.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "We are not going to be buying that.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-75ECBFECEAD3",
+                "item": "Bessant's Twitter clarification: 'In addition, Treasury is committed to exploring budgetneutral pathways to acquire more Bitcoin to expand the reserve.'",
+                "status": "Verified",
+                "verification_basis": "The transcript quotes Bessant's Twitter post.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "In addition, Treasury is committed to exploring budgetneutral pathways to acquire more Bitcoin to expand the reserve.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-16C4A723EE1E",
+        "theme": "Historical precedent of gold revaluation in the United States",
+        "arguments": [
+          {
+            "local_argument_id": "LA-84DB11BEBFA8",
+            "local_theme_id": "LT-16C4A723EE1E",
+            "conclusion": "Gold revaluation has been used before in US history to boost government spending power without taxation or borrowing.",
+            "premises": [
+              "The Gold Reserve Act of 1934 confiscated gold from citizens and revalued it from $20.67 to $35 per ounce.",
+              "This allowed the government to print more dollars and increase spending.",
+              "The speaker argues that the current proposal follows the same pattern."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FF51A070FF4F",
+                "item": "Historical facts: pre-1933 gold price $20.67/oz, post-1934 $35/oz.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states these prices but does not provide a source or citation for verification.",
+                "speech_id": "SP-0798B5188978",
+                "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+                "source_excerpt": "prior to 1933 the price of gold was like $20 an ounce. ... Then he raised the price of that gold to $35 per ounce",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-8F4A954A1480",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "The US has 261.5 million troy ounces of gold.",
+        "reason": "The transcript states this number without any source or citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "the US has 261.5 million troy ounces of gold",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-66FEC49D6583",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "The current legal value of gold is $42 per troy ounce.",
+        "reason": "The transcript states this legal value without supporting documentation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "the current legal value of this gold is $422 per troy ounce",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-24F0DBB59638",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "The current market price of gold is over $3,300 per ounce.",
+        "reason": "The transcript states a market price without any source or date context.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "the current market price of gold is over $3,300 per ounce",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5299EAD14178",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "Debt to GDP is above 120%.",
+        "reason": "The transcript asserts this ratio without any citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "debt to GDP above 120%",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-06AAC5019674",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "Spending is 7% higher than last year.",
+        "reason": "The transcript states a specific percentage increase without source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "it's already 7% higher than it was last year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EBAFBF789655",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "Year to date, the US has spent $1.6 trillion more than has been taken in taxes.",
+        "reason": "The transcript provides a specific fiscal figure without reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "year to date, we've already spent $1.6 trillion more than has been taken in taxes",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8C50712A2F55",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "Total US debt is $37 trillion.",
+        "reason": "The transcript states a total debt figure without source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "we are $37 trillion in debt",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-031CD3DEABA3",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "The Bitcoin Act is S.954.",
+        "reason": "The transcript gives a bill number but no verification that it is correct or current.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration; bill numbers can change.",
+        "source_excerpt": "This is S.954.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 7326,
+          "character_end": 7340,
+          "line_start": 195
+        }
+      },
+      {
+        "unverifiable_id": "UV-4AE4006C41CC",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "The Gold Reserve Act of 1934 transferred ownership of all monetary gold to the US Treasury and prohibited redemption.",
+        "reason": "The transcript asserts historical facts without citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "the act transferred ownership of all monetary gold in the United States to the US Treasury and prohibited the Treasury and financial institutions from redeeming dollars for gold.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-62AC74A79C96",
+        "speech_id": "SP-0798B5188978",
+        "speech_ref": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "claim": "Before 1933, dollars were redeemable for gold at a legal price of $20.67 per ounce.",
+        "reason": "The transcript states this historical fact without source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide internal corroboration.",
+        "source_excerpt": "the price of gold was legally $20.67 per ounce",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve is discussing gold revaluation as a budget-neutral method to increase government spending without raising taxes or borrowing, which is effectively money printing and will be inflationary.",
+      "themes": [
+        "Federal Reserve's paper on gold revaluation",
+        "Inflationary effects of gold revaluation as money printing",
+        "Historical precedent of gold revaluation in the United States"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 10
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "1d10b5f33f8c1ef4d3f6b9d6ada89a7003fc4af6683143fdadb1777c6dbf2e13",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "1308f6798f93cf3b5bbeead9601285e928bb18e620f0c7e5d1697b0df6a05d3d",
+    "canonical_mapping": {
+      "speech_id": "SP-0798B5188978",
+      "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC51",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+      "primary_cc_rationale": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T96",
+        "T70"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T96",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-6D4FD212A643",
+          "rationale": "This local theme directly discusses a Federal Reserve paper on gold revaluation, which is precisely the topic of canonical theme T96 'Gold Revaluation and Central Bank Gold Accumulation'."
+        },
+        {
+          "theme_id": "T70",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-1FE95BB4A74A",
+          "rationale": "This local theme focuses on the inflationary effects of gold revaluation as money printing, which aligns closely with canonical theme T70 'Asset price inflation and monetary expansion' that captures both monetary expansion and resulting inflation."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC51-T96",
+          "cc_id": "CC51",
+          "theme_id": "T96",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC51-T70",
+          "cc_id": "CC51",
+          "theme_id": "T70",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "local_cc_text": "The Federal Reserve is discussing gold revaluation as a budget-neutral method to increase government spending without raising taxes or borrowing, which is effectively money printing and will be inflationary.",
+        "canonical_cc_id": "CC51",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+        "rationale": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.5757883787155151
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.49714112281799316
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.45380282402038574
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.4366152882575989
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.4357949495315552
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "local_theme_id": "LT-6D4FD212A643",
+        "local_theme_text": "Federal Reserve's paper on gold revaluation",
+        "canonical_theme_id": "T96",
+        "confidence": 0.9,
+        "rationale": "This local theme directly discusses a Federal Reserve paper on gold revaluation, which is precisely the topic of canonical theme T96 'Gold Revaluation and Central Bank Gold Accumulation'.",
+        "candidate_matches": [
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.7237390279769897
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.6078788638114929
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.3932268023490906
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.36163127422332764
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.332491934299469
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.32626399397850037
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "local_theme_id": "LT-1FE95BB4A74A",
+        "local_theme_text": "Inflationary effects of gold revaluation as money printing",
+        "canonical_theme_id": "T70",
+        "confidence": 0.75,
+        "rationale": "This local theme focuses on the inflationary effects of gold revaluation as money printing, which aligns closely with canonical theme T70 'Asset price inflation and monetary expansion' that captures both monetary expansion and resulting inflation.",
+        "candidate_matches": [
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.7717009782791138
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5968134999275208
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5271294116973877
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.5127921104431152
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.5127087235450745
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.4261268675327301
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "local_theme_id": "LT-16C4A723EE1E",
+        "local_theme_text": "Historical precedent of gold revaluation in the United States",
+        "canonical_theme_id": "T96",
+        "confidence": 0.85,
+        "rationale": "This local theme discusses historical precedent of gold revaluation in the United States, which is directly covered by canonical theme T96 'Gold Revaluation and Central Bank Gold Accumulation'.",
+        "candidate_matches": [
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.6886178851127625
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.6450939178466797
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5019049048423767
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.47223159670829773
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.405322790145874
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.3319289982318878
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-54CE7C89B4862A",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "date": "2025-08-16",
+        "source_hash": "0df3dc7bb5ea4536b0f0eb0cf132a03d6da0bf0fc76420b15e4c1f00fb61d70f",
+        "pair_id": "PAIR-CC51-T96",
+        "cc_id": "CC51",
+        "theme_id": "T96",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-6D4FD212A643",
+        "local_theme_text": "Federal Reserve's paper on gold revaluation",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "This local theme directly discusses a Federal Reserve paper on gold revaluation, which is precisely the topic of canonical theme T96 'Gold Revaluation and Central Bank Gold Accumulation'.",
+        "local_argument_id": "LA-B7F8ECB19A44",
+        "conclusion": "The Federal Reserve is considering gold revaluation as a way to finance additional expenditures without raising taxes or increasing public debt.",
+        "premises": [
+          "The US faces a fiscal crisis with debt-to-GDP above 120% and a growing spending problem.",
+          "The Fed's paper explicitly states that some governments are exploring financing expenditures without taxes or debt.",
+          "The paper was published on the Federal Reserve's website on August 1, 2025."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-83DA51C20AA4",
+            "item": "The title of the Fed paper: 'The Official Reserve Revaluations: The International Experience'",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly names the paper and states it was published on the Federal Reserve's website.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "straight on the Federal Reserve's own website, they published this paper titled The Official Reserve Revaluations: The International Experience.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-22E9812DF0DF",
+            "item": "The first line of the paper: 'with public debt at high levels, some governments have begun to explore financing additional expenditures without raising taxes while also not increasing public debt outstanding.'",
+            "status": "Verified",
+            "verification_basis": "The transcript directly quotes the first line of the paper.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "with public debt at high levels, some governments have begun to explore financing additional expenditures without raising taxes while also not increasing public debt outstanding.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-EC33B0573FEBB5",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "date": "2025-08-16",
+        "source_hash": "0df3dc7bb5ea4536b0f0eb0cf132a03d6da0bf0fc76420b15e4c1f00fb61d70f",
+        "pair_id": "PAIR-CC51-T70",
+        "cc_id": "CC51",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1FE95BB4A74A",
+        "local_theme_text": "Inflationary effects of gold revaluation as money printing",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "This local theme focuses on the inflationary effects of gold revaluation as money printing, which aligns closely with canonical theme T70 'Asset price inflation and monetary expansion' that captures both monetary expansion and resulting inflation.",
+        "local_argument_id": "LA-3BAD715410C9",
+        "conclusion": "Gold revaluation is an accounting gimmick that prints new money, which will cause inflation or upward pressure on prices.",
+        "premises": [
+          "The Federal Reserve holds gold certificates valued at $42/oz while market price is over $3,300/oz.",
+          "Revaluation requires the Fed to pay the Treasury the difference in newly printed cash.",
+          "The new money does not come from taxes or borrowing, so it increases the money supply."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-4C0469D2E003",
+            "item": "Explanation of the process: Fed exchanges old certificate for new one and pays the difference in cash.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript describes the mechanism but provides no external source or data to confirm that this is exactly how it works in practice.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "I have a piece of paper that says 42 on it. ... I give it to you. ... you say, 'Thank you. In exchange, I would like to give you ... a piece of paper that has the word 3,300 on it.' ... you say, 'You have to pay for that.' So now I have to give you $3,258 for the privilege of having this paper that says 3,300 on it.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-7E7DF061C16F",
+            "device": "Certificate exchange analogy",
+            "explanation": "The speaker uses a simplified analogy of exchanging a certificate worth $42 for one worth $3,300, with the Fed paying the difference, to illustrate the mechanics of gold revaluation.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "I have a piece of paper that says 42 on it. ... I give it to you. ... you say, 'Thank you. In exchange, I would like to give you ... a piece of paper that has the word 3,300 on it.' ... you say, 'You have to pay for that.' So now I have to give you $3,258 for the privilege of having this paper that says 3,300 on it.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-A22CCD7875B9",
+            "device": "Historical analogy to FDR's Gold Reserve Act of 1934",
+            "explanation": "The speaker compares the current proposal to the 1934 gold revaluation when the US government confiscated gold and raised its legal price from $20.67 to $35 per ounce, which also printed money.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "If you look at the Gold Reserve Act of 1934, most Americans remember this as the act where FDR stole all of the gold from American citizens. ... Then he raised the price of that gold to $35 per ounce and was able to give the US government a nice boost in cash spending power.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-DC9E700F388ED1",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "date": "2025-08-16",
+        "source_hash": "0df3dc7bb5ea4536b0f0eb0cf132a03d6da0bf0fc76420b15e4c1f00fb61d70f",
+        "pair_id": "PAIR-CC51-T70",
+        "cc_id": "CC51",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1FE95BB4A74A",
+        "local_theme_text": "Inflationary effects of gold revaluation as money printing",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "This local theme focuses on the inflationary effects of gold revaluation as money printing, which aligns closely with canonical theme T70 'Asset price inflation and monetary expansion' that captures both monetary expansion and resulting inflation.",
+        "local_argument_id": "LA-F895F6F8A624",
+        "conclusion": "The Bitcoin Act (S.954) proposes using gold revaluation proceeds to purchase Bitcoin, which would be another form of money printing.",
+        "premises": [
+          "Section 9 of the Bitcoin Act requires the Fed to tender old gold certificates and the Treasury to issue new ones at fair market value.",
+          "The Fed must remit the cash difference to the Treasury, which would then be used to buy Bitcoin.",
+          "Treasury Secretary Bessant said they are exploring budget-neutral pathways to acquire Bitcoin."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-235340CAA2CF",
+            "item": "Quote from Section 9 of the Bitcoin Act regarding gold certificate revaluation and remittance.",
+            "status": "Verified",
+            "verification_basis": "The transcript quotes the bill section directly, including the tender and issuance process.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "Not later than 120 days after the enactment of this act, the Federal Reserve banks shall tend all outstanding gold certificates in their custody to the Secretary. ... The secretary shall issue new gold certificates to the Federal Reserve banks that reflect the fair market value price of the gold held against such certificates ... each Federal Reserve Bank that receives a new gold certificate shall remit the difference in cash value between the old and new gold certificates to the secretary for deposit in the general fund.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-8E398045E2F6",
+            "item": "Bessant's statement on Fox Business: 'We are not going to be buying that.'",
+            "status": "Verified",
+            "verification_basis": "The transcript quotes the Treasury Secretary's interview.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "We are not going to be buying that.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-75ECBFECEAD3",
+            "item": "Bessant's Twitter clarification: 'In addition, Treasury is committed to exploring budgetneutral pathways to acquire more Bitcoin to expand the reserve.'",
+            "status": "Verified",
+            "verification_basis": "The transcript quotes Bessant's Twitter post.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "In addition, Treasury is committed to exploring budgetneutral pathways to acquire more Bitcoin to expand the reserve.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-32A41178B58D6C",
+        "speech_id": "SP-0798B5188978",
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "date": "2025-08-16",
+        "source_hash": "0df3dc7bb5ea4536b0f0eb0cf132a03d6da0bf0fc76420b15e4c1f00fb61d70f",
+        "pair_id": "PAIR-CC51-T96",
+        "cc_id": "CC51",
+        "theme_id": "T96",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech presents gold revaluation as a specific mechanism through which the Federal Reserve can indirectly expand the money supply to finance government spending, directly supporting CC51's claim of covert quantitative easing for government borrowing leading to inflation.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-16C4A723EE1E",
+        "local_theme_text": "Historical precedent of gold revaluation in the United States",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "This local theme discusses historical precedent of gold revaluation in the United States, which is directly covered by canonical theme T96 'Gold Revaluation and Central Bank Gold Accumulation'.",
+        "local_argument_id": "LA-84DB11BEBFA8",
+        "conclusion": "Gold revaluation has been used before in US history to boost government spending power without taxation or borrowing.",
+        "premises": [
+          "The Gold Reserve Act of 1934 confiscated gold from citizens and revalued it from $20.67 to $35 per ounce.",
+          "This allowed the government to print more dollars and increase spending.",
+          "The speaker argues that the current proposal follows the same pattern."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-FF51A070FF4F",
+            "item": "Historical facts: pre-1933 gold price $20.67/oz, post-1934 $35/oz.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states these prices but does not provide a source or citation for verification.",
+            "speech_id": "SP-0798B5188978",
+            "source_speech_filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+            "source_excerpt": "prior to 1933 the price of gold was like $20 an ounce. ... Then he raised the price of that gold to $35 per ounce",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "1d10b5f33f8c1ef4d3f6b9d6ada89a7003fc4af6683143fdadb1777c6dbf2e13",
+  "complete": true
+}

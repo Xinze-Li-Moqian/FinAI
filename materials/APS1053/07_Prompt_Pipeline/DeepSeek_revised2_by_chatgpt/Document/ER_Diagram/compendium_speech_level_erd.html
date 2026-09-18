@@ -1,0 +1,124 @@
+
+<style>
+#erd2 { margin-bottom: 8px; }
+#erd2 svg { width: 100%; }
+</style>
+<div id="erd2"></div>
+<script type="module">
+import mermaid from 'https://esm.sh/mermaid@11/dist/mermaid.esm.min.mjs';
+const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+await document.fonts.ready;
+mermaid.initialize({
+  startOnLoad: false,
+  theme: 'base',
+  fontFamily: '"Anthropic Sans", sans-serif',
+  themeVariables: {
+    darkMode: dark,
+    fontSize: '13px',
+    fontFamily: '"Anthropic Sans", sans-serif',
+    lineColor: dark ? '#9c9a92' : '#73726c',
+    textColor: dark ? '#c2c0b6' : '#3d3d3a',
+    primaryColor: dark ? '#085041' : '#E1F5EE',
+    primaryTextColor: dark ? '#9FE1CB' : '#04342C',
+    primaryBorderColor: dark ? '#1D9E75' : '#0F6E56',
+    secondaryColor: dark ? '#633806' : '#FAEEDA',
+    secondaryTextColor: dark ? '#FAC775' : '#412402',
+    secondaryBorderColor: dark ? '#BA7517' : '#854F0B',
+    tertiaryColor: dark ? '#3C3489' : '#EEEDFE',
+    tertiaryTextColor: dark ? '#CECBF6' : '#26215C',
+    tertiaryBorderColor: dark ? '#7F77DD' : '#534AB7',
+  },
+  er: { diagramPadding: 20, layoutDirection: 'TB', minEntityWidth: 100 }
+});
+const { svg } = await mermaid.render('erd2-svg', `erDiagram
+  SPEECH {
+    string filename PK
+    string date
+  }
+  PER_SPEECH_CENTRAL_CLAIM {
+    string cc_id PK
+    string text
+  }
+  PER_SPEECH_THEME {
+    string theme_id PK
+    string name
+  }
+  LOCAL_ARGUMENT_CONCLUSION {
+    string arg_id PK
+    string heading
+  }
+  PREMISE {
+    string premise_id PK
+    string text
+  }
+  LOCAL_EVIDENCE {
+    string ev_id PK
+    string reliability_tag
+  }
+  LOCAL_RHETORICAL_DEVICE {
+    string device_id PK
+    string name
+  }
+  UNVERIFIABLE_CLAIM {
+    string claim_id PK
+    string speech_ref
+    string reason
+  }
+  CLAIMS_INVENTORY_RECORD {
+    string record_id PK
+    string central_claim
+    string themes
+    int unverifiable_count
+  }
+  MASTER_INVENTORY_JSON {
+    string entry_id PK
+  }
+  REMAPPED_MARKDOWN {
+    string md_id PK
+  }
+  CANONICAL_CENTRAL_CLAIM {
+    string cc_id PK
+  }
+  CANONICAL_THEME {
+    string theme_id PK
+  }
+
+  SPEECH ||--|| PER_SPEECH_CENTRAL_CLAIM : "has local CC (S1)"
+  SPEECH ||--o{ PER_SPEECH_THEME : "has local themes (S2)"
+  PER_SPEECH_THEME ||--o{ LOCAL_ARGUMENT_CONCLUSION : "contains (S3)"
+  SPEECH ||--o{ LOCAL_ARGUMENT_CONCLUSION : "contains (S4)"
+  LOCAL_ARGUMENT_CONCLUSION ||--o{ PREMISE : "entailed by (S5)"
+  LOCAL_ARGUMENT_CONCLUSION ||--o{ LOCAL_EVIDENCE : "supported by (S6)"
+  LOCAL_EVIDENCE }o--|| SPEECH : "belongs to (S7)"
+  LOCAL_ARGUMENT_CONCLUSION |o--o{ LOCAL_RHETORICAL_DEVICE : "illustrated by (S8)"
+  LOCAL_RHETORICAL_DEVICE }o--|| SPEECH : "belongs to (S9)"
+  SPEECH |o--o{ UNVERIFIABLE_CLAIM : "has (S10)"
+  SPEECH ||--|| CLAIMS_INVENTORY_RECORD : "has (S11)"
+  SPEECH ||--|| MASTER_INVENTORY_JSON : "becomes (S12)"
+  MASTER_INVENTORY_JSON }o--|| CANONICAL_CENTRAL_CLAIM : "supplies input to (S13)"
+  PER_SPEECH_CENTRAL_CLAIM }o--|| CANONICAL_CENTRAL_CLAIM : "classified into (S14)"
+  PER_SPEECH_THEME }o--o{ CANONICAL_THEME : "normalized to (S15)"
+  LOCAL_ARGUMENT_CONCLUSION }o--|| CANONICAL_CENTRAL_CLAIM : "accumulated into (S16)"
+  SPEECH ||--|| REMAPPED_MARKDOWN : "rewritten as (S17)"
+`);
+document.getElementById('erd2').innerHTML = svg;
+document.querySelectorAll('#erd2 svg .node').forEach(node => {
+  const firstPath = node.querySelector('path[d]');
+  if (!firstPath) return;
+  const d = firstPath.getAttribute('d');
+  const nums = d.match(/-?[\d.]+/g)?.map(Number);
+  if (!nums || nums.length < 8) return;
+  const xs = [nums[0], nums[2], nums[4], nums[6]];
+  const ys = [nums[1], nums[3], nums[5], nums[7]];
+  const x = Math.min(...xs), y = Math.min(...ys);
+  const w = Math.max(...xs) - x, h = Math.max(...ys) - y;
+  const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  rect.setAttribute('x', x); rect.setAttribute('y', y);
+  rect.setAttribute('width', w); rect.setAttribute('height', h);
+  rect.setAttribute('rx', '8');
+  for (const a of ['fill', 'stroke', 'stroke-width', 'class', 'style']) {
+    if (firstPath.hasAttribute(a)) rect.setAttribute(a, firstPath.getAttribute(a));
+  }
+  firstPath.replaceWith(rect);
+});
+</script>

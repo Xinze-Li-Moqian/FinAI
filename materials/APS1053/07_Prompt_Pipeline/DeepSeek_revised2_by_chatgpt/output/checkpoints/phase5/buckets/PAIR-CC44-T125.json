@@ -1,0 +1,104 @@
+{
+  "dependency_hash": "20ec7f3f2f6603d7590fc7d8cfcfc5a4e0b8897080f723d41a22c074238d6e8b",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC44-T125",
+    "cc_id": "CC44",
+    "theme_id": "T125",
+    "authoritative_anchor": "cc-cc44-theme-t125",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC44-T125-EDF3A90889",
+        "pair_id": "PAIR-CC44-T125",
+        "conclusion": "Governments derive their just authority from the consent of the governed and must protect unalienable rights; when they fail, the people have the right to alter or abolish them.",
+        "source_contribution_ids": [
+          "CONTRIB-74E9462AC3F55C"
+        ],
+        "source_speech_filenames": [
+          "20260304_A Declaration of Independence.txt"
+        ],
+        "premise_synthesis": "Every human is created equal and endowed with unalienable rights to life, liberty, and the pursuit of happiness. Governments are instituted solely to secure these rights, deriving their just authority from the consent of the governed. When a government persistently violates these rights and peaceful reform has failed, the people have the right and duty to alter or abolish it and institute new governance.",
+        "conclusion_supported": "This argument establishes that the philosophical foundation of the Declaration of Independence—that governments are instituted to protect inherent rights and may be overthrown when they become destructive—provides a justified basis for declaring independence from an oppressive government.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-74E9462AC3F55C"
+            ],
+            "source_speech_filenames": [
+              "20260304_A Declaration of Independence.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the US government has violated unalienable rights through a pattern of abuse and that peaceful reform has failed, justifying a declaration of independence. This supports CC44's claim that government policies harm the public, violate rights, and call for reform or independence."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Statement of self-evident truths regarding human equality and rights",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents these as self-evident truths without external citation or empirical support.",
+            "source_contribution_ids": [
+              "CONTRIB-74E9462AC3F55C"
+            ],
+            "source_speech_filenames": [
+              "20260304_A Declaration of Independence.txt"
+            ],
+            "source_excerpt": "We believe the following few things are both true and self-evident. Number one, every human is created equal. Number two, every human has God-given rights that cannot be taken away by other humans. Number three, these rights are the right to life, the right to liberty, and the right to pursue whatever endeavors one prefers."
+          },
+          {
+            "item": "Statement on the purpose and source of government authority",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this principle without external evidence or citation.",
+            "source_contribution_ids": [
+              "CONTRIB-74E9462AC3F55C"
+            ],
+            "source_speech_filenames": [
+              "20260304_A Declaration of Independence.txt"
+            ],
+            "source_excerpt": "in order to make sure that nobody violates anybody else's rights, governments are established by people for the purpose of securing and protecting these rights. These governments receive their power exclusively from the people who willingly and voluntarily consent to be governed."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Modern reinterpretation of the U.S. Declaration of Independence",
+            "explanation": "Frames the entire argument as a continuation of American founding principles and historical tradition.",
+            "source_contribution_ids": [
+              "CONTRIB-74E9462AC3F55C"
+            ],
+            "source_speech_filenames": [
+              "20260304_A Declaration of Independence.txt"
+            ]
+          },
+          {
+            "device": "Appeal to God as the ultimate judge",
+            "explanation": "Invokes divine authority to legitimize the revolutionary act.",
+            "source_contribution_ids": [
+              "CONTRIB-74E9462AC3F55C"
+            ],
+            "source_speech_filenames": [
+              "20260304_A Declaration of Independence.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is drawn from a single speech delivered on 2026-03-04; no longitudinal evolution can be inferred within this contribution.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-74E9462AC3F55C"
+    ],
+    "source_speech_filenames": [
+      "20260304_A Declaration of Independence.txt"
+    ],
+    "generated_at": "2026-07-15T03:40:30+00:00",
+    "record_hash": "342139d7a3b96c1ef27325d59f624c61321aedd0d12d3e8fa7f2e506f3628917"
+  },
+  "complete": true
+}

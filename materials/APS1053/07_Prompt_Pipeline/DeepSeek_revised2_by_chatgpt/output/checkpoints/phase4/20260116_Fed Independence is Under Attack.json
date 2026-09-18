@@ -1,0 +1,727 @@
+{
+  "dependencies": {
+    "source_hash": "3a231dd86ebf29b747f8a768746ad438c0610af3a2c1184dbb7df0a0a7065c89",
+    "phase1_record_hash": "55c9562e35a6ac5b6a505e530a988470880d03526d06bfbfc2212e9157f9d5c6",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-DB5B8E01098C",
+    "filename": "20260116_Fed Independence is Under Attack.txt",
+    "stem": "20260116_Fed Independence is Under Attack",
+    "date": "2026-01-16",
+    "source_hash": "3a231dd86ebf29b747f8a768746ad438c0610af3a2c1184dbb7df0a0a7065c89",
+    "source_character_count": 15249,
+    "central_claim": "The executive branch's attack on the Federal Reserve is a power grab that will lead to even worse economic outcomes than the current flawed but semi-independent Fed.",
+    "themes": [
+      {
+        "local_theme_id": "LT-C5F61649CF23",
+        "theme": "The free market alternative to Federal Reserve functions",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BFB3968759C7",
+            "local_theme_id": "LT-C5F61649CF23",
+            "conclusion": "The Federal Reserve's functions of setting interest rates and regulating banks could be performed better by the free market, and the Fed should be abolished.",
+            "premises": [
+              "The Federal Reserve sets the federal funds rate, which always differs from the free-market rate, causing misallocation of resources.",
+              "Bank regulation is necessary only because of the implicit bailout guarantee; without it, banks would have skin in the game and self-regulate."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-38976DD2F07A",
+                "item": "Hypothetical example of personal borrowing to illustrate free-market interest rate determination",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides a hypothetical example, not a specific verifiable fact or source.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "For example, when I go to borrow money, the lender, usually the bank, is going to look at my income, my income history, my current amount of debt, my debt history. Have I ever not paid back debt before? Have I ever borrowed in a similar amount that I'm trying to borrow right now? Have I borrowed a lot of debt in the past? Have I borrowed very little? They're going to take into account many factors to determine are they going to loan me money? How much money are they going to loan me? And when they do decide to loan me money, how much are they going to charge me? What is the interest rate? And my interest rate will be different than somebody else's interest rate, even if they're buying the sa",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-A74D10DD3035",
+        "theme": "The Federal Reserve's statutory mandate serving government interests",
+        "arguments": [
+          {
+            "local_argument_id": "LA-056A2C4B1BC9",
+            "local_theme_id": "LT-A74D10DD3035",
+            "conclusion": "The Federal Reserve is not independent but exists to serve the government's interests in maximizing tax revenue and facilitating cheap borrowing.",
+            "premises": [
+              "The 1977 Federal Reserve Reform Act mandates the Fed to promote maximum employment, stable prices, and moderate long-term interest rates.",
+              "Maximum employment maximizes the number of taxpayers to extract taxes from.",
+              "Stable prices (interpreted as 2% inflation) prevents deflation and makes government debt cheaper to repay.",
+              "Moderate long-term interest rates allow the government to borrow more cheaply."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-14BCCED36FEA",
+                "item": "Quote from Section 2A of the 1977 Federal Reserve Reform Act",
+                "status": "Verified",
+                "verification_basis": "The transcript provides an exact quote from the legislative act, making it verifiable.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "the board of governors of the Federal Reserve system and the Federal Open Market Committee shall maintain longun growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-714E8DA42397",
+                "item": "Claim that the Fed interprets stable prices as 2% inflation",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states this as a fact but does not provide a source or citation for the Fed's official interpretation.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "Now, they interpret this as 2% inflation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-6D5DD69AEC3E",
+                "device": "Tax slaves metaphor",
+                "explanation": "Portrays taxpayers as slaves to the government to criticize the maximum employment goal.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "Maximum employment is there to ensure that the government has the maximum number of tax slaves. I mean taxpayers possible.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EEE96B4C4C09",
+        "theme": "The current executive branch attack on Federal Reserve independence",
+        "arguments": [
+          {
+            "local_argument_id": "LA-596A3704C916",
+            "local_theme_id": "LT-EEE96B4C4C09",
+            "conclusion": "The current DOJ action against Powell is a pretext for the executive branch to gain control over the Federal Reserve, which will lead to worse outcomes than the current flawed independence.",
+            "premises": [
+              "The President called for a $500 billion increase in military spending, so the budget overrun issue is not the real concern.",
+              "The administration is digging up dirt on FOMC members (e.g., mortgage fraud) to remove them and replace with compliant members.",
+              "Even if charges fail, the message of intimidation will cause Fed officials to fall in line in the future."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2E9385198D50",
+                "item": "Claim that DOJ served Powell and the Federal Reserve over a budget overrun",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this as a current event but provides no citation or source.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "the Department of Justice has served Powell and the Federal Reserve. And the charges here are basically because of a budget overrun for a Federal Reserve building.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-972A461241C7",
+                "item": "Claim that the president called for a $500 billion increase in military spending",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this fact without any source.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "the president just called to increase the US military spending by $500 billion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A3CBEA8C4B03",
+                "item": "Claim that the administration is digging up dirt on FOMC members, e.g., mortgage fraud charges",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript presents this as a speculation about the administration's tactics, not a verified fact.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "If that means digging up dirt on FOMC members and finding out that they can charge them with mortgage fraud in order to get them removed from the Federal Reserve so they can be replaced with somebody who is more inclined to vote for what the president wants, then they will do that.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-CC7CF7A64F1B",
+                "item": "Historical claim that the Fed performed yield curve control from 1942-1951",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states this historical fact but does not provide a source.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "The Federal Reserve performed yield curve control in the United States from 1942 through 1951.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A7EB9AF6F711",
+                "item": "Historical claim that the last time debt-to-GDP ratio hit 120% was after WWII",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this comparison but provides no data source.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "That happened the last time the government's debt to GDP ratio hit 120%. From World War II, we're there again.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E106230A7061",
+                "device": "History rhyming",
+                "explanation": "Used to suggest that the current debt situation and likely Fed actions will parallel the 1942-1951 period of yield curve control.",
+                "speech_id": "SP-DB5B8E01098C",
+                "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+                "source_excerpt": "As the saying goes, history doesn't repeat, but it sure does rhyme.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-24A98A4760C4",
+        "speech_id": "SP-DB5B8E01098C",
+        "speech_ref": "20260116_Fed Independence is Under Attack.txt",
+        "claim": "The Federal Reserve's independence is under attack by the executive branch.",
+        "reason": "The transcript states this as a situation but does not provide independent evidence or sources for the attack (e.g., specific actions beyond the DOJ serving).",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal verification within transcript for the existence of such an attack beyond the speaker's assertion.",
+        "source_excerpt": "And unfortunately, based on both the patterns of history and the things happening right now with the Federal Reserve under attack by the executive branch, it seems like we are headed to a place where the Federal Reserve will be much more influenced or either outright controlled by the executive branch.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F8281E87874C",
+        "speech_id": "SP-DB5B8E01098C",
+        "speech_ref": "20260116_Fed Independence is Under Attack.txt",
+        "claim": "The speaker achieved an average annual performance of 36% over the last five years.",
+        "reason": "The transcript makes this personal claim without providing any evidence or documentation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No verification possible from transcript alone.",
+        "source_excerpt": "Over the last five years, I've been able to achieve an average annual performance of 36%, which is a little over double the market averages.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-16E0038B83E0",
+        "speech_id": "SP-DB5B8E01098C",
+        "speech_ref": "20260116_Fed Independence is Under Attack.txt",
+        "claim": "The Federal Reserve has caused inflation, erosion of wealth, erosion of the middle class, and massive increase in wealth inequality.",
+        "reason": "The transcript asserts these causal effects without providing data or sources.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim of causation without evidence.",
+        "source_excerpt": "I think it's clear the Federal Reserve has been bad for the country. The Federal Reserve has been bad for individuals. The Federal Reserve has caused inflation, erosion of wealth, the erosion of the middle class, a massive increase in wealth inequality, and a host of other problems.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F00A32701F4C",
+        "speech_id": "SP-DB5B8E01098C",
+        "speech_ref": "20260116_Fed Independence is Under Attack.txt",
+        "claim": "We are headed to a place where the Federal Reserve will be much more influenced or outright controlled by the executive branch.",
+        "reason": "This is a prediction based on the speaker's interpretation of current events, not a verifiable fact.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Prediction without evidence.",
+        "source_excerpt": "it seems like we are headed to a place where the Federal Reserve will be much more influenced or either outright controlled by the executive branch.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The executive branch's attack on the Federal Reserve is a power grab that will lead to even worse economic outcomes than the current flawed but semi-independent Fed.",
+      "themes": [
+        "The free market alternative to Federal Reserve functions",
+        "The Federal Reserve's statutory mandate serving government interests",
+        "The current executive branch attack on Federal Reserve independence"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 4
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "99a1387ee1b657332da1e5ae9394e3e90839fe42b5fba149cf188680410abb28",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "55c9562e35a6ac5b6a505e530a988470880d03526d06bfbfc2212e9157f9d5c6",
+    "canonical_mapping": {
+      "speech_id": "SP-DB5B8E01098C",
+      "filename": "20260116_Fed Independence is Under Attack.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+      "primary_cc_rationale": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T75"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T75",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-EEE96B4C4C09",
+          "rationale": "The theme of an executive branch attack on Federal Reserve independence is a quintessential topic of Central Bank Governance and Political Independence."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T75",
+          "cc_id": "CC50",
+          "theme_id": "T75",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "local_cc_text": "The executive branch's attack on the Federal Reserve is a power grab that will lead to even worse economic outcomes than the current flawed but semi-independent Fed.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.85,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "rationale": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "candidate_matches": [
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.6128578782081604
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5849767327308655
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.42883622646331787
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.41360849142074585
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.39143675565719604
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "local_theme_id": "LT-C5F61649CF23",
+        "local_theme_text": "The free market alternative to Federal Reserve functions",
+        "canonical_theme_id": "T75",
+        "confidence": 0.7,
+        "rationale": "The free market alternative to Federal Reserve functions challenges the legitimacy of central bank governance, which is the core subject of T75.",
+        "candidate_matches": [
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.6411709785461426
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.5761728286743164
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5401144623756409
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5329619646072388
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.48943179845809937
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.4675136208534241
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "local_theme_id": "LT-A74D10DD3035",
+        "local_theme_text": "The Federal Reserve's statutory mandate serving government interests",
+        "canonical_theme_id": "T75",
+        "confidence": 0.8,
+        "rationale": "Arguing that the Federal Reserve's statutory mandate serves government interests directly questions the institution's political independence, a key aspect of Central Bank Governance.",
+        "candidate_matches": [
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.6872267127037048
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6699045896530151
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.6294512748718262
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.6037638187408447
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5718271732330322
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.5548305511474609
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "local_theme_id": "LT-EEE96B4C4C09",
+        "local_theme_text": "The current executive branch attack on Federal Reserve independence",
+        "canonical_theme_id": "T75",
+        "confidence": 0.9,
+        "rationale": "The theme of an executive branch attack on Federal Reserve independence is a quintessential topic of Central Bank Governance and Political Independence.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6752561926841736
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.6357490420341492
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.6016736030578613
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5572682619094849
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.5450719594955444
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.5266246199607849
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-F49C1066768DA3",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "date": "2026-01-16",
+        "source_hash": "3a231dd86ebf29b747f8a768746ad438c0610af3a2c1184dbb7df0a0a7065c89",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C5F61649CF23",
+        "local_theme_text": "The free market alternative to Federal Reserve functions",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The free market alternative to Federal Reserve functions challenges the legitimacy of central bank governance, which is the core subject of T75.",
+        "local_argument_id": "LA-BFB3968759C7",
+        "conclusion": "The Federal Reserve's functions of setting interest rates and regulating banks could be performed better by the free market, and the Fed should be abolished.",
+        "premises": [
+          "The Federal Reserve sets the federal funds rate, which always differs from the free-market rate, causing misallocation of resources.",
+          "Bank regulation is necessary only because of the implicit bailout guarantee; without it, banks would have skin in the game and self-regulate."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-38976DD2F07A",
+            "item": "Hypothetical example of personal borrowing to illustrate free-market interest rate determination",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides a hypothetical example, not a specific verifiable fact or source.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "For example, when I go to borrow money, the lender, usually the bank, is going to look at my income, my income history, my current amount of debt, my debt history. Have I ever not paid back debt before? Have I ever borrowed in a similar amount that I'm trying to borrow right now? Have I borrowed a lot of debt in the past? Have I borrowed very little? They're going to take into account many factors to determine are they going to loan me money? How much money are they going to loan me? And when they do decide to loan me money, how much are they going to charge me? What is the interest rate? And my interest rate will be different than somebody else's interest rate, even if they're buying the sa",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-3E5EB419BB8F34",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "date": "2026-01-16",
+        "source_hash": "3a231dd86ebf29b747f8a768746ad438c0610af3a2c1184dbb7df0a0a7065c89",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A74D10DD3035",
+        "local_theme_text": "The Federal Reserve's statutory mandate serving government interests",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Arguing that the Federal Reserve's statutory mandate serves government interests directly questions the institution's political independence, a key aspect of Central Bank Governance.",
+        "local_argument_id": "LA-056A2C4B1BC9",
+        "conclusion": "The Federal Reserve is not independent but exists to serve the government's interests in maximizing tax revenue and facilitating cheap borrowing.",
+        "premises": [
+          "The 1977 Federal Reserve Reform Act mandates the Fed to promote maximum employment, stable prices, and moderate long-term interest rates.",
+          "Maximum employment maximizes the number of taxpayers to extract taxes from.",
+          "Stable prices (interpreted as 2% inflation) prevents deflation and makes government debt cheaper to repay.",
+          "Moderate long-term interest rates allow the government to borrow more cheaply."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-14BCCED36FEA",
+            "item": "Quote from Section 2A of the 1977 Federal Reserve Reform Act",
+            "status": "Verified",
+            "verification_basis": "The transcript provides an exact quote from the legislative act, making it verifiable.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "the board of governors of the Federal Reserve system and the Federal Open Market Committee shall maintain longun growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-714E8DA42397",
+            "item": "Claim that the Fed interprets stable prices as 2% inflation",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this as a fact but does not provide a source or citation for the Fed's official interpretation.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "Now, they interpret this as 2% inflation.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-6D5DD69AEC3E",
+            "device": "Tax slaves metaphor",
+            "explanation": "Portrays taxpayers as slaves to the government to criticize the maximum employment goal.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "Maximum employment is there to ensure that the government has the maximum number of tax slaves. I mean taxpayers possible.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-00ECC0608AE6F7",
+        "speech_id": "SP-DB5B8E01098C",
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "date": "2026-01-16",
+        "source_hash": "3a231dd86ebf29b747f8a768746ad438c0610af3a2c1184dbb7df0a0a7065c89",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the executive branch's attack on Fed independence will lead to worse economic outcomes, supporting CC50's claim that the attack and related governmental policies (buybacks, deregulation, yield curve control) are aimed at supporting government borrowing and will cause inflation, asset bubbles, and benefit banks at the expense of the public.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-EEE96B4C4C09",
+        "local_theme_text": "The current executive branch attack on Federal Reserve independence",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme of an executive branch attack on Federal Reserve independence is a quintessential topic of Central Bank Governance and Political Independence.",
+        "local_argument_id": "LA-596A3704C916",
+        "conclusion": "The current DOJ action against Powell is a pretext for the executive branch to gain control over the Federal Reserve, which will lead to worse outcomes than the current flawed independence.",
+        "premises": [
+          "The President called for a $500 billion increase in military spending, so the budget overrun issue is not the real concern.",
+          "The administration is digging up dirt on FOMC members (e.g., mortgage fraud) to remove them and replace with compliant members.",
+          "Even if charges fail, the message of intimidation will cause Fed officials to fall in line in the future."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2E9385198D50",
+            "item": "Claim that DOJ served Powell and the Federal Reserve over a budget overrun",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this as a current event but provides no citation or source.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "the Department of Justice has served Powell and the Federal Reserve. And the charges here are basically because of a budget overrun for a Federal Reserve building.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-972A461241C7",
+            "item": "Claim that the president called for a $500 billion increase in military spending",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this fact without any source.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "the president just called to increase the US military spending by $500 billion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A3CBEA8C4B03",
+            "item": "Claim that the administration is digging up dirt on FOMC members, e.g., mortgage fraud charges",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents this as a speculation about the administration's tactics, not a verified fact.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "If that means digging up dirt on FOMC members and finding out that they can charge them with mortgage fraud in order to get them removed from the Federal Reserve so they can be replaced with somebody who is more inclined to vote for what the president wants, then they will do that.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-CC7CF7A64F1B",
+            "item": "Historical claim that the Fed performed yield curve control from 1942-1951",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript states this historical fact but does not provide a source.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "The Federal Reserve performed yield curve control in the United States from 1942 through 1951.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A7EB9AF6F711",
+            "item": "Historical claim that the last time debt-to-GDP ratio hit 120% was after WWII",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this comparison but provides no data source.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "That happened the last time the government's debt to GDP ratio hit 120%. From World War II, we're there again.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-E106230A7061",
+            "device": "History rhyming",
+            "explanation": "Used to suggest that the current debt situation and likely Fed actions will parallel the 1942-1951 period of yield curve control.",
+            "speech_id": "SP-DB5B8E01098C",
+            "source_speech_filename": "20260116_Fed Independence is Under Attack.txt",
+            "source_excerpt": "As the saying goes, history doesn't repeat, but it sure does rhyme.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "99a1387ee1b657332da1e5ae9394e3e90839fe42b5fba149cf188680410abb28",
+  "complete": true
+}

@@ -1,0 +1,901 @@
+{
+  "dependencies": {
+    "source_hash": "47a347afa9f25effd805768c7c2f7e5985ad83824deb8276dd2060fd4ed9591d",
+    "phase1_record_hash": "4adb9ff5c29123de0f8bb8054a72d36d9844b93f2609d6b5814b6bb5f3187101",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-84CCE764312A",
+    "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+    "stem": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year",
+    "date": "2025-08-11",
+    "source_hash": "47a347afa9f25effd805768c7c2f7e5985ad83824deb8276dd2060fd4ed9591d",
+    "source_character_count": 12046,
+    "central_claim": "Accelerating US government deficit spending and borrowing, driven by the monetary necessity to avoid a deflationary collapse, is causing a wealth transfer from savers to borrowers and from earners to owners, and requires investors to adopt asymmetric trading strategies.",
+    "themes": [
+      {
+        "local_theme_id": "LT-7A483526F2EC",
+        "theme": "US Treasury borrowing and deficit acceleration",
+        "arguments": [
+          {
+            "local_argument_id": "LA-303CB9D79A91",
+            "local_theme_id": "LT-7A483526F2EC",
+            "conclusion": "The US government's deficit and borrowing are accelerating and not slowing down.",
+            "premises": [
+              "Treasury announced $1.007 trillion borrowing for July-Sept and $590 billion for Oct-Dec, totaling $1.6 trillion net new borrowing by end of year.",
+              "Only about $400 billion of total borrowing goes to refill the Treasury General Account; the rest is for spending in excess of taxes.",
+              "Comparison to prior years shows 2025 above trend except June, but July spiked with $400 billion in three days."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CDF7269528F8",
+                "item": "Treasury marketable borrowing estimates: $1.007 trillion for Q3, $590 billion for Q4, assuming end-Sept cash balance of $850 billion.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript presents numbers as from a Treasury announcement but does not include the document or independent verification.",
+                "speech_id": "SP-84CCE764312A",
+                "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+                "source_excerpt": "Released on July 28th, you are looking at from the Treasury itself their announcement of marketable borrowing estimates between now and the end of the year. During the July through September quarter, the Treasury expects to borrow 1.007 trillion in privately held net marketable debt, assuming an end of September cash balance of $850 billion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4763E6B8BCD5",
+                "item": "Treasury added about $400 billion to national debt in net new borrowing from July 2nd through July 8th.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states this as fact but no source document is provided.",
+                "speech_id": "SP-84CCE764312A",
+                "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+                "source_excerpt": "you can see that from July 2nd through July 8th, they added about $400 billion to the national debt in net new borrowing.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-3C4B74EEA7D7",
+                "item": "Deficit trend: 2020 shot up, 2021 similar, 2022 down, 2023/24 identical, 2025 above trend except June which was slightly below 2023 but above June for 2025.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript shows a chart and describes it but provides no specific data or source.",
+                "speech_id": "SP-84CCE764312A",
+                "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+                "source_excerpt": "we can see that so far every single month this fiscal year has been above trend compared to 2024 and 2023 and obviously 2022 except for the most current month reported which is June. June came in just barely below the June for 2023 but still above the June for 2025.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1BCED7564846",
+        "theme": "Monetary system and the deflationary death spiral",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6A3DC928B6B6",
+            "local_theme_id": "LT-1BCED7564846",
+            "conclusion": "Unless the dollar supply is continually increased, a deflationary collapse would occur, so policymakers must keep inflating.",
+            "premises": [
+              "Every dollar is loaned into existence; paying back debt decreases money supply.",
+              "If money supply decreases, dollars become more valuable, prices plummet, leading to a scramble for dollars.",
+              "Policymakers understand this and will continue inflating to avoid collapse.",
+              "Milton Friedman argued that printing money could stop deflation in the Great Depression."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5B3EBEF7F3E9",
+                "item": "Milton Friedman's statement that inflation is always and everywhere a monetary phenomenon and that printing money could stop deflation in the Great Depression.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript attributes a view to Milton Friedman but does not provide a verifiable source or exact citation.",
+                "speech_id": "SP-84CCE764312A",
+                "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+                "source_excerpt": "This is why people like Milton Freriedman say that inflation is always and everywhere a monetary phenomenon. It wasn't that he was saying you can't get price increases without the Federal Reserve. He was saying, hey, in the Great Depression, if you wanted to stop deflation from happening, all you would have had to do was print money to the extent that was necessary.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-29181C564E7C",
+                "device": "Great Depression analogy",
+                "explanation": "To illustrate the risk of a deflationary collapse if money supply is not increased and that printing money is a policy option.",
+                "speech_id": "SP-84CCE764312A",
+                "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+                "source_excerpt": "in the Great Depression, if you wanted to stop deflation from happening, all you would have had to do was print money to the extent that was necessary.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2D86AAC60D70",
+        "theme": "Wealth transfer implications",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9E441CB6A19E",
+            "local_theme_id": "LT-2D86AAC60D70",
+            "conclusion": "There is an ongoing great wealth transfer from savers to borrowers and from earners to owners due to inflation.",
+            "premises": [
+              "Savers are lenders and earn returns below real inflation, losing purchasing power.",
+              "Borrowers benefit because inflation makes debt easier to repay and asset prices rise.",
+              "Earners get raises only after inflation has already occurred, so they lose purchasing power.",
+              "Owners see asset prices increase, more than compensating for cost-of-living increases."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E13C8F7C8118",
+                "item": "General reasoning about savers, borrowers, earners, and owners under inflation.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides no specific data or external support for these claims.",
+                "speech_id": "SP-84CCE764312A",
+                "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+                "source_excerpt": "This is a wealth transfer from savers to borrowers and from earners to owners. The reason why it's wealth transfer from savers is because savers are lenders...",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-0E12DED44F7C",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "The US Treasury needs $1.6 trillion before the end of the year.",
+        "reason": "Transcript cites a Treasury announcement but does not include the document or independent verification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "The US Treasury just released a shocking report that they need $1.6 trillion before the end of the year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9B1F27A0BB21",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "The Treasury expects to borrow 1.007 trillion in privately held net marketable debt during July through September quarter.",
+        "reason": "No source document provided in transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "During the July through September quarter, the Treasury expects to borrow 1.007 trillion in privately held net marketable debt, assuming an end of September cash balance of $850 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1815411CC66F",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "The Treasury expects to borrow $590 billion in privately held net marketable debt during October through December 2025.",
+        "reason": "No source document provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "in October through December of 2025, the Treasury is going to borrow an additional $590 billion in privately held net marketable debt, assuming an end of December balance of $850 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5CB63054AF68",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "The Treasury General Account currently has a balance of about $421 billion.",
+        "reason": "No source provided for current balance.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "You can see this account currently has a balance of about $421 billion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2ED67BE13B11",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "The Treasury General Account normally hovers around $800 to $850 billion since about 2023.",
+        "reason": "No historical data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "ever since about 2023, this account is normally hovering around the $800 to $850 billion mark.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D4B50F01C850",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "Only about $400 billion of the total $1.6 trillion will refill the checking account; $1.2 trillion is for excess spending.",
+        "reason": "Derived from other unverifiable numbers; no direct source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "That means of the total $1.6 trillion that they're borrowing by the end of the year, only about $400 billion of that is going to refill their checking account. That means $1.2 trillion of that excess borrowing has to be done just to accommodate the spending that is in excess of taxes.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-891AB1E87010",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "As of today, the national debt is $36.99 trillion.",
+        "reason": "No source provided for current national debt figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "As of today, the national debt is $36.99 trillion.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-EC026B3583AF",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "By the end of the year, national debt will be just about $38.6 trillion.",
+        "reason": "Projection based on unverifiable inputs.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "By taking 36.99 + 1.6, we can see that by the end of the year, national debt will be just about $38.6 trillion.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-A1680ADF5CE2",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "2020 deficit shot up starting in March.",
+        "reason": "No data source provided for historical deficits.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "you can see very expectedly in 2020, the deficit shot up starting in March for the next couple of months added a few trillion dollars.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-38B1A7CA4744",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "2021 was very similar, adding more spending in the first half of the fiscal year.",
+        "reason": "No data source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "2021 was very similar, adding more spending in the first half of the fiscal year and less in the second half.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0098D5A9E2AC",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "2022 net borrowing went down significantly compared to the prior two years.",
+        "reason": "No specific data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "2022, we can see the net borrowing, the deficit went down significantly compared to the prior two years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F69D9A1499EF",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "2023 and 2024 were almost identical on track with each other.",
+        "reason": "No specific data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "2023 and 2024 were almost identical on track with each other.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-43DBECFFD3FF",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "2025 so far every single month this fiscal year has been above trend compared to 2024 and 2023 except June.",
+        "reason": "No data source for the chart referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "we can see that so far every single month this fiscal year has been above trend compared to 2024 and 2023 and obviously 2022 except for the most current month reported which is June.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6323E513D049",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "June came in just barely below the June for 2023 but still above the June for 2025.",
+        "reason": "Unclear comparison (possibly a typo); no data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "June came in just barely below the June for 2023 but still above the June for 2025.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ED5BC3896F32",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "After June ended, the Treasury borrowed about $400 billion in 3 days from July 2nd through July 8th.",
+        "reason": "No source for daily Treasury borrowing data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "you can see that from July 2nd through July 8th, they added about $400 billion to the national debt in net new borrowing.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-89C34A805C9B",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "The deficit will be $1 trillion higher by end of September, ending at around $2.3 trillion.",
+        "reason": "Projection based on unverifiable trends.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "by the end of this quarter, end of September, the deficit will be $1 trillion higher than it is right now, ending at around $2.3 trillion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5E9E0B5215BB",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "Global government bond liquidity index is at one of the worst places it's been since the data was being tracked back to the great financial crisis.",
+        "reason": "No source for index or data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "Globally, the government bond liquidity index is at one of the worst places it's been since the data was being tracked, which goes all the way back to the great financial crisis.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3401A9C69251",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "Auctions for longer-term bonds like 30-year US Treasury are going poorly, pushing yields up higher.",
+        "reason": "No specific auction data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "the auctions, especially for the longerterm bonds, like the 30-year US Treasury, are going poorly, pushing yields up higher.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C3A66B0AF87D",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "Milton Friedman said that inflation is always and everywhere a monetary phenomenon and that printing money could stop deflation in the Great Depression.",
+        "reason": "No source or exact citation provided for Friedman's words.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "This is why people like Milton Freriedman say that inflation is always and everywhere a monetary phenomenon. It wasn't that he was saying you can't get price increases without the Federal Reserve. He was saying, hey, in the Great Depression, if you wanted to stop deflation from happening, all you would have had to do was print money to the extent that was necessary.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5C80159974FD",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "Every dollar comes into existence through a loan.",
+        "reason": "Theoretical statement without supporting evidence or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "Because every dollar that comes into existence comes into existence through a loan. Dollars are loaned into existence.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-74DE816D14E3",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "I've used this strategy myself to take home returns as high as 297%, 733%, and 1,354%.",
+        "reason": "Personal claim with no verifiable documentation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "over the past year and a half, I've used this strategy myself to take home returns as high as 297%, 733%, and even 1,354%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3B90273E172A",
+        "speech_id": "SP-84CCE764312A",
+        "speech_ref": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "claim": "Massive 1,000% plus gains are the exception, they are not the rule.",
+        "reason": "Personal claim and generalization without evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript does not provide internal cross-reference.",
+        "source_excerpt": "even though massive 1,000% plus gains are the exception, they are not the rule",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Accelerating US government deficit spending and borrowing, driven by the monetary necessity to avoid a deflationary collapse, is causing a wealth transfer from savers to borrowers and from earners to owners, and requires investors to adopt asymmetric trading strategies.",
+      "themes": [
+        "US Treasury borrowing and deficit acceleration",
+        "Monetary system and the deflationary death spiral",
+        "Wealth transfer implications"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 22
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "50561043fdcea20eaa37002bfc191af1ad155a0c39e857c8a0a8a3fc8d798d69",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "4adb9ff5c29123de0f8bb8054a72d36d9844b93f2609d6b5814b6bb5f3187101",
+    "canonical_mapping": {
+      "speech_id": "SP-84CCE764312A",
+      "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+      "primary_cc_rationale": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T92",
+        "T106",
+        "T140"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T92",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-7A483526F2EC",
+          "rationale": "The local theme 'US Treasury borrowing and deficit acceleration' most closely matches the canonical theme 'Fiscal Deficit, Debt, and Budget Allocation' (T92), which directly addresses deficit and debt concerns."
+        },
+        {
+          "theme_id": "T106",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-1BCED7564846",
+          "rationale": "The local theme 'Monetary system and the deflationary death spiral' aligns with the canonical theme 'Inflation and deflation dynamics' (T106), as it discusses the necessity of monetary expansion to avoid deflation."
+        },
+        {
+          "theme_id": "T140",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-2D86AAC60D70",
+          "rationale": "The local theme 'Wealth transfer implications' directly corresponds to the canonical theme 'Wealth Transfer and Tax Policy' (T140), which covers wealth transfers resulting from economic policies."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T92",
+          "cc_id": "CC54",
+          "theme_id": "T92",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T106",
+          "cc_id": "CC54",
+          "theme_id": "T106",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T140",
+          "cc_id": "CC54",
+          "theme_id": "T140",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "local_cc_text": "Accelerating US government deficit spending and borrowing, driven by the monetary necessity to avoid a deflationary collapse, is causing a wealth transfer from savers to borrowers and from earners to owners, and requires investors to adopt asymmetric trading strategies.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+        "rationale": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+        "candidate_matches": [
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.6077176332473755
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.44370585680007935
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.41700032353401184
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.41545525193214417
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.41165855526924133
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "local_theme_id": "LT-7A483526F2EC",
+        "local_theme_text": "US Treasury borrowing and deficit acceleration",
+        "canonical_theme_id": "T92",
+        "confidence": 0.9,
+        "rationale": "The local theme 'US Treasury borrowing and deficit acceleration' most closely matches the canonical theme 'Fiscal Deficit, Debt, and Budget Allocation' (T92), which directly addresses deficit and debt concerns.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.6379575729370117
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5683009624481201
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.512401282787323
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.5054941773414612
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5051233172416687
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.48242512345314026
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "local_theme_id": "LT-1BCED7564846",
+        "local_theme_text": "Monetary system and the deflationary death spiral",
+        "canonical_theme_id": "T106",
+        "confidence": 0.95,
+        "rationale": "The local theme 'Monetary system and the deflationary death spiral' aligns with the canonical theme 'Inflation and deflation dynamics' (T106), as it discusses the necessity of monetary expansion to avoid deflation.",
+        "candidate_matches": [
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.7684636116027832
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.6206874251365662
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5718374252319336
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5474212169647217
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5294301509857178
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.5280003547668457
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "local_theme_id": "LT-2D86AAC60D70",
+        "local_theme_text": "Wealth transfer implications",
+        "canonical_theme_id": "T140",
+        "confidence": 0.95,
+        "rationale": "The local theme 'Wealth transfer implications' directly corresponds to the canonical theme 'Wealth Transfer and Tax Policy' (T140), which covers wealth transfers resulting from economic policies.",
+        "candidate_matches": [
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.8399760723114014
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.546155571937561
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.4294182062149048
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.2763880491256714
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.26186829805374146
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.2519610524177551
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-130279FE1C613A",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "date": "2025-08-11",
+        "source_hash": "47a347afa9f25effd805768c7c2f7e5985ad83824deb8276dd2060fd4ed9591d",
+        "pair_id": "PAIR-CC54-T92",
+        "cc_id": "CC54",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7A483526F2EC",
+        "local_theme_text": "US Treasury borrowing and deficit acceleration",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'US Treasury borrowing and deficit acceleration' most closely matches the canonical theme 'Fiscal Deficit, Debt, and Budget Allocation' (T92), which directly addresses deficit and debt concerns.",
+        "local_argument_id": "LA-303CB9D79A91",
+        "conclusion": "The US government's deficit and borrowing are accelerating and not slowing down.",
+        "premises": [
+          "Treasury announced $1.007 trillion borrowing for July-Sept and $590 billion for Oct-Dec, totaling $1.6 trillion net new borrowing by end of year.",
+          "Only about $400 billion of total borrowing goes to refill the Treasury General Account; the rest is for spending in excess of taxes.",
+          "Comparison to prior years shows 2025 above trend except June, but July spiked with $400 billion in three days."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-CDF7269528F8",
+            "item": "Treasury marketable borrowing estimates: $1.007 trillion for Q3, $590 billion for Q4, assuming end-Sept cash balance of $850 billion.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript presents numbers as from a Treasury announcement but does not include the document or independent verification.",
+            "speech_id": "SP-84CCE764312A",
+            "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+            "source_excerpt": "Released on July 28th, you are looking at from the Treasury itself their announcement of marketable borrowing estimates between now and the end of the year. During the July through September quarter, the Treasury expects to borrow 1.007 trillion in privately held net marketable debt, assuming an end of September cash balance of $850 billion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-4763E6B8BCD5",
+            "item": "Treasury added about $400 billion to national debt in net new borrowing from July 2nd through July 8th.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript states this as fact but no source document is provided.",
+            "speech_id": "SP-84CCE764312A",
+            "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+            "source_excerpt": "you can see that from July 2nd through July 8th, they added about $400 billion to the national debt in net new borrowing.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-3C4B74EEA7D7",
+            "item": "Deficit trend: 2020 shot up, 2021 similar, 2022 down, 2023/24 identical, 2025 above trend except June which was slightly below 2023 but above June for 2025.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript shows a chart and describes it but provides no specific data or source.",
+            "speech_id": "SP-84CCE764312A",
+            "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+            "source_excerpt": "we can see that so far every single month this fiscal year has been above trend compared to 2024 and 2023 and obviously 2022 except for the most current month reported which is June. June came in just barely below the June for 2023 but still above the June for 2025.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-F11A3539E47E8E",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "date": "2025-08-11",
+        "source_hash": "47a347afa9f25effd805768c7c2f7e5985ad83824deb8276dd2060fd4ed9591d",
+        "pair_id": "PAIR-CC54-T106",
+        "cc_id": "CC54",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1BCED7564846",
+        "local_theme_text": "Monetary system and the deflationary death spiral",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The local theme 'Monetary system and the deflationary death spiral' aligns with the canonical theme 'Inflation and deflation dynamics' (T106), as it discusses the necessity of monetary expansion to avoid deflation.",
+        "local_argument_id": "LA-6A3DC928B6B6",
+        "conclusion": "Unless the dollar supply is continually increased, a deflationary collapse would occur, so policymakers must keep inflating.",
+        "premises": [
+          "Every dollar is loaned into existence; paying back debt decreases money supply.",
+          "If money supply decreases, dollars become more valuable, prices plummet, leading to a scramble for dollars.",
+          "Policymakers understand this and will continue inflating to avoid collapse.",
+          "Milton Friedman argued that printing money could stop deflation in the Great Depression."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5B3EBEF7F3E9",
+            "item": "Milton Friedman's statement that inflation is always and everywhere a monetary phenomenon and that printing money could stop deflation in the Great Depression.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript attributes a view to Milton Friedman but does not provide a verifiable source or exact citation.",
+            "speech_id": "SP-84CCE764312A",
+            "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+            "source_excerpt": "This is why people like Milton Freriedman say that inflation is always and everywhere a monetary phenomenon. It wasn't that he was saying you can't get price increases without the Federal Reserve. He was saying, hey, in the Great Depression, if you wanted to stop deflation from happening, all you would have had to do was print money to the extent that was necessary.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-29181C564E7C",
+            "device": "Great Depression analogy",
+            "explanation": "To illustrate the risk of a deflationary collapse if money supply is not increased and that printing money is a policy option.",
+            "speech_id": "SP-84CCE764312A",
+            "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+            "source_excerpt": "in the Great Depression, if you wanted to stop deflation from happening, all you would have had to do was print money to the extent that was necessary.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-FAF362B6BA53DA",
+        "speech_id": "SP-84CCE764312A",
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "date": "2025-08-11",
+        "source_hash": "47a347afa9f25effd805768c7c2f7e5985ad83824deb8276dd2060fd4ed9591d",
+        "pair_id": "PAIR-CC54-T140",
+        "cc_id": "CC54",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that accelerating US deficit spending and borrowing, driven by the need to avoid deflationary collapse, causes a wealth transfer from savers to borrowers, which is the core proposition of CC54 that deficit spending forces Federal Reserve action leading to inflation and wealth transfer.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2D86AAC60D70",
+        "local_theme_text": "Wealth transfer implications",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The local theme 'Wealth transfer implications' directly corresponds to the canonical theme 'Wealth Transfer and Tax Policy' (T140), which covers wealth transfers resulting from economic policies.",
+        "local_argument_id": "LA-9E441CB6A19E",
+        "conclusion": "There is an ongoing great wealth transfer from savers to borrowers and from earners to owners due to inflation.",
+        "premises": [
+          "Savers are lenders and earn returns below real inflation, losing purchasing power.",
+          "Borrowers benefit because inflation makes debt easier to repay and asset prices rise.",
+          "Earners get raises only after inflation has already occurred, so they lose purchasing power.",
+          "Owners see asset prices increase, more than compensating for cost-of-living increases."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E13C8F7C8118",
+            "item": "General reasoning about savers, borrowers, earners, and owners under inflation.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no specific data or external support for these claims.",
+            "speech_id": "SP-84CCE764312A",
+            "source_speech_filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+            "source_excerpt": "This is a wealth transfer from savers to borrowers and from earners to owners. The reason why it's wealth transfer from savers is because savers are lenders...",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "50561043fdcea20eaa37002bfc191af1ad155a0c39e857c8a0a8a3fc8d798d69",
+  "complete": true
+}

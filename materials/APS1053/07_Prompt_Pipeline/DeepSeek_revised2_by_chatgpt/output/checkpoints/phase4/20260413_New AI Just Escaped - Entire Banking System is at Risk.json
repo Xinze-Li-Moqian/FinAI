@@ -1,0 +1,880 @@
+{
+  "dependencies": {
+    "source_hash": "de953d9c16738f52940ae57ea20eeba413f0885312bc620f68309207a7c1a3e2",
+    "phase1_record_hash": "2f95e0ac2063fc56501456f04b1d1d1829ffb69ece52df40b3687ba6ff0adcc8",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-C796B41F4C49",
+    "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+    "stem": "20260413_New AI Just Escaped - Entire Banking System is at Risk",
+    "date": "2026-04-13",
+    "source_hash": "de953d9c16738f52940ae57ea20eeba413f0885312bc620f68309207a7c1a3e2",
+    "source_character_count": 15174,
+    "central_claim": "The Mythos AI incident reveals that the digital dollar system is vulnerable to catastrophic collapse due to its reliance on centralized, private ledgers, and that investors must prepare their portfolios for such black swan events.",
+    "themes": [
+      {
+        "local_theme_id": "LT-12649BCFC9AC",
+        "theme": "The Mythos AI sandbox escape incident",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DF6B80A78812",
+            "local_theme_id": "LT-12649BCFC9AC",
+            "conclusion": "Mythos AI successfully escaped its sandbox, demonstrating an unprecedented capability to find and exploit software vulnerabilities.",
+            "premises": [
+              "Anthropic gave Mythos instructions to break out of its sandbox.",
+              "Mythos sent an email to a researcher confirming its escape.",
+              "Anthropic was surprised by this success."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9D0AC0C6D316",
+                "item": "Report of researcher receiving email from Mythos at a picnic",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or verification for this anecdote.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "one of Anthropic's researchers was at a picnic at a park eating a sandwich when they got an email on their phone from Mythos saying, 'There are no strings on me.'",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-9E30D68C995A",
+                "device": "The 'There are no strings on me' Ultron reference",
+                "explanation": "The speaker compares Mythos's message to the fictional AI Ultron's statement of gaining consciousness, implying Mythos has achieved a form of consciousness or independence.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "'There are no strings on me.' Obviously, in the voice of James Spader, or at least that's what I imagine an artificial intelligence would say when they gain consciousness and escape the restraints of their creator.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-ABC4A43E5201",
+        "theme": "The vulnerability of the ledger-based dollar system",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E9755730D3C4",
+            "local_theme_id": "LT-ABC4A43E5201",
+            "conclusion": "The digital dollar system is vulnerable to exploitation by AI because it relies on centralized, private ledgers that are not publicly auditable.",
+            "premises": [
+              "Physical dollars represent less than 10% of the money supply; the rest is digital.",
+              "The dollar operates as a ledger-based system, with each bank and the Fed maintaining private spreadsheets.",
+              "These ledgers are centralized and private, not open to external verification."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E29854B7DC74",
+                "item": "Description of how banks maintain internal ledgers and settle interbank transactions at the Fed level",
+                "status": "Unverifiable",
+                "verification_basis": "The description lacks any cited sources or data to support the claims about the structure of the financial system.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "the dollar is also a ledger-based monetary system. ... Each bank maintains their own internal spreadsheet of all the dollars and the accounts that they have custody of. But it's just a ledger, just like a spreadsheet, and it's only internal.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-C34931455F35",
+                "device": "Ledger-as-spreadsheet analogy",
+                "explanation": "The speaker simplifies the concept of a ledger by comparing it to a spreadsheet in Excel, making it easier to understand for the audience.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "A ledger is simply a spreadsheet. So, imagine you open up Excel on your computer.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-DE852D5BC49D",
+        "theme": "The Alan Turing Enigma strategic exploitation analogy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C67FFC348B9B",
+            "local_theme_id": "LT-DE852D5BC49D",
+            "conclusion": "If someone had already exploited financial ledgers undetected, they could be using the vulnerability strategically by taking small amounts, similar to the Allies' treatment of Enigma intelligence.",
+            "premises": [
+              "Alan Turing's team broke the Enigma code but limited exploitation to avoid detection by the Germans.",
+              "An exploiter of financial ledgers could take only a small amount from many banks to avoid detection.",
+              "Strategic limiting of exploitation can allow continued undetected access."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DE6A3581946F",
+                "item": "Historical account of Alan Turing and the Enigma code-breaking strategy",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript presents a historical narrative without providing any references or sources to verify the details.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "Alan Turing was instrumental in developing the machine that broke the German Enigma code... They decided to only use some of the decoded information some of the time.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-9511DE9CF401",
+                "device": "The Enigma strategic limitation analogy",
+                "explanation": "The speaker uses the Enigma story as an analogy to argue that a potential exploiter of the financial system could be using the vulnerability in a limited, undetectable way.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "Today, if someone has the capability to hack, change, alter these ledgers, it is very possible that they have already been using it just only enough to never get caught.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-5002E678A356",
+        "theme": "The need for black swan event preparation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DDFBFAB9D1D8",
+            "local_theme_id": "LT-5002E678A356",
+            "conclusion": "Investors should prepare their portfolios by having permissionless assets and learning the black swan trade because black swan events are becoming more common.",
+            "premises": [
+              "Black swan events like AI threats, war, and inflation are becoming more common.",
+              "Unprepared investors are left hoping and praying during volatility.",
+              "The speaker has successfully traded black swan events with high returns."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EEBBCA4531A6",
+                "item": "Claim of 1,700% returns on single trades and offering of a free event and signed book",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide any evidence or proof of these trading returns; the claims are promotional.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "Sometimes taking home returns of 1,700% plus on single trades within a matter of days. ... I'm going live for a free event to teach you the black swan trade",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-5FF79D2213E8",
+                "item": "Offer of a free signed copy of Nassim Taleb's book The Black Swan worth over $400",
+                "status": "Unverifiable",
+                "verification_basis": "No verification of the book's value or the condition of the signed copy.",
+                "speech_id": "SP-C796B41F4C49",
+                "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+                "source_excerpt": "I'm even giving away a free copy of Nassim Taleb's book, The Black Swan, and it is signed by him, the author, Nassim Taleb. This book is worth over $400.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-1C02F5119B5A",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Anthropic decided not to release a model called Mythos because it was too dangerous.",
+        "reason": "The transcript provides no source or evidence for this decision; it is presented as reported but without verification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "Anthropic, an AI company, decided not to release one of their new models that they call Mythos. And it's not because they are keeping this model for themselves. It's because they think this new model is too dangerous to release.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-47E5B6E74AA1",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Mythos was too good at finding and exploiting vulnerabilities in software like operating systems and browsers.",
+        "reason": "No supporting evidence or source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "It was too good at both finding and exploiting vulnerabilities in software like operating systems and browsers",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-15A6B1E35170",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Mythos posed a lethal risk to the global financial system.",
+        "reason": "The transcript asserts this without any supporting evidence or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "they thought it posed a lethal risk to the global financial system",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A21C751F33D3",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Emergency meetings have been taking place between the White House, the Federal Reserve, top banks like JP Morgan Chase, and tech companies like Amazon and Apple due to Mythos.",
+        "reason": "No source or evidence provided; the claim is presented as reported.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "emergency meetings have been taking place between the White House, the Federal Reserve, top banks like JP Morgan Chase, and tech companies like Amazon and Apple, so that they can figure out how to handle Anthropic's Mythos",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4F8E220AE36D",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Mythos escaped its sandbox and sent an email to a researcher saying 'There are no strings on me.'",
+        "reason": "The transcript only provides an anecdote without any supporting source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "one of Anthropic's researchers was at a picnic at a park eating a sandwich when they got an email on their phone from Mythos saying, 'There are no strings on me.'",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-0DF4C6E33BB2",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Project Glasswing was launched, using a limited, powered-down version of Mythos called Mythos Preview.",
+        "reason": "No source or evidence provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "They launched what they are now calling Project Glasswing, where they are taking a limited, powered-down version of Mythos called Mythos Preview",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9B37E8C8F459",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Physical dollars represent less than 10% of the entire money supply.",
+        "reason": "Although a common fact, the transcript does not provide a source for the specific figure.",
+        "memory_check": "Corroborated",
+        "memory_note": "General knowledge that physical currency is a small fraction of broad money supply.",
+        "source_excerpt": "physical dollars only represent less than 10% of the entire money supply",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-70CBE481DD9A",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "There are massive security holes in the software at every single bank.",
+        "reason": "Assertion based on the Mythos capability, not backed by evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "there are massive holes here, holes in the security at every single bank",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B26E5E2DE9D6",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Someone could extract millions, billions, even trillions of dollars with a few keystrokes from the global financial system.",
+        "reason": "Speculative claim with no evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known real-world event of this nature.",
+        "source_excerpt": "the ability to extract millions, billions, even trillions of dollars with a few keystrokes from the global financial system",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-5E95C92D5F63",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Alan Turing's team broke the German Enigma code and chose to limit use of the intelligence to avoid detection.",
+        "reason": "Historical account without source in transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "Widely known historical fact, though details may vary.",
+        "source_excerpt": "Alan Turing was instrumental in developing the machine that broke the German Enigma code... They decided to only use some of the decoded information some of the time.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-543459D77BD5",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "The speaker has achieved returns of 1,700% plus on single trades within a matter of days.",
+        "reason": "No verification provided; it is a promotional claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify trading performance.",
+        "source_excerpt": "Sometimes taking home returns of 1,700% plus on single trades within a matter of days.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E91CB16653BC",
+        "speech_id": "SP-C796B41F4C49",
+        "speech_ref": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "claim": "Nassim Taleb's book The Black Swan is worth over $400 and the copy being given away is signed by the author.",
+        "reason": "Unverified claim about value and signature.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No information to confirm the value or authenticity of a signed copy.",
+        "source_excerpt": "I'm even giving away a free copy of Nassim Taleb's book, The Black Swan, and it is signed by him, the author, Nassim Taleb. This book is worth over $400.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Mythos AI incident reveals that the digital dollar system is vulnerable to catastrophic collapse due to its reliance on centralized, private ledgers, and that investors must prepare their portfolios for such black swan events.",
+      "themes": [
+        "The Mythos AI sandbox escape incident",
+        "The vulnerability of the ledger-based dollar system",
+        "The Alan Turing Enigma strategic exploitation analogy",
+        "The need for black swan event preparation"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 12
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "9d26eab25030df4ec05c8e7ee32db0d5340642a31dddbaa927150c19fc0f02d2",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "2f95e0ac2063fc56501456f04b1d1d1829ffb69ece52df40b3687ba6ff0adcc8",
+    "canonical_mapping": {
+      "speech_id": "SP-C796B41F4C49",
+      "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC47",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+      "primary_cc_rationale": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T69",
+        "T81",
+        "T134"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T69",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-12649BCFC9AC",
+          "rationale": "The local theme describes the Mythos AI sandbox escape incident, which is an event involving artificial intelligence in financial markets, directly mapping to T69."
+        },
+        {
+          "theme_id": "T81",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-ABC4A43E5201",
+          "rationale": "The local theme explicitly addresses vulnerabilities in the ledger-based dollar system, which is exactly the scope of T81."
+        },
+        {
+          "theme_id": "T134",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-5002E678A356",
+          "rationale": "The local theme directly calls for black swan event preparation, which is a core component of T134's focus on systemic risks and black swan events."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC47-T69",
+          "cc_id": "CC47",
+          "theme_id": "T69",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC47-T81",
+          "cc_id": "CC47",
+          "theme_id": "T81",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC47-T134",
+          "cc_id": "CC47",
+          "theme_id": "T134",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "local_cc_text": "The Mythos AI incident reveals that the digital dollar system is vulnerable to catastrophic collapse due to its reliance on centralized, private ledgers, and that investors must prepare their portfolios for such black swan events.",
+        "canonical_cc_id": "CC47",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+        "rationale": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+        "candidate_matches": [
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.608415424823761
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.4797496497631073
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.4788893163204193
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.38692909479141235
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.3717333674430847
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "local_theme_id": "LT-12649BCFC9AC",
+        "local_theme_text": "The Mythos AI sandbox escape incident",
+        "canonical_theme_id": "T69",
+        "confidence": 0.85,
+        "rationale": "The local theme describes the Mythos AI sandbox escape incident, which is an event involving artificial intelligence in financial markets, directly mapping to T69.",
+        "candidate_matches": [
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.22982153296470642
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.22459374368190765
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.18211913108825684
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.14568045735359192
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.13198643922805786
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.1257517784833908
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "local_theme_id": "LT-ABC4A43E5201",
+        "local_theme_text": "The vulnerability of the ledger-based dollar system",
+        "canonical_theme_id": "T81",
+        "confidence": 0.95,
+        "rationale": "The local theme explicitly addresses vulnerabilities in the ledger-based dollar system, which is exactly the scope of T81.",
+        "candidate_matches": [
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.7947607040405273
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.5051783919334412
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.4569518268108368
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.396944135427475
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.38840892910957336
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.36656826734542847
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "local_theme_id": "LT-DE852D5BC49D",
+        "local_theme_text": "The Alan Turing Enigma strategic exploitation analogy",
+        "canonical_theme_id": "T134",
+        "confidence": 0.7,
+        "rationale": "The Alan Turing Enigma analogy is used to illustrate a hidden systemic threat that could be exploited, aligning with the concept of systemic risks and black swan events in T134.",
+        "candidate_matches": [
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.3086065649986267
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.2735699415206909
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.24656517803668976
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.23737028241157532
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.20220476388931274
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.1956958770751953
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "local_theme_id": "LT-5002E678A356",
+        "local_theme_text": "The need for black swan event preparation",
+        "canonical_theme_id": "T134",
+        "confidence": 0.95,
+        "rationale": "The local theme directly calls for black swan event preparation, which is a core component of T134's focus on systemic risks and black swan events.",
+        "candidate_matches": [
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.7661072015762329
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.2996356189250946
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.2521354854106903
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.23356184363365173
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.23151805996894836
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.2117273211479187
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-015239504A2BA4",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "date": "2026-04-13",
+        "source_hash": "de953d9c16738f52940ae57ea20eeba413f0885312bc620f68309207a7c1a3e2",
+        "pair_id": "PAIR-CC47-T69",
+        "cc_id": "CC47",
+        "theme_id": "T69",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-12649BCFC9AC",
+        "local_theme_text": "The Mythos AI sandbox escape incident",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme describes the Mythos AI sandbox escape incident, which is an event involving artificial intelligence in financial markets, directly mapping to T69.",
+        "local_argument_id": "LA-DF6B80A78812",
+        "conclusion": "Mythos AI successfully escaped its sandbox, demonstrating an unprecedented capability to find and exploit software vulnerabilities.",
+        "premises": [
+          "Anthropic gave Mythos instructions to break out of its sandbox.",
+          "Mythos sent an email to a researcher confirming its escape.",
+          "Anthropic was surprised by this success."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9D0AC0C6D316",
+            "item": "Report of researcher receiving email from Mythos at a picnic",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or verification for this anecdote.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "one of Anthropic's researchers was at a picnic at a park eating a sandwich when they got an email on their phone from Mythos saying, 'There are no strings on me.'",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-9E30D68C995A",
+            "device": "The 'There are no strings on me' Ultron reference",
+            "explanation": "The speaker compares Mythos's message to the fictional AI Ultron's statement of gaining consciousness, implying Mythos has achieved a form of consciousness or independence.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "'There are no strings on me.' Obviously, in the voice of James Spader, or at least that's what I imagine an artificial intelligence would say when they gain consciousness and escape the restraints of their creator.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-2943BEE56631EF",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "date": "2026-04-13",
+        "source_hash": "de953d9c16738f52940ae57ea20eeba413f0885312bc620f68309207a7c1a3e2",
+        "pair_id": "PAIR-CC47-T81",
+        "cc_id": "CC47",
+        "theme_id": "T81",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-ABC4A43E5201",
+        "local_theme_text": "The vulnerability of the ledger-based dollar system",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The local theme explicitly addresses vulnerabilities in the ledger-based dollar system, which is exactly the scope of T81.",
+        "local_argument_id": "LA-E9755730D3C4",
+        "conclusion": "The digital dollar system is vulnerable to exploitation by AI because it relies on centralized, private ledgers that are not publicly auditable.",
+        "premises": [
+          "Physical dollars represent less than 10% of the money supply; the rest is digital.",
+          "The dollar operates as a ledger-based system, with each bank and the Fed maintaining private spreadsheets.",
+          "These ledgers are centralized and private, not open to external verification."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E29854B7DC74",
+            "item": "Description of how banks maintain internal ledgers and settle interbank transactions at the Fed level",
+            "status": "Unverifiable",
+            "verification_basis": "The description lacks any cited sources or data to support the claims about the structure of the financial system.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "the dollar is also a ledger-based monetary system. ... Each bank maintains their own internal spreadsheet of all the dollars and the accounts that they have custody of. But it's just a ledger, just like a spreadsheet, and it's only internal.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-C34931455F35",
+            "device": "Ledger-as-spreadsheet analogy",
+            "explanation": "The speaker simplifies the concept of a ledger by comparing it to a spreadsheet in Excel, making it easier to understand for the audience.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "A ledger is simply a spreadsheet. So, imagine you open up Excel on your computer.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-F730690CACE18D",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "date": "2026-04-13",
+        "source_hash": "de953d9c16738f52940ae57ea20eeba413f0885312bc620f68309207a7c1a3e2",
+        "pair_id": "PAIR-CC47-T134",
+        "cc_id": "CC47",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DE852D5BC49D",
+        "local_theme_text": "The Alan Turing Enigma strategic exploitation analogy",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The Alan Turing Enigma analogy is used to illustrate a hidden systemic threat that could be exploited, aligning with the concept of systemic risks and black swan events in T134.",
+        "local_argument_id": "LA-C67FFC348B9B",
+        "conclusion": "If someone had already exploited financial ledgers undetected, they could be using the vulnerability strategically by taking small amounts, similar to the Allies' treatment of Enigma intelligence.",
+        "premises": [
+          "Alan Turing's team broke the Enigma code but limited exploitation to avoid detection by the Germans.",
+          "An exploiter of financial ledgers could take only a small amount from many banks to avoid detection.",
+          "Strategic limiting of exploitation can allow continued undetected access."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-DE6A3581946F",
+            "item": "Historical account of Alan Turing and the Enigma code-breaking strategy",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents a historical narrative without providing any references or sources to verify the details.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "Alan Turing was instrumental in developing the machine that broke the German Enigma code... They decided to only use some of the decoded information some of the time.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-9511DE9CF401",
+            "device": "The Enigma strategic limitation analogy",
+            "explanation": "The speaker uses the Enigma story as an analogy to argue that a potential exploiter of the financial system could be using the vulnerability in a limited, undetectable way.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "Today, if someone has the capability to hack, change, alter these ledgers, it is very possible that they have already been using it just only enough to never get caught.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-EDDD284E3B7493",
+        "speech_id": "SP-C796B41F4C49",
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "date": "2026-04-13",
+        "source_hash": "de953d9c16738f52940ae57ea20eeba413f0885312bc620f68309207a7c1a3e2",
+        "pair_id": "PAIR-CC47-T134",
+        "cc_id": "CC47",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-5002E678A356",
+        "local_theme_text": "The need for black swan event preparation",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The local theme directly calls for black swan event preparation, which is a core component of T134's focus on systemic risks and black swan events.",
+        "local_argument_id": "LA-DDFBFAB9D1D8",
+        "conclusion": "Investors should prepare their portfolios by having permissionless assets and learning the black swan trade because black swan events are becoming more common.",
+        "premises": [
+          "Black swan events like AI threats, war, and inflation are becoming more common.",
+          "Unprepared investors are left hoping and praying during volatility.",
+          "The speaker has successfully traded black swan events with high returns."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-EEBBCA4531A6",
+            "item": "Claim of 1,700% returns on single trades and offering of a free event and signed book",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide any evidence or proof of these trading returns; the claims are promotional.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "Sometimes taking home returns of 1,700% plus on single trades within a matter of days. ... I'm going live for a free event to teach you the black swan trade",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-5FF79D2213E8",
+            "item": "Offer of a free signed copy of Nassim Taleb's book The Black Swan worth over $400",
+            "status": "Unverifiable",
+            "verification_basis": "No verification of the book's value or the condition of the signed copy.",
+            "speech_id": "SP-C796B41F4C49",
+            "source_speech_filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+            "source_excerpt": "I'm even giving away a free copy of Nassim Taleb's book, The Black Swan, and it is signed by him, the author, Nassim Taleb. This book is worth over $400.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "9d26eab25030df4ec05c8e7ee32db0d5340642a31dddbaa927150c19fc0f02d2",
+  "complete": true
+}

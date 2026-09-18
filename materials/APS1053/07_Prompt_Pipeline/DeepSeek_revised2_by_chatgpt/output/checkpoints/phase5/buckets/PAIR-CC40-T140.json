@@ -1,0 +1,137 @@
+{
+  "dependency_hash": "55d956af434e21fbc25905d778677c64b10e518b19a042fa27de9f1b5154adc7",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC40-T140",
+    "cc_id": "CC40",
+    "theme_id": "T140",
+    "authoritative_anchor": "cc-cc40-theme-t140",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC40-T140-62D4BAA6F2",
+        "pair_id": "PAIR-CC40-T140",
+        "conclusion": "Investors should focus on controllable factors such as risk management, research, and emotional discipline to maximize long-term wealth.",
+        "source_contribution_ids": [
+          "CONTRIB-2003D0C01E1037"
+        ],
+        "source_speech_filenames": [
+          "20250813_What I Learned Losing a Million Dollars.txt"
+        ],
+        "premise_synthesis": "Macro factors like monetary and fiscal policy are outside the investor's control. Overemphasis on external factors can lead to poor decisions, as exemplified by the speaker's tax focus leading to a suboptimal outcome.",
+        "conclusion_supported": "The premise that overemphasis on uncontrollable external factors leads to poor decisions supports the conclusion that investors should focus on controllable factors.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-2003D0C01E1037"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Speaker's advice to control controllables",
+            "status": "Unverifiable",
+            "verification_basis": "Normative advice without empirical support.",
+            "source_contribution_ids": [
+              "CONTRIB-2003D0C01E1037"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ],
+            "source_excerpt": "Control the controllables. Focus on what we can change. managing your risk, doing your research, checking your emotions, and making financial decisions based off of the only financial metric that matters, maximizing total long-term wealth."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "The argument is derived from a single speech recorded on 2025-08-13. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC40-T140-06ECEAC718",
+        "pair_id": "PAIR-CC40-T140",
+        "conclusion": "Tax considerations should never be the sole factor in investment decisions.",
+        "source_contribution_ids": [
+          "CONTRIB-09DF6BA7C861F6"
+        ],
+        "source_speech_filenames": [
+          "20250813_What I Learned Losing a Million Dollars.txt"
+        ],
+        "premise_synthesis": "The speaker experienced an unrealized gain of approximately $1.5–1.6 million and delayed selling solely to defer capital gains tax. Over the following six weeks, the gain shrank to about $500,000, resulting in a net loss of nearly $1 million relative to selling earlier.",
+        "conclusion_supported": "The premise of delaying sale for tax deferral leading to a substantial loss supports the conclusion that tax considerations should not be the sole factor in investment decisions.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-09DF6BA7C861F6"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Loss of approximately $1 million in profit due to tax-deferral hold",
+            "status": "Unverifiable",
+            "verification_basis": "Personal account without external verification.",
+            "source_contribution_ids": [
+              "CONTRIB-09DF6BA7C861F6"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ],
+            "source_excerpt": "I watched that 1.5 $1.6 million gain shrink down to about 500 a little over a $500,000 gain."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "\"Tax tail wagging the investment dog\" metaphor",
+            "explanation": "Illustrates that letting taxes drive decisions leads to poorer outcomes.",
+            "source_contribution_ids": [
+              "CONTRIB-09DF6BA7C861F6"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ]
+          },
+          {
+            "device": "\"Cherry on top of the ice cream sundae\" analogy",
+            "explanation": "Taxes are a small part of the overall picture and should not be the main focus.",
+            "source_contribution_ids": [
+              "CONTRIB-09DF6BA7C861F6"
+            ],
+            "source_speech_filenames": [
+              "20250813_What I Learned Losing a Million Dollars.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "The argument is derived from a single speech recorded on 2025-08-13. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-09DF6BA7C861F6",
+      "CONTRIB-2003D0C01E1037"
+    ],
+    "source_speech_filenames": [
+      "20250813_What I Learned Losing a Million Dollars.txt"
+    ],
+    "generated_at": "2026-07-15T03:29:03+00:00",
+    "record_hash": "7fdff543424adc8bba85b8e583fcdb04620ec9e0b8c9edd02d0f58741435acf3"
+  },
+  "complete": true
+}

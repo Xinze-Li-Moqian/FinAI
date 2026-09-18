@@ -1,0 +1,82 @@
+{
+  "dependency_hash": "644a1d366481b8d64fb694e54ed289d80736dd83280a96c188058cd052c957cb",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC47-T81",
+    "cc_id": "CC47",
+    "theme_id": "T81",
+    "authoritative_anchor": "cc-cc47-theme-t81",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC47-T81-A63F02A9D3",
+        "pair_id": "PAIR-CC47-T81",
+        "conclusion": "The digital dollar system is vulnerable to exploitation by AI because it relies on centralized, private ledgers that are not publicly auditable.",
+        "source_contribution_ids": [
+          "CONTRIB-2943BEE56631EF"
+        ],
+        "source_speech_filenames": [
+          "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt"
+        ],
+        "premise_synthesis": "Physical dollars account for less than 10% of the money supply, with the remainder being digital. The dollar operates as a ledger-based system where each bank and the Federal Reserve maintain private spreadsheets. These ledgers are centralized and private, not open to external verification, creating a vulnerability that can be exploited by AI.",
+        "conclusion_supported": "The conclusion is supported by the premise that the digital dollar system depends on centralized, private ledgers that lack public auditability, making them susceptible to AI-driven exploitation.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-2943BEE56631EF"
+            ],
+            "source_speech_filenames": [
+              "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt"
+            ],
+            "relationship_explanations": [
+              "The speech's local central claim directly instantiates the Mythos AI incident component of CC47, providing a detailed argument that the digital dollar system is vulnerable due to centralized private ledgers, and concluding with investor preparation advice. This supports CC47's assertion that these developments highlight distinct risks in financial markets."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Description of how banks maintain internal ledgers and settle interbank transactions at the Fed level",
+            "status": "Unverifiable",
+            "verification_basis": "The description lacks any cited sources or data to support the claims about the structure of the financial system.",
+            "source_contribution_ids": [
+              "CONTRIB-2943BEE56631EF"
+            ],
+            "source_speech_filenames": [
+              "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt"
+            ],
+            "source_excerpt": "the dollar is also a ledger-based monetary system. ... Each bank maintains their own internal spreadsheet of all the dollars and the accounts that they have custody of. But it's just a ledger, just like a spreadsheet, and it's only internal."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Ledger-as-spreadsheet analogy",
+            "explanation": "The speaker simplifies the concept of a ledger by comparing it to a spreadsheet in Excel, making it easier to understand for the audience.",
+            "source_contribution_ids": [
+              "CONTRIB-2943BEE56631EF"
+            ],
+            "source_speech_filenames": [
+              "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is drawn from a single speech dated 2026-04-13; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-2943BEE56631EF"
+    ],
+    "source_speech_filenames": [
+      "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt"
+    ],
+    "generated_at": "2026-07-15T03:48:22+00:00",
+    "record_hash": "089addbb24f0fc091140d58abb4b0162984dbe863149ec63f2191cd671924fc0"
+  },
+  "complete": true
+}

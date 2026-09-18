@@ -1,0 +1,592 @@
+{
+  "phase": "phase1",
+  "schema_version": "2.0",
+  "prompt_version": "2.0",
+  "model": "deepseek-v4-flash",
+  "configuration": {
+    "model": "deepseek-v4-flash",
+    "base_url": "https://api.deepseek.com/v1",
+    "temperature": 0,
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "bucket_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "embedding_model": "mukaj/fin-mpnet-base",
+    "cc_dedup_threshold": 0.85,
+    "theme_dedup_threshold": 0.85,
+    "canonical_stability_threshold": 0.9,
+    "classification_confidence_min": 0.7,
+    "theme_mapping_confidence_min": 0.55,
+    "max_themes_per_speech": 3,
+    "allow_secondary_cc_contributions": false,
+    "assembly_bucket_limit": 20,
+    "bucket_subgroup_size": 10,
+    "cc_ratio_min": 0.06,
+    "cc_ratio_max": 0.08,
+    "theme_ratio_min": 0.12,
+    "theme_ratio_max": 0.16,
+    "target_counts_are_hard": false
+  },
+  "dependencies": {
+    "source_files": [
+      {
+        "filename": "20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.txt",
+        "source_hash": "1e0ff3a87c95c4978b0a89ea42bbfde31555bc2f382c6d2e1bee71e168aa1558"
+      },
+      {
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "source_hash": "0b3b3d1c559e9b268b0a4bfe96384d3acfa1144e635d07b837877087faef8c84"
+      },
+      {
+        "filename": "20250814_It's Time to Get Your Wealth Outside the System.txt",
+        "source_hash": "11aac8c6a8488779d5e115025448f19e3ae1af1faa4c181f8d49724187314723"
+      },
+      {
+        "filename": "20250816_Now the Fed is Talking about Gold Revaluation.txt",
+        "source_hash": "63fba3d610d4d1d002f9896f401b22404189341054cc5d5af34a4c04a6ead0a7"
+      },
+      {
+        "filename": "20250818_Cash Allocations at Record Low - but Money Supply at All-Time-High.txt",
+        "source_hash": "c82f413421605dc9ba779558b2ccb9a087ead1de51c2718ad2c4ebbe5b034f71"
+      },
+      {
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "source_hash": "d28b3c31fba53c8f003eadd0f8b749d8b97a288d491cc27abdddc99a2ac97019"
+      },
+      {
+        "filename": "20250823_What is the Optimal Money Supply.txt",
+        "source_hash": "4f49c47f57db219b09f7058d45f53dcde324c3ea7328638ed691e3a7686cabf6"
+      },
+      {
+        "filename": "20250825_Reverse Repo Facility (finally) Completely Drained.txt",
+        "source_hash": "cc226464e23d885c05781ea43cfcec2f4d4112561b8d88602f2f6e328408ae4a"
+      },
+      {
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "source_hash": "58d2b61ab2fafca20df35eb311ab293f468259c05372e4c33dd35eb362bd6130"
+      },
+      {
+        "filename": "20250830_Did the Fed Just Abandon its 2% Inflation Target.txt",
+        "source_hash": "b6e59df6b65a9b6d75e6cb9a0a298fb63ff08fca2ccc4f6086470a508399950f"
+      },
+      {
+        "filename": "20250901_The Government is Borrowing Half a Trillion Dollars Per Month.txt",
+        "source_hash": "10101c6d9add1a0de52d6ac37aba370b6791b1681924a66cc3fd3bc4abe4ecc8"
+      },
+      {
+        "filename": "20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.txt",
+        "source_hash": "20a4dfd002a2223eb8b00352ec406c63eff66bdd9b1ab27cc340108fb2960e14"
+      },
+      {
+        "filename": "20250905_Why Gold is Rising So Much, and So Quickly.txt",
+        "source_hash": "5efd7e6681fe86a6466a6b27b89d70621e54ceb73c75b62d204aa891ede8f570"
+      },
+      {
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "source_hash": "e79ce20a38ea528a3a354d8bd691c0e116c718b1d75b18a4bf9b028b4e4b2132"
+      },
+      {
+        "filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "source_hash": "0d893aa31ca25a1cbba7aa50032d84bd8d066df4783e872cbe8a867e6b36512f"
+      },
+      {
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "source_hash": "ab9fd59bebc3b0afa1a4e86bfeca463bec908a19ac3dd5a37ee925bce866988a"
+      },
+      {
+        "filename": "20250915_The History of Money - and What Comes Next.txt",
+        "source_hash": "0841d040251dc65b46ff45c4677e25f8b7fd146a4cce9f465e63e8fda2804876"
+      },
+      {
+        "filename": "20250918_Rate Cuts are a Distraction, Watch This Instead.txt",
+        "source_hash": "e110c2f10cccec9b7b155205686da8d5a4ce2d893d16cb6f3ab85d5b2b8b5e9c"
+      },
+      {
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "source_hash": "1eb260376eb886915b1adb9d9cfdd924af87ba9accd319a7e44b0820931649b6"
+      },
+      {
+        "filename": "20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.txt",
+        "source_hash": "3ac81d4004624f0dad35cc6b0ba5c04508193c66757665e0e8acdb9f2937e2b1"
+      },
+      {
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "source_hash": "5d64140c0dfb0d8da4940dc0dfc0d88907c6e3449449a2d225134b7781944658"
+      },
+      {
+        "filename": "20251001_The Government Shutdown This Time is Different.txt",
+        "source_hash": "b2593587c82e763b7ce470aefae1e896d81ab6b7f1f79ba99cc53df282b0936d"
+      },
+      {
+        "filename": "20251003_You Aren’t Ready for what Stocks are About To Do.txt",
+        "source_hash": "574ec70d52ecf628144592207baffc26b348000a21d90009441790a5e3debce7"
+      },
+      {
+        "filename": "20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.txt",
+        "source_hash": "db70e950f8a920861f203cd1a4f23603a3f5c1e1a700c34175e86ead9cfa9ef4"
+      },
+      {
+        "filename": "20251008_How Long Will it Take for the Dollar to Hyperinflate.txt",
+        "source_hash": "32963036c1be05113f8189d251bf4cab0b0f56914d9236f140565a0c037bef64"
+      },
+      {
+        "filename": "20251010_Gold at $4,000 is a Terrifying Sign of What's Coming.txt",
+        "source_hash": "4ab614a7383c8c3fd1b24ec3c525c108a2fca681c04ac85ef41c2b7963e8c8d9"
+      },
+      {
+        "filename": "20251013_The Next Economic Crisis is Not What You Think.txt",
+        "source_hash": "3292c9c00964a396e6e440a4790cf72273f264440c5513e84df358c3373c54c1"
+      },
+      {
+        "filename": "20251016_The Fed Just Announced When QT Will End.txt",
+        "source_hash": "2591eac6fb6ffa7242ea1377ae57953edaa169c8d8260a58c64310ca3aaa4b82"
+      },
+      {
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "source_hash": "0ba1e2624154d37d01907c5a8fd271269a99613c86a32e09b1b88c1df601fb1a"
+      },
+      {
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "source_hash": "80605e1d1ed75e47248880a1291b6c8999641d66359ce46c6823f5282f6589ca"
+      },
+      {
+        "filename": "20251024_How Gold Could Become Money Again.txt",
+        "source_hash": "c0f603ddcd13bdb30b22db2ce32d058dbc82c2c9eef41a29b7514d822e94f2f0"
+      },
+      {
+        "filename": "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt",
+        "source_hash": "ec540eca5178f9c28a4e7907d93eb3e08f68c8f560549081d27f229e88f03d18"
+      },
+      {
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "source_hash": "2d88bd27e70b7fa060016f281682ef581a106cead43547bc08886bf436bbb7c4"
+      },
+      {
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "source_hash": "73e81798c7f436717e8713fdf4a5270fda3e72d3cbbfc88974cc3b4af718348b"
+      },
+      {
+        "filename": "20251103_How Artificially Low Rates Actually Destroy Wealth.txt",
+        "source_hash": "7e30a1f266ba3003dccb3f08f4b99fc33a3a44d1c404101befebca0e1e13e326"
+      },
+      {
+        "filename": "20251105_Repo Market Just Spiked, 2008 Repeat.txt",
+        "source_hash": "b7b46ee3885311d91a7e81bec738b10cda5b82148463d414bf40f359925e00e6"
+      },
+      {
+        "filename": "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt",
+        "source_hash": "afc1d7514ae43ffdab1c9e6ac1c12bf8ea445d5bbb6deed09c4639f680811985"
+      },
+      {
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "source_hash": "c744ad39d5acc26c9bb2302b496b3366200995016cc51365a0d844f2f84c07d3"
+      },
+      {
+        "filename": "20251112_How 50 Year Mortgages will Change Real Estate.txt",
+        "source_hash": "143a28c14afbd2580eafa365c6a0dcc349531141c4b2d8fc362d4ff7e6324592"
+      },
+      {
+        "filename": "20251115_They are About to Flood the Market with Liquidity.txt",
+        "source_hash": "fdd15074a42f3627a248b4eaa729b05eda7490af48bed2f0b9d89c71e60af883"
+      },
+      {
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "source_hash": "f0945f962a1695dcd605c97fa92e0893c615acd3bee5bb1bd510a7e276ef7ef4"
+      },
+      {
+        "filename": "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt",
+        "source_hash": "a9d651134bcbd1e4b9a601199b31c5779be5b23ede4a161bd5e3de91b22ad05e"
+      },
+      {
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "source_hash": "9eb7ca6b3bb2fbbb584af3328ddd2122ece622104d675260c208426674ddab93"
+      },
+      {
+        "filename": "20251124_The Fed Just Revealed Their Next Move.txt",
+        "source_hash": "0ae0bcdd03b7866b405800be1159754520c4108710972e19707a971cd1c6a775"
+      },
+      {
+        "filename": "20251127_If You Make Less than $140k, You’re Below the Poverty Line.txt",
+        "source_hash": "f6e1c576cfd2f75bfe4d8237def7578bd3666c75af79fbae89767f11de6ad4ec"
+      },
+      {
+        "filename": "20251201_Markets are About to Do the Unexpected.txt",
+        "source_hash": "8430f3984114f409e5c2384a627ec04d460079570933a88ef0adc39acce787ce"
+      },
+      {
+        "filename": "20251203_The End of Bitcoin.txt",
+        "source_hash": "1c04bfbac64ae0e075443a0643f6f5d42e2cb7922798fb80739f9cb38cf92263"
+      },
+      {
+        "filename": "20251206_Layoffs Everywhere, But Jobless Claims are Dropping.txt",
+        "source_hash": "52f2f27284d5e02244254a91cbf53d22f405d4834b813f4d6c9df3d84cd09569"
+      },
+      {
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "source_hash": "811ba0b1f025453ace129bdd6387beb4758522935bf88988ffcd64e61a426171"
+      },
+      {
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "source_hash": "b8a551bedd914addb083c165e107f7e79fac716a7b9260d9507eebc0c4ed2637"
+      },
+      {
+        "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "source_hash": "f76105afddeb8468215e0c9520efe89e55094fce970cdb97f7a5ba55c2f1e535"
+      },
+      {
+        "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "source_hash": "07fb2940dfd0e0e12a5f58c16fa38945cf3910cd24432b2f24b31864e2ccead8"
+      },
+      {
+        "filename": "20251217_What is the Best Investment Account for Kids in 2026.txt",
+        "source_hash": "e8e4e98b62e542824b5bb04dfdb930a0d2f84b132c7d389c0d5ba38bb6e64072"
+      },
+      {
+        "filename": "20251219_Treasury Buybacks are Preparing for Something Bigger.txt",
+        "source_hash": "2eb209b57912bef97594d567db9910f316d54f0ce9fecc319ba7286a42a8f512"
+      },
+      {
+        "filename": "20251222_Get Your Wealth Out of the System Before it’s Too Late.txt",
+        "source_hash": "3408cd82f734a293b7d8cc461cfe36a097725bb2df62136e95ab6552fca61cbc"
+      },
+      {
+        "filename": "20251229_2026 Macro Outlook.txt",
+        "source_hash": "13bb18efdde5611bbe8e60c2ac5c77380bec5fb3936ed8f6f96dfc04cdeb8add"
+      },
+      {
+        "filename": "20260101_The Silver Rush Boom or Bubble.txt",
+        "source_hash": "e38f5dad0a967cd6a0fd6e930a09b440dd96b2103256034536244591ae437c79"
+      },
+      {
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "source_hash": "202489aa6478edc8265df99e677733f6c3e23fddf7a935c568760090b688f28f"
+      },
+      {
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "source_hash": "56ebc084259b95861fed70b3a20481e3f4d5583736a432668d906c6bb7059f25"
+      },
+      {
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "source_hash": "5666cdc2d6f6f0339cc62c35148d5b6cae12f4e000c54caa10b3650ecdf81529"
+      },
+      {
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "source_hash": "fe689548c9f3ce71eba2390388c9cb637301abdb1c8546daf22ad83e0eb9ec32"
+      },
+      {
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "source_hash": "c775d76583bcf9fb4694a4fad025270ee5957f8930cb54980b4c399dd8e5181c"
+      },
+      {
+        "filename": "20260116_Fed Independence is Under Attack.txt",
+        "source_hash": "1fe7dab8239e4cc0a208af4b4b7683f0819b474488ce975caee1acb6ed5bfcbd"
+      },
+      {
+        "filename": "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt",
+        "source_hash": "7f4f1cda4a9b5f565579cffc303835249c464d3d38683c4230b95450b60811d7"
+      },
+      {
+        "filename": "20260124_The Trade Deficit is Collapsing.txt",
+        "source_hash": "730f93c10b9c630a60cf647043b01104472b4631e3b8d735ef3bd91a9a5be522"
+      },
+      {
+        "filename": "20260126_Treasuries Look Ready to Break (and what happens when they do).txt",
+        "source_hash": "c60aef400e077840454c4ce8c51c87d6794b6ab72503d0d9f16a5559e0226135"
+      },
+      {
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "source_hash": "a41503c93157cce119db9ecd7a909dde9c24eef9c5f150917d0b5055bd8851b0"
+      },
+      {
+        "filename": "20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.txt",
+        "source_hash": "656434fdea0698f5c9abe4410c89e1db7efba8bfa2b4d08d6e0de25cf2d9f67f"
+      },
+      {
+        "filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+        "source_hash": "2a661a80a5233c65d8f4e75ae13869e4369b4216ca53a1476ddd398cfa80ca27"
+      },
+      {
+        "filename": "20260206_The Effect of Tariffs After One Year.txt",
+        "source_hash": "95eb3ebaae53d39752c7049689fcefc883845ea732b8292545c9a1acb1e12b55"
+      },
+      {
+        "filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+        "source_hash": "dcdc10fb5d6622e29d0f3c6562cfed6b8ef72be997ca42794e6cef65498d5ad3"
+      },
+      {
+        "filename": "20260211_Dollars ARE Debt.txt",
+        "source_hash": "616083625632234921db836b169c658101eb76dfe1c328575b1d0b30f99deba0"
+      },
+      {
+        "filename": "20260216_The New Fed Chair’s Plan to Reduce the National Debt.txt",
+        "source_hash": "027badb75588b244f45203cff701cb4671e7b6e7d1741c1cb5c452964c5ec9a3"
+      },
+      {
+        "filename": "20260218_Get Ready for Bank Deregulation.txt",
+        "source_hash": "067251a25b3e8e65d5c4112e193c6a6e1a2419b3815c876d2965678cc6d71c11"
+      },
+      {
+        "filename": "20260221_When Gold Does This, Empires Fall.txt",
+        "source_hash": "a1af2868f4b6da2a557be0267c7c3a27db990ce647f9063a515c8c23d094d183"
+      },
+      {
+        "filename": "20260226_The Markets will Never Be the Same - AI Takeover.txt",
+        "source_hash": "c3b072120cc07ff8366a82bd0e9eeab01c0e7d0d2fdd11abc4f67e65dab7ace6"
+      },
+      {
+        "filename": "20260302_The Real Reason Medicine Is Unaffordable in America.txt",
+        "source_hash": "4dcfa5340c0a72f4694eadcdd7b6f3c69151b840582cb3b341ed9eb679cfaf7f"
+      },
+      {
+        "filename": "20260304_A Declaration of Independence.txt",
+        "source_hash": "f5651a745da48668f0f2a012950040f77833294776b5b793a84b8f5cdfd3df02"
+      },
+      {
+        "filename": "20260308_Investing During Wars - Cash Out or Buy the Dip.txt",
+        "source_hash": "d63bd7d10234880900a84e43a8a81510c7ec96a134d21c15a18b1bc0c98580f2"
+      },
+      {
+        "filename": "20260311_Why the Government MUST Lower Rates (Even If It Causes Inflation).txt",
+        "source_hash": "c8bdbaddb7ea7def0e82310caf51a40899949f179bfefa3dcc4c97b39c538032"
+      },
+      {
+        "filename": "20260316_The Iran War has the Fed Trapped.txt",
+        "source_hash": "a3549c0330bd3f53de3c52b4499650f776a38312017fe85cd29da735add6ca84"
+      },
+      {
+        "filename": "20260319_Is Private Credit About to Collapse the Economy.txt",
+        "source_hash": "b5df050ead89581177e471ac64621a23048d33ea3887d457987cb0d64933656d"
+      },
+      {
+        "filename": "20260323_The New Bank Deregulation Plan Has Been Unveiled.txt",
+        "source_hash": "6da3d3931c54b1692bfaef67897d796e3dafbc3aa1a4f057272ca15d69f43949"
+      },
+      {
+        "filename": "20260325_This is What it Looks Like Right Before a Crash.txt",
+        "source_hash": "5086fbd5ff0d83baad388c0d7edddf33dd561e983d98c1cb3804a0a0a584bb40"
+      },
+      {
+        "filename": "20260327_Why is Gold Crashing from the War.txt",
+        "source_hash": "5464d18279bb468501f8a42d3633207e73727ab767cd9de0c9bad8d568003aaa"
+      },
+      {
+        "filename": "20260331_Everything is Crashing - When Will it Bottom.txt",
+        "source_hash": "f873c2b1438fa948d759fa09979d0256d5d9fd925849344269406dff4cbb3bdd"
+      },
+      {
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "source_hash": "36fafef127c0bc4cad9241ae99c592a33995eb17081c13571c1bed41dcb30b9b"
+      },
+      {
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "source_hash": "7c167c0eef520b99bae75b452586614ebf68020a8a315431b5a0f4bc320d90a1"
+      },
+      {
+        "filename": "20260408_The Jobs Market is Collapsing - or is it.txt",
+        "source_hash": "e53808fa8c41e103c41f83c70e8549c6241dd5187078d30dbf67482385155140"
+      },
+      {
+        "filename": "20260411_The Iran War Just Killed the Petrodollar.txt",
+        "source_hash": "cfd80f49cde6cad661aaabad1f04cd5064345f43c4f5127e2940b62c528c77e1"
+      },
+      {
+        "filename": "20260413_New AI Just Escaped - Entire Banking System is at Risk.txt",
+        "source_hash": "c3d6a21031e62f4eaddbe9138586492345ef634ee9c73f85bf738c9a686d09a5"
+      },
+      {
+        "filename": "20260415_The Money Printer is Firing Up - But It’s Different This Time.txt",
+        "source_hash": "4408d1cf626294db2a427cc8d6686cfeee6939d083d59c1583b06e70f2a1f9e4"
+      },
+      {
+        "filename": "20260418_You're A Day Trader Now (everyone is).txt",
+        "source_hash": "8816b5aa286f45151dbde05ad04697a28b9cfc9ef019cc70856d66351abb01c8"
+      },
+      {
+        "filename": "20260423_Cornering the Market - Hedge Funds Cause Historic Short Squeeze.txt",
+        "source_hash": "282c2865d846263a06400a5282a574a54e7f400d699eb940b776aef84a87a040"
+      },
+      {
+        "filename": "20260427_All Labor is Exploitation.txt",
+        "source_hash": "600d52183bf41b723534d6aaeeb53076c035dd89499c7d9a2080636e7ac1d95e"
+      },
+      {
+        "filename": "20260430_Front Running the Tariffs and Profiting from Refunds.txt",
+        "source_hash": "465d6e09c2255e2f82898be5f274ea384f877222f76a0dd4f3775989adff9c18"
+      },
+      {
+        "filename": "20260504_The 1973 Playbook is Happening Again.txt",
+        "source_hash": "d5b074bfb78f2325bf77568617727904bbee176e0b929eb041bf1e39ff2695b0"
+      },
+      {
+        "filename": "20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.txt",
+        "source_hash": "e43961585e821c38fca38bbe828c6593f6a1cf4a3b7dd36f4fa35b104e29a1ff"
+      },
+      {
+        "filename": "20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.txt",
+        "source_hash": "2ac30d2698da41e7676c49ea7fbce138979f3dbf4538ce351b67dc82f1f8ed6f"
+      },
+      {
+        "filename": "20260511_Economic Collapse is Not Possible Now.txt",
+        "source_hash": "3be1cec1780ddfa764210181499db055546e0a5d5aa1fea6d9593f3019a7c2ad"
+      }
+    ],
+    "configuration": {
+      "model": "deepseek-v4-flash",
+      "base_url": "https://api.deepseek.com/v1",
+      "temperature": 0,
+      "prompt_version": "2.0",
+      "schema_version": "2.0",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "bucket_prompt_version": "2.1",
+      "bucket_schema_version": "2.1",
+      "primary_cc_relationship_types": [
+        "supports",
+        "specific_instance",
+        "mechanism",
+        "consequence",
+        "qualification",
+        "opposition",
+        "historical_example",
+        "application",
+        "evidence"
+      ],
+      "embedding_model": "mukaj/fin-mpnet-base",
+      "cc_dedup_threshold": 0.85,
+      "theme_dedup_threshold": 0.85,
+      "canonical_stability_threshold": 0.9,
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false,
+      "assembly_bucket_limit": 20,
+      "bucket_subgroup_size": 10,
+      "cc_ratio_min": 0.06,
+      "cc_ratio_max": 0.08,
+      "theme_ratio_min": 0.12,
+      "theme_ratio_max": 0.16,
+      "target_counts_are_hard": false
+    }
+  },
+  "outputs": {
+    "output\\checkpoints\\phase1\\20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.json": "6a2d8637bd906b6d1a6ec2c91e5aad17171f05eb6ec518170a7c4d209ea414ab",
+    "output\\checkpoints\\phase1\\20250813_What I Learned Losing a Million Dollars.json": "722b5067523135967abf47f033059f4afb3f2ecb624815a9fad63effbe432575",
+    "output\\checkpoints\\phase1\\20250814_It's Time to Get Your Wealth Outside the System.json": "966e5d8caffa42a1df715fb62fbfed259b4b9e43a82cc9e7f4aeeb060a18ec1c",
+    "output\\checkpoints\\phase1\\20250816_Now the Fed is Talking about Gold Revaluation.json": "0f5cf1225f0b600268559a73140e390c31d3fe97fc9223262f579a309729a68d",
+    "output\\checkpoints\\phase1\\20250821_Is Now the Worst Time Ever to Buy a Home.json": "71f261928afc8134261a325cbe486637cd050e446a37c3eb306a36cfb577d4a6",
+    "output\\checkpoints\\phase1\\20250823_What is the Optimal Money Supply.json": "59fd373024a102f5f5ba960d18b0060925603a9aec2f290cb605aaa1a3e5d1e7",
+    "output\\checkpoints\\phase1\\20250825_Reverse Repo Facility (finally) Completely Drained.json": "36efc3a8af5ea80f3b906ac5109245e4f1e462be7b1b9338e0a1724ac5a5abaf",
+    "output\\checkpoints\\phase1\\20250828_The Real Reason Trump is Replacing Everyone at the Fed.json": "693a86e5e54fb0dd366e8e46959671a6da239b9afaa9d2701d02c9554670ecea",
+    "output\\checkpoints\\phase1\\20250830_Did the Fed Just Abandon its 2% Inflation Target.json": "c7aca7f68f4a23df12b2fee8434cd15d384cc4383fffc7fa2b6953773a601188",
+    "output\\checkpoints\\phase1\\20250901_The Government is Borrowing Half a Trillion Dollars Per Month.json": "ecd95b8fe728b1580dd1171576d25175edfddde35b4a282e94bb66534a1902ba",
+    "output\\checkpoints\\phase1\\20250903_The Rich Pay Almost All the Income Taxes - and the Poor Pay Zero.json": "9d71ce3c23fc77910e5a40a52b29aae645a26e6a370636bb65dbf1464806c779",
+    "output\\checkpoints\\phase1\\20250905_Why Gold is Rising So Much, and So Quickly.json": "fe48c09e98a19e8c69c181f2bf23295bbd59d8da45a0a65a490ab850578ce7d9",
+    "output\\checkpoints\\phase1\\20250908_The Real Reason The Treasury is Buying Back So Much Debt.json": "071799351ace0fd5f41351e5212a70f6368bed2cc06674ed398b375a81b846a4",
+    "output\\checkpoints\\phase1\\20250910_Is MicroStrategy a Ponzi Scheme.json": "f04060232229d6ecde5464e0ebea7091b63f8102477aee1531795cc724b7a2a6",
+    "output\\checkpoints\\phase1\\20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.json": "178ef5290a820c7003a0f87de529444780bcabb8d31a12e4c6a026b0e1930a65",
+    "output\\checkpoints\\phase1\\20250915_The History of Money - and What Comes Next.json": "f6c308a2c0eef975353cde9fc35c1e6a73ada628b6645ae66f185269abd12f00",
+    "output\\checkpoints\\phase1\\20250918_Rate Cuts are a Distraction, Watch This Instead.json": "821d61bf46997e2735ba58a8dd108a6fab35d708c09353546c66414bb764d286",
+    "output\\checkpoints\\phase1\\20250922_Are We Just Repeating the 1970’s Inflation.json": "f656568433ae1e99e0934e55cd7debfe7129033346c915bbfc71499a9fef3ca7",
+    "output\\checkpoints\\phase1\\20250925_The SEC is Considering Ending Quarterly Earnings Reporting Requirements.json": "71738451501e4a06f382dea0237bbc189d9bd4e937a49bd113449b3b85f88a1e",
+    "output\\checkpoints\\phase1\\20250929_The Rationale for Rate Cuts.json": "19e9ed1267e208a96bd4003bba432ad7b2534a468e2aa876ab6f236c4e60fa62",
+    "output\\checkpoints\\phase1\\20251001_The Government Shutdown This Time is Different.json": "935921f5e650a5cba03a95040fde3c1958bc9213c6bbd646abfabf19e7e37747",
+    "output\\checkpoints\\phase1\\20251003_You Aren’t Ready for what Stocks are About To Do.json": "124c3d5b4b5e653fe65a73a522c93d4cfe75adc5e98136223af8b028285caba7",
+    "output\\checkpoints\\phase1\\20251006_Treasury Buybacks are Ramping Up - What’s Really Going On.json": "69c0cb0f7f06aacfb13b598c81d976fe68cd4264df19e59141b2111dacca6939",
+    "output\\checkpoints\\phase1\\20251008_How Long Will it Take for the Dollar to Hyperinflate.json": "e456e12e9cf2aa4d3ab483031394a453092b4d6a213e5d7e96f1de0ec1b333c9",
+    "output\\checkpoints\\phase1\\20251010_Gold at $4,000 is a Terrifying Sign of What's Coming.json": "764d0b2d6eb35edb8fb94f1a22c0bfec1aa403eaa83859b0adf69d9829010c39",
+    "output\\checkpoints\\phase1\\20251013_The Next Economic Crisis is Not What You Think.json": "e5ad98dd1c10aff0d292dac3cd77a71c9715bd96745fbdcaa8886c0714702f92",
+    "output\\checkpoints\\phase1\\20251016_The Fed Just Announced When QT Will End.json": "3e02cf63c2059e379b2436e81171e4a60aeefdc0f293a4a6fb18f1d3d2fc5429",
+    "output\\checkpoints\\phase1\\20251020_When “Inflate Away the Debt” Stops Working.json": "e2e3de9c4d307280c0b42b3b303c1f3e3fc6112082a65b47a64bbdaa35cc1b62",
+    "output\\checkpoints\\phase1\\20251022_The Truth about the Overwhelming Size of the Government.json": "640d77747f606d99dd0dc347383f7def42579dab80f8233e192f301beb5c6b1e",
+    "output\\checkpoints\\phase1\\20251024_How Gold Could Become Money Again.json": "6b1e3228a869a9c9e5c72e05ed8f9d00954d4743759977cdb21615435e356732",
+    "output\\checkpoints\\phase1\\20251027_It’s Not the Fed Who Actually Controls Interest Rates.json": "87e78994602d6bab9a1f378c17437f8cf0cd5014b480aabfd4e88f2fee77448a",
+    "output\\checkpoints\\phase1\\20251029_Over 40 Million Americans are on Food Stamps.json": "3d43c50321764697d184d1db10d870cdeb5089cce4f45539f8ff8df971b5781d",
+    "output\\checkpoints\\phase1\\20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.json": "819f5a989920ac3a2d5bba7c4e89074056ad25c9bc80a40567aed0fe22ef5166",
+    "output\\checkpoints\\phase1\\20251103_How Artificially Low Rates Actually Destroy Wealth.json": "7be272a1cdebd99947c7a4365ffacc41f2cca573aead6a8e7d117ec39c6ba33f",
+    "output\\checkpoints\\phase1\\20251105_Repo Market Just Spiked, 2008 Repeat.json": "7aa69ecd8f4a53ced8ffb3206427a1c5b69124cb8a4ddf16d7de469bb8c735de",
+    "output\\checkpoints\\phase1\\20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.json": "f66daab80fec90f274579b7057f68d16ab690655b534efc22e9d5264c4c45411",
+    "output\\checkpoints\\phase1\\20251110_The Government Shutdown is Crashing the Market.json": "bcd882bed6fb8e8e77165ad81038049f9c7b419a8f93d6f45b1e4cddae28fa7d",
+    "output\\checkpoints\\phase1\\20251115_They are About to Flood the Market with Liquidity.json": "695180e79c9f50ae20d8888d369ff95e18c0f3d4365758a610568d4d41af0164",
+    "output\\checkpoints\\phase1\\20251117_Subprime Auto Loans are Imploding.json": "ac3b67b6e321de20d23243d535cf3d56962f2907d5e982cd99c1dbc41e810096",
+    "output\\checkpoints\\phase1\\20251119_Everything You Think About Interest Rates and Inflation is Wrong.json": "8cac06e7a67a8c72a7f63dbba9df459a8c80d593cd55d9a82a305fdb6705c7ab",
+    "output\\checkpoints\\phase1\\20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.json": "4a48001b54946ce4420aec1e94d791617c6c30c9ba6725cc5cf97341598ac6c5",
+    "output\\checkpoints\\phase1\\20251124_The Fed Just Revealed Their Next Move.json": "b2ea3b5b618f736d19308dba632cf5352a60a7fa8a06c78db034a3f081b3ab8b",
+    "output\\checkpoints\\phase1\\20251201_Markets are About to Do the Unexpected.json": "3d111893545be31cae5177a0ef508e1966c73b01ed81f1424591fcfa9ac7e185",
+    "output\\checkpoints\\phase1\\20251203_The End of Bitcoin.json": "b28cc374879c1735bdacbde497f88d98113bec0c036e9fa4a4a65fbb27fdca63",
+    "output\\checkpoints\\phase1\\20251206_Layoffs Everywhere, But Jobless Claims are Dropping.json": "0fba2cff4754d299a71be34ffd8eb02141dd8d4d062ab4778557fa0f31efe398",
+    "output\\checkpoints\\phase1\\20251208_Did Trump Just Make Cars Cheap Again.json": "400496267c45f40a3a6a62271f612de63d2b0af21c7212d0c2a609c3b332a4ad",
+    "output\\checkpoints\\phase1\\20251210_The Real Reason the Fed Just Ended QT.json": "93c52d30962472702f9a72e630497d7bcdeeced22f5095cff1e014a21b7fb008",
+    "output\\checkpoints\\phase1\\20251212_The Fed Only Lasted 12 Days Before Restarting QE.json": "f01ca62acb1a9b3383db76b0f2e624b0eace265f791d9513d468b0bc09addeed",
+    "output\\checkpoints\\phase1\\20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.json": "b9031490ff4dfbe929aa0ec8f72da89f8723f7accfcedb147c9e9fa1594df95a",
+    "output\\checkpoints\\phase1\\20251217_What is the Best Investment Account for Kids in 2026.json": "7ee6c62ca52f1ee9084f0ec1e8e44346f03cb40a42743ec8f9f69f2d3f86d584",
+    "output\\checkpoints\\phase1\\20251219_Treasury Buybacks are Preparing for Something Bigger.json": "fa204551336b86ea8de055ce76f0f59b7d2b3fb69ae9d037691235dcfb941c2e",
+    "output\\checkpoints\\phase1\\20251222_Get Your Wealth Out of the System Before it’s Too Late.json": "b6087ad1cc762d088c8b898214156406e39a51def353258393bc76ae979535d5",
+    "output\\checkpoints\\phase1\\20251229_2026 Macro Outlook.json": "33034e47d70d3a01275642ee7c4a1944cd14fcedf52f29d29730b445268a17a0",
+    "output\\checkpoints\\phase1\\20260101_The Silver Rush Boom or Bubble.json": "4884bb8ece38bd3d3bf82cba5f99eeb17dae4d194aca42818334c0adea042e3e",
+    "output\\checkpoints\\phase1\\20260105_Why Everyone is Getting AI Economics Wrong.json": "85731d4dde832e2bb50f334e1cfd50c607179e401a3edb205838774e5c61fb9c",
+    "output\\checkpoints\\phase1\\20260107_The Truth about Maduro, Venezuela, and the New Global Order.json": "386242d69c8b7b196ff5d792f5318cab5ce70baee375917845ae2731a1d1bb4d",
+    "output\\checkpoints\\phase1\\20260109_The Biggest Problems All Have One Simple Solution.json": "e73ba2bafa7dacad66bb7cb11ea9bbe023a173972cc8e05deff9894024bd144f",
+    "output\\checkpoints\\phase1\\20260112_The Government is Taking Over the US Housing Market.json": "3ed003299de7c21b069350825fda165c4488596b8f2cf1ba702d4fe80bf1e345",
+    "output\\checkpoints\\phase1\\20260114_Buy the Everything Bubble Or Lose to Inflation.json": "d8d29ed0be2d90b3f3087c70f7d9847487cc5d2cccb8bb6feef22b43658a3101",
+    "output\\checkpoints\\phase1\\20260116_Fed Independence is Under Attack.json": "80c151c304a3ef87e5fd95038f3b37349c140702257f7c0676576da0366ff766",
+    "output\\checkpoints\\phase1\\20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.json": "05e9416f52bf8991342576da646961e3443159123f4933bc195b692f61750bc4",
+    "output\\checkpoints\\phase1\\20260124_The Trade Deficit is Collapsing.json": "f25004e94f70b5e89b7419170da81be2f0c3f56469c6cfa346a9162cc4eba192",
+    "output\\checkpoints\\phase1\\20260126_Treasuries Look Ready to Break (and what happens when they do).json": "04d2c77699f6d3e6d562b6a3dbedc1f1777795e1c7f68feb309b66cc068d11ba",
+    "output\\checkpoints\\phase1\\20260129_Why Everything Keeps Getting So Much More Expensive.json": "f33bec4fa73a6aed2dda61bd6811fb349c8714d338f6ea1bed3cc48134ec05cf",
+    "output\\checkpoints\\phase1\\20260202_Kevin Warsh New Fed Chair will Change EVERYTHING.json": "f5af553a9a825a3aecbd525790213b0d9e5f9909cf3d6be3222e20985b576667",
+    "output\\checkpoints\\phase1\\20260204_The Budget Deficit - Still Headed Towards Disaster.json": "a98f390ea5b2972d074b5291ab84af900e7adcf8407e24eaf74b876974e5e76b",
+    "output\\checkpoints\\phase1\\20260206_The Effect of Tariffs After One Year.json": "c9736626ec34370b8bc3e783559f3fc7f21546456d1cc1f5ee68d5e71d210169",
+    "output\\checkpoints\\phase1\\20260209_The Market at All Time Highs - Don’t Make This Mistake.json": "d6c139d4c4039505e05424f5827dfa9cab4c824c62c689f893f7af0c4c416ce7",
+    "output\\checkpoints\\phase1\\20260211_Dollars ARE Debt.json": "2d7ac1bfbef576a9f7c8311d02751e750ef675f5161273d4bbe0cded9ef77fa8",
+    "output\\checkpoints\\phase1\\20260216_The New Fed Chair’s Plan to Reduce the National Debt.json": "837b09647fd7ec4ff646097ce966858d601e4d5aea48a1c883e0b4f5ae36654c",
+    "output\\checkpoints\\phase1\\20260218_Get Ready for Bank Deregulation.json": "64cc18d8ac56f19e89b9ee3c31422a62b8a77f82d5e9875ccfa36aadad0ff364",
+    "output\\checkpoints\\phase1\\20260221_When Gold Does This, Empires Fall.json": "4c85b89b3f941fdd083a8d4bdb092f610fa308855486648d436f0e46d633d990",
+    "output\\checkpoints\\phase1\\20260226_The Markets will Never Be the Same - AI Takeover.json": "2d587754b9ee603e776eded4e86fd40f35a43a00a61be72e5f58bb2c433c2d0d",
+    "output\\checkpoints\\phase1\\20260302_The Real Reason Medicine Is Unaffordable in America.json": "0cec3eaaea78b7ec7cc8e45f49bd35998b1e9cc0398e24efe3458e35d74527af",
+    "output\\checkpoints\\phase1\\20260304_A Declaration of Independence.json": "7ff0d9a9862bfa934726d28b4c9325b2c7f8db18cc3e188624ae908b565a66c4",
+    "output\\checkpoints\\phase1\\20260308_Investing During Wars - Cash Out or Buy the Dip.json": "f2d223ecab53fbae07b1bc565f69c4789ca555c79bc5e87d572f9060230c29ae",
+    "output\\checkpoints\\phase1\\20260316_The Iran War has the Fed Trapped.json": "1b686be776912cb5f5c6ef127eaee3b2e48aeeedd77172885c6dd1fd881f2bf2",
+    "output\\checkpoints\\phase1\\20260319_Is Private Credit About to Collapse the Economy.json": "e4f7e2973c4421fcfdaece2a7fc180538a11571819d70b4aa4c22219bb0a25e5",
+    "output\\checkpoints\\phase1\\20260323_The New Bank Deregulation Plan Has Been Unveiled.json": "e55a6a5a6f0581563af5c3d22eeb05619e0db32c50c89e8de7c3815014b519d0",
+    "output\\checkpoints\\phase1\\20260325_This is What it Looks Like Right Before a Crash.json": "3b35346c96ff912eafa82ae820a1488b518d2cd119930608a2c51adf39a9bb54",
+    "output\\checkpoints\\phase1\\20260327_Why is Gold Crashing from the War.json": "4d1e11bf12977369c729f84505dbe421ff400163c554df1096d7d45af12bcce1",
+    "output\\checkpoints\\phase1\\20260331_Everything is Crashing - When Will it Bottom.json": "fd8dbf961f9acc5d2af57ac7cc535040b06990b2d93c8ffd4317a0136c089808",
+    "output\\checkpoints\\phase1\\20260403_Are We About to See Stagflation in the US.json": "fe6e413305d01701911dfdca37e7923b2190a901e874f9c15c4c48f356c110f4",
+    "output\\checkpoints\\phase1\\20260406_New Military Budget is TRYING to Bankrupt the Country.json": "82bcb9e4edaad012f8afe63ec3097c0ef24a1c0d29c6843152b5a4afbf7db73f",
+    "output\\checkpoints\\phase1\\20260408_The Jobs Market is Collapsing - or is it.json": "0b327c1575c60b85b0030339b8cff6c6303cea03553938251f5725c0f79e2d35",
+    "output\\checkpoints\\phase1\\20260411_The Iran War Just Killed the Petrodollar.json": "ead37e7af5f6c11ef78445426a4894286abd1c8d1209a43d9321ef2845b6800a",
+    "output\\checkpoints\\phase1\\20260413_New AI Just Escaped - Entire Banking System is at Risk.json": "c5e3f7c73df6413300c22b3de374559358acbca1cbd83ffde5ef63c74085eb54",
+    "output\\checkpoints\\phase1\\20260415_The Money Printer is Firing Up - But It’s Different This Time.json": "954d03571a59db61b8dbcec780b0652fdc1a1b8b2a729210c9ae8def98827be5",
+    "output\\checkpoints\\phase1\\20260418_You're A Day Trader Now (everyone is).json": "2172a2509f2ef8447ee38d4fc1b99161aebec12c021376cf83056eed1f869d9a",
+    "output\\checkpoints\\phase1\\20260423_Cornering the Market - Hedge Funds Cause Historic Short Squeeze.json": "0f3ddbbaf7470dd8aef20b5e3e44f55680f69a8ae3dcccbb0f81a5f7e2bb7ff4",
+    "output\\checkpoints\\phase1\\20260427_All Labor is Exploitation.json": "05294f106cde11eaa31769ed8bcad48ff44bd8db1a30395ee43bbe8b87a63006",
+    "output\\checkpoints\\phase1\\20260430_Front Running the Tariffs and Profiting from Refunds.json": "47ac8859c046145a6493f8a0ca563669cedfa0351e9d4400c9521d32740da360",
+    "output\\checkpoints\\phase1\\20260504_The 1973 Playbook is Happening Again.json": "53aa8f72275f8265a5b41fe90c92a2522dd9d57ca9a2dfd8178a65ccaf900cb1",
+    "output\\checkpoints\\phase1\\20260506_New Clarity Act is Trojan Horse for Dollar as Global Reserve Currency.json": "4ac8fb031c6d51b81369c0311542c9c983c0e11e2ec27e64ccd613b22e8cfd9f",
+    "output\\checkpoints\\phase1\\20260508_New Treasury Swap Lines to Protect Dollar Dominance in Middle East.json": "1c237bafe2b47ea0faa12b6dbe424c978068e314cbeadc18b710b30f6543cbb1",
+    "output\\checkpoints\\phase1\\20260511_Economic Collapse is Not Possible Now.json": "1c68c589ad0d7b2d40f4af3051c11525b776bdabaa8d69282aa5d5bf90795825",
+    "output\\checkpoints\\phase1\\manifest.json": "6ceeacde95dc8e4ece52fca9f3b1d3c02143791250ce3d9844484bf0470b0acc"
+  },
+  "complete": false,
+  "generated_at": "2026-07-15T02:08:15+00:00",
+  "source_count": 100,
+  "valid_record_count": 96,
+  "processed": 12,
+  "skipped": 84,
+  "failed": 4,
+  "llm_calls_total_so_far": 18,
+  "manifest_hash": "5e893104005997790d39aed59108afd29fd22bf24792bd848fd228417925f1d0"
+}

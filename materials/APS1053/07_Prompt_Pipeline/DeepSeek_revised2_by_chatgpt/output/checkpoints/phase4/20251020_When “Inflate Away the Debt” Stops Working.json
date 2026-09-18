@@ -1,0 +1,974 @@
+{
+  "dependencies": {
+    "source_hash": "73678ae616c95b51dac4a3d4d07fdbf3dfe09603f29b0271033800783c678ac2",
+    "phase1_record_hash": "16510691d1eda3e5e2a94062f9117054bf6197d8dea71ae5780f4cf4b0bab35d",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-16CD52BF0E94",
+    "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+    "stem": "20251020_When “Inflate Away the Debt” Stops Working",
+    "date": "2025-10-20",
+    "source_hash": "73678ae616c95b51dac4a3d4d07fdbf3dfe09603f29b0271033800783c678ac2",
+    "source_character_count": 15834,
+    "central_claim": "Inflating away the sovereign debt will not succeed this time because the conditions that made it work after WWII (spending crash and productivity boom) are absent and printing will actually increase costs.",
+    "themes": [
+      {
+        "local_theme_id": "LT-4A1C7326DC56",
+        "theme": "Post-WWII debt resolution strategy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BA73A9324F42",
+            "local_theme_id": "LT-4A1C7326DC56",
+            "conclusion": "Inflating away the debt worked after WWII because spending crashed and productivity boomed.",
+            "premises": [
+              "Spending spiked to 40% of GDP and then crashed to 11% of GDP.",
+              "Economy grew due to returning soldiers and women entering the workforce.",
+              "Yield curve control and financial repression kept bond yields below inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-85B98A0A9F8C",
+                "item": "Spending as percent of GDP chart showing WWII spike and crash from 40% to under 11%.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly references the chart and gives the numbers.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "spike to over 40% of GDP and then very quickly crashed back down to just under 11% of GDP.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-607A932E7470",
+                "item": "Debt-to-GDP ratio chart showing decline in the 40 years after WWII.",
+                "status": "Verified",
+                "verification_basis": "Transcript references the chart and describes the outcome.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "the total debt load for the US government as compared to the size of the economy shrank for about the next 40 years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-CBE0E321AF02",
+                "device": "No such thing as a free lunch",
+                "explanation": "Illustrates that inflating away debt has hidden costs and is not costless.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "there's no such thing as a free lunch.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8562FCF2E3B0",
+        "theme": "Current spending and deficit trends",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E52EF8F67448",
+            "local_theme_id": "LT-8562FCF2E3B0",
+            "conclusion": "Current spending will not drop because it is structurally high and dominated by mandatory outlays.",
+            "premises": [
+              "Spending has averaged 20% of GDP for decades and is now rising again after the pandemic spike.",
+              "Mandatory spending on Social Security, Medicare, etc., totals over $1.6 trillion and grows each year.",
+              "Eliminating all discretionary spending would still leave a deficit."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F9B77FE3FF7B",
+                "item": "Spending/GDP time series showing no return to pre-pandemic 20% level.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the level did not come back down.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "US government spending as a percent of GDP did not come back down to where it was before at 20%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-FE7F701AB818",
+                "item": "Breakdown of mandatory spending items with specific dollar figures.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides explicit numbers for each category.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "Social Security is $1.6 trillion every year and growing. Medicare is a trillion dollars every year and growing. Health is a trillion dollars a year and growing. The interest on the debt is a trillion dollars a year and growing. National defense is a trillion dollars a year and growing.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-9D3C7C39AC83",
+            "local_theme_id": "LT-8562FCF2E3B0",
+            "conclusion": "Chronic deficits are increasing the debt to crisis levels.",
+            "premises": [
+              "Deficits have been chronic for 50 years and increasing on average.",
+              "The deficit is now 6% of GDP, a level previously seen only during World War II and the Great Financial Crisis."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A9B5C4C1A9BB",
+                "item": "Deficit as percent of GDP chart showing persistent deficits and recent highs.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the chart and gives the 6% figure.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "for 50 years now, we've been running chronic deficits that have been increasing on average every year to the point where last year the deficit was over 6% of GDP, a level that had never been seen prior to the Great Financial Crisis and World War II.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-149AC5EC80DC",
+                "device": "Debt spiral",
+                "explanation": "Rhetorical device to describe self‑reinforcing growth of debt due to rising interest costs.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "This is a debt spiral.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 9275,
+                  "character_end": 9297,
+                  "line_start": 242
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8B7665971793",
+        "theme": "Tax revenue ceiling",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B5EE7F098DA6",
+            "local_theme_id": "LT-8B7665971793",
+            "conclusion": "The US government cannot significantly raise taxes to pay down debt because there is a ceiling around 18% of GDP.",
+            "premises": [
+              "Historical data shows that whenever tax revenue exceeds 17.5% of GDP, a recession follows.",
+              "The historical sweet spot is around 15% of GDP."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8B7ABE62C8A3",
+                "item": "Chart of total federal revenue as a percent of GDP with recession markers at above‑17.5% levels.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the chart and lists specific recession instances.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "You can see when it got above 17 1/2 here, we hit a recession. When we got above 17 and 1/2 here, we hit another recession. When we got above 17 1/2 here, we hit two recessions. Got above 17 1/2 here, we hit another recession.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2F867DF9A0CB",
+        "theme": "Consequences of debt monetization",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BE09D2224652",
+            "local_theme_id": "LT-2F867DF9A0CB",
+            "conclusion": "Printing money to pay expenses will increase mandatory spending through inflation, making the debt problem worse.",
+            "premises": [
+              "Printing money creates more money chasing the same goods, raising prices.",
+              "Mandatory spending items are linked to the cost of living and will increase with inflation.",
+              "Post-WWII inflation worked only because spending dropped dramatically."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C8E06CA67F94",
+                "item": "2020‑2021 inflation episode as an example of printing leading to price increases.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides the example and describes the mechanism.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "Remember what happened in 2020 and 2021? They print trillions of dollars, hand that out to everybody in the economy. Now there's an increase in demand because there's more money, but there's not more stuff. And so all that does is bid up the price of goods and services.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1ABCAAD888BB",
+                "item": "Statement that spending is not being cut this time.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states this.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "they're not cutting any of their expenses this time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-DEAEBC59E822",
+                "device": "Inflate away the debt",
+                "explanation": "Metaphor for using inflation to reduce the real value of debt; the speaker argues this strategy fails under current conditions.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "usually they try and solve this problem by inflating away the debt",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-BED687140124",
+        "theme": "Productivity as a solution",
+        "arguments": [
+          {
+            "local_argument_id": "LA-15250E3B82F7",
+            "local_theme_id": "LT-BED687140124",
+            "conclusion": "A productivity boom could offset the debt burden, but it is not guaranteed.",
+            "premises": [
+              "Post-WWII productivity boom (women entering workforce, returning soldiers, end of war destruction) helped reduce debt.",
+              "There is hope for another productivity boom, but it is uncertain.",
+              "Without it, there is no wealth to extract to cover government spending."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-67AE39FADEBD",
+                "item": "Post-WWII productivity boom narrative.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific data or source provided; only a story.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "After World War II, I mentioned that we had a big productivity boom with women entering the workforce and all the men coming home from war and beginning to work again.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-DCD09F36038A",
+                "item": "Claim that current high asset valuations reflect preparation for debasement.",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion about market sentiment without supporting evidence.",
+                "speech_id": "SP-16CD52BF0E94",
+                "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+                "source_excerpt": "This is why valuations across the board are so extreme right now because everybody is preparing for debasement.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-57D18C937AC2",
+        "speech_id": "SP-16CD52BF0E94",
+        "speech_ref": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "claim": "The social security trust fund will be empty in seven years.",
+        "reason": "No source or methodology is provided; the speaker presents it as a fact without supporting data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The speaker claims trust fund will be empty in 7 years, but transcript does not provide verification.",
+        "source_excerpt": "the trust fund for social security will be empty in seven years",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B43EB76C8B77",
+        "speech_id": "SP-16CD52BF0E94",
+        "speech_ref": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "claim": "Everybody is preparing for debasement.",
+        "reason": "Assertion about market participants without supporting evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General claim about market sentiment.",
+        "source_excerpt": "This is why valuations across the board are so extreme right now because everybody is preparing for debasement.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B28627F6ADA1",
+        "speech_id": "SP-16CD52BF0E94",
+        "speech_ref": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "claim": "The only thing the government cares about is extracting as much from you as it possibly can.",
+        "reason": "Subjective opinion, not a factual assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Subjective claim.",
+        "source_excerpt": "because that is the only thing the government cares about is extracting as much from you as it possibly can",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3509674D6154",
+        "speech_id": "SP-16CD52BF0E94",
+        "speech_ref": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "claim": "You could get rid of the entire discretionary budget and you still wouldn't be running a surplus.",
+        "reason": "Based on an implicit calculation but no numbers shown for exact comparison.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Could be true, but not verified.",
+        "source_excerpt": "You could get rid of the entire discretionary budget and you still wouldn't be running a surplus.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Inflating away the sovereign debt will not succeed this time because the conditions that made it work after WWII (spending crash and productivity boom) are absent and printing will actually increase costs.",
+      "themes": [
+        "Post-WWII debt resolution strategy",
+        "Current spending and deficit trends",
+        "Tax revenue ceiling",
+        "Consequences of debt monetization",
+        "Productivity as a solution"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 4
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "017d57002a1af5d9cdc9071c0a2e325c9f69d74a8104496aabeae625ba6f8068",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "16510691d1eda3e5e2a94062f9117054bf6197d8dea71ae5780f4cf4b0bab35d",
+    "canonical_mapping": {
+      "speech_id": "SP-16CD52BF0E94",
+      "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC52",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+      "primary_cc_rationale": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T74",
+        "T92",
+        "T83"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T74",
+          "confidence": 0.75,
+          "source_local_theme_id": "LT-4A1C7326DC56",
+          "rationale": "The local theme 'Post-WWII debt resolution strategy' is an instance of boom-bust debt cycle theory, as it describes a historical cycle of debt resolution through inflation and productivity."
+        },
+        {
+          "theme_id": "T92",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-8562FCF2E3B0",
+          "rationale": "The local theme 'Current spending and deficit trends' directly maps to the canonical theme of fiscal deficit, debt, and budget allocation."
+        },
+        {
+          "theme_id": "T83",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-BED687140124",
+          "rationale": "The local theme 'Productivity as a solution' directly maps to the canonical theme of economic responsibility and productivity."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC52-T74",
+          "cc_id": "CC52",
+          "theme_id": "T74",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC52-T92",
+          "cc_id": "CC52",
+          "theme_id": "T92",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC52-T83",
+          "cc_id": "CC52",
+          "theme_id": "T83",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "local_cc_text": "Inflating away the sovereign debt will not succeed this time because the conditions that made it work after WWII (spending crash and productivity boom) are absent and printing will actually increase costs.",
+        "canonical_cc_id": "CC52",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+        "rationale": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.4368229806423187
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.38389408588409424
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.3360665440559387
+          },
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.32870203256607056
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.29206836223602295
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "local_theme_id": "LT-4A1C7326DC56",
+        "local_theme_text": "Post-WWII debt resolution strategy",
+        "canonical_theme_id": "T74",
+        "confidence": 0.75,
+        "rationale": "The local theme 'Post-WWII debt resolution strategy' is an instance of boom-bust debt cycle theory, as it describes a historical cycle of debt resolution through inflation and productivity.",
+        "candidate_matches": [
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.39636871218681335
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.35866355895996094
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.3385029435157776
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.32990774512290955
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3273509740829468
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.2789781093597412
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "local_theme_id": "LT-8562FCF2E3B0",
+        "local_theme_text": "Current spending and deficit trends",
+        "canonical_theme_id": "T92",
+        "confidence": 0.9,
+        "rationale": "The local theme 'Current spending and deficit trends' directly maps to the canonical theme of fiscal deficit, debt, and budget allocation.",
+        "candidate_matches": [
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.7186030745506287
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.6687284708023071
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.612350344657898
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5823739767074585
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.563284158706665
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.5336989164352417
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "local_theme_id": "LT-8B7665971793",
+        "local_theme_text": "Tax revenue ceiling",
+        "canonical_theme_id": "T140",
+        "confidence": 0.65,
+        "rationale": "The local theme 'Tax revenue ceiling' relates to wealth transfer and tax policy, as it discusses limits on the government's ability to raise revenue through taxes.",
+        "candidate_matches": [
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.32156530022621155
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.3182869851589203
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.3092232346534729
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.29597705602645874
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.29156073927879333
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.27760183811187744
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "local_theme_id": "LT-2F867DF9A0CB",
+        "local_theme_text": "Consequences of debt monetization",
+        "canonical_theme_id": "T131",
+        "confidence": 0.8,
+        "rationale": "The local theme 'Consequences of debt monetization' directly pertains to sovereign debt crisis and crisis absorption, as the speech argues that printing money will worsen the debt problem.",
+        "candidate_matches": [
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.46371617913246155
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.4176650643348694
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3672926425933838
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.3446919322013855
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.340019166469574
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.3391437530517578
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "local_theme_id": "LT-BED687140124",
+        "local_theme_text": "Productivity as a solution",
+        "canonical_theme_id": "T83",
+        "confidence": 0.9,
+        "rationale": "The local theme 'Productivity as a solution' directly maps to the canonical theme of economic responsibility and productivity.",
+        "candidate_matches": [
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.7752651572227478
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.4475307762622833
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.42930951714515686
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.4219735860824585
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.39043939113616943
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.38675835728645325
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-5EEAEB2C4EF520",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "date": "2025-10-20",
+        "source_hash": "73678ae616c95b51dac4a3d4d07fdbf3dfe09603f29b0271033800783c678ac2",
+        "pair_id": "PAIR-CC52-T74",
+        "cc_id": "CC52",
+        "theme_id": "T74",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4A1C7326DC56",
+        "local_theme_text": "Post-WWII debt resolution strategy",
+        "theme_mapping_confidence": 0.75,
+        "theme_mapping_rationale": "The local theme 'Post-WWII debt resolution strategy' is an instance of boom-bust debt cycle theory, as it describes a historical cycle of debt resolution through inflation and productivity.",
+        "local_argument_id": "LA-BA73A9324F42",
+        "conclusion": "Inflating away the debt worked after WWII because spending crashed and productivity boomed.",
+        "premises": [
+          "Spending spiked to 40% of GDP and then crashed to 11% of GDP.",
+          "Economy grew due to returning soldiers and women entering the workforce.",
+          "Yield curve control and financial repression kept bond yields below inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-85B98A0A9F8C",
+            "item": "Spending as percent of GDP chart showing WWII spike and crash from 40% to under 11%.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly references the chart and gives the numbers.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "spike to over 40% of GDP and then very quickly crashed back down to just under 11% of GDP.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-607A932E7470",
+            "item": "Debt-to-GDP ratio chart showing decline in the 40 years after WWII.",
+            "status": "Verified",
+            "verification_basis": "Transcript references the chart and describes the outcome.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "the total debt load for the US government as compared to the size of the economy shrank for about the next 40 years.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-CBE0E321AF02",
+            "device": "No such thing as a free lunch",
+            "explanation": "Illustrates that inflating away debt has hidden costs and is not costless.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "there's no such thing as a free lunch.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-5861325BBF3C34",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "date": "2025-10-20",
+        "source_hash": "73678ae616c95b51dac4a3d4d07fdbf3dfe09603f29b0271033800783c678ac2",
+        "pair_id": "PAIR-CC52-T92",
+        "cc_id": "CC52",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8562FCF2E3B0",
+        "local_theme_text": "Current spending and deficit trends",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'Current spending and deficit trends' directly maps to the canonical theme of fiscal deficit, debt, and budget allocation.",
+        "local_argument_id": "LA-E52EF8F67448",
+        "conclusion": "Current spending will not drop because it is structurally high and dominated by mandatory outlays.",
+        "premises": [
+          "Spending has averaged 20% of GDP for decades and is now rising again after the pandemic spike.",
+          "Mandatory spending on Social Security, Medicare, etc., totals over $1.6 trillion and grows each year.",
+          "Eliminating all discretionary spending would still leave a deficit."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F9B77FE3FF7B",
+            "item": "Spending/GDP time series showing no return to pre-pandemic 20% level.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states the level did not come back down.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "US government spending as a percent of GDP did not come back down to where it was before at 20%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-FE7F701AB818",
+            "item": "Breakdown of mandatory spending items with specific dollar figures.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides explicit numbers for each category.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "Social Security is $1.6 trillion every year and growing. Medicare is a trillion dollars every year and growing. Health is a trillion dollars a year and growing. The interest on the debt is a trillion dollars a year and growing. National defense is a trillion dollars a year and growing.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-C2603060AF4FC9",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "date": "2025-10-20",
+        "source_hash": "73678ae616c95b51dac4a3d4d07fdbf3dfe09603f29b0271033800783c678ac2",
+        "pair_id": "PAIR-CC52-T92",
+        "cc_id": "CC52",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8562FCF2E3B0",
+        "local_theme_text": "Current spending and deficit trends",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'Current spending and deficit trends' directly maps to the canonical theme of fiscal deficit, debt, and budget allocation.",
+        "local_argument_id": "LA-9D3C7C39AC83",
+        "conclusion": "Chronic deficits are increasing the debt to crisis levels.",
+        "premises": [
+          "Deficits have been chronic for 50 years and increasing on average.",
+          "The deficit is now 6% of GDP, a level previously seen only during World War II and the Great Financial Crisis."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A9B5C4C1A9BB",
+            "item": "Deficit as percent of GDP chart showing persistent deficits and recent highs.",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the chart and gives the 6% figure.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "for 50 years now, we've been running chronic deficits that have been increasing on average every year to the point where last year the deficit was over 6% of GDP, a level that had never been seen prior to the Great Financial Crisis and World War II.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-149AC5EC80DC",
+            "device": "Debt spiral",
+            "explanation": "Rhetorical device to describe self‑reinforcing growth of debt due to rising interest costs.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "This is a debt spiral.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 9275,
+              "character_end": 9297,
+              "line_start": 242
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-D56DCEDB8734E3",
+        "speech_id": "SP-16CD52BF0E94",
+        "filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+        "date": "2025-10-20",
+        "source_hash": "73678ae616c95b51dac4a3d4d07fdbf3dfe09603f29b0271033800783c678ac2",
+        "pair_id": "PAIR-CC52-T83",
+        "cc_id": "CC52",
+        "theme_id": "T83",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that inflating away the sovereign debt will not succeed in the current environment, which supports CC52's claim that a sovereign debt crisis is inevitable and cannot be inflated away.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BED687140124",
+        "local_theme_text": "Productivity as a solution",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'Productivity as a solution' directly maps to the canonical theme of economic responsibility and productivity.",
+        "local_argument_id": "LA-15250E3B82F7",
+        "conclusion": "A productivity boom could offset the debt burden, but it is not guaranteed.",
+        "premises": [
+          "Post-WWII productivity boom (women entering workforce, returning soldiers, end of war destruction) helped reduce debt.",
+          "There is hope for another productivity boom, but it is uncertain.",
+          "Without it, there is no wealth to extract to cover government spending."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-67AE39FADEBD",
+            "item": "Post-WWII productivity boom narrative.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific data or source provided; only a story.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "After World War II, I mentioned that we had a big productivity boom with women entering the workforce and all the men coming home from war and beginning to work again.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-DCD09F36038A",
+            "item": "Claim that current high asset valuations reflect preparation for debasement.",
+            "status": "Unverifiable",
+            "verification_basis": "Assertion about market sentiment without supporting evidence.",
+            "speech_id": "SP-16CD52BF0E94",
+            "source_speech_filename": "20251020_When “Inflate Away the Debt” Stops Working.txt",
+            "source_excerpt": "This is why valuations across the board are so extreme right now because everybody is preparing for debasement.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-8B7665971793",
+        "local_argument_id": "LA-B5EE7F098DA6",
+        "conclusion": "The US government cannot significantly raise taxes to pay down debt because there is a ceiling around 18% of GDP.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-2F867DF9A0CB",
+        "local_argument_id": "LA-BE09D2224652",
+        "conclusion": "Printing money to pay expenses will increase mandatory spending through inflation, making the debt problem worse.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "017d57002a1af5d9cdc9071c0a2e325c9f69d74a8104496aabeae625ba6f8068",
+  "complete": true
+}

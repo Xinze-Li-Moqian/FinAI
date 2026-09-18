@@ -1,0 +1,351 @@
+{
+  "dependencies": {
+    "source_hash": "d49493bc456473ebd1958e426645beb0593d7c34dfc1855877d62e96ede1a51d",
+    "filename": "20260211_Dollars ARE Debt.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-422B65DC1CE5",
+    "filename": "20260211_Dollars ARE Debt.txt",
+    "stem": "20260211_Dollars ARE Debt",
+    "date": "2026-02-11",
+    "source_hash": "d49493bc456473ebd1958e426645beb0593d7c34dfc1855877d62e96ede1a51d",
+    "source_character_count": 12934,
+    "central_claim": "All money is debt and the way policymakers manage that debt ensures that inflation is permanent and about to return with a vengeance.",
+    "themes": [
+      {
+        "local_theme_id": "LT-79CA542D4321",
+        "theme": "Money as a form of debt or IOU",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F15F212AD314",
+            "local_theme_id": "LT-79CA542D4321",
+            "conclusion": "All forms of money, whether gold, dollars, or tally sticks, operate as a form of debt or IOU from the economy.",
+            "premises": [
+              "Money is the most saleable good, used as a medium of exchange.",
+              "When you receive money for your labor, you are storing the value of that labor as an IOU to use later.",
+              "Historical examples like tally sticks show debt being used as money."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FCF960356BC6",
+                "item": "David Graeber's book 'Debt: The First 5,000 Years' documents that debt, credit, favors operated as money before gold.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly cites the title and author of the book.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "This is documented in a book by David Graeber called Debt: The First 5,000 Years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-4379F1EE3DAB",
+                "device": "Desert island coconut analogy",
+                "explanation": "Illustrates why a good becomes money and its limitations due to perishability and ease of production.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "If you imagine a desert island scenario where some of us are catching fish, some of us are getting coconuts off of a tree, we might very easily end up using coconuts as our form of money because coconuts are somewhat durable.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-90DAF417F482",
+        "theme": "Rehypothecation and the banking system",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2786BBB27D19",
+            "local_theme_id": "LT-90DAF417F482",
+            "conclusion": "The banking system's process of rehypothecation means that the same dollars are claimed by multiple parties, making the money supply illusory and prone to bank runs.",
+            "premises": [
+              "Deposited dollars are lent out by banks to the government or others.",
+              "The government spends borrowed dollars into other bank accounts, and those banks lend again.",
+              "This chain means the same dollar is lent out multiple times, so it is not physically available to all claimants simultaneously."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-954F63602C6B",
+                "item": "The claim that 'the vast majority of the time, they're just loaning your dollars to the US government in the form of buying a treasury.'",
+                "status": "Unverifiable",
+                "verification_basis": "No source or data provided to support the claim about the majority of bank lending.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "often times, the vast majority of the time, they're just loaning your dollars to the US government in the form of buying a treasury.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-38460CDA27A1",
+        "theme": "Debt repayment and deflation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FD44136471C9",
+            "local_theme_id": "LT-38460CDA27A1",
+            "conclusion": "Debt repayment causes the money supply to contract, leading to deflation, as each loan repayment removes more dollars from circulation than were created.",
+            "premises": [
+              "Borrowing creates dollars into existence.",
+              "Repaying a loan with interest requires more dollars than the principal, so net dollars leave circulation.",
+              "This process naturally leads to credit expansions and contractions (booms and busts)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F00E5C1078F1",
+                "item": "Example: borrowing $100 and repaying $105, causing $5 to leave circulation.",
+                "status": "Unverifiable",
+                "verification_basis": "This is a hypothetical example, not a verified statistical fact.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "If I borrowed $100, I have to pay back $105. Which means when that debt was created, $100 came into existence, but in the future, $105 have to leave circulation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-34C975E365D1",
+        "theme": "Policy response to deflation and US government debt",
+        "arguments": [
+          {
+            "local_argument_id": "LA-A8EF73A95490",
+            "local_theme_id": "LT-34C975E365D1",
+            "conclusion": "Policymakers will continue to print money to prevent deflation, leading to persistent high inflation, because the US government cannot tax or borrow its way out of its high debt load.",
+            "premises": [
+              "Policymakers dislike deflation and busts, so they intervene to stop deflation.",
+              "US government debt is 123% of GDP, too high to be reduced by taxation alone.",
+              "Historical precedent after WWII shows that inflating debt away is necessary."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EBC4E3162096",
+                "item": "US government debt is 123% of total US GDP, over quadruple what it was 40 years ago.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for the specific numbers.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "the United States government has so much debt that it is worth 123% of the total US GDP. You can see that is over quadruple what it was just 40 years ago.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4EC37667B278",
+                "item": "The last time the US government had this much debt was because of World War II.",
+                "status": "Unverifiable",
+                "verification_basis": "No historical source or citation provided.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "The last time the US government had this much debt was because of World War II.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-251E18A2B16E",
+                "device": "Comparison to post-WWII deleveraging",
+                "explanation": "To argue that the government will inflate debt away as it did after WWII.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "if the government wants to deleverage itself compared to the size of the economy like it did after World War II, which it took 40 years to do, a large part of it has to come from inflating the debt away.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-11415CE616FF",
+        "theme": "Investment strategies for the new debt cycle phase",
+        "arguments": [
+          {
+            "local_argument_id": "LA-41FB37D7E291",
+            "local_theme_id": "LT-11415CE616FF",
+            "conclusion": "Investors should avoid expecting low rates, keep debt loads manageable, and invest in uncorrelated assets that perform well during high inflation.",
+            "premises": [
+              "Interest rates for non-government borrowers will be higher due to inflation.",
+              "The 40-year trend of declining rates is over since 2020.",
+              "High inflation will persist for 5-10 years."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-48E8CFEA30F6",
+                "item": "Claim that 'ever since 2020, things are going the opposite direction' regarding interest rates.",
+                "status": "Unverifiable",
+                "verification_basis": "No data or analysis provided to support the trend reversal claim.",
+                "speech_id": "SP-422B65DC1CE5",
+                "source_speech_filename": "20260211_Dollars ARE Debt.txt",
+                "source_excerpt": "ever since 2020, things are going the opposite direction.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-749BDC48A87F",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "inflation is not only permanent, but it is about to come back with a vengeance",
+        "reason": "This is a prediction about future inflation with no supporting data or evidence in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Prediction unsupported by data in transcript.",
+        "source_excerpt": "inflation is not only permanent, but it is about to come back with a vengeance",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D2CA2D62F94C",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "the United States government has so much debt that it is worth 123% of the total US GDP",
+        "reason": "No source provided for the specific number.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Statistical claim without citation.",
+        "source_excerpt": "the United States government has so much debt that it is worth 123% of the total US GDP.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9DE82345B7F2",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "over quadruple what it was just 40 years ago",
+        "reason": "No historical data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical comparison without evidence.",
+        "source_excerpt": "over quadruple what it was just 40 years ago",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E1503C64B395",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "The last time the US government had this much debt was because of World War II",
+        "reason": "No historical reference or data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical claim without citation.",
+        "source_excerpt": "The last time the US government had this much debt was because of World War II.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7F02B72B525B",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "the vast majority of the time, they're just loaning your dollars to the US government in the form of buying a treasury",
+        "reason": "This is a factual claim about bank lending behavior with no supporting data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim about majority of bank lending without evidence.",
+        "source_excerpt": "often times, the vast majority of the time, they're just loaning your dollars to the US government in the form of buying a treasury.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-54365F3E0ED2",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "ever since 2020, things are going the opposite direction",
+        "reason": "No data or analysis provided to confirm trend reversal.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Assertion about macroeconomic trend without evidence.",
+        "source_excerpt": "ever since 2020, things are going the opposite direction.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DC38B237C84C",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "prices and interest rates for the broader economy are going to be going higher over the next 5, 10 plus years",
+        "reason": "Prediction without supporting model or data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Forecast without evidentiary basis.",
+        "source_excerpt": "prices and interest rates for the broader economy are going to be going higher over the next 5, 10 plus years.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-E82C9740D44B",
+        "speech_id": "SP-422B65DC1CE5",
+        "speech_ref": "20260211_Dollars ARE Debt.txt",
+        "claim": "in the past, when they would print money, they'd actually print paper money",
+        "reason": "General historical statement with no specific examples or sources.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical generalization without citation.",
+        "source_excerpt": "in the past, when they would print money, they'd actually print paper money.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "All money is debt and the way policymakers manage that debt ensures that inflation is permanent and about to return with a vengeance.",
+      "themes": [
+        "Money as a form of debt or IOU",
+        "Rehypothecation and the banking system",
+        "Debt repayment and deflation",
+        "Policy response to deflation and US government debt",
+        "Investment strategies for the new debt cycle phase"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-14T23:19:39+00:00",
+    "record_hash": "5910eff782a09920445baf3040320a6c6b6572690577fb79eb44813c76192ecc",
+    "analysis_truncated": false
+  },
+  "output_hash": "a9eb051bb5feeca0c6e6329df6f3540fac8b8d571d888fa8b0327ca54b8f1c52",
+  "complete": true
+}

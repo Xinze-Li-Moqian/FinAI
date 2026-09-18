@@ -1,0 +1,340 @@
+{
+  "dependencies": {
+    "source_hash": "66e16204a5a80258c10e89ef7d8420be331f4b1e343ac4dfe64dacd1767ed66f",
+    "filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-4F5FB6EF5965",
+    "filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+    "stem": "20260204_The Budget Deficit - Still Headed Towards Disaster",
+    "date": "2026-02-04",
+    "source_hash": "66e16204a5a80258c10e89ef7d8420be331f4b1e343ac4dfe64dacd1767ed66f",
+    "source_character_count": 10681,
+    "central_claim": "The US government's budget deficit remains at historically high levels and is not being solved by new policies; excessive spending, not insufficient taxation, is the core problem.",
+    "themes": [
+      {
+        "local_theme_id": "LT-61167F3BD76D",
+        "theme": "Annual deficit figures from fiscal years 2021 to 2026",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E9D5A2F7ADEC",
+            "local_theme_id": "LT-61167F3BD76D",
+            "conclusion": "The deficit has not decreased under new policies and remains around $1.7-1.8 trillion.",
+            "premises": [
+              "Fiscal year 2021 deficit was $2.7 trillion.",
+              "Fiscal year 2022 deficit was $1.37 trillion.",
+              "Fiscal year 2023 deficit was $1.69 trillion.",
+              "Fiscal year 2024 deficit was $1.8 trillion.",
+              "Fiscal year 2025 deficit was $1.775 trillion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1F4E324F72EF",
+                "item": "2021 deficit $2.7 trillion",
+                "status": "Verified",
+                "verification_basis": "Transcript references bipartisanpolicy.org chart",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "you can see we ended fiscal year 2021 with a $2.7 trillion deficit.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-462D53F4498C",
+                "item": "2022 deficit $1.37 trillion",
+                "status": "Verified",
+                "verification_basis": "Same chart",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "We ended 2022 with a deficit of only $1.37 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-6DC865DA1FED",
+                "item": "2023 deficit $1.69 trillion",
+                "status": "Verified",
+                "verification_basis": "Same chart",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "2023, which we ended the year with a $1.69 trillion deficit.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7F46F8EFEF93",
+                "item": "2024 deficit $1.8 trillion",
+                "status": "Verified",
+                "verification_basis": "Same chart",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "2024 was just about the same, a $1.8 trillion deficit.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C42DD9FD43F1",
+                "item": "2025 deficit $1.775 trillion",
+                "status": "Verified",
+                "verification_basis": "Same chart",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "ending the fiscal year 2025 with a deficit that was just slightly below 2024, with a grand total of $1.775 trillion deficit.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-060A822C5CA3",
+        "theme": "Federal spending and tax revenue comparisons",
+        "arguments": [
+          {
+            "local_argument_id": "LA-60C2C4C94AF0",
+            "local_theme_id": "LT-060A822C5CA3",
+            "conclusion": "Spending is the driver of deficits; reducing spending to levels seen in 2019 or 2022 would yield surplus or much lower deficit.",
+            "premises": [
+              "Federal spending in 2025 was over $7 trillion.",
+              "Tax revenue in 2025 was $5.3 trillion.",
+              "In 2019 federal spending was $4.7 trillion.",
+              "In 2022 federal spending was $6.1 trillion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-ADDFC2BD1C8D",
+                "item": "2025 spending over $7 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited in transcript",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "we can see that it topped out over $7 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B42D76319C4E",
+                "item": "2025 tax revenue $5.3 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "In 2025, the federal government took $5.3 trillion from people in taxes.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1D33DC8F6C8B",
+                "item": "2019 spending $4.7 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "In 2019, the federal government only spent $4.7 trillion.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-3AB2AF80FD90",
+                "item": "2022 spending $6.1 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "in 2022, only $6.1 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-06D96B62A012",
+            "local_theme_id": "LT-060A822C5CA3",
+            "conclusion": "Confiscating all billionaire wealth cannot sustainably fund the government.",
+            "premises": [
+              "Total billionaire wealth is just over $8 trillion.",
+              "Annual federal budget is over $7 trillion.",
+              "Confiscation would destroy asset values and future tax base."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EAC5C6429027",
+                "item": "Billionaire wealth $8.2 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited in transcript",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "the total wealth of all US billionaires reach just over $8 trillion in early 2026.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E933A48646FC",
+                "item": "Annual budget over $7 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "Derived from earlier unverified spending claim",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "it would fund the US government's budget for one year, a little bit over.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3753F7F714CC",
+                "device": "Hypothetical confiscation scenario",
+                "explanation": "Illustrates that even extreme taxation cannot cover the budget permanently",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "hypothetically speaking, if you could confiscate 100% of all of the wealth of every single US billionaire, and if doing so didn't plummet the value of that wealth... That would fund the US government's budget for one year, a little bit over.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-CA8F783B9491",
+        "theme": "Impact of deficit spending on citizens",
+        "arguments": [
+          {
+            "local_argument_id": "LA-36B6C17596C2",
+            "local_theme_id": "LT-CA8F783B9491",
+            "conclusion": "Government deficit spending imposes costs on citizens through taxes and inflation, so individuals must take protective measures.",
+            "premises": [
+              "Deficits lead to borrowing which causes inflation.",
+              "Every dollar spent by government comes from citizens directly or indirectly."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-73DA51F84FB2",
+                "item": "Claim that every dollar spent comes from citizens",
+                "status": "Unverifiable",
+                "verification_basis": "No evidence provided; it is an assertion of economic mechanism",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "every single dollar the government spends is money coming out of your pocket.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-6D86B69D77C7",
+                "device": "Boat metaphor",
+                "explanation": "Suggests that the direction of fiscal policy is clear and citizens should take independent action",
+                "speech_id": "SP-4F5FB6EF5965",
+                "source_speech_filename": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+                "source_excerpt": "It is clear the direction this boat is headed, and you don't have to stay on it.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-DCA462718466",
+        "speech_id": "SP-4F5FB6EF5965",
+        "speech_ref": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+        "claim": "The US government has been running a deficit pretty much every year since the 70s.",
+        "reason": "No source or evidence is provided for this historical generalization.",
+        "memory_check": "Corroborated",
+        "memory_note": "Historical deficit data is publicly available and generally consistent with this statement, but the exact claim of 'pretty much every year' is supported by known data.",
+        "source_excerpt": "the US government has been running a deficit pretty much every year since the 70s.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-129BC0E001C3",
+        "speech_id": "SP-4F5FB6EF5965",
+        "speech_ref": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+        "claim": "There was a brief surplus in the late '90s.",
+        "reason": "No source provided.",
+        "memory_check": "Corroborated",
+        "memory_note": "Known historical fact: federal budget surpluses from 1998-2001.",
+        "source_excerpt": "There was a brief surplus in the late '9s.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0071694FDB00",
+        "speech_id": "SP-4F5FB6EF5965",
+        "speech_ref": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+        "claim": "During the depths of the financial crisis in 2009, the fiscal year deficit was only 1.4 trillion.",
+        "reason": "No source provided; the number is used for comparison but not attributed.",
+        "memory_check": "Corroborated",
+        "memory_note": "Matching public data for FY2009.",
+        "source_excerpt": "Even during the depths of the financial crisis in 2009, the fiscal year deficit was only 1.4 trillion.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-6B067DED9999",
+        "speech_id": "SP-4F5FB6EF5965",
+        "speech_ref": "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+        "claim": "We haven't had a deficit that good since 2018.",
+        "reason": "Implied claim about 2018 deficit being lower than $800 billion; no source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "2018 deficit was approximately $779 billion, so the claim is plausible but not internally verifiable from transcript.",
+        "source_excerpt": "We haven't had a deficit that good since 2018.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The US government's budget deficit remains at historically high levels and is not being solved by new policies; excessive spending, not insufficient taxation, is the core problem.",
+      "themes": [
+        "Annual deficit figures from fiscal years 2021 to 2026",
+        "Federal spending and tax revenue comparisons",
+        "Impact of deficit spending on citizens"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 4
+    },
+    "generated_at": "2026-07-14T23:15:11+00:00",
+    "record_hash": "383ba79c72d093c7499f2057a15c94bcadfcd4bdbd5c87da589832d92f933fc1",
+    "analysis_truncated": false
+  },
+  "output_hash": "edabae7a013db6f7dafa67679f4dcd08ba08bff27b804d368b05362139d557c6",
+  "complete": true
+}

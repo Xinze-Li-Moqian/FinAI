@@ -1,0 +1,968 @@
+{
+  "dependencies": {
+    "source_hash": "48df6ea1e3b373f328bbe7d08a8fc63687c3285c530ee70b51e368733cf1b368",
+    "phase1_record_hash": "836d54d9a29e4ea14295c028a4f51108f763acac6bad35c83cb107dfa8318db8",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-8CE51C19A202",
+    "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+    "stem": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government",
+    "date": "2025-10-31",
+    "source_hash": "48df6ea1e3b373f328bbe7d08a8fc63687c3285c530ee70b51e368733cf1b368",
+    "source_character_count": 11898,
+    "central_claim": "The Federal Reserve is sacrificing the housing market to provide stealth quantitative easing for the U.S. government by reinvesting mortgage-backed securities principal into Treasury bills, which lowers government borrowing costs at the expense of higher mortgage rates.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A0BD7CD78695",
+        "theme": "October 2025 federal funds rate cut and dissenting opinions",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3631EE3E55BA",
+            "local_theme_id": "LT-A0BD7CD78695",
+            "conclusion": "The Federal Reserve's 25-basis-point rate cut was not unanimous, with internal divisions between those preferring a larger cut and those preferring no cut.",
+            "premises": [
+              "The Federal Reserve announced a new federal funds rate range of 3.75% to 4%.",
+              "Steven Moran dissented, arguing for a 50-basis-point cut.",
+              "Jeffrey Schmid dissented, arguing for no rate cut.",
+              "Powell stated that a further rate cut in December is not a foregone conclusion."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7EE4197ECDE3",
+                "item": "Federal Reserve's October 2025 statement indicates a rate cut to 3.75-4%.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the new range.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "the new range for the federal funds rate will be 3.75% through 4%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-70226716D3DC",
+                "item": "Steven Moran's dissent in favor of a half-point cut.",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes the dissent to Moran.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "Trump's new appointment to the Fed, Steven Moran, dissented, saying that he thinks that Fed should have moved more quickly and done a half a point cut.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CAFEF981FEE6",
+                "item": "Jeffrey Schmid's dissent in favor of holding rates steady.",
+                "status": "Verified",
+                "verification_basis": "Transcript attributes the dissent to Schmid.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "We also had dissent from President Jeffrey Schmid in the opposite direction, preferring that the Fed not cut at all, but hold rates steady.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B49BCEF633B4",
+                "item": "Powell's statement that a December cut is not a foregone conclusion.",
+                "status": "Verified",
+                "verification_basis": "Direct quote from the transcript.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "He said, 'A further reduction in interest rates at the December meeting is not a foregone conclusion. Far from it.'",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-554A24D19BE8",
+        "theme": "Cessation of quantitative tightening and balance sheet stabilization at $6.5 trillion",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7E4ADE3AB261",
+            "local_theme_id": "LT-554A24D19BE8",
+            "conclusion": "The Federal Reserve is ending quantitative tightening on December 1st to maintain liquidity in financial markets and avoid a repeat of the September 2019 repo market crisis.",
+            "premises": [
+              "The Fed's balance sheet has declined from $9 trillion to $6.5 trillion during QT.",
+              "The reverse repo market is drained and bank reserves show signs of stress.",
+              "Banks are increasingly using the regular repo window at the Fed.",
+              "The Fed does not want to risk too little liquidity and a repeat of September 2019."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E3BFF25DFCB0",
+                "item": "Balance sheet reduction from $9T to $6.5T.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides the exact figures.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "They've reduced their balance sheet from approximately $9 trillion down to its current level of about $6.5 trillion, which means the Fed has withdrawn about $2.5 trillion of liquidity from the financial system.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F5EEACABA28C",
+                "item": "Reverse repo drained and bank reserves stress due to increased repo window usage.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker does not cite a source or provide data for these claims.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "the reverse repo market being drained, bank reserves starting to show some signs of stress because banks are increasingly using the regular repo window at the Fed",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-18B57FDE2D6F",
+                "item": "Risk of repeating September 2019 repo market crisis.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is speculative and not supported by current data in the transcript.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "if they do, they could have a repeat of September of 2019 with the repo market madness and risk banks blowing up",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EFDB3891E017",
+                "device": "September 2019 repo market crisis analogy",
+                "explanation": "Used to illustrate the potential danger of continuing QT and causing liquidity shortages.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "if they do, they could have a repeat of September of 2019 with the repo market madness and risk banks blowing up",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-265BBB597B0A",
+        "theme": "Reinvestment of agency securities principal into Treasury bills as stealth QE",
+        "arguments": [
+          {
+            "local_argument_id": "LA-224B9F980A39",
+            "local_theme_id": "LT-265BBB597B0A",
+            "conclusion": "By reinvesting principal from agency securities into Treasury bills instead of mortgage-backed securities, the Federal Reserve lowers Treasury bill yields (benefiting the government) while maintaining upward pressure on mortgage rates (hurting homeowners).",
+            "premises": [
+              "The Federal Reserve will reinvest all principal payments from agency securities into Treasury bills starting December 1st.",
+              "Bond prices and yields are inversely correlated.",
+              "Reduced demand for MBS puts downward pressure on MBS prices and upward pressure on mortgage rates.",
+              "Increased demand for Treasury bills puts upward pressure on T-bill prices and downward pressure on T-bill yields."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F43E4FD41490",
+                "item": "Implementation note announces reinvestment of agency securities principal into Treasury bills.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the exact content of the Fed's implementation note.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "Beginning on December 1st, the same date, the Fed is going to reinvest all principal payments from the Federal Reserve holdings of agency securities into Treasury bills.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1033245AB15C",
+                "item": "Explanation of bond price-yield inverse correlation.",
+                "status": "Verified",
+                "verification_basis": "Standard finance principle explained in the transcript.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "with bonds, interest rates and the price of those bonds are inversely correlated. They are tied together. Meaning, if the price of a bond goes up, that means the yield it pays goes down.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EA45A8B1B246",
+                "device": "Stealth QE for the government",
+                "explanation": "The speaker characterizes the reinvestment policy as a hidden form of quantitative easing because it supports Treasury bill prices.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "stealth QE for the government",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 4229,
+                  "character_end": 4258,
+                  "line_start": 112
+                }
+              },
+              {
+                "device_id": "RD-0ED898E784B9",
+                "device": "Sacrificing the housing market",
+                "explanation": "Used to argue that the policy helps the government at the expense of higher mortgage rates for homeowners.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "sacrificing the housing market",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 4293,
+                  "character_end": 4323,
+                  "line_start": 114
+                }
+              },
+              {
+                "device_id": "RD-9052B44469E9",
+                "device": "Picking winners and losers",
+                "explanation": "The speaker argues that Fed intervention inevitably picks winners and losers, and in this case the government is the winner.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "And the winner that they choose 99 times out of a 100 is going to be the US government.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-5348F94B2567",
+            "local_theme_id": "LT-265BBB597B0A",
+            "conclusion": "The Federal Reserve should not intervene in financial markets because the free market can handle these functions more efficiently without picking winners and losers.",
+            "premises": [
+              "The Fed's actions always distort outcomes and eventually make things worse.",
+              "This policy is a perfect example of choosing winners and losers.",
+              "The free market would not require such intervention."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DF1357EB8C1D",
+                "item": "Speaker's assertion that we don't need the Fed and everything they do makes things worse.",
+                "status": "Unverifiable",
+                "verification_basis": "This is a normative opinion without supporting evidence in the transcript.",
+                "speech_id": "SP-8CE51C19A202",
+                "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+                "source_excerpt": "I think we don't need the Fed at all. In fact, everything they do just makes things worse long term.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-3FFFE2DB18D6",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "The reverse repo market is being drained and bank reserves are showing signs of stress because banks are increasingly using the regular repo window at the Fed.",
+        "reason": "The transcript provides no source or data to support this assertion about current market conditions.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "As of training cutoff, reverse repo was still elevated but declining; the specific claim for 2025 cannot be verified.",
+        "source_excerpt": "the reverse repo market being drained, bank reserves starting to show some signs of stress because banks are increasingly using the regular repo window at the Fed",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2FF0B21F4994",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "If the Fed continues QT, it could have a repeat of September of 2019 with the repo market madness and risk banks blowing up.",
+        "reason": "The transcript does not provide current data or analysis to support the imminence of such a crisis.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The 2019 event is historical; current risk is speculative.",
+        "source_excerpt": "if they do, they could have a repeat of September of 2019 with the repo market madness and risk banks blowing up",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5F945860A607",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "The market had largely priced in this rate cut and has priced in another cut coming from the Fed in December.",
+        "reason": "The transcript does not cite any market data or surveys to support this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Market pricing claims require outside verification; not available in transcript.",
+        "source_excerpt": "The market had largely priced in this rate cut, expecting the Federal Reserve to do so. And the market has priced in another cut coming from the Fed in December of this year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4BF9E67ACE4A",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "All that new money entering the economy drives asset prices higher, drives the price of goods and services higher.",
+        "reason": "This is a causal claim about the effects of Fed policy not supported by specific evidence in the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "The relationship between money supply increases and inflation is a widely accepted economic principle, though magnitude and timing are debated.",
+        "source_excerpt": "All that new money entering the economy drives asset prices higher, drives the price of goods and services higher",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-71C8E571B854",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "Higher inflation and higher interest rates for much longer than people expect.",
+        "reason": "This is a prediction without supporting data or models in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Predictions about future inflation and rates cannot be verified from transcript alone.",
+        "source_excerpt": "Higher inflation, higher interest rates for much longer than people expect.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C642B119109A",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "For 40 years, interest rates just went down.",
+        "reason": "The transcript does not cite any data source for this historical claim.",
+        "memory_check": "Corroborated",
+        "memory_note": "This is broadly correct for major advanced economy interest rates from the early 1980s to the early 2020s.",
+        "source_excerpt": "For 40 years, interest rates just went down.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FA7E5A58EB10",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "The US government has to finance more and more of its spending through inflation through printing and it taps the Fed to do that for them.",
+        "reason": "The transcript does not provide evidence for this characterization of the government's financing strategy.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a contested interpretation of fiscal-monetary coordination; not verifiable from transcript.",
+        "source_excerpt": "We are in a new period of time now where the US government has to finance more and more of its spending through inflation through printing and it taps the Fed to do that for them.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BE6CA9465BFB",
+        "speech_id": "SP-8CE51C19A202",
+        "speech_ref": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "claim": "The winner that the Fed chooses 99 times out of 100 is going to be the US government.",
+        "reason": "The transcript provides no empirical basis for this frequency claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a rhetorical claim, not a verifiable statistic.",
+        "source_excerpt": "And the winner that they choose 99 times out of a 100 is going to be the US government.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve is sacrificing the housing market to provide stealth quantitative easing for the U.S. government by reinvesting mortgage-backed securities principal into Treasury bills, which lowers government borrowing costs at the expense of higher mortgage rates.",
+      "themes": [
+        "October 2025 federal funds rate cut and dissenting opinions",
+        "Cessation of quantitative tightening and balance sheet stabilization at $6.5 trillion",
+        "Reinvestment of agency securities principal into Treasury bills as stealth QE"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "01a3dac883e7439bdf21868fbca9fcf5e01367a8500b3fbe3c5d91e0e5eb0133",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "836d54d9a29e4ea14295c028a4f51108f763acac6bad35c83cb107dfa8318db8",
+    "canonical_mapping": {
+      "speech_id": "SP-8CE51C19A202",
+      "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC51",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+      "primary_cc_rationale": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T87",
+        "T91",
+        "T108"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T87",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-554A24D19BE8",
+          "rationale": "The local theme concerns the end of quantitative tightening and balance sheet stabilization, which is exactly the subject of the Federal Reserve Balance Sheet Policy theme."
+        },
+        {
+          "theme_id": "T91",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-265BBB597B0A",
+          "rationale": "The local theme describes reinvestment into Treasury bills as stealth QE for the government, directly relating to fiscal debt and Treasury market concerns."
+        },
+        {
+          "theme_id": "T108",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-A0BD7CD78695",
+          "rationale": "The local theme discusses the October 2025 rate cut and dissenting opinions, which directly aligns with the canonical theme on interest rate policy and market expectations."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC51-T87",
+          "cc_id": "CC51",
+          "theme_id": "T87",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC51-T91",
+          "cc_id": "CC51",
+          "theme_id": "T91",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC51-T108",
+          "cc_id": "CC51",
+          "theme_id": "T108",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "local_cc_text": "The Federal Reserve is sacrificing the housing market to provide stealth quantitative easing for the U.S. government by reinvesting mortgage-backed securities principal into Treasury bills, which lowers government borrowing costs at the expense of higher mortgage rates.",
+        "canonical_cc_id": "CC51",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+        "rationale": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.5782838463783264
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5347331762313843
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.4418386220932007
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.419882595539093
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.31916457414627075
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "local_theme_id": "LT-A0BD7CD78695",
+        "local_theme_text": "October 2025 federal funds rate cut and dissenting opinions",
+        "canonical_theme_id": "T108",
+        "confidence": 0.8,
+        "rationale": "The local theme discusses the October 2025 rate cut and dissenting opinions, which directly aligns with the canonical theme on interest rate policy and market expectations.",
+        "candidate_matches": [
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.44674670696258545
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.4177064299583435
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.41571933031082153
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.37379106879234314
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.3708130717277527
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.36601924896240234
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "local_theme_id": "LT-554A24D19BE8",
+        "local_theme_text": "Cessation of quantitative tightening and balance sheet stabilization at $6.5 trillion",
+        "canonical_theme_id": "T87",
+        "confidence": 0.9,
+        "rationale": "The local theme concerns the end of quantitative tightening and balance sheet stabilization, which is exactly the subject of the Federal Reserve Balance Sheet Policy theme.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.5306915640830994
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.4168855547904968
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.40919923782348633
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.4018171727657318
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.3967984914779663
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3879894018173218
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "local_theme_id": "LT-265BBB597B0A",
+        "local_theme_text": "Reinvestment of agency securities principal into Treasury bills as stealth QE",
+        "canonical_theme_id": "T91",
+        "confidence": 0.85,
+        "rationale": "The local theme describes reinvestment into Treasury bills as stealth QE for the government, directly relating to fiscal debt and Treasury market concerns.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.3473200500011444
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.32875967025756836
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.3090353012084961
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.2627064287662506
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.25828444957733154
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.2437821328639984
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-586D17BA74E6F2",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "date": "2025-10-31",
+        "source_hash": "48df6ea1e3b373f328bbe7d08a8fc63687c3285c530ee70b51e368733cf1b368",
+        "pair_id": "PAIR-CC51-T108",
+        "cc_id": "CC51",
+        "theme_id": "T108",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A0BD7CD78695",
+        "local_theme_text": "October 2025 federal funds rate cut and dissenting opinions",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The local theme discusses the October 2025 rate cut and dissenting opinions, which directly aligns with the canonical theme on interest rate policy and market expectations.",
+        "local_argument_id": "LA-3631EE3E55BA",
+        "conclusion": "The Federal Reserve's 25-basis-point rate cut was not unanimous, with internal divisions between those preferring a larger cut and those preferring no cut.",
+        "premises": [
+          "The Federal Reserve announced a new federal funds rate range of 3.75% to 4%.",
+          "Steven Moran dissented, arguing for a 50-basis-point cut.",
+          "Jeffrey Schmid dissented, arguing for no rate cut.",
+          "Powell stated that a further rate cut in December is not a foregone conclusion."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7EE4197ECDE3",
+            "item": "Federal Reserve's October 2025 statement indicates a rate cut to 3.75-4%.",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly states the new range.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "the new range for the federal funds rate will be 3.75% through 4%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-70226716D3DC",
+            "item": "Steven Moran's dissent in favor of a half-point cut.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes the dissent to Moran.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "Trump's new appointment to the Fed, Steven Moran, dissented, saying that he thinks that Fed should have moved more quickly and done a half a point cut.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-CAFEF981FEE6",
+            "item": "Jeffrey Schmid's dissent in favor of holding rates steady.",
+            "status": "Verified",
+            "verification_basis": "Transcript attributes the dissent to Schmid.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "We also had dissent from President Jeffrey Schmid in the opposite direction, preferring that the Fed not cut at all, but hold rates steady.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-B49BCEF633B4",
+            "item": "Powell's statement that a December cut is not a foregone conclusion.",
+            "status": "Verified",
+            "verification_basis": "Direct quote from the transcript.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "He said, 'A further reduction in interest rates at the December meeting is not a foregone conclusion. Far from it.'",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-1EA130617072AA",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "date": "2025-10-31",
+        "source_hash": "48df6ea1e3b373f328bbe7d08a8fc63687c3285c530ee70b51e368733cf1b368",
+        "pair_id": "PAIR-CC51-T87",
+        "cc_id": "CC51",
+        "theme_id": "T87",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-554A24D19BE8",
+        "local_theme_text": "Cessation of quantitative tightening and balance sheet stabilization at $6.5 trillion",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme concerns the end of quantitative tightening and balance sheet stabilization, which is exactly the subject of the Federal Reserve Balance Sheet Policy theme.",
+        "local_argument_id": "LA-7E4ADE3AB261",
+        "conclusion": "The Federal Reserve is ending quantitative tightening on December 1st to maintain liquidity in financial markets and avoid a repeat of the September 2019 repo market crisis.",
+        "premises": [
+          "The Fed's balance sheet has declined from $9 trillion to $6.5 trillion during QT.",
+          "The reverse repo market is drained and bank reserves show signs of stress.",
+          "Banks are increasingly using the regular repo window at the Fed.",
+          "The Fed does not want to risk too little liquidity and a repeat of September 2019."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E3BFF25DFCB0",
+            "item": "Balance sheet reduction from $9T to $6.5T.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides the exact figures.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "They've reduced their balance sheet from approximately $9 trillion down to its current level of about $6.5 trillion, which means the Fed has withdrawn about $2.5 trillion of liquidity from the financial system.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F5EEACABA28C",
+            "item": "Reverse repo drained and bank reserves stress due to increased repo window usage.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker does not cite a source or provide data for these claims.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "the reverse repo market being drained, bank reserves starting to show some signs of stress because banks are increasingly using the regular repo window at the Fed",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-18B57FDE2D6F",
+            "item": "Risk of repeating September 2019 repo market crisis.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim is speculative and not supported by current data in the transcript.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "if they do, they could have a repeat of September of 2019 with the repo market madness and risk banks blowing up",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-EFDB3891E017",
+            "device": "September 2019 repo market crisis analogy",
+            "explanation": "Used to illustrate the potential danger of continuing QT and causing liquidity shortages.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "if they do, they could have a repeat of September of 2019 with the repo market madness and risk banks blowing up",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-AC248A52B03FB6",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "date": "2025-10-31",
+        "source_hash": "48df6ea1e3b373f328bbe7d08a8fc63687c3285c530ee70b51e368733cf1b368",
+        "pair_id": "PAIR-CC51-T91",
+        "cc_id": "CC51",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-265BBB597B0A",
+        "local_theme_text": "Reinvestment of agency securities principal into Treasury bills as stealth QE",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme describes reinvestment into Treasury bills as stealth QE for the government, directly relating to fiscal debt and Treasury market concerns.",
+        "local_argument_id": "LA-224B9F980A39",
+        "conclusion": "By reinvesting principal from agency securities into Treasury bills instead of mortgage-backed securities, the Federal Reserve lowers Treasury bill yields (benefiting the government) while maintaining upward pressure on mortgage rates (hurting homeowners).",
+        "premises": [
+          "The Federal Reserve will reinvest all principal payments from agency securities into Treasury bills starting December 1st.",
+          "Bond prices and yields are inversely correlated.",
+          "Reduced demand for MBS puts downward pressure on MBS prices and upward pressure on mortgage rates.",
+          "Increased demand for Treasury bills puts upward pressure on T-bill prices and downward pressure on T-bill yields."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F43E4FD41490",
+            "item": "Implementation note announces reinvestment of agency securities principal into Treasury bills.",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the exact content of the Fed's implementation note.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "Beginning on December 1st, the same date, the Fed is going to reinvest all principal payments from the Federal Reserve holdings of agency securities into Treasury bills.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1033245AB15C",
+            "item": "Explanation of bond price-yield inverse correlation.",
+            "status": "Verified",
+            "verification_basis": "Standard finance principle explained in the transcript.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "with bonds, interest rates and the price of those bonds are inversely correlated. They are tied together. Meaning, if the price of a bond goes up, that means the yield it pays goes down.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-EA45A8B1B246",
+            "device": "Stealth QE for the government",
+            "explanation": "The speaker characterizes the reinvestment policy as a hidden form of quantitative easing because it supports Treasury bill prices.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "stealth QE for the government",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 4229,
+              "character_end": 4258,
+              "line_start": 112
+            }
+          },
+          {
+            "device_id": "RD-0ED898E784B9",
+            "device": "Sacrificing the housing market",
+            "explanation": "Used to argue that the policy helps the government at the expense of higher mortgage rates for homeowners.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "sacrificing the housing market",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 4293,
+              "character_end": 4323,
+              "line_start": 114
+            }
+          },
+          {
+            "device_id": "RD-9052B44469E9",
+            "device": "Picking winners and losers",
+            "explanation": "The speaker argues that Fed intervention inevitably picks winners and losers, and in this case the government is the winner.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "And the winner that they choose 99 times out of a 100 is going to be the US government.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-ABAC785725D760",
+        "speech_id": "SP-8CE51C19A202",
+        "filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+        "date": "2025-10-31",
+        "source_hash": "48df6ea1e3b373f328bbe7d08a8fc63687c3285c530ee70b51e368733cf1b368",
+        "pair_id": "PAIR-CC51-T91",
+        "cc_id": "CC51",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents a concrete instance of the Fed's covert quantitative easing by detailing the reinvestment of MBS principal into Treasury bills, directly illustrating how the Fed supports government borrowing while harming the housing market.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-265BBB597B0A",
+        "local_theme_text": "Reinvestment of agency securities principal into Treasury bills as stealth QE",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme describes reinvestment into Treasury bills as stealth QE for the government, directly relating to fiscal debt and Treasury market concerns.",
+        "local_argument_id": "LA-5348F94B2567",
+        "conclusion": "The Federal Reserve should not intervene in financial markets because the free market can handle these functions more efficiently without picking winners and losers.",
+        "premises": [
+          "The Fed's actions always distort outcomes and eventually make things worse.",
+          "This policy is a perfect example of choosing winners and losers.",
+          "The free market would not require such intervention."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-DF1357EB8C1D",
+            "item": "Speaker's assertion that we don't need the Fed and everything they do makes things worse.",
+            "status": "Unverifiable",
+            "verification_basis": "This is a normative opinion without supporting evidence in the transcript.",
+            "speech_id": "SP-8CE51C19A202",
+            "source_speech_filename": "20251031_The Fed is Sacrificing the Housing Market to Bail Out the Government.txt",
+            "source_excerpt": "I think we don't need the Fed at all. In fact, everything they do just makes things worse long term.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "01a3dac883e7439bdf21868fbca9fcf5e01367a8500b3fbe3c5d91e0e5eb0133",
+  "complete": true
+}

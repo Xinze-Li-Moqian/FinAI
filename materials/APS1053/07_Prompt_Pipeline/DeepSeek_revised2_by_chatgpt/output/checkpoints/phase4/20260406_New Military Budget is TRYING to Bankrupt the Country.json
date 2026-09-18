@@ -1,0 +1,1174 @@
+{
+  "dependencies": {
+    "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+    "phase1_record_hash": "163311cf9811fa105c0ce1a9aa9a178b8b9a0c69b5588976c18082b9c94f0946",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-B7D0DBD11E22",
+    "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+    "stem": "20260406_New Military Budget is TRYING to Bankrupt the Country",
+    "date": "2026-04-06",
+    "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+    "source_character_count": 11511,
+    "central_claim": "The proposed 50% increase in military budget will increase spending, widen the deficit, accelerate national debt, and ultimately harm the economy through inflation and unsustainable borrowing.",
+    "themes": [
+      {
+        "local_theme_id": "LT-ECAE267FD279",
+        "theme": "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6F47D3B27D13",
+            "local_theme_id": "LT-ECAE267FD279",
+            "conclusion": "The budget increase will increase spending, widen the deficit, and accelerate national debt.",
+            "premises": [
+              "The proposal increases military budget by about 50%",
+              "Total $2.2 trillion budget proposal",
+              "$1.5 trillion for defense",
+              "$1.1 trillion base DOD, $350 billion mandatory, $200 billion supplemental"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EB70135931D9",
+                "item": "Budget numbers: $2.2 trillion total, $1.5 trillion defense, $1.1 trillion base, $350 billion mandatory, $200 billion supplemental",
+                "status": "Unverifiable",
+                "verification_basis": "Numbers stated without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "this new budget proposal for 2027, it requests $1.5 trillion for defense, which is about 50% more than the trillion dollars they had for 2026. Breakdown is $1.1 trillion in base discretionary spending for the DOD. ... It also includes another 350 billion for mandatory spending, and then there's a potential $200 billion Pentagon supplemental package.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-18A9A6576747",
+                "device": "Stone and two birds (misquote of hammer and nail)",
+                "explanation": "Illustrates the government using the same tool (military spending) for every problem",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "if all you have is a stone, everything looks like two birds.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-1B848AEC541A",
+            "local_theme_id": "LT-ECAE267FD279",
+            "conclusion": "The military had no idea how to spend the money until a war was started.",
+            "premises": [
+              "In February 2026, officials were scrambling to figure out what to do with $1.5 trillion",
+              "Now with the Iran war, no one questions how to spend it"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2F249D2A3712",
+                "item": "Anonymous sources said military literally has no idea what it would do with that much money",
+                "status": "Unverifiable",
+                "verification_basis": "Relies on anonymous sources not provided in transcript",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "They said the military literally has no idea what it would do with that much money. This was sources who spoke anonymously to characterize internal matters.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-051BBCF33F59",
+        "theme": "Government deficit financing and inflation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E979546719F5",
+            "local_theme_id": "LT-051BBCF33F59",
+            "conclusion": "Government spending is funded by taking money from citizens via taxation or inflation.",
+            "premises": [
+              "2025 revenue $5.23 trillion but spending over $7 trillion",
+              "Deficit of $1.78 trillion is financed by borrowing",
+              "Borrowing creates new money which causes inflation"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F79F27CD7F68",
+                "item": "2025 spending over $7 trillion, revenue $5.23 trillion, deficit $1.78 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "Numbers stated without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "We're looking at the numbers for 2025. We can see they spent a little over $7 trillion. 5.23 trillion of that was what they call revenue...",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-39A24457EF87",
+            "local_theme_id": "LT-051BBCF33F59",
+            "conclusion": "The deficit trend is worsening and may break records.",
+            "premises": [
+              "Current deficit $1.005 trillion vs $1.147 trillion at same point in 2025",
+              "Following 2021 trajectory which ended at $2.77 trillion deficit",
+              "Last annual surplus was in 2001",
+              "Overall trend is worsening"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-03A85D3D76AF",
+                "item": "Deficit comparison numbers and 2001 surplus reference",
+                "status": "Unverifiable",
+                "verification_basis": "Chart references and numbers without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "At this point in 2025, the deficit was at 1.147 trillion. And right now, the deficit's only at 1.005 trillion. ... fiscal year 2021 at a $2.77 trillion deficit. ... the last time we ran a surplus for an entire year was actually 2001.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EDC09DC5FD3D",
+        "theme": "Social Security trust fund depletion",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8F8EFBE0FEE4",
+            "local_theme_id": "LT-EDC09DC5FD3D",
+            "conclusion": "Social Security will run out in 6-8 years, forcing benefit cuts, tax increases, or inflation.",
+            "premises": [
+              "Less money going into Social Security fund than paid out",
+              "Trust fund will be exhausted in 6-8 years"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-36645DBF83C2",
+                "item": "Claim of Social Security bankruptcy and timeline",
+                "status": "Unverifiable",
+                "verification_basis": "No source or data provided for inflow/outflow or trust fund projections",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "Social Security is bankrupt. There's less money going into the Social Security fund than is getting paid out, which means when it runs out in 6 to 8 years, which it will, either benefit payouts are going to be cut or taxes on everybody else are going to go up or they're going to inflate away the difference.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-692227980A23",
+        "theme": "Proposed defense spending as share of budget and GDP",
+        "arguments": [
+          {
+            "local_argument_id": "LA-15C0A812CC02",
+            "local_theme_id": "LT-692227980A23",
+            "conclusion": "Proposed defense spending as percent of GDP is highest since Reagan.",
+            "premises": [
+              "Chart shows last bar is highest percentage spent on defense going back to Reagan"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3CED15002113",
+                "item": "Chart reference without source",
+                "status": "Unverifiable",
+                "verification_basis": "Chart presented but not sourced",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "you can see this last bar here is the proposed defense spending, and it is the highest percentage spent on defense going back all the way to Reagan.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-E28422427C23",
+            "local_theme_id": "LT-692227980A23",
+            "conclusion": "Cutting other departments to fund defense does not reduce overall spending.",
+            "premises": [
+              "Proposal cuts Interior, HUD, HHS but adds to defense"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9083ED7A2930",
+                "item": "Chart showing areas of cuts and increases",
+                "status": "Unverifiable",
+                "verification_basis": "Chart referenced without source",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "And you can see on this chart here which areas would receive more funding and which areas would receive less funding.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-F06664E7EC44",
+        "theme": "Treasury borrowing difficulties and Federal Reserve response",
+        "arguments": [
+          {
+            "local_argument_id": "LA-22575D8D7B9F",
+            "local_theme_id": "LT-F06664E7EC44",
+            "conclusion": "The government is having trouble borrowing, evidenced by low bid-to-cover in 2-year Treasury auction.",
+            "premises": [
+              "2-year Treasury yield surged after bad auction",
+              "Auction $69 billion, bid-to-cover 2.44 (smallest since May 2024)"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-87E4AAA9049F",
+                "item": "Auction details: $69 billion, bid-to-cover 2.44, yield jump of nine bips to 3.925%",
+                "status": "Unverifiable",
+                "verification_basis": "Specific numbers stated without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% and it was only a $69 billion auction. The bid-to-cover ratio on that auction was only 2.44, which is the smallest bid-to-cover since May of 2024.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3D6DACAA3390",
+                "device": "Explanation of how Treasury auctions work",
+                "explanation": "Illustrates how low bid-to-cover leads to higher interest rates",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "the way that US Treasury auctions work is that there are certain number of dollars lined up at the auction to participate and buy those bonds. ... If there's a really large bid to cover, that means there's a lot of money lining up... When there's a really small bid to cover ratio, like 2.44, that means that the government might burn through all the dollars... and then they have to start paying a higher and higher interest rate.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-6C34918B3755",
+            "local_theme_id": "LT-F06664E7EC44",
+            "conclusion": "The Federal Reserve is doing QE again because there is insufficient demand for Treasury debt.",
+            "premises": [
+              "Fed balance sheet increasing as of April 1st",
+              "Not enough dollars in system for lending to government"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0DBD7F0CAFC1",
+                "item": "Fed balance sheet increase as of April 1st",
+                "status": "Unverifiable",
+                "verification_basis": "Claim without source for balance sheet data",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "if you watch the Federal Reserve's balance sheet, it has been increasing over the last couple of months. You can see as of April 1st, it again grew because the Federal Reserve is doing QE again.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-0A721F48E245",
+            "local_theme_id": "LT-F06664E7EC44",
+            "conclusion": "Bank deregulation may be enacted to allow banks to lend unlimited amounts to the government.",
+            "premises": [
+              "Banks currently limited by regulations",
+              "Deregulation would allow unlimited lending to government",
+              "Would provide newly printed dollars and push yields lower"
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7175DB62AE9F",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The military literally has no idea what it would do with that much money.",
+        "reason": "Claim is based on anonymous sources whose credibility and exact statements are not provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external or internal evidence corroborates or contradicts; relies on reported anonymous sourcing.",
+        "source_excerpt": "They said the military literally has no idea what it would do with that much money. This was sources who spoke anonymously to characterize internal matters.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8E19326CC546",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "Social Security is bankrupt and will run out in 6-8 years.",
+        "reason": "No data on trust fund inflow/outflow or actuarial projections is provided; assertion is unsupported.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Social Security trust fund depletion is a known policy debate but the specific 6-8 year timeline and 'bankrupt' characterization are not verifiable from the transcript alone.",
+        "source_excerpt": "Social Security is bankrupt. There's less money going into the Social Security fund than is getting paid out, which means when it runs out in 6 to 8 years, which it will...",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-25410199424B",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The last time we ran a surplus for an entire year was actually 2001.",
+        "reason": "No source or chart reference is provided for this historical claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Widely known fiscal fact but not verified within transcript.",
+        "source_excerpt": "the last time we ran a surplus for an entire year was actually 2001.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-672DFF4B56F4",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The Federal Reserve is doing QE again.",
+        "reason": "Claim inferred from balance sheet increase but no official Fed statement or specific data source is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Balance sheet increase could reflect other operations; QE characterization is unsubstantiated.",
+        "source_excerpt": "if you watch the Federal Reserve's balance sheet, it has been increasing over the last couple of months. You can see as of April 1st, it again grew because the Federal Reserve is doing QE again.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B64C2A3C5133",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% on a $69 billion auction with bid-to-cover 2.44.",
+        "reason": "Specific market data stated without reference to a primary source or timestamp.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Financial data typically from Reuters, Bloomberg, etc.; not verifiable from transcript alone.",
+        "source_excerpt": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% and it was only a $69 billion auction. The bid-to-cover ratio on that auction was only 2.44, which is the smallest bid-to-cover since May of 2024.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-73B5306B5E18",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "Proposed defense spending as percent of GDP is highest since Reagan.",
+        "reason": "Chart is shown but no underlying data or source is provided to verify the claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No way to confirm the historical comparison from transcript alone.",
+        "source_excerpt": "you can see this last bar here is the proposed defense spending, and it is the highest percentage spent on defense going back all the way to Reagan.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-13366BBEBCF9",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "Deficit in 2025 at same point was $1.147 trillion and currently $1.005 trillion; 2021 fiscal year deficit was $2.77 trillion.",
+        "reason": "Numbers are stated without attribution to any official budget document or data series.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Fiscal data usually from Treasury or CBO; not sourced here.",
+        "source_excerpt": "At this point in 2025, the deficit was at 1.147 trillion. And right now, the deficit's only at 1.005 trillion. ... fiscal year 2021 at a $2.77 trillion deficit.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-A46B9554A8D9",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "2025 revenue $5.23 trillion, spending over $7 trillion, deficit $1.78 trillion.",
+        "reason": "Specific fiscal year numbers presented without source citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "These are plausible but unverifiable within transcript.",
+        "source_excerpt": "We're looking at the numbers for 2025. We can see they spent a little over $7 trillion. 5.23 trillion of that was what they call revenue...",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The proposed 50% increase in military budget will increase spending, widen the deficit, accelerate national debt, and ultimately harm the economy through inflation and unsustainable borrowing.",
+      "themes": [
+        "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "Government deficit financing and inflation",
+        "Social Security trust fund depletion",
+        "Proposed defense spending as share of budget and GDP",
+        "Treasury borrowing difficulties and Federal Reserve response"
+      ],
+      "argument_count": 10,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "d0cccb045d6d01109e4505a293b4e0889e37eea795f3b000c6da96db7a3638a4",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "163311cf9811fa105c0ce1a9aa9a178b8b9a0c69b5588976c18082b9c94f0946",
+    "canonical_mapping": {
+      "speech_id": "SP-B7D0DBD11E22",
+      "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "mechanism",
+      "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+      "primary_cc_rationale": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T92",
+        "T106",
+        "T91"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T92",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-ECAE267FD279",
+          "rationale": "Directly addresses the proposed defense budget increase within the context of fiscal deficit and budget allocation."
+        },
+        {
+          "theme_id": "T106",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-051BBCF33F59",
+          "rationale": "Discusses government deficit financing leading to inflation, matching the inflation dynamics theme."
+        },
+        {
+          "theme_id": "T91",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-F06664E7EC44",
+          "rationale": "Specifically addresses Treasury borrowing difficulties and Federal Reserve response, aligning with fiscal debt and Treasury market concerns."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T92",
+          "cc_id": "CC54",
+          "theme_id": "T92",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T106",
+          "cc_id": "CC54",
+          "theme_id": "T106",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T91",
+          "cc_id": "CC54",
+          "theme_id": "T91",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "local_cc_text": "The proposed 50% increase in military budget will increase spending, widen the deficit, accelerate national debt, and ultimately harm the economy through inflation and unsustainable borrowing.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.85,
+        "relationship_type": "mechanism",
+        "relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "rationale": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "candidate_matches": [
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.3822323977947235
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.3805024027824402
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.3729627728462219
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.3556641638278961
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.35323235392570496
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "local_theme_id": "LT-ECAE267FD279",
+        "local_theme_text": "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "canonical_theme_id": "T92",
+        "confidence": 0.85,
+        "rationale": "Directly addresses the proposed defense budget increase within the context of fiscal deficit and budget allocation.",
+        "candidate_matches": [
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.38431715965270996
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.34878575801849365
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.31185632944107056
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.30671262741088867
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.2902819812297821
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.2875243127346039
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "local_theme_id": "LT-051BBCF33F59",
+        "local_theme_text": "Government deficit financing and inflation",
+        "canonical_theme_id": "T106",
+        "confidence": 0.9,
+        "rationale": "Discusses government deficit financing leading to inflation, matching the inflation dynamics theme.",
+        "candidate_matches": [
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.5900686979293823
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.5357092618942261
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5019281506538391
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.4636390805244446
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.4587399363517761
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.3837085962295532
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "local_theme_id": "LT-EDC09DC5FD3D",
+        "local_theme_text": "Social Security trust fund depletion",
+        "canonical_theme_id": "T130",
+        "confidence": 0.7,
+        "rationale": "Focuses on Social Security trust fund depletion, directly relating to social entitlement programs and transfer systems.",
+        "candidate_matches": [
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.2973410189151764
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.19490745663642883
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.16442382335662842
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.1537076234817505
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.1451958566904068
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.12141753733158112
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "local_theme_id": "LT-692227980A23",
+        "local_theme_text": "Proposed defense spending as share of budget and GDP",
+        "canonical_theme_id": "T92",
+        "confidence": 0.8,
+        "rationale": "Describes defense spending as a share of budget and GDP, which is a budget allocation issue covered by T92.",
+        "candidate_matches": [
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.4647553563117981
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.42961597442626953
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4157448709011078
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.40594708919525146
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.39405250549316406
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.3689475953578949
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "local_theme_id": "LT-F06664E7EC44",
+        "local_theme_text": "Treasury borrowing difficulties and Federal Reserve response",
+        "canonical_theme_id": "T91",
+        "confidence": 0.95,
+        "rationale": "Specifically addresses Treasury borrowing difficulties and Federal Reserve response, aligning with fiscal debt and Treasury market concerns.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.6705847978591919
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.5910369157791138
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5462121367454529
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5088262557983398
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.5068459510803223
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.4948216676712036
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-8B64B7FB7E838F",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T92",
+        "cc_id": "CC54",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-ECAE267FD279",
+        "local_theme_text": "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Directly addresses the proposed defense budget increase within the context of fiscal deficit and budget allocation.",
+        "local_argument_id": "LA-6F47D3B27D13",
+        "conclusion": "The budget increase will increase spending, widen the deficit, and accelerate national debt.",
+        "premises": [
+          "The proposal increases military budget by about 50%",
+          "Total $2.2 trillion budget proposal",
+          "$1.5 trillion for defense",
+          "$1.1 trillion base DOD, $350 billion mandatory, $200 billion supplemental"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-EB70135931D9",
+            "item": "Budget numbers: $2.2 trillion total, $1.5 trillion defense, $1.1 trillion base, $350 billion mandatory, $200 billion supplemental",
+            "status": "Unverifiable",
+            "verification_basis": "Numbers stated without source citation",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "this new budget proposal for 2027, it requests $1.5 trillion for defense, which is about 50% more than the trillion dollars they had for 2026. Breakdown is $1.1 trillion in base discretionary spending for the DOD. ... It also includes another 350 billion for mandatory spending, and then there's a potential $200 billion Pentagon supplemental package.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-18A9A6576747",
+            "device": "Stone and two birds (misquote of hammer and nail)",
+            "explanation": "Illustrates the government using the same tool (military spending) for every problem",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "if all you have is a stone, everything looks like two birds.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-DC0C2639389C02",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T92",
+        "cc_id": "CC54",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-ECAE267FD279",
+        "local_theme_text": "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Directly addresses the proposed defense budget increase within the context of fiscal deficit and budget allocation.",
+        "local_argument_id": "LA-1B848AEC541A",
+        "conclusion": "The military had no idea how to spend the money until a war was started.",
+        "premises": [
+          "In February 2026, officials were scrambling to figure out what to do with $1.5 trillion",
+          "Now with the Iran war, no one questions how to spend it"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2F249D2A3712",
+            "item": "Anonymous sources said military literally has no idea what it would do with that much money",
+            "status": "Unverifiable",
+            "verification_basis": "Relies on anonymous sources not provided in transcript",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "They said the military literally has no idea what it would do with that much money. This was sources who spoke anonymously to characterize internal matters.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-34E9AB7DCE688D",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T106",
+        "cc_id": "CC54",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-051BBCF33F59",
+        "local_theme_text": "Government deficit financing and inflation",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Discusses government deficit financing leading to inflation, matching the inflation dynamics theme.",
+        "local_argument_id": "LA-E979546719F5",
+        "conclusion": "Government spending is funded by taking money from citizens via taxation or inflation.",
+        "premises": [
+          "2025 revenue $5.23 trillion but spending over $7 trillion",
+          "Deficit of $1.78 trillion is financed by borrowing",
+          "Borrowing creates new money which causes inflation"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F79F27CD7F68",
+            "item": "2025 spending over $7 trillion, revenue $5.23 trillion, deficit $1.78 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "Numbers stated without source citation",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "We're looking at the numbers for 2025. We can see they spent a little over $7 trillion. 5.23 trillion of that was what they call revenue...",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-AADE969AA367C9",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T106",
+        "cc_id": "CC54",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-051BBCF33F59",
+        "local_theme_text": "Government deficit financing and inflation",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Discusses government deficit financing leading to inflation, matching the inflation dynamics theme.",
+        "local_argument_id": "LA-39A24457EF87",
+        "conclusion": "The deficit trend is worsening and may break records.",
+        "premises": [
+          "Current deficit $1.005 trillion vs $1.147 trillion at same point in 2025",
+          "Following 2021 trajectory which ended at $2.77 trillion deficit",
+          "Last annual surplus was in 2001",
+          "Overall trend is worsening"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-03A85D3D76AF",
+            "item": "Deficit comparison numbers and 2001 surplus reference",
+            "status": "Unverifiable",
+            "verification_basis": "Chart references and numbers without source citation",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "At this point in 2025, the deficit was at 1.147 trillion. And right now, the deficit's only at 1.005 trillion. ... fiscal year 2021 at a $2.77 trillion deficit. ... the last time we ran a surplus for an entire year was actually 2001.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-4856D864734788",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T92",
+        "cc_id": "CC54",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-692227980A23",
+        "local_theme_text": "Proposed defense spending as share of budget and GDP",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Describes defense spending as a share of budget and GDP, which is a budget allocation issue covered by T92.",
+        "local_argument_id": "LA-15C0A812CC02",
+        "conclusion": "Proposed defense spending as percent of GDP is highest since Reagan.",
+        "premises": [
+          "Chart shows last bar is highest percentage spent on defense going back to Reagan"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3CED15002113",
+            "item": "Chart reference without source",
+            "status": "Unverifiable",
+            "verification_basis": "Chart presented but not sourced",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "you can see this last bar here is the proposed defense spending, and it is the highest percentage spent on defense going back all the way to Reagan.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-48889E8A27D4D4",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T92",
+        "cc_id": "CC54",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-692227980A23",
+        "local_theme_text": "Proposed defense spending as share of budget and GDP",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Describes defense spending as a share of budget and GDP, which is a budget allocation issue covered by T92.",
+        "local_argument_id": "LA-E28422427C23",
+        "conclusion": "Cutting other departments to fund defense does not reduce overall spending.",
+        "premises": [
+          "Proposal cuts Interior, HUD, HHS but adds to defense"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9083ED7A2930",
+            "item": "Chart showing areas of cuts and increases",
+            "status": "Unverifiable",
+            "verification_basis": "Chart referenced without source",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "And you can see on this chart here which areas would receive more funding and which areas would receive less funding.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-641821FE611A7C",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T91",
+        "cc_id": "CC54",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-F06664E7EC44",
+        "local_theme_text": "Treasury borrowing difficulties and Federal Reserve response",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Specifically addresses Treasury borrowing difficulties and Federal Reserve response, aligning with fiscal debt and Treasury market concerns.",
+        "local_argument_id": "LA-22575D8D7B9F",
+        "conclusion": "The government is having trouble borrowing, evidenced by low bid-to-cover in 2-year Treasury auction.",
+        "premises": [
+          "2-year Treasury yield surged after bad auction",
+          "Auction $69 billion, bid-to-cover 2.44 (smallest since May 2024)"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-87E4AAA9049F",
+            "item": "Auction details: $69 billion, bid-to-cover 2.44, yield jump of nine bips to 3.925%",
+            "status": "Unverifiable",
+            "verification_basis": "Specific numbers stated without source citation",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% and it was only a $69 billion auction. The bid-to-cover ratio on that auction was only 2.44, which is the smallest bid-to-cover since May of 2024.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-3D6DACAA3390",
+            "device": "Explanation of how Treasury auctions work",
+            "explanation": "Illustrates how low bid-to-cover leads to higher interest rates",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "the way that US Treasury auctions work is that there are certain number of dollars lined up at the auction to participate and buy those bonds. ... If there's a really large bid to cover, that means there's a lot of money lining up... When there's a really small bid to cover ratio, like 2.44, that means that the government might burn through all the dollars... and then they have to start paying a higher and higher interest rate.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-B6F451F7646FC2",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T91",
+        "cc_id": "CC54",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-F06664E7EC44",
+        "local_theme_text": "Treasury borrowing difficulties and Federal Reserve response",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Specifically addresses Treasury borrowing difficulties and Federal Reserve response, aligning with fiscal debt and Treasury market concerns.",
+        "local_argument_id": "LA-6C34918B3755",
+        "conclusion": "The Federal Reserve is doing QE again because there is insufficient demand for Treasury debt.",
+        "premises": [
+          "Fed balance sheet increasing as of April 1st",
+          "Not enough dollars in system for lending to government"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0DBD7F0CAFC1",
+            "item": "Fed balance sheet increase as of April 1st",
+            "status": "Unverifiable",
+            "verification_basis": "Claim without source for balance sheet data",
+            "speech_id": "SP-B7D0DBD11E22",
+            "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+            "source_excerpt": "if you watch the Federal Reserve's balance sheet, it has been increasing over the last couple of months. You can see as of April 1st, it again grew because the Federal Reserve is doing QE again.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-6E9CC9186B36F8",
+        "speech_id": "SP-B7D0DBD11E22",
+        "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "date": "2026-04-06",
+        "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+        "pair_id": "PAIR-CC54-T91",
+        "cc_id": "CC54",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "mechanism",
+        "primary_cc_relationship_explanation": "The speech argues that the proposed 50% military budget increase serves as a mechanism driving accelerating deficit spending, which forces the Federal Reserve to adopt unconventional policies (e.g., QE) and leads to inflation, dollar erosion, and wealth transfer—mapping directly onto CC54's causal chain applied to a specific spending increase.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-F06664E7EC44",
+        "local_theme_text": "Treasury borrowing difficulties and Federal Reserve response",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Specifically addresses Treasury borrowing difficulties and Federal Reserve response, aligning with fiscal debt and Treasury market concerns.",
+        "local_argument_id": "LA-0A721F48E245",
+        "conclusion": "Bank deregulation may be enacted to allow banks to lend unlimited amounts to the government.",
+        "premises": [
+          "Banks currently limited by regulations",
+          "Deregulation would allow unlimited lending to government",
+          "Would provide newly printed dollars and push yields lower"
+        ],
+        "evidence": [],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-EDC09DC5FD3D",
+        "local_argument_id": "LA-8F8EFBE0FEE4",
+        "conclusion": "Social Security will run out in 6-8 years, forcing benefit cuts, tax increases, or inflation.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "d0cccb045d6d01109e4505a293b4e0889e37eea795f3b000c6da96db7a3638a4",
+  "complete": true
+}

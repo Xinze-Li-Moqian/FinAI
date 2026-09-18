@@ -1,0 +1,479 @@
+{
+  "dependencies": {
+    "source_hash": "bb6141856270d86e75be53935c07b90bf12883ad741061cd9000d45cfc0903fc",
+    "phase1_record_hash": "cd81f4ce4b4c282c37793bcf531d35d763c48bb1a684fc52118ed02868e773af",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-D61D826A1B89",
+    "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+    "stem": "20251212_The Fed Only Lasted 12 Days Before Restarting QE",
+    "date": "2025-12-12",
+    "source_hash": "bb6141856270d86e75be53935c07b90bf12883ad741061cd9000d45cfc0903fc",
+    "source_character_count": 11788,
+    "central_claim": "The Federal Reserve's restart of Treasury bill and short-term security purchases on December 10, 2025, despite being framed as reserve management, is effectively a form of quantitative easing that will expand the money supply and cause price inflation across assets and goods.",
+    "themes": [
+      {
+        "local_theme_id": "LT-779F7A79B391",
+        "theme": "The Fed's Treasury purchases as quantitative easing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3B818CDEE1C3",
+            "local_theme_id": "LT-779F7A79B391",
+            "conclusion": "The Fed's announced purchases of Treasury bills and short-term securities constitute quantitative easing because they involve creating new money to purchase government debt, regardless of the stated goal of reserve management.",
+            "premises": [
+              "The Fed's implementation notes state they will increase holdings through purchases of Treasury bills and eligible securities with maturities of 3 years or less.",
+              "Historically, the Fed in 2019 made similar purchases and claimed it was not QE, but it had the same effect of money printing and lending to the government.",
+              "The net result is an expansion of the money supply, as shown by M2 growth data."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-842CA2F52CE6",
+                "item": "Implementation notes excerpt: 'The Fed will be increasing the system open market account holdings of securities through purchases of Treasury bills and if needed other Treasury securities with remaining maturities of 3 years or less to maintain an ample level of reserves.'",
+                "status": "Verified",
+                "verification_basis": "Exact quote from the transcript of the FOMC implementation notes.",
+                "speech_id": "SP-D61D826A1B89",
+                "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+                "source_excerpt": "The Fed will be increasing the system open market account holdings of securities through purchases of Treasury bills and if needed other Treasury securities with remaining maturities of 3 years or less to maintain an ample level of reserves.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-B07C978C1051",
+                "device": "Not QE",
+                "explanation": "Reference to the 2019 episode when the Fed claimed Treasury purchases were 'not QE' to differentiate from earlier rounds, arguing that the effect was the same regardless of the label.",
+                "speech_id": "SP-D61D826A1B89",
+                "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+                "source_excerpt": "This is why everybody called it not QE at the time because QE had gone through multiple rounds. There was QE1, QE2, QE 3, and then now when the Federal Reserve in 2019 started buying T bills and they said it was not QE, we just called it not QE in quotes because we all knew that's exactly what it is.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-77596D8C015C",
+        "theme": "Money supply growth and inflation implications",
+        "arguments": [
+          {
+            "local_argument_id": "LA-94DB1662B925",
+            "local_theme_id": "LT-77596D8C015C",
+            "conclusion": "The expansion of the money supply caused by the Fed's purchases will lead to price increases across all assets and goods, including gold, bitcoin, real estate, groceries, gas, cars, and wages.",
+            "premises": [
+              "The M2 money supply growth rate has turned positive at 4.4% annually (as of the recording date).",
+              "The Fed's new purchases will add further fuel to monetary expansion.",
+              "An expanding money supply historically lifts all prices, though economic growth can offset some inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FDF92EED11EB",
+                "item": "M2 money supply percent change from a year ago is 4.4% according to Fed data (series WM2NS) as presented by the speaker.",
+                "status": "Verified",
+                "verification_basis": "The transcript provides the specific data point, the source (Fed website), and the methodology (percent change from a year ago for WM2NS).",
+                "speech_id": "SP-D61D826A1B89",
+                "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+                "source_excerpt": "And if you go to the Fed's website and you look up this chart, it is WM2NS. that is the M2 money supply. And then you click edit graph. And instead of showing the total number, the billions of dollars in the money supply, you change it to percent change from a year ago. Now you can see the rate of change in the actual money supply. … it is now growing at a rate of 4.4%.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3C68281748A0",
+                "device": "A tide that lifts all boats",
+                "explanation": "Metaphor to describe how an expanding money supply affects prices across all assets and goods unequally at different times.",
+                "speech_id": "SP-D61D826A1B89",
+                "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+                "source_excerpt": "An expanding money supply is a tide that lifts all boats unequally at different times.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-F6D5B715E162",
+        "speech_id": "SP-D61D826A1B89",
+        "speech_ref": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "claim": "The initial round will be about $40 billion of net Treasury bill purchases for the first 30 days.",
+        "reason": "The transcript does not provide a direct source excerpt for this specific quantitative figure from the Fed announcement; it is stated without attribution to a quoted document.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No training knowledge confirms this exact figure; it may come from the Fed's statement but is not directly cited in the transcript.",
+        "source_excerpt": "for the first 30 days, the initial round will be about $40 billion of net Treasury bill purchases for the first 30 days.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5EC05526274C",
+        "speech_id": "SP-D61D826A1B89",
+        "speech_ref": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "claim": "The money supply actually started expanding again all the way back in 2023.",
+        "reason": "No source or data provided in the transcript to support the exact timing of the reversal; only a general chart reference is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical M2 data indicates money supply growth turned positive in mid-2023, but the transcript does not provide evidence for that specific claim.",
+        "source_excerpt": "the money supply actually started expanding again all the way back in 2023",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-344C3DEEEE58",
+        "speech_id": "SP-D61D826A1B89",
+        "speech_ref": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "claim": "In 2019, Jerome Powell said 'Nope, this is not QE because this is not for easing. This is for liquidity.'",
+        "reason": "The transcript provides a paraphrase of what Powell said, not a direct quote from a speech or press conference, and the exact wording is not verifiable from the transcript alone.",
+        "memory_check": "Corroborated",
+        "memory_note": "Historical records show that Powell made similar statements during the 2019 repo market episode, but the exact phrasing in the transcript is not a verbatim quote.",
+        "source_excerpt": "Jerome Paul came out and said, 'Nope, this is not QE because this is not for easing. This is for liquidity.'",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve's restart of Treasury bill and short-term security purchases on December 10, 2025, despite being framed as reserve management, is effectively a form of quantitative easing that will expand the money supply and cause price inflation across assets and goods.",
+      "themes": [
+        "The Fed's Treasury purchases as quantitative easing",
+        "Money supply growth and inflation implications"
+      ],
+      "argument_count": 2,
+      "unverifiable_count": 3
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "bb8f129b0891bea6dd776a9db2ec3ab5b7a42f29f494985b3771451db7a6fe3a",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "cd81f4ce4b4c282c37793bcf531d35d763c48bb1a684fc52118ed02868e773af",
+    "canonical_mapping": {
+      "speech_id": "SP-D61D826A1B89",
+      "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC51",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly claims that the Fed's restart of Treasury bill purchases constitutes quantitative easing, expanding the money supply and causing inflation, which aligns with the canonical claim that the Fed is covertly engaging in QE to support government borrowing.",
+      "primary_cc_rationale": "The speech directly claims that the Fed's restart of Treasury bill purchases constitutes quantitative easing, expanding the money supply and causing inflation, which aligns with the canonical claim that the Fed is covertly engaging in QE to support government borrowing.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T87",
+        "T70"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T87",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-779F7A79B391",
+          "rationale": "The local theme 'The Fed's Treasury purchases as quantitative easing' maps to 'Federal Reserve Balance Sheet Policy' (T87) because the speech focuses on the Fed's balance sheet action of purchasing Treasury bills as a policy tool."
+        },
+        {
+          "theme_id": "T70",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-77596D8C015C",
+          "rationale": "The local theme 'Money supply growth and inflation implications' maps to 'Asset price inflation and monetary expansion' (T70) because the speech argues that money supply expansion leads to price increases across assets and goods."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC51-T87",
+          "cc_id": "CC51",
+          "theme_id": "T87",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC51-T70",
+          "cc_id": "CC51",
+          "theme_id": "T70",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-D61D826A1B89",
+        "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "local_cc_text": "The Federal Reserve's restart of Treasury bill and short-term security purchases on December 10, 2025, despite being framed as reserve management, is effectively a form of quantitative easing that will expand the money supply and cause price inflation across assets and goods.",
+        "canonical_cc_id": "CC51",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly claims that the Fed's restart of Treasury bill purchases constitutes quantitative easing, expanding the money supply and causing inflation, which aligns with the canonical claim that the Fed is covertly engaging in QE to support government borrowing.",
+        "rationale": "The speech directly claims that the Fed's restart of Treasury bill purchases constitutes quantitative easing, expanding the money supply and causing inflation, which aligns with the canonical claim that the Fed is covertly engaging in QE to support government borrowing.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.6613268852233887
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.623781681060791
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5217695236206055
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.33160752058029175
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.32324039936065674
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D61D826A1B89",
+        "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "local_theme_id": "LT-779F7A79B391",
+        "local_theme_text": "The Fed's Treasury purchases as quantitative easing",
+        "canonical_theme_id": "T87",
+        "confidence": 0.9,
+        "rationale": "The local theme 'The Fed's Treasury purchases as quantitative easing' maps to 'Federal Reserve Balance Sheet Policy' (T87) because the speech focuses on the Fed's balance sheet action of purchasing Treasury bills as a policy tool.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.6022099256515503
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.5572073459625244
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5023139119148254
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.4913976788520813
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.4840095639228821
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4734867811203003
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D61D826A1B89",
+        "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "local_theme_id": "LT-77596D8C015C",
+        "local_theme_text": "Money supply growth and inflation implications",
+        "canonical_theme_id": "T70",
+        "confidence": 0.9,
+        "rationale": "The local theme 'Money supply growth and inflation implications' maps to 'Asset price inflation and monetary expansion' (T70) because the speech argues that money supply expansion leads to price increases across assets and goods.",
+        "candidate_matches": [
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.6720475554466248
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.6303255558013916
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.6035755276679993
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5395393371582031
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5279558897018433
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.49216920137405396
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-926CBDA5937822",
+        "speech_id": "SP-D61D826A1B89",
+        "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "date": "2025-12-12",
+        "source_hash": "bb6141856270d86e75be53935c07b90bf12883ad741061cd9000d45cfc0903fc",
+        "pair_id": "PAIR-CC51-T87",
+        "cc_id": "CC51",
+        "theme_id": "T87",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly claims that the Fed's restart of Treasury bill purchases constitutes quantitative easing, expanding the money supply and causing inflation, which aligns with the canonical claim that the Fed is covertly engaging in QE to support government borrowing.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-779F7A79B391",
+        "local_theme_text": "The Fed's Treasury purchases as quantitative easing",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'The Fed's Treasury purchases as quantitative easing' maps to 'Federal Reserve Balance Sheet Policy' (T87) because the speech focuses on the Fed's balance sheet action of purchasing Treasury bills as a policy tool.",
+        "local_argument_id": "LA-3B818CDEE1C3",
+        "conclusion": "The Fed's announced purchases of Treasury bills and short-term securities constitute quantitative easing because they involve creating new money to purchase government debt, regardless of the stated goal of reserve management.",
+        "premises": [
+          "The Fed's implementation notes state they will increase holdings through purchases of Treasury bills and eligible securities with maturities of 3 years or less.",
+          "Historically, the Fed in 2019 made similar purchases and claimed it was not QE, but it had the same effect of money printing and lending to the government.",
+          "The net result is an expansion of the money supply, as shown by M2 growth data."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-842CA2F52CE6",
+            "item": "Implementation notes excerpt: 'The Fed will be increasing the system open market account holdings of securities through purchases of Treasury bills and if needed other Treasury securities with remaining maturities of 3 years or less to maintain an ample level of reserves.'",
+            "status": "Verified",
+            "verification_basis": "Exact quote from the transcript of the FOMC implementation notes.",
+            "speech_id": "SP-D61D826A1B89",
+            "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+            "source_excerpt": "The Fed will be increasing the system open market account holdings of securities through purchases of Treasury bills and if needed other Treasury securities with remaining maturities of 3 years or less to maintain an ample level of reserves.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-B07C978C1051",
+            "device": "Not QE",
+            "explanation": "Reference to the 2019 episode when the Fed claimed Treasury purchases were 'not QE' to differentiate from earlier rounds, arguing that the effect was the same regardless of the label.",
+            "speech_id": "SP-D61D826A1B89",
+            "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+            "source_excerpt": "This is why everybody called it not QE at the time because QE had gone through multiple rounds. There was QE1, QE2, QE 3, and then now when the Federal Reserve in 2019 started buying T bills and they said it was not QE, we just called it not QE in quotes because we all knew that's exactly what it is.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-4BFAEDFE61139C",
+        "speech_id": "SP-D61D826A1B89",
+        "filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+        "date": "2025-12-12",
+        "source_hash": "bb6141856270d86e75be53935c07b90bf12883ad741061cd9000d45cfc0903fc",
+        "pair_id": "PAIR-CC51-T70",
+        "cc_id": "CC51",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly claims that the Fed's restart of Treasury bill purchases constitutes quantitative easing, expanding the money supply and causing inflation, which aligns with the canonical claim that the Fed is covertly engaging in QE to support government borrowing.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-77596D8C015C",
+        "local_theme_text": "Money supply growth and inflation implications",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'Money supply growth and inflation implications' maps to 'Asset price inflation and monetary expansion' (T70) because the speech argues that money supply expansion leads to price increases across assets and goods.",
+        "local_argument_id": "LA-94DB1662B925",
+        "conclusion": "The expansion of the money supply caused by the Fed's purchases will lead to price increases across all assets and goods, including gold, bitcoin, real estate, groceries, gas, cars, and wages.",
+        "premises": [
+          "The M2 money supply growth rate has turned positive at 4.4% annually (as of the recording date).",
+          "The Fed's new purchases will add further fuel to monetary expansion.",
+          "An expanding money supply historically lifts all prices, though economic growth can offset some inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-FDF92EED11EB",
+            "item": "M2 money supply percent change from a year ago is 4.4% according to Fed data (series WM2NS) as presented by the speaker.",
+            "status": "Verified",
+            "verification_basis": "The transcript provides the specific data point, the source (Fed website), and the methodology (percent change from a year ago for WM2NS).",
+            "speech_id": "SP-D61D826A1B89",
+            "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+            "source_excerpt": "And if you go to the Fed's website and you look up this chart, it is WM2NS. that is the M2 money supply. And then you click edit graph. And instead of showing the total number, the billions of dollars in the money supply, you change it to percent change from a year ago. Now you can see the rate of change in the actual money supply. … it is now growing at a rate of 4.4%.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-3C68281748A0",
+            "device": "A tide that lifts all boats",
+            "explanation": "Metaphor to describe how an expanding money supply affects prices across all assets and goods unequally at different times.",
+            "speech_id": "SP-D61D826A1B89",
+            "source_speech_filename": "20251212_The Fed Only Lasted 12 Days Before Restarting QE.txt",
+            "source_excerpt": "An expanding money supply is a tide that lifts all boats unequally at different times.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "bb8f129b0891bea6dd776a9db2ec3ab5b7a42f29f494985b3771451db7a6fe3a",
+  "complete": true
+}

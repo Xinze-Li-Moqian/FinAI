@@ -1,0 +1,965 @@
+{
+  "dependencies": {
+    "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+    "phase1_record_hash": "d209e7f5518babff0682a3857e668b6cfc9fda747bce87ce6f31cf6b788b2c81",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-A13EB5FEDDDB",
+    "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+    "stem": "20251110_The Government Shutdown is Crashing the Market",
+    "date": "2025-11-10",
+    "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+    "source_character_count": 12734,
+    "central_claim": "The government shutdown is causing the recent volatility in the stock market through reduced liquidity and disruption to federal employees' financial flows.",
+    "themes": [
+      {
+        "local_theme_id": "LT-E6C14AC02531",
+        "theme": "Treasury General Account Growth and Liquidity Drain",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5D602041BECC",
+            "local_theme_id": "LT-E6C14AC02531",
+            "conclusion": "The increase in the Treasury General Account during the shutdown reduces liquidity in the financial system, contributing to market volatility.",
+            "premises": [
+              "The Treasury General Account has risen to around $940 billion, overshooting its $850 billion target.",
+              "The government is still collecting taxes and borrowing but is not spending discretionary budget due to the shutdown.",
+              "The TGA is held outside the banking system, so each dollar taken in taxes or borrowed leaves the financial system, reducing liquidity.",
+              "Financial institutions' use of the Fed's repo facility has spiked, indicating liquidity stress."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-693C65E2296B",
+                "item": "TGA balance of approximately $940 billion",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly states the balance and shows a chart.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "this recent spike has basically gone directly up in a straight line and it is now around 940 billion dollars",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EF7B737B0E50",
+                "item": "Repo facility usage spike",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly mentions the spike.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "financial institutions usage of the Federal Reserve's repo facility has spiked recently",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-BEABAA5C0C23",
+                "device": "Analogizing the Treasury General Account to a personal checking account",
+                "explanation": "To illustrate how the TGA balance increases when inflows exceed outflows.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "just like you, if your checking account is to increase, it means you need to have more money coming in than money going out",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-BC9EC6CEEDDE",
+            "local_theme_id": "LT-E6C14AC02531",
+            "conclusion": "The liquidity drain from the TGA is temporary, and its net effect over the long term is zero.",
+            "premises": [
+              "When the shutdown ends, all unspent money will be released into the economy.",
+              "The government does not perform QE or QT that permanently affects liquidity; only the Federal Reserve does."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-254BC452759C",
+                "item": "Statement that money will be spent when shutdown ends",
+                "status": "Unverifiable",
+                "verification_basis": "The claim that the money will be spent 'all at once' is not supported by specific data or source; it is an assumption.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "when the government shutdown ends, all of that money that hasn't been spent that would have gotten spent this whole time is all going to go out basically at once",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-71E9F70EC027",
+                "item": "Statement that government does not do QE/QT",
+                "status": "Unverifiable",
+                "verification_basis": "No source or definition is provided for this claim; it is presented as fact without support.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "The Treasury, the government itself does not do QE or QT or have that effect over the long term. The Federal Reserve does, not the government.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-6372040874C7",
+        "theme": "Federal Reserve Quantitative Tightening",
+        "arguments": [
+          {
+            "local_argument_id": "LA-66E0E79E1C25",
+            "local_theme_id": "LT-6372040874C7",
+            "conclusion": "Ongoing quantitative tightening by the Federal Reserve until December 1st further reduces liquidity, compounding the effect of the shutdown.",
+            "premises": [
+              "QT removes liquidity from the financial system.",
+              "The Fed announced it will end QT on December 1st.",
+              "Until then, liquidity continues to be drained by QT."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-780D30C91EBD",
+                "item": "Fed announcement of QT ending December 1st",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide a verifiable source or announcement details; it states it as fact.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "They did announce that they're going to be ending quantitative tightening, but not until December 1st.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-92164547C9F9",
+                "device": "Comparison of TGA effects to quantitative tightening",
+                "explanation": "To explain that the liquidity impact of TGA growth is similar to QT in the short term.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "if this sounds anything like quantitative tightening, that's because the effects of it in the short term are similar",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9B75C52497AE",
+        "theme": "Federal Employee Paycheck Disruption",
+        "arguments": [
+          {
+            "local_argument_id": "LA-78D8FDB265EC",
+            "local_theme_id": "LT-9B75C52497AE",
+            "conclusion": "The disruption of paychecks for federal employees reduces automated retirement contributions, decreasing buying pressure in the market.",
+            "premises": [
+              "670,000 employees are furloughed and 730,000 work without pay; 1.3M active duty and 750K National Guard/Reserve may also be affected.",
+              "A significant portion of market impact over the last 50 years has come from automated retirement account buying.",
+              "When people do not receive paychecks, these automatic purchases stop.",
+              "Even if the affected group is small, the loss of buying is significant."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5F898147E5E3",
+                "item": "Numbers of federal employees affected: 670k furloughed, 730k working without pay, 1.3M active duty, 750K National Guard/Reserve",
+                "status": "Unverifiable",
+                "verification_basis": "No source is provided for these specific numbers; they are stated as facts without citation.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "At least 670,000 federal employees are furloughed right now and about 730,000 are continuing to work without pay. We also have 1.3 million active duty personnel and over 750,000 National Guard and Reserve personnel that are also required to serve and some of them without pay.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-0D97017F336A",
+                "item": "Claim that majority of market impact comes from automated retirement buying",
+                "status": "Unverifiable",
+                "verification_basis": "No source or data is provided to support this claim; it is a general assertion.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "the vast majority of the impact on the markets over the last 50 years or so has been more and more automated buying in retirement accounts into index funds",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-E03B72F05FCD",
+            "local_theme_id": "LT-9B75C52497AE",
+            "conclusion": "Some federal employees not receiving paychecks may be forced to sell assets, contributing to selling pressure.",
+            "premises": [
+              "40% of Americans live paycheck to paycheck (Goldman Sachs survey).",
+              "59% do not have $1000 emergency savings (Bankrate survey).",
+              "Some government workers are among those groups and are not getting paid.",
+              "If they have assets in retirement or brokerage accounts, they may sell to cover expenses."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BCB5D67CE1CD",
+                "item": "Goldman Sachs survey: 40% live paycheck to paycheck",
+                "status": "Verified",
+                "verification_basis": "The transcript mentions the survey company and finding; provides a specific source.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "Goldman Sachs recently did a survey about a month ago and found that approximately 40% of people reported that they are currently living paycheck to paycheck.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-5828101FF787",
+                "item": "Bankrate survey: 59% don't have $1000 emergency savings",
+                "status": "Verified",
+                "verification_basis": "The transcript mentions the survey company and finding.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "Bankrate just did a survey last month as well that found that 60% almost 59% of Americans don't have enough savings to cover an unexpected thousand dollar emergency expense.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-5BBF18D05BDE",
+                "device": "Personal anecdote about living paycheck to paycheck while budgeting",
+                "explanation": "To illustrate that not all living paycheck to paycheck is due to necessity; some is due to poor financial habits, implying some government workers may have assets to sell.",
+                "speech_id": "SP-A13EB5FEDDDB",
+                "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+                "source_excerpt": "I remember when I first started my career and I was making 40,000 dollars a year with my wife staying at home with our newborn and we felt like there was no room in the budget. It was rough. It was tough. But hey, we still stuck to the budget. We shopped sales, didn't live beyond our expenses or didn't live beyond our means, didn't have any debt, was still contributing a percentage, which was a small dollar amount, but still contributing a percentage to our retirement accounts and we had an emergency fund. So, it felt like we were living paycheck to paycheck.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-58F6D2DF558F",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "Most taxes come in around tax time.",
+        "reason": "No data or source is provided to support this claim.",
+        "memory_check": "Corroborated",
+        "memory_note": "Common knowledge: tax season typically in April, but seasonal distribution is known.",
+        "source_excerpt": "most of the taxes come in around tax time",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D93FF3E4D319",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "Every dollar the government takes in taxes or borrows is money leaving the financial system.",
+        "reason": "This is a theoretical claim about liquidity mechanics without empirical support.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim simplifies TGA effects; while TGA reduces bank reserves, detailed mechanics are more complex.",
+        "source_excerpt": "every dollar that they take in taxes and borrow is money that's leaving the financial system",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-55AD7CD0D987",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "The vast majority of the impact on the markets over the last 50 years has been automated buying in retirement accounts into index funds.",
+        "reason": "No source or evidence is provided for this sweeping claim.",
+        "memory_check": "Contradicted",
+        "memory_note": "Market impact is multifactorial; automated buying is one factor but not necessarily the majority.",
+        "source_excerpt": "the vast majority of the impact on the markets over the last 50 years or so has been more and more automated buying in retirement accounts into index funds",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-21BB10A5B7E0",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "People get paid, a chunk of that goes into the overall stock market to buy it regardless of value.",
+        "reason": "No source provided; it is a generalization.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "While many retirement plans have automatic contributions, the statement oversimplifies.",
+        "source_excerpt": "people get paid, a chunk of that goes into the overall stock market to buy it regardless of the value",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-641BC77D60B2",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "It is almost certain that the lack of paychecks is at least contributing somewhat to market volatility.",
+        "reason": "Speculative claim without quantification or evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is an opinion, not a supported factual assertion.",
+        "source_excerpt": "it is almost certain that it is at least contributing somewhat to the volatility in the markets",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DFD58C142E70",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "All of the people missing paychecks will get that money back when the shutdown ends, and it will all be spent basically at once.",
+        "reason": "Assumes timing and spending behavior without support.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical behavior may vary; not guaranteed to be spent immediately.",
+        "source_excerpt": "All of the people that they haven't been paying their paychecks this entire time are going to get all that money that's just being held in the government's checking account right now",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-75C3A606DF8E",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "The Treasury (government) does not do QE or QT; only the Federal Reserve does.",
+        "reason": "Factual claim about monetary policy without source.",
+        "memory_check": "Corroborated",
+        "memory_note": "Correct: QE/QT are Fed tools, not Treasury. But Treasury can influence liquidity via TGA.",
+        "source_excerpt": "The Treasury, the government itself does not do QE or QT or have that effect over the long term. The Federal Reserve does, not the government.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-5947B1B5B3D5",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "The Fed is ending quantitative tightening on December 1st.",
+        "reason": "No citation or announcement source is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This may refer to a known policy date, but without official source, it's unverified.",
+        "source_excerpt": "They did announce that they're going to be ending quantitative tightening, but not until December 1st.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-42B724DB081D",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "speech_ref": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "claim": "The Fed is engaging in an operation twist, selling MBS to roll into T-bills, which has a QE-like effect.",
+        "reason": "No source for this policy action and its effects.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Operation twist is a historical term; current policy may differ.",
+        "source_excerpt": "they're engaging in an operation twist where they sell mortgage-backed securities off their balance sheet and use that cash to roll over into T-bills, which has a somewhat of a QE effect on the markets",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The government shutdown is causing the recent volatility in the stock market through reduced liquidity and disruption to federal employees' financial flows.",
+      "themes": [
+        "Treasury General Account Growth and Liquidity Drain",
+        "Federal Reserve Quantitative Tightening",
+        "Federal Employee Paycheck Disruption"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 9
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "b800b888b0c4101035161cd4709ddd74d53a7e5da67b938f333ada488d7b1bc7",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "d209e7f5518babff0682a3857e668b6cfc9fda747bce87ce6f31cf6b788b2c81",
+    "canonical_mapping": {
+      "speech_id": "SP-A13EB5FEDDDB",
+      "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC41",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+      "primary_cc_rationale": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T119",
+        "T87",
+        "T32"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T119",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-E6C14AC02531",
+          "rationale": "TGA growth and liquidity drain is a liquidity condition, directly related to monetary policy and liquidity conditions."
+        },
+        {
+          "theme_id": "T87",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-6372040874C7",
+          "rationale": "Quantitative tightening is a Federal Reserve balance sheet policy."
+        },
+        {
+          "theme_id": "T32",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-9B75C52497AE",
+          "rationale": "Federal employee paycheck disruption is a direct consequence of the government shutdown, which is the subject of T32."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC41-T119",
+          "cc_id": "CC41",
+          "theme_id": "T119",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC41-T87",
+          "cc_id": "CC41",
+          "theme_id": "T87",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC41-T32",
+          "cc_id": "CC41",
+          "theme_id": "T32",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "local_cc_text": "The government shutdown is causing the recent volatility in the stock market through reduced liquidity and disruption to federal employees' financial flows.",
+        "canonical_cc_id": "CC41",
+        "confidence": 0.9,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "rationale": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "candidate_matches": [
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.5812885761260986
+          },
+          {
+            "id": "CC41",
+            "text": "Despite government shutdown causing stock market volatility and high layoff announcements, the economy is stronger than perceived and jobless claims remain low, indicating resilient underlying conditions.",
+            "similarity": 0.4927576780319214
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.43552806973457336
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.40885186195373535
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.3762408494949341
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "local_theme_id": "LT-E6C14AC02531",
+        "local_theme_text": "Treasury General Account Growth and Liquidity Drain",
+        "canonical_theme_id": "T119",
+        "confidence": 0.85,
+        "rationale": "TGA growth and liquidity drain is a liquidity condition, directly related to monetary policy and liquidity conditions.",
+        "candidate_matches": [
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.47986510396003723
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.47016674280166626
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.3919779062271118
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.34597131609916687
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.33755674958229065
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.2712094187736511
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "local_theme_id": "LT-6372040874C7",
+        "local_theme_text": "Federal Reserve Quantitative Tightening",
+        "canonical_theme_id": "T87",
+        "confidence": 0.95,
+        "rationale": "Quantitative tightening is a Federal Reserve balance sheet policy.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.6604048013687134
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.648769199848175
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.5985778570175171
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.5107753276824951
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.4931488335132599
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.4844161868095398
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "local_theme_id": "LT-9B75C52497AE",
+        "local_theme_text": "Federal Employee Paycheck Disruption",
+        "canonical_theme_id": "T32",
+        "confidence": 0.7,
+        "rationale": "Federal employee paycheck disruption is a direct consequence of the government shutdown, which is the subject of T32.",
+        "candidate_matches": [
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.3180413842201233
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.2509653866291046
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.1905888020992279
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.17792069911956787
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.17306652665138245
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.15905621647834778
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-89CD2A7D508244",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "date": "2025-11-10",
+        "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+        "pair_id": "PAIR-CC41-T119",
+        "cc_id": "CC41",
+        "theme_id": "T119",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E6C14AC02531",
+        "local_theme_text": "Treasury General Account Growth and Liquidity Drain",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "TGA growth and liquidity drain is a liquidity condition, directly related to monetary policy and liquidity conditions.",
+        "local_argument_id": "LA-5D602041BECC",
+        "conclusion": "The increase in the Treasury General Account during the shutdown reduces liquidity in the financial system, contributing to market volatility.",
+        "premises": [
+          "The Treasury General Account has risen to around $940 billion, overshooting its $850 billion target.",
+          "The government is still collecting taxes and borrowing but is not spending discretionary budget due to the shutdown.",
+          "The TGA is held outside the banking system, so each dollar taken in taxes or borrowed leaves the financial system, reducing liquidity.",
+          "Financial institutions' use of the Fed's repo facility has spiked, indicating liquidity stress."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-693C65E2296B",
+            "item": "TGA balance of approximately $940 billion",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly states the balance and shows a chart.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "this recent spike has basically gone directly up in a straight line and it is now around 940 billion dollars",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-EF7B737B0E50",
+            "item": "Repo facility usage spike",
+            "status": "Verified",
+            "verification_basis": "Transcript explicitly mentions the spike.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "financial institutions usage of the Federal Reserve's repo facility has spiked recently",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-BEABAA5C0C23",
+            "device": "Analogizing the Treasury General Account to a personal checking account",
+            "explanation": "To illustrate how the TGA balance increases when inflows exceed outflows.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "just like you, if your checking account is to increase, it means you need to have more money coming in than money going out",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-431B5E439AF2D4",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "date": "2025-11-10",
+        "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+        "pair_id": "PAIR-CC41-T119",
+        "cc_id": "CC41",
+        "theme_id": "T119",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E6C14AC02531",
+        "local_theme_text": "Treasury General Account Growth and Liquidity Drain",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "TGA growth and liquidity drain is a liquidity condition, directly related to monetary policy and liquidity conditions.",
+        "local_argument_id": "LA-BC9EC6CEEDDE",
+        "conclusion": "The liquidity drain from the TGA is temporary, and its net effect over the long term is zero.",
+        "premises": [
+          "When the shutdown ends, all unspent money will be released into the economy.",
+          "The government does not perform QE or QT that permanently affects liquidity; only the Federal Reserve does."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-254BC452759C",
+            "item": "Statement that money will be spent when shutdown ends",
+            "status": "Unverifiable",
+            "verification_basis": "The claim that the money will be spent 'all at once' is not supported by specific data or source; it is an assumption.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "when the government shutdown ends, all of that money that hasn't been spent that would have gotten spent this whole time is all going to go out basically at once",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-71E9F70EC027",
+            "item": "Statement that government does not do QE/QT",
+            "status": "Unverifiable",
+            "verification_basis": "No source or definition is provided for this claim; it is presented as fact without support.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "The Treasury, the government itself does not do QE or QT or have that effect over the long term. The Federal Reserve does, not the government.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2C7E4F42642EBC",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "date": "2025-11-10",
+        "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+        "pair_id": "PAIR-CC41-T87",
+        "cc_id": "CC41",
+        "theme_id": "T87",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-6372040874C7",
+        "local_theme_text": "Federal Reserve Quantitative Tightening",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Quantitative tightening is a Federal Reserve balance sheet policy.",
+        "local_argument_id": "LA-66E0E79E1C25",
+        "conclusion": "Ongoing quantitative tightening by the Federal Reserve until December 1st further reduces liquidity, compounding the effect of the shutdown.",
+        "premises": [
+          "QT removes liquidity from the financial system.",
+          "The Fed announced it will end QT on December 1st.",
+          "Until then, liquidity continues to be drained by QT."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-780D30C91EBD",
+            "item": "Fed announcement of QT ending December 1st",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide a verifiable source or announcement details; it states it as fact.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "They did announce that they're going to be ending quantitative tightening, but not until December 1st.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-92164547C9F9",
+            "device": "Comparison of TGA effects to quantitative tightening",
+            "explanation": "To explain that the liquidity impact of TGA growth is similar to QT in the short term.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "if this sounds anything like quantitative tightening, that's because the effects of it in the short term are similar",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-1B8C0F8B5F358A",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "date": "2025-11-10",
+        "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+        "pair_id": "PAIR-CC41-T32",
+        "cc_id": "CC41",
+        "theme_id": "T32",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-9B75C52497AE",
+        "local_theme_text": "Federal Employee Paycheck Disruption",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Federal employee paycheck disruption is a direct consequence of the government shutdown, which is the subject of T32.",
+        "local_argument_id": "LA-78D8FDB265EC",
+        "conclusion": "The disruption of paychecks for federal employees reduces automated retirement contributions, decreasing buying pressure in the market.",
+        "premises": [
+          "670,000 employees are furloughed and 730,000 work without pay; 1.3M active duty and 750K National Guard/Reserve may also be affected.",
+          "A significant portion of market impact over the last 50 years has come from automated retirement account buying.",
+          "When people do not receive paychecks, these automatic purchases stop.",
+          "Even if the affected group is small, the loss of buying is significant."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5F898147E5E3",
+            "item": "Numbers of federal employees affected: 670k furloughed, 730k working without pay, 1.3M active duty, 750K National Guard/Reserve",
+            "status": "Unverifiable",
+            "verification_basis": "No source is provided for these specific numbers; they are stated as facts without citation.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "At least 670,000 federal employees are furloughed right now and about 730,000 are continuing to work without pay. We also have 1.3 million active duty personnel and over 750,000 National Guard and Reserve personnel that are also required to serve and some of them without pay.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-0D97017F336A",
+            "item": "Claim that majority of market impact comes from automated retirement buying",
+            "status": "Unverifiable",
+            "verification_basis": "No source or data is provided to support this claim; it is a general assertion.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "the vast majority of the impact on the markets over the last 50 years or so has been more and more automated buying in retirement accounts into index funds",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-54B13C9AB1D948",
+        "speech_id": "SP-A13EB5FEDDDB",
+        "filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+        "date": "2025-11-10",
+        "source_hash": "6a02a0748c71a70cd7722cbd600bf84ec370c2d89b757bc55eb35714446ad37a",
+        "pair_id": "PAIR-CC41-T32",
+        "cc_id": "CC41",
+        "theme_id": "T32",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the government shutdown causing stock market volatility through specific mechanisms (TGA liquidity drain, QT, paycheck disruption), which directly supports the premise in CC41 that the shutdown is causing volatility.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-9B75C52497AE",
+        "local_theme_text": "Federal Employee Paycheck Disruption",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Federal employee paycheck disruption is a direct consequence of the government shutdown, which is the subject of T32.",
+        "local_argument_id": "LA-E03B72F05FCD",
+        "conclusion": "Some federal employees not receiving paychecks may be forced to sell assets, contributing to selling pressure.",
+        "premises": [
+          "40% of Americans live paycheck to paycheck (Goldman Sachs survey).",
+          "59% do not have $1000 emergency savings (Bankrate survey).",
+          "Some government workers are among those groups and are not getting paid.",
+          "If they have assets in retirement or brokerage accounts, they may sell to cover expenses."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-BCB5D67CE1CD",
+            "item": "Goldman Sachs survey: 40% live paycheck to paycheck",
+            "status": "Verified",
+            "verification_basis": "The transcript mentions the survey company and finding; provides a specific source.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "Goldman Sachs recently did a survey about a month ago and found that approximately 40% of people reported that they are currently living paycheck to paycheck.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-5828101FF787",
+            "item": "Bankrate survey: 59% don't have $1000 emergency savings",
+            "status": "Verified",
+            "verification_basis": "The transcript mentions the survey company and finding.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "Bankrate just did a survey last month as well that found that 60% almost 59% of Americans don't have enough savings to cover an unexpected thousand dollar emergency expense.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-5BBF18D05BDE",
+            "device": "Personal anecdote about living paycheck to paycheck while budgeting",
+            "explanation": "To illustrate that not all living paycheck to paycheck is due to necessity; some is due to poor financial habits, implying some government workers may have assets to sell.",
+            "speech_id": "SP-A13EB5FEDDDB",
+            "source_speech_filename": "20251110_The Government Shutdown is Crashing the Market.txt",
+            "source_excerpt": "I remember when I first started my career and I was making 40,000 dollars a year with my wife staying at home with our newborn and we felt like there was no room in the budget. It was rough. It was tough. But hey, we still stuck to the budget. We shopped sales, didn't live beyond our expenses or didn't live beyond our means, didn't have any debt, was still contributing a percentage, which was a small dollar amount, but still contributing a percentage to our retirement accounts and we had an emergency fund. So, it felt like we were living paycheck to paycheck.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "b800b888b0c4101035161cd4709ddd74d53a7e5da67b938f333ada488d7b1bc7",
+  "complete": true
+}

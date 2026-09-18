@@ -1,0 +1,71 @@
+{
+  "dependency_hash": "0d6e6b3da9b2ed9e2fb4fa831fd43868abfefecebab35a2b6c966661b109b481",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC47-T109",
+    "cc_id": "CC47",
+    "theme_id": "T109",
+    "authoritative_anchor": "cc-cc47-theme-t109",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC47-T109-5575C180FB",
+        "pair_id": "PAIR-CC47-T109",
+        "conclusion": "Investors should avoid large losses by using risk management techniques such as position sizing, hedging, and stops, instead of engaging in shorting or participating in short squeezes, because shorting has unlimited potential loss and odds of price movements are unknowable.",
+        "source_contribution_ids": [
+          "CONTRIB-3037DA80E39E58"
+        ],
+        "source_speech_filenames": [
+          "20260423_Cornering the Market - Hedge Funds Cause Historic Short Squeeze.txt"
+        ],
+        "premise_synthesis": "Short selling carries unlimited potential loss, and the odds of price movements are inherently unknowable. Therefore, to avoid large losses, investors should employ risk management techniques like position sizing, hedging, and stop-losses. This advice is specifically drawn from the context of a hedge fund cornering of Avis Budget shares that triggered a historic short squeeze, illustrating the severe risks of shorting.",
+        "conclusion_supported": "The conclusion establishes that risk management techniques are superior to engaging in short selling or short squeezes for preventing large losses, based on the inherent risks of shorting demonstrated by the Avis short squeeze event.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-3037DA80E39E58"
+            ],
+            "source_speech_filenames": [
+              "20260423_Cornering the Market - Hedge Funds Cause Historic Short Squeeze.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a detailed account of a hedge fund cornering of Avis Budget shares triggering a historical short squeeze, which is one of the specific market developments enumerated in CC47. It serves as a concrete instance illustrating the risks and opportunities in financial markets."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Preventing large losses is about 95% of the way to making good money investing.",
+            "status": "Unverifiable",
+            "verification_basis": "Personal rule of thumb not externally verified.",
+            "source_contribution_ids": [
+              "CONTRIB-3037DA80E39E58"
+            ],
+            "source_speech_filenames": [
+              "20260423_Cornering the Market - Hedge Funds Cause Historic Short Squeeze.txt"
+            ],
+            "source_excerpt": "if you can prevent large losses, mainly by always taking losses when they're small, then you're about 95% of the way there to making really good money investing."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Only one speech from 2026-04-23 is included; cross-speech evolution cannot be inferred. This single speech provides a static argument without longitudinal development.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-3037DA80E39E58"
+    ],
+    "source_speech_filenames": [
+      "20260423_Cornering the Market - Hedge Funds Cause Historic Short Squeeze.txt"
+    ],
+    "generated_at": "2026-07-15T03:48:34+00:00",
+    "record_hash": "ab7b1c9d5c72b4b61f487bb28cec3511316c921c18734733081bbcd6db19cee0"
+  },
+  "complete": true
+}

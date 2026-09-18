@@ -1,0 +1,405 @@
+{
+  "dependencies": {
+    "source_hash": "e68150b7b247d585b47c47f578ea1e62895ba2908143814421eb52c58fe29564",
+    "filename": "20260511_Economic Collapse is Not Possible Now.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-4ABCA879108E",
+    "filename": "20260511_Economic Collapse is Not Possible Now.txt",
+    "stem": "20260511_Economic Collapse is Not Possible Now",
+    "date": "2026-05-11",
+    "source_hash": "e68150b7b247d585b47c47f578ea1e62895ba2908143814421eb52c58fe29564",
+    "source_character_count": 15044,
+    "central_claim": "A severe economic collapse on the scale of the Great Financial Crisis is very unlikely to occur from current levels because US household balance sheets are not overleveraged.",
+    "themes": [
+      {
+        "local_theme_id": "LT-824E3804250E",
+        "theme": "Household delinquency trends",
+        "arguments": [
+          {
+            "local_argument_id": "LA-A58156040048",
+            "local_theme_id": "LT-824E3804250E",
+            "conclusion": "The recent increase in delinquency rates since 2022 is not cause for alarm because they remain within historical norms.",
+            "premises": [
+              "Student loan delinquencies are below 10%, which is lower than their pre-2020 range of 10–12%.",
+              "Auto loan delinquencies at 5% are on par with levels from 2010 and 2015–2016.",
+              "Credit card delinquencies around 12–13% are within normal historical ranges.",
+              "Home equity and mortgage delinquencies remain very low and stable."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-230065504A40",
+                "item": "Student loan delinquency below 10%",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "they're not even above 10%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 3970,
+                  "character_end": 3997,
+                  "line_start": 104
+                }
+              },
+              {
+                "evidence_id": "EV-24D591D6F1A9",
+                "item": "Auto loan delinquency at 5%",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "Auto loans sitting at 5%, that's on par where it was before 2020.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-65CACFE44A79",
+                "item": "Credit card delinquency above 12%",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "It's now sitting above 12%, almost 13%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-5038401848F8",
+                "item": "Home equity and mortgage delinquencies low",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "home equity lines of credit kind of just moved along sideways as well as mortgage debt has kind of just moved along sideways. Really, really low levels of delinquency there.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7D08BFC151BF",
+        "theme": "Concentration of credit card debt",
+        "arguments": [
+          {
+            "local_argument_id": "LA-CA16B0140580",
+            "local_theme_id": "LT-7D08BFC151BF",
+            "conclusion": "The $1.28 trillion in credit card debt does not indicate systemic weakness because the median household holds no such debt and only a minority of households carry a balance.",
+            "premises": [
+              "Median household credit card balance is zero.",
+              "Only 47% of US households carry a credit card balance.",
+              "About 1 in 5 balance holders do not expect to ever pay off their debt."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0F5D3F15DCBF",
+                "item": "Median household credit card balance is zero",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "the median household's credit card balance is zero.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1C1F7D58835C",
+                "item": "47% of households carry a balance",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "only 47% of US households actually carry a credit card balance.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-542ABD40EADC",
+                "item": "1 in 5 balance holders do not expect to pay off",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "about one in five of these credit card balance holders don't think that they'll ever be able to pay it off, or at least that's what they say in the surveys",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-74E177293CA5",
+        "theme": "US household debt-to-asset ratio",
+        "arguments": [
+          {
+            "local_argument_id": "LA-746DCD9D2CA4",
+            "local_theme_id": "LT-74E177293CA5",
+            "conclusion": "US households are not overleveraged because their debt-to-asset ratio is at the lowest point in 50 years.",
+            "premises": [
+              "The debt-to-asset ratio has declined for decades and is now at a 50-year low.",
+              "This ratio peaked before the Great Financial Crisis, demonstrating the link between high leverage and crashes."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0604A3F10DBE",
+                "item": "Debt-to-asset ratio at 50-year low",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "debt to asset ratio for US households is at a 50year low.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-000FF819CFD7",
+                "item": "Ratio peaked in 2008–2009",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "this ratio spiked and peaked, triggering the great financial crisis in 2008 and 2009.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-6AEF9A5C71C5",
+        "theme": "Real median household income trends",
+        "arguments": [
+          {
+            "local_argument_id": "LA-55D23811BDD8",
+            "local_theme_id": "LT-6AEF9A5C71C5",
+            "conclusion": "Ongoing growth in real median household income makes household debt service manageable despite nominal increases in debt.",
+            "premises": [
+              "Real median household income has trended upward over time, though it dipped after 2008 and 2019.",
+              "Rising income means the debt service burden for typical households is not increasing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-73962408402C",
+                "item": "Real median income trends upward",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker references a chart without providing specific numbers; the claim is general and not supported with detailed data in the transcript.",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "You can see that by and large, this number goes up.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4CB0B6E7AD9A",
+        "theme": "Boom-bust debt cycle theory",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E0FBCB2792AF",
+            "local_theme_id": "LT-4CB0B6E7AD9A",
+            "conclusion": "Without a preceding boom of excessive leverage, a severe bust cannot occur.",
+            "premises": [
+              "Busts are caused by debt cycles, not business cycles.",
+              "The Great Financial Crisis and the Great Depression were preceded by massive leverage buildups.",
+              "Current household leverage is low, so no such boom exists today."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0C2E4CC2693D",
+                "item": "Great Financial Crisis caused by leverage buildup",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "that is exactly what happened in the Great Financial Crisis.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-131BD5140C17",
+                "item": "Great Depression also involved excessive leverage",
+                "status": "Verified",
+                "verification_basis": "Explicitly stated in transcript",
+                "speech_id": "SP-4ABCA879108E",
+                "source_speech_filename": "20260511_Economic Collapse is Not Possible Now.txt",
+                "source_excerpt": "That's also what happened during the Great Depression.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-5689F7B96CB3",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "The total US money supply continues to grow because of the devaluation of the dollar.",
+        "reason": "No specific data or source is provided in the transcript to support this assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not contain supporting evidence for this claim.",
+        "source_excerpt": "it is also true that the total US money supply continues to grow because of the devaluation of the dollar that happens along the way.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A7BC695761B7",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "Most US households are completely terrified of debt.",
+        "reason": "This is a subjective psychological assertion without survey data or evidence in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript provides no basis for verifying this claim.",
+        "source_excerpt": "the majority of US households are completely terrified of debt.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-06AB74C1340E",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "The government has the privilege of being able to print whatever necessary money they need to afford their expenses.",
+        "reason": "This is a policy assertion not supported by specific arguments or evidence in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not elaborate on this claim.",
+        "source_excerpt": "they have the privilege of being able to print whatever necessary money they need in order to afford their expenses.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A2F0AE82080B",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "Nobody is leveraged enough to force the entire system to unwind at the same time.",
+        "reason": "No quantitative threshold or data is provided to support this assessment.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript offers only a general statement without supporting evidence.",
+        "source_excerpt": "nobody is leveraged enough. Nobody has enough debt up to their eyeballs to force the entire system to unwind at the same time.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8C449EA4070B",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "Busts are caused by a debt cycle, not a business cycle.",
+        "reason": "This is a theoretical claim presented without empirical demonstration or citation in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide evidence for this economic theory.",
+        "source_excerpt": "Busts are caused by a debt cycle.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-172B6FE6B4E3",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "The boom makes the bust inevitable.",
+        "reason": "This is a general causal claim without specific supporting data or historical analysis in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript states it as a fact but does not substantiate it.",
+        "source_excerpt": "The boom makes the bust inevitable.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A3D4BDD753D4",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "The typical US household carries almost no debt compared to their assets.",
+        "reason": "The debt-to-asset ratio is cited, but 'almost no debt' is an exaggeration not supported by the ratio data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not quantify this claim precisely.",
+        "source_excerpt": "the typical US household just carries almost no debt compared to their assets.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-34BEB39C1C97",
+        "speech_id": "SP-4ABCA879108E",
+        "speech_ref": "20260511_Economic Collapse is Not Possible Now.txt",
+        "claim": "We just don't have the leverage in the system built up to see a massive unwind.",
+        "reason": "This is a summary judgment without specific evidence or thresholds mentioned.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript does not provide data to verify this assertion.",
+        "source_excerpt": "We just don't have the leverage in the system built up to see a massive unwind.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "A severe economic collapse on the scale of the Great Financial Crisis is very unlikely to occur from current levels because US household balance sheets are not overleveraged.",
+      "themes": [
+        "Household delinquency trends",
+        "Concentration of credit card debt",
+        "US household debt-to-asset ratio",
+        "Real median household income trends",
+        "Boom-bust debt cycle theory"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-14T23:52:29+00:00",
+    "record_hash": "5cc648fd04613719b98845a124b14da33d2ec9ef20bcdce01f0f5aed7f1e5371",
+    "analysis_truncated": false
+  },
+  "output_hash": "9ded515a24ea6d0e9ab889eda3020d2bd1ef4c6d6c744d81364280f2a289c42d",
+  "complete": true
+}

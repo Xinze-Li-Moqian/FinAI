@@ -1,0 +1,537 @@
+{
+  "dependencies": {
+    "source_hash": "db5ec7dfe1c14d1dcbc8d532c9c0c8cbf7228cd6c4d9ab4b617e5701378141df",
+    "filename": "20260218_Get Ready for Bank Deregulation.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-A865956706B6",
+    "filename": "20260218_Get Ready for Bank Deregulation.txt",
+    "stem": "20260218_Get Ready for Bank Deregulation",
+    "date": "2026-02-18",
+    "source_hash": "db5ec7dfe1c14d1dcbc8d532c9c0c8cbf7228cd6c4d9ab4b617e5701378141df",
+    "source_character_count": 16467,
+    "central_claim": "Removing the supplementary leverage ratio will occur soon and will allow banks to buy unlimited treasuries and lend more, lowering Treasury yields and government borrowing costs while potentially offsetting inflation via productivity gains.",
+    "themes": [
+      {
+        "local_theme_id": "LT-96343F79C43E",
+        "theme": "Regulatory details and conflict between the supplementary leverage ratio and liquidity coverage ratio",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7F4423755D9A",
+            "local_theme_id": "LT-96343F79C43E",
+            "conclusion": "The SLR and LCR are contradictory regulations that constrain bank lending.",
+            "premises": [
+              "SLR is a hard cap on total assets relative to capital, regardless of risk.",
+              "LCR requires banks to hold a certain amount of high-quality liquid assets, primarily treasuries.",
+              "These two rules together force banks to hold treasuries but then limit their ability to hold anything else."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5A0216BFC044",
+                "item": "SLR established in 2014, measures tier 1 capital relative to total leverage.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript states the year but does not cite a specific source.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "This was established in 2014",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 1586,
+                  "character_end": 1614,
+                  "line_start": 42
+                }
+              },
+              {
+                "evidence_id": "EV-84F7C677D7B2",
+                "item": "Banks subject to Fed standards have SLR of 3%; global systemically important banks have 5%.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "Banks that are subject to the Federal Reserve's credential standards have an SLR of 3%. However, globally systemically important banks have an enhanced SLR which requires them to maintain at least 5%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-5D484B5053B3",
+                "item": "LCR ensures banks hold sufficient HQLA to survive 30-day liquidity stress.",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "The liquidity coverage ratio or the LCR is designed to ensure that banks hold a sufficient reserve of high quality liquid assets, HQLA, to allow them to survive a period of significant liquidity stress lasting 30 calendar days.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8E205B90A2C9",
+        "theme": "Historical precedent from the 2020 temporary SLR suspension",
+        "arguments": [
+          {
+            "local_argument_id": "LA-90F359F7FEC8",
+            "local_theme_id": "LT-8E205B90A2C9",
+            "conclusion": "The temporary suspension of the SLR in 2020 allowed banks to increase lending and treasury purchases, and its expiration caused reverse repo facility usage to spike.",
+            "premises": [
+              "In April 2020, the Fed temporarily suspended the SLR.",
+              "Banks loaded up on treasuries, pushed yields down, and bank lending exploded.",
+              "After the suspension expired in 2021, the reverse repo facility exploded as banks shed deposits to meet SLR ratios."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8017C532BEA9",
+                "item": "Fed announced temporary suspension of SLR in April 2020 to ease strains in Treasury market and increase banks' ability to provide credit.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides this claim but no external source.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "in April of 2020, the Federal Reserve announced that they were going to temporarily suspend the supplementary leverage ratio rule... to ease strains in the treasury market and increase banks organizations ability to provide credit to households and businesses.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-382F63D09B06",
+                "item": "Banks loaded up on treasuries and lending exploded after suspension.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts this without specific data or source.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "And guess what? And that's exactly what banks did. Banks loaded up on treasuries, pushed yields down across the curve, and bank lending exploded.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-0C4E2A4B46BB",
+                "item": "Suspension expired in 2021, leading to reverse repo facility explosion.",
+                "status": "Unverifiable",
+                "verification_basis": "Asserted without source.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "And a year later in 2021, that temporary suspension expired on schedule... Shedding these deposits and getting back to proper SLR ratios is one of the reasons why the reverse repo facility at the Fed exploded over the following years.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-CC6D6FDAEAD1",
+        "theme": "Current US fiscal challenges and the impetus for deregulation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-CA7A512829F6",
+            "local_theme_id": "LT-CC6D6FDAEAD1",
+            "conclusion": "The high national debt and persistent deficits create a need for bank deregulation to allow banks to absorb Treasury issuance.",
+            "premises": [
+              "National debt is $38.6 trillion.",
+              "CBO projects deficit near $2 trillion this year and $3 trillion in 10 years.",
+              "SLR currently blunts banks' ability to buy Treasuries.",
+              "Scott Bessent, Kevin Walsh, and Steven Moran have signaled support for deregulation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-892B3EEBC113",
+                "item": "National Debt is sitting at $38.6 trillion.",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited for this figure.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "The National Debt is sitting at $ 38.6 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4C08B0DF6BF5",
+                "item": "CBO projecting deficit near $2 trillion this year and $3 trillion in 10 years.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific source or report cited.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "The Congressional Budget Office is now projecting that the deficit is going to run near $2 trillion this year and in 10 years will be at least $3 trillion",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-796D068F0CAD",
+                "item": "Scott Bessent, Kevin Walsh, and Steven Moran have made statements suggesting deregulation.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide specific quotes or sources.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "when you look at the things that Scott Bessant has been saying, when you look at the new pick for leading the Federal Reserve, Kevin Walsh, and when you look at things like Fed Governor Steven Moran, has been saying, deregulating the banks looks like their key to trying to fix this problem.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-997E8459FDA8",
+        "theme": "Projected market effects of SLR removal on Treasury yields and government borrowing costs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9CB36427B511",
+            "local_theme_id": "LT-997E8459FDA8",
+            "conclusion": "Removing the SLR would dramatically lower Treasury yields across the curve, allowing the government to borrow more cheaply and save hundreds of billions in interest costs.",
+            "premises": [
+              "Banks would likely buy unlimited Treasuries if SLR removed, as they did in 2020.",
+              "This would push down yields.",
+              "Government could refinance at longer end, saving money."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DE59603FEAB7",
+                "item": "This could have the effect of dramatically and significantly lowering yields across the entire yield curve.",
+                "status": "Unverifiable",
+                "verification_basis": "Speculative prediction, no evidence provided.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "This could have the effect of dramatically and significantly lowering yields across the entire yield curve for US government borrowing.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E98B972D8EE4",
+                "item": "Saving billions, tens of billions, maybe even hundreds of billions over the long term.",
+                "status": "Unverifiable",
+                "verification_basis": "No calculation or source.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "saving billions, tens of billions, maybe even hundreds of billions of dollars over the long term in just interest costs on the debt alone.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EE6B30CD363B",
+                "device": "Allowing banks to do QE for the Fed",
+                "explanation": "Illustrates that banks buying Treasuries instead of the Fed would have similar effects on yields and money supply.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "This is basically like allowing the banks to do QE for the Fed.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-B3017BB52D89",
+        "theme": "Inflation and productivity dynamics from increased lending",
+        "arguments": [
+          {
+            "local_argument_id": "LA-78D6BC8DB3E7",
+            "local_theme_id": "LT-B3017BB52D89",
+            "conclusion": "Increased lending from deregulation will boost productivity and economic growth, which can offset the inflationary effect of increased money supply.",
+            "premises": [
+              "More lending means more money supply, which usually causes inflation.",
+              "If the lending finances productive investments, it grows the economy while increasing money supply, potentially offsetting inflation.",
+              "Lower rates allow refinancing and new production."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A57B6F82F7A2",
+                "item": "Pizza analogy to illustrate offset.",
+                "status": "Verified",
+                "verification_basis": "The analogy is explained in the transcript as a rhetorical device.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "imagine we have a pizza... If you go in and you say, 'Hey, I want more slices...' you would just cut more slices... That's inflation... if all you do is actually grow the pizza and leave the same number of slices... that's economic growth with deflation.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-C552539A299A",
+                "item": "More productivity means more economic growth. More economic growth offsets some of the inflation.",
+                "status": "Unverifiable",
+                "verification_basis": "Claim made without evidence.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "More productivity means more economic growth. More economic growth offsets some of the inflation that would have happened from an increase in the money supply alone.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-B3D6F0012894",
+                "device": "Pizza analogy",
+                "explanation": "Used to illustrate how economic growth can offset inflation from increased money supply.",
+                "speech_id": "SP-A865956706B6",
+                "source_speech_filename": "20260218_Get Ready for Bank Deregulation.txt",
+                "source_excerpt": "imagine we have a pizza... so each slice still represents the same amount of pizza. There's just more pizza to go around now.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-CEE572D74DAB",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The supplementary leverage ratio was established in 2014.",
+        "reason": "The transcript provides no source or citation for this year.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No conflicting information in training knowledge; claim stands as unsupported assertion.",
+        "source_excerpt": "This was established in 2014",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 1586,
+          "character_end": 1614,
+          "line_start": 42
+        }
+      },
+      {
+        "unverifiable_id": "UV-6AE702F502D4",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "Banks subject to Federal Reserve credential standards have an SLR of 3%, and globally systemically important banks have an enhanced SLR of at least 5%.",
+        "reason": "No source or regulatory reference is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "Banks that are subject to the Federal Reserve's credential standards have an SLR of 3%. However, globally systemically important banks have an enhanced SLR which requires them to maintain at least 5%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FDD516D9600D",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The liquidity coverage ratio requires banks to hold high-quality liquid assets to survive 30 days of liquidity stress.",
+        "reason": "No citation to the regulation or its text.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "The liquidity coverage ratio or the LCR is designed to ensure that banks hold a sufficient reserve of high quality liquid assets, HQLA, to allow them to survive a period of significant liquidity stress lasting 30 calendar days.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B773718C4B11",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The Federal Reserve temporarily suspended the supplementary leverage ratio in April 2020.",
+        "reason": "No official announcement or press release is quoted.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "in April of 2020, the Federal Reserve announced that they were going to temporarily suspend the supplementary leverage ratio rule... to ease strains in the treasury market and increase banks organizations ability to provide credit to households and businesses.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-319F1C5E3879",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "Banks loaded up on treasuries and lending exploded after the 2020 suspension.",
+        "reason": "No data or specific evidence is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "And guess what? And that's exactly what banks did. Banks loaded up on treasuries, pushed yields down across the curve, and bank lending exploded.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D6A6DDD03466",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The reverse repo facility exploded after the suspension expired in 2021 due to banks shedding deposits to meet SLR ratios.",
+        "reason": "No empirical evidence or data point is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "Shedding these deposits and getting back to proper SLR ratios is one of the reasons why the reverse repo facility at the Fed exploded over the following years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-CE870C3F65F1",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The national debt is $38.6 trillion.",
+        "reason": "No source for this figure is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "The National Debt is sitting at $ 38.6 trillion.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-340D8C017B05",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The CBO projects a deficit near $2 trillion this year and $3 trillion in 10 years.",
+        "reason": "No specific CBO report or date is referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "The Congressional Budget Office is now projecting that the deficit is going to run near $2 trillion this year and in 10 years will be at least $3 trillion",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EE60457439C4",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "Scott Bessent, Kevin Walsh, and Steven Moran have been saying things that indicate deregulation is key.",
+        "reason": "No direct quotes or specific statements are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "when you look at the things that Scott Bessant has been saying, when you look at the new pick for leading the Federal Reserve, Kevin Walsh, and when you look at things like Fed Governor Steven Moran, has been saying, deregulating the banks looks like their key to trying to fix this problem.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E6DE1AC1D74D",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "Removing the SLR will dramatically lower yields across the entire yield curve, saving billions to hundreds of billions in interest costs.",
+        "reason": "This is a speculative prediction with no supporting model or calculation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "This could have the effect of dramatically and significantly lowering yields across the entire yield curve for US government borrowing... saving billions, tens of billions, maybe even hundreds of billions of dollars over the long term in just interest costs on the debt alone.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-4433A8DBAC91",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "Productivity increase from increased lending will offset the inflation from increased money supply.",
+        "reason": "No empirical evidence or mechanism is demonstrated.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "More productivity means more economic growth. More economic growth offsets some of the inflation that would have happened from an increase in the money supply alone.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0F08EC8A1CC3",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The speaker's trading strategy has produced returns of 246%, 282%, and 788%.",
+        "reason": "No account statements or independent verification is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "I've used this strategy to take home returns of 246%, 282%, and even 788% in a matter of months.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-04DFD5DCB139",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The speaker was a stock broker until 2019 and quit to start Heresy Financial.",
+        "reason": "No background verification is offered.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "I was a stock broker for years until 2019 when I quit my job to start Heresy Financial.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5C4662862ABD",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "The upcoming live event is free and spots are limited to 250 traders.",
+        "reason": "No booking system or confirmation is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "it is free to join the call, but spots are limited.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-35195F44AED3",
+        "speech_id": "SP-A865956706B6",
+        "speech_ref": "20260218_Get Ready for Bank Deregulation.txt",
+        "claim": "It is almost certain that bank deregulation and supplementary leverage ratio removal will happen this year.",
+        "reason": "The claim is a probabilistic prediction with no verifiable basis offered.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis to verify; assumed unverifiable.",
+        "source_excerpt": "this is why it is almost certain in my opinion that we see bank deregulation and the supplementary leverage ratio removed for banks... probably this year.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Removing the supplementary leverage ratio will occur soon and will allow banks to buy unlimited treasuries and lend more, lowering Treasury yields and government borrowing costs while potentially offsetting inflation via productivity gains.",
+      "themes": [
+        "Regulatory details and conflict between the supplementary leverage ratio and liquidity coverage ratio",
+        "Historical precedent from the 2020 temporary SLR suspension",
+        "Current US fiscal challenges and the impetus for deregulation",
+        "Projected market effects of SLR removal on Treasury yields and government borrowing costs",
+        "Inflation and productivity dynamics from increased lending"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 15
+    },
+    "generated_at": "2026-07-14T23:22:06+00:00",
+    "record_hash": "46d5fe5db6a81f41448c58ecae7842110ac184fdcbf6a00d844535ee985186aa",
+    "analysis_truncated": false
+  },
+  "output_hash": "0bbb4dba532f3e4692f41a1e2021c0ae690d33b2e136428a19d94284a8fa9ee5",
+  "complete": true
+}

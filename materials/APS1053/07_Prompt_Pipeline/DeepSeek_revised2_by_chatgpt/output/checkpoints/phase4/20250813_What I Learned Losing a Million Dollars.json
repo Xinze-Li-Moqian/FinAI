@@ -1,0 +1,841 @@
+{
+  "dependencies": {
+    "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+    "phase1_record_hash": "39ef5f312b37bbd03f4fd825c32377c6a4d984edfa728803b5ce0bb116a76cc2",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-C49B1C205B09",
+    "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+    "stem": "20250813_What I Learned Losing a Million Dollars",
+    "date": "2025-08-13",
+    "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+    "source_character_count": 17181,
+    "central_claim": "Sharing three personal investment losses and the lessons learned from them can help others avoid similar large losses and build wealth more securely.",
+    "themes": [
+      {
+        "local_theme_id": "LT-4EB4264AF6BF",
+        "theme": "Leveraged options trading and risk misperception",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C01144675098",
+            "local_theme_id": "LT-4EB4264AF6BF",
+            "conclusion": "Trading with high leverage on near-certain small profits invites catastrophic loss from rare events.",
+            "premises": [
+              "The speaker traded options with high leverage to amplify small profits.",
+              "The speaker considered the risk of loss as a one-in-1000-year event.",
+              "A rare event caused a loss of $25,000 (90% of net worth)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-6AF8AFB7262D",
+                "item": "Loss of $25,000 (90% net worth) from options trade",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript reports a personal anecdote without external verification.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "overnight, I lost about $25,000, which might not sound like a lot, but to me at the time, it was about 90% of my net worth.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-CBBF55469E58",
+                "device": "When Genius Failed book by Roger Loenstein",
+                "explanation": "Illustrates that even the world's smartest investors failed with a similar high-leverage strategy.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "There's a great book called When Genius Failed by Roger Loenstein. And it's a book about pretty much the smartest people in the world who basically started a fund doing a very similar in structure strategy to what I was doing.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-73AD44EC4DAB",
+            "local_theme_id": "LT-4EB4264AF6BF",
+            "conclusion": "Risk should be defined as the worst-case scenario, not as volatility or probability.",
+            "premises": [
+              "The worst-case scenario is the only risk that can actually be known.",
+              "Protecting against the worst case prevents ruin and leads to long-term success."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0D5F2F66069D",
+                "item": "The speaker's definition of risk as worst-case scenario",
+                "status": "Unverifiable",
+                "verification_basis": "Normative claim without empirical verification.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "Risk is what is the worst case scenario. That's the only thing you can actually know.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8569316E9815",
+        "theme": "Private gold miner investment and fear of missing out",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F09F12A8EC5B",
+            "local_theme_id": "LT-8569316E9815",
+            "conclusion": "Making investment decisions under time pressure and fear of missing out leads to losses.",
+            "premises": [
+              "The investment opportunity had a close deadline and limited availability.",
+              "The speaker did not have time to perform due diligence.",
+              "Management went dark after the investment and the plan evaporated.",
+              "The speaker lost $100,000."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8D03CCF7265F",
+                "item": "Loss of $100,000 on private gold miner investment",
+                "status": "Unverifiable",
+                "verification_basis": "Personal account without external verification.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "I lost $100,000 on that investment.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-C2776BA37361",
+                "device": "The Richest Man in Babylon story",
+                "explanation": "Illustrates that waiting for certainty eliminates profit opportunities, but due diligence is still required.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "There's a great story in the book, The Richest Man in Babylon... he delays until sunlight.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-C1E33E63F4E2",
+        "theme": "Tax deferral driven investment hold",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C364BE90AB78",
+            "local_theme_id": "LT-C1E33E63F4E2",
+            "conclusion": "Tax considerations should never be the sole factor in investment decisions.",
+            "premises": [
+              "The speaker had an unrealized gain of $1.5–1.6 million.",
+              "He delayed selling solely to defer capital gains tax.",
+              "Over six weeks the gain shrank to approximately $500,000.",
+              "Net result: a loss of nearly $1 million relative to selling earlier."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BACCECDB23E1",
+                "item": "Loss of ~$1 million in profit due to tax-deferral hold",
+                "status": "Unverifiable",
+                "verification_basis": "Personal account without external verification.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "I watched that 1.5 $1.6 million gain shrink down to about 500 a little over a $500,000 gain.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E2C8728F45E8",
+                "device": "\"Tax tail wagging the investment dog\" metaphor",
+                "explanation": "Illustrates that letting taxes drive decisions leads to poorer outcomes.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "Every time you let the tax tail wag the investment dog, you will end up with less money",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-5A292214C782",
+                "device": "\"Cherry on top of the ice cream sundae\" analogy",
+                "explanation": "Taxes are a small part of the overall picture and should not be the main focus.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "Taxes are the cherry on top of the ice cream sundae. You don't want a whole bucket or a bowl just of the cherries.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-1B7F45747D37",
+            "local_theme_id": "LT-C1E33E63F4E2",
+            "conclusion": "Investors should focus on controllable factors such as risk management, research, and emotional discipline to maximize long-term wealth.",
+            "premises": [
+              "Macro factors like monetary and fiscal policy are outside the investor's control.",
+              "Overemphasis on external factors can lead to poor decisions.",
+              "The speaker's tax focus (an external factor) led to a suboptimal outcome."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-58E57A967303",
+                "item": "Speaker's advice to control controllables",
+                "status": "Unverifiable",
+                "verification_basis": "Normative advice without empirical support.",
+                "speech_id": "SP-C49B1C205B09",
+                "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+                "source_excerpt": "Control the controllables. Focus on what we can change. managing your risk, doing your research, checking your emotions, and making financial decisions based off of the only financial metric that matters, maximizing total long-term wealth.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-3C4141988FE1",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "The speaker lost about $25,000 (90% of net worth) on an options trade.",
+        "reason": "Only the speaker's own account; no external sources or documentation provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Model has no training data on the speaker's personal finances.",
+        "source_excerpt": "overnight, I lost about $25,000, which might not sound like a lot, but to me at the time, it was about 90% of my net worth.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8B48FB6F82E2",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "The speaker lost $100,000 on a private gold miner investment.",
+        "reason": "Personal anecdote without external verification or corroboration.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Model has no training data on the speaker's personal finances.",
+        "source_excerpt": "I lost $100,000 on that investment.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BBB553DCD7C3",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "The speaker had an unrealized gain of $1.5–1.6 million that shrank to $500,000, resulting in a realized loss of ~$1 million.",
+        "reason": "Personal account without third-party verification or transaction records.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Model has no training data on the speaker's personal finances.",
+        "source_excerpt": "I watched that 1.5 $1.6 million gain shrink down to about 500 a little over a $500,000 gain.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-30FEF85C60EC",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "The speaker achieved returns as high as 297%, 733%, and 1,354% on single trades in the past year and a half.",
+        "reason": "No supporting documentation, trade records, or independent verification provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Model has no record of these specific returns.",
+        "source_excerpt": "Returns as high as 297% 733% and even 1,354% on a single trade in as little as 9 months.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1E34AA564320",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "There is always another investment opportunity in markets.",
+        "reason": "Assertion without evidence or historical backing; presented as universal truth.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common belief among traders but not universally true; not verified here.",
+        "source_excerpt": "There's always another opportunity. That's how markets work.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E44DD1115B0A",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "The best investors and traders throughout history all have the same number one rule: don't lose money.",
+        "reason": "Stated as fact but not backed by specific examples or references.",
+        "memory_check": "Corroborated",
+        "memory_note": "Consistent with known investment philosophy of figures like Warren Buffett and common wisdom.",
+        "source_excerpt": "This is why the best investors and traders throughout history all have the same number one rule, which is don't lose money.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DD702198DD2F",
+        "speech_id": "SP-C49B1C205B09",
+        "speech_ref": "20250813_What I Learned Losing a Million Dollars.txt",
+        "claim": "Prioritizing the lessons from the video will prevent large losses and build wealth faster and more securely over the long term.",
+        "reason": "Causal claim without controlled evidence or logical proof; relies on anecdotal experience.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unsupported causal assertion; no empirical evidence provided.",
+        "source_excerpt": "if you prioritize the things that I've talked about in this video, it will prevent you from having large losses, which will only help you build wealth faster and more securely over the long term.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Sharing three personal investment losses and the lessons learned from them can help others avoid similar large losses and build wealth more securely.",
+      "themes": [
+        "Leveraged options trading and risk misperception",
+        "Private gold miner investment and fear of missing out",
+        "Tax deferral driven investment hold"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "adfc083f2e4041c981653c41528d00c2e713284461dd8790a0ab5000cf0bfdc3",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "39ef5f312b37bbd03f4fd825c32377c6a4d984edfa728803b5ce0bb116a76cc2",
+    "canonical_mapping": {
+      "speech_id": "SP-C49B1C205B09",
+      "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC40",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+      "primary_cc_rationale": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T112",
+        "T93",
+        "T140"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T112",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-4EB4264AF6BF",
+          "rationale": "Leveraged options trading directly matches the canonical theme of Leveraged and Alternative Investment Strategies."
+        },
+        {
+          "theme_id": "T93",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-8569316E9815",
+          "rationale": "Private gold miner investment falls under Gold and Precious Metals Investment Strategies."
+        },
+        {
+          "theme_id": "T140",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-C1E33E63F4E2",
+          "rationale": "Tax deferral driven investment hold relates to Wealth Transfer and Tax Policy."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC40-T112",
+          "cc_id": "CC40",
+          "theme_id": "T112",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC40-T93",
+          "cc_id": "CC40",
+          "theme_id": "T93",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC40-T140",
+          "cc_id": "CC40",
+          "theme_id": "T140",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "local_cc_text": "Sharing three personal investment losses and the lessons learned from them can help others avoid similar large losses and build wealth more securely.",
+        "canonical_cc_id": "CC40",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "rationale": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "candidate_matches": [
+          {
+            "id": "CC40",
+            "text": "Current high asset prices, a forthcoming stock market rally, and homebuilding investment opportunities are driven by structural shifts, while MicroStrategy is not a Ponzi scheme and personal investment losses offer lessons for secure wealth building.",
+            "similarity": 0.28256314992904663
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.1760665774345398
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.11582958698272705
+          },
+          {
+            "id": "CC46",
+            "text": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+            "similarity": 0.10171534866094589
+          },
+          {
+            "id": "CC14",
+            "text": "Moving from quarterly to semi-annual earnings reporting will have a net beneficial effect for investors and companies, outweighing risks of increased fraud, insider trading, and volatility.",
+            "similarity": 0.0977923572063446
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "local_theme_id": "LT-4EB4264AF6BF",
+        "local_theme_text": "Leveraged options trading and risk misperception",
+        "canonical_theme_id": "T112",
+        "confidence": 0.8,
+        "rationale": "Leveraged options trading directly matches the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.374480664730072
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.27712056040763855
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.1540111005306244
+          },
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.15056222677230835
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.15022611618041992
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.13766875863075256
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "local_theme_id": "LT-8569316E9815",
+        "local_theme_text": "Private gold miner investment and fear of missing out",
+        "canonical_theme_id": "T93",
+        "confidence": 0.9,
+        "rationale": "Private gold miner investment falls under Gold and Precious Metals Investment Strategies.",
+        "candidate_matches": [
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.5730447769165039
+          },
+          {
+            "id": "T6",
+            "text": "Commodities as investment opportunities",
+            "similarity": 0.263328492641449
+          },
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.24767979979515076
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.23106428980827332
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.21744629740715027
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.17905735969543457
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "local_theme_id": "LT-C1E33E63F4E2",
+        "local_theme_text": "Tax deferral driven investment hold",
+        "canonical_theme_id": "T140",
+        "confidence": 0.7,
+        "rationale": "Tax deferral driven investment hold relates to Wealth Transfer and Tax Policy.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.26127946376800537
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.20560477674007416
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.17432790994644165
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.155755877494812
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.1481010913848877
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.1148766353726387
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-2174EF21DEB17E",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "date": "2025-08-13",
+        "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+        "pair_id": "PAIR-CC40-T112",
+        "cc_id": "CC40",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4EB4264AF6BF",
+        "local_theme_text": "Leveraged options trading and risk misperception",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Leveraged options trading directly matches the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-C01144675098",
+        "conclusion": "Trading with high leverage on near-certain small profits invites catastrophic loss from rare events.",
+        "premises": [
+          "The speaker traded options with high leverage to amplify small profits.",
+          "The speaker considered the risk of loss as a one-in-1000-year event.",
+          "A rare event caused a loss of $25,000 (90% of net worth)."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-6AF8AFB7262D",
+            "item": "Loss of $25,000 (90% net worth) from options trade",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript reports a personal anecdote without external verification.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "overnight, I lost about $25,000, which might not sound like a lot, but to me at the time, it was about 90% of my net worth.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-CBBF55469E58",
+            "device": "When Genius Failed book by Roger Loenstein",
+            "explanation": "Illustrates that even the world's smartest investors failed with a similar high-leverage strategy.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "There's a great book called When Genius Failed by Roger Loenstein. And it's a book about pretty much the smartest people in the world who basically started a fund doing a very similar in structure strategy to what I was doing.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-6D507A4A7B7B5F",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "date": "2025-08-13",
+        "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+        "pair_id": "PAIR-CC40-T112",
+        "cc_id": "CC40",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4EB4264AF6BF",
+        "local_theme_text": "Leveraged options trading and risk misperception",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "Leveraged options trading directly matches the canonical theme of Leveraged and Alternative Investment Strategies.",
+        "local_argument_id": "LA-73AD44EC4DAB",
+        "conclusion": "Risk should be defined as the worst-case scenario, not as volatility or probability.",
+        "premises": [
+          "The worst-case scenario is the only risk that can actually be known.",
+          "Protecting against the worst case prevents ruin and leads to long-term success."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0D5F2F66069D",
+            "item": "The speaker's definition of risk as worst-case scenario",
+            "status": "Unverifiable",
+            "verification_basis": "Normative claim without empirical verification.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "Risk is what is the worst case scenario. That's the only thing you can actually know.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-6AD8A356F8BD0E",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "date": "2025-08-13",
+        "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+        "pair_id": "PAIR-CC40-T93",
+        "cc_id": "CC40",
+        "theme_id": "T93",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8569316E9815",
+        "local_theme_text": "Private gold miner investment and fear of missing out",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Private gold miner investment falls under Gold and Precious Metals Investment Strategies.",
+        "local_argument_id": "LA-F09F12A8EC5B",
+        "conclusion": "Making investment decisions under time pressure and fear of missing out leads to losses.",
+        "premises": [
+          "The investment opportunity had a close deadline and limited availability.",
+          "The speaker did not have time to perform due diligence.",
+          "Management went dark after the investment and the plan evaporated.",
+          "The speaker lost $100,000."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-8D03CCF7265F",
+            "item": "Loss of $100,000 on private gold miner investment",
+            "status": "Unverifiable",
+            "verification_basis": "Personal account without external verification.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "I lost $100,000 on that investment.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-C2776BA37361",
+            "device": "The Richest Man in Babylon story",
+            "explanation": "Illustrates that waiting for certainty eliminates profit opportunities, but due diligence is still required.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "There's a great story in the book, The Richest Man in Babylon... he delays until sunlight.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-09DF6BA7C861F6",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "date": "2025-08-13",
+        "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+        "pair_id": "PAIR-CC40-T140",
+        "cc_id": "CC40",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C1E33E63F4E2",
+        "local_theme_text": "Tax deferral driven investment hold",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Tax deferral driven investment hold relates to Wealth Transfer and Tax Policy.",
+        "local_argument_id": "LA-C364BE90AB78",
+        "conclusion": "Tax considerations should never be the sole factor in investment decisions.",
+        "premises": [
+          "The speaker had an unrealized gain of $1.5–1.6 million.",
+          "He delayed selling solely to defer capital gains tax.",
+          "Over six weeks the gain shrank to approximately $500,000.",
+          "Net result: a loss of nearly $1 million relative to selling earlier."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-BACCECDB23E1",
+            "item": "Loss of ~$1 million in profit due to tax-deferral hold",
+            "status": "Unverifiable",
+            "verification_basis": "Personal account without external verification.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "I watched that 1.5 $1.6 million gain shrink down to about 500 a little over a $500,000 gain.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-E2C8728F45E8",
+            "device": "\"Tax tail wagging the investment dog\" metaphor",
+            "explanation": "Illustrates that letting taxes drive decisions leads to poorer outcomes.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "Every time you let the tax tail wag the investment dog, you will end up with less money",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "device_id": "RD-5A292214C782",
+            "device": "\"Cherry on top of the ice cream sundae\" analogy",
+            "explanation": "Taxes are a small part of the overall picture and should not be the main focus.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "Taxes are the cherry on top of the ice cream sundae. You don't want a whole bucket or a bowl just of the cherries.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-2003D0C01E1037",
+        "speech_id": "SP-C49B1C205B09",
+        "filename": "20250813_What I Learned Losing a Million Dollars.txt",
+        "date": "2025-08-13",
+        "source_hash": "03bce856acc0af69de8872aedb5e0b765d385380da775bf8d476206567465647",
+        "pair_id": "PAIR-CC40-T140",
+        "cc_id": "CC40",
+        "theme_id": "T140",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides three personal investment loss stories that instantiate the claim that personal investment losses offer lessons for secure wealth building, as stated in CC40.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C1E33E63F4E2",
+        "local_theme_text": "Tax deferral driven investment hold",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Tax deferral driven investment hold relates to Wealth Transfer and Tax Policy.",
+        "local_argument_id": "LA-1B7F45747D37",
+        "conclusion": "Investors should focus on controllable factors such as risk management, research, and emotional discipline to maximize long-term wealth.",
+        "premises": [
+          "Macro factors like monetary and fiscal policy are outside the investor's control.",
+          "Overemphasis on external factors can lead to poor decisions.",
+          "The speaker's tax focus (an external factor) led to a suboptimal outcome."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-58E57A967303",
+            "item": "Speaker's advice to control controllables",
+            "status": "Unverifiable",
+            "verification_basis": "Normative advice without empirical support.",
+            "speech_id": "SP-C49B1C205B09",
+            "source_speech_filename": "20250813_What I Learned Losing a Million Dollars.txt",
+            "source_excerpt": "Control the controllables. Focus on what we can change. managing your risk, doing your research, checking your emotions, and making financial decisions based off of the only financial metric that matters, maximizing total long-term wealth.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "adfc083f2e4041c981653c41528d00c2e713284461dd8790a0ab5000cf0bfdc3",
+  "complete": true
+}

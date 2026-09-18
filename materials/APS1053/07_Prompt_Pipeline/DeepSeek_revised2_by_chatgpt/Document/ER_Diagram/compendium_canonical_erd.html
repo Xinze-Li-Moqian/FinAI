@@ -1,0 +1,99 @@
+
+<style>
+#erd1 { margin-bottom: 8px; }
+#erd1 svg { width: 100%; }
+</style>
+<div id="erd1"></div>
+<script type="module">
+import mermaid from 'https://esm.sh/mermaid@11/dist/mermaid.esm.min.mjs';
+const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+await document.fonts.ready;
+mermaid.initialize({
+  startOnLoad: false,
+  theme: 'base',
+  fontFamily: '"Anthropic Sans", sans-serif',
+  themeVariables: {
+    darkMode: dark,
+    fontSize: '13px',
+    fontFamily: '"Anthropic Sans", sans-serif',
+    lineColor: dark ? '#9c9a92' : '#73726c',
+    textColor: dark ? '#c2c0b6' : '#3d3d3a',
+    primaryColor: dark ? '#3C3489' : '#EEEDFE',
+    primaryTextColor: dark ? '#CECBF6' : '#26215C',
+    primaryBorderColor: dark ? '#7F77DD' : '#534AB7',
+    secondaryColor: dark ? '#085041' : '#E1F5EE',
+    secondaryTextColor: dark ? '#9FE1CB' : '#04342C',
+    secondaryBorderColor: dark ? '#1D9E75' : '#0F6E56',
+    tertiaryColor: dark ? '#3B6D11' : '#EAF3DE',
+    tertiaryTextColor: dark ? '#C0DD97' : '#173404',
+    tertiaryBorderColor: dark ? '#639922' : '#3B6D11',
+  },
+  er: { diagramPadding: 20, layoutDirection: 'TB', minEntityWidth: 100 }
+});
+const { svg } = await mermaid.render('erd1-svg', `erDiagram
+  CANONICAL_CENTRAL_CLAIM {
+    string cc_id PK
+    string tagline
+  }
+  CANONICAL_THEME {
+    string theme_id PK
+    string name
+  }
+  CANONICAL_ARGUMENT_CONCLUSION {
+    string arg_id PK
+    string heading
+  }
+  SYNTHESIZED_PREMISES {
+    string premise_id PK
+    string text
+  }
+  EVIDENCE {
+    string ev_id PK
+    string reliability_tag
+    string speech_ref
+  }
+  RHETORICAL_DEVICE {
+    string device_id PK
+    string name
+    string speech_ref
+  }
+  SPEECH {
+    string filename PK
+    string date
+  }
+  REMAPPED_MARKDOWN {
+    string md_id PK
+  }
+
+  CANONICAL_CENTRAL_CLAIM ||--o{ CANONICAL_THEME : "contains (C1)"
+  CANONICAL_THEME }o--|| CANONICAL_CENTRAL_CLAIM : "appears under (C2)"
+  CANONICAL_CENTRAL_CLAIM ||--o{ CANONICAL_ARGUMENT_CONCLUSION : "has via CC×T (C4)"
+  CANONICAL_ARGUMENT_CONCLUSION ||--o{ SYNTHESIZED_PREMISES : "reconstructed with (C10)"
+  CANONICAL_ARGUMENT_CONCLUSION ||--o{ EVIDENCE : "supported by (C11)"
+  CANONICAL_ARGUMENT_CONCLUSION |o--o{ RHETORICAL_DEVICE : "illustrated by (C12)"
+  SPEECH }o--|| CANONICAL_CENTRAL_CLAIM : "assigned to (C6)"
+  SPEECH ||--|| REMAPPED_MARKDOWN : "has (C13)"
+  REMAPPED_MARKDOWN ||--|| CANONICAL_CENTRAL_CLAIM : "aligned to (C14)"
+  SPEECH |o--o{ EVIDENCE : "contributes to (C16)"
+`);
+document.getElementById('erd1').innerHTML = svg;
+document.querySelectorAll('#erd1 svg .node').forEach(node => {
+  const firstPath = node.querySelector('path[d]');
+  if (!firstPath) return;
+  const d = firstPath.getAttribute('d');
+  const nums = d.match(/-?[\d.]+/g)?.map(Number);
+  if (!nums || nums.length < 8) return;
+  const xs = [nums[0], nums[2], nums[4], nums[6]];
+  const ys = [nums[1], nums[3], nums[5], nums[7]];
+  const x = Math.min(...xs), y = Math.min(...ys);
+  const w = Math.max(...xs) - x, h = Math.max(...ys) - y;
+  const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+  rect.setAttribute('x', x); rect.setAttribute('y', y);
+  rect.setAttribute('width', w); rect.setAttribute('height', h);
+  rect.setAttribute('rx', '8');
+  for (const a of ['fill', 'stroke', 'stroke-width', 'class', 'style']) {
+    if (firstPath.hasAttribute(a)) rect.setAttribute(a, firstPath.getAttribute(a));
+  }
+  firstPath.replaceWith(rect);
+});
+</script>

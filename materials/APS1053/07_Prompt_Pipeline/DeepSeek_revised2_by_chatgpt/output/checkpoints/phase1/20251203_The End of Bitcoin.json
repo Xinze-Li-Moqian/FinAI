@@ -1,0 +1,334 @@
+{
+  "dependencies": {
+    "source_hash": "089042c738b421a928155c1bd46f3b3fc3248a8cc6abb0aa51dbabfce8d4af03",
+    "filename": "20251203_The End of Bitcoin.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-D8CAB2457228",
+    "filename": "20251203_The End of Bitcoin.txt",
+    "stem": "20251203_The End of Bitcoin",
+    "date": "2025-12-03",
+    "source_hash": "089042c738b421a928155c1bd46f3b3fc3248a8cc6abb0aa51dbabfce8d4af03",
+    "source_character_count": 16211,
+    "central_claim": "The current Bitcoin sell-off is driven by leveraged unwinds and narrative shifts, but Bitcoin remains an asymmetric bet with unchanged fundamentals and is not necessarily dying.",
+    "themes": [
+      {
+        "local_theme_id": "LT-58268DE965A4",
+        "theme": "Micro Strategy's financial leverage",
+        "arguments": [
+          {
+            "local_argument_id": "LA-48EF2C80272D",
+            "local_theme_id": "LT-58268DE965A4",
+            "conclusion": "Micro Strategy's financial structure may force it to sell Bitcoin if MNAV drops below 1, triggering a cascading price decline.",
+            "premises": [
+              "Micro Strategy lacks cash flows and pays dividends from new investor money",
+              "CEO stated they could sell Bitcoin below MNAV",
+              "They raised $1.5B cash reserves to cover 24 months of dividends",
+              "A forced sale would cause a snowball effect on Bitcoin price"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-B12E442E4B92",
+                "item": "MSTR shares trade at ~$170, MNAV just above 1",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states these figures.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "at the current price that Micro Strategy is trading at at around $170 per share, they're currently at a little over one MNAV.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-23CFCACE70C8",
+                "item": "Micro Strategy has 69 years of Bitcoin to sell at current price to cover payments",
+                "status": "Verified",
+                "verification_basis": "Transcript provides this calculation.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "they have about 69 years worth of Bitcoin that they could sell to cover payments.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-75CF60BE994A",
+                "item": "Micro Strategy sold shares for $1.5B cash reserves, covering 24 months dividends",
+                "status": "Verified",
+                "verification_basis": "Transcript states this explicitly.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "Strategy just announced that they recently sold shares in order to secure about $1.5 billion worth of just dollar reserves.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-6B034DCC01F8",
+                "device": "Ponzi scheme",
+                "explanation": "Illustrates that new investor money is the only source for dividend payments, similar to a Ponzi structure, but notes dividends can be halted.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "If this sounds like a Ponzi scheme, it's because it is very close. The main difference here is all of these preferreds can shut off their dividend payments.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-8C82849603CF",
+                "device": "fire sale",
+                "explanation": "Describes the incentive for other players to force Micro Strategy to unwind in order to buy Bitcoin at deeply discounted prices.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "there's a financial incentive for other players in the industry to do whatever they can to get that player to be forced to unwind. Especially if you are bullish on that asset because then you will be able to pick up that asset at a fire sale price.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4B63DAC81B57",
+        "theme": "Original Bitcoin holder transactions",
+        "arguments": [
+          {
+            "local_argument_id": "LA-19B101D59213",
+            "local_theme_id": "LT-4B63DAC81B57",
+            "conclusion": "OG whale selling is not necessarily bearish; it could be diversification, internal transfer, or a strategy to trigger a Micro Strategy unwind.",
+            "premises": [
+              "OG whales have large gains after 15 years",
+              "On-chain transactions are ambiguous regarding intent",
+              "Some may want to cause a cascade to buy Bitcoin cheaper"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-021F5659B8E4",
+                "item": "A Satoshi-era whale sold $1.5B worth of Bitcoin after 15 years.",
+                "status": "Verified",
+                "verification_basis": "Transcript reports this specific event.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "a Satashi era whale sold about $1.5 billion dollar worth of Bitcoin after holding for 15 years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9DBB3AAB88E3",
+        "theme": "Yen carry trade unwinding",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C1CD8FCAD5B0",
+            "local_theme_id": "LT-9DBB3AAB88E3",
+            "conclusion": "The yen carry trade unwinding is a systemic factor contributing to Bitcoin's decline.",
+            "premises": [
+              "Japanese 10-year yield has risen from below 0% to 1.8-1.9%",
+              "A similar unwind in July 2024 caused a 10% market drop",
+              "Crypto leverage was built on cheap yen"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-02141F0686B5",
+                "item": "Japanese 10-year yield now at 1.8-1.9%, reversed from below 0%.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides these yield levels.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "the yield on the 10-year government bond in Japan ... now trading at the exact same levels it was before. Back in 2006, the yield ... was around 1.8 1.9%.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-7CBF34CA11B7",
+                "item": "July 2024 market drop of 10% occurred due to yen carry trade unwind.",
+                "status": "Verified",
+                "verification_basis": "Transcript states this historical event.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "In fact, you may remember in July of 2024, the market dropped 10% over the course of just a couple of weeks. This drop occurred as the original yen carry trade unwound.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-046E99B6E1D0",
+                "device": "Lightning never strikes the same place twice",
+                "explanation": "Warning that the exact same unwind pattern may not repeat.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "Just like lightning, it never strikes in the same way in the same place twice.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9BEAA42107B8",
+        "theme": "Shift in adoption narrative",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6D3EA80FE08E",
+            "local_theme_id": "LT-9BEAA42107B8",
+            "conclusion": "The unmet expectations for sovereign and institutional Bitcoin adoption have caused a narrative shift and selling pressure.",
+            "premises": [
+              "Expectations of US government buying Bitcoin for sovereign wealth fund were not met",
+              "Institutional adoption has been limited to retail ETF buying",
+              "Bills for government purchase have not passed"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-686BCD4DBFE0",
+                "item": "US government's plan was to hold existing Bitcoin, not buy more.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide a source or direct quote for this claim.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "When they did announce their plans with Bitcoin, the plan was, hey, we're just going to keep what we have. We're not going to sell it, but we're not going to buy anymore.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-164A714C8771",
+                "item": "Bills introduced but not passed.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific bills or legislative outcomes are cited.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "bills have been introduced to Congress in order to change that ... Some of those bills have come and gone and some of them are still in the works.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-E7C01E8A284E",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Micro Strategy does not have cash flows or profits; its only source of money is from new investors.",
+        "reason": "The transcript asserts this without any source or verifiable financial data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript contains this claim but provides no external evidence or citation.",
+        "source_excerpt": "Micro Strategy does not have cash flows. They do not have profits. which means every cent they pay out as a dividend does not come from profits. It comes from raising money from new investors.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-109372F6D46B",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Micro Strategy CEO said they can sell Bitcoin if needed below MNAV.",
+        "reason": "The transcript paraphrases a statement without a direct quote or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Statement is attributed but not directly quoted; no date or venue provided.",
+        "source_excerpt": "Which is why Strategies CEO recently said that we can sell Bitcoin and we would sell Bitcoin if we needed to fund our dividend payments below MNAV.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BDAA2867DC53",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Institutional adoption has largely been concentrated to retail investors buying ETFs, not large-scale allocations.",
+        "reason": "The transcript makes this claim without providing any data or studies.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Assertion about institutional behavior is unsupported.",
+        "source_excerpt": "institutional adoption has largely been concentrated to retail investors buying Bitcoin through things like ETFs. That is not true institutional adoption. ... we're not seeing anything like large-scale allocations across pensions and 401ks with any meaningful percentages.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-B3E939FA2587",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "The US government announced plans to keep but not buy more Bitcoin.",
+        "reason": "The transcript refers to an announcement but gives no source or official document.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim about government policy is unsupported.",
+        "source_excerpt": "When they did announce their plans with Bitcoin, the plan was, hey, we're just going to keep what we have. We're not going to sell it, but we're not going to buy anymore.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-BD9F101C7EF9",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Bills have been introduced to Congress to buy Bitcoin; some have passed, some are pending.",
+        "reason": "No specific legislation or status cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Vague reference without bill names or outcomes.",
+        "source_excerpt": "bills have been introduced to Congress in order to change that so that the US government will start buying Bitcoin. Some of those bills have come and gone and some of them are still in the works.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6B2DBFCA75DD",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Bitcoin is down 31% from all-time highs in 60 days and down 7-12% year to date.",
+        "reason": "Transcript gives these numbers but no price source is referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Price data is stated but not sourced.",
+        "source_excerpt": "it is down 31% from its all-time highs in just about 60 days. ... down about 7 12% year to date.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current Bitcoin sell-off is driven by leveraged unwinds and narrative shifts, but Bitcoin remains an asymmetric bet with unchanged fundamentals and is not necessarily dying.",
+      "themes": [
+        "Micro Strategy's financial leverage",
+        "Original Bitcoin holder transactions",
+        "Yen carry trade unwinding",
+        "Shift in adoption narrative"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 6
+    },
+    "generated_at": "2026-07-15T01:57:36+00:00",
+    "record_hash": "e7237699ae514077385da9f9b280a0b786a2a39c8ac11c47c4beada575b7d3a3",
+    "analysis_truncated": false
+  },
+  "output_hash": "5768352f249a33eceb24bce2f07dceace572c37af19d56df007e14b97f56b3fd",
+  "complete": true
+}

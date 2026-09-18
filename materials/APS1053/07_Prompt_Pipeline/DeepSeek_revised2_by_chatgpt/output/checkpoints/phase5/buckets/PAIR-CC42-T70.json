@@ -1,0 +1,94 @@
+{
+  "dependency_hash": "a22754e6a7bb11b0b1048a7dfd0787fbe22725aa949dc70d50e3917df9f43119",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC42-T70",
+    "cc_id": "CC42",
+    "theme_id": "T70",
+    "authoritative_anchor": "cc-cc42-theme-t70",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC42-T70-2CBAD867BB",
+        "pair_id": "PAIR-CC42-T70",
+        "conclusion": "Expansion of the money supply reduces the purchasing power of money, leading to general price increases.",
+        "source_contribution_ids": [
+          "CONTRIB-CA4FD20FEDC3E7"
+        ],
+        "source_speech_filenames": [
+          "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+        ],
+        "premise_synthesis": "An increase in the money supply relative to available goods and services drives up prices. The Federal Reserve is tasked with growing the money supply at a rate consistent with economic growth but frequently overshoots, exacerbating inflationary pressure.",
+        "conclusion_supported": "The expansion of the money supply reduces the purchasing power of money and causes general price increases.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-CA4FD20FEDC3E7"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "M2 money supply chart shows continuous growth, with a brief decline in 2022-2023 but now surpassing old highs.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker refers to a chart of M2 without providing a source or data series.",
+            "source_contribution_ids": [
+              "CONTRIB-CA4FD20FEDC3E7"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "source_excerpt": "This is a chart of M2, which is the money supply... as you can see, for the most part, this chart only goes up and to the right. There was a brief period of time when the money supply was shrinking, when the Fed was trying to undo their mistakes from all the money printing in 2020 and 2021. But as you can see, it really didn't undo that much of the money printing and it is well on its way past that old all-time high and continuing to increase even today."
+          },
+          {
+            "item": "Federal Reserve Reform Act of 1977: 'maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production.'",
+            "status": "Verified",
+            "verification_basis": "The speaker provides a direct quote from a legislative act.",
+            "source_contribution_ids": [
+              "CONTRIB-CA4FD20FEDC3E7"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "source_excerpt": "You can see here in the first sentence, it says that they shall maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Million dollar deposit thought experiment",
+            "explanation": "Illustrates the effect of increasing the money supply on prices and wages.",
+            "source_contribution_ids": [
+              "CONTRIB-CA4FD20FEDC3E7"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech from 2026-01-29 is provided; no cross-speech evolution can be inferred within this argument.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-CA4FD20FEDC3E7"
+    ],
+    "source_speech_filenames": [
+      "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+    ],
+    "generated_at": "2026-07-15T03:31:46+00:00",
+    "record_hash": "1c7bdc73d0eba1356c8d7382e23d16aa388fea185b68eb7d2ef44896283cc588"
+  },
+  "complete": true
+}

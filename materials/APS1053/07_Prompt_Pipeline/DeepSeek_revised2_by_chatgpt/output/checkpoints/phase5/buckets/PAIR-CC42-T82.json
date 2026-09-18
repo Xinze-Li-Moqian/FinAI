@@ -1,0 +1,250 @@
+{
+  "dependency_hash": "4e69eb2e5566da823033b34184ae9d87849f40fed36b73abed19467c29b15884",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC42-T82",
+    "cc_id": "CC42",
+    "theme_id": "T82",
+    "authoritative_anchor": "cc-cc42-theme-t82",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC42-T82-D812600AD3",
+        "pair_id": "PAIR-CC42-T82",
+        "conclusion": "Government regulations drive up prices and reduce quality by restricting competition.",
+        "source_contribution_ids": [
+          "CONTRIB-52E623BB60F0DA"
+        ],
+        "source_speech_filenames": [
+          "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+        ],
+        "premise_synthesis": "In a free market, competition drives quality up and prices down. However, government intervention through regulations restricts competition, leading to higher prices and lower quality in essential sectors such as healthcare, education, housing, and food.",
+        "conclusion_supported": "It is established that government regulations, by restricting competition, cause prices to rise and quality to fall in many important areas of the economy.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-52E623BB60F0DA"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Prices of hospital services rose 281% from 2000-2025, college tuition and fees, child care, medical care services, housing, food and beverages also rose sharply, while household furniture, clothing, cell phones, computer software, TVs became cheaper.",
+            "status": "Unverifiable",
+            "verification_basis": "The chart is presented without citation or methodology.",
+            "source_contribution_ids": [
+              "CONTRIB-52E623BB60F0DA"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "source_excerpt": "Prices from 2000 through 2025 for most of the things that make the biggest impact on people's lives have continued to get more and more expensive. You can see at the very top of this list we have hospital services which have gotten 281% more expensive. We have college tuition and fees, college textbooks, child care, medical care services, housing and food and beverages all getting wildly more expensive."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "TV price analogy",
+            "explanation": "Illustrates that free-market goods like TVs become cheaper without government intervention, whereas heavily regulated goods become expensive.",
+            "source_contribution_ids": [
+              "CONTRIB-52E623BB60F0DA"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented solely in the 2026-01-29 speech. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC42-T82-0B15929C76",
+        "pair_id": "PAIR-CC42-T82",
+        "conclusion": "Government-granted monopolies cause higher prices and lower quality by preventing competition.",
+        "source_contribution_ids": [
+          "CONTRIB-A41B4DF91C96BB"
+        ],
+        "source_speech_filenames": [
+          "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+        ],
+        "premise_synthesis": "Government outlaws competition in certain sectors such as internet service provision and pharmaceuticals through patents, which prevents competition and allows incumbents to charge high prices while quality remains low.",
+        "conclusion_supported": "It is established that government-granted monopolies, through patents and exclusive rights, result in higher prices and lower quality in internet services and pharmaceuticals.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-A41B4DF91C96BB"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Internet service providers have poor quality because government outlaws competition.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim is stated without supporting evidence.",
+            "source_contribution_ids": [
+              "CONTRIB-A41B4DF91C96BB"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "source_excerpt": "There's a reason your internet service provider sucks. It's because the government outlaws competition."
+          },
+          {
+            "item": "GLP-1 medications (Ozempic) are extremely easy to manufacture; black market versions cost dollars per month, while official versions cost hundreds or thousands of times more due to patents.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker provides no source for manufacturing ease or black market prices.",
+            "source_contribution_ids": [
+              "CONTRIB-A41B4DF91C96BB"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "source_excerpt": "The current GLP-1 or Ozmpic medications are a great example of this because they are extremely easy to manufacture. They are so easy to manufacture in fact that if you get these things through the black market from people who do not care about the law, you can get these medications for literally dollars per month. Whereas if you buy the official ones from Novo Nordis or Eli Liy, you can pay hundreds or even thousands of times more than that because they have the Monopoly on violence getting their back..."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Artificial guard rails analogy",
+            "explanation": "Compares the effect of government-enforced monopolies to guard rails that prevent free-market price decreases.",
+            "source_contribution_ids": [
+              "CONTRIB-A41B4DF91C96BB"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented solely in the 2026-01-29 speech. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC42-T82-E615DC8131",
+        "pair_id": "PAIR-CC42-T82",
+        "conclusion": "Greater economic freedom leads to higher income per capita and greater wealth.",
+        "source_contribution_ids": [
+          "CONTRIB-D75986EA680143"
+        ],
+        "source_speech_filenames": [
+          "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+        ],
+        "premise_synthesis": "Countries with more economic freedom tend to have higher income per capita, whereas government intervention reduces economic freedom and consequently decreases wealth.",
+        "conclusion_supported": "It is established that greater economic freedom is associated with higher income per capita, implying that government intervention which reduces freedom also reduces wealth.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-D75986EA680143"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "List of countries with less economic freedom (Zimbabwe, Iran, Egypt, China, Argentina) have lower income per capita; countries with more freedom (Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand) have higher income per capita.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker provides a list of countries without citing any economic freedom index or income statistics.",
+            "source_contribution_ids": [
+              "CONTRIB-D75986EA680143"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ],
+            "source_excerpt": "You can see countries like Zimbabwe, Iran, Egypt, China, Argentina have less economic freedom and therefore their income per capita is much much lower. Whereas countries like Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand have much more economic freedom and therefore much more income per capita."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Historical progress analogy",
+            "explanation": "Demonstrates that free-market innovation and progress have made wealth more accessible over time.",
+            "source_contribution_ids": [
+              "CONTRIB-D75986EA680143"
+            ],
+            "source_speech_filenames": [
+              "20260129_Why Everything Keeps Getting So Much More Expensive.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented solely in the 2026-01-29 speech. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC42-T82-699E74ADA9",
+        "pair_id": "PAIR-CC42-T82",
+        "conclusion": "Tariffs make life worse for everybody overall by raising prices and enacting cronyism.",
+        "source_contribution_ids": [
+          "CONTRIB-6231A0992C236D"
+        ],
+        "source_speech_filenames": [
+          "20260206_The Effect of Tariffs After One Year.txt"
+        ],
+        "premise_synthesis": "Tariffs raise prices because they tax cheaper foreign goods, reducing consumer wealth, and they also create cronyism by benefiting select domestic producers at the expense of free market competition.",
+        "conclusion_supported": "It is established that tariffs, as a form of government intervention, harm consumers by raising prices and foster cronyism.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-6231A0992C236D"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how tariff policy, as a form of government intervention, fails to deliver fiscal benefits and harms consumers, directly illustrating CC42's claim that excessive intervention causes economic problems."
+            ]
+          }
+        ],
+        "evidence": [],
+        "rhetorical_devices": [
+          {
+            "device": "Comparison to military contractors and Big Pharma as examples of government-cronyism",
+            "explanation": "Illustrates that tariffs enrich certain producers through government favoritism.",
+            "source_contribution_ids": [
+              "CONTRIB-6231A0992C236D"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented solely in the 2026-02-06 speech. No cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-52E623BB60F0DA",
+      "CONTRIB-6231A0992C236D",
+      "CONTRIB-A41B4DF91C96BB",
+      "CONTRIB-D75986EA680143"
+    ],
+    "source_speech_filenames": [
+      "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+      "20260206_The Effect of Tariffs After One Year.txt"
+    ],
+    "generated_at": "2026-07-15T03:32:25+00:00",
+    "record_hash": "b7e40d70b697f2697f99d8f021a08f62c909c27c1e03b2915545b99082c7ee12"
+  },
+  "complete": true
+}

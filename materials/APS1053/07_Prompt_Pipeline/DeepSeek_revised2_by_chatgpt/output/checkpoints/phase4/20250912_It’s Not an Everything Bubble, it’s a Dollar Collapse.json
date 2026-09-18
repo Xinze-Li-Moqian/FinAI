@@ -1,0 +1,1212 @@
+{
+  "dependencies": {
+    "source_hash": "20cf02b1ea4142b50a7f048ee667640419e8ff4a3bcf7200e4d8959f41cff943",
+    "phase1_record_hash": "5882276e7d1e198d3438619dd19c18f6c4e4e5f422cfdd25e8b8074bfa236214",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-1B24C77C5AFD",
+    "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+    "stem": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse",
+    "date": "2025-09-12",
+    "source_hash": "20cf02b1ea4142b50a7f048ee667640419e8ff4a3bcf7200e4d8959f41cff943",
+    "source_character_count": 13045,
+    "central_claim": "The simultaneous all-time highs across multiple asset classes and goods are not the result of multiple independent bubbles, but rather a consequence of the declining purchasing power of the U.S. dollar.",
+    "themes": [
+      {
+        "local_theme_id": "LT-D76EDE41D693",
+        "theme": "Pervasive price increases across assets and goods",
+        "arguments": [
+          {
+            "local_argument_id": "LA-D1D1CC5502CF",
+            "local_theme_id": "LT-D76EDE41D693",
+            "conclusion": "The synchronous all-time highs in diverse assets and goods indicate a common cause rather than multiple independent bubbles.",
+            "premises": [
+              "Gold is at $3,629 per ounce, silver over $41, Bitcoin at $112,000.",
+              "S&P 500 near 6500, Nasdaq over 23,000, Dow at 45,000, Russell 2000 near all-time highs.",
+              "US Case Shiller home price index at all-time highs; median sale price of houses near 2022 high.",
+              "Cost of rent, ground beef, electricity, college tuition, and health insurance are all at all-time highs."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-4438585AE25F",
+                "item": "Gold price at $3,629 per ounce, silver at over $41 per ounce.",
+                "status": "Verified",
+                "verification_basis": "Exact numbers provided in the transcript.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "The price of gold has recently broken out from a multi-month consolidation pattern and is currently at all-time highs, trading for $3,629 per ounce. Silver as well is hitting prices that it has only seen a few times in history at over $41 per ounce.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D671F6848348",
+                "item": "Bitcoin near all-time high at $112,000.",
+                "status": "Verified",
+                "verification_basis": "Exact number provided.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "Bitcoin as well is near its all-time high, trading at $112,000.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-522A8C8F7355",
+                "item": "S&P 500 at just under 6500, Nasdaq over 23,000, Dow Jones at 45,000, Russell 2000 near all-time highs.",
+                "status": "Verified",
+                "verification_basis": "Exact numbers provided for indices.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "The S&P 500 is at just under 6500 and within the last couple of trading days has been playing with all-time highs. The Nasdaq is over 23,000 touching all-time highs as well. The Dow Jones Industrial Average at 45,000. The Russell 2000, which is small caps, is also trading near all-time highs, only being this high a couple of times in the last few years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-2A216E245470",
+                "item": "Case Shiller home price index at all-time highs; median sale price near 2022 high.",
+                "status": "Verified",
+                "verification_basis": "Transcript asserts both indices at highs. No exact numbers, but index names provided.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "And the United States Case Schiller home price index is also at all-time highs. ... even if you prefer looking simply at the median sale price of houses sold in the United States, which is only down slightly off of its high from 2022.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-021A4008A3AD",
+                "item": "Cost of rent, ground beef, electricity, college tuition, health insurance all at all-time highs.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide sources, dates, or specific data points for these claims.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "if you look at the cost of rent across the United States, also at all-time highs. Or if you look at the cost of ground beef, it is also at all-time highs. Or if you look at the average price of electricity per kilowatt hour in the United States, look at that. It's also at an all-time high. Or if you look at the cost of college tuition, whether you're looking at public or private, instate, out of state, everything is at all-time highs. Or if you look at the cost of health insurance, it is also at all-time highs.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-2396334F3272",
+                "device": "Historical bubble comparison",
+                "explanation": "Compares the broad-based nature of current price increases to past narrow bubbles (dot-com, crypto 2017) to illustrate that this pattern is different and suggests a systemic cause.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "Historically, when there is a bubble, it is an outlier. When you looked at the dot bubble and within the course of just a few years, the value of the NASDAQ went from 1,000 all the way up to almost 5,000. You could tell that that was crazy because other assets not exposed to that sector, like if you looked at the Dow Jones Industrial Average, did not have the exact same thing occur. ... Similarly, when the big crypto bubble happened in 2017 and Bitcoin went from just a couple of thousand all the way up to almost 20,000 within the course of about a year, you were able to tell that it was a bubble because it wasn't happening everywhere.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2BEEF9680F95",
+        "theme": "Dollar as the common denominator",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1EA742DB5A4D",
+            "local_theme_id": "LT-2BEEF9680F95",
+            "conclusion": "The dollar's declining purchasing power, rather than asset overvaluation, explains the widespread price increases.",
+            "premises": [
+              "When everything is expensive relative to the dollar, the comparison point is the dollar.",
+              "The DXY (dollar index) has been stable because other currencies are also devalued, masking the dollar's loss of value.",
+              "Pricing assets in gold reveals that many are not at bubble levels."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-649E00674950",
+                "item": "DXY chart shows the dollar at the same level as 2015.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the pattern and explains its interpretation.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "Now, you might be thinking, well, if you pull up a chart of the dollar, it really hasn't done much. In fact, it's at the exact same level it was back in 2015. It's had a little bit of volatility, but it's not falling through the floor like you might expect given the price of everything.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7E341A8F3F17",
+                "item": "Comparison of DXY to other fiat currencies explains why it doesn't show dollar weakness.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides reasoning based on relative currency devaluation.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "The reason for this is because again, you have to ask the question compared to what? When you look at this chart of the dollar, you are comparing the dollar to other currencies around the world. That's what the DXY is, the dollar index. it's a dollar versus a basket of other fiat currencies. Which means this chart looks pretty much exactly like what you should expect because if every government and central bank around the world is devaluing their own currency at around approximately the same rate, of course you're not going to have that large of fluctuations in the value of one currency compared to another, which is why the DXY doesn't look anything crazy.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-2A3BF9D5B34A",
+                "device": "Measuring stick analogy",
+                "explanation": "The dollar is described as a 'measuring stick' or 'denominator' that has changed length, making everything else seem inflated.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "Maybe the real problem is in your measuring stick. Maybe the real problem lies with your denominator, your currency, the dollar.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-CE8B1EF3B867",
+                "device": "Rhetorical question 'compared to what?'",
+                "explanation": "Used repeatedly to direct attention to the dollar as the common reference point for all price comparisons.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "The point is the question that you should always be asking yourself when you are trying to figure out if something is expensive is compared to what?",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E73519CB656D",
+        "theme": "Gold as a stable measuring stick",
+        "arguments": [
+          {
+            "local_argument_id": "LA-17E05F73D7BB",
+            "local_theme_id": "LT-E73519CB656D",
+            "conclusion": "When priced in gold, most assets and goods are not at bubble extremes, supporting the idea that the dollar is losing value rather than assets being overvalued.",
+            "premises": [
+              "Gold's purchasing power is historically stable over long periods.",
+              "S&P 500 priced in gold has a ratio of 1.79, which is historically elevated but not a bubble.",
+              "NASDAQ, Dow Jones, and Russell 2000 priced in gold appear fairly valued or cheap.",
+              "College tuition at Yale priced in gold is near all-time lows.",
+              "Median home sale price in the US priced in gold is near all-time lows.",
+              "Charts from priced in gold.com show these relationships."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-691CEB1A1E4D",
+                "item": "S&P 500 priced in gold ratio at 1.79.",
+                "status": "Verified",
+                "verification_basis": "Exact ratio provided in the transcript.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "but at a ratio of 1.79, while maybe historically elevated, it is certainly closer to a more normal average ratio.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-59BA1CAC76BF",
+                "item": "NASDAQ priced in gold chart shows similar fair valuation.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the chart's appearance and conclusion.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "This is a chart of the NASDAQ priced in gold. And while it does not go back as far in history as the S&P 500, we get a similar end of the chart here.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8081C860F34D",
+                "item": "Dow Jones Industrial Average priced in gold looks even more fairly valued, 'nowhere near bubble territory'.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides visual assessment.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "This is a chart of the Dow Jones Industrial Average priced in gold, which looks even more fairly valued. Definitely nowhere near bubble territory. Arguably not even expensive looking.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-3F3B6520D8F0",
+                "item": "Russell 2000 priced in gold 'might look cheap'.",
+                "status": "Verified",
+                "verification_basis": "Transcript describes chart's appearance.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "This is a chart of the Russell 2000 priced in gold. And again, this only goes back to 1987, but this actually might look cheap.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A75D04DC9768",
+                "item": "College tuition at Yale priced in gold is 'a lot closer to all-time lows'.",
+                "status": "Unverifiable",
+                "verification_basis": "No exact data point provided; source cited as 'priced in gold.com' but the specific chart not reproduced.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "You can even look at charts from priced in gold.com to find prices of things like college tuition at Yale priced in gold. You can see not only is it nowhere near all-time highs, it's actually a lot closer to all-time lows.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-ACC0CA29D0EA",
+                "item": "Median home sale price in the US priced in gold is 'much closer to an all-time low'.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific number provided; charts from 1965 to present described.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "You can even look at the price of the median home sale in the US since 1965 priced in both US dollars, which is the green line, or priced in gold, which is the red one. You can see again, not only is this not near all-time highs, it's much closer to an all-time low.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F86758117E83",
+                "item": "Statement that gold's purchasing power is stable over hundreds/thousands of years.",
+                "status": "Unverifiable",
+                "verification_basis": "Broad historical claim made without specific evidence or source in transcript.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "when you look back over hundreds or even thousands of years of human history, the purchasing power of 1 ounce of gold stays relatively stable throughout time. Whether you look at the salary of army captains, whether you look at the cost of a haircut or the price of a custom three-piece suit, when you price things in gold, it costs the same amount roughly throughout time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-5F18A34220DC",
+        "theme": "Crack-up boom theory",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6037F025CDC9",
+            "local_theme_id": "LT-5F18A34220DC",
+            "conclusion": "The current buying behavior across assets and goods matches von Mises' description of a 'flight into real goods' or crack-up boom, driven by expectations of continued dollar depreciation.",
+            "premises": [
+              "Von Mises stated that once the public is convinced money supply increases will continue, everyone tries to buy as much as possible to avoid holding cash.",
+              "People with means buy assets; those without means deal with higher cost of living.",
+              "This is the phenomenon seen in America today, though not hyperinflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-B3394CD34B35",
+                "item": "Direct quote of Ludwig von Mises describing the crack-up boom.",
+                "status": "Verified",
+                "verification_basis": "Exact quote provided in transcript.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "He said if once public opinion is convinced that the increase in the quantity of money will continue and never come to an end and that consequently the prices of all commodities and services will not cease to rise. Everybody becomes eager to buy as much as possible and to restrict his cash holding to a minimum size. For under these circumstances, the regular costs incurred by holding cash are increased by the losses caused by the progressive fall in purchasing power. The advantages of holding cash must be paid for by sacrifices which are deemed unreasonably burdensome. This phenomenon was in the great European inflations of the 20s called flight into real goods or crackup boom.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-973266C10995",
+                "item": "Description of current American behavior: rich buy assets, poor bear higher costs.",
+                "status": "Verified",
+                "verification_basis": "Transcript states this as observation; no external source but internally coherent.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "Those who have the means to do so are buying assets to protect their money and those who do not have the means to do so are dealing with the consequences of that inflation by buying goods. In other words, cost of living at the higher and higher prices.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-D6F66571F385",
+                "device": "Historical analogy to European inflations of the 1920s",
+                "explanation": "Compares current US situation to the 'flight into real goods' seen in great European inflations, as described by von Mises.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "This phenomenon was in the great European inflations of the 20s called flight into real goods or crackup boom. ... While we are not experiencing anything closely related to what could be called hyperinflation, this is the phenomenon that we are seeing happen in America today.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D5C347A3FF88",
+        "theme": "Money supply and future outlook",
+        "arguments": [
+          {
+            "local_argument_id": "LA-48139512646F",
+            "local_theme_id": "LT-D5C347A3FF88",
+            "conclusion": "Given M2 money supply growth returning to the normal 5-10% range and expected Fed rate cuts, the decline in dollar purchasing power is likely to continue, making a deflationary crash unlikely.",
+            "premises": [
+              "M2 money supply has reached a new all-time high after a brief decline in 2023.",
+              "The year-over-year growth rate bottomed at -4.87% in 2023 and is now back to 5-10%.",
+              "The Federal Reserve is expected to cut rates, which encourages borrowing and money creation.",
+              "A deflationary scenario would require the government to stop borrowing and spending, which is politically and economically unlikely."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3463BB9C0C99",
+                "item": "M2 money supply now at a new all-time high, surpassing the 2022 high.",
+                "status": "Verified",
+                "verification_basis": "Transcript references Federal Reserve chart; no specific numeric value given but trend is described.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "This is simply a chart put out by the Federal Reserve that shows the total supply of US dollars in the US financial system. ... the money supply is now at a new all-time high, eclipsing the high that it hit in 2022.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-E44E31BF7D62",
+                "item": "Growth rate of US money supply peaked at 27% in 2021, bottomed at -4.87% in 2023, now back to 5-10%.",
+                "status": "Verified",
+                "verification_basis": "Exact percentages provided in the transcript.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "the growth rate of the US money supply is between 5 to 10% per year. It peaked in 2021 at 27% year-over-year growth. And it bottomed in 2023 at a decline of 4.87%",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D75B747EB00B",
+                "item": "Expectation that Fed will cut rates, fueling money supply growth.",
+                "status": "Unverifiable",
+                "verification_basis": "Market expectation referenced but no source or explicit basis provided in transcript.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "especially considering that the Federal Reserve is largely expected to begin cutting rates very soon.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-6821E298BF02",
+                "item": "Scenario that a deflationary crash would rival the Great Depression and is unlikely.",
+                "status": "Unverifiable",
+                "verification_basis": "Speculative statement about future policy decisions and economic outcomes; no evidence provided.",
+                "speech_id": "SP-1B24C77C5AFD",
+                "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+                "source_excerpt": "you would need to expect that policymakers would be okay with and would allow a deflationary death spiral that would rival or perhaps exceed the Great Depression to just happen again. And while I guess that's technically possible, I don't think that it's anywhere near the most likely outcome, which means I don't think we are in the midst of a bubble getting ready to pop.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-24BFEE3BFFD2",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "The cost of ground beef is at all-time highs.",
+        "reason": "No source, date, or specific data provided for this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not within training knowledge; no basis to verify.",
+        "source_excerpt": "Or if you look at the cost of ground beef, it is also at all-time highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-68595BFFC9DE",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "The average price of electricity per kilowatt hour in the United States is at an all-time high.",
+        "reason": "No source or specific evidence provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not within training knowledge.",
+        "source_excerpt": "Or if you look at the average price of electricity per kilowatt hour in the United States, look at that. It's also at an all-time high.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7ABE7C004F24",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "The cost of college tuition (public/private, in/out of state) is at all-time highs.",
+        "reason": "No source or specific data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General claim; tuition costs have increased but not verified as all-time highs across all categories.",
+        "source_excerpt": "Or if you look at the cost of college tuition, whether you're looking at public or private, instate, out of state, everything is at all-time highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-322B224A1E1A",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "The cost of health insurance is at all-time highs.",
+        "reason": "No source or specific data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not within training knowledge.",
+        "source_excerpt": "Or if you look at the cost of health insurance, it is also at all-time highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FB8AEB6721DC",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "The dollar index (DXY) is at the exact same level it was back in 2015.",
+        "reason": "No source or chart data provided to support this specific level.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim about DXY level; not verifiable from transcript alone.",
+        "source_excerpt": "In fact, it's at the exact same level it was back in 2015.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-189A19C0DF1E",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "The purchasing power of one ounce of gold remains stable over hundreds or thousands of years.",
+        "reason": "Broad historical claim made without citations or specific examples beyond vague references to army captains, haircuts, suits.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Gold's purchasing power varies significantly in different historical periods; this is a simplified generalization.",
+        "source_excerpt": "when you look back over hundreds or even thousands of years of human history, the purchasing power of 1 ounce of gold stays relatively stable throughout time.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4E3172FA5A16",
+        "speech_id": "SP-1B24C77C5AFD",
+        "speech_ref": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "claim": "M2 money supply growth rate is back into its normal range of 5 to 10% and probably headed higher.",
+        "reason": "The current growth rate is not specified; only claimed to be in that range. 'Probably headed higher' is a prediction without evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Requires current M2 data not provided.",
+        "source_excerpt": "Now, the growth rate of US money supply is back into its normal range of 5 to 10% and probably headed higher, especially considering that the Federal Reserve is largely expected to begin cutting rates very soon.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The simultaneous all-time highs across multiple asset classes and goods are not the result of multiple independent bubbles, but rather a consequence of the declining purchasing power of the U.S. dollar.",
+      "themes": [
+        "Pervasive price increases across assets and goods",
+        "Dollar as the common denominator",
+        "Gold as a stable measuring stick",
+        "Crack-up boom theory",
+        "Money supply and future outlook"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "442c93d5c3ffed4034f60c0b5c295fe67b486881fbfd95ca72152ee4eedf4b3a",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "5882276e7d1e198d3438619dd19c18f6c4e4e5f422cfdd25e8b8074bfa236214",
+    "canonical_mapping": {
+      "speech_id": "SP-1B24C77C5AFD",
+      "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+      "primary_cc_rationale": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T70",
+        "T80",
+        "T95"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T70",
+          "confidence": 0.92,
+          "source_local_theme_id": "LT-D76EDE41D693",
+          "rationale": "Pervasive price increases across assets and goods are a direct instance of 'Asset price inflation and monetary expansion', as the speech attributes them to monetary factors (dollar depreciation)."
+        },
+        {
+          "theme_id": "T80",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-2BEEF9680F95",
+          "rationale": "The concept of the dollar serving as the common denominator for all asset prices aligns with 'Dollar dominance mechanisms', which describe the structural role of the dollar in global pricing."
+        },
+        {
+          "theme_id": "T95",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-E73519CB656D",
+          "rationale": "Using gold as a stable measuring stick to evaluate asset prices directly maps to 'Gold as a monetary indicator and safe haven', as the speech employs gold's stable value to reveal dollar depreciation."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T70",
+          "cc_id": "CC54",
+          "theme_id": "T70",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T80",
+          "cc_id": "CC54",
+          "theme_id": "T80",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T95",
+          "cc_id": "CC54",
+          "theme_id": "T95",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "local_cc_text": "The simultaneous all-time highs across multiple asset classes and goods are not the result of multiple independent bubbles, but rather a consequence of the declining purchasing power of the U.S. dollar.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+        "rationale": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+        "candidate_matches": [
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.37113869190216064
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.29998260736465454
+          },
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.29349589347839355
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.2807185649871826
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.2772749662399292
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "local_theme_id": "LT-D76EDE41D693",
+        "local_theme_text": "Pervasive price increases across assets and goods",
+        "canonical_theme_id": "T70",
+        "confidence": 0.92,
+        "rationale": "Pervasive price increases across assets and goods are a direct instance of 'Asset price inflation and monetary expansion', as the speech attributes them to monetary factors (dollar depreciation).",
+        "candidate_matches": [
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.44896626472473145
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.43893906474113464
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.42284896969795227
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.42275696992874146
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.4084932208061218
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.399593710899353
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "local_theme_id": "LT-2BEEF9680F95",
+        "local_theme_text": "Dollar as the common denominator",
+        "canonical_theme_id": "T80",
+        "confidence": 0.85,
+        "rationale": "The concept of the dollar serving as the common denominator for all asset prices aligns with 'Dollar dominance mechanisms', which describe the structural role of the dollar in global pricing.",
+        "candidate_matches": [
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.5702289342880249
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4193130135536194
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.3880419135093689
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.3677990138530731
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.2586809992790222
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.2478029429912567
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "local_theme_id": "LT-E73519CB656D",
+        "local_theme_text": "Gold as a stable measuring stick",
+        "canonical_theme_id": "T95",
+        "confidence": 0.95,
+        "rationale": "Using gold as a stable measuring stick to evaluate asset prices directly maps to 'Gold as a monetary indicator and safe haven', as the speech employs gold's stable value to reveal dollar depreciation.",
+        "candidate_matches": [
+          {
+            "id": "T95",
+            "text": "Gold as a monetary indicator and safe haven",
+            "similarity": 0.7532147169113159
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.6741505861282349
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.6186981201171875
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.45364776253700256
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.3700563907623291
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.35072046518325806
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "local_theme_id": "LT-5F18A34220DC",
+        "local_theme_text": "Crack-up boom theory",
+        "canonical_theme_id": "T74",
+        "confidence": 0.7,
+        "rationale": "The crack-up boom theory, characterizing a flight into real goods driven by monetary depreciation, is related to 'Boom-bust debt cycle theory' since both involve expectations of currency collapse and shifts in asset demand.",
+        "candidate_matches": [
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.43360984325408936
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.3597104549407959
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3540003299713135
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.35219985246658325
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.34919220209121704
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.3297472596168518
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "local_theme_id": "LT-D5C347A3FF88",
+        "local_theme_text": "Money supply and future outlook",
+        "canonical_theme_id": "T119",
+        "confidence": 0.9,
+        "rationale": "Discussion of M2 money supply growth and anticipated Fed rate cuts directly concerns 'Monetary policy and liquidity conditions', which influence future dollar purchasing power.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5493303537368774
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.5399687886238098
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5175219774246216
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.4801858961582184
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.4702796936035156
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4618314802646637
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-FEEF1AF64B065D",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "date": "2025-09-12",
+        "source_hash": "20cf02b1ea4142b50a7f048ee667640419e8ff4a3bcf7200e4d8959f41cff943",
+        "pair_id": "PAIR-CC54-T70",
+        "cc_id": "CC54",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-D76EDE41D693",
+        "local_theme_text": "Pervasive price increases across assets and goods",
+        "theme_mapping_confidence": 0.92,
+        "theme_mapping_rationale": "Pervasive price increases across assets and goods are a direct instance of 'Asset price inflation and monetary expansion', as the speech attributes them to monetary factors (dollar depreciation).",
+        "local_argument_id": "LA-D1D1CC5502CF",
+        "conclusion": "The synchronous all-time highs in diverse assets and goods indicate a common cause rather than multiple independent bubbles.",
+        "premises": [
+          "Gold is at $3,629 per ounce, silver over $41, Bitcoin at $112,000.",
+          "S&P 500 near 6500, Nasdaq over 23,000, Dow at 45,000, Russell 2000 near all-time highs.",
+          "US Case Shiller home price index at all-time highs; median sale price of houses near 2022 high.",
+          "Cost of rent, ground beef, electricity, college tuition, and health insurance are all at all-time highs."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-4438585AE25F",
+            "item": "Gold price at $3,629 per ounce, silver at over $41 per ounce.",
+            "status": "Verified",
+            "verification_basis": "Exact numbers provided in the transcript.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "The price of gold has recently broken out from a multi-month consolidation pattern and is currently at all-time highs, trading for $3,629 per ounce. Silver as well is hitting prices that it has only seen a few times in history at over $41 per ounce.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-D671F6848348",
+            "item": "Bitcoin near all-time high at $112,000.",
+            "status": "Verified",
+            "verification_basis": "Exact number provided.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "Bitcoin as well is near its all-time high, trading at $112,000.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-522A8C8F7355",
+            "item": "S&P 500 at just under 6500, Nasdaq over 23,000, Dow Jones at 45,000, Russell 2000 near all-time highs.",
+            "status": "Verified",
+            "verification_basis": "Exact numbers provided for indices.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "The S&P 500 is at just under 6500 and within the last couple of trading days has been playing with all-time highs. The Nasdaq is over 23,000 touching all-time highs as well. The Dow Jones Industrial Average at 45,000. The Russell 2000, which is small caps, is also trading near all-time highs, only being this high a couple of times in the last few years.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-2A216E245470",
+            "item": "Case Shiller home price index at all-time highs; median sale price near 2022 high.",
+            "status": "Verified",
+            "verification_basis": "Transcript asserts both indices at highs. No exact numbers, but index names provided.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "And the United States Case Schiller home price index is also at all-time highs. ... even if you prefer looking simply at the median sale price of houses sold in the United States, which is only down slightly off of its high from 2022.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-021A4008A3AD",
+            "item": "Cost of rent, ground beef, electricity, college tuition, health insurance all at all-time highs.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript does not provide sources, dates, or specific data points for these claims.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "if you look at the cost of rent across the United States, also at all-time highs. Or if you look at the cost of ground beef, it is also at all-time highs. Or if you look at the average price of electricity per kilowatt hour in the United States, look at that. It's also at an all-time high. Or if you look at the cost of college tuition, whether you're looking at public or private, instate, out of state, everything is at all-time highs. Or if you look at the cost of health insurance, it is also at all-time highs.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-2396334F3272",
+            "device": "Historical bubble comparison",
+            "explanation": "Compares the broad-based nature of current price increases to past narrow bubbles (dot-com, crypto 2017) to illustrate that this pattern is different and suggests a systemic cause.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "Historically, when there is a bubble, it is an outlier. When you looked at the dot bubble and within the course of just a few years, the value of the NASDAQ went from 1,000 all the way up to almost 5,000. You could tell that that was crazy because other assets not exposed to that sector, like if you looked at the Dow Jones Industrial Average, did not have the exact same thing occur. ... Similarly, when the big crypto bubble happened in 2017 and Bitcoin went from just a couple of thousand all the way up to almost 20,000 within the course of about a year, you were able to tell that it was a bubble because it wasn't happening everywhere.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-1D81D53F6CAAA7",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "date": "2025-09-12",
+        "source_hash": "20cf02b1ea4142b50a7f048ee667640419e8ff4a3bcf7200e4d8959f41cff943",
+        "pair_id": "PAIR-CC54-T80",
+        "cc_id": "CC54",
+        "theme_id": "T80",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2BEEF9680F95",
+        "local_theme_text": "Dollar as the common denominator",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The concept of the dollar serving as the common denominator for all asset prices aligns with 'Dollar dominance mechanisms', which describe the structural role of the dollar in global pricing.",
+        "local_argument_id": "LA-1EA742DB5A4D",
+        "conclusion": "The dollar's declining purchasing power, rather than asset overvaluation, explains the widespread price increases.",
+        "premises": [
+          "When everything is expensive relative to the dollar, the comparison point is the dollar.",
+          "The DXY (dollar index) has been stable because other currencies are also devalued, masking the dollar's loss of value.",
+          "Pricing assets in gold reveals that many are not at bubble levels."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-649E00674950",
+            "item": "DXY chart shows the dollar at the same level as 2015.",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the pattern and explains its interpretation.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "Now, you might be thinking, well, if you pull up a chart of the dollar, it really hasn't done much. In fact, it's at the exact same level it was back in 2015. It's had a little bit of volatility, but it's not falling through the floor like you might expect given the price of everything.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-7E341A8F3F17",
+            "item": "Comparison of DXY to other fiat currencies explains why it doesn't show dollar weakness.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides reasoning based on relative currency devaluation.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "The reason for this is because again, you have to ask the question compared to what? When you look at this chart of the dollar, you are comparing the dollar to other currencies around the world. That's what the DXY is, the dollar index. it's a dollar versus a basket of other fiat currencies. Which means this chart looks pretty much exactly like what you should expect because if every government and central bank around the world is devaluing their own currency at around approximately the same rate, of course you're not going to have that large of fluctuations in the value of one currency compared to another, which is why the DXY doesn't look anything crazy.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-2A3BF9D5B34A",
+            "device": "Measuring stick analogy",
+            "explanation": "The dollar is described as a 'measuring stick' or 'denominator' that has changed length, making everything else seem inflated.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "Maybe the real problem is in your measuring stick. Maybe the real problem lies with your denominator, your currency, the dollar.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "device_id": "RD-CE8B1EF3B867",
+            "device": "Rhetorical question 'compared to what?'",
+            "explanation": "Used repeatedly to direct attention to the dollar as the common reference point for all price comparisons.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "The point is the question that you should always be asking yourself when you are trying to figure out if something is expensive is compared to what?",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-763B5386F8599D",
+        "speech_id": "SP-1B24C77C5AFD",
+        "filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+        "date": "2025-09-12",
+        "source_hash": "20cf02b1ea4142b50a7f048ee667640419e8ff4a3bcf7200e4d8959f41cff943",
+        "pair_id": "PAIR-CC54-T95",
+        "cc_id": "CC54",
+        "theme_id": "T95",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that the current all-time highs in diverse assets and goods are not independent bubbles but a manifestation of the declining purchasing power of the U.S. dollar. This directly supports CC54's claim that deficit spending and Fed intervention lead to inflation and erosion of the dollar, providing evidence (via gold as a stable measuring stick) and a mechanism (crack-up boom theory) for that erosion.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E73519CB656D",
+        "local_theme_text": "Gold as a stable measuring stick",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Using gold as a stable measuring stick to evaluate asset prices directly maps to 'Gold as a monetary indicator and safe haven', as the speech employs gold's stable value to reveal dollar depreciation.",
+        "local_argument_id": "LA-17E05F73D7BB",
+        "conclusion": "When priced in gold, most assets and goods are not at bubble extremes, supporting the idea that the dollar is losing value rather than assets being overvalued.",
+        "premises": [
+          "Gold's purchasing power is historically stable over long periods.",
+          "S&P 500 priced in gold has a ratio of 1.79, which is historically elevated but not a bubble.",
+          "NASDAQ, Dow Jones, and Russell 2000 priced in gold appear fairly valued or cheap.",
+          "College tuition at Yale priced in gold is near all-time lows.",
+          "Median home sale price in the US priced in gold is near all-time lows.",
+          "Charts from priced in gold.com show these relationships."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-691CEB1A1E4D",
+            "item": "S&P 500 priced in gold ratio at 1.79.",
+            "status": "Verified",
+            "verification_basis": "Exact ratio provided in the transcript.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "but at a ratio of 1.79, while maybe historically elevated, it is certainly closer to a more normal average ratio.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-59BA1CAC76BF",
+            "item": "NASDAQ priced in gold chart shows similar fair valuation.",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the chart's appearance and conclusion.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "This is a chart of the NASDAQ priced in gold. And while it does not go back as far in history as the S&P 500, we get a similar end of the chart here.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8081C860F34D",
+            "item": "Dow Jones Industrial Average priced in gold looks even more fairly valued, 'nowhere near bubble territory'.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides visual assessment.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "This is a chart of the Dow Jones Industrial Average priced in gold, which looks even more fairly valued. Definitely nowhere near bubble territory. Arguably not even expensive looking.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-3F3B6520D8F0",
+            "item": "Russell 2000 priced in gold 'might look cheap'.",
+            "status": "Verified",
+            "verification_basis": "Transcript describes chart's appearance.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "This is a chart of the Russell 2000 priced in gold. And again, this only goes back to 1987, but this actually might look cheap.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A75D04DC9768",
+            "item": "College tuition at Yale priced in gold is 'a lot closer to all-time lows'.",
+            "status": "Unverifiable",
+            "verification_basis": "No exact data point provided; source cited as 'priced in gold.com' but the specific chart not reproduced.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "You can even look at charts from priced in gold.com to find prices of things like college tuition at Yale priced in gold. You can see not only is it nowhere near all-time highs, it's actually a lot closer to all-time lows.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-ACC0CA29D0EA",
+            "item": "Median home sale price in the US priced in gold is 'much closer to an all-time low'.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific number provided; charts from 1965 to present described.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "You can even look at the price of the median home sale in the US since 1965 priced in both US dollars, which is the green line, or priced in gold, which is the red one. You can see again, not only is this not near all-time highs, it's much closer to an all-time low.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F86758117E83",
+            "item": "Statement that gold's purchasing power is stable over hundreds/thousands of years.",
+            "status": "Unverifiable",
+            "verification_basis": "Broad historical claim made without specific evidence or source in transcript.",
+            "speech_id": "SP-1B24C77C5AFD",
+            "source_speech_filename": "20250912_It’s Not an Everything Bubble, it’s a Dollar Collapse.txt",
+            "source_excerpt": "when you look back over hundreds or even thousands of years of human history, the purchasing power of 1 ounce of gold stays relatively stable throughout time. Whether you look at the salary of army captains, whether you look at the cost of a haircut or the price of a custom three-piece suit, when you price things in gold, it costs the same amount roughly throughout time.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-5F18A34220DC",
+        "local_argument_id": "LA-6037F025CDC9",
+        "conclusion": "The current buying behavior across assets and goods matches von Mises' description of a 'flight into real goods' or crack-up boom, driven by expectations of continued dollar depreciation.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-D5C347A3FF88",
+        "local_argument_id": "LA-48139512646F",
+        "conclusion": "Given M2 money supply growth returning to the normal 5-10% range and expected Fed rate cuts, the decline in dollar purchasing power is likely to continue, making a deflationary crash unlikely.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "442c93d5c3ffed4034f60c0b5c295fe67b486881fbfd95ca72152ee4eedf4b3a",
+  "complete": true
+}

@@ -1,34 +1,11 @@
-# Local course material index
+# 课程材料
 
-The original APS1053 attachment package is kept locally and excluded from this public repository. The links below work only when that package is present at `local-materials/APS1053_Fall2026/`.
+课程文件已实际上传，可直接在 GitHub 查看或下载。
 
-## Core documents
+- [全部附件与分类目录](APS1053/README.md)
+- [逐文件目录](APS1053/CATALOG.md)
+- [Markdown 阅读版、概念导航和代码分析](../knowledge/APS1053/README.md)
+- [完整压缩包下载](https://github.com/Xinze-Li-Moqian/FinAI/releases/tag/course-materials-2026-09-18)
+- [资料覆盖范围](COVERAGE.md)
 
-- [Assessment and presentation requirements](../local-materials/APS1053_Fall2026/01_Course_Info/ADMINISTRATIVE_APS1053.docx) — `ADMINISTRATIVE_APS1053.docx`
-- [Course syllabus and project alternative](../local-materials/APS1053_Fall2026/01_Course_Info/APS1053_SEMINARONAIINFINANCE_new.docx) — `APS1053_SEMINARONAIINFINANCE_new.docx`
-- [Case-selection deck](../local-materials/APS1053_Fall2026/02_Cases_and_Presentations/APS1053_CaseStudies_Reinforcement_GenerativeAI.pptx) — `APS1053_CaseStudies_Reinforcement_GenerativeAI.pptx`
-- [LLM workflow, prompting and evaluation](../local-materials/APS1053_Fall2026/02_Cases_and_Presentations/ProgrammableLLM_With_Prompt_(MAIN).pptx) — `ProgrammableLLM_With_Prompt_(MAIN).pptx`
-- [Part 1 task instructions](../local-materials/APS1053_Fall2026/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt) — `AssignmentOnGenerativeAIPart1.txt`
-- [Environment and transcript-processing instructions](../local-materials/APS1053_Fall2026/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.txt) — `INSTRUCTIONS.txt`
-- [Reading instructions](../local-materials/APS1053_Fall2026/04_Prolog_and_Prompts/ReadingAssignmentOnPromptsAndProlog.txt) — `ReadingAssignmentOnPromptsAndProlog.txt`
-- [Short Prolog/prompting introduction](../local-materials/APS1053_Fall2026/04_Prolog_and_Prompts/PromptProlog/Prompting_Claude_A_Logic_Programmers_Guide.pptx) — `Prompting_Claude_A_Logic_Programmers_Guide.pptx`
-- [Longer conceptual discussion](../local-materials/APS1053_Fall2026/04_Prolog_and_Prompts/PromptProlog/PrologAndPrompts.docx) — `PrologAndPrompts.docx`
-
-## Additional local material
-
-- `00_Original_Archives/`: original ZIP and RAR archives.
-- `03_Generative_AI_Assignment/Youtube_AI_students/`: supplied notebook, scripts, environment files, and transcript corpus.
-- `04_Prolog_and_Prompts/PromptProlog/`: reference books and supplementary prompt material.
-- `FILE_MANIFEST.json`: original extraction inventory and file hashes, retained locally.
-
-Reference books and datasets are not republished. The original attachment package also contains private-context organizational notes; those remain local.
-
-## Research companion package
-
-- [Prompt-architecture draft](../local-materials/APS1053_Fall2026/06_Research_Drafts/PrologPromptArchitecture.docx)
-- [Source package directory](../local-materials/APS1053_Fall2026/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/) — prompt variants, Python scripts, specifications, sample outputs, transcripts and reference documents; retained locally.
-- [Local searchable knowledge base](../private/knowledge-base/README.md) — converted reading copies, concept links, references and private source review.
-- [Complete received-material catalog](../private/knowledge-base/COURSE_CATALOG.md) — every locally received file, with a separate SHA-256 manifest.
-- [Material coverage](COVERAGE.md) — what has arrived and what remains unavailable.
-
-Unpublished drafts, their converted text, instructor code, data and credentials remain excluded from Git. Archive contents and sample outputs have not been certified as reproducible or correct.
+课件、参考资料、程序、字幕和样例结果均保留来源结构。原始密钥未上传；包含密钥的配套 RAR 改为提供去除凭据后的 ZIP。原始文件的署名和第三方权利保留。

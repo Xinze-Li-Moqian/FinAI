@@ -1,0 +1,698 @@
+{
+  "dependencies": {
+    "source_hash": "584e51a7bd1447d5cff32cedfea883a7d78436fcc8c9c63f32e5b02f29e19d9d",
+    "phase1_record_hash": "daaf4e2365dc027f184085c4d8b6d7f83f192daba4f9101a48ad208c0fab3219",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-045B5496A6FB",
+    "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+    "stem": "20260112_The Government is Taking Over the US Housing Market",
+    "date": "2026-01-12",
+    "source_hash": "584e51a7bd1447d5cff32cedfea883a7d78436fcc8c9c63f32e5b02f29e19d9d",
+    "source_character_count": 15803,
+    "central_claim": "The US housing crisis is caused by excessive government intervention, and current policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) are ineffective band-aids that will worsen the problem.",
+    "themes": [
+      {
+        "local_theme_id": "LT-B81CBB15A71B",
+        "theme": "The 50-year mortgage proposal",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FD5EE03B45DF",
+            "local_theme_id": "LT-B81CBB15A71B",
+            "conclusion": "The 50-year mortgage will drive up home prices and worsen long-term affordability.",
+            "premises": [
+              "It only increases affordability by a couple hundred dollars per month.",
+              "The average American lives paycheck to paycheck and will use the extra borrowing to buy a more expensive home, not invest.",
+              "Artificially increased demand drives up prices.",
+              "It will have the same effect as the 30-year mortgage: drive up prices."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-229742653FF8",
+                "item": "Affordability increase of 'a couple hundred per month' for a $700,000 home.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or data provided in the transcript.",
+                "speech_id": "SP-045B5496A6FB",
+                "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+                "source_excerpt": "it really only increases affordability by a couple hundred per month. And that's assuming you're looking at a fairly expensive home in the $700,000 range.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E7D386D043BE",
+                "item": "Claim that the average American lives paycheck to paycheck and cannot cover a $1,000 expense.",
+                "status": "Unverifiable",
+                "verification_basis": "No supporting data, citation, or survey reference provided.",
+                "speech_id": "SP-045B5496A6FB",
+                "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+                "source_excerpt": "the average American lives paycheck to paycheck, has debt up to their eyeballs, has a negative net worth, and if even a $1,000 expense came up unexpectedly, they would not be able to cover it.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-019BF1EFFBB5",
+                "device": "Comparison of President Trump to FDR",
+                "explanation": "Used to illustrate the push for the 50-year mortgage as an ambitious government intervention similar to FDR's New Deal.",
+                "speech_id": "SP-045B5496A6FB",
+                "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+                "source_excerpt": "This image was posted by President Trump a few months ago where he compared himself to FDR with his push to get the 50-year mortgage passed aloud and normalized.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1F7929AF6D82",
+        "theme": "Ban on institutional investors buying single-family homes",
+        "arguments": [
+          {
+            "local_argument_id": "LA-828B00AF042B",
+            "local_theme_id": "LT-1F7929AF6D82",
+            "conclusion": "Banning institutional investors from buying single-family homes will not solve the housing crisis and may worsen supply.",
+            "premises": [
+              "Institutional investors own only 0.56% of single-family housing stock.",
+              "Landlords buying homes adds supply to the rental market, reducing rents.",
+              "Banning institutional investors removes buyers, decreasing demand for home sales, which discourages sellers from listing, exacerbating supply constraints."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-ADE442C27E59",
+                "item": "Housing unit statistics: 148M total units, 134M occupied, 14M vacant, 88M owner-occupied, 47M renter-occupied, 31M apartments, 14M single-family rentals, 3.4% owned by investors with 1000+ properties, 7.2% owned by investors with 100+ properties, 0.56% of single-family stock owned by institutions.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript presents this data as coming from pie charts but provides no citation or verifiable source.",
+                "speech_id": "SP-045B5496A6FB",
+                "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+                "source_excerpt": "Of the 148 million housing units in America... only.56% of them are owned by institutions.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8E877FD824AF",
+        "theme": "Federal government purchase of mortgage-backed securities",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5B9568B050B0",
+            "local_theme_id": "LT-8E877FD824AF",
+            "conclusion": "The $200 billion government purchase of MBS will not significantly lower mortgage rates and represents further nationalization of housing.",
+            "premises": [
+              "The Fed has been selling MBS, which keeps upward pressure on mortgage rates.",
+              "Trump announced buying $200B in MBS, roughly matching the Fed's annual selling.",
+              "This will absorb the selling but not significantly move rates.",
+              "This trend shows increasing government control of housing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-321893C8E72D",
+                "item": "Fed balance sheet figures: peaked at $2.7T in MBS in 2022, now barely over $2T.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for the chart or data; claim is presented without external verification.",
+                "speech_id": "SP-045B5496A6FB",
+                "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+                "source_excerpt": "they peaked out at holding about $2.7 trillion worth of mortgage back securities back in 2022. Since then, they've been letting mortgage back securities bleed off of their balance sheet. And you can see they've sold enough or let enough roll off that now they own barely over $2 trillion worth of mortgage back securities.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-2DCC7AB20484",
+                "item": "Claim that the Fed sold about $200 billion worth of MBS in the last year.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided.",
+                "speech_id": "SP-045B5496A6FB",
+                "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+                "source_excerpt": "in the last year, they've sold just about $200 billion worth of mortgage back securities",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-5A674D8354E2",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "The average American lives paycheck to paycheck, has debt up to their eyeballs, has a negative net worth, and cannot cover a $1,000 expense.",
+        "reason": "No supporting data or citation provided in the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "Commonly cited statistic but exact numbers from transcript are unsourced.",
+        "source_excerpt": "the average American lives paycheck to paycheck, has debt up to their eyeballs, has a negative net worth, and if even a $1,000 expense came up unexpectedly, they would not be able to cover it.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B023F7F3D4B8",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "Only 0.56% of single-family homes are owned by institutions.",
+        "reason": "No source provided for the calculation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Not verifiable from transcript alone.",
+        "source_excerpt": "only.56% of them are owned by institutions.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-21C9D3E06249",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "Half of all homeowners have no mortgage and another 30-ish% have mortgages under 4%.",
+        "reason": "No source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No support in transcript.",
+        "source_excerpt": "Half of all homeowners have no mortgage and another 30-ish% have mortgages under 4%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EC826B086DFD",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "The Federal Reserve peaked at holding $2.7 trillion in mortgage-backed securities in 2022.",
+        "reason": "No source provided.",
+        "memory_check": "Corroborated",
+        "memory_note": "Generally consistent with known Fed holdings, but not sourced in transcript.",
+        "source_excerpt": "they peaked out at holding about $2.7 trillion worth of mortgage back securities back in 2022.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B34C34F40491",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "In the last year, the Fed sold about $200 billion worth of mortgage-backed securities.",
+        "reason": "No source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Could be accurate but not verifiable from transcript.",
+        "source_excerpt": "in the last year, they've sold just about $200 billion worth of mortgage back securities",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-922B0F504A4F",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "The speaker averaged an annualized 36.4% return for the last 5 years and cumulative return of 372%.",
+        "reason": "No performance data or third-party verification provided in transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Self-reported, not verifiable.",
+        "source_excerpt": "I have averaged an annualized 36.4% return... it's 372% to be exact.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-1AB39A2B22BC",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "The next step is a cap on mortgage rates likely this year.",
+        "reason": "Prediction unsupported by evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speculative claim.",
+        "source_excerpt": "the next step is going to be, mark my words, we'll probably see it this year, a cap on mortgage rates.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6BD3A87DF062",
+        "speech_id": "SP-045B5496A6FB",
+        "speech_ref": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "claim": "President Trump posted on January 8th that he is instructing his representatives to buy $200 billion in mortgage-backed securities.",
+        "reason": "Only the speaker's claim; no external confirmation in transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot verify from transcript.",
+        "source_excerpt": "on January 8th, President Trump posted that he is instructing his representatives to buy $200 billion in mortgage back securities.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The US housing crisis is caused by excessive government intervention, and current policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) are ineffective band-aids that will worsen the problem.",
+      "themes": [
+        "The 50-year mortgage proposal",
+        "Ban on institutional investors buying single-family homes",
+        "Federal government purchase of mortgage-backed securities"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "f4ceedfbe3ba1ba5223daf3623723b142c3a07d2c0c6bc57c4c03403b946dfad",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "daaf4e2365dc027f184085c4d8b6d7f83f192daba4f9101a48ad208c0fab3219",
+    "canonical_mapping": {
+      "speech_id": "SP-045B5496A6FB",
+      "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC42",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+      "primary_cc_rationale": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T99",
+        "T104"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T99",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-B81CBB15A71B",
+          "rationale": "The theme concerns a specific government policy proposal (50-year mortgage), which fits under Government Policy Proposals and Structural Reforms."
+        },
+        {
+          "theme_id": "T104",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-8E877FD824AF",
+          "rationale": "Government purchase of MBS is a key form of housing finance intervention, aligning with the Housing finance and government intervention theme."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC42-T99",
+          "cc_id": "CC42",
+          "theme_id": "T99",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC42-T104",
+          "cc_id": "CC42",
+          "theme_id": "T104",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "local_cc_text": "The US housing crisis is caused by excessive government intervention, and current policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) are ineffective band-aids that will worsen the problem.",
+        "canonical_cc_id": "CC42",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+        "rationale": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+        "candidate_matches": [
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.5600910782814026
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.42861032485961914
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.3547070622444153
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.3270246982574463
+          },
+          {
+            "id": "CC40",
+            "text": "Current high asset prices, a forthcoming stock market rally, and homebuilding investment opportunities are driven by structural shifts, while MicroStrategy is not a Ponzi scheme and personal investment losses offer lessons for secure wealth building.",
+            "similarity": 0.31756770610809326
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "local_theme_id": "LT-B81CBB15A71B",
+        "local_theme_text": "The 50-year mortgage proposal",
+        "canonical_theme_id": "T99",
+        "confidence": 0.85,
+        "rationale": "The theme concerns a specific government policy proposal (50-year mortgage), which fits under Government Policy Proposals and Structural Reforms.",
+        "candidate_matches": [
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.29232776165008545
+          },
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.2809410095214844
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.26616114377975464
+          },
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.20313802361488342
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.19079527258872986
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.1904812455177307
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "local_theme_id": "LT-1F7929AF6D82",
+        "local_theme_text": "Ban on institutional investors buying single-family homes",
+        "canonical_theme_id": "T104",
+        "confidence": 0.9,
+        "rationale": "The ban on institutional investors is a form of government intervention in housing finance, directly matching the Housing finance and government intervention theme.",
+        "candidate_matches": [
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.3680679202079773
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.26424315571784973
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.25548094511032104
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.2278834879398346
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.18510904908180237
+          },
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.18031468987464905
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "local_theme_id": "LT-8E877FD824AF",
+        "local_theme_text": "Federal government purchase of mortgage-backed securities",
+        "canonical_theme_id": "T104",
+        "confidence": 0.9,
+        "rationale": "Government purchase of MBS is a key form of housing finance intervention, aligning with the Housing finance and government intervention theme.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.4508170783519745
+          },
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.44098085165023804
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.42361336946487427
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.41439199447631836
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.4096621572971344
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.34780851006507874
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-A2DC6BE113802C",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "date": "2026-01-12",
+        "source_hash": "584e51a7bd1447d5cff32cedfea883a7d78436fcc8c9c63f32e5b02f29e19d9d",
+        "pair_id": "PAIR-CC42-T99",
+        "cc_id": "CC42",
+        "theme_id": "T99",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B81CBB15A71B",
+        "local_theme_text": "The 50-year mortgage proposal",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme concerns a specific government policy proposal (50-year mortgage), which fits under Government Policy Proposals and Structural Reforms.",
+        "local_argument_id": "LA-FD5EE03B45DF",
+        "conclusion": "The 50-year mortgage will drive up home prices and worsen long-term affordability.",
+        "premises": [
+          "It only increases affordability by a couple hundred dollars per month.",
+          "The average American lives paycheck to paycheck and will use the extra borrowing to buy a more expensive home, not invest.",
+          "Artificially increased demand drives up prices.",
+          "It will have the same effect as the 30-year mortgage: drive up prices."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-229742653FF8",
+            "item": "Affordability increase of 'a couple hundred per month' for a $700,000 home.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or data provided in the transcript.",
+            "speech_id": "SP-045B5496A6FB",
+            "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+            "source_excerpt": "it really only increases affordability by a couple hundred per month. And that's assuming you're looking at a fairly expensive home in the $700,000 range.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E7D386D043BE",
+            "item": "Claim that the average American lives paycheck to paycheck and cannot cover a $1,000 expense.",
+            "status": "Unverifiable",
+            "verification_basis": "No supporting data, citation, or survey reference provided.",
+            "speech_id": "SP-045B5496A6FB",
+            "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+            "source_excerpt": "the average American lives paycheck to paycheck, has debt up to their eyeballs, has a negative net worth, and if even a $1,000 expense came up unexpectedly, they would not be able to cover it.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-019BF1EFFBB5",
+            "device": "Comparison of President Trump to FDR",
+            "explanation": "Used to illustrate the push for the 50-year mortgage as an ambitious government intervention similar to FDR's New Deal.",
+            "speech_id": "SP-045B5496A6FB",
+            "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+            "source_excerpt": "This image was posted by President Trump a few months ago where he compared himself to FDR with his push to get the 50-year mortgage passed aloud and normalized.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-575DF4AFB5E901",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "date": "2026-01-12",
+        "source_hash": "584e51a7bd1447d5cff32cedfea883a7d78436fcc8c9c63f32e5b02f29e19d9d",
+        "pair_id": "PAIR-CC42-T104",
+        "cc_id": "CC42",
+        "theme_id": "T104",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1F7929AF6D82",
+        "local_theme_text": "Ban on institutional investors buying single-family homes",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The ban on institutional investors is a form of government intervention in housing finance, directly matching the Housing finance and government intervention theme.",
+        "local_argument_id": "LA-828B00AF042B",
+        "conclusion": "Banning institutional investors from buying single-family homes will not solve the housing crisis and may worsen supply.",
+        "premises": [
+          "Institutional investors own only 0.56% of single-family housing stock.",
+          "Landlords buying homes adds supply to the rental market, reducing rents.",
+          "Banning institutional investors removes buyers, decreasing demand for home sales, which discourages sellers from listing, exacerbating supply constraints."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-ADE442C27E59",
+            "item": "Housing unit statistics: 148M total units, 134M occupied, 14M vacant, 88M owner-occupied, 47M renter-occupied, 31M apartments, 14M single-family rentals, 3.4% owned by investors with 1000+ properties, 7.2% owned by investors with 100+ properties, 0.56% of single-family stock owned by institutions.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript presents this data as coming from pie charts but provides no citation or verifiable source.",
+            "speech_id": "SP-045B5496A6FB",
+            "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+            "source_excerpt": "Of the 148 million housing units in America... only.56% of them are owned by institutions.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-DF00A9B797AE30",
+        "speech_id": "SP-045B5496A6FB",
+        "filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+        "date": "2026-01-12",
+        "source_hash": "584e51a7bd1447d5cff32cedfea883a7d78436fcc8c9c63f32e5b02f29e19d9d",
+        "pair_id": "PAIR-CC42-T104",
+        "cc_id": "CC42",
+        "theme_id": "T104",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues that excessive government intervention is the root cause of the housing crisis and critiques specific policy proposals (50-year mortgage, ban on institutional investors, government MBS purchases) as ineffective band-aids that worsen the problem, directly supporting the canonical claim that government intervention causes housing unaffordability and other economic problems.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8E877FD824AF",
+        "local_theme_text": "Federal government purchase of mortgage-backed securities",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Government purchase of MBS is a key form of housing finance intervention, aligning with the Housing finance and government intervention theme.",
+        "local_argument_id": "LA-5B9568B050B0",
+        "conclusion": "The $200 billion government purchase of MBS will not significantly lower mortgage rates and represents further nationalization of housing.",
+        "premises": [
+          "The Fed has been selling MBS, which keeps upward pressure on mortgage rates.",
+          "Trump announced buying $200B in MBS, roughly matching the Fed's annual selling.",
+          "This will absorb the selling but not significantly move rates.",
+          "This trend shows increasing government control of housing."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-321893C8E72D",
+            "item": "Fed balance sheet figures: peaked at $2.7T in MBS in 2022, now barely over $2T.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for the chart or data; claim is presented without external verification.",
+            "speech_id": "SP-045B5496A6FB",
+            "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+            "source_excerpt": "they peaked out at holding about $2.7 trillion worth of mortgage back securities back in 2022. Since then, they've been letting mortgage back securities bleed off of their balance sheet. And you can see they've sold enough or let enough roll off that now they own barely over $2 trillion worth of mortgage back securities.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-2DCC7AB20484",
+            "item": "Claim that the Fed sold about $200 billion worth of MBS in the last year.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "speech_id": "SP-045B5496A6FB",
+            "source_speech_filename": "20260112_The Government is Taking Over the US Housing Market.txt",
+            "source_excerpt": "in the last year, they've sold just about $200 billion worth of mortgage back securities",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "f4ceedfbe3ba1ba5223daf3623723b142c3a07d2c0c6bc57c4c03403b946dfad",
+  "complete": true
+}

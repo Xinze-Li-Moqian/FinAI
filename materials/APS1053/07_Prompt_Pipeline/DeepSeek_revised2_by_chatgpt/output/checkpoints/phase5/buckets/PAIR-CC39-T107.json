@@ -1,0 +1,107 @@
+{
+  "dependency_hash": "c608482e7f5426c41580daedaa8bbb0998fd1b11a2293fd77418585c332c93d0",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC39-T107",
+    "cc_id": "CC39",
+    "theme_id": "T107",
+    "authoritative_anchor": "cc-cc39-theme-t107",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC39-T107-101A40D02F",
+        "pair_id": "PAIR-CC39-T107",
+        "conclusion": "The historical experience of 1970s stagflation, characterized by rising inflation and unemployment and resolved only by extreme monetary tightening, provides context that supports the claim that bank deregulation (removing the supplementary leverage ratio) is an effective alternative to mitigate stagflation risk and stimulate economic growth.",
+        "source_contribution_ids": [
+          "CONTRIB-ED8F0FB3734377"
+        ],
+        "source_speech_filenames": [
+          "20260403_Are We About to See Stagflation in the US.txt"
+        ],
+        "premise_synthesis": "During the 1970s stagflation, inflation rose from 1.2% in 1965 to peaks of 6.3% in 1970, 9.1% in 1975, and 12.4% in 1980. GDP growth was volatile, dipping to 0.2% in 1970 and experiencing negative growth during 1974-75 and 1980-82. Unemployment rose steadily until peaking in 1982. To combat this, the Federal Reserve raised the Fed funds rate to nearly 20% in 1981, which ultimately ended the stagflation.",
+        "conclusion_supported": "The historical data establishes that 1970s stagflation was a severe economic condition that required extreme monetary tightening to resolve, providing context for evaluating current stagflation risks and potential policy solutions like bank deregulation.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-ED8F0FB3734377"
+            ],
+            "source_speech_filenames": [
+              "20260403_Are We About to See Stagflation in the US.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "CPI rose from 1.2% in 1965 to peaks of 6.3% in 1970, 9.1% in 1975, and 12.4% in 1980.",
+            "status": "Verified",
+            "verification_basis": "Exact percentages from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-ED8F0FB3734377"
+            ],
+            "source_speech_filenames": [
+              "20260403_Are We About to See Stagflation in the US.txt"
+            ],
+            "source_excerpt": "1965 inflation was reading at 1.2% rose before it peaked in 1970 at 6.3% ... rose again to a peak of 9.1% in 1975 ... peaked for the last time at 12.4% in 1980"
+          },
+          {
+            "item": "GDP growth dipped to 0.2% in 1970 and had negative growth in 1974-75 and 1980-82.",
+            "status": "Verified",
+            "verification_basis": "Exact figures provided in transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-ED8F0FB3734377"
+            ],
+            "source_speech_filenames": [
+              "20260403_Are We About to See Stagflation in the US.txt"
+            ],
+            "source_excerpt": "GDP was well above 5% and then dipped to a bottom of 0.2% in 1970 ... declining GDP in 74 and 75 ... dipped below to negative growth again in 1980 and in 1982"
+          },
+          {
+            "item": "Unemployment rose until peaking in 1982.",
+            "status": "Verified",
+            "verification_basis": "Explicit statement from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-ED8F0FB3734377"
+            ],
+            "source_speech_filenames": [
+              "20260403_Are We About to See Stagflation in the US.txt"
+            ],
+            "source_excerpt": "unemployment was dropping until about 1969, and then it started rising before it peaked in 1982"
+          },
+          {
+            "item": "Fed funds rate peaked at almost 20% in 1981.",
+            "status": "Verified",
+            "verification_basis": "Exact figure from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-ED8F0FB3734377"
+            ],
+            "source_speech_filenames": [
+              "20260403_Are We About to See Stagflation in the US.txt"
+            ],
+            "source_excerpt": "they hiked it finally to a peak of almost 20% in 1981"
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Only one speech (2026-04-03) is included; no cross-speech evolution can be inferred. The reasoning is based solely on this single source.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-ED8F0FB3734377"
+    ],
+    "source_speech_filenames": [
+      "20260403_Are We About to See Stagflation in the US.txt"
+    ],
+    "generated_at": "2026-07-15T03:25:00+00:00",
+    "record_hash": "db507e5c1e3e718c8da537a31951046f9b5ae52bf80dd1f2a6e6ace5540ac5d6"
+  },
+  "complete": true
+}

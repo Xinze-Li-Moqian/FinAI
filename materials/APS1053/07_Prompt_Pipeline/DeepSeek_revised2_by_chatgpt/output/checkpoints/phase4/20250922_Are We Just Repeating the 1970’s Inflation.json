@@ -1,0 +1,950 @@
+{
+  "dependencies": {
+    "source_hash": "b75e4ee70616cad9e651b6861d48df5274b875f7446613ea2e276419a072dc99",
+    "phase1_record_hash": "bf1dade7883ffe891e16e746887e95ee2af0095b2b9a828702a20f0e2a5e749e",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-AACD05857925",
+    "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+    "stem": "20250922_Are We Just Repeating the 1970’s Inflation",
+    "date": "2025-09-22",
+    "source_hash": "b75e4ee70616cad9e651b6861d48df5274b875f7446613ea2e276419a072dc99",
+    "source_character_count": 7299,
+    "central_claim": "Although the inflation pattern of the 1970s is likely repeating, the Federal Reserve cannot raise interest rates to fight it because of the high debt-to-GDP ratio; instead, it will implement yield curve control to inflate away the debt, and investors should protect themselves with alternative assets.",
+    "themes": [
+      {
+        "local_theme_id": "LT-2926C56C780A",
+        "theme": "Inflation pattern similarity between 1970s and current",
+        "arguments": [
+          {
+            "local_argument_id": "LA-CA2FEA8B92DD",
+            "local_theme_id": "LT-2926C56C780A",
+            "conclusion": "The current inflation pattern since 2014 closely mirrors the 1970s pattern in shape, indicating a repeat cycle.",
+            "premises": [
+              "A chart from Apollo shows two indexed inflation lines (base 1966 and base 2014) that follow the same shape.",
+              "Starting in 2021, inflation spiked due to money printing in 2020."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EDA8EAD0DD88",
+                "item": "Apollo chart showing two indexed inflation lines",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no specific data, source link, or methodology; the claim rests entirely on the speaker's interpretation of an unshown chart.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "If you take a look at this chart from Apollo, you can see two separate lines. One of them is indexed to 1966 and shows inflation unfolding over the next 16 years... And you can see that in terms of the shape of the curve, inflation since 2014 has largely been following the same pattern, though not the same levels.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3B73E1760A8F",
+                "device": "Visual pattern analogy between two inflation curves",
+                "explanation": "The speaker uses the similarity in the shape of the inflation curves to argue that the same inflation cycle is repeating.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "And you can see that in terms of the shape of the curve, inflation since 2014 has largely been following the same pattern, though not the same levels.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-73366C51DC0A",
+        "theme": "Federal Reserve interest rate policy history",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C001CB855B6A",
+            "local_theme_id": "LT-73366C51DC0A",
+            "conclusion": "The Fed's pattern of cutting rates after inflation subsides will fuel inflation again, as in the 1970s.",
+            "premises": [
+              "In the 1970s, the Fed raised rates, cut them, and then raised again when inflation returned.",
+              "The Fed recently cut rates despite inflation ticking up and not being below 2% target since before 2020.",
+              "Lower interest rates allow the US government to borrow and spend more, creating new money."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-42917F337AD3",
+                "item": "Fed's recent rate cut (as of the speech date)",
+                "status": "Verified",
+                "verification_basis": "The transcript states the Fed lowered interest rates; this is a publicly known policy action that can be cross-checked with official Fed announcements.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "Now, unless you've been living under a rock, you know that the Federal Reserve just lowered interest rates again.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D5D2F91ACD37",
+                "item": "1970s pattern of rate cuts leading to inflation resurgence",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no sources for the specific timing or magnitude of 1970s rate moves; the claim is a simplified narrative.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "So you can see leading up into 1970, they were raising interest rates and then they cut. When inflation took off again, they raised interest rates again.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8FAAF1080387",
+        "theme": "Debt-to-GDP ratio constraint",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6CAFF9C17D6B",
+            "local_theme_id": "LT-8FAAF1080387",
+            "conclusion": "The extremely high current debt-to-GDP ratio (123%) prevents the Fed from raising interest rates to fight inflation because it would bankrupt the government.",
+            "premises": [
+              "In 1970 the debt-to-GDP ratio was 34% and fell to 31% by 1980.",
+              "Current debt-to-GDP is 123%, higher than the WWII peak of 121%.",
+              "There is no war ending to cut expenses as in WWII."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-98777F5CAB2A",
+                "item": "Debt-to-GDP ratio figures: 34% (1970), 31% (1980), 123% (current), 121% (WWII peak)",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or methodology for these numbers; though likely consistent with publicly available data, the transcript itself does not verify them.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "You see in 1970 the total federal debt to GDP ratio was only 34%. And despite the lowering and raising of interest rates that took place over the following years, by the time 1980 rolled around, the debt to GDP ratio is actually lower at just under 31%. Contrast that with where the government is today, where the debt to GDP ratio is 123%. Keep in mind, at the peak of World War II, the debt to GDP ratio only got to 121%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-C7E7CDF06AE2",
+        "theme": "Yield curve control as a policy tool",
+        "arguments": [
+          {
+            "local_argument_id": "LA-EFF40629D1A9",
+            "local_theme_id": "LT-C7E7CDF06AE2",
+            "conclusion": "The Fed will implement yield curve control to allow the government to borrow at negative real interest rates, thereby inflating away the debt.",
+            "premises": [
+              "The Fed cannot raise rates due to high debt.",
+              "After WWII, the Fed used yield curve control to help the government inflate away debt.",
+              "Yield curve control means borrowing rates lower than inflation (negative real rates)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F5AA50D75317",
+                "item": "Post-WWII policy example of yield curve control",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide a specific source or citation for the historical claim; the speaker asserts it as fact without reference.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "It is much more likely in my opinion that they do the same thing that they did after World War II that helped the US government delever and bring its debt to GDP ratio down. Very simply, that is that the Federal Reserve helped the government inflate its debt away. The way they did this was by engaging in yield curve control so that the US government could borrow money at a rate that was lower than the rate of inflation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-8AA70D5E0E5A",
+                "device": "Historical analogy to post-WWII yield curve control",
+                "explanation": "The speaker argues that the Fed will repeat the post-WWII strategy of suppressing interest rates below inflation to erode debt.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "It is much more likely in my opinion that they do the same thing that they did after World War II...",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-52158596968D",
+        "theme": "Investor exposure to government bonds",
+        "arguments": [
+          {
+            "local_argument_id": "LA-EB58DEEC9A9B",
+            "local_theme_id": "LT-52158596968D",
+            "conclusion": "Nearly all investors are indirectly lending to the US government through various accounts, making them vulnerable to inflation if the Fed pursues negative real rates.",
+            "premises": [
+              "Balanced funds, target date funds, and similar baskets typically hold government bonds.",
+              "Large companies hold cash in Treasuries, so stock owners are indirectly exposed.",
+              "Cash in brokerage, IRA, checking, savings, money market accounts is lent to the government via intermediaries."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-88087CBBD880",
+                "item": "Claim about typical investment baskets holding bonds",
+                "status": "Unverifiable",
+                "verification_basis": "No data or source is provided; the speaker asserts a general investment pattern.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "Number one, in any brokerage account or IRA or 401k, if you have any sort of a balanced fund, a target date mutual fund, any sort of investment basket that is decided on anybody but you, I would put money on the fact that you probably have government bonds in there.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EC8B1E8EB4E3",
+                "item": "Claim about corporate cash holdings in Treasuries",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited; the speaker presents a general statement without evidence.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "And by the way, even if you are in 100% US stocks, where do you think all large companies keep their cash balances? They keep their cash balances in banks, in tea bills, and in bonds.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-92145F899173",
+        "theme": "Protective asset allocation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B3E226C84D40",
+            "local_theme_id": "LT-92145F899173",
+            "conclusion": "Investors can protect their purchasing power by allocating to gold, bitcoin, stocks, and real estate leveraged with a fixed-rate mortgage.",
+            "premises": [
+              "Being aware that the government is transferring purchasing power from lenders allows investors to choose assets that preserve value.",
+              "These asset types have historically performed well during inflationary periods (implied)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1F4180D4FBC6",
+                "item": "Suggested allocation: gold, bitcoin, stocks, real estate with fixed-rate mortgage",
+                "status": "Unverifiable",
+                "verification_basis": "No historical performance data or specific evidence is provided; it is prescriptive advice.",
+                "speech_id": "SP-AACD05857925",
+                "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+                "source_excerpt": "You're going to be able to put your assets in things that protect you from your purchasing power being stolen. even just a basic allocation of things like gold and bitcoin and stocks and real estate as long as it's leveraged with a fixed rate mortgage, then you're going to be way ahead of the curve compared to almost everybody.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-C22BACE88B33",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "The Apollo chart shows that inflation since 2014 has largely followed the same pattern as inflation from 1966.",
+        "reason": "The transcript references a specific chart but does not reproduce it or provide the data; the claim cannot be verified from the transcript alone.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No known public chart with exact indexing matches; the claim is specific to the speaker's source.",
+        "source_excerpt": "If you take a look at this chart from Apollo, you can see two separate lines. One of them is indexed to 1966 and shows inflation unfolding over the next 16 years... And you can see that in terms of the shape of the curve, inflation since 2014 has largely been following the same pattern.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-AB3DE69484B5",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "The Federal Reserve's pattern of rate cuts in the 1970s led to inflation taking off again each time.",
+        "reason": "No specific dates, magnitudes, or sources are provided for the 1970s rate decisions.",
+        "memory_check": "Corroborated",
+        "memory_note": "Known historical pattern: Fed cut rates in 1970 and 1974-75, followed by inflation surges.",
+        "source_excerpt": "So you can see leading up into 1970, they were raising interest rates and then they cut. When inflation took off again, they raised interest rates again.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EE38017495B5",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "The total federal debt-to-GDP ratio was 34% in 1970 and 31% in 1980.",
+        "reason": "No source is provided for these figures; the transcript presents them as fact.",
+        "memory_check": "Corroborated",
+        "memory_note": "U.S. federal debt-to-GDP was approximately 35% in 1970 and 32% in 1980 (consistent with historical data).",
+        "source_excerpt": "You see in 1970 the total federal debt to GDP ratio was only 34%. And despite the lowering and raising of interest rates that took place over the following years, by the time 1980 rolled around, the debt to GDP ratio is actually lower at just under 31%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6B4D9D552585",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "Current debt-to-GDP ratio is 123%, exceeding the WWII peak of 121%.",
+        "reason": "No source provided; the speaker does not cite the basis for these numbers.",
+        "memory_check": "Corroborated",
+        "memory_note": "U.S. federal debt-to-GDP reached 121% in 1946; as of 2024 it is around 120-124%.",
+        "source_excerpt": "Contrast that with where the government is today, where the debt to GDP ratio is 123%. Keep in mind, at the peak of World War II, the debt to GDP ratio only got to 121%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6663A13EF16D",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "After World War II, the Federal Reserve engaged in yield curve control to help the government inflate away its debt.",
+        "reason": "No specific source or detailed evidence is provided in the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "The Fed did maintain yield curve control from 1942 to 1951, capping long-term rates at 2.5%.",
+        "source_excerpt": "It is much more likely in my opinion that they do the same thing that they did after World War II that helped the US government delever and bring its debt to GDP ratio down. Very simply, that is that the Federal Reserve helped the government inflate its debt away. The way they did this was by engaging in yield curve control so that the US government could borrow money at a rate that was lower than the rate of inflation.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-842B022ABE95",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "Most investment baskets like balanced funds, target date funds, and IRAs hold government bonds.",
+        "reason": "The speaker offers no data or study to support this sweeping generalization.",
+        "memory_check": "Corroborated",
+        "memory_note": "It is standard practice for diversified funds to include Treasuries, but the assertion is presented without qualification.",
+        "source_excerpt": "Number one, in any brokerage account or IRA or 401k, if you have any sort of a balanced fund, a target date mutual fund, any sort of investment basket that is decided on anybody but you, I would put money on the fact that you probably have government bonds in there.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-013DF5F1D597",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "Large companies keep their cash balances in banks, T-bills, and bonds, making stock owners indirect lenders to the government.",
+        "reason": "No specific corporate cash management data is cited; the claim is a general statement.",
+        "memory_check": "Corroborated",
+        "memory_note": "Corporations commonly hold treasury securities as part of cash equivalents, though the extent varies.",
+        "source_excerpt": "And by the way, even if you are in 100% US stocks, where do you think all large companies keep their cash balances? They keep their cash balances in banks, in tea bills, and in bonds.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1C618D3307B1",
+        "speech_id": "SP-AACD05857925",
+        "speech_ref": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "claim": "Cash in checking, savings, high-yield savings, money market funds is always lent to the US government via intermediaries.",
+        "reason": "While much cash does flow into Treasuries through money market funds, the claim overgeneralizes; no evidence is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The specific claim that all such instruments are mere pass-throughs to government debt is too absolute and unsupported.",
+        "source_excerpt": "If you have any money whatsoever in a checking account, in a savings account, a high yield savings account, a money market fund, guess what? All of these instruments are just middlemen. They're just pass through entities. The way you're getting paid interest on that is that that cash is being lent to the US government.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Although the inflation pattern of the 1970s is likely repeating, the Federal Reserve cannot raise interest rates to fight it because of the high debt-to-GDP ratio; instead, it will implement yield curve control to inflate away the debt, and investors should protect themselves with alternative assets.",
+      "themes": [
+        "Inflation pattern similarity between 1970s and current",
+        "Federal Reserve interest rate policy history",
+        "Debt-to-GDP ratio constraint",
+        "Yield curve control as a policy tool",
+        "Investor exposure to government bonds",
+        "Protective asset allocation"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "a3d01a7bf61fb296f3546308e1af58a601a396ca5f1560b49c868d7a062bd94a",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "bf1dade7883ffe891e16e746887e95ee2af0095b2b9a828702a20f0e2a5e749e",
+    "canonical_mapping": {
+      "speech_id": "SP-AACD05857925",
+      "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+      "primary_cc_rationale": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T107",
+        "T89"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T107",
+          "confidence": 0.57,
+          "source_local_theme_id": "LT-2926C56C780A",
+          "rationale": "Theme 'Inflation and stagflation dynamics' matches the local theme of inflation pattern similarity to the 1970s, which involved stagflation."
+        },
+        {
+          "theme_id": "T89",
+          "confidence": 0.69,
+          "source_local_theme_id": "LT-73366C51DC0A",
+          "rationale": "Theme 'Federal Reserve Monetary Policy Tools and Frameworks' best captures the discussion of Fed interest rate policy history."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T107",
+          "cc_id": "CC54",
+          "theme_id": "T107",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T89",
+          "cc_id": "CC54",
+          "theme_id": "T89",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_cc_text": "Although the inflation pattern of the 1970s is likely repeating, the Federal Reserve cannot raise interest rates to fight it because of the high debt-to-GDP ratio; instead, it will implement yield curve control to inflate away the debt, and investors should protect themselves with alternative assets.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+        "rationale": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+        "candidate_matches": [
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.5395286083221436
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.5294768810272217
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.4694032669067383
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.46025508642196655
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.41740256547927856
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_theme_id": "LT-2926C56C780A",
+        "local_theme_text": "Inflation pattern similarity between 1970s and current",
+        "canonical_theme_id": "T107",
+        "confidence": 0.57,
+        "rationale": "Theme 'Inflation and stagflation dynamics' matches the local theme of inflation pattern similarity to the 1970s, which involved stagflation.",
+        "candidate_matches": [
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.5678951740264893
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.5233280658721924
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5035387873649597
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4118843674659729
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.3835245966911316
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.3811798691749573
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_theme_id": "LT-73366C51DC0A",
+        "local_theme_text": "Federal Reserve interest rate policy history",
+        "canonical_theme_id": "T89",
+        "confidence": 0.69,
+        "rationale": "Theme 'Federal Reserve Monetary Policy Tools and Frameworks' best captures the discussion of Fed interest rate policy history.",
+        "candidate_matches": [
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.6936712861061096
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.6649023294448853
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.6539670825004578
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.5413717031478882
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.5404071807861328
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.5212132930755615
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_theme_id": "LT-8FAAF1080387",
+        "local_theme_text": "Debt-to-GDP ratio constraint",
+        "canonical_theme_id": "T92",
+        "confidence": 0.36,
+        "rationale": "Theme 'Fiscal Deficit, Debt, and Budget Allocation' matches the debt-to-GDP ratio constraint, which is a fiscal debt issue.",
+        "candidate_matches": [
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.4003695249557495
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.36340683698654175
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.36064332723617554
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.35788631439208984
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.34707361459732056
+          },
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.3145967423915863
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_theme_id": "LT-C7E7CDF06AE2",
+        "local_theme_text": "Yield curve control as a policy tool",
+        "canonical_theme_id": "T89",
+        "confidence": 0.43,
+        "rationale": "Yield curve control is a specific Federal Reserve policy tool, best mapped to 'Federal Reserve Monetary Policy Tools and Frameworks'.",
+        "candidate_matches": [
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.4261918365955353
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.4125104546546936
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.374686598777771
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.3671821355819702
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.3483741879463196
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.3100932836532593
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_theme_id": "LT-52158596968D",
+        "local_theme_text": "Investor exposure to government bonds",
+        "canonical_theme_id": "T98",
+        "confidence": 0.33,
+        "rationale": "Theme 'Government debt management and fiscal policy' relates to investor exposure to government bonds and the implications of debt.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.3377976417541504
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.32706600427627563
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.32145845890045166
+          },
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.3091457784175873
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.2892111539840698
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.26305896043777466
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "local_theme_id": "LT-92145F899173",
+        "local_theme_text": "Protective asset allocation",
+        "canonical_theme_id": "T126",
+        "confidence": 0.54,
+        "rationale": "Theme 'Portfolio allocation and risk management' directly matches the local theme of protective asset allocation.",
+        "candidate_matches": [
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.5363590717315674
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.4034508466720581
+          },
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.21333499252796173
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.20941779017448425
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.20571723580360413
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.1890018880367279
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-005DDE6D1EC356",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "date": "2025-09-22",
+        "source_hash": "b75e4ee70616cad9e651b6861d48df5274b875f7446613ea2e276419a072dc99",
+        "pair_id": "PAIR-CC54-T107",
+        "cc_id": "CC54",
+        "theme_id": "T107",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2926C56C780A",
+        "local_theme_text": "Inflation pattern similarity between 1970s and current",
+        "theme_mapping_confidence": 0.57,
+        "theme_mapping_rationale": "Theme 'Inflation and stagflation dynamics' matches the local theme of inflation pattern similarity to the 1970s, which involved stagflation.",
+        "local_argument_id": "LA-CA2FEA8B92DD",
+        "conclusion": "The current inflation pattern since 2014 closely mirrors the 1970s pattern in shape, indicating a repeat cycle.",
+        "premises": [
+          "A chart from Apollo shows two indexed inflation lines (base 1966 and base 2014) that follow the same shape.",
+          "Starting in 2021, inflation spiked due to money printing in 2020."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-EDA8EAD0DD88",
+            "item": "Apollo chart showing two indexed inflation lines",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no specific data, source link, or methodology; the claim rests entirely on the speaker's interpretation of an unshown chart.",
+            "speech_id": "SP-AACD05857925",
+            "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+            "source_excerpt": "If you take a look at this chart from Apollo, you can see two separate lines. One of them is indexed to 1966 and shows inflation unfolding over the next 16 years... And you can see that in terms of the shape of the curve, inflation since 2014 has largely been following the same pattern, though not the same levels.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-3B73E1760A8F",
+            "device": "Visual pattern analogy between two inflation curves",
+            "explanation": "The speaker uses the similarity in the shape of the inflation curves to argue that the same inflation cycle is repeating.",
+            "speech_id": "SP-AACD05857925",
+            "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+            "source_excerpt": "And you can see that in terms of the shape of the curve, inflation since 2014 has largely been following the same pattern, though not the same levels.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-EFC6C736AE6A7E",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "date": "2025-09-22",
+        "source_hash": "b75e4ee70616cad9e651b6861d48df5274b875f7446613ea2e276419a072dc99",
+        "pair_id": "PAIR-CC54-T89",
+        "cc_id": "CC54",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-73366C51DC0A",
+        "local_theme_text": "Federal Reserve interest rate policy history",
+        "theme_mapping_confidence": 0.69,
+        "theme_mapping_rationale": "Theme 'Federal Reserve Monetary Policy Tools and Frameworks' best captures the discussion of Fed interest rate policy history.",
+        "local_argument_id": "LA-C001CB855B6A",
+        "conclusion": "The Fed's pattern of cutting rates after inflation subsides will fuel inflation again, as in the 1970s.",
+        "premises": [
+          "In the 1970s, the Fed raised rates, cut them, and then raised again when inflation returned.",
+          "The Fed recently cut rates despite inflation ticking up and not being below 2% target since before 2020.",
+          "Lower interest rates allow the US government to borrow and spend more, creating new money."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-42917F337AD3",
+            "item": "Fed's recent rate cut (as of the speech date)",
+            "status": "Verified",
+            "verification_basis": "The transcript states the Fed lowered interest rates; this is a publicly known policy action that can be cross-checked with official Fed announcements.",
+            "speech_id": "SP-AACD05857925",
+            "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+            "source_excerpt": "Now, unless you've been living under a rock, you know that the Federal Reserve just lowered interest rates again.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-D5D2F91ACD37",
+            "item": "1970s pattern of rate cuts leading to inflation resurgence",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no sources for the specific timing or magnitude of 1970s rate moves; the claim is a simplified narrative.",
+            "speech_id": "SP-AACD05857925",
+            "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+            "source_excerpt": "So you can see leading up into 1970, they were raising interest rates and then they cut. When inflation took off again, they raised interest rates again.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-B0FFB8858E2AB4",
+        "speech_id": "SP-AACD05857925",
+        "filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+        "date": "2025-09-22",
+        "source_hash": "b75e4ee70616cad9e651b6861d48df5274b875f7446613ea2e276419a072dc99",
+        "pair_id": "PAIR-CC54-T89",
+        "cc_id": "CC54",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that high debt-to-GDP forces the Federal Reserve to adopt yield curve control, leading to inflation and a wealth transfer, which is the core causal claim of CC54.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C7E7CDF06AE2",
+        "local_theme_text": "Yield curve control as a policy tool",
+        "theme_mapping_confidence": 0.43,
+        "theme_mapping_rationale": "Yield curve control is a specific Federal Reserve policy tool, best mapped to 'Federal Reserve Monetary Policy Tools and Frameworks'.",
+        "local_argument_id": "LA-EFF40629D1A9",
+        "conclusion": "The Fed will implement yield curve control to allow the government to borrow at negative real interest rates, thereby inflating away the debt.",
+        "premises": [
+          "The Fed cannot raise rates due to high debt.",
+          "After WWII, the Fed used yield curve control to help the government inflate away debt.",
+          "Yield curve control means borrowing rates lower than inflation (negative real rates)."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F5AA50D75317",
+            "item": "Post-WWII policy example of yield curve control",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide a specific source or citation for the historical claim; the speaker asserts it as fact without reference.",
+            "speech_id": "SP-AACD05857925",
+            "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+            "source_excerpt": "It is much more likely in my opinion that they do the same thing that they did after World War II that helped the US government delever and bring its debt to GDP ratio down. Very simply, that is that the Federal Reserve helped the government inflate its debt away. The way they did this was by engaging in yield curve control so that the US government could borrow money at a rate that was lower than the rate of inflation.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-8AA70D5E0E5A",
+            "device": "Historical analogy to post-WWII yield curve control",
+            "explanation": "The speaker argues that the Fed will repeat the post-WWII strategy of suppressing interest rates below inflation to erode debt.",
+            "speech_id": "SP-AACD05857925",
+            "source_speech_filename": "20250922_Are We Just Repeating the 1970’s Inflation.txt",
+            "source_excerpt": "It is much more likely in my opinion that they do the same thing that they did after World War II...",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-8FAAF1080387",
+        "local_argument_id": "LA-6CAFF9C17D6B",
+        "conclusion": "The extremely high current debt-to-GDP ratio (123%) prevents the Fed from raising interest rates to fight inflation because it would bankrupt the government.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-52158596968D",
+        "local_argument_id": "LA-EB58DEEC9A9B",
+        "conclusion": "Nearly all investors are indirectly lending to the US government through various accounts, making them vulnerable to inflation if the Fed pursues negative real rates.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-92145F899173",
+        "local_argument_id": "LA-B3E226C84D40",
+        "conclusion": "Investors can protect their purchasing power by allocating to gold, bitcoin, stocks, and real estate leveraged with a fixed-rate mortgage.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "a3d01a7bf61fb296f3546308e1af58a601a396ca5f1560b49c868d7a062bd94a",
+  "complete": true
+}

@@ -1,0 +1,207 @@
+{
+  "dependency_hash": "83b51af29a536e8b09636af191e2de97460ed83b513ff178ca695303fa02e103",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC37-T109",
+    "cc_id": "CC37",
+    "theme_id": "T109",
+    "authoritative_anchor": "cc-cc37-theme-t109",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC37-T109-61ABC44690",
+        "pair_id": "PAIR-CC37-T109",
+        "conclusion": "Custodial accounts are the best investment account for children when parents have fully funded their own retirement.",
+        "source_contribution_ids": [
+          "CONTRIB-C0132791DCB332"
+        ],
+        "source_speech_filenames": [
+          "20251217_What is the Best Investment Account for Kids in 2026.txt"
+        ],
+        "premise_synthesis": "No contribution limits, complete investment freedom, no spending restrictions, and the risk of child control at 18 can be mitigated by transferring to an IRA when the child has earned income.",
+        "conclusion_supported": "Custodial accounts (UGMA/UTMA) are the optimal choice for investing for children, provided parents have secured their retirement.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-C0132791DCB332"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that parents should fully fund their own retirement before investing for children and that UGMA/UTMA is the best option, which is exactly the claim of CC37."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "These accounts offer the most flexibility. No contribution limits. You can invest the funds however you'd like.",
+            "status": "Verified",
+            "verification_basis": "Direct quote from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-C0132791DCB332"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "source_excerpt": "These accounts are going to offer the most flexibility. No contribution limits. You can invest the funds however you'd like."
+          },
+          {
+            "item": "The big downside is that when the kid turns 18, that is too much money for them to be able to handle.",
+            "status": "Verified",
+            "verification_basis": "Direct quote from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-C0132791DCB332"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "source_excerpt": "Obviously, the big downside to this is that when the kid turns 18, that is too much money for them to be able to handle."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is presented in a single speech dated 2025-12-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC37-T109-C02F053626",
+        "pair_id": "PAIR-CC37-T109",
+        "conclusion": "Parents should never give money to their children's accounts until their own retirement is completely funded.",
+        "source_contribution_ids": [
+          "CONTRIB-FE3B6BD7A3D705"
+        ],
+        "source_speech_filenames": [
+          "20251217_What is the Best Investment Account for Kids in 2026.txt"
+        ],
+        "premise_synthesis": "Putting own mask first ensures survival; similarly, prioritizing retirement prevents becoming a financial burden on children. If you become a burden, your generosity becomes a curse rather than a blessing.",
+        "conclusion_supported": "The principle of prioritizing retirement savings over giving to children is a strict rule that must be followed to avoid becoming a burden.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-FE3B6BD7A3D705"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that parents should fully fund their own retirement before investing for children and that UGMA/UTMA is the best option, which is exactly the claim of CC37."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "I don't think that anybody should ever give anything to their kids until their own retirement is completely set.",
+            "status": "Verified",
+            "verification_basis": "Direct quote from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-FE3B6BD7A3D705"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "source_excerpt": "I don't think that anybody should ever give anything to their kids until their own retirement is completely set."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Airplane oxygen mask analogy",
+            "explanation": "Putting your own mask on first before helping others to ensure survival; analogy to prioritizing own retirement before giving to children.",
+            "source_contribution_ids": [
+              "CONTRIB-FE3B6BD7A3D705"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech dated 2025-12-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC37-T109-FC38EDFA54",
+        "pair_id": "PAIR-CC37-T109",
+        "conclusion": "The aim should be to give as much as possible while alive rather than leaving an inheritance.",
+        "source_contribution_ids": [
+          "CONTRIB-740E6C7B97FE3C"
+        ],
+        "source_speech_filenames": [
+          "20251217_What is the Best Investment Account for Kids in 2026.txt"
+        ],
+        "premise_synthesis": "Time value of money makes present smaller amounts more valuable than future larger amounts. Giving after death involves no sacrifice. Real generosity requires voluntarily giving away what you have produced and not consumed.",
+        "conclusion_supported": "Generosity should be practiced during one's lifetime to maximize impact and genuine sacrifice.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-740E6C7B97FE3C"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that parents should fully fund their own retirement before investing for children and that UGMA/UTMA is the best option, which is exactly the claim of CC37."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "I think you should do all of your giving and all of your generosity and all of your charity while you are alive.",
+            "status": "Verified",
+            "verification_basis": "Direct quote from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-740E6C7B97FE3C"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "source_excerpt": "I think you should do all of your giving and all of your generosity and all of your charity while you are alive."
+          },
+          {
+            "item": "The reality is given the time value of money it is much much more valuable to receive smaller amounts in the present rather than larger amounts in the future.",
+            "status": "Verified",
+            "verification_basis": "Direct quote from transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-740E6C7B97FE3C"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ],
+            "source_excerpt": "The reality is given the time value of money it is much much more valuable to receive smaller amounts in the present rather than larger amounts in the future."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "John 3:16 biblical reference",
+            "explanation": "Example of ultimate love through giving; used to support the idea that true love involves giving and sacrifice.",
+            "source_contribution_ids": [
+              "CONTRIB-740E6C7B97FE3C"
+            ],
+            "source_speech_filenames": [
+              "20251217_What is the Best Investment Account for Kids in 2026.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is presented in a single speech dated 2025-12-17; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-740E6C7B97FE3C",
+      "CONTRIB-C0132791DCB332",
+      "CONTRIB-FE3B6BD7A3D705"
+    ],
+    "source_speech_filenames": [
+      "20251217_What is the Best Investment Account for Kids in 2026.txt"
+    ],
+    "generated_at": "2026-07-15T03:19:01+00:00",
+    "record_hash": "073dd1f3f136c5fdf4897afbb1498934c483b9e2a8515f36d1d24abea85c7163"
+  },
+  "complete": true
+}

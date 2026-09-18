@@ -1,0 +1,1055 @@
+{
+  "dependencies": {
+    "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+    "phase1_record_hash": "f067b128df3fcde809ab6f631db6d83519a64671c6f1423d21c2126d003532f7",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-97D3B466B90D",
+    "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+    "stem": "20250821_Is Now the Worst Time Ever to Buy a Home",
+    "date": "2025-08-21",
+    "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+    "source_character_count": 16211,
+    "central_claim": "The current high-cost housing market is not a bubble but a structural shift, making it a strategically sound time to invest in real estate or homebuilding stocks despite high mortgage costs.",
+    "themes": [
+      {
+        "local_theme_id": "LT-1550CC496567",
+        "theme": "Housing Market Sentiment Index",
+        "arguments": [
+          {
+            "local_argument_id": "LA-39CD57CBF824",
+            "local_theme_id": "LT-1550CC496567",
+            "conclusion": "The Home Purchase Sentiment Index is not a reliable stand-alone indicator for predicting housing price movements.",
+            "premises": [
+              "In 2011, sentiment was at rock bottom and most people thought it was the worst time to buy, yet prices skyrocketed thereafter.",
+              "In 2019, sentiment was at its peak and most people thought it was a great time to buy, which was correct as prices rose.",
+              "In 2022, sentiment was again low but prices moved sideways, neither confirming nor contradicting the sentiment."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BAC316B8D736",
+                "item": "Home Purchase Sentiment Index chart going back to 2011 showing lows in 2011, peaks in 2019, and another low in 2022.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript describes the chart but does not provide a source or reproducible data.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "First, let's take a look at this chart, which is the home purchase sentiment index. This goes back to 2011.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-BEB623464BE8",
+                "item": "Chart of median home sale price verifying that 2011 and 2019 were good times to buy because prices later rose.",
+                "status": "Unverifiable",
+                "verification_basis": "The chart is described but no exact figures or source given.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "And all we have to do is take a look at the median sale price of houses sold in the United States.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-75AE0B5C2303",
+        "theme": "Affordability Gap for New Buyers",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0B29CFB866A5",
+            "local_theme_id": "LT-75AE0B5C2303",
+            "conclusion": "The extreme affordability gap is misleading for predicting a housing crash because it applies only to new buyers, not to existing homeowners with locked-in lower costs.",
+            "premises": [
+              "Median income in America is about $80,000, but income needed to buy the median home is over $120,000.",
+              "Mortgage payment for new purchase is about $2,700 while median rent is about $2,000.",
+              "Existing homeowners who bought before 2022 are paying much lower mortgage costs (e.g., $1,400 per month) and have substantial equity."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E93057D8C9E2",
+                "item": "Chart from Creative Planning showing income needed vs median income, with median income line at under $80,000 and needed line above $120,000.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart is referenced but no source data or exact numbers provided in transcript.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "This one which is from creative planning that shows the affordability gap between what income you need to buy a house right now versus what income most people have is at an extreme level way more than it was prior to the financial crisis.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-AE1021D28CA4",
+                "item": "Chart from Reventure showing mortgage cost ($2,700) vs rent cost ($2,000), with a gap larger than before the financial crisis.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart is described but no source or precise data given.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "This next chart from Reenture is another one people look at that gives them a bearish view on the housing market.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-7A7215CDE34D",
+                "device": "Comparison to pre-financial crisis gap",
+                "explanation": "The wide gap in mortgage vs rent costs is likened to the situation just before the 2008 housing crash, but the speaker will later argue it does not signal a crash.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "And you can see the last time a gap this large appeared between mortgage costs and rent costs was right before the great financial crisis.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EE26FBED0A94",
+        "theme": "Existing Homeowners' Financial Position",
+        "arguments": [
+          {
+            "local_argument_id": "LA-22763365ECE6",
+            "local_theme_id": "LT-EE26FBED0A94",
+            "conclusion": "Existing homeowners are in a very strong financial position, with low mortgage costs and high equity, which keeps supply low and supports prices.",
+            "premises": [
+              "40% of homeowners were mortgage-free in 2023 (over 30 million households).",
+              "Nearly half of mortgaged residences are equity-rich (owe less than half the home's value) as of Q1 2025.",
+              "Average equity in a home is $300,000, with $200,000 tappable while maintaining a 20% stake."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A7E75A0883E7",
+                "item": "Share of homeowners without a mortgage rose to 40% in 2023.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the statistic within the transcript.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "Turns out that the share of homeowners who don't have a mortgage rose to 40% in 2023, which means that is more than 30 million homeowners who don't have a mortgage.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-362A2D50EF13",
+                "item": "Nearly half of mortgaged residences as of Q1 2025 are equity-rich.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for the Q1 2025 figure.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "nearly half of mortgaged residences as of quarter 1 this year, 2025, are equity rich, meaning that they owe less on the house than half the home's value.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8912E2B6C350",
+                "item": "Average equity $300,000 and tappable $200,000.",
+                "status": "Unverifiable",
+                "verification_basis": "No source given.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "The average equity in a home right now across the United States is $300,000. And almost 200,000 of that is tappable, which means that it can be withdrawn while still maintaining a 20% stake in the home.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2D83E81677F0",
+        "theme": "Demographic and Housing Supply Imbalance",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9CBC804196C1",
+            "local_theme_id": "LT-2D83E81677F0",
+            "conclusion": "Long-term demographic trends of declining household size and insufficient housing inventory create a structural demand-supply imbalance that prevents a housing crash.",
+            "premises": [
+              "Average household size has declined from 4.5 in 1900 to about 2.5 today.",
+              "Housing inventory per population has dropped for over 25 years.",
+              "More housing units per population are needed just to stay even, but supply has not kept up.",
+              "Number of young adults living at home has been rising since the financial crisis, indicating pent-up demand."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A345C6295A6E",
+                "item": "Chart showing average number of people per household from 1900 to present.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart is described but no source data provided.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "This chart shows the average number of people who have lived in a household going back to 1900. You can see 125 years ago, the average number of people who lived in a house was 4 and a half.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-42F37108A7EE",
+                "item": "Housing inventory compared to population level has dropped for over 25 years.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or time series provided.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "it has dropped for over 25 years because of the overabundance of building that took place prior to the financial crisis.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-E6B95D8ACDD8",
+                "item": "Trend of young adults living at home rising since financial crisis.",
+                "status": "Unverifiable",
+                "verification_basis": "No data source given.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "ever since the financial crisis, the number of young adults living at home has been on the rise.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-06A15874078A",
+                "device": "Historical household size decline",
+                "explanation": "The long-term drop from 4.5 to 2.5 persons per household is used to argue that more units are needed per capita, countering simplistic population-to-housing ratios.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "You can see 125 years ago, the average number of people who lived in a house was 4 and a half. ... Today, that number is about two and a half.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-71296DA09F1E",
+        "theme": "Investment Recommendation in Real Estate",
+        "arguments": [
+          {
+            "local_argument_id": "LA-440B077DA1C3",
+            "local_theme_id": "LT-71296DA09F1E",
+            "conclusion": "Investing in real estate—through homebuilders, REITs, rental properties, or personal residence—is advisable because structural demand will keep prices and rents rising.",
+            "premises": [
+              "Warren Buffett recently invested nearly $1 billion in homebuilding companies (Lennar and D.R. Horton).",
+              "The cost to rent has never gone down in decades.",
+              "Demographics ensure more people need housing than there are units available.",
+              "Homebuilders are becoming the primary source of new supply, benefiting from the lock-in effect of existing homeowners."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DC1CED88F08A",
+                "item": "Warren Buffett invested nearly a billion dollars in home building companies like Lennar (LEN) and D.R. Horton (DHI).",
+                "status": "Unverifiable",
+                "verification_basis": "No source or specific SEC filing cited; the speaker asserts it as fact.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "This is one of the reasons why Warren Buffett just invested nearly a billion dollars in home building companies.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-45F890AE5273",
+                "item": "Chart showing cost to rent climbing since the 1990s without any decline.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart is described but no source or data values given.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "This goes back to the '9s. Has this line ever gone down? No.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-978BD4D9FBA1",
+                "device": "Riding Warren Buffett's coattails",
+                "explanation": "The speaker suggests copying Buffett's investment in homebuilders as a low-risk strategy due to his reputation.",
+                "speech_id": "SP-97D3B466B90D",
+                "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+                "source_excerpt": "You want to copy Warren Buffett and just ride his coattails and buy some homebuilders like Lonar and Dr. Horton, fine.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-FC24FB645430",
+        "speech_id": "SP-97D3B466B90D",
+        "speech_ref": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "claim": "Warren Buffett just invested nearly a billion dollars in home building companies (Lennar and D.R. Horton).",
+        "reason": "The transcript provides no citation, SEC filing reference, or news source for this investment.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No training data confirms this specific claim; it may be based on actual news but cannot be verified from the transcript alone.",
+        "source_excerpt": "This is one of the reasons why Warren Buffett just invested nearly a billion dollars in home building companies.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A62A4C417CAA",
+        "speech_id": "SP-97D3B466B90D",
+        "speech_ref": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "claim": "The median sale price of a new home is only $42,000 (compared to existing home median of $435,000).",
+        "reason": "The figure $42,000 for a new home median sale price is extremely implausible given typical new home prices in the hundreds of thousands; likely a transcription error or misstatement. The transcript provides no corroborating source.",
+        "memory_check": "Contradicted",
+        "memory_note": "The median new home sale price in the US is typically well over $400,000. The $42,000 figure contradicts widely available training knowledge.",
+        "source_excerpt": "the median sale price of a new home is only $42,000.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-904C6EDCE1F7",
+        "speech_id": "SP-97D3B466B90D",
+        "speech_ref": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "claim": "Share of homeowners without a mortgage rose to 40% in 2023 (over 30 million homeowners).",
+        "reason": "No source is given for the 40% figure or the 30 million count.",
+        "memory_check": "Corroborated",
+        "memory_note": "Mortgage-free homeowner share is reported by various sources (e.g., Census Bureau) to be around 40%, but the transcript offers no citation.",
+        "source_excerpt": "Turns out that the share of homeowners who don't have a mortgage rose to 40% in 2023, which means that is more than 30 million homeowners who don't have a mortgage.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current high-cost housing market is not a bubble but a structural shift, making it a strategically sound time to invest in real estate or homebuilding stocks despite high mortgage costs.",
+      "themes": [
+        "Housing Market Sentiment Index",
+        "Affordability Gap for New Buyers",
+        "Existing Homeowners' Financial Position",
+        "Demographic and Housing Supply Imbalance",
+        "Investment Recommendation in Real Estate"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 3
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "73ba59092812f7e4f0f69f8f97e0a60813c325843988c8c22f17436625c19c70",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "f067b128df3fcde809ab6f631db6d83519a64671c6f1423d21c2126d003532f7",
+    "canonical_mapping": {
+      "speech_id": "SP-97D3B466B90D",
+      "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC40",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+      "primary_cc_rationale": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T105",
+        "T102",
+        "T112"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T105",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-75AE0B5C2303",
+          "rationale": "The 'Affordability Gap for New Buyers' is a core component of housing market affordability and dynamics, perfectly matching T105 'Housing Market Dynamics and Affordability'."
+        },
+        {
+          "theme_id": "T102",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-EE26FBED0A94",
+          "rationale": "The theme 'Existing Homeowners' Financial Position' focuses on low mortgage costs and high equity, which are key household debt indicators, aligning with T102 'Household debt indicators'."
+        },
+        {
+          "theme_id": "T112",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-71296DA09F1E",
+          "rationale": "The 'Investment Recommendation in Real Estate' involves alternative investment strategies, aligning with T112 'Leveraged and Alternative Investment Strategies'."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC40-T105",
+          "cc_id": "CC40",
+          "theme_id": "T105",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC40-T102",
+          "cc_id": "CC40",
+          "theme_id": "T102",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC40-T112",
+          "cc_id": "CC40",
+          "theme_id": "T112",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "local_cc_text": "The current high-cost housing market is not a bubble but a structural shift, making it a strategically sound time to invest in real estate or homebuilding stocks despite high mortgage costs.",
+        "canonical_cc_id": "CC40",
+        "confidence": 0.95,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "rationale": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "candidate_matches": [
+          {
+            "id": "CC40",
+            "text": "Current high asset prices, a forthcoming stock market rally, and homebuilding investment opportunities are driven by structural shifts, while MicroStrategy is not a Ponzi scheme and personal investment losses offer lessons for secure wealth building.",
+            "similarity": 0.33000504970550537
+          },
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.31096351146698
+          },
+          {
+            "id": "CC41",
+            "text": "Despite government shutdown causing stock market volatility and high layoff announcements, the economy is stronger than perceived and jobless claims remain low, indicating resilient underlying conditions.",
+            "similarity": 0.21334972977638245
+          },
+          {
+            "id": "CC46",
+            "text": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+            "similarity": 0.20278944075107574
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.18371878564357758
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "local_theme_id": "LT-1550CC496567",
+        "local_theme_text": "Housing Market Sentiment Index",
+        "canonical_theme_id": "T105",
+        "confidence": 0.9,
+        "rationale": "The local theme 'Housing Market Sentiment Index' and its argument about the unreliability of the sentiment index relate directly to housing market dynamics, which is the focus of T105 'Housing Market Dynamics and Affordability'.",
+        "candidate_matches": [
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.47652319073677063
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.4359740614891052
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.3602367639541626
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.3561304211616516
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.3475879430770874
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.3156764507293701
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "local_theme_id": "LT-75AE0B5C2303",
+        "local_theme_text": "Affordability Gap for New Buyers",
+        "canonical_theme_id": "T105",
+        "confidence": 0.95,
+        "rationale": "The 'Affordability Gap for New Buyers' is a core component of housing market affordability and dynamics, perfectly matching T105 'Housing Market Dynamics and Affordability'.",
+        "candidate_matches": [
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.775283932685852
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.4505811929702759
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.3770970106124878
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.314535915851593
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.29282712936401367
+          },
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.2666219472885132
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "local_theme_id": "LT-EE26FBED0A94",
+        "local_theme_text": "Existing Homeowners' Financial Position",
+        "canonical_theme_id": "T102",
+        "confidence": 0.8,
+        "rationale": "The theme 'Existing Homeowners' Financial Position' focuses on low mortgage costs and high equity, which are key household debt indicators, aligning with T102 'Household debt indicators'.",
+        "candidate_matches": [
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.4891793131828308
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.4468074440956116
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.3837052881717682
+          },
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.36507901549339294
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.2568329870700836
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.2534327507019043
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "local_theme_id": "LT-2D83E81677F0",
+        "local_theme_text": "Demographic and Housing Supply Imbalance",
+        "canonical_theme_id": "T105",
+        "confidence": 0.9,
+        "rationale": "The theme 'Demographic and Housing Supply Imbalance' directly addresses housing market supply-demand dynamics, fitting T105 'Housing Market Dynamics and Affordability'.",
+        "candidate_matches": [
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.6130383014678955
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.5914442539215088
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.41938281059265137
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.3932541608810425
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.3620821535587311
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.3583274185657501
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "local_theme_id": "LT-71296DA09F1E",
+        "local_theme_text": "Investment Recommendation in Real Estate",
+        "canonical_theme_id": "T112",
+        "confidence": 0.7,
+        "rationale": "The 'Investment Recommendation in Real Estate' involves alternative investment strategies, aligning with T112 'Leveraged and Alternative Investment Strategies'.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.22019706666469574
+          },
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.21152395009994507
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.17730706930160522
+          },
+          {
+            "id": "T6",
+            "text": "Commodities as investment opportunities",
+            "similarity": 0.1751106232404709
+          },
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.16230784356594086
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.12655682861804962
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-A96512F3FAD1DC",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "date": "2025-08-21",
+        "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+        "pair_id": "PAIR-CC40-T105",
+        "cc_id": "CC40",
+        "theme_id": "T105",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1550CC496567",
+        "local_theme_text": "Housing Market Sentiment Index",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme 'Housing Market Sentiment Index' and its argument about the unreliability of the sentiment index relate directly to housing market dynamics, which is the focus of T105 'Housing Market Dynamics and Affordability'.",
+        "local_argument_id": "LA-39CD57CBF824",
+        "conclusion": "The Home Purchase Sentiment Index is not a reliable stand-alone indicator for predicting housing price movements.",
+        "premises": [
+          "In 2011, sentiment was at rock bottom and most people thought it was the worst time to buy, yet prices skyrocketed thereafter.",
+          "In 2019, sentiment was at its peak and most people thought it was a great time to buy, which was correct as prices rose.",
+          "In 2022, sentiment was again low but prices moved sideways, neither confirming nor contradicting the sentiment."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-BAC316B8D736",
+            "item": "Home Purchase Sentiment Index chart going back to 2011 showing lows in 2011, peaks in 2019, and another low in 2022.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript describes the chart but does not provide a source or reproducible data.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "First, let's take a look at this chart, which is the home purchase sentiment index. This goes back to 2011.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-BEB623464BE8",
+            "item": "Chart of median home sale price verifying that 2011 and 2019 were good times to buy because prices later rose.",
+            "status": "Unverifiable",
+            "verification_basis": "The chart is described but no exact figures or source given.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "And all we have to do is take a look at the median sale price of houses sold in the United States.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-57F44845DAB399",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "date": "2025-08-21",
+        "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+        "pair_id": "PAIR-CC40-T105",
+        "cc_id": "CC40",
+        "theme_id": "T105",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-75AE0B5C2303",
+        "local_theme_text": "Affordability Gap for New Buyers",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The 'Affordability Gap for New Buyers' is a core component of housing market affordability and dynamics, perfectly matching T105 'Housing Market Dynamics and Affordability'.",
+        "local_argument_id": "LA-0B29CFB866A5",
+        "conclusion": "The extreme affordability gap is misleading for predicting a housing crash because it applies only to new buyers, not to existing homeowners with locked-in lower costs.",
+        "premises": [
+          "Median income in America is about $80,000, but income needed to buy the median home is over $120,000.",
+          "Mortgage payment for new purchase is about $2,700 while median rent is about $2,000.",
+          "Existing homeowners who bought before 2022 are paying much lower mortgage costs (e.g., $1,400 per month) and have substantial equity."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E93057D8C9E2",
+            "item": "Chart from Creative Planning showing income needed vs median income, with median income line at under $80,000 and needed line above $120,000.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart is referenced but no source data or exact numbers provided in transcript.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "This one which is from creative planning that shows the affordability gap between what income you need to buy a house right now versus what income most people have is at an extreme level way more than it was prior to the financial crisis.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-AE1021D28CA4",
+            "item": "Chart from Reventure showing mortgage cost ($2,700) vs rent cost ($2,000), with a gap larger than before the financial crisis.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart is described but no source or precise data given.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "This next chart from Reenture is another one people look at that gives them a bearish view on the housing market.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-7A7215CDE34D",
+            "device": "Comparison to pre-financial crisis gap",
+            "explanation": "The wide gap in mortgage vs rent costs is likened to the situation just before the 2008 housing crash, but the speaker will later argue it does not signal a crash.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "And you can see the last time a gap this large appeared between mortgage costs and rent costs was right before the great financial crisis.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-0D68624854FB68",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "date": "2025-08-21",
+        "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+        "pair_id": "PAIR-CC40-T102",
+        "cc_id": "CC40",
+        "theme_id": "T102",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-EE26FBED0A94",
+        "local_theme_text": "Existing Homeowners' Financial Position",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The theme 'Existing Homeowners' Financial Position' focuses on low mortgage costs and high equity, which are key household debt indicators, aligning with T102 'Household debt indicators'.",
+        "local_argument_id": "LA-22763365ECE6",
+        "conclusion": "Existing homeowners are in a very strong financial position, with low mortgage costs and high equity, which keeps supply low and supports prices.",
+        "premises": [
+          "40% of homeowners were mortgage-free in 2023 (over 30 million households).",
+          "Nearly half of mortgaged residences are equity-rich (owe less than half the home's value) as of Q1 2025.",
+          "Average equity in a home is $300,000, with $200,000 tappable while maintaining a 20% stake."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A7E75A0883E7",
+            "item": "Share of homeowners without a mortgage rose to 40% in 2023.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the statistic within the transcript.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "Turns out that the share of homeowners who don't have a mortgage rose to 40% in 2023, which means that is more than 30 million homeowners who don't have a mortgage.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-362A2D50EF13",
+            "item": "Nearly half of mortgaged residences as of Q1 2025 are equity-rich.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for the Q1 2025 figure.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "nearly half of mortgaged residences as of quarter 1 this year, 2025, are equity rich, meaning that they owe less on the house than half the home's value.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8912E2B6C350",
+            "item": "Average equity $300,000 and tappable $200,000.",
+            "status": "Unverifiable",
+            "verification_basis": "No source given.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "The average equity in a home right now across the United States is $300,000. And almost 200,000 of that is tappable, which means that it can be withdrawn while still maintaining a 20% stake in the home.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-F134FEA011A860",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "date": "2025-08-21",
+        "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+        "pair_id": "PAIR-CC40-T105",
+        "cc_id": "CC40",
+        "theme_id": "T105",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-2D83E81677F0",
+        "local_theme_text": "Demographic and Housing Supply Imbalance",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The theme 'Demographic and Housing Supply Imbalance' directly addresses housing market supply-demand dynamics, fitting T105 'Housing Market Dynamics and Affordability'.",
+        "local_argument_id": "LA-9CBC804196C1",
+        "conclusion": "Long-term demographic trends of declining household size and insufficient housing inventory create a structural demand-supply imbalance that prevents a housing crash.",
+        "premises": [
+          "Average household size has declined from 4.5 in 1900 to about 2.5 today.",
+          "Housing inventory per population has dropped for over 25 years.",
+          "More housing units per population are needed just to stay even, but supply has not kept up.",
+          "Number of young adults living at home has been rising since the financial crisis, indicating pent-up demand."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A345C6295A6E",
+            "item": "Chart showing average number of people per household from 1900 to present.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart is described but no source data provided.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "This chart shows the average number of people who have lived in a household going back to 1900. You can see 125 years ago, the average number of people who lived in a house was 4 and a half.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-42F37108A7EE",
+            "item": "Housing inventory compared to population level has dropped for over 25 years.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or time series provided.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "it has dropped for over 25 years because of the overabundance of building that took place prior to the financial crisis.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-E6B95D8ACDD8",
+            "item": "Trend of young adults living at home rising since financial crisis.",
+            "status": "Unverifiable",
+            "verification_basis": "No data source given.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "ever since the financial crisis, the number of young adults living at home has been on the rise.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-06A15874078A",
+            "device": "Historical household size decline",
+            "explanation": "The long-term drop from 4.5 to 2.5 persons per household is used to argue that more units are needed per capita, countering simplistic population-to-housing ratios.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "You can see 125 years ago, the average number of people who lived in a house was 4 and a half. ... Today, that number is about two and a half.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-4FC0A586BAAC66",
+        "speech_id": "SP-97D3B466B90D",
+        "filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+        "date": "2025-08-21",
+        "source_hash": "9029a360a61a98cc4372bde8a5c362e5de721d10900a32271d1eac1efc8ff9ba",
+        "pair_id": "PAIR-CC40-T112",
+        "cc_id": "CC40",
+        "theme_id": "T112",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that the housing market's high costs reflect a structural supply/demand imbalance rather than a bubble, and recommends investing in real estate and homebuilders, which directly instantiates CC40's claim that homebuilding investment opportunities are driven by structural shifts.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-71296DA09F1E",
+        "local_theme_text": "Investment Recommendation in Real Estate",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "The 'Investment Recommendation in Real Estate' involves alternative investment strategies, aligning with T112 'Leveraged and Alternative Investment Strategies'.",
+        "local_argument_id": "LA-440B077DA1C3",
+        "conclusion": "Investing in real estate—through homebuilders, REITs, rental properties, or personal residence—is advisable because structural demand will keep prices and rents rising.",
+        "premises": [
+          "Warren Buffett recently invested nearly $1 billion in homebuilding companies (Lennar and D.R. Horton).",
+          "The cost to rent has never gone down in decades.",
+          "Demographics ensure more people need housing than there are units available.",
+          "Homebuilders are becoming the primary source of new supply, benefiting from the lock-in effect of existing homeowners."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-DC1CED88F08A",
+            "item": "Warren Buffett invested nearly a billion dollars in home building companies like Lennar (LEN) and D.R. Horton (DHI).",
+            "status": "Unverifiable",
+            "verification_basis": "No source or specific SEC filing cited; the speaker asserts it as fact.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "This is one of the reasons why Warren Buffett just invested nearly a billion dollars in home building companies.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-45F890AE5273",
+            "item": "Chart showing cost to rent climbing since the 1990s without any decline.",
+            "status": "Unverifiable",
+            "verification_basis": "Chart is described but no source or data values given.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "This goes back to the '9s. Has this line ever gone down? No.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-978BD4D9FBA1",
+            "device": "Riding Warren Buffett's coattails",
+            "explanation": "The speaker suggests copying Buffett's investment in homebuilders as a low-risk strategy due to his reputation.",
+            "speech_id": "SP-97D3B466B90D",
+            "source_speech_filename": "20250821_Is Now the Worst Time Ever to Buy a Home.txt",
+            "source_excerpt": "You want to copy Warren Buffett and just ride his coattails and buy some homebuilders like Lonar and Dr. Horton, fine.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "73ba59092812f7e4f0f69f8f97e0a60813c325843988c8c22f17436625c19c70",
+  "complete": true
+}

@@ -1,0 +1,1194 @@
+{
+  "dependencies": {
+    "source_hash": "cc140a86224d356f2dfa5254179066ed53b6e5d8fd2db467482fa440cc94c816",
+    "phase1_record_hash": "71c0ec6d954b873abb6bd0cd4d2b0a8df0d2f8ecbd6e22b26d4d5e834698731a",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-1AA5B228F713",
+    "filename": "20250929_The Rationale for Rate Cuts.txt",
+    "stem": "20250929_The Rationale for Rate Cuts",
+    "date": "2025-09-29",
+    "source_hash": "cc140a86224d356f2dfa5254179066ed53b6e5d8fd2db467482fa440cc94c816",
+    "source_character_count": 18792,
+    "central_claim": "The real rationale for rate cuts is to reduce the cost of servicing the federal debt, not the economic factors cited by Steven Moran.",
+    "themes": [
+      {
+        "local_theme_id": "LT-87744D682B22",
+        "theme": "The imaginary neutral rate",
+        "arguments": [
+          {
+            "local_argument_id": "LA-98BA1F3A215B",
+            "local_theme_id": "LT-87744D682B22",
+            "conclusion": "The neutral rate does not exist and monetary policy is always interventionist, never neutral.",
+            "premises": [
+              "The neutral rate is an imaginary interest rate that is neither expansionary nor contractionary.",
+              "The Federal Reserve has never had interest rates at a neutral rate before.",
+              "If the goal were to achieve the natural rate, the Fed would simply let the free market determine it.",
+              "The purpose of monetary policy is to control interest rates away from the natural rate.",
+              "Any interest rate is simultaneously restrictive and expansionary depending on the person and situation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-27D516B1CCC9",
+                "item": "The neutral rate itself is something that exists in the minds of economists and not reality.",
+                "status": "Unverifiable",
+                "verification_basis": "No external source or data provided; the assertion is presented as opinion.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "the neutral rate itself is something that exists in the minds of economists and not reality.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-65A38DFE22B1",
+                "item": "The Federal Reserve has never had interest rates at a neutral rate before.",
+                "status": "Unverifiable",
+                "verification_basis": "No data or historical evidence cited.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "not only has the Federal Reserve never had interest rates at a neutral rate before, it just doesn't exist.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-9C7A1ADD41EA",
+                "device": "The gold coin borrowing analogy",
+                "explanation": "Illustrates how interest rates emerge from supply and demand for savings and borrowing, and that there is no single neutral rate; rates vary by borrower, lender, and duration.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "Let's imagine we all still live in the day and age when money was gold and silver coins... So you see, in a sound money economy, the savings pool will be large or drained... This story shows a couple of things about interest rates.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-31A33854B08F",
+        "theme": "Rent inflation and immigration-driven disinflation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2A0D81EDA2BB",
+            "local_theme_id": "LT-31A33854B08F",
+            "conclusion": "Rents are slowing or falling due to reduced immigration, which supports a lower neutral rate.",
+            "premises": [
+              "Housing represents nearly 16% of PCE and more than double that in CPI.",
+              "Measured inflation incorporates rental inflation with a lag, which has remained elevated above market rents for several years, but the catchup is now complete.",
+              "New rent indices show rent inflation is well below all tenant inflation, around 1% annualized.",
+              "Net immigration was about 1 million per year until 2020, and with net zero immigration going forward, that implies one point lower rent inflation per year.",
+              "The US population has grown by around 1% annually due largely to illegal immigration, and in the first half of 2025 roughly 1.5 million immigrants have left, plausibly 2 million by year end, reducing annual population growth from 1% to 0.4%."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-47137D9AC2FF",
+                "item": "Housing represents nearly 16% of PCE and more than double that in CPI.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the percentages.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "Housing represents nearly 16% of PCE. It's more than double that in the CPI.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D3B2661D3462",
+                "item": "New rent indices show rent inflation is well below all tenant inflation around 1% annualized.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the rent indices.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "new rent indices showing this inflation is well below all tenant inflation around 1% annualized.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-28C715636FBC",
+                "item": "Net immigration was about 1 million people per year for about a decade up until 2020.",
+                "status": "Unverifiable",
+                "verification_basis": "No source given.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "He says net immigration was about 1 million people per year for about a decade up until 2020.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-14A3E451C2DA",
+                "item": "With net zero immigration going forward, that would imply one point lower rent inflation per year.",
+                "status": "Unverifiable",
+                "verification_basis": "Causal projection without supporting data.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "with net zero immigration going forward that would imply one point lower rent inflation per year.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A3CC165041E3",
+                "item": "The US population has grown by around 1% annually in recent years, driven largely by illegal immigration.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the population growth rate or the driving factor.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "The US population has grown by around 1% annually in recent years, driven largely by illegal immigration.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-BE1C4D0735C5",
+                "item": "In the first half of 2025, roughly 1.5 million of these immigrants have left the country.",
+                "status": "Disputed",
+                "verification_basis": "The speaker provides conflicting data from DHS and CNN, casting doubt on the number.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "Already in the first half of 2025, roughly 1.5 million of these immigrants have left the country.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-08931871FF9A",
+                "item": "Plausible that 2 million illegal immigrants will have exited by year end, reducing annual population growth from 1% to 0.4%.",
+                "status": "Disputed",
+                "verification_basis": "The speaker questions the jump and the reliability of the data.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "Assuming some overcounting, it's plausible to me that 2 million illegal immigrants will have exited the country by year end. That will reduce annual population growth from 1% down to 0.4%.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-FF5A67BFA059",
+        "theme": "Increases in national savings from trade policy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FC888B4176B7",
+            "local_theme_id": "LT-FF5A67BFA059",
+            "conclusion": "Trade policy tariffs are insufficient to meaningfully increase national savings or reduce the federal deficit.",
+            "premises": [
+              "Cumulative tariff revenue from January through July of 2025 is $122 billion, now over $200 billion.",
+              "The total federal budget deficit is sitting at $1.8 trillion, which is just the deficit, not spending.",
+              "The deficit is almost $1.9 trillion year to date.",
+              "Tariffs have brought in about $200 billion, so they are not going to make a meaningful difference on fiscal policy."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9AA614C68B7B",
+                "item": "Cumulative tariff revenue from January through July of 2025 is $122 billion, now over $200 billion.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker shows a graph but no verifiable source for the data.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "This little blue bar which shows $122 billion is the cumulative tariff revenue from January through July of 2025. Obviously the number is higher now because we're sitting in September. We're sitting at a little over $200 billion right now.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-87F61220DD5D",
+                "item": "Total federal budget deficit is sitting at $1.8 trillion, and almost $1.9 trillion year to date.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for the deficit numbers.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "the total federal budget deficit which is sitting at $1.8 trillion. And that's not spending. That's just the deficit. That's the amount they have to borrow on top of the taxes for the rest of their spending is almost $1.9 trillion year to date.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9EA6E1080DEF",
+                "item": "Historical deficits: 2021 $2.7 trillion, 2022 $1.3 trillion, 2023 $1.69 trillion, 2024 $1.8 trillion, and currently on track above 2024.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the deficit tracker numbers.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "2021 was 2.7 trillion. We had a big dip down in 2022 with 1.3 trillion deficit. The deficit then grew again in 2023 up to 1.69 trillion. And then 2024 grew again up to 1.8 trillion. And this purple line that you can see here all year long has been on track above 2024's monthly deficit numbers. We're already at 1.973 trillion.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-CA00360A5D0F",
+        "theme": "Deregulation and its impact on the neutral rate",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BBC0598343B8",
+            "local_theme_id": "LT-CA00360A5D0F",
+            "conclusion": "Deregulation would raise the neutral rate of interest by increasing the marginal product of capital.",
+            "premises": [
+              "Regulations can serve like an infinite tax rate that prohibits activity altogether.",
+              "A special snail being found in a region can restrict output much more than any finite tax.",
+              "Regulation hinders productivity growth, restricts capacity, and fuels inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D44D98011A9C",
+                "item": "The example of a special snail being found in a region can restrict output much more than any finite tax.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific instance or source provided; used as an illustrative example.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "giving this example that a special snail being found in a region can restrict output much more than any finite tax.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-67A9DC356375",
+                "device": "The snail example",
+                "explanation": "Illustrates how regulation can be more restrictive than any finite tax.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "giving this example that a special snail being found in a region can restrict output much more than any finite tax.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-BF9D729B492F",
+        "theme": "The $37 trillion federal debt as the true driver of rate cuts",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1C29FFB64073",
+            "local_theme_id": "LT-BF9D729B492F",
+            "conclusion": "The real reason for pushing rate cuts is to reduce the cost of servicing the $37 trillion federal debt.",
+            "premises": [
+              "The US has $37 trillion of debt and a debt-to-GDP ratio higher than the WWII peak.",
+              "The 10-year Treasury yield is rising because the market expects the government to print money, devalue currency, and no austerity.",
+              "Lowering the Fed's interest rate will directly lower T-bill rates, reducing government interest costs by a couple hundred billion per year.",
+              "The Fed may need to restart QE to buy long-term bonds to get the 10-year yield lower."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3EE299D7B514",
+                "item": "It's actually about $37 trillion of debt.",
+                "status": "Unverifiable",
+                "verification_basis": "No source for the debt figure.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "It's actually about $37 trillion of debt.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E23AB96EA31A",
+                "item": "Debt-to-GDP ratio higher than the peak of World War II.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or context provided.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "It's actually about a debt to GDP ratio that is higher than we were at during the peak of World War II.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-5D686A117C32",
+                "item": "The vast majority of the federal government's debt is held in T-bills.",
+                "status": "Unverifiable",
+                "verification_basis": "No data to support the claim about the composition of the debt.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "the vast majority of the federal government's debt is held in T-bills.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-0431016575CC",
+                "item": "If they get rates on T-bills down by half, it might decrease interest costs by a couple hundred billion per year.",
+                "status": "Unverifiable",
+                "verification_basis": "Projection without supporting arithmetic or assumptions.",
+                "speech_id": "SP-1AA5B228F713",
+                "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+                "source_excerpt": "If they're able to get the rates on T bills down by half and they're able to roll most of their debt over there, it might decrease the US government's interest costs by a couple hundred billion per year.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-299209DC876E",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "The neutral rate itself is something that exists in the minds of economists and not reality.",
+        "reason": "The transcript provides no evidence or source to support the claim; it is presented as the speaker's own opinion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Economists commonly discuss the neutral rate as a theoretical concept, but its existence is debated.",
+        "source_excerpt": "the neutral rate itself is something that exists in the minds of economists and not reality.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4A2B2F434527",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "The Federal Reserve has never had interest rates at a neutral rate before.",
+        "reason": "No historical data or citation is provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical Fed rate settings are often characterized as expansionary or contractionary relative to estimates of the neutral rate.",
+        "source_excerpt": "not only has the Federal Reserve never had interest rates at a neutral rate before, it just doesn't exist.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-58D906C04942",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "Housing represents nearly 16% of PCE and more than double that in CPI.",
+        "reason": "No source for the percentages; these are common statistics but not verified within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Housing weights in PCE and CPI are publicly known; the claim is consistent with typical figures but not sourced here.",
+        "source_excerpt": "Housing represents nearly 16% of PCE. It's more than double that in the CPI.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2774045E6A44",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "New rent indices show rent inflation is well below all tenant inflation around 1% annualized.",
+        "reason": "No identification of the specific rent indices or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Multiple rent indices exist (e.g., Zillow, Apartment List) but the claim is unsourced.",
+        "source_excerpt": "new rent indices showing this inflation is well below all tenant inflation around 1% annualized.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-500B0E71B33B",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "Net immigration was about 1 million people per year for about a decade up until 2020.",
+        "reason": "No source provided for the immigration data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "US immigration statistics are available from DHS and Census, but not cited.",
+        "source_excerpt": "He says net immigration was about 1 million people per year for about a decade up until 2020.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3B5034108365",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "The US population has grown by around 1% annually in recent years, driven largely by illegal immigration.",
+        "reason": "No source for population growth rate or the attribution to illegal immigration.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Population growth has been around 0.5-0.6% in recent years; the claim of 1% is higher than official estimates.",
+        "source_excerpt": "The US population has grown by around 1% annually in recent years, driven largely by illegal immigration.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-307245464B20",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "In the first half of 2025, roughly 1.5 million immigrants have left the country.",
+        "reason": "The speaker himself casts doubt on the number, citing conflicting reports from DHS and CNN.",
+        "memory_check": "Contradicted",
+        "memory_note": "The speaker notes that another source reported only 200,000 deportations and 350,000 total departures, contradicting the 1.5 million figure.",
+        "source_excerpt": "Already in the first half of 2025, roughly 1.5 million of these immigrants have left the country.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-61B23EE9DDDA",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "Plausible that 2 million illegal immigrants will have exited by year end, reducing annual population growth from 1% to 0.4%.",
+        "reason": "The speaker questions the plausibility of the jump and the data consistency.",
+        "memory_check": "Contradicted",
+        "memory_note": "The speaker immediately notes a discrepancy with other reports, suggesting the figure may be exaggerated.",
+        "source_excerpt": "Assuming some overcounting, it's plausible to me that 2 million illegal immigrants will have exited the country by year end. That will reduce annual population growth from 1% down to 0.4%.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-173992AAED6F",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "Cumulative tariff revenue from January through July of 2025 is $122 billion, now over $200 billion.",
+        "reason": "No source for the tariff revenue data; the speaker points to a graph but does not cite a source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "U.S. Customs and Border Protection publishes tariff revenue data, but it is not referenced here.",
+        "source_excerpt": "This little blue bar which shows $122 billion is the cumulative tariff revenue from January through July of 2025. Obviously the number is higher now because we're sitting in September. We're sitting at a little over $200 billion right now.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8906747E38B7",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "Total federal budget deficit is sitting at $1.8 trillion, and almost $1.9 trillion year to date.",
+        "reason": "No source for the deficit figures; the speaker mentions a graph but no official source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "U.S. Treasury publishes monthly deficit data; the figures are plausible but unverifiable from the transcript.",
+        "source_excerpt": "the total federal budget deficit which is sitting at $1.8 trillion. And that's not spending. That's just the deficit. That's the amount they have to borrow on top of the taxes for the rest of their spending is almost $1.9 trillion year to date.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FFD66020B71A",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "It's actually about $37 trillion of debt.",
+        "reason": "No source for the $37 trillion national debt figure.",
+        "memory_check": "Corroborated",
+        "memory_note": "As of 2025, the U.S. national debt is approximately $37 trillion; this is a known public figure.",
+        "source_excerpt": "It's actually about $37 trillion of debt.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C75DD6AE0EAF",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "Debt-to-GDP ratio higher than the peak of World War II.",
+        "reason": "No current data or comparison provided; the claim is a comparison without a specific ratio.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The U.S. debt-to-GDP ratio is indeed near historical highs, but the transcript does not provide the specific number.",
+        "source_excerpt": "It's actually about a debt to GDP ratio that is higher than we were at during the peak of World War II.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0F522205E2E9",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "The vast majority of the federal government's debt is held in T-bills.",
+        "reason": "No data or breakdown of debt composition is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The U.S. debt held by the public includes T-bills, notes, and bonds; T-bills are short-term but not necessarily the majority.",
+        "source_excerpt": "the vast majority of the federal government's debt is held in T-bills.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-5BC2C77A2D04",
+        "speech_id": "SP-1AA5B228F713",
+        "speech_ref": "20250929_The Rationale for Rate Cuts.txt",
+        "claim": "If they get rates on T-bills down by half, it might decrease interest costs by a couple hundred billion per year.",
+        "reason": "Hypothetical projection without supporting calculation or current interest cost figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Annual interest on the national debt is over $1 trillion; a reduction by a couple hundred billion is plausible but unverified here.",
+        "source_excerpt": "If they're able to get the rates on T bills down by half and they're able to roll most of their debt over there, it might decrease the US government's interest costs by a couple hundred billion per year.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The real rationale for rate cuts is to reduce the cost of servicing the federal debt, not the economic factors cited by Steven Moran.",
+      "themes": [
+        "The imaginary neutral rate",
+        "Rent inflation and immigration-driven disinflation",
+        "Increases in national savings from trade policy",
+        "Deregulation and its impact on the neutral rate",
+        "The $37 trillion federal debt as the true driver of rate cuts"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 14
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "347306c2b8a0a4dd56c23dfa29bba1dd8220febff3da1e313e29472efe4e8290",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "71c0ec6d954b873abb6bd0cd4d2b0a8df0d2f8ecbd6e22b26d4d5e834698731a",
+    "canonical_mapping": {
+      "speech_id": "SP-1AA5B228F713",
+      "filename": "20250929_The Rationale for Rate Cuts.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.75,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+      "primary_cc_rationale": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T85",
+        "T120",
+        "T135"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T85",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-BF9D729B492F",
+          "rationale": "The local theme 'The $37 trillion federal debt as the true driver of rate cuts' explicitly concerns federal debt management and fiscal sustainability, aligning with T85."
+        },
+        {
+          "theme_id": "T120",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-CA00360A5D0F",
+          "rationale": "The local theme 'Deregulation and its impact on the neutral rate' discusses the effect of deregulation on the neutral rate of interest, which falls under monetary policy rates and interest rate dynamics (T120)."
+        },
+        {
+          "theme_id": "T135",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-FF5A67BFA059",
+          "rationale": "The local theme 'Increases in national savings from trade policy' directly relates to trade deficits, tariffs, and global geopolitics (T135)."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T85",
+          "cc_id": "CC50",
+          "theme_id": "T85",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T120",
+          "cc_id": "CC50",
+          "theme_id": "T120",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T135",
+          "cc_id": "CC50",
+          "theme_id": "T135",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "local_cc_text": "The real rationale for rate cuts is to reduce the cost of servicing the federal debt, not the economic factors cited by Steven Moran.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.75,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+        "rationale": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.37665870785713196
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.33328482508659363
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.28614771366119385
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.2788422107696533
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.2641206681728363
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "local_theme_id": "LT-87744D682B22",
+        "local_theme_text": "The imaginary neutral rate",
+        "canonical_theme_id": "T120",
+        "confidence": 0.8,
+        "rationale": "The local theme 'The imaginary neutral rate' critiques the concept of a neutral rate, which directly pertains to monetary policy rates and interest rate dynamics (T120).",
+        "candidate_matches": [
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.33535951375961304
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.2893980145454407
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.2817876935005188
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.27168065309524536
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.2555183172225952
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.23249630630016327
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "local_theme_id": "LT-31A33854B08F",
+        "local_theme_text": "Rent inflation and immigration-driven disinflation",
+        "canonical_theme_id": "T105",
+        "confidence": 0.75,
+        "rationale": "The local theme 'Rent inflation and immigration-driven disinflation' is about housing market dynamics and affordability, closely matching T105.",
+        "candidate_matches": [
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.4492381811141968
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.40850508213043213
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.3757351040840149
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.363202840089798
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.3520243167877197
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.33403605222702026
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "local_theme_id": "LT-FF5A67BFA059",
+        "local_theme_text": "Increases in national savings from trade policy",
+        "canonical_theme_id": "T135",
+        "confidence": 0.85,
+        "rationale": "The local theme 'Increases in national savings from trade policy' directly relates to trade deficits, tariffs, and global geopolitics (T135).",
+        "candidate_matches": [
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.48441535234451294
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4523685872554779
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.40982744097709656
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.3858906030654907
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3737775385379791
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.33759912848472595
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "local_theme_id": "LT-CA00360A5D0F",
+        "local_theme_text": "Deregulation and its impact on the neutral rate",
+        "canonical_theme_id": "T120",
+        "confidence": 0.8,
+        "rationale": "The local theme 'Deregulation and its impact on the neutral rate' discusses the effect of deregulation on the neutral rate of interest, which falls under monetary policy rates and interest rate dynamics (T120).",
+        "candidate_matches": [
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.5226553678512573
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.4712755084037781
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.44392842054367065
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4158758521080017
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.4069903492927551
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.39960867166519165
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "local_theme_id": "LT-BF9D729B492F",
+        "local_theme_text": "The $37 trillion federal debt as the true driver of rate cuts",
+        "canonical_theme_id": "T85",
+        "confidence": 0.85,
+        "rationale": "The local theme 'The $37 trillion federal debt as the true driver of rate cuts' explicitly concerns federal debt management and fiscal sustainability, aligning with T85.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.4778190553188324
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4698965549468994
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.45838648080825806
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.43836283683776855
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.4281408488750458
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.42053383588790894
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-F0C86B7231D587",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "date": "2025-09-29",
+        "source_hash": "cc140a86224d356f2dfa5254179066ed53b6e5d8fd2db467482fa440cc94c816",
+        "pair_id": "PAIR-CC50-T120",
+        "cc_id": "CC50",
+        "theme_id": "T120",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-87744D682B22",
+        "local_theme_text": "The imaginary neutral rate",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The local theme 'The imaginary neutral rate' critiques the concept of a neutral rate, which directly pertains to monetary policy rates and interest rate dynamics (T120).",
+        "local_argument_id": "LA-98BA1F3A215B",
+        "conclusion": "The neutral rate does not exist and monetary policy is always interventionist, never neutral.",
+        "premises": [
+          "The neutral rate is an imaginary interest rate that is neither expansionary nor contractionary.",
+          "The Federal Reserve has never had interest rates at a neutral rate before.",
+          "If the goal were to achieve the natural rate, the Fed would simply let the free market determine it.",
+          "The purpose of monetary policy is to control interest rates away from the natural rate.",
+          "Any interest rate is simultaneously restrictive and expansionary depending on the person and situation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-27D516B1CCC9",
+            "item": "The neutral rate itself is something that exists in the minds of economists and not reality.",
+            "status": "Unverifiable",
+            "verification_basis": "No external source or data provided; the assertion is presented as opinion.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "the neutral rate itself is something that exists in the minds of economists and not reality.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-65A38DFE22B1",
+            "item": "The Federal Reserve has never had interest rates at a neutral rate before.",
+            "status": "Unverifiable",
+            "verification_basis": "No data or historical evidence cited.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "not only has the Federal Reserve never had interest rates at a neutral rate before, it just doesn't exist.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-9C7A1ADD41EA",
+            "device": "The gold coin borrowing analogy",
+            "explanation": "Illustrates how interest rates emerge from supply and demand for savings and borrowing, and that there is no single neutral rate; rates vary by borrower, lender, and duration.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "Let's imagine we all still live in the day and age when money was gold and silver coins... So you see, in a sound money economy, the savings pool will be large or drained... This story shows a couple of things about interest rates.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-4541833CFC59BC",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "date": "2025-09-29",
+        "source_hash": "cc140a86224d356f2dfa5254179066ed53b6e5d8fd2db467482fa440cc94c816",
+        "pair_id": "PAIR-CC50-T135",
+        "cc_id": "CC50",
+        "theme_id": "T135",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-FF5A67BFA059",
+        "local_theme_text": "Increases in national savings from trade policy",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme 'Increases in national savings from trade policy' directly relates to trade deficits, tariffs, and global geopolitics (T135).",
+        "local_argument_id": "LA-FC888B4176B7",
+        "conclusion": "Trade policy tariffs are insufficient to meaningfully increase national savings or reduce the federal deficit.",
+        "premises": [
+          "Cumulative tariff revenue from January through July of 2025 is $122 billion, now over $200 billion.",
+          "The total federal budget deficit is sitting at $1.8 trillion, which is just the deficit, not spending.",
+          "The deficit is almost $1.9 trillion year to date.",
+          "Tariffs have brought in about $200 billion, so they are not going to make a meaningful difference on fiscal policy."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9AA614C68B7B",
+            "item": "Cumulative tariff revenue from January through July of 2025 is $122 billion, now over $200 billion.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker shows a graph but no verifiable source for the data.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "This little blue bar which shows $122 billion is the cumulative tariff revenue from January through July of 2025. Obviously the number is higher now because we're sitting in September. We're sitting at a little over $200 billion right now.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-87F61220DD5D",
+            "item": "Total federal budget deficit is sitting at $1.8 trillion, and almost $1.9 trillion year to date.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for the deficit numbers.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "the total federal budget deficit which is sitting at $1.8 trillion. And that's not spending. That's just the deficit. That's the amount they have to borrow on top of the taxes for the rest of their spending is almost $1.9 trillion year to date.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9EA6E1080DEF",
+            "item": "Historical deficits: 2021 $2.7 trillion, 2022 $1.3 trillion, 2023 $1.69 trillion, 2024 $1.8 trillion, and currently on track above 2024.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the deficit tracker numbers.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "2021 was 2.7 trillion. We had a big dip down in 2022 with 1.3 trillion deficit. The deficit then grew again in 2023 up to 1.69 trillion. And then 2024 grew again up to 1.8 trillion. And this purple line that you can see here all year long has been on track above 2024's monthly deficit numbers. We're already at 1.973 trillion.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-FA895FD359DAC3",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "date": "2025-09-29",
+        "source_hash": "cc140a86224d356f2dfa5254179066ed53b6e5d8fd2db467482fa440cc94c816",
+        "pair_id": "PAIR-CC50-T120",
+        "cc_id": "CC50",
+        "theme_id": "T120",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-CA00360A5D0F",
+        "local_theme_text": "Deregulation and its impact on the neutral rate",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The local theme 'Deregulation and its impact on the neutral rate' discusses the effect of deregulation on the neutral rate of interest, which falls under monetary policy rates and interest rate dynamics (T120).",
+        "local_argument_id": "LA-BBC0598343B8",
+        "conclusion": "Deregulation would raise the neutral rate of interest by increasing the marginal product of capital.",
+        "premises": [
+          "Regulations can serve like an infinite tax rate that prohibits activity altogether.",
+          "A special snail being found in a region can restrict output much more than any finite tax.",
+          "Regulation hinders productivity growth, restricts capacity, and fuels inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D44D98011A9C",
+            "item": "The example of a special snail being found in a region can restrict output much more than any finite tax.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific instance or source provided; used as an illustrative example.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "giving this example that a special snail being found in a region can restrict output much more than any finite tax.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-67A9DC356375",
+            "device": "The snail example",
+            "explanation": "Illustrates how regulation can be more restrictive than any finite tax.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "giving this example that a special snail being found in a region can restrict output much more than any finite tax.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-2591B8A946EF3C",
+        "speech_id": "SP-1AA5B228F713",
+        "filename": "20250929_The Rationale for Rate Cuts.txt",
+        "date": "2025-09-29",
+        "source_hash": "cc140a86224d356f2dfa5254179066ed53b6e5d8fd2db467482fa440cc94c816",
+        "pair_id": "PAIR-CC50-T85",
+        "cc_id": "CC50",
+        "theme_id": "T85",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech argues that rate cuts are motivated by the need to reduce federal debt servicing costs, which is a concrete instance of the broader claim in CC50 that Federal Reserve and Treasury policies aim to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BF9D729B492F",
+        "local_theme_text": "The $37 trillion federal debt as the true driver of rate cuts",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The local theme 'The $37 trillion federal debt as the true driver of rate cuts' explicitly concerns federal debt management and fiscal sustainability, aligning with T85.",
+        "local_argument_id": "LA-1C29FFB64073",
+        "conclusion": "The real reason for pushing rate cuts is to reduce the cost of servicing the $37 trillion federal debt.",
+        "premises": [
+          "The US has $37 trillion of debt and a debt-to-GDP ratio higher than the WWII peak.",
+          "The 10-year Treasury yield is rising because the market expects the government to print money, devalue currency, and no austerity.",
+          "Lowering the Fed's interest rate will directly lower T-bill rates, reducing government interest costs by a couple hundred billion per year.",
+          "The Fed may need to restart QE to buy long-term bonds to get the 10-year yield lower."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3EE299D7B514",
+            "item": "It's actually about $37 trillion of debt.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the debt figure.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "It's actually about $37 trillion of debt.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E23AB96EA31A",
+            "item": "Debt-to-GDP ratio higher than the peak of World War II.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or context provided.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "It's actually about a debt to GDP ratio that is higher than we were at during the peak of World War II.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-5D686A117C32",
+            "item": "The vast majority of the federal government's debt is held in T-bills.",
+            "status": "Unverifiable",
+            "verification_basis": "No data to support the claim about the composition of the debt.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "the vast majority of the federal government's debt is held in T-bills.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-0431016575CC",
+            "item": "If they get rates on T-bills down by half, it might decrease interest costs by a couple hundred billion per year.",
+            "status": "Unverifiable",
+            "verification_basis": "Projection without supporting arithmetic or assumptions.",
+            "speech_id": "SP-1AA5B228F713",
+            "source_speech_filename": "20250929_The Rationale for Rate Cuts.txt",
+            "source_excerpt": "If they're able to get the rates on T bills down by half and they're able to roll most of their debt over there, it might decrease the US government's interest costs by a couple hundred billion per year.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-31A33854B08F",
+        "local_argument_id": "LA-2A0D81EDA2BB",
+        "conclusion": "Rents are slowing or falling due to reduced immigration, which supports a lower neutral rate.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "347306c2b8a0a4dd56c23dfa29bba1dd8220febff3da1e313e29472efe4e8290",
+  "complete": true
+}

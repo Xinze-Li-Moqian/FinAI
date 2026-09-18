@@ -1,0 +1,74 @@
+{
+  "dependency_hash": "f82700339743b82c76b9cf1dbf0b88b37f36e3e700c8ef6af0e8fceec3594269",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC45-T103",
+    "cc_id": "CC45",
+    "theme_id": "T103",
+    "authoritative_anchor": "cc-cc45-theme-t103",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC45-T103-02747EF61E",
+        "pair_id": "PAIR-CC45-T103",
+        "conclusion": "Ongoing growth in real median household income makes household debt service manageable despite nominal increases in debt, reinforcing the claim that a major stock market crash or recession is not imminent.",
+        "source_contribution_ids": [
+          "CONTRIB-DB8FA2C3699158"
+        ],
+        "source_speech_filenames": [
+          "20260511_Economic Collapse is Not Possible Now.txt"
+        ],
+        "premise_synthesis": "Real median household income has generally trended upward over time, albeit with dips after 2008 and 2019; this rising income means that the debt service burden for typical households is not increasing, even as nominal debt levels rise.",
+        "conclusion_supported": "It establishes that rising real median household income helps keep household debt service manageable, reducing the likelihood of a household-driven economic collapse and supporting the broader claim that a crash is not imminent.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-DB8FA2C3699158"
+            ],
+            "source_speech_filenames": [
+              "20260511_Economic Collapse is Not Possible Now.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that a severe economic collapse is unlikely because US household balance sheets are not overleveraged, directly supporting CC45's claim that a major stock market crash or recession is not imminent, especially given that household balance sheets are not overleveraged."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Real median income trends upward",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker references a chart without providing specific numbers; the claim is general and not supported with detailed data in the transcript.",
+            "source_contribution_ids": [
+              "CONTRIB-DB8FA2C3699158"
+            ],
+            "source_speech_filenames": [
+              "20260511_Economic Collapse is Not Possible Now.txt"
+            ],
+            "source_excerpt": "You can see that by and large, this number goes up."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is based on a single speech from 2026-05-11. No within-speech evolution is observed, and cross-speech evolution cannot be inferred from this contribution alone.",
+        "disagreements_or_qualifications": [
+          "The evidence for upward income trends is unverifiable as the speaker references a chart without providing specific data.",
+          "The premise acknowledges dips after 2008 and 2019, which qualify the upward trend and introduce historical exceptions."
+        ]
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-DB8FA2C3699158"
+    ],
+    "source_speech_filenames": [
+      "20260511_Economic Collapse is Not Possible Now.txt"
+    ],
+    "generated_at": "2026-07-15T03:42:17+00:00",
+    "record_hash": "36da46ffb672c0f6b9da94b969e48445e70a29c11a589a545917286b8474cb32"
+  },
+  "complete": true
+}

@@ -1,0 +1,71 @@
+{
+  "dependency_hash": "bff541d6208bbc203c170dbc3cc213c0f724411b1cfa5f347ce05111c4206283",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC56-T92",
+    "cc_id": "CC56",
+    "theme_id": "T92",
+    "authoritative_anchor": "cc-cc56-theme-t92",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC56-T92-5357D68AC7",
+        "pair_id": "PAIR-CC56-T92",
+        "conclusion": "Social Security and Medicare are the primary drivers of the federal budget deficit and represent a massive intergenerational wealth transfer from younger poorer workers to older richer retirees, far exceeding the cost of smaller programs like SNAP.",
+        "source_contribution_ids": [
+          "CONTRIB-57DC111ACB4118"
+        ],
+        "source_speech_filenames": [
+          "20251029_Over 40 Million Americans are on Food Stamps.txt"
+        ],
+        "premise_synthesis": "The speech argues that SNAP spending in FY2024 was approximately $100 billion, only 1.5% of the federal budget, while the 'big six' spending categories (including Social Security and Medicare) together exceed total federal tax revenue, and other categories like transportation and veterans are significantly larger than SNAP. This contrast supports the claim that the true fiscal drain is the large entitlement programs, not food stamps, thereby supporting the canonical claim that Social Security and Medicare transfer wealth from younger poorer workers to older richer retirees.",
+        "conclusion_supported": "That Social Security and Medicare, as part of the 'big six' spending categories, are the major drain on the federal budget and constitute the mechanism of intergenerational wealth transfer from younger poorer workers to older richer retirees, while SNAP is a relatively minor program.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-57DC111ACB4118"
+            ],
+            "source_speech_filenames": [
+              "20251029_Over 40 Million Americans are on Food Stamps.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "$100 billion spent on SNAP in FY2024, equal to 1.5% of federal budget",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited for budget figures; cannot verify the specific percentage and dollar amount from transcript alone.",
+            "source_contribution_ids": [
+              "CONTRIB-57DC111ACB4118"
+            ],
+            "source_speech_filenames": [
+              "20251029_Over 40 Million Americans are on Food Stamps.txt"
+            ],
+            "source_excerpt": "Fiscal year 2024, the United States government spent about $100 billion on SNAP, which is only 1.5% of the entire federal budget."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Only one speech from 2025-10-29 is present; no inference about evolution over time can be made.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-57DC111ACB4118"
+    ],
+    "source_speech_filenames": [
+      "20251029_Over 40 Million Americans are on Food Stamps.txt"
+    ],
+    "generated_at": "2026-07-15T04:24:18+00:00",
+    "record_hash": "96c49f8f7cc54844e48a9e83f08bc928e933b27aa663a5d86e366c75630b89f2"
+  },
+  "complete": true
+}

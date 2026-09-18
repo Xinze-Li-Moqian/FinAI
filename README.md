@@ -19,11 +19,15 @@ This repository records learning and exploratory work. Proposed mechanisms are n
 - [Experiments](experiments/README.md): proposed small experiments.
 - [Discussions](discussions/README.md): space for shareable discussion notes.
 
-## Local materials
+## Course materials — browse and download
 
-Original course attachments are stored under `local-materials/APS1053_Fall2026/` and excluded from Git. They include instructor documents, slides, reference books, assignment code, transcript datasets, and original archives. The material index works locally; its attachment links will not resolve on GitHub or in a fresh clone without the attachments.
+- **[Read the course material in Markdown](knowledge/APS1053/README.md)**
+- **[Browse all received attachments](materials/APS1053/README.md)**: Word, PowerPoint, reference books, Python/Notebook files, prompts, transcripts and sample outputs.
+- **[Download the attachment packages](https://github.com/Xinze-Li-Moqian/FinAI/releases/tag/course-materials-2026-09-18)**
 
-Only study notes and the material index are published. Private correspondence, registration details, travel plans, and non-public employer materials are not included.
+These files are uploaded to this repository and its GitHub Release. The original local backup remains separate. Credentials, personal correspondence and administrative records are excluded; a sanitized ZIP replaces the archive containing a credential. Instructor materials retain their attribution and are not presented as original work by this repository's owner. Third-party rights are unchanged.
+
+Coverage is limited to materials received so far; see [coverage](materials/COVERAGE.md). Conversion and static inspection do not establish correctness or reproducibility.
 
 ## Working method
 

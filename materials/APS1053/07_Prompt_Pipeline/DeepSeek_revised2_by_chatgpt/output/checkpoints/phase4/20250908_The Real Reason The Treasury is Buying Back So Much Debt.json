@@ -1,0 +1,1226 @@
+{
+  "dependencies": {
+    "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+    "phase1_record_hash": "5212f619896cc28a2774b950b8c732f221e28180cd0d0d7957ae0917d2021e07",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-1DB5D43DA0C8",
+    "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+    "stem": "20250908_The Real Reason The Treasury is Buying Back So Much Debt",
+    "date": "2025-09-08",
+    "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+    "source_character_count": 17146,
+    "central_claim": "The US Treasury is accelerating buybacks primarily to provide liquidity support for long-term debt amid waning demand, financed by short-term borrowing, which ultimately raises concerns about the trustworthiness of US government debt.",
+    "themes": [
+      {
+        "local_theme_id": "LT-69EFBAE7C34D",
+        "theme": "Mechanics and net effect of Treasury buybacks",
+        "arguments": [
+          {
+            "local_argument_id": "LA-B1B7E1977974",
+            "local_theme_id": "LT-69EFBAE7C34D",
+            "conclusion": "Treasury buybacks have no net effect on the financial system because borrowing replaces retired debt.",
+            "premises": [
+              "The government runs a deficit and must borrow to finance buybacks",
+              "The borrowed money is used to retire existing debt",
+              "Thus total debt outstanding remains the same"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EA8F611F62BF",
+                "item": "The net effect on the financial system itself, on the economy itself is zero.",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly states this as an explanation.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "the net effect on the financial system itself, on the economy itself is zero",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-6D7268675855",
+                "item": "So far year to date, the budget deficit is $1.6 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided; it is a numerical claim.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "So far year to date, the budget deficit is $1.6 trillion",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-E97DEF1F71E6",
+                "device": "Using a credit card to pay off a mortgage early",
+                "explanation": "Illustrates borrowing short-term to pay off long-term debt, resulting in net debt unchanged.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "This would be the exact same thing as you using a credit card to pay off your mortgage early.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-C78D8964989A",
+                "device": "Borrowing from Peter to pay Paul",
+                "explanation": "Metaphor for no net change in debts.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "borrowing from Peter to pay Paul",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 7997,
+                  "character_end": 8029,
+                  "line_start": 210
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-072A46F80581",
+        "theme": "Secondary reasons for Treasury buybacks",
+        "arguments": [
+          {
+            "local_argument_id": "LA-649E51DF07AF",
+            "local_theme_id": "LT-072A46F80581",
+            "conclusion": "Interest rate savings is not the primary reason for Treasury buybacks.",
+            "premises": [
+              "Year-to-date buybacks are about $184 billion",
+              "Total national debt is $37 trillion",
+              "Even if buybacks were 10x more, they would still be a small fraction of total debt"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-148D4962D3B0",
+                "item": "Year to date, it's about $184 billion",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided; numerical claim.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "Year to date, it's about $184 billion",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-1AF7B0E29514",
+                "item": "Even if they were to 10x the amount of Treasury buybacks they were doing, it would still make a very small dent in the overall debt that they hold",
+                "status": "Unverifiable",
+                "verification_basis": "It is a qualitative opinion based on unverifiable numbers.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "Even if they were to 10x the amount of Treasury buybacks they were doing, it would still make a very small dent in the overall debt that they hold",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EA3D8C8A31C1",
+                "device": "Drop in the bucket",
+                "explanation": "Indicates insignificant impact relative to total debt.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "This is a drop in the bucket",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 11395,
+                  "character_end": 11423,
+                  "line_start": 299
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-066810B8267A",
+            "local_theme_id": "LT-072A46F80581",
+            "conclusion": "Anticipation of Fed rate cuts is not the primary reason for Treasury buybacks.",
+            "premises": [
+              "The market expects a rate cut with 99.4% probability",
+              "Short-term debt is more influenced by Fed cuts than long-term debt",
+              "The government is shifting debt to the short end to take advantage",
+              "But the debt is so large that this cannot be primary"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-B2B2DD45C321",
+                "item": "the odds of a rate cut by the Federal Reserve at the next meeting are at currently at 99.4%",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided; numerical probability claim.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "the odds of a rate cut by the Federal Reserve at the next meeting are at currently at 99.4%",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8A2E89A6A576",
+                "item": "six-month T bills are a lot more closely tied and interchangeable for things that banks do associated with the federal funds rate",
+                "status": "Unverifiable",
+                "verification_basis": "This is an explanation without source.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "six-month T bills are a lot more closely tied and interchangeable for things that banks do associated with the federal funds rate",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-05F7C950FD08",
+                "device": "Paying off mortgage with credit card to use a 0% balance transfer",
+                "explanation": "Illustrates shifting debt to short term to take advantage of lower rates.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "it'd be like paying off some of your mortgage... with a credit card because you know in the mail in a couple of months, you're going to get a 0% introductory rate that you can do a balance transfer with",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7E787274DC8F",
+        "theme": "Primary reason: liquidity support for long-term debt",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6F75E5A8638F",
+            "local_theme_id": "LT-7E787274DC8F",
+            "conclusion": "The primary reason for Treasury buybacks is to provide liquidity support for long-term Treasuries.",
+            "premises": [
+              "Demand for long-term Treasuries is declining; auctions are not going well",
+              "Short-term debt has strong demand",
+              "The Treasury buyback schedule lists 'liquidity support'",
+              "The government needs to ensure that long-term Treasuries remain liquid to maintain confidence"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-73ACFB0373D1",
+                "item": "The Treasury's schedule shows operation type: liquidity support",
+                "status": "Unverifiable",
+                "verification_basis": "Schedule is shown but not quoted; the claim is made by the speaker without excerpt.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "this middle column here which says operation type and it says liquidity support",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-68C4AB8F016B",
+                "item": "Auctions for 10, 20, 30 year government bonds are not going as well as they used to 10, 20, 30 years ago",
+                "status": "Unverifiable",
+                "verification_basis": "No data or citation provided.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "Auctions for 10, 20, 30 year government bonds are not going as well as they used to 10, 20, 30 years ago",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-7E5828C5F768",
+                "item": "Fewer and fewer players show up for long-term auctions",
+                "status": "Unverifiable",
+                "verification_basis": "Qualitative claim without support.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "fewer and fewer players show up",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 14139,
+                  "character_end": 14170,
+                  "line_start": 371
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-53DBF8075522",
+                "device": "Apple buying back used iPhones to maintain price",
+                "explanation": "Analogous to the government buying back bonds to provide a price floor and assure liquidity.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "It'd be similar to Apple wanting to make sure that the price of used iPhones doesn't dip too drastically. And so anytime used iPhones get below a certain price, they step in and they buy up the used iPhones.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1F82EECE4BE7",
+        "theme": "Implications of manufactured demand for debt trustworthiness",
+        "arguments": [
+          {
+            "local_argument_id": "LA-D0D986682E38",
+            "local_theme_id": "LT-1F82EECE4BE7",
+            "conclusion": "The need to manufacture demand for long-term debt raises questions about the trustworthiness and liquidity of US government debt.",
+            "premises": [
+              "If there were genuine demand, buybacks would not be necessary",
+              "The government is using borrowed funds to support its own debt market",
+              "This cannot continue indefinitely"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7174631F9EE4",
+                "item": "if you have to manufacture demand like this to buy back your own debt by borrowing other debt from other people, how trustworthy is this debt really?",
+                "status": "Verified",
+                "verification_basis": "This is a rhetorical question from the transcript, not a factual claim, but it summarizes the implication.",
+                "speech_id": "SP-1DB5D43DA0C8",
+                "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+                "source_excerpt": "if you have to manufacture demand like this to buy back your own debt by borrowing other debt from other people, how trustworthy is this debt really?",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-683622AB8933",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The budget deficit is $1.6 trillion, which is 7% higher than last year.",
+        "reason": "No source or documentation is provided within the transcript to verify this statistic.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Deficit figures are typically reported by the Treasury but not cited here.",
+        "source_excerpt": "So far year to date, the budget deficit is $1.6 trillion, which is 7% higher than it was same time last year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F8A37CC077D1",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The US government has done about $138 billion worth of buybacks this year.",
+        "reason": "No source is given; later in the transcript a different figure ($184 billion) is mentioned, creating internal inconsistency.",
+        "memory_check": "Contradicted",
+        "memory_note": "Conflicts with later claim of $184 billion year-to-date buybacks.",
+        "source_excerpt": "they've done about $138 billion worth of buybacks this year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C142FF911ACE",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "In 2024, it was only about $80 billion total for the whole year.",
+        "reason": "No source provided; later the transcript says 'Last year, they did about $70 billion', creating internal inconsistency.",
+        "memory_check": "Contradicted",
+        "memory_note": "Conflicts with later claim of $70 billion for last year.",
+        "source_excerpt": "whereas in 2024 it was only about $80 billion total for the whole year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C6021B774061",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "Year to date, it's about $184 billion.",
+        "reason": "No source provided; contradicts earlier figure of $138 billion.",
+        "memory_check": "Contradicted",
+        "memory_note": "Conflicts with earlier claim of $138 billion year-to-date buybacks.",
+        "source_excerpt": "Year to date, it's about $184 billion",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3A0536676F8F",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "Last year, they did about $70 billion.",
+        "reason": "No source provided; contradicts earlier claim of $80 billion for 2024.",
+        "memory_check": "Contradicted",
+        "memory_note": "Conflicts with earlier claim of $80 billion for 2024.",
+        "source_excerpt": "Last year, they did about $70 billion",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FA73F8B683C8",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "From 2003 to 2013, there were absolutely zero buybacks whatsoever.",
+        "reason": "No historical data or source is cited to support this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical buyback data is not provided in the transcript.",
+        "source_excerpt": "from 2003 to 2013, there were absolutely zero buybacks whatsoever",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BDB74C57E8F8",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The yield on the current 10-year US Treasury bond right now is 4.1%.",
+        "reason": "No source or time stamp provided; yields change constantly.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Yield quoted without attribution.",
+        "source_excerpt": "The yield on the current 10-year US Treasury bond right now is 4.1%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2CE45E994B9D",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The 30-year Treasury bond is 4.8%.",
+        "reason": "No source or time stamp provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Yield quoted without attribution.",
+        "source_excerpt": "The 30-year Treasury bond is 4.8%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 2826,
+          "character_end": 2860,
+          "line_start": 76
+        }
+      },
+      {
+        "unverifiable_id": "UV-52D48F6032BB",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The six-month T-bill is at 3.96%.",
+        "reason": "No source or time stamp provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Yield quoted without attribution.",
+        "source_excerpt": "the 6 month right now, it's down at 3.96%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-781769A56093",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The one-year T-bill is at 3.7%.",
+        "reason": "No source or time stamp provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Yield quoted without attribution.",
+        "source_excerpt": "One year is at 3.7%",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 10552,
+          "character_end": 10571,
+          "line_start": 277
+        }
+      },
+      {
+        "unverifiable_id": "UV-83034E02D985",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The odds of a rate cut by the Federal Reserve at the next meeting are 99.4%.",
+        "reason": "No source or calculation method provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Market probability claim without attribution.",
+        "source_excerpt": "the odds of a rate cut by the Federal Reserve at the next meeting are at currently at 99.4%",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3F67B53083BF",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The national debt is $37 trillion.",
+        "reason": "No source or time stamp provided; debt total changes over time.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Debt figure quoted without source.",
+        "source_excerpt": "the US government owes $37 trillion",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3026D34CFEC4",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "Auctions for 10, 20, 30 year government bonds are not going as well as they used to 10, 20, 30 years ago.",
+        "reason": "No comparative data or analysis is provided to support this claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Qualitative claim without evidence.",
+        "source_excerpt": "Auctions for 10, 20, 30 year government bonds are not going as well as they used to 10, 20, 30 years ago.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-00AF2BDE82AE",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "Fewer and fewer players show up for long-term auctions.",
+        "reason": "No data or participant statistics provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Qualitative claim without evidence.",
+        "source_excerpt": "fewer and fewer players show up",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 14139,
+          "character_end": 14170,
+          "line_start": 371
+        }
+      },
+      {
+        "unverifiable_id": "UV-7AF172D48F3F",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "There is currently still a ton of demand for short-term debt like T bills.",
+        "reason": "No data or evidence is given to quantify demand.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Qualitative claim without evidence.",
+        "source_excerpt": "there is currently still a ton of demand for short-term debt like T bills",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-F71ACEF0E94D",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The Fed's balance sheet has been declining for a couple of years.",
+        "reason": "No balance sheet data or source is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim about Fed balance sheet trend without evidence.",
+        "source_excerpt": "Their balance sheet has been declining for a couple of years now",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-49DF362B1BDD",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "speech_ref": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "claim": "The Treasury buyback schedule lists operation type as 'liquidity support'.",
+        "reason": "The schedule is shown visually but not excerpted as text; the claim is made by the speaker.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim about a document shown but not quoted.",
+        "source_excerpt": "this middle column here which says operation type and it says liquidity support",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The US Treasury is accelerating buybacks primarily to provide liquidity support for long-term debt amid waning demand, financed by short-term borrowing, which ultimately raises concerns about the trustworthiness of US government debt.",
+      "themes": [
+        "Mechanics and net effect of Treasury buybacks",
+        "Secondary reasons for Treasury buybacks",
+        "Primary reason: liquidity support for long-term debt",
+        "Implications of manufactured demand for debt trustworthiness"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 17
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "5fc2c72a7e959c019c08825f9206d82dcfacd6f323488b3d0023ec66e833a4e3",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "5212f619896cc28a2774b950b8c732f221e28180cd0d0d7957ae0917d2021e07",
+    "canonical_mapping": {
+      "speech_id": "SP-1DB5D43DA0C8",
+      "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.75,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+      "primary_cc_rationale": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T91",
+        "T119",
+        "T98"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T91",
+          "confidence": 0.6,
+          "source_local_theme_id": "LT-69EFBAE7C34D",
+          "rationale": "Discusses the mechanics and net effect of Treasury buybacks, which directly pertain to Treasury market dynamics and fiscal debt concerns."
+        },
+        {
+          "theme_id": "T119",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-7E787274DC8F",
+          "rationale": "Identifies liquidity support for long-term debt as the primary reason for buybacks, directly linking to monetary policy and liquidity conditions."
+        },
+        {
+          "theme_id": "T98",
+          "confidence": 0.65,
+          "source_local_theme_id": "LT-1F82EECE4BE7",
+          "rationale": "Raises concerns about the trustworthiness of US government debt due to manufactured demand, a key aspect of government debt management and fiscal policy."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T91",
+          "cc_id": "CC50",
+          "theme_id": "T91",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T119",
+          "cc_id": "CC50",
+          "theme_id": "T119",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC50-T98",
+          "cc_id": "CC50",
+          "theme_id": "T98",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "local_cc_text": "The US Treasury is accelerating buybacks primarily to provide liquidity support for long-term debt amid waning demand, financed by short-term borrowing, which ultimately raises concerns about the trustworthiness of US government debt.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.75,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "rationale": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5200426578521729
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.48543432354927063
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.434469997882843
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.39192330837249756
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.31916317343711853
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "local_theme_id": "LT-69EFBAE7C34D",
+        "local_theme_text": "Mechanics and net effect of Treasury buybacks",
+        "canonical_theme_id": "T91",
+        "confidence": 0.6,
+        "rationale": "Discusses the mechanics and net effect of Treasury buybacks, which directly pertain to Treasury market dynamics and fiscal debt concerns.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.31777310371398926
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.2885129749774933
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.2758277356624603
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.26588374376296997
+          },
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.26151832938194275
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.21272240579128265
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "local_theme_id": "LT-072A46F80581",
+        "local_theme_text": "Secondary reasons for Treasury buybacks",
+        "canonical_theme_id": "T91",
+        "confidence": 0.6,
+        "rationale": "Addresses and dismisses secondary reasons for buybacks, situating them within the broader context of Treasury market and debt management.",
+        "candidate_matches": [
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.35755085945129395
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.34033945202827454
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.29068684577941895
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.28552207350730896
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.27478939294815063
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.2224198877811432
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "local_theme_id": "LT-7E787274DC8F",
+        "local_theme_text": "Primary reason: liquidity support for long-term debt",
+        "canonical_theme_id": "T119",
+        "confidence": 0.7,
+        "rationale": "Identifies liquidity support for long-term debt as the primary reason for buybacks, directly linking to monetary policy and liquidity conditions.",
+        "candidate_matches": [
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.40207532048225403
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.3072420358657837
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.30517256259918213
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.25331375002861023
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.25154224038124084
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.25023117661476135
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "local_theme_id": "LT-1F82EECE4BE7",
+        "local_theme_text": "Implications of manufactured demand for debt trustworthiness",
+        "canonical_theme_id": "T98",
+        "confidence": 0.65,
+        "rationale": "Raises concerns about the trustworthiness of US government debt due to manufactured demand, a key aspect of government debt management and fiscal policy.",
+        "candidate_matches": [
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.4797426462173462
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.3832901120185852
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.3731476068496704
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.37045156955718994
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.35511940717697144
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3469911813735962
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-8F70750FB82611",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "date": "2025-09-08",
+        "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-69EFBAE7C34D",
+        "local_theme_text": "Mechanics and net effect of Treasury buybacks",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "Discusses the mechanics and net effect of Treasury buybacks, which directly pertain to Treasury market dynamics and fiscal debt concerns.",
+        "local_argument_id": "LA-B1B7E1977974",
+        "conclusion": "Treasury buybacks have no net effect on the financial system because borrowing replaces retired debt.",
+        "premises": [
+          "The government runs a deficit and must borrow to finance buybacks",
+          "The borrowed money is used to retire existing debt",
+          "Thus total debt outstanding remains the same"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-EA8F611F62BF",
+            "item": "The net effect on the financial system itself, on the economy itself is zero.",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly states this as an explanation.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "the net effect on the financial system itself, on the economy itself is zero",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-6D7268675855",
+            "item": "So far year to date, the budget deficit is $1.6 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided; it is a numerical claim.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "So far year to date, the budget deficit is $1.6 trillion",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-E97DEF1F71E6",
+            "device": "Using a credit card to pay off a mortgage early",
+            "explanation": "Illustrates borrowing short-term to pay off long-term debt, resulting in net debt unchanged.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "This would be the exact same thing as you using a credit card to pay off your mortgage early.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "device_id": "RD-C78D8964989A",
+            "device": "Borrowing from Peter to pay Paul",
+            "explanation": "Metaphor for no net change in debts.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "borrowing from Peter to pay Paul",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 7997,
+              "character_end": 8029,
+              "line_start": 210
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-E42B863A463530",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "date": "2025-09-08",
+        "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-072A46F80581",
+        "local_theme_text": "Secondary reasons for Treasury buybacks",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "Addresses and dismisses secondary reasons for buybacks, situating them within the broader context of Treasury market and debt management.",
+        "local_argument_id": "LA-649E51DF07AF",
+        "conclusion": "Interest rate savings is not the primary reason for Treasury buybacks.",
+        "premises": [
+          "Year-to-date buybacks are about $184 billion",
+          "Total national debt is $37 trillion",
+          "Even if buybacks were 10x more, they would still be a small fraction of total debt"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-148D4962D3B0",
+            "item": "Year to date, it's about $184 billion",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided; numerical claim.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "Year to date, it's about $184 billion",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-1AF7B0E29514",
+            "item": "Even if they were to 10x the amount of Treasury buybacks they were doing, it would still make a very small dent in the overall debt that they hold",
+            "status": "Unverifiable",
+            "verification_basis": "It is a qualitative opinion based on unverifiable numbers.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "Even if they were to 10x the amount of Treasury buybacks they were doing, it would still make a very small dent in the overall debt that they hold",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-EA3D8C8A31C1",
+            "device": "Drop in the bucket",
+            "explanation": "Indicates insignificant impact relative to total debt.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "This is a drop in the bucket",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 11395,
+              "character_end": 11423,
+              "line_start": 299
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-0C7B2939B124E3",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "date": "2025-09-08",
+        "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+        "pair_id": "PAIR-CC50-T91",
+        "cc_id": "CC50",
+        "theme_id": "T91",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-072A46F80581",
+        "local_theme_text": "Secondary reasons for Treasury buybacks",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "Addresses and dismisses secondary reasons for buybacks, situating them within the broader context of Treasury market and debt management.",
+        "local_argument_id": "LA-066810B8267A",
+        "conclusion": "Anticipation of Fed rate cuts is not the primary reason for Treasury buybacks.",
+        "premises": [
+          "The market expects a rate cut with 99.4% probability",
+          "Short-term debt is more influenced by Fed cuts than long-term debt",
+          "The government is shifting debt to the short end to take advantage",
+          "But the debt is so large that this cannot be primary"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-B2B2DD45C321",
+            "item": "the odds of a rate cut by the Federal Reserve at the next meeting are at currently at 99.4%",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided; numerical probability claim.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "the odds of a rate cut by the Federal Reserve at the next meeting are at currently at 99.4%",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8A2E89A6A576",
+            "item": "six-month T bills are a lot more closely tied and interchangeable for things that banks do associated with the federal funds rate",
+            "status": "Unverifiable",
+            "verification_basis": "This is an explanation without source.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "six-month T bills are a lot more closely tied and interchangeable for things that banks do associated with the federal funds rate",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-05F7C950FD08",
+            "device": "Paying off mortgage with credit card to use a 0% balance transfer",
+            "explanation": "Illustrates shifting debt to short term to take advantage of lower rates.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "it'd be like paying off some of your mortgage... with a credit card because you know in the mail in a couple of months, you're going to get a 0% introductory rate that you can do a balance transfer with",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-0D8766F52614A7",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "date": "2025-09-08",
+        "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+        "pair_id": "PAIR-CC50-T119",
+        "cc_id": "CC50",
+        "theme_id": "T119",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7E787274DC8F",
+        "local_theme_text": "Primary reason: liquidity support for long-term debt",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Identifies liquidity support for long-term debt as the primary reason for buybacks, directly linking to monetary policy and liquidity conditions.",
+        "local_argument_id": "LA-6F75E5A8638F",
+        "conclusion": "The primary reason for Treasury buybacks is to provide liquidity support for long-term Treasuries.",
+        "premises": [
+          "Demand for long-term Treasuries is declining; auctions are not going well",
+          "Short-term debt has strong demand",
+          "The Treasury buyback schedule lists 'liquidity support'",
+          "The government needs to ensure that long-term Treasuries remain liquid to maintain confidence"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-73ACFB0373D1",
+            "item": "The Treasury's schedule shows operation type: liquidity support",
+            "status": "Unverifiable",
+            "verification_basis": "Schedule is shown but not quoted; the claim is made by the speaker without excerpt.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "this middle column here which says operation type and it says liquidity support",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-68C4AB8F016B",
+            "item": "Auctions for 10, 20, 30 year government bonds are not going as well as they used to 10, 20, 30 years ago",
+            "status": "Unverifiable",
+            "verification_basis": "No data or citation provided.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "Auctions for 10, 20, 30 year government bonds are not going as well as they used to 10, 20, 30 years ago",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-7E5828C5F768",
+            "item": "Fewer and fewer players show up for long-term auctions",
+            "status": "Unverifiable",
+            "verification_basis": "Qualitative claim without support.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "fewer and fewer players show up",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 14139,
+              "character_end": 14170,
+              "line_start": 371
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-53DBF8075522",
+            "device": "Apple buying back used iPhones to maintain price",
+            "explanation": "Analogous to the government buying back bonds to provide a price floor and assure liquidity.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "It'd be similar to Apple wanting to make sure that the price of used iPhones doesn't dip too drastically. And so anytime used iPhones get below a certain price, they step in and they buy up the used iPhones.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-91FA567E1BD374",
+        "speech_id": "SP-1DB5D43DA0C8",
+        "filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+        "date": "2025-09-08",
+        "source_hash": "165a16fea4577edc0bafd28e92e804161ff11c3fb30c12d8ec8c78d70045eafe",
+        "pair_id": "PAIR-CC50-T98",
+        "cc_id": "CC50",
+        "theme_id": "T98",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech presents Treasury buybacks as a concrete policy aimed at supporting government borrowing, directly instantiating CC50's broader claim that the Treasury and Fed implement policies to support government borrowing.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-1F82EECE4BE7",
+        "local_theme_text": "Implications of manufactured demand for debt trustworthiness",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "Raises concerns about the trustworthiness of US government debt due to manufactured demand, a key aspect of government debt management and fiscal policy.",
+        "local_argument_id": "LA-D0D986682E38",
+        "conclusion": "The need to manufacture demand for long-term debt raises questions about the trustworthiness and liquidity of US government debt.",
+        "premises": [
+          "If there were genuine demand, buybacks would not be necessary",
+          "The government is using borrowed funds to support its own debt market",
+          "This cannot continue indefinitely"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7174631F9EE4",
+            "item": "if you have to manufacture demand like this to buy back your own debt by borrowing other debt from other people, how trustworthy is this debt really?",
+            "status": "Verified",
+            "verification_basis": "This is a rhetorical question from the transcript, not a factual claim, but it summarizes the implication.",
+            "speech_id": "SP-1DB5D43DA0C8",
+            "source_speech_filename": "20250908_The Real Reason The Treasury is Buying Back So Much Debt.txt",
+            "source_excerpt": "if you have to manufacture demand like this to buy back your own debt by borrowing other debt from other people, how trustworthy is this debt really?",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "5fc2c72a7e959c019c08825f9206d82dcfacd6f323488b3d0023ec66e833a4e3",
+  "complete": true
+}

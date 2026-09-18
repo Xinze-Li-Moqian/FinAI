@@ -1,0 +1,1425 @@
+{
+  "dependencies": {
+    "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+    "phase1_record_hash": "6540b0ba78a96f2e10a1148229f67c9da7b9bb93d4b227912a6177f3209cc78e",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-F9BA8D69C876",
+    "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+    "stem": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty",
+    "date": "2025-11-21",
+    "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+    "source_character_count": 15646,
+    "central_claim": "AI can neither solve poverty nor create poverty, because poverty is relative, follows a power distribution, is the default state of humanity, and human desires are infinite.",
+    "themes": [
+      {
+        "local_theme_id": "LT-57B1CB1E973A",
+        "theme": "Market sentiment and AI bubble",
+        "arguments": [
+          {
+            "local_argument_id": "LA-753387D482D6",
+            "local_theme_id": "LT-57B1CB1E973A",
+            "conclusion": "Current market fear about an AI bubble is overblown and likely marks a bottom rather than the start of a bear market.",
+            "premises": [
+              "The Fear and Greed Index is at 11, a level last seen in April 2025 when the NASDAQ saw a 25% crash, yet the current correction is only 7%.",
+              "Warren Buffett's Berkshire Hathaway has bought Google stock, indicating confidence in AI rather than exit from a bubble.",
+              "Warren Buffett's historical aversion to technology stocks and his tendency to buy at market bottoms suggest this is not a bubble peak."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-477F238F5D5C",
+                "item": "Fear and Greed Index reading of 11",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript states the number but provides no external source or methodology to verify the index value.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "The Fear and Greed Index as of the time of this recording is sitting at 11.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EAC36A16038D",
+                "item": "NASDAQ 25% crash in April 2025",
+                "status": "Unverifiable",
+                "verification_basis": "No data or citation is provided to support this historical figure.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "during April 2025 the NAS DAQ saw a 25% crash from top to bottom.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-FAF836ADE878",
+                "item": "NASDAQ 7% correction so far",
+                "status": "Unverifiable",
+                "verification_basis": "No data or citation is provided to support this figure.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "So far right now, the NASDAQ has seen a 7% correction from top to bottom so far.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8D0B4F4431B2",
+                "item": "Berkshire Hathaway bought Google stock",
+                "status": "Unverifiable",
+                "verification_basis": "No source or transaction record is cited.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Warren Buffett's Berkshire Hathaway just bought Google stock.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-085AD2EE8997",
+                "item": "Michael Burry exiting AI and tweeting about it being a bubble",
+                "status": "Unverifiable",
+                "verification_basis": "No verification of Burry's current positions or tweets is provided.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "legendary investors like Michael Burry, who famously shorted the housing market prior to the financial crisis, who is exiting AI and tweeting constantly about how it's a bubble, fraud, and about to collapse.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-00BACD77EB98",
+        "theme": "AI as technology",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FC19EE0F079A",
+            "local_theme_id": "LT-00BACD77EB98",
+            "conclusion": "AI is just another tool that amplifies human output, removing human labor as a constraint and making resources the new constraint, without fundamentally changing human work or replacing all jobs.",
+            "premises": [
+              "Tools amplify human output, giving more output for the same or less input.",
+              "AI is a tool, qualitatively no different from animals in farming, tractors, steam engines, or the internet.",
+              "Throughout history, new technologies have increased wealth and output without eliminating human labor entirely."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-B1581336ED36",
+                "item": "Examples of past technologies: animals in farming, tractors, steam engines, coal, oil, airplanes, internet",
+                "status": "Verified",
+                "verification_basis": "The transcript lists these technologies as examples; they are common historical knowledge and internally coherent.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "When we started incorporating animals in farming to take over human labor... When we started using tractors, when we got steam engines and coal and oil and airplanes and the internet",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-D6AED08929EA",
+                "item": "Claim that all technologies allow more output for same input",
+                "status": "Unverifiable",
+                "verification_basis": "A general assertion without quantitative support.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Tools are simply things that amplify human output. For the same or even less human labor input, we get more out the other end.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-81729B42DAF2",
+                "device": "Historical technology progression analogy",
+                "explanation": "Compares AI to previous transformative technologies to argue that AI is not qualitatively unique and will follow a similar pattern of augmentation rather than replacement.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "AI is just technology. It's just software. It's a tool. Qualitatively, categorically, it is no different than any other technology or tool that humans have ever invented or used.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0D83A47BA4F1",
+        "theme": "Relative nature of poverty",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1D5BB8C553A8",
+            "local_theme_id": "LT-0D83A47BA4F1",
+            "conclusion": "Poverty is relative, so even if AI creates vast wealth, there will always be a poor segment relative to the rich, and thus AI cannot eliminate poverty.",
+            "premises": [
+              "Today's poorest 10% live better than kings of previous centuries, yet they are still considered poor.",
+              "Human desire is unlimited, so no matter how much is produced, some will have less than others."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-516DB78D2380",
+                "item": "Poorest 10% today live better than kings a few hundred years ago",
+                "status": "Unverifiable",
+                "verification_basis": "A broad historical comparison without specific data.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Today, the poorest 10% live better, have more wealth, live better quality lives than even kings did, even just a couple hundred years ago, and definitely all through history before that.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-DC4086C22049",
+                "item": "Minimum wage employees have cars, streaming services, delivery, air conditioning, hot water",
+                "status": "Unverifiable",
+                "verification_basis": "Generalized claim without statistics or citations.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Today, minimum wage employees have cars... They have entertainment like Spotify and Netflix on demand for basically free. They have DoorDash... air conditioning and running hot water.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-A23E509D33DB",
+                "item": "Obesity is a major problem among the poor and homeless",
+                "status": "Unverifiable",
+                "verification_basis": "A factual claim without supporting data.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "It's telling that one of the biggest problems among very poor and even homeless people is that they are sick from being obese.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D2867983DC17",
+        "theme": "Power law distribution of wealth",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0C0B5374902A",
+            "local_theme_id": "LT-D2867983DC17",
+            "conclusion": "Wealth inequality is an immutable natural law because wealth follows a power law (Pareto) distribution, which cannot be altered by any economic or political system, including AI.",
+            "premises": [
+              "Systems where interactions produce or destroy value follow power law distributions, not normal distributions.",
+              "Examples from nature and society confirm that a small minority holds the majority of value."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A43EE096CB6A",
+                "item": "10% of galaxies hold 90% of stars",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for this astronomical statistic.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "If you look at the number of stars in galaxies, about 10% of the galaxies hold about 90% of the stars.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4729E0AA7B35",
+                "item": "10% of cities hold 90% of human population",
+                "status": "Unverifiable",
+                "verification_basis": "No demographic source cited.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "10% of the cities on Earth hold about 90% of human population.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-78E522B89398",
+                "item": "10% of people hold 90% of wealth",
+                "status": "Unverifiable",
+                "verification_basis": "No source for wealth distribution data.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "10% of people hold about 90% of the wealth.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-76F0C00018E4",
+                "item": "10% of musicians are listened to 90% of the time",
+                "status": "Unverifiable",
+                "verification_basis": "No data or study cited.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "10% of musicians are listened to, their music is listened to about 90% of the time.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-6233B45DE252",
+                "device": "Weight distribution vs wealth distribution analogy",
+                "explanation": "Uses human weight as an example of a normal distribution to contrast with the power law distribution of wealth, illustrating why inequality is structural.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Some things in life are normally distributed... you can think of like human weight as an example of this. ... But anytime you have a system where interaction between parts in the system do have exchanges that result in production or destruction, those systems follow power law distributions.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3AF4AB394208",
+        "theme": "Poverty as default state",
+        "arguments": [
+          {
+            "local_argument_id": "LA-834C49C1E7AD",
+            "local_theme_id": "LT-3AF4AB394208",
+            "conclusion": "Poverty is the natural default condition of humanity, and AI cannot eliminate it because scarcity is inherent and overcoming it requires constant human effort.",
+            "premises": [
+              "Humans are born with nothing and leave with nothing; all we consume must be produced.",
+              "Resources are useless without human labor and ingenuity.",
+              "The world is naturally scarce and chaotic, not abundant."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-565A43E1015B",
+                "item": "Amazon rainforest was farmed by ancient people, not naturally abundant",
+                "status": "Unverifiable",
+                "verification_basis": "A historical claim without citation.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Even places like the Amazon rainforest, they have discovered now was farmed. That is an orchard from ancient people.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-11023C24F05F",
+                "item": "Sand and lightning turned into computers through human effort",
+                "status": "Unverifiable",
+                "verification_basis": "A metaphorical example, not a specific factual claim.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "The sand on the beach, the lightning in the sky, by themselves are useless. But through sheer force of will, aggressive action, and ingenuity, people have figured out how to take that lightning and shove it into the sand and create computers.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-A8FE149E4A67",
+                "device": "Biblical dust-to-dust and sweat-of-brow reference",
+                "explanation": "Used to illustrate that humans must labor to produce from a state of scarcity and poverty is the natural default.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "From the dust you were born into the dust you shall return and it is only by the sweat of our brow and our toil that we labor and produce what we can consume.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D0C260EBCB7A",
+        "theme": "Infinite human desires",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5D898C411D10",
+            "local_theme_id": "LT-D0C260EBCB7A",
+            "conclusion": "AI will not make work optional or eliminate the need to work because humans have unlimited desires and will always find new things to produce and consume.",
+            "premises": [
+              "Even the poorest today desire much more than they have, despite having better living standards than past elites.",
+              "New jobs and industries constantly emerge as old ones disappear."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-083464DC1530",
+                "item": "Many jobs today were unpredictable 30 years ago, e.g., the speaker's own job",
+                "status": "Unverifiable",
+                "verification_basis": "A general claim without specific labor market data.",
+                "speech_id": "SP-F9BA8D69C876",
+                "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+                "source_excerpt": "Look at the jobs that exist today. Nobody could have predicted a lot of the jobs that exist today 30 years ago. The internet itself destroyed a ton of jobs and it created way more. Just look at what I do. What I do could not have been a job 30 or 40 years ago.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0FBB1014480B",
+        "theme": "Commodities as future investment opportunity",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0F57869C314C",
+            "local_theme_id": "LT-0FBB1014480B",
+            "conclusion": "Commodities, energy, and materials will become the most valuable assets as AI removes human labor as the primary constraint on production.",
+            "premises": [
+              "When human labor is no longer the bottleneck, physical resources become the binding constraint.",
+              "This shift will make resource-related investments highly profitable."
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-E59117D28CF8",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "The Fear and Greed Index is at 11.",
+        "reason": "No methodology or external verification is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common financial indices exist, but no source is given.",
+        "source_excerpt": "The Fear and Greed Index as of the time of this recording is sitting at 11.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C2418921CA9B",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "The last time the Fear and Greed Index was this low was April 2025.",
+        "reason": "No historical chart or data is referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "If we look at the historical chart for this Fear and Greed Index, we can see the last time it had a reading this low was April of 2025.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A91BEC4D4385",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "During April 2025 the NASDAQ saw a 25% crash from top to bottom.",
+        "reason": "No data or citation is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "during April 2025 the NAS DAQ saw a 25% crash from top to bottom.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E8CE0B11CD42",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Currently the NASDAQ has seen a 7% correction.",
+        "reason": "No source for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "the NASDAQ has seen a 7% correction from top to bottom so far.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-CA4100DF3B52",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Warren Buffett's Berkshire Hathaway just bought Google stock.",
+        "reason": "No transaction record or announcement is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "Warren Buffett's Berkshire Hathaway just bought Google stock.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0450ACECE5D1",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Michael Burry is exiting AI and tweeting about it being a bubble.",
+        "reason": "No link, tweet, or portfolio change is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "legendary investors like Michael Burry, who famously shorted the housing market prior to the financial crisis, who is exiting AI and tweeting constantly about how it's a bubble, fraud, and about to collapse.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-84816B3C4F0C",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Elon Musk predicted AI will lead to work being optional, money irrelevant, and poverty eliminated.",
+        "reason": "No interview source or quote is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common knowledge of Musk’s statements, but no verification in transcript.",
+        "source_excerpt": "In a recent interview, Elon Musk, who runs X AI, Twitter, SpaceX, Tesla, and others, predicted that AI is going to lead to work being optional. It will cause money to be irrelevant and that it will eliminate poverty.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-7092B71029E7",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Jesus told his disciples, 'The poor will always be among you.'",
+        "reason": "No biblical citation is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a biblical quote (Matthew 26:11, etc.), but no reference is given.",
+        "source_excerpt": "There's a reason why Jesus told his disciples, 'The poor will always be among you.'",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-9178F4790041",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Today the poorest 10% live better than kings did a couple hundred years ago.",
+        "reason": "No comparative living standard data is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "Today, the poorest 10% live better, have more wealth, live better quality lives than even kings did, even just a couple hundred years ago.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-6E7D0046AF64",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Minimum wage employees have cars, Netflix, Spotify, DoorDash, air conditioning, and running hot water.",
+        "reason": "No survey or data is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "Today, minimum wage employees have cars... They have entertainment like Spotify and Netflix on demand for basically free. They have DoorDash... air conditioning and running hot water.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-C785B803182B",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "One of the biggest problems among poor and homeless is obesity.",
+        "reason": "No health statistics are cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "It's telling that one of the biggest problems among very poor and even homeless people is that they are sick from being obese.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ACBD951B8F10",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "There has never been an economic or political system that has been able to change the Pareto distribution of wealth.",
+        "reason": "No historical evidence is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "And there has never been an economic system or a political system in history that has been able to change this because it is not a result of the rules",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FF5DAC8108B0",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "10% of galaxies hold 90% of stars.",
+        "reason": "No astronomical source is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "if you look at the number of stars in galaxies, about 10% of the galaxies hold about 90% of the stars.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-DADE5D8F3099",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "10% of cities hold 90% of human population.",
+        "reason": "No demographic source is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "10% of the cities on Earth hold about 90% of human population.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1EC4E3D484C7",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "10% of people hold 90% of wealth.",
+        "reason": "No economic report is referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "10% of people hold about 90% of the wealth.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-50ABA5F30B3A",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "10% of musicians are listened to 90% of the time.",
+        "reason": "No streaming data or study is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "10% of musicians are listened to, their music is listened to about 90% of the time.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-60E66A31C010",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "The Amazon rainforest was farmed by ancient people.",
+        "reason": "No archaeological or historical source is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "Even places like the Amazon rainforest, they have discovered now was farmed.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0E980361ECE6",
+        "speech_id": "SP-F9BA8D69C876",
+        "speech_ref": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "claim": "Jobs that exist today could not have been predicted 30 years ago.",
+        "reason": "No labor market analysis is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific basis.",
+        "source_excerpt": "Nobody could have predicted a lot of the jobs that exist today 30 years ago.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "AI can neither solve poverty nor create poverty, because poverty is relative, follows a power distribution, is the default state of humanity, and human desires are infinite.",
+      "themes": [
+        "Market sentiment and AI bubble",
+        "AI as technology",
+        "Relative nature of poverty",
+        "Power law distribution of wealth",
+        "Poverty as default state",
+        "Infinite human desires",
+        "Commodities as future investment opportunity"
+      ],
+      "argument_count": 7,
+      "unverifiable_count": 18
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "072a68cd46d6551a798ec5be759abdade79aeb494318357b8204df0134fb2e63",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "6540b0ba78a96f2e10a1148229f67c9da7b9bb93d4b227912a6177f3209cc78e",
+    "canonical_mapping": {
+      "speech_id": "SP-F9BA8D69C876",
+      "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC37",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+      "primary_cc_rationale": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T139",
+        "T69",
+        "T6"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T139",
+          "confidence": 0.72,
+          "source_local_theme_id": "LT-0D83A47BA4F1",
+          "rationale": "Local theme 'Relative nature of poverty' maps directly to 'Wealth inequality, poverty, and consumption' which encompasses poverty and its relativity."
+        },
+        {
+          "theme_id": "T69",
+          "confidence": 0.58,
+          "source_local_theme_id": "LT-00BACD77EB98",
+          "rationale": "Local theme 'AI as technology' maps to 'Artificial intelligence in financial markets' as it covers AI's role in economic contexts, despite the speech not being strictly financial; it's the closest fit among candidates."
+        },
+        {
+          "theme_id": "T6",
+          "confidence": 0.96,
+          "source_local_theme_id": "LT-0FBB1014480B",
+          "rationale": "Local theme 'Commodities as future investment opportunity' is an exact match to canonical theme 'Commodities as investment opportunities'."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC37-T139",
+          "cc_id": "CC37",
+          "theme_id": "T139",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC37-T69",
+          "cc_id": "CC37",
+          "theme_id": "T69",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC37-T6",
+          "cc_id": "CC37",
+          "theme_id": "T6",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_cc_text": "AI can neither solve poverty nor create poverty, because poverty is relative, follows a power distribution, is the default state of humanity, and human desires are infinite.",
+        "canonical_cc_id": "CC37",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "rationale": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "candidate_matches": [
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.7246016263961792
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.5053966045379639
+          },
+          {
+            "id": "CC56",
+            "text": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+            "similarity": 0.31460386514663696
+          },
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.2705725431442261
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.26176774501800537
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-57B1CB1E973A",
+        "local_theme_text": "Market sentiment and AI bubble",
+        "canonical_theme_id": "T115",
+        "confidence": 0.64,
+        "rationale": "Local theme about market sentiment and AI bubble maps well to canonical theme 'Market sentiment and technology' which directly addresses market sentiment in the context of technology.",
+        "candidate_matches": [
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.6406283378601074
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.5959722995758057
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.5521692037582397
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.46115294098854065
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.3971395492553711
+          },
+          {
+            "id": "T138",
+            "text": "US market outperformance and global recession risk",
+            "similarity": 0.34174761176109314
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-00BACD77EB98",
+        "local_theme_text": "AI as technology",
+        "canonical_theme_id": "T69",
+        "confidence": 0.58,
+        "rationale": "Local theme 'AI as technology' maps to 'Artificial intelligence in financial markets' as it covers AI's role in economic contexts, despite the speech not being strictly financial; it's the closest fit among candidates.",
+        "candidate_matches": [
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.5799190998077393
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.4571755826473236
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.2482203245162964
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.24517135322093964
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.22416596114635468
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.21984770894050598
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-0D83A47BA4F1",
+        "local_theme_text": "Relative nature of poverty",
+        "canonical_theme_id": "T139",
+        "confidence": 0.72,
+        "rationale": "Local theme 'Relative nature of poverty' maps directly to 'Wealth inequality, poverty, and consumption' which encompasses poverty and its relativity.",
+        "candidate_matches": [
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.7196288704872131
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.5163207650184631
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.43188270926475525
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.42389750480651855
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.39704081416130066
+          },
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.380977600812912
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-D2867983DC17",
+        "local_theme_text": "Power law distribution of wealth",
+        "canonical_theme_id": "T139",
+        "confidence": 0.4,
+        "rationale": "Local theme 'Power law distribution of wealth' relates to wealth inequality, which is covered by T139. While not a perfect match, it is the most relevant canonical theme.",
+        "candidate_matches": [
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.4308221936225891
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.387398362159729
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.35302138328552246
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.3228791654109955
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.29204848408699036
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.2811887860298157
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-3AF4AB394208",
+        "local_theme_text": "Poverty as default state",
+        "canonical_theme_id": "T139",
+        "confidence": 0.4,
+        "rationale": "Local theme 'Poverty as default state' is about poverty and scarcity, which falls under T139's scope of poverty and consumption.",
+        "candidate_matches": [
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.44029223918914795
+          },
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.4208611845970154
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.41694319248199463
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.3905743956565857
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.3896431028842926
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.38477370142936707
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-D0C260EBCB7A",
+        "local_theme_text": "Infinite human desires",
+        "canonical_theme_id": "T132",
+        "confidence": 0.25,
+        "rationale": "Local theme 'Infinite human desires' relates to the subjective nature of value and wants, which is loosely captured by T132 'Subjective and ordinal nature of value', though with low similarity.",
+        "candidate_matches": [
+          {
+            "id": "T132",
+            "text": "Subjective and ordinal nature of value",
+            "similarity": 0.24652713537216187
+          },
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.24372531473636627
+          },
+          {
+            "id": "T116",
+            "text": "Market speculation and asset bubbles",
+            "similarity": 0.24156920611858368
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.21736541390419006
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.21584856510162354
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.2073860764503479
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "local_theme_id": "LT-0FBB1014480B",
+        "local_theme_text": "Commodities as future investment opportunity",
+        "canonical_theme_id": "T6",
+        "confidence": 0.96,
+        "rationale": "Local theme 'Commodities as future investment opportunity' is an exact match to canonical theme 'Commodities as investment opportunities'.",
+        "candidate_matches": [
+          {
+            "id": "T6",
+            "text": "Commodities as investment opportunities",
+            "similarity": 0.9587223529815674
+          },
+          {
+            "id": "T76",
+            "text": "Commodities and supply-demand fundamentals",
+            "similarity": 0.5734723210334778
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.41813743114471436
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.3527149260044098
+          },
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.3188278079032898
+          },
+          {
+            "id": "T10",
+            "text": "Economic disruption from oil shock",
+            "similarity": 0.3065432906150818
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-A127FC377BFE78",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "date": "2025-11-21",
+        "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+        "pair_id": "PAIR-CC37-T69",
+        "cc_id": "CC37",
+        "theme_id": "T69",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-00BACD77EB98",
+        "local_theme_text": "AI as technology",
+        "theme_mapping_confidence": 0.58,
+        "theme_mapping_rationale": "Local theme 'AI as technology' maps to 'Artificial intelligence in financial markets' as it covers AI's role in economic contexts, despite the speech not being strictly financial; it's the closest fit among candidates.",
+        "local_argument_id": "LA-FC19EE0F079A",
+        "conclusion": "AI is just another tool that amplifies human output, removing human labor as a constraint and making resources the new constraint, without fundamentally changing human work or replacing all jobs.",
+        "premises": [
+          "Tools amplify human output, giving more output for the same or less input.",
+          "AI is a tool, qualitatively no different from animals in farming, tractors, steam engines, or the internet.",
+          "Throughout history, new technologies have increased wealth and output without eliminating human labor entirely."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-B1581336ED36",
+            "item": "Examples of past technologies: animals in farming, tractors, steam engines, coal, oil, airplanes, internet",
+            "status": "Verified",
+            "verification_basis": "The transcript lists these technologies as examples; they are common historical knowledge and internally coherent.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "When we started incorporating animals in farming to take over human labor... When we started using tractors, when we got steam engines and coal and oil and airplanes and the internet",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-D6AED08929EA",
+            "item": "Claim that all technologies allow more output for same input",
+            "status": "Unverifiable",
+            "verification_basis": "A general assertion without quantitative support.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "Tools are simply things that amplify human output. For the same or even less human labor input, we get more out the other end.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-81729B42DAF2",
+            "device": "Historical technology progression analogy",
+            "explanation": "Compares AI to previous transformative technologies to argue that AI is not qualitatively unique and will follow a similar pattern of augmentation rather than replacement.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "AI is just technology. It's just software. It's a tool. Qualitatively, categorically, it is no different than any other technology or tool that humans have ever invented or used.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-FA8E3515124BCB",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "date": "2025-11-21",
+        "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+        "pair_id": "PAIR-CC37-T139",
+        "cc_id": "CC37",
+        "theme_id": "T139",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0D83A47BA4F1",
+        "local_theme_text": "Relative nature of poverty",
+        "theme_mapping_confidence": 0.72,
+        "theme_mapping_rationale": "Local theme 'Relative nature of poverty' maps directly to 'Wealth inequality, poverty, and consumption' which encompasses poverty and its relativity.",
+        "local_argument_id": "LA-1D5BB8C553A8",
+        "conclusion": "Poverty is relative, so even if AI creates vast wealth, there will always be a poor segment relative to the rich, and thus AI cannot eliminate poverty.",
+        "premises": [
+          "Today's poorest 10% live better than kings of previous centuries, yet they are still considered poor.",
+          "Human desire is unlimited, so no matter how much is produced, some will have less than others."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-516DB78D2380",
+            "item": "Poorest 10% today live better than kings a few hundred years ago",
+            "status": "Unverifiable",
+            "verification_basis": "A broad historical comparison without specific data.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "Today, the poorest 10% live better, have more wealth, live better quality lives than even kings did, even just a couple hundred years ago, and definitely all through history before that.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-DC4086C22049",
+            "item": "Minimum wage employees have cars, streaming services, delivery, air conditioning, hot water",
+            "status": "Unverifiable",
+            "verification_basis": "Generalized claim without statistics or citations.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "Today, minimum wage employees have cars... They have entertainment like Spotify and Netflix on demand for basically free. They have DoorDash... air conditioning and running hot water.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-A23E509D33DB",
+            "item": "Obesity is a major problem among the poor and homeless",
+            "status": "Unverifiable",
+            "verification_basis": "A factual claim without supporting data.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "It's telling that one of the biggest problems among very poor and even homeless people is that they are sick from being obese.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-DFD6D290813517",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "date": "2025-11-21",
+        "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+        "pair_id": "PAIR-CC37-T139",
+        "cc_id": "CC37",
+        "theme_id": "T139",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-D2867983DC17",
+        "local_theme_text": "Power law distribution of wealth",
+        "theme_mapping_confidence": 0.4,
+        "theme_mapping_rationale": "Local theme 'Power law distribution of wealth' relates to wealth inequality, which is covered by T139. While not a perfect match, it is the most relevant canonical theme.",
+        "local_argument_id": "LA-0C0B5374902A",
+        "conclusion": "Wealth inequality is an immutable natural law because wealth follows a power law (Pareto) distribution, which cannot be altered by any economic or political system, including AI.",
+        "premises": [
+          "Systems where interactions produce or destroy value follow power law distributions, not normal distributions.",
+          "Examples from nature and society confirm that a small minority holds the majority of value."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A43EE096CB6A",
+            "item": "10% of galaxies hold 90% of stars",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for this astronomical statistic.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "If you look at the number of stars in galaxies, about 10% of the galaxies hold about 90% of the stars.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-4729E0AA7B35",
+            "item": "10% of cities hold 90% of human population",
+            "status": "Unverifiable",
+            "verification_basis": "No demographic source cited.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "10% of the cities on Earth hold about 90% of human population.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-78E522B89398",
+            "item": "10% of people hold 90% of wealth",
+            "status": "Unverifiable",
+            "verification_basis": "No source for wealth distribution data.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "10% of people hold about 90% of the wealth.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-76F0C00018E4",
+            "item": "10% of musicians are listened to 90% of the time",
+            "status": "Unverifiable",
+            "verification_basis": "No data or study cited.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "10% of musicians are listened to, their music is listened to about 90% of the time.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-6233B45DE252",
+            "device": "Weight distribution vs wealth distribution analogy",
+            "explanation": "Uses human weight as an example of a normal distribution to contrast with the power law distribution of wealth, illustrating why inequality is structural.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "Some things in life are normally distributed... you can think of like human weight as an example of this. ... But anytime you have a system where interaction between parts in the system do have exchanges that result in production or destruction, those systems follow power law distributions.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-98200AA6505B1F",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "date": "2025-11-21",
+        "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+        "pair_id": "PAIR-CC37-T139",
+        "cc_id": "CC37",
+        "theme_id": "T139",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-3AF4AB394208",
+        "local_theme_text": "Poverty as default state",
+        "theme_mapping_confidence": 0.4,
+        "theme_mapping_rationale": "Local theme 'Poverty as default state' is about poverty and scarcity, which falls under T139's scope of poverty and consumption.",
+        "local_argument_id": "LA-834C49C1E7AD",
+        "conclusion": "Poverty is the natural default condition of humanity, and AI cannot eliminate it because scarcity is inherent and overcoming it requires constant human effort.",
+        "premises": [
+          "Humans are born with nothing and leave with nothing; all we consume must be produced.",
+          "Resources are useless without human labor and ingenuity.",
+          "The world is naturally scarce and chaotic, not abundant."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-565A43E1015B",
+            "item": "Amazon rainforest was farmed by ancient people, not naturally abundant",
+            "status": "Unverifiable",
+            "verification_basis": "A historical claim without citation.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "Even places like the Amazon rainforest, they have discovered now was farmed. That is an orchard from ancient people.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-11023C24F05F",
+            "item": "Sand and lightning turned into computers through human effort",
+            "status": "Unverifiable",
+            "verification_basis": "A metaphorical example, not a specific factual claim.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "The sand on the beach, the lightning in the sky, by themselves are useless. But through sheer force of will, aggressive action, and ingenuity, people have figured out how to take that lightning and shove it into the sand and create computers.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-A8FE149E4A67",
+            "device": "Biblical dust-to-dust and sweat-of-brow reference",
+            "explanation": "Used to illustrate that humans must labor to produce from a state of scarcity and poverty is the natural default.",
+            "speech_id": "SP-F9BA8D69C876",
+            "source_speech_filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+            "source_excerpt": "From the dust you were born into the dust you shall return and it is only by the sweat of our brow and our toil that we labor and produce what we can consume.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-39A545C201F736",
+        "speech_id": "SP-F9BA8D69C876",
+        "filename": "20251121_The AI Bubble, Mass Unemployment, and Solving Poverty.txt",
+        "date": "2025-11-21",
+        "source_hash": "1c0954227cb950686983672d64b76ba706bc7cf104b05624612e167d973b6290",
+        "pair_id": "PAIR-CC37-T6",
+        "cc_id": "CC37",
+        "theme_id": "T6",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech argues directly that AI cannot solve poverty due to its relative nature and power-law distribution, which exactly supports the first half of CC37's claim about AI's inability to solve poverty. It provides multiple reasoning points (relativity, power law, default state, infinite desires) that develop the argument.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-0FBB1014480B",
+        "local_theme_text": "Commodities as future investment opportunity",
+        "theme_mapping_confidence": 0.96,
+        "theme_mapping_rationale": "Local theme 'Commodities as future investment opportunity' is an exact match to canonical theme 'Commodities as investment opportunities'.",
+        "local_argument_id": "LA-0F57869C314C",
+        "conclusion": "Commodities, energy, and materials will become the most valuable assets as AI removes human labor as the primary constraint on production.",
+        "premises": [
+          "When human labor is no longer the bottleneck, physical resources become the binding constraint.",
+          "This shift will make resource-related investments highly profitable."
+        ],
+        "evidence": [],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-57B1CB1E973A",
+        "local_argument_id": "LA-753387D482D6",
+        "conclusion": "Current market fear about an AI bubble is overblown and likely marks a bottom rather than the start of a bear market.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-D0C260EBCB7A",
+        "local_argument_id": "LA-5D898C411D10",
+        "conclusion": "AI will not make work optional or eliminate the need to work because humans have unlimited desires and will always find new things to produce and consume.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "072a68cd46d6551a798ec5be759abdade79aeb494318357b8204df0134fb2e63",
+  "complete": true
+}

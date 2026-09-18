@@ -1,0 +1,196 @@
+{
+  "dependency_hash": "97d9bb661b500471e3abe52022beb747767c8d5630f6c8c786e5648dda051cbd",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC55-T122",
+    "cc_id": "CC55",
+    "theme_id": "T122",
+    "authoritative_anchor": "cc-cc55-theme-t122",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC55-T122-EEA6A7D907",
+        "pair_id": "PAIR-CC55-T122",
+        "conclusion": "The closure of the Strait of Hormuz constitutes the largest oil supply shock in history, bigger than 2020 and the 1970s.",
+        "source_contribution_ids": [
+          "CONTRIB-C419E75C456136"
+        ],
+        "source_speech_filenames": [
+          "20260504_The 1973 Playbook is Happening Again.txt"
+        ],
+        "premise_synthesis": "The International Energy Agency describes the Strait of Hormuz closure as the largest oil supply shock in history. Oil tankers normally carried about 15 million barrels per day through the strait, representing about 20% of global oil trade, but the strait is now running at about 5% of pre-war levels. The closure has removed about 9 million barrels per day from the market, compared to 5 million barrels per day removed by the 1973 embargo.",
+        "conclusion_supported": "It is established that the closure of the Strait of Hormuz constitutes the largest oil supply shock in history, exceeding both the 2020 supply shock and the 1973 embargo in terms of barrels removed from the market, supported by IEA's characterization and specific volume comparisons.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-C419E75C456136"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Strait of Hormuz closure is the largest oil supply shock in history, leading to prolonged high energy and food prices, shipping disruption, and global recession risk, which aligns with CC55's claim that the US economy faces high risk from structural weakening and oil shocks, and that investors should prepare. The speech provides detailed evidence and reasoning that supports CC55's thesis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "IEA statement calling it the largest oil supply shock in history",
+            "status": "Verified",
+            "verification_basis": "an explicit identifiable source (IEA) is named in the transcript",
+            "source_contribution_ids": [
+              "CONTRIB-C419E75C456136"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "source_excerpt": "Right now, according to the International Energy Agency, what is happening in the Strait of Hormuz is the largest oil supply shock in history."
+          },
+          {
+            "item": "15 million barrels per day and 20% of global oil trade",
+            "status": "Unverifiable",
+            "verification_basis": "no source or attribution provided for these specific numbers",
+            "source_contribution_ids": [
+              "CONTRIB-C419E75C456136"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "source_excerpt": "Oil tankers used to carry about 15 million barrels per day of crude and refined products through the Strait of Hormuz, and that equaled about 1/5 of everything the world produced and shipped, about 20% of the entire global oil trade."
+          },
+          {
+            "item": "Strait running at 5% of pre-war levels",
+            "status": "Unverifiable",
+            "verification_basis": "no source provided for this percentage",
+            "source_contribution_ids": [
+              "CONTRIB-C419E75C456136"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "source_excerpt": "the strait is running at about 5% of its pre-war levels"
+          },
+          {
+            "item": "9 million barrels off market vs 5 million in 1973",
+            "status": "Unverifiable",
+            "verification_basis": "no source provided for the 9 million figure, and the 5 million figure for 1973 is given without citation",
+            "source_contribution_ids": [
+              "CONTRIB-C419E75C456136"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "source_excerpt": "The oil embargo in 1973 took 5 million barrels of oil a day off the market. closure in the Strait of Hormuz has taken about 9 million barrels of oil off the market."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "direct numerical comparison to 1973 embargo",
+            "explanation": "highlights that the current shock is larger in absolute terms than the historically impactful 1973 embargo",
+            "source_contribution_ids": [
+              "CONTRIB-C419E75C456136"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech from 2026-05-04 provides evidence. Cross-speech evolution cannot be inferred. Within this single speech, the argument is presented as a static claim at that date.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC55-T122-DF5547BB45",
+        "pair_id": "PAIR-CC55-T122",
+        "conclusion": "The current crisis will likely resemble the 1970s more than the 2020 supply shock, with sustained high oil prices and inflation.",
+        "source_contribution_ids": [
+          "CONTRIB-782299181DC101"
+        ],
+        "source_speech_filenames": [
+          "20260504_The 1973 Playbook is Happening Again.txt"
+        ],
+        "premise_synthesis": "The current crisis and the 1970s oil crisis both involve war in the Middle East and oil supply shocks, and both occur against a backdrop of rapid recent money supply growth. The 1970s saw oil prices quadruple and inflation remain high for a decade, and the current CPI trend shows a similar upward shift since 2020.",
+        "conclusion_supported": "It is established that the current crisis will likely parallel the 1970s experience with sustained high oil prices and persistent inflation, based on similarities in war, supply shocks, and monetary conditions, along with comparable CPI trends.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-782299181DC101"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Strait of Hormuz closure is the largest oil supply shock in history, leading to prolonged high energy and food prices, shipping disruption, and global recession risk, which aligns with CC55's claim that the US economy faces high risk from structural weakening and oil shocks, and that investors should prepare. The speech provides detailed evidence and reasoning that supports CC55's thesis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Oil price response in 1970s vs now",
+            "status": "Unverifiable",
+            "verification_basis": "no source provided for the claim that oil quadrupled in the 1970s or that current increase is smaller",
+            "source_contribution_ids": [
+              "CONTRIB-782299181DC101"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "source_excerpt": "In 1970s, oil quadrupled. Right now, it has not increased anywhere near that amount."
+          },
+          {
+            "item": "CPI chart showing similar pattern",
+            "status": "Unverifiable",
+            "verification_basis": "the chart is referenced but no data or source is provided",
+            "source_contribution_ids": [
+              "CONTRIB-782299181DC101"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ],
+            "source_excerpt": "You'll notice a similar thing happened in the '70s when prices ticked up higher, and that inflation rate stayed higher for almost the entire decade."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "direct analogy between 1970s and current crisis",
+            "explanation": "used to argue that the current shock will play out like the 1970s (prolonged high prices, inflation) rather than like 2020",
+            "source_contribution_ids": [
+              "CONTRIB-782299181DC101"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ]
+          },
+          {
+            "device": "comparison of war and monetary policy backdrop",
+            "explanation": "reinforces the similarity between the two periods",
+            "source_contribution_ids": [
+              "CONTRIB-782299181DC101"
+            ],
+            "source_speech_filenames": [
+              "20260504_The 1973 Playbook is Happening Again.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech from 2026-05-04 provides evidence. Cross-speech evolution cannot be inferred. Within this single speech, the argument is presented as a static claim at that date.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-782299181DC101",
+      "CONTRIB-C419E75C456136"
+    ],
+    "source_speech_filenames": [
+      "20260504_The 1973 Playbook is Happening Again.txt"
+    ],
+    "generated_at": "2026-07-15T04:23:31+00:00",
+    "record_hash": "8cdbc10f7c05002a266fb0d546c170b00f12ad90af1c9a0f93aa7b4ee5bcddd9"
+  },
+  "complete": true
+}

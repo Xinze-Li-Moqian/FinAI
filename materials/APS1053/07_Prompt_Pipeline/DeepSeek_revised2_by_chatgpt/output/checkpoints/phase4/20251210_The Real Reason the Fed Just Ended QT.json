@@ -1,0 +1,873 @@
+{
+  "dependencies": {
+    "source_hash": "f81460ec02a03da539e123fb0fd4eb96f43bdcba1a80963447514af34088bf2e",
+    "phase1_record_hash": "9ae72a2eee26ad3ad4e6c902be4a1cc778e5589f367d982b0ec36f36c0f38e59",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-3A690EF4DD1F",
+    "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+    "stem": "20251210_The Real Reason the Fed Just Ended QT",
+    "date": "2025-12-10",
+    "source_hash": "f81460ec02a03da539e123fb0fd4eb96f43bdcba1a80963447514af34088bf2e",
+    "source_character_count": 20591,
+    "central_claim": "The Federal Reserve ended quantitative tightening not because of a looming liquidity or financial crisis but to secretly enable an expansion of the money supply through a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, thereby facilitating continuous government borrowing and spending to avoid default.",
+    "themes": [
+      {
+        "local_theme_id": "LT-A4B8ECC520DE",
+        "theme": "Misinterpretations of the end of QT",
+        "arguments": [
+          {
+            "local_argument_id": "LA-2A6168AE0F18",
+            "local_theme_id": "LT-A4B8ECC520DE",
+            "conclusion": "The end of quantitative tightening is not motivated by a liquidity crisis or financial crisis.",
+            "premises": [
+              "The reverse repo facility hitting zero is normal; it was only used as overflow from excess liquidity created in 2020.",
+              "The standing repo facility provides unlimited liquidity, so banks cannot face an acute liquidity crisis.",
+              "Occasional tapping of the repo facility on specific dates indicates that banks are obtaining needed liquidity from the Fed, not a crisis."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-B8CC8B29B877",
+                "item": "The reverse repo facility has hit zero and repo facility was tapped on October 31st and December 1st.",
+                "status": "Unverifiable",
+                "verification_basis": "Chart referenced but no numerical data or source citation provided in transcript.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "if you zoom out on this chart back to the early 2000s, you can see in normal conditions, the reverse repo facility of the Fed is not tapped. ...in response to that, a lot of people show you this chart, which is the regular repo facility at the Fed... and they'll show you dates like October 31st and December 1st when financial institutions tap the Federal Reserve for emergency liquidity.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4C824B67E690",
+        "theme": "The balance sheet twist: QT for MBS and QE for Treasuries",
+        "arguments": [
+          {
+            "local_argument_id": "LA-EBA32DB48324",
+            "local_theme_id": "LT-4C824B67E690",
+            "conclusion": "The Fed's announced end of quantitative tightening actually consists of continuing QT for mortgage-backed securities and starting QE for Treasury bills.",
+            "premises": [
+              "The FOMC implementation notes state that on December 1st the Fed will roll over all principal payments from Treasury securities.",
+              "The same notes state that on December 1st the Fed will reinvest all principal payments from agency securities into Treasury bills.",
+              "Rolling over Treasury principal keeps the amount owed to the Fed constant; reinvesting MBS principal into T-bills is a form of QE for Treasuries."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A385AA1EA831",
+                "item": "The FOMC implementation notes announce the rollover of Treasury principal payments and reinvestment of agency principal payments into Treasury bills.",
+                "status": "Verified",
+                "verification_basis": "Directly quoted from the FOMC implementation notes as referenced in the transcript.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "they announced their plan to end quantitative tightening here where they said that on December 1st, they would just roll over at auction all principal payments from the Federal Reserve's holdings of Treasury Securities... beginning on December 1st they will reinvest all principal payments from the Fed's holdings of agency securities into Treasury bills",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-03CBB77A189F",
+                "device": "Brokerage account analogy",
+                "explanation": "Compares the Fed's balance sheet operations to a retail brokerage account: buying assets injects cash into the economy (QE), selling assets withdraws cash (QT). The Fed creates dollars out of thin air, unlike an individual.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "This is a chart of the Federal Reserve's balance sheet. You can think of this like their brokerage account. When you have a brokerage account, you are going to buy and sell stocks with your brokerage account... every time you make a purchase, it's a liquidity injection... This is exactly what the Federal Reserve does with their balance sheet. The only difference... is they are creating the dollars out of thin air.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-8DD1939B80FF",
+        "theme": "Bank deregulation for stealth QE",
+        "arguments": [
+          {
+            "local_argument_id": "LA-D22C7A154988",
+            "local_theme_id": "LT-8DD1939B80FF",
+            "conclusion": "The Federal Reserve's push to deregulate banks, specifically regarding the supplementary leverage ratio, is intended to allow banks to purchase unlimited treasuries and effectively conduct quantitative easing on the Fed's behalf.",
+            "premises": [
+              "Banks can already tap the Fed for any liquidity via the standing repo facility and sell treasuries at full price through another facility.",
+              "Treasuries are therefore functionally fungible with reserves for banks.",
+              "A new governor wrote a paper and gave a speech arguing for deregulation based on this concept."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-05589DC72396",
+                "item": "One of the new governors of the Federal Reserve wrote a paper and gave a speech on the regulatory dominance of the Federal Reserve's balance sheet.",
+                "status": "Unverifiable",
+                "verification_basis": "No name, title, or source for the paper or speech provided in the transcript.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "Specifically, one of the new governors of the Federal Reserve just wrote a paper and gave a speech on the regulatory dominance of the Federal Reserve's balance sheet.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-972BDFA48A8A",
+                "item": "The supplementary leverage ratio limits how many treasuries banks can buy.",
+                "status": "Unverifiable",
+                "verification_basis": "Mentioned without citation or quantitative detail.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "Right now, banks are limited in how many treasuries they can buy. In other words, how much money they can loan to the US government by their risk ratios. It's called the supplementary leverage ratio.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-60B4C63CB3D6",
+        "theme": "The Federal Reserve Reform Act of 1977 and the government's fiscal imperative",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BFD0FED5BE24",
+            "local_theme_id": "LT-60B4C63CB3D6",
+            "conclusion": "The Federal Reserve's triple mandate from the 1977 Act requires continuous money supply expansion, which serves the government's need for borrowing and tax base maximization through inflation and lower real debt burden.",
+            "premises": [
+              "Section 2A of the Act mandates growth of monetary and credit aggregates commensurate with the economy's long-run potential.",
+              "Maximum employment means maximizing the tax base.",
+              "Stable prices prevent deflation and allow inflation to reduce real debt and increase nominal tax revenues.",
+              "Moderate long-term interest rates keep government borrowing costs low."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7E5A9DB0E232",
+                "item": "Quote from Section 2A of the Federal Reserve Reform Act of 1977.",
+                "status": "Verified",
+                "verification_basis": "Direct quote provided in the transcript.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "The board of governors of the Federal Reserve system and the Federal Open Market Committee shall maintain long run growth of the monetary and credit aggregates commensurate with the economy's long run potential to increase production.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-ADF70FEBD3E9",
+                "item": "The Federal Reserve was established the same year as the individual income tax (1913).",
+                "status": "Unverifiable",
+                "verification_basis": "Claim asserted without supporting source or citation in the transcript.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "It's no accident that the Federal Reserve was established the same year as the individual income tax.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-68C86EB80568",
+                "device": "Pizza analogy",
+                "explanation": "Illustrates how money supply expansion dilutes each dollar so that productivity gains are captured by the government through inflation, rather than lowering prices for the public.",
+                "speech_id": "SP-3A690EF4DD1F",
+                "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+                "source_excerpt": "If the pizza grows, cut more slices into it so that each slice never actually has more pizza. And where do all those extra slices go? You guessed it, to the government's ever-expanding appetite for borrowing and taxing.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-89CDBC10AE99",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "The odds of an interest rate cut at the Fed's next meeting is 87%.",
+        "reason": "No source or method for the probability is provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; typical market-based probability but unverifiable from transcript alone.",
+        "source_excerpt": "As of the time of this recording, the odds of an interest rate cut at the Fed's next meeting is 87%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7F16C9C8E35C",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "Powell's term is up in 2026.",
+        "reason": "Claim is stated without supporting citation or context.",
+        "memory_check": "Corroborated",
+        "memory_note": "Public knowledge: Powell's term as Chair ends May 2026.",
+        "source_excerpt": "Powell's term is up in 2026.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 9947,
+          "character_end": 9975,
+          "line_start": 260
+        }
+      },
+      {
+        "unverifiable_id": "UV-C5364FE375E5",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "Ever since Trump got elected, there has been massive pressure he's been putting on Powell to lower rates.",
+        "reason": "Claim is stated without specific evidence or source.",
+        "memory_check": "Corroborated",
+        "memory_note": "Widely reported in media that Trump has publicly pressured Powell.",
+        "source_excerpt": "Ever since Trump got elected, there has been massive pressure he's been putting on Powell to lower rates.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-038F0850CC85",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "One of the new governors of the Federal Reserve just wrote a paper and gave a speech on the regulatory dominance of the Federal Reserve's balance sheet.",
+        "reason": "No name, title, date, or other identifying information provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; cannot verify identity or existence of such paper/speech.",
+        "source_excerpt": "Specifically, one of the new governors of the Federal Reserve just wrote a paper and gave a speech on the regulatory dominance of the Federal Reserve's balance sheet.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B481E84BE059",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "The Federal Reserve was established the same year as the individual income tax.",
+        "reason": "Historical claim made without supporting source or citation.",
+        "memory_check": "Corroborated",
+        "memory_note": "Historical fact: Fed established 1913; 16th Amendment and income tax law also 1913.",
+        "source_excerpt": "It's no accident that the Federal Reserve was established the same year as the individual income tax.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6B7E9CF4293E",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "The reverse repo facility has hit zero.",
+        "reason": "No data point or source for the zero level is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; external economic data not checkable from transcript.",
+        "source_excerpt": "the reverse repo facility at the Fed and how that has hit zero",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4D819AD84553",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "On October 31st and December 1st, financial institutions tap the Federal Reserve for emergency liquidity.",
+        "reason": "Dates are given without supporting data or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; specific repo usage data unconfirmed.",
+        "source_excerpt": "they'll show you dates like October 31st and December 1st when financial institutions tap the Federal Reserve for emergency liquidity.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ED9B543B3A1F",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "If nothing changed from here and everything stayed the same... that would eventually push the government over into default.",
+        "reason": "Speculative projection without fiscal analysis or evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; speculative claim with no support.",
+        "source_excerpt": "If nothing changed from here and everything stayed the same in terms of the Fed's balance sheet, the bank's balance sheets, interest rates, that would eventually push the government over into default.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F04D043BB3D8",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "The bottoms in 10-year yield have continued to rise just like the highs in the 10-year yield have continued to fall.",
+        "reason": "Chart description without specific figures or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; external yield data not provided.",
+        "source_excerpt": "the bottoms in yield have continued to rise just like the highs in the 10-year yield have continued to fall.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4BA3600FBCEC",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "Short-term interest rates have only fallen as the Fed has been cutting.",
+        "reason": "No specific data or source for short-term rate evolution.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; likely reference to Fed funds rate but unverifiable without data.",
+        "source_excerpt": "Compare that with short-term interest rates, which have only fallen as the Fed has been cutting.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-676F7F6D8637",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "There's not enough money for them to continue spending the way they are.",
+        "reason": "Assertion of fiscal unsustainability without evidence or quantification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; opinion on fiscal capacity.",
+        "source_excerpt": "There's not enough money for them to continue spending the way they are.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-46B5970CBE5F",
+        "speech_id": "SP-3A690EF4DD1F",
+        "speech_ref": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "claim": "This will continue throughout 2026 (referring to rate cuts).",
+        "reason": "Prediction stated without basis or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal basis; forward-looking statement.",
+        "source_excerpt": "And this will continue throughout 2026.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 9779,
+          "character_end": 9818,
+          "line_start": 256
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Federal Reserve ended quantitative tightening not because of a looming liquidity or financial crisis but to secretly enable an expansion of the money supply through a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, thereby facilitating continuous government borrowing and spending to avoid default.",
+      "themes": [
+        "Misinterpretations of the end of QT",
+        "The balance sheet twist: QT for MBS and QE for Treasuries",
+        "Bank deregulation for stealth QE",
+        "The Federal Reserve Reform Act of 1977 and the government's fiscal imperative"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 12
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "35069140003b2c03dbb1816f64096bd5d68fdfce10baa2c3a0d19ddcb2ec4e73",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "9ae72a2eee26ad3ad4e6c902be4a1cc778e5589f367d982b0ec36f36c0f38e59",
+    "canonical_mapping": {
+      "speech_id": "SP-3A690EF4DD1F",
+      "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC51",
+      "primary_cc_confidence": 0.92,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+      "primary_cc_rationale": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T87",
+        "T86",
+        "T85"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T87",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-4C824B67E690",
+          "rationale": "The balance sheet twist—continuing QT for MBS and starting QE for Treasuries—is a direct instance of Federal Reserve balance sheet policy."
+        },
+        {
+          "theme_id": "T86",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-8DD1939B80FF",
+          "rationale": "The push to deregulate banks via SLR removal to facilitate stealth QE is explicitly about Federal Reserve and banking deregulation."
+        },
+        {
+          "theme_id": "T85",
+          "confidence": 0.78,
+          "source_local_theme_id": "LT-60B4C63CB3D6",
+          "rationale": "The argument that the 1977 Act compels continuous money supply expansion for government borrowing directly relates to Federal debt management and fiscal sustainability."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC51-T87",
+          "cc_id": "CC51",
+          "theme_id": "T87",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC51-T86",
+          "cc_id": "CC51",
+          "theme_id": "T86",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC51-T85",
+          "cc_id": "CC51",
+          "theme_id": "T85",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "local_cc_text": "The Federal Reserve ended quantitative tightening not because of a looming liquidity or financial crisis but to secretly enable an expansion of the money supply through a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, thereby facilitating continuous government borrowing and spending to avoid default.",
+        "canonical_cc_id": "CC51",
+        "confidence": 0.92,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+        "rationale": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.7181318998336792
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5659400224685669
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.5609095096588135
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.42129647731781006
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.3861144781112671
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "local_theme_id": "LT-A4B8ECC520DE",
+        "local_theme_text": "Misinterpretations of the end of QT",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "The local theme addresses misconceptions about the end of QT, which is a Federal Reserve balance sheet policy action; T87 is the most specific match for 'Federal Reserve Balance Sheet Policy'.",
+        "candidate_matches": [
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.27506422996520996
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.26048916578292847
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.25067126750946045
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.22062496840953827
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.21469691395759583
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.21078822016716003
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "local_theme_id": "LT-4C824B67E690",
+        "local_theme_text": "The balance sheet twist: QT for MBS and QE for Treasuries",
+        "canonical_theme_id": "T87",
+        "confidence": 0.9,
+        "rationale": "The balance sheet twist—continuing QT for MBS and starting QE for Treasuries—is a direct instance of Federal Reserve balance sheet policy.",
+        "candidate_matches": [
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.37321949005126953
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.3490510880947113
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.282845139503479
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.2749243378639221
+          },
+          {
+            "id": "T77",
+            "text": "Corporate capital expenditure and bond markets",
+            "similarity": 0.2743918299674988
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.26987242698669434
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "local_theme_id": "LT-8DD1939B80FF",
+        "local_theme_text": "Bank deregulation for stealth QE",
+        "canonical_theme_id": "T86",
+        "confidence": 0.95,
+        "rationale": "The push to deregulate banks via SLR removal to facilitate stealth QE is explicitly about Federal Reserve and banking deregulation.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5050553679466248
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.407044380903244
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.3877050280570984
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.36998671293258667
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.3315503001213074
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.3080686330795288
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "local_theme_id": "LT-60B4C63CB3D6",
+        "local_theme_text": "The Federal Reserve Reform Act of 1977 and the government's fiscal imperative",
+        "canonical_theme_id": "T85",
+        "confidence": 0.78,
+        "rationale": "The argument that the 1977 Act compels continuous money supply expansion for government borrowing directly relates to Federal debt management and fiscal sustainability.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6228073835372925
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.5319124460220337
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.4989570379257202
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.49703842401504517
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.471127450466156
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.45875823497772217
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-32D7522A82C604",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "date": "2025-12-10",
+        "source_hash": "f81460ec02a03da539e123fb0fd4eb96f43bdcba1a80963447514af34088bf2e",
+        "pair_id": "PAIR-CC51-T87",
+        "cc_id": "CC51",
+        "theme_id": "T87",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+        "primary_cc_confidence": 0.92,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-4C824B67E690",
+        "local_theme_text": "The balance sheet twist: QT for MBS and QE for Treasuries",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The balance sheet twist—continuing QT for MBS and starting QE for Treasuries—is a direct instance of Federal Reserve balance sheet policy.",
+        "local_argument_id": "LA-EBA32DB48324",
+        "conclusion": "The Fed's announced end of quantitative tightening actually consists of continuing QT for mortgage-backed securities and starting QE for Treasury bills.",
+        "premises": [
+          "The FOMC implementation notes state that on December 1st the Fed will roll over all principal payments from Treasury securities.",
+          "The same notes state that on December 1st the Fed will reinvest all principal payments from agency securities into Treasury bills.",
+          "Rolling over Treasury principal keeps the amount owed to the Fed constant; reinvesting MBS principal into T-bills is a form of QE for Treasuries."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A385AA1EA831",
+            "item": "The FOMC implementation notes announce the rollover of Treasury principal payments and reinvestment of agency principal payments into Treasury bills.",
+            "status": "Verified",
+            "verification_basis": "Directly quoted from the FOMC implementation notes as referenced in the transcript.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "they announced their plan to end quantitative tightening here where they said that on December 1st, they would just roll over at auction all principal payments from the Federal Reserve's holdings of Treasury Securities... beginning on December 1st they will reinvest all principal payments from the Fed's holdings of agency securities into Treasury bills",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-03CBB77A189F",
+            "device": "Brokerage account analogy",
+            "explanation": "Compares the Fed's balance sheet operations to a retail brokerage account: buying assets injects cash into the economy (QE), selling assets withdraws cash (QT). The Fed creates dollars out of thin air, unlike an individual.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "This is a chart of the Federal Reserve's balance sheet. You can think of this like their brokerage account. When you have a brokerage account, you are going to buy and sell stocks with your brokerage account... every time you make a purchase, it's a liquidity injection... This is exactly what the Federal Reserve does with their balance sheet. The only difference... is they are creating the dollars out of thin air.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-B8C571EBF41E7B",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "date": "2025-12-10",
+        "source_hash": "f81460ec02a03da539e123fb0fd4eb96f43bdcba1a80963447514af34088bf2e",
+        "pair_id": "PAIR-CC51-T86",
+        "cc_id": "CC51",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+        "primary_cc_confidence": 0.92,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-8DD1939B80FF",
+        "local_theme_text": "Bank deregulation for stealth QE",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The push to deregulate banks via SLR removal to facilitate stealth QE is explicitly about Federal Reserve and banking deregulation.",
+        "local_argument_id": "LA-D22C7A154988",
+        "conclusion": "The Federal Reserve's push to deregulate banks, specifically regarding the supplementary leverage ratio, is intended to allow banks to purchase unlimited treasuries and effectively conduct quantitative easing on the Fed's behalf.",
+        "premises": [
+          "Banks can already tap the Fed for any liquidity via the standing repo facility and sell treasuries at full price through another facility.",
+          "Treasuries are therefore functionally fungible with reserves for banks.",
+          "A new governor wrote a paper and gave a speech arguing for deregulation based on this concept."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-05589DC72396",
+            "item": "One of the new governors of the Federal Reserve wrote a paper and gave a speech on the regulatory dominance of the Federal Reserve's balance sheet.",
+            "status": "Unverifiable",
+            "verification_basis": "No name, title, or source for the paper or speech provided in the transcript.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "Specifically, one of the new governors of the Federal Reserve just wrote a paper and gave a speech on the regulatory dominance of the Federal Reserve's balance sheet.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-972BDFA48A8A",
+            "item": "The supplementary leverage ratio limits how many treasuries banks can buy.",
+            "status": "Unverifiable",
+            "verification_basis": "Mentioned without citation or quantitative detail.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "Right now, banks are limited in how many treasuries they can buy. In other words, how much money they can loan to the US government by their risk ratios. It's called the supplementary leverage ratio.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-33E2EC7609F98C",
+        "speech_id": "SP-3A690EF4DD1F",
+        "filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+        "date": "2025-12-10",
+        "source_hash": "f81460ec02a03da539e123fb0fd4eb96f43bdcba1a80963447514af34088bf2e",
+        "pair_id": "PAIR-CC51-T85",
+        "cc_id": "CC51",
+        "theme_id": "T85",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the Federal Reserve ended QT not for liquidity reasons but to secretly implement a balance sheet twist (QT for MBS, QE for Treasuries) and bank deregulation, enabling continued government borrowing—exactly the covert or indirect quantitative easing for government debt that CC51 claims.",
+        "primary_cc_confidence": 0.92,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-60B4C63CB3D6",
+        "local_theme_text": "The Federal Reserve Reform Act of 1977 and the government's fiscal imperative",
+        "theme_mapping_confidence": 0.78,
+        "theme_mapping_rationale": "The argument that the 1977 Act compels continuous money supply expansion for government borrowing directly relates to Federal debt management and fiscal sustainability.",
+        "local_argument_id": "LA-BFD0FED5BE24",
+        "conclusion": "The Federal Reserve's triple mandate from the 1977 Act requires continuous money supply expansion, which serves the government's need for borrowing and tax base maximization through inflation and lower real debt burden.",
+        "premises": [
+          "Section 2A of the Act mandates growth of monetary and credit aggregates commensurate with the economy's long-run potential.",
+          "Maximum employment means maximizing the tax base.",
+          "Stable prices prevent deflation and allow inflation to reduce real debt and increase nominal tax revenues.",
+          "Moderate long-term interest rates keep government borrowing costs low."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7E5A9DB0E232",
+            "item": "Quote from Section 2A of the Federal Reserve Reform Act of 1977.",
+            "status": "Verified",
+            "verification_basis": "Direct quote provided in the transcript.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "The board of governors of the Federal Reserve system and the Federal Open Market Committee shall maintain long run growth of the monetary and credit aggregates commensurate with the economy's long run potential to increase production.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-ADF70FEBD3E9",
+            "item": "The Federal Reserve was established the same year as the individual income tax (1913).",
+            "status": "Unverifiable",
+            "verification_basis": "Claim asserted without supporting source or citation in the transcript.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "It's no accident that the Federal Reserve was established the same year as the individual income tax.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-68C86EB80568",
+            "device": "Pizza analogy",
+            "explanation": "Illustrates how money supply expansion dilutes each dollar so that productivity gains are captured by the government through inflation, rather than lowering prices for the public.",
+            "speech_id": "SP-3A690EF4DD1F",
+            "source_speech_filename": "20251210_The Real Reason the Fed Just Ended QT.txt",
+            "source_excerpt": "If the pizza grows, cut more slices into it so that each slice never actually has more pizza. And where do all those extra slices go? You guessed it, to the government's ever-expanding appetite for borrowing and taxing.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-A4B8ECC520DE",
+        "local_argument_id": "LA-2A6168AE0F18",
+        "conclusion": "The end of quantitative tightening is not motivated by a liquidity crisis or financial crisis.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "35069140003b2c03dbb1816f64096bd5d68fdfce10baa2c3a0d19ddcb2ec4e73",
+  "complete": true
+}

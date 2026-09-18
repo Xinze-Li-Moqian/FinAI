@@ -1,0 +1,915 @@
+{
+  "dependencies": {
+    "source_hash": "18d77ba9f063611bce63c22d3b3400988fe4a42571598bf995507c3d518c049a",
+    "phase1_record_hash": "f3a3f242e3580ebe25557c29472e728ee3b03885b38420b94a5645e41b96dbdd",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-BD62C153C9DB",
+    "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+    "stem": "20251029_Over 40 Million Americans are on Food Stamps",
+    "date": "2025-10-29",
+    "source_hash": "18d77ba9f063611bce63c22d3b3400988fe4a42571598bf995507c3d518c049a",
+    "source_character_count": 12596,
+    "central_claim": "The narrative that food stamps are a major problem is misguided; the real immoral wealth transfer in the US is from young poor workers to old wealthy retirees through programs like Social Security and Medicare.",
+    "themes": [
+      {
+        "local_theme_id": "LT-59CD8D0F8217",
+        "theme": "Food stamp dependency statistics",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9DB0DE6AF778",
+            "local_theme_id": "LT-59CD8D0F8217",
+            "conclusion": "Over 40 million Americans are on food stamps, representing about 1 in 8 people.",
+            "premises": [
+              "The US population is 340 million.",
+              "There are 42 million Americans on food stamps."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A2039B22B048",
+                "item": "US population of 340 million",
+                "status": "Verified",
+                "verification_basis": "Widely accepted demographic statistic, common knowledge.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "the population of the United States is 340 million",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C505CD0039BC",
+                "item": "42 million Americans on food stamps",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided; speaker uses both 'over 40 million' and '42 million' inconsistently.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "there are over 40 million Americans on food stamps. 40 million Americans who are about to lose access to those food stamps. ... there are 42 million Americans who are potentially not going to be able to put food on the table",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-2565908BAC99",
+        "theme": "Moral responsibility of wealth",
+        "arguments": [
+          {
+            "local_argument_id": "LA-59D998C4240D",
+            "local_theme_id": "LT-2565908BAC99",
+            "conclusion": "Those with resources have a moral obligation to care for those in need, but charity should be voluntary and not enforced through taxation.",
+            "premises": [
+              "Parents have a responsibility to care for their children.",
+              "The more wealth you create, the greater your responsibility to care for others.",
+              "Forced redistribution (taxation) is theft and cannot be moral because it is involuntary."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E56A41AA7172",
+                "item": "Speaker's personal anecdote of making $40,000 per year with a stay-at-home wife and newborn",
+                "status": "Unverifiable",
+                "verification_basis": "Personal anecdote, cannot be externally verified from transcript.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "When I began my career, I was making $40,000 per year. My wife stayed at home with our newborn. We lived in an apartment that cost around $900 per month. And we had nothing left over. We had no debt. We shopped all the discounts, clipped all the coupons, and if prices of gas or eggs or something else unexpectedly rose, we didn't have the budget in order to afford it.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-A49B177B8010",
+                "device": "Rock is not moral for staying put",
+                "explanation": "Illustrates that an entity without choice cannot be moral; therefore forced charity (taxation) lacks moral worth.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "A rock is not moral for telling it to stay put. It has no choice. Therefore, charity via mass theft, in other words, taxation with no ability to opt out, is not moral regardless of where the destination is of those funds that were confiscated.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-AC00EB247EBC",
+        "theme": "Federal budget allocation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6FD76E67D4AB",
+            "local_theme_id": "LT-AC00EB247EBC",
+            "conclusion": "Food stamp spending (SNAP) is a tiny fraction of the federal budget (1.5%) and is not a major waste of tax dollars.",
+            "premises": [
+              "Fiscal year 2024 spent about $100 billion on SNAP.",
+              "The 'big six' spending categories alone exceed total federal tax revenue.",
+              "Other categories like transportation and veterans spending are significantly larger."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-998BCF590F64",
+                "item": "$100 billion spent on SNAP in FY2024, equal to 1.5% of federal budget",
+                "status": "Unverifiable",
+                "verification_basis": "No source cited for budget figures; cannot verify the specific percentage and dollar amount from transcript alone.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "Fiscal year 2024, the United States government spent about $100 billion on SNAP, which is only 1.5% of the entire federal budget.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-94CAE405416B",
+        "theme": "Age-wealth correlation in transfer programs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-A9C02CCAA1D0",
+            "local_theme_id": "LT-94CAE405416B",
+            "conclusion": "Social Security and Medicare are wealth transfer systems that take from young poor working people to give to old wealthy retirees, forcing younger people into dependence.",
+            "premises": [
+              "Age and wealth are very highly correlated.",
+              "Over 50% of retirees do not touch their retirement savings principle or interest.",
+              "Young poor working people bear a heavy tax burden that prevents them from saving."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EB323E0EF4C5",
+                "item": "Age and wealth are the tightest correlation in economics/social studies",
+                "status": "Unverifiable",
+                "verification_basis": "Assertion made without supporting data or source; cannot be verified from transcript.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "There is no tighter correlation in economics or social studies than age and wealth together.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A63D0D611032",
+                "item": "Over 50% of retirees are not touching the principle or interest on their own retirements",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for this statistic; cannot be verified from transcript.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "for over 50% of retirees, they are not touching the principle or the interest on their own retirements",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-73050E4A70AA",
+        "theme": "Freedom through independence",
+        "arguments": [
+          {
+            "local_argument_id": "LA-ADB25BC11EA0",
+            "local_theme_id": "LT-73050E4A70AA",
+            "conclusion": "Freedom requires independence from government support, and individuals must take responsibility to climb out of dependence despite systemic burdens.",
+            "premises": [
+              "Dependence on others reduces freedom.",
+              "The biblical story of Egyptian descent into slavery shows the danger of relying on government.",
+              "It is the individual's responsibility to escape the system, not the system's fault."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F3DDABC1B6AD",
+                "item": "No specific verifiable facts; argument relies on analogy and personal exhortation.",
+                "status": "Unverifiable",
+                "verification_basis": "No verifiable factual evidence provided; only rhetorical and narrative elements.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-CB0945AEA845",
+                "device": "Biblical story of Egypt's descent into slavery",
+                "explanation": "Used to illustrate that reliance on government provision during famine led to loss of freedom and the origin of taxation.",
+                "speech_id": "SP-BD62C153C9DB",
+                "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+                "source_excerpt": "There's an old story in the book of Genesis in the Bible about the descent of the Egyptians from freedom into tyranny as they gave up their responsibilities and relied on the government to provide for them through a famine. The end of the story is they all became slaves and that was the origin of taxation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-4EB82F401445",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "The real immoral wealth transfer in the US is from young poor workers to old wealthy retirees through Social Security and Medicare.",
+        "reason": "The central claim itself presents a factual assertion about the direction and nature of wealth transfers that is not supported by any cited data within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a broad assertion without corroborating evidence in the transcript.",
+        "source_excerpt": "things like Medicare and Social Security are literally, not figuratively, they are literally wealth transfer systems where the government forcefully takes money away from young, poor, working people and just hands it to old, retired, wealthy people.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-B30716F8A782",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "42 million Americans are on food stamps.",
+        "reason": "Number varies (40 vs 42 million) and no source is provided for either figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Food stamp participation figures are available from USDA but not cited here.",
+        "source_excerpt": "there are over 40 million Americans on food stamps. 40 million Americans ... there are 42 million Americans who are potentially not going to be able to put food on the table",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-73C638766599",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "The median household income in the United States is $83,000.",
+        "reason": "No source cited for this statistic within the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "Census data roughly supports a median around $80k, but the specific figure is not sourced here.",
+        "source_excerpt": "the median household income in the United States is $83,000.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-38140E64EC59",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "For over 50% of retirees, they are not touching the principle or the interest on their own retirements.",
+        "reason": "No source provided; this is a specific statistical claim unsupported by the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No data in transcript to assess this claim.",
+        "source_excerpt": "for over 50% of retirees, they are not touching the principle or the interest on their own retirements",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2E5DDAFE757E",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "The inheritances of richer people are directly being subsidized by young poor working people.",
+        "reason": "Causal claim about fiscal policy without evidence in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is an interpretive assertion, not directly supported by budget data in the transcript.",
+        "source_excerpt": "the inheritances of those richer people being able to pass on those large inheritances to their beneficiaries is directly being subsidized by young poor working people.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-67927A910323",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "The government takes half of everything you make every year.",
+        "reason": "Hyperbolic statement about tax burden without specific breakdown or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Effective tax rates vary widely; this is a rhetorical claim.",
+        "source_excerpt": "the government takes half of everything you make every year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2780F8C4CF2B",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "The US population is 340 million.",
+        "reason": "Common knowledge but no source provided within transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "Widely known demographic fact, but unsourced here.",
+        "source_excerpt": "the population of the United States is 340 million",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-EDCAD6F9D703",
+        "speech_id": "SP-BD62C153C9DB",
+        "speech_ref": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "claim": "Age and wealth are the tightest correlation in economics/social studies.",
+        "reason": "Absolute assertion without supporting data or citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Correlations exist but 'tightest' is an unsubstantiated superlative.",
+        "source_excerpt": "There is no tighter correlation in economics or social studies than age and wealth together.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The narrative that food stamps are a major problem is misguided; the real immoral wealth transfer in the US is from young poor workers to old wealthy retirees through programs like Social Security and Medicare.",
+      "themes": [
+        "Food stamp dependency statistics",
+        "Moral responsibility of wealth",
+        "Federal budget allocation",
+        "Age-wealth correlation in transfer programs",
+        "Freedom through independence"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "e90a03da7ab52f711aed9901453c3da00c88ed9d6a63b9b59b62cd4b048aa9d1",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "f3a3f242e3580ebe25557c29472e728ee3b03885b38420b94a5645e41b96dbdd",
+    "canonical_mapping": {
+      "speech_id": "SP-BD62C153C9DB",
+      "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC56",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+      "primary_cc_rationale": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T130",
+        "T92",
+        "T125"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T130",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-94CAE405416B",
+          "rationale": "Age-wealth correlation in transfer programs is explicitly about Social Entitlement Programs and Transfer Systems, as the speech describes Social Security and Medicare as transferring wealth from young to old."
+        },
+        {
+          "theme_id": "T92",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-AC00EB247EBC",
+          "rationale": "Federal budget allocation is directly addressed by the speech's claim that food stamp spending is a tiny fraction (1.5%) of the budget, which falls under Fiscal Deficit, Debt, and Budget Allocation."
+        },
+        {
+          "theme_id": "T125",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-73050E4A70AA",
+          "rationale": "Freedom through independence aligns with the Philosophical foundations of the Declaration of Independence, as the speech frames freedom as independence from government support, echoing foundational principles."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC56-T130",
+          "cc_id": "CC56",
+          "theme_id": "T130",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC56-T92",
+          "cc_id": "CC56",
+          "theme_id": "T92",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC56-T125",
+          "cc_id": "CC56",
+          "theme_id": "T125",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "local_cc_text": "The narrative that food stamps are a major problem is misguided; the real immoral wealth transfer in the US is from young poor workers to old wealthy retirees through programs like Social Security and Medicare.",
+        "canonical_cc_id": "CC56",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+        "rationale": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+        "candidate_matches": [
+          {
+            "id": "CC56",
+            "text": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+            "similarity": 0.7298932075500488
+          },
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.43413931131362915
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.31442704796791077
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.2780751883983612
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.27356964349746704
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "local_theme_id": "LT-59CD8D0F8217",
+        "local_theme_text": "Food stamp dependency statistics",
+        "canonical_theme_id": "T130",
+        "confidence": 0.85,
+        "rationale": "Food stamp dependency statistics directly pertain to Social Entitlement Programs and Transfer Systems, as the speech discusses the number of recipients and the program's budget share.",
+        "candidate_matches": [
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.43534862995147705
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.43068772554397583
+          },
+          {
+            "id": "T102",
+            "text": "Household debt indicators",
+            "similarity": 0.39599043130874634
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.39355629682540894
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.35713547468185425
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.3374564051628113
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "local_theme_id": "LT-2565908BAC99",
+        "local_theme_text": "Moral responsibility of wealth",
+        "canonical_theme_id": "T83",
+        "confidence": 0.8,
+        "rationale": "Moral responsibility of wealth relates to Economic Responsibility and Productivity, as the speech argues for voluntary charity and against forced redistribution, emphasizing personal responsibility.",
+        "candidate_matches": [
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.49013668298721313
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.4752611815929413
+          },
+          {
+            "id": "T132",
+            "text": "Subjective and ordinal nature of value",
+            "similarity": 0.4033697247505188
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3332792818546295
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.3160487711429596
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.2877501845359802
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "local_theme_id": "LT-AC00EB247EBC",
+        "local_theme_text": "Federal budget allocation",
+        "canonical_theme_id": "T92",
+        "confidence": 0.95,
+        "rationale": "Federal budget allocation is directly addressed by the speech's claim that food stamp spending is a tiny fraction (1.5%) of the budget, which falls under Fiscal Deficit, Debt, and Budget Allocation.",
+        "candidate_matches": [
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.6991745233535767
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5240535736083984
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.4734899699687958
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.4688030481338501
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4135156273841858
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.3992261290550232
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "local_theme_id": "LT-94CAE405416B",
+        "local_theme_text": "Age-wealth correlation in transfer programs",
+        "canonical_theme_id": "T130",
+        "confidence": 0.9,
+        "rationale": "Age-wealth correlation in transfer programs is explicitly about Social Entitlement Programs and Transfer Systems, as the speech describes Social Security and Medicare as transferring wealth from young to old.",
+        "candidate_matches": [
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.6007658243179321
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.47395795583724976
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.2294098138809204
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.20120984315872192
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.19737601280212402
+          },
+          {
+            "id": "T103",
+            "text": "Household income trends",
+            "similarity": 0.1815517395734787
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "local_theme_id": "LT-73050E4A70AA",
+        "local_theme_text": "Freedom through independence",
+        "canonical_theme_id": "T125",
+        "confidence": 0.85,
+        "rationale": "Freedom through independence aligns with the Philosophical foundations of the Declaration of Independence, as the speech frames freedom as independence from government support, echoing foundational principles.",
+        "candidate_matches": [
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.6092170476913452
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.5370020866394043
+          },
+          {
+            "id": "T123",
+            "text": "Peaceful secession",
+            "similarity": 0.4821769893169403
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.40177643299102783
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.3937350809574127
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.3846948742866516
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-B393C3B00F90A9",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "date": "2025-10-29",
+        "source_hash": "18d77ba9f063611bce63c22d3b3400988fe4a42571598bf995507c3d518c049a",
+        "pair_id": "PAIR-CC56-T130",
+        "cc_id": "CC56",
+        "theme_id": "T130",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-59CD8D0F8217",
+        "local_theme_text": "Food stamp dependency statistics",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Food stamp dependency statistics directly pertain to Social Entitlement Programs and Transfer Systems, as the speech discusses the number of recipients and the program's budget share.",
+        "local_argument_id": "LA-9DB0DE6AF778",
+        "conclusion": "Over 40 million Americans are on food stamps, representing about 1 in 8 people.",
+        "premises": [
+          "The US population is 340 million.",
+          "There are 42 million Americans on food stamps."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A2039B22B048",
+            "item": "US population of 340 million",
+            "status": "Verified",
+            "verification_basis": "Widely accepted demographic statistic, common knowledge.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "the population of the United States is 340 million",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C505CD0039BC",
+            "item": "42 million Americans on food stamps",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided; speaker uses both 'over 40 million' and '42 million' inconsistently.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "there are over 40 million Americans on food stamps. 40 million Americans who are about to lose access to those food stamps. ... there are 42 million Americans who are potentially not going to be able to put food on the table",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-57DC111ACB4118",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "date": "2025-10-29",
+        "source_hash": "18d77ba9f063611bce63c22d3b3400988fe4a42571598bf995507c3d518c049a",
+        "pair_id": "PAIR-CC56-T92",
+        "cc_id": "CC56",
+        "theme_id": "T92",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-AC00EB247EBC",
+        "local_theme_text": "Federal budget allocation",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Federal budget allocation is directly addressed by the speech's claim that food stamp spending is a tiny fraction (1.5%) of the budget, which falls under Fiscal Deficit, Debt, and Budget Allocation.",
+        "local_argument_id": "LA-6FD76E67D4AB",
+        "conclusion": "Food stamp spending (SNAP) is a tiny fraction of the federal budget (1.5%) and is not a major waste of tax dollars.",
+        "premises": [
+          "Fiscal year 2024 spent about $100 billion on SNAP.",
+          "The 'big six' spending categories alone exceed total federal tax revenue.",
+          "Other categories like transportation and veterans spending are significantly larger."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-998BCF590F64",
+            "item": "$100 billion spent on SNAP in FY2024, equal to 1.5% of federal budget",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited for budget figures; cannot verify the specific percentage and dollar amount from transcript alone.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "Fiscal year 2024, the United States government spent about $100 billion on SNAP, which is only 1.5% of the entire federal budget.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-CAD3E21F7BC19A",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "date": "2025-10-29",
+        "source_hash": "18d77ba9f063611bce63c22d3b3400988fe4a42571598bf995507c3d518c049a",
+        "pair_id": "PAIR-CC56-T130",
+        "cc_id": "CC56",
+        "theme_id": "T130",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-94CAE405416B",
+        "local_theme_text": "Age-wealth correlation in transfer programs",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Age-wealth correlation in transfer programs is explicitly about Social Entitlement Programs and Transfer Systems, as the speech describes Social Security and Medicare as transferring wealth from young to old.",
+        "local_argument_id": "LA-A9C02CCAA1D0",
+        "conclusion": "Social Security and Medicare are wealth transfer systems that take from young poor working people to give to old wealthy retirees, forcing younger people into dependence.",
+        "premises": [
+          "Age and wealth are very highly correlated.",
+          "Over 50% of retirees do not touch their retirement savings principle or interest.",
+          "Young poor working people bear a heavy tax burden that prevents them from saving."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-EB323E0EF4C5",
+            "item": "Age and wealth are the tightest correlation in economics/social studies",
+            "status": "Unverifiable",
+            "verification_basis": "Assertion made without supporting data or source; cannot be verified from transcript.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "There is no tighter correlation in economics or social studies than age and wealth together.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A63D0D611032",
+            "item": "Over 50% of retirees are not touching the principle or interest on their own retirements",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for this statistic; cannot be verified from transcript.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "for over 50% of retirees, they are not touching the principle or the interest on their own retirements",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-1D8A179C1F90D7",
+        "speech_id": "SP-BD62C153C9DB",
+        "filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+        "date": "2025-10-29",
+        "source_hash": "18d77ba9f063611bce63c22d3b3400988fe4a42571598bf995507c3d518c049a",
+        "pair_id": "PAIR-CC56-T125",
+        "cc_id": "CC56",
+        "theme_id": "T125",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, which is the exact claim of CC56. It uses food stamps as a contrast to show that the real problem is not food stamps but these entitlement programs, thereby supporting the canonical proposition.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-73050E4A70AA",
+        "local_theme_text": "Freedom through independence",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Freedom through independence aligns with the Philosophical foundations of the Declaration of Independence, as the speech frames freedom as independence from government support, echoing foundational principles.",
+        "local_argument_id": "LA-ADB25BC11EA0",
+        "conclusion": "Freedom requires independence from government support, and individuals must take responsibility to climb out of dependence despite systemic burdens.",
+        "premises": [
+          "Dependence on others reduces freedom.",
+          "The biblical story of Egyptian descent into slavery shows the danger of relying on government.",
+          "It is the individual's responsibility to escape the system, not the system's fault."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F3DDABC1B6AD",
+            "item": "No specific verifiable facts; argument relies on analogy and personal exhortation.",
+            "status": "Unverifiable",
+            "verification_basis": "No verifiable factual evidence provided; only rhetorical and narrative elements.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-CB0945AEA845",
+            "device": "Biblical story of Egypt's descent into slavery",
+            "explanation": "Used to illustrate that reliance on government provision during famine led to loss of freedom and the origin of taxation.",
+            "speech_id": "SP-BD62C153C9DB",
+            "source_speech_filename": "20251029_Over 40 Million Americans are on Food Stamps.txt",
+            "source_excerpt": "There's an old story in the book of Genesis in the Bible about the descent of the Egyptians from freedom into tyranny as they gave up their responsibilities and relied on the government to provide for them through a famine. The end of the story is they all became slaves and that was the origin of taxation.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-2565908BAC99",
+        "local_argument_id": "LA-59D998C4240D",
+        "conclusion": "Those with resources have a moral obligation to care for those in need, but charity should be voluntary and not enforced through taxation.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "e90a03da7ab52f711aed9901453c3da00c88ed9d6a63b9b59b62cd4b048aa9d1",
+  "complete": true
+}

@@ -1,0 +1,991 @@
+{
+  "dependencies": {
+    "source_hash": "bddb61547e5820ebba9967407f37b94b830e1b93d360dc398f34b8a535123ed5",
+    "phase1_record_hash": "f983a9707c464dcb13f7e7b12242db96fa72b7df1f47389d78ac6837aa940650",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-E679093C185A",
+    "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+    "stem": "20260109_The Biggest Problems All Have One Simple Solution",
+    "date": "2026-01-09",
+    "source_hash": "bddb61547e5820ebba9967407f37b94b830e1b93d360dc398f34b8a535123ed5",
+    "source_character_count": 24748,
+    "central_claim": "The biggest problems today (student loan crisis, housing unaffordability, bloated government, and civil unrest) all stem from root causes that can be fixed with simple solutions: allowing bankruptcy for student loans, removing federal government from housing, abolishing the Federal Reserve, and legalizing peaceful secession.",
+    "themes": [
+      {
+        "local_theme_id": "LT-BF7D1C5D6B5D",
+        "theme": "Student loan discharge through bankruptcy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-862835155E1B",
+            "local_theme_id": "LT-BF7D1C5D6B5D",
+            "conclusion": "Allowing student loan debt to be dischargeable through bankruptcy would solve the student loan crisis by eliminating the moral hazard that led to inflated costs and worthless degrees.",
+            "premises": [
+              "Student loans cannot be discharged through bankruptcy, which makes them different from other debt.",
+              "The inability to discharge was introduced to solve the moral hazard of students borrowing and not paying.",
+              "This has led to universities charging increasingly high tuition for degrees with diminishing returns.",
+              "Only those who truly need bankruptcy would use it, so it targets the most burdened.",
+              "Allowing discharge would stop the system degradation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5C3DFDC0A910",
+                "item": "U.S. households have $1.65 trillion in student loans.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not cite a source for this statistic.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "Today, households in the United States have a collective $1.65 trillion dollar in student loans.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4EA4C492F4AB",
+                "item": "Student loans cannot be discharged through bankruptcy.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is asserted without legal citation or supporting evidence.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "you cannot ever get rid of student loan debt unless you actually pay it off. It is different than every other form of debt in that you cannot get out from underneath it from bankruptcy.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-1E00F083AB48",
+                "device": "Tylenol for stomach pain analogy",
+                "explanation": "Illustrates that treating symptoms without addressing root causes leads to worse outcomes.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "It's easy to feel pain in your stomach, think, 'Oh, I should just take some Tylenol to deal with the pain.' And now you've dealt with the symptom. And you do that a little bit too much, and you wind up in the ICU with kidney failure.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-63E9CE74038E",
+                "device": "Cascading snowballing effect metaphor",
+                "explanation": "Describes how a single root-cause fix would resolve multiple downstream problems.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "a simple solution that would cause a cascading snowballing effect fixing everything downstream.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-30AA4F5E12F2",
+        "theme": "Government intervention in housing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7EC5D71332A5",
+            "local_theme_id": "LT-30AA4F5E12F2",
+            "conclusion": "Removing federal government intervention in housing (zoning laws, building codes, and subsidized mortgages) would solve the housing affordability crisis by freeing supply and eliminating artificial demand.",
+            "premises": [
+              "Housing supply has not kept up with population and household formation due to zoning laws and building codes that make building unprofitable.",
+              "Federal mortgage backing and Fed buying mortgage-backed securities artificially inflate demand and prices.",
+              "Without this intervention, prices would fall to reflect true purchasing power."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A2E37329BE9E",
+                "item": "The National Association of Realtors spent more on lobbying than any other group in 2024.",
+                "status": "Unverifiable",
+                "verification_basis": "Speaker refers to 'straight from the National Association Realtors website' but does not provide a direct quotation or verifiable source.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "Straight from the National Association Realtors website, the N spent more on lobbying than any other group in 2024.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C9EAB14F913F",
+                "item": "Number of people per household has been declining for decades.",
+                "status": "Unverifiable",
+                "verification_basis": "No data source is provided; the claim is unsupported.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "Number of people per household has been on the decline for decades.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-84937246FD4F",
+                "item": "Places with least restrictions on building housing have the most improvements in housing affordability.",
+                "status": "Unverifiable",
+                "verification_basis": "Generalization without citation or specific examples.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "the places that have the least restrictions on building housing also have the most improvements in housing affordability.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-5AB89243089C",
+                "device": "Product liability analogy",
+                "explanation": "Argues that liability alone, without building codes, would prevent unsafe construction, analogous to product safety.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "If I make a product that ends up hurting people, I can get sued out of existence. Which means the existence of liability by itself prevents me from making a product or prevents me from willingly or intentionally making a product that will hurt people. The same thing is true in buildings.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-5C5201939815",
+        "theme": "The Federal Reserve",
+        "arguments": [
+          {
+            "local_argument_id": "LA-33E837ECE11E",
+            "local_theme_id": "LT-5C5201939815",
+            "conclusion": "Abolishing the Federal Reserve is the root solution to bloated government, endless debt, and corporatism because the Fed's money creation enables unlimited government spending and prevents necessary contractions.",
+            "premises": [
+              "The Fed creates credit to stop contractions, preventing defaults that would otherwise enforce discipline.",
+              "This allows the government to borrow endlessly without facing default.",
+              "The Fed serves no necessary economic function; interest rates would be set by the free market.",
+              "Central banks were a core pillar of communism."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F38C8A4DB907",
+                "item": "Silicon Valley Bank failure – Fed created new credit to replace the contraction.",
+                "status": "Unverifiable",
+                "verification_basis": "The anecdote is not provided with verifiable details or sources.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "as recently as a failure of Silicon Valley Bank when Silicon Valley Bank took all the money of the depositors, loaned it out to the US government... the Federal Reserve came in and created new credit expansion to replace the contraction that would have happened.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-D757842482AF",
+                "item": "The Federal Reserve does not serve any necessary function for an economy.",
+                "status": "Unverifiable",
+                "verification_basis": "This is an opinion stated as fact without supporting evidence.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "The fact of the matter is that the Federal Reserve does not serve any necessary function for an economy.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-4FF78B083780",
+                "device": "Central bank as pillar of communism",
+                "explanation": "Used to associate the Federal Reserve with communist ideology to discredit it.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "There's a reason why a central bank was one of the core pillars of communism in Marx's communist manifesto.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-34ADC2C01527",
+        "theme": "Peaceful secession",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9CD8B34AFF2E",
+            "local_theme_id": "LT-34ADC2C01527",
+            "conclusion": "Legalizing peaceful secession would restrain government overreach and protect individual liberties because the freedom to leave is a leash on tyranny.",
+            "premises": [
+              "Prior to the Civil War, the Union was understood as voluntary.",
+              "If states could leave, the federal government would be more restrained.",
+              "Individuals also have the option to leave through dual citizenship."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CB6AE6719745",
+                "item": "Prior to the Civil War, it was generally understood that the Union of States was voluntary.",
+                "status": "Unverifiable",
+                "verification_basis": "Historical claim presented without citation or scholarly support.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "prior to the Civil War, it was generally understood, it was common understanding across all states that the Union of States was voluntary.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-17E0E4512FF4",
+                "device": "Leash on tyranny metaphor",
+                "explanation": "Describes the ability to leave as a constraint on government power.",
+                "speech_id": "SP-E679093C185A",
+                "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+                "source_excerpt": "The freedom to leave is a leash on tyranny.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-87B489C9B76C",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "U.S. households have $1.65 trillion in student loans.",
+        "reason": "No source is cited for the statistic; it is presented as fact without verification.",
+        "memory_check": "Corroborated",
+        "memory_note": "Commonly cited figure from Federal Reserve data, but transcript does not provide source.",
+        "source_excerpt": "Today, households in the United States have a collective $1.65 trillion dollar in student loans.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F008CE3B6068",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Student loans cannot be discharged through bankruptcy.",
+        "reason": "This is a legal claim with no citation to statute or case law.",
+        "memory_check": "Corroborated",
+        "memory_note": "Generally true under U.S. law (11 U.S.C. § 523(a)(8)), but not verified within transcript.",
+        "source_excerpt": "you cannot ever get rid of student loan debt unless you actually pay it off. It is different than every other form of debt in that you cannot get out from underneath it from bankruptcy.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E3D607D62D76",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Degree inflation has gotten so bad that it is basically worthless.",
+        "reason": "Opinion stated as fact, no supporting data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is too vague to corroborate or contradict without data.",
+        "source_excerpt": "Degree inflation has gotten so bad that it is basically worthless.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5824BB70EE45",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "The National Association of Realtors spent more on lobbying than any other group in 2024.",
+        "reason": "Speaker references 'their website' but does not provide a direct quotation or verifiable source.",
+        "memory_check": "Corroborated",
+        "memory_note": "OpenSecrets data shows NAR was a top spender, but exact ranking and year need verification.",
+        "source_excerpt": "Straight from the National Association Realtors website, the N spent more on lobbying than any other group in 2024.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-06F2769B0AA0",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Number of people per household has been declining for decades.",
+        "reason": "General demographic claim without citation.",
+        "memory_check": "Corroborated",
+        "memory_note": "U.S. Census data confirms a long-term decline, but transcript does not source it.",
+        "source_excerpt": "Number of people per household has been on the decline for decades.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5CEB30D89F0F",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Places with least restrictions on building have the most improvements in housing affordability.",
+        "reason": "Generalization without specific examples or data.",
+        "memory_check": "Contradicted",
+        "memory_note": "Some low-regulation areas have also seen high prices (e.g., Houston). The claim is oversimplified.",
+        "source_excerpt": "the places that have the least restrictions on building housing also have the most improvements in housing affordability.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-423ACF07B53E",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "The Federal Reserve does not serve any necessary function for an economy.",
+        "reason": "Opinion presented as fact; no counterarguments or evidence provided.",
+        "memory_check": "Contradicted",
+        "memory_note": "Mainstream economics holds central banks serve functions like lender of last resort and monetary policy. The claim is contested.",
+        "source_excerpt": "The fact of the matter is that the Federal Reserve does not serve any necessary function for an economy.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6B138EADA945",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Central bank was a core pillar of communism in Marx's Communist Manifesto.",
+        "reason": "Historical claim without citation; the Communist Manifesto does not explicitly mention a central bank as a core pillar.",
+        "memory_check": "Contradicted",
+        "memory_note": "The Communist Manifesto calls for centralization of credit in a national bank, but not framed as a 'core pillar'. The claim is misleading.",
+        "source_excerpt": "There's a reason why a central bank was one of the core pillars of communism in Marx's communist manifesto.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9EA87ACE8C38",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Prior to the Civil War, the Union of States was voluntary.",
+        "reason": "Historical claim without citation; legal status of secession was debated.",
+        "memory_check": "Contradicted",
+        "memory_note": "While some held that view, the Constitution and Federalist papers imply perpetual union; the matter was settled by the Civil War. The claim is oversimplified.",
+        "source_excerpt": "prior to the Civil War, it was generally understood, it was common understanding across all states that the Union of States was voluntary.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2BE839992B72",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "My personal portfolio performance over the last 5 years is over 370%, which is over triple all of the major indexes, with an average annualized return of over 36%.",
+        "reason": "Self-reported financial performance without audited verification or third-party confirmation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot be validated without access to statements or broker reports.",
+        "source_excerpt": "My personal portfolio performance over the last 5 years is over 370%, which is over triple all of the major indexes. That comes out to an average annualized return of over 36%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-43B251AC2707",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "I've helped others do the same for years now.",
+        "reason": "Vague and unsubstantiated claim of helping others achieve similar returns.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No evidence or testimonies provided.",
+        "source_excerpt": "I've helped others do the same for years now.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-22D88456DB93",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "Silver prices are going parabolic.",
+        "reason": "Vague, no data or timeframe provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Cannot assess without specific price data.",
+        "source_excerpt": "Silver prices are going parabolic.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A9CBC8F19342",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "There's some massive fraud in Minnesota.",
+        "reason": "No specifics or sources; vague reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Unverifiable without details.",
+        "source_excerpt": "Apparently, there's some massive fraud in Minnesota.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E71811310FB5",
+        "speech_id": "SP-E679093C185A",
+        "speech_ref": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "claim": "The US is now kidnapping dictators.",
+        "reason": "Assertion without evidence or context.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific incident or source provided.",
+        "source_excerpt": "And the US is now kidnapping dictators.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The biggest problems today (student loan crisis, housing unaffordability, bloated government, and civil unrest) all stem from root causes that can be fixed with simple solutions: allowing bankruptcy for student loans, removing federal government from housing, abolishing the Federal Reserve, and legalizing peaceful secession.",
+      "themes": [
+        "Student loan discharge through bankruptcy",
+        "Government intervention in housing",
+        "The Federal Reserve",
+        "Peaceful secession"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 14
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "8b3f0fad680c49b0c346b5d04199a671f0041024079d342ab1b6018538948dc3",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "f983a9707c464dcb13f7e7b12242db96fa72b7df1f47389d78ac6837aa940650",
+    "canonical_mapping": {
+      "speech_id": "SP-E679093C185A",
+      "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC42",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+      "primary_cc_rationale": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T104",
+        "T89",
+        "T123"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T104",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-30AA4F5E12F2",
+          "rationale": "Direct semantic match: the local theme 'Government intervention in housing' corresponds exactly to T104 'Housing finance and government intervention'."
+        },
+        {
+          "theme_id": "T89",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-5C5201939815",
+          "rationale": "The speech criticizes the Federal Reserve's money creation as enabling government spending and preventing contractions, which aligns with Federal Reserve Monetary Policy Tools and Frameworks (T89). Other Fed-related themes are also relevant but T89 is the closest fit."
+        },
+        {
+          "theme_id": "T123",
+          "confidence": 1.0,
+          "source_local_theme_id": "LT-34ADC2C01527",
+          "rationale": "Exact match: the local theme 'Peaceful secession' is identical to T123."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC42-T104",
+          "cc_id": "CC42",
+          "theme_id": "T104",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC42-T89",
+          "cc_id": "CC42",
+          "theme_id": "T89",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC42-T123",
+          "cc_id": "CC42",
+          "theme_id": "T123",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "local_cc_text": "The biggest problems today (student loan crisis, housing unaffordability, bloated government, and civil unrest) all stem from root causes that can be fixed with simple solutions: allowing bankruptcy for student loans, removing federal government from housing, abolishing the Federal Reserve, and legalizing peaceful secession.",
+        "canonical_cc_id": "CC42",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+        "rationale": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+        "candidate_matches": [
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.5681108236312866
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.40731966495513916
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.3401137590408325
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.31360548734664917
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.30708885192871094
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "local_theme_id": "LT-BF7D1C5D6B5D",
+        "local_theme_text": "Student loan discharge through bankruptcy",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "None of the supplied canonical themes specifically address student loan bankruptcy or discharge. The closest candidates (T74, T131, T127) are tangentially related to debt cycles or private credit but do not capture the specific policy proposal of bankruptcy reform.",
+        "candidate_matches": [
+          {
+            "id": "T123",
+            "text": "Peaceful secession",
+            "similarity": 0.2255236804485321
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.18608617782592773
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.16600018739700317
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.13215243816375732
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.13015319406986237
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.11887307465076447
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "local_theme_id": "LT-30AA4F5E12F2",
+        "local_theme_text": "Government intervention in housing",
+        "canonical_theme_id": "T104",
+        "confidence": 0.95,
+        "rationale": "Direct semantic match: the local theme 'Government intervention in housing' corresponds exactly to T104 'Housing finance and government intervention'.",
+        "candidate_matches": [
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.8635432720184326
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.546108067035675
+          },
+          {
+            "id": "T105",
+            "text": "Housing Market Dynamics and Affordability",
+            "similarity": 0.4154789447784424
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.4124731719493866
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.3945852220058441
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.38124340772628784
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "local_theme_id": "LT-5C5201939815",
+        "local_theme_text": "The Federal Reserve",
+        "canonical_theme_id": "T89",
+        "confidence": 0.9,
+        "rationale": "The speech criticizes the Federal Reserve's money creation as enabling government spending and preventing contractions, which aligns with Federal Reserve Monetary Policy Tools and Frameworks (T89). Other Fed-related themes are also relevant but T89 is the closest fit.",
+        "candidate_matches": [
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.7209231853485107
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.6824209690093994
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.6251734495162964
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6091738343238831
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.5812990665435791
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4794377088546753
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "local_theme_id": "LT-34ADC2C01527",
+        "local_theme_text": "Peaceful secession",
+        "canonical_theme_id": "T123",
+        "confidence": 1.0,
+        "rationale": "Exact match: the local theme 'Peaceful secession' is identical to T123.",
+        "candidate_matches": [
+          {
+            "id": "T123",
+            "text": "Peaceful secession",
+            "similarity": 1.0
+          },
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.3790062665939331
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.35902100801467896
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.3079644739627838
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.28407981991767883
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.2804070711135864
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-157A88EE5D5B74",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "date": "2026-01-09",
+        "source_hash": "bddb61547e5820ebba9967407f37b94b830e1b93d360dc398f34b8a535123ed5",
+        "pair_id": "PAIR-CC42-T104",
+        "cc_id": "CC42",
+        "theme_id": "T104",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-30AA4F5E12F2",
+        "local_theme_text": "Government intervention in housing",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Direct semantic match: the local theme 'Government intervention in housing' corresponds exactly to T104 'Housing finance and government intervention'.",
+        "local_argument_id": "LA-7EC5D71332A5",
+        "conclusion": "Removing federal government intervention in housing (zoning laws, building codes, and subsidized mortgages) would solve the housing affordability crisis by freeing supply and eliminating artificial demand.",
+        "premises": [
+          "Housing supply has not kept up with population and household formation due to zoning laws and building codes that make building unprofitable.",
+          "Federal mortgage backing and Fed buying mortgage-backed securities artificially inflate demand and prices.",
+          "Without this intervention, prices would fall to reflect true purchasing power."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A2E37329BE9E",
+            "item": "The National Association of Realtors spent more on lobbying than any other group in 2024.",
+            "status": "Unverifiable",
+            "verification_basis": "Speaker refers to 'straight from the National Association Realtors website' but does not provide a direct quotation or verifiable source.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "Straight from the National Association Realtors website, the N spent more on lobbying than any other group in 2024.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C9EAB14F913F",
+            "item": "Number of people per household has been declining for decades.",
+            "status": "Unverifiable",
+            "verification_basis": "No data source is provided; the claim is unsupported.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "Number of people per household has been on the decline for decades.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-84937246FD4F",
+            "item": "Places with least restrictions on building housing have the most improvements in housing affordability.",
+            "status": "Unverifiable",
+            "verification_basis": "Generalization without citation or specific examples.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "the places that have the least restrictions on building housing also have the most improvements in housing affordability.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-5AB89243089C",
+            "device": "Product liability analogy",
+            "explanation": "Argues that liability alone, without building codes, would prevent unsafe construction, analogous to product safety.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "If I make a product that ends up hurting people, I can get sued out of existence. Which means the existence of liability by itself prevents me from making a product or prevents me from willingly or intentionally making a product that will hurt people. The same thing is true in buildings.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-22DEB105B8A468",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "date": "2026-01-09",
+        "source_hash": "bddb61547e5820ebba9967407f37b94b830e1b93d360dc398f34b8a535123ed5",
+        "pair_id": "PAIR-CC42-T89",
+        "cc_id": "CC42",
+        "theme_id": "T89",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-5C5201939815",
+        "local_theme_text": "The Federal Reserve",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The speech criticizes the Federal Reserve's money creation as enabling government spending and preventing contractions, which aligns with Federal Reserve Monetary Policy Tools and Frameworks (T89). Other Fed-related themes are also relevant but T89 is the closest fit.",
+        "local_argument_id": "LA-33E837ECE11E",
+        "conclusion": "Abolishing the Federal Reserve is the root solution to bloated government, endless debt, and corporatism because the Fed's money creation enables unlimited government spending and prevents necessary contractions.",
+        "premises": [
+          "The Fed creates credit to stop contractions, preventing defaults that would otherwise enforce discipline.",
+          "This allows the government to borrow endlessly without facing default.",
+          "The Fed serves no necessary economic function; interest rates would be set by the free market.",
+          "Central banks were a core pillar of communism."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F38C8A4DB907",
+            "item": "Silicon Valley Bank failure – Fed created new credit to replace the contraction.",
+            "status": "Unverifiable",
+            "verification_basis": "The anecdote is not provided with verifiable details or sources.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "as recently as a failure of Silicon Valley Bank when Silicon Valley Bank took all the money of the depositors, loaned it out to the US government... the Federal Reserve came in and created new credit expansion to replace the contraction that would have happened.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-D757842482AF",
+            "item": "The Federal Reserve does not serve any necessary function for an economy.",
+            "status": "Unverifiable",
+            "verification_basis": "This is an opinion stated as fact without supporting evidence.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "The fact of the matter is that the Federal Reserve does not serve any necessary function for an economy.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-4FF78B083780",
+            "device": "Central bank as pillar of communism",
+            "explanation": "Used to associate the Federal Reserve with communist ideology to discredit it.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "There's a reason why a central bank was one of the core pillars of communism in Marx's communist manifesto.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-AB6770B6B64C46",
+        "speech_id": "SP-E679093C185A",
+        "filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+        "date": "2026-01-09",
+        "source_hash": "bddb61547e5820ebba9967407f37b94b830e1b93d360dc398f34b8a535123ed5",
+        "pair_id": "PAIR-CC42-T123",
+        "cc_id": "CC42",
+        "theme_id": "T123",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech identifies student loan crisis, housing unaffordability, bloated government (via Federal Reserve), and civil unrest as stemming from excessive government intervention, and proposes solutions including removing federal housing involvement and abolishing the Fed, directly supporting CC42's thesis that excessive government intervention causes problems and requires fundamental reforms.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-34ADC2C01527",
+        "local_theme_text": "Peaceful secession",
+        "theme_mapping_confidence": 1.0,
+        "theme_mapping_rationale": "Exact match: the local theme 'Peaceful secession' is identical to T123.",
+        "local_argument_id": "LA-9CD8B34AFF2E",
+        "conclusion": "Legalizing peaceful secession would restrain government overreach and protect individual liberties because the freedom to leave is a leash on tyranny.",
+        "premises": [
+          "Prior to the Civil War, the Union was understood as voluntary.",
+          "If states could leave, the federal government would be more restrained.",
+          "Individuals also have the option to leave through dual citizenship."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-CB6AE6719745",
+            "item": "Prior to the Civil War, it was generally understood that the Union of States was voluntary.",
+            "status": "Unverifiable",
+            "verification_basis": "Historical claim presented without citation or scholarly support.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "prior to the Civil War, it was generally understood, it was common understanding across all states that the Union of States was voluntary.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-17E0E4512FF4",
+            "device": "Leash on tyranny metaphor",
+            "explanation": "Describes the ability to leave as a constraint on government power.",
+            "speech_id": "SP-E679093C185A",
+            "source_speech_filename": "20260109_The Biggest Problems All Have One Simple Solution.txt",
+            "source_excerpt": "The freedom to leave is a leash on tyranny.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-BF7D1C5D6B5D",
+        "local_argument_id": "LA-862835155E1B",
+        "conclusion": "Allowing student loan debt to be dischargeable through bankruptcy would solve the student loan crisis by eliminating the moral hazard that led to inflated costs and worthless degrees.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "8b3f0fad680c49b0c346b5d04199a671f0041024079d342ab1b6018538948dc3",
+  "complete": true
+}

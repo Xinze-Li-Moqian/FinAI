@@ -1,0 +1,319 @@
+{
+  "dependencies": {
+    "source_hash": "cb341272d9ad5a761979fd7f5d6fb60533a87773cdf27fb1e383d61a421df8aa",
+    "filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-21A6054A5A0B",
+    "filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+    "stem": "20250910_Is MicroStrategy a Ponzi Scheme",
+    "date": "2025-09-10",
+    "source_hash": "cb341272d9ad5a761979fd7f5d6fb60533a87773cdf27fb1e383d61a421df8aa",
+    "source_character_count": 16136,
+    "central_claim": "MicroStrategy is not a Ponzi scheme because it has a real software business, uses raised capital to buy Bitcoin, and its preferred dividends are cancellable.",
+    "themes": [
+      {
+        "local_theme_id": "LT-90E5B953D34D",
+        "theme": "Ponzi scheme definition and MicroStrategy's compliance",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1B2790F8371D",
+            "local_theme_id": "LT-90E5B953D34D",
+            "conclusion": "MicroStrategy does not meet the legal definition of a Ponzi scheme due to three key differences.",
+            "premises": [
+              "MicroStrategy has a legitimate software business generating some earnings.",
+              "MicroStrategy uses the majority of raised capital to purchase Bitcoin rather than pay existing investors.",
+              "Preferred dividends are not guaranteed and can be suspended at any time."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-715255046EDC",
+                "item": "MicroStrategy is a software company with a real business.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the company is a software company with ongoing operations.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "First of all, the company Micro Strategy itself is a software company. In other words, there is a real business.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-6F0A48C42C5D",
+                "item": "MicroStrategy uses raised money to buy Bitcoin.",
+                "status": "Verified",
+                "verification_basis": "Transcript directly states they buy Bitcoin with the vast majority of raised funds.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "they are taking the money they are raising from investors and buying Bitcoin with the vast majority of it.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F252F2B55061",
+                "item": "Preferred share dividends are cancellable.",
+                "status": "Verified",
+                "verification_basis": "Transcript explains that dividend payments on these preferred shares can be shut off at any time.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "the dividend payments of 8% or 10% on these preferred shares can be shut off at any time.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-A8B4F2765979",
+        "theme": "Preferred shares mechanics and dividend funding",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3A6F4631C114",
+            "local_theme_id": "LT-A8B4F2765979",
+            "conclusion": "Preferred shares are a hybrid instrument with priority over common stock but below debt in liquidation, and their yield varies with market price.",
+            "premises": [
+              "In bankruptcy, lenders are repaid first, then preferred shareholders, then common shareholders.",
+              "Preferred shares are often callable, which caps their upside.",
+              "The effective yield changes when the share price moves relative to the fixed dividend."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BE28F39A1B96",
+                "item": "Order of repayment in liquidation.",
+                "status": "Verified",
+                "verification_basis": "Transcript explains the sequential repayment hierarchy.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "The first people in line to get their money back are always lenders... then the next people in line are actually the preferred shareholders... then it goes to the common stock shareholders.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-6C954A0719F2",
+                "item": "Preferred shares are callable.",
+                "status": "Verified",
+                "verification_basis": "Transcript mentions callability and its effect on share price.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "many times those preferred shares are callable.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7BFF5C678925",
+                "item": "STRD effective yield is 12.7% vs stated 10%.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides specific yield figures but no source or calculation basis.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "STRD the effective yield right now is 12.7% versus the stated dividend of 10",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-9E74E71A0558",
+            "local_theme_id": "LT-A8B4F2765979",
+            "conclusion": "MicroStrategy's dividend payments are not funded by business profits but by new capital, making them unsustainable if capital raising fails.",
+            "premises": [
+              "MicroStrategy does not sell Bitcoin to pay dividends or interest.",
+              "Dividends and interest are paid exclusively by raising new money from investors and lenders.",
+              "If new capital becomes unavailable, dividends will be suspended rather than funded by Bitcoin sales."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-05E61E4372B2",
+                "item": "MicroStrategy will not sell Bitcoin unless forced into liquidation.",
+                "status": "Verified",
+                "verification_basis": "Transcript states Michael Saylor's firm policy against selling Bitcoin.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "Michael Sailor has been absolutely adamantly clear about this. They will not sell any Bitcoin ever unless they're absolutely forced to",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-259B3EED1879",
+                "item": "Dividends and interest are paid by raising more money.",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states the funding source.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "The only way they're paying these dividends and the interest payments on their debt is by raising more money.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-35A950DB0713",
+                "device": "Comparison to XYLD covered call ETF",
+                "explanation": "Illustrates that high dividends not backed by business profits often result in poor total returns.",
+                "speech_id": "SP-21A6054A5A0B",
+                "source_speech_filename": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+                "source_excerpt": "There are ETFs like XYLD... That income is being produced by selling away the upside... the total return of these funds over the long term is abysmal.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-64514ABC9374",
+        "theme": "Investment risk assessment of MicroStrategy preferred shares",
+        "arguments": [
+          {
+            "local_argument_id": "LA-85742C8B10CC",
+            "local_theme_id": "LT-64514ABC9374",
+            "conclusion": "Investing in MicroStrategy preferred shares carries high risk of dividend suspension, making the 8-10% yield unattractive relative to the risk.",
+            "premises": [
+              "Dividend payments depend entirely on successful capital raising.",
+              "If capital raising fails, dividends are suspended without compensation.",
+              "Preferred share upside is capped by callability.",
+              "Bitcoin price volatility increases the risk of capital becoming unavailable."
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-D4F89FBA78B3",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "Bitcoin historically has done one thing and that is go up.",
+        "reason": "The transcript provides no data, timeframe, or source to support this claim.",
+        "memory_check": "Corroborated",
+        "memory_note": "Bitcoin has shown long-term appreciation but experienced significant drawdowns and volatility.",
+        "source_excerpt": "Bitcoin historically has done one thing and that is go up.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7960B366FAF0",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "MicroStrategy's total market cap is a little under $100 billion.",
+        "reason": "The transcript does not cite a source or provide a date for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Market cap fluctuates; this may have been accurate at recording but cannot be verified from transcript.",
+        "source_excerpt": "Currently, the total market cap of Micro Strategy is a little under $100 billion.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-2BC69DC69BCD",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "STRD effective yield is 12.7% versus stated dividend of 10%.",
+        "reason": "No source or calculation method provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Effective yields change with share price; cannot verify without context.",
+        "source_excerpt": "STRD the effective yield right now is 12.7% versus the stated dividend of 10",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A44E54D9F0AC",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "STRF effective yield is 9% versus stated dividend of 10%.",
+        "reason": "No source or calculation method provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Effective yields change with share price; cannot verify without context.",
+        "source_excerpt": "STRF that has an effective yield of 9% versus the stated dividend of 10",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F7F7DB8E8790",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "STRD is trading at $78 per share and STRF at $111 per share.",
+        "reason": "No source or timestamp provided for these prices.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Share prices fluctuate continuously; cannot verify from transcript.",
+        "source_excerpt": "STRF right now is trading at around $111 per share, while STRD is trading around $78 per share.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-52E52042B86A",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "XYLD has a total return of only 146% since inception while the S&P 500 has returned over 400%.",
+        "reason": "No source, inception date, or total return period provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Fund performance data would require external verification.",
+        "source_excerpt": "this one specifically since inception has a total return of only 146% while the S&P 500 by itself has returned over 400%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AC80AB29251A",
+        "speech_id": "SP-21A6054A5A0B",
+        "speech_ref": "20250910_Is MicroStrategy a Ponzi Scheme.txt",
+        "claim": "MicroStrategy has so much Bitcoin and so much profits on their Bitcoin that they never have to worry about paying dividends; they don't even have to raise new investor money.",
+        "reason": "This claim is attributed to 'some people' and is immediately disputed by the speaker; the transcript provides no data to support or refute it.",
+        "memory_check": "Contradicted",
+        "memory_note": "MicroStrategy holds large unrealized gains, but they do not sell Bitcoin to fund operations; they rely on capital markets.",
+        "source_excerpt": "some people are trying to say, 'Hey, well, Micro Strategy has so much Bitcoin and so much profits on their Bitcoin that they never have to worry about it. They don't even have to raise new investor money.'",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "MicroStrategy is not a Ponzi scheme because it has a real software business, uses raised capital to buy Bitcoin, and its preferred dividends are cancellable.",
+      "themes": [
+        "Ponzi scheme definition and MicroStrategy's compliance",
+        "Preferred shares mechanics and dividend funding",
+        "Investment risk assessment of MicroStrategy preferred shares"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-14T22:10:25+00:00",
+    "record_hash": "f1d385ed610de1cd1ff18c7361c6e486e169ed4e8724d714b393a4ba12020921",
+    "analysis_truncated": false
+  },
+  "output_hash": "f7bfa386c3eea84d2f09bde060331868512c9b71674ccde58ea86825f1ab2acf",
+  "complete": true
+}

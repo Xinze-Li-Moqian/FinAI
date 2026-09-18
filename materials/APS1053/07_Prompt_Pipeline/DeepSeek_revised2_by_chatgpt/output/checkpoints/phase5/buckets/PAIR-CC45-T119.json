@@ -1,0 +1,83 @@
+{
+  "dependency_hash": "ac9a3c9b6ec383425698db9e432a3c96856a748c158418accfdee9adc77a1ee1",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC45-T119",
+    "cc_id": "CC45",
+    "theme_id": "T119",
+    "authoritative_anchor": "cc-cc45-theme-t119",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC45-T119-B56E60E2AD",
+        "pair_id": "PAIR-CC45-T119",
+        "conclusion": "Monetary policy is not shifting from easy to tight, removing a key historical pre-crash indicator and suggesting no imminent crash.",
+        "source_contribution_ids": [
+          "CONTRIB-C7C506EC7B57CF"
+        ],
+        "source_speech_filenames": [
+          "20260325_This is What it Looks Like Right Before a Crash.txt"
+        ],
+        "premise_synthesis": "The speech presents premises: the Fed's balance sheet has been expanding recently indicating easing; interest rates have been lowered since September 2024; the money supply is moving higher; upcoming bank deregulation will likely ease further. These collectively indicate that monetary policy remains easy, not tight.",
+        "conclusion_supported": "The absence of a shift from easy to tight monetary policy supports that a major stock market crash driven by this factor is not imminent.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-C7C506EC7B57CF"
+            ],
+            "source_speech_filenames": [
+              "20260325_This is What it Looks Like Right Before a Crash.txt"
+            ],
+            "relationship_explanations": [
+              "The speech's central claim explicitly states that the absence of four pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggests no imminent crash, which is the same proposition as CC45. The speech argues this directly, thus supporting CC45."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Fed balance sheet declining since May 2022 but now expanding; interest rates raised 2022-2023, steady until Sep 2024, then lowered.",
+            "status": "Unverifiable",
+            "verification_basis": "Dates and policy actions stated without source; transcript does not provide internal verification.",
+            "source_contribution_ids": [
+              "CONTRIB-C7C506EC7B57CF"
+            ],
+            "source_speech_filenames": [
+              "20260325_This is What it Looks Like Right Before a Crash.txt"
+            ],
+            "source_excerpt": "One thing you'll notice is that since May of 2022, the Fed's balance sheet has been declining. ... But zooming in on recent history, you can see the Fed is actually expanding their balance sheet. Yet again, balance sheet is going up. That's easing. ... This is the long-term chart of the Federal Funds rate. And you can see that again from 2022 through 2023, the Fed was raising interest rates, and then they kept them steady up until September of 2024. That was a tightening environment. But since 2024, the Fed has been lowering interest rates and recently they voted to keep them steady."
+          },
+          {
+            "item": "Historical crash examples: stock market rose 120% when moving from tight to easy, and crashed 27% when moving from easy to tight.",
+            "status": "Unverifiable",
+            "verification_basis": "Specific percentages and historical phases asserted without citation; transcript does not enable internal verification.",
+            "source_contribution_ids": [
+              "CONTRIB-C7C506EC7B57CF"
+            ],
+            "source_speech_filenames": [
+              "20260325_This is What it Looks Like Right Before a Crash.txt"
+            ],
+            "source_excerpt": "When the Federal Reserve last time moved from tight to easy, the stock market rose from bottom to top about 120%. And then when they moved from an easy environment to a tight environment, the stock market crashed about 27% from top to bottom."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is derived from a single speech dated 2026-03-25. Since only one time point is available, no longitudinal trend can be inferred. The reasoning is presented as a static analysis of current monetary policy indicators as of that date.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-C7C506EC7B57CF"
+    ],
+    "source_speech_filenames": [
+      "20260325_This is What it Looks Like Right Before a Crash.txt"
+    ],
+    "generated_at": "2026-07-15T03:44:18+00:00",
+    "record_hash": "81822d3ecac8fe6a84cb0e962c8754f27df63c579ef267baa095a41f5d84d845"
+  },
+  "complete": true
+}

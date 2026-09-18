@@ -1,0 +1,715 @@
+{
+  "dependencies": {
+    "source_hash": "64d9f36af473fb67900cfb9dea87269a95a2a8e5986f758f49ee001e0bea5932",
+    "phase1_record_hash": "d324c8500ecdf50bc7e4169650a73b3cd18100d8eb3d90cb81b53314951265ce",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-ED1091DFDFFF",
+    "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+    "stem": "20250828_The Real Reason Trump is Replacing Everyone at the Fed",
+    "date": "2025-08-28",
+    "source_hash": "64d9f36af473fb67900cfb9dea87269a95a2a8e5986f758f49ee001e0bea5932",
+    "source_character_count": 12322,
+    "central_claim": "The Trump administration's push to replace Federal Reserve Board members is primarily motivated by a desire to reduce or eliminate interest on bank reserves, thereby driving $3.3 trillion into U.S. Treasuries to lower long-term interest rates and increase Fed profits.",
+    "themes": [
+      {
+        "local_theme_id": "LT-DD0D4A3C9069",
+        "theme": "Trump's removal of Federal Reserve Board governors",
+        "arguments": [
+          {
+            "local_argument_id": "LA-79996DD3FEBE",
+            "local_theme_id": "LT-DD0D4A3C9069",
+            "conclusion": "Trump is unable to remove Powell without a legally valid cause, so he is instead replacing other governors to gain a majority.",
+            "premises": [
+              "Trump considered using the cost of renovating Fed buildings as a justification to fire Powell but that reasoning seemed insufficient to hold up in court.",
+              "Trump may need to wait until Powell's successor is appointed."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D2BB8F1A17D1",
+                "item": "Trump considered cost of renovating Fed buildings as a justification to fire Powell.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or citation for this reported consideration.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "Even looking at the cost of renovating Federal Reserve buildings as a way to justify firing him.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-67A206D628CC",
+            "local_theme_id": "LT-DD0D4A3C9069",
+            "conclusion": "Cougler's unexplained resignation likely resulted from pressure from the Trump administration to make room for a new appointee.",
+            "premises": [
+              "On August 1st, the Federal Reserve Board announced that Adriana Cougler would step down effective August 8th.",
+              "Resignation was given without cause, without reason."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-754BF3EEC525",
+                "item": "Adriana Cougler's resignation announcement.",
+                "status": "Verified",
+                "verification_basis": "The transcript reports the specific announcement from the Federal Reserve Board.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "On August 1st, the Federal Reserve Board announced that Adriana Cougler would step down from her position as a governor of the Federal Reserve Board effective August 8th. Now, this resignation was given without cause, without reason.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-884D439B5635",
+            "local_theme_id": "LT-DD0D4A3C9069",
+            "conclusion": "Trump's firing of Cook is legally questionable because 'cause' is undefined and the alleged misconduct is unrelated to her Fed duties, so the court's ruling is uncertain.",
+            "premises": [
+              "Cook allegedly lied on mortgage applications.",
+              "Nothing defines what counts as cause under the Federal Reserve Act.",
+              "Cook stated 'I will not resign.'"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C0DD9D545F10",
+                "item": "Executive order citing Article 2 and Federal Reserve Act to remove Cook.",
+                "status": "Verified",
+                "verification_basis": "The transcript quotes the executive order directly.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "With this executive order, President Trump referred to his authority under article 2 of the Constitution and the Federal Reserve Act of 1913 and said, 'You are hereby removed from your position on the board of governors of the Federal Reserve effective immediately.'",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-6B3C57FE58C4",
+                "item": "Allegation that Cook lied on mortgage applications by claiming two different houses as primary residences.",
+                "status": "Disputed",
+                "verification_basis": "The speaker expresses uncertainty about the allegation and notes no charge or conviction.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "The cause cited here is that Cook allegedly lied on mortgage applications. Within the course of a few weeks, a couple years ago, Cook applied for two mortgages to buy two different houses in two different states, and she stated on both applications that that house would be her main primary residence. Now, I'm not sure whether this is confirmed. I don't know whether she has been charged with a crime yet at this point.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-C8004DFE37F1",
+            "local_theme_id": "LT-DD0D4A3C9069",
+            "conclusion": "The Federal Reserve might not contest Cook's firing because if the court rules in Trump's favor, the Fed could be liable for allowing an improperly appointed person to vote.",
+            "premises": [
+              "If the court rules that Trump had authority to fire Cook, the Fed allowed her to continue serving without authority.",
+              "Trump could then fire Powell for allowing an unauthorized governor to vote."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A42D73CA25F0",
+                "item": "Speculation about legal liability.",
+                "status": "Unverifiable",
+                "verification_basis": "No factual basis provided in the transcript; purely hypothetical scenario.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "What if the court rules in Trump's favor and says, 'Yep, he actually does have the authority to fire her, but the Federal Reserve allows her to continue her duties this entire time.' Well, at that point then, it's possible that Trump could fire Powell for allowing somebody to continue operating at the Federal Reserve, voting, making monetary policy decisions who didn't actually have the authority to be there that whole time.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-F905C5D306B3",
+        "theme": "Reduction of interest on reserve balances to redirect bank reserves into Treasuries",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FD6687448BED",
+            "local_theme_id": "LT-F905C5D306B3",
+            "conclusion": "The current IORB system locks $3.3 trillion of bank reserves at the Fed, which could be redirected to Treasuries if IORB is reduced.",
+            "premises": [
+              "There's $3.3 trillion that banks hold at the Federal Reserve.",
+              "Banks hold their reserves at the Fed and get paid to do so.",
+              "The interest paid on this $3.3 trillion is the floor underneath interest rates."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-70E285BBD5D5",
+                "item": "Chart showing $3.3 trillion in bank reserves at the Fed.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript references a chart but provides no source or data citation.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "Right now, there's $3.3 trillion that banks hold at the Federal Reserve.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-CB608719D5F3",
+            "local_theme_id": "LT-F905C5D306B3",
+            "conclusion": "The Fed can manage interest rates without IORB, as it did before 2008.",
+            "premises": [
+              "Prior to 2008, the Federal Reserve used open market operations to increase and decrease reserves.",
+              "There were no balances held at the Fed prior to 2008."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-BC5A35408BE7",
+                "item": "Historical practice before 2008.",
+                "status": "Unverifiable",
+                "verification_basis": "No historical source or citation provided in the transcript.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "Prior to 2008, the Federal Reserve used open market operations to increase and decrease reserves in the system by buying and selling treasuries in order to make sure that interest rates stayed where they wanted them to be.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-F5E5A842E4FA",
+            "local_theme_id": "LT-F905C5D306B3",
+            "conclusion": "Trump can achieve the same effect as the congressional bill by using his majority on the Board of Governors to lower IORB without Congress.",
+            "premises": [
+              "A bill in Congress would prohibit IORB but is unlikely to pass.",
+              "The Board of Governors alone controls the interest rate on reserves.",
+              "Trump will have a 4 to 3 majority on the Board of Governors."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-91895011E479",
+                "item": "Proposed congressional bill to prohibit IORB.",
+                "status": "Unverifiable",
+                "verification_basis": "No bill name or legislative details provided.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "There is a bill proposed in Congress that would prohibit the Federal Reserve from paying earnings on reserves held at the Federal Reserve from this point on.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-E120F2521664",
+            "local_theme_id": "LT-F905C5D306B3",
+            "conclusion": "Reducing IORB to zero or significantly lower will drive $3.3 trillion out of the Fed into Treasuries, lowering long-term interest rates and making the Fed profitable again.",
+            "premises": [
+              "All of that money rushes out into treasuries instead.",
+              "If the Fed stops paying interest on reserves, it becomes profitable and sweeps income back to the Treasury."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9807BB68DDDA",
+                "item": "Prediction of market effect.",
+                "status": "Unverifiable",
+                "verification_basis": "Speculative projection without supporting data or precedent.",
+                "speech_id": "SP-ED1091DFDFFF",
+                "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+                "source_excerpt": "You can effectively accomplish the same thing, moving the reserves out of the Fed into treasuries simply by getting a majority on the board of governors who agree to do so.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-8E70653A415A",
+        "speech_id": "SP-ED1091DFDFFF",
+        "speech_ref": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "claim": "There is $3.3 trillion in bank reserves held at the Federal Reserve.",
+        "reason": "The transcript provides no source or citation for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This figure may be based on Fed data but transcript gives no citation.",
+        "source_excerpt": "Right now, there's $3.3 trillion that banks hold at the Federal Reserve.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2AA7E990D055",
+        "speech_id": "SP-ED1091DFDFFF",
+        "speech_ref": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "claim": "Prior to 2008, the Federal Reserve used open market operations to manage interest rates and there were no reserve balances held at the Fed.",
+        "reason": "No historical source or citation provided in the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "This is standard historical fact, but transcript lacks citation.",
+        "source_excerpt": "Prior to 2008, the Federal Reserve used open market operations to increase and decrease reserves in the system by buying and selling treasuries in order to make sure that interest rates stayed where they wanted them to be.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AC484CE7B183",
+        "speech_id": "SP-ED1091DFDFFF",
+        "speech_ref": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "claim": "Cook applied for two mortgages claiming two different houses as primary residences, which Trump cited as cause for removal.",
+        "reason": "Presented as an allegation with uncertainty from the speaker; no evidence of confirmation or charges.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker says 'I'm not sure whether this is confirmed.' No evidence provided.",
+        "source_excerpt": "The cause cited here is that Cook allegedly lied on mortgage applications. Within the course of a few weeks, a couple years ago, Cook applied for two mortgages to buy two different houses in two different states, and she stated on both applications that that house would be her main primary residence.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-790F547ECBA2",
+        "speech_id": "SP-ED1091DFDFFF",
+        "speech_ref": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "claim": "There is a bill proposed in Congress that would prohibit the Federal Reserve from paying interest on reserves.",
+        "reason": "No specific bill name or details provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No citation or specification of the bill.",
+        "source_excerpt": "There is a bill proposed in Congress that would prohibit the Federal Reserve from paying earnings on reserves held at the Federal Reserve from this point on.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-7C0C9DC06471",
+        "speech_id": "SP-ED1091DFDFFF",
+        "speech_ref": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "claim": "Trump considered using the cost of renovating Federal Reserve buildings as a way to justify firing Powell.",
+        "reason": "No evidence or source provided that Trump actually considered this.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Speaker presents this as a known action but gives no support.",
+        "source_excerpt": "Even looking at the cost of renovating Federal Reserve buildings as a way to justify firing him.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The Trump administration's push to replace Federal Reserve Board members is primarily motivated by a desire to reduce or eliminate interest on bank reserves, thereby driving $3.3 trillion into U.S. Treasuries to lower long-term interest rates and increase Fed profits.",
+      "themes": [
+        "Trump's removal of Federal Reserve Board governors",
+        "Reduction of interest on reserve balances to redirect bank reserves into Treasuries"
+      ],
+      "argument_count": 8,
+      "unverifiable_count": 5
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "6301d6c50e2842474b56a48f06afab0813760a8c39ba7be6866abfda30b68a60",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "d324c8500ecdf50bc7e4169650a73b3cd18100d8eb3d90cb81b53314951265ce",
+    "canonical_mapping": {
+      "speech_id": "SP-ED1091DFDFFF",
+      "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC50",
+      "primary_cc_confidence": 0.75,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+      "primary_cc_rationale": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T75"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T75",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-DD0D4A3C9069",
+          "rationale": "The theme of removing Fed governors directly concerns central bank governance and political independence."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC50-T75",
+          "cc_id": "CC50",
+          "theme_id": "T75",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "local_cc_text": "The Trump administration's push to replace Federal Reserve Board members is primarily motivated by a desire to reduce or eliminate interest on bank reserves, thereby driving $3.3 trillion into U.S. Treasuries to lower long-term interest rates and increase Fed profits.",
+        "canonical_cc_id": "CC50",
+        "confidence": 0.75,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+        "rationale": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+        "candidate_matches": [
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.49942025542259216
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.45762407779693604
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.41648054122924805
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.38066256046295166
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.3763371706008911
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "local_theme_id": "LT-DD0D4A3C9069",
+        "local_theme_text": "Trump's removal of Federal Reserve Board governors",
+        "canonical_theme_id": "T75",
+        "confidence": 0.85,
+        "rationale": "The theme of removing Fed governors directly concerns central bank governance and political independence.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5371109247207642
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.4758353531360626
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.44673365354537964
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.4286375045776367
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.4052209258079529
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.37093910574913025
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "local_theme_id": "LT-F905C5D306B3",
+        "local_theme_text": "Reduction of interest on reserve balances to redirect bank reserves into Treasuries",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "The reduction of interest on reserve balances is a specific monetary policy tool, fitting the theme of Federal Reserve Monetary Policy Tools and Frameworks.",
+        "candidate_matches": [
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.38336753845214844
+          },
+          {
+            "id": "T87",
+            "text": "Federal Reserve Balance Sheet Policy",
+            "similarity": 0.3698399066925049
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.3651612401008606
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.27091166377067566
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.26252099871635437
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.23005250096321106
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-C1A48277DA2973",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "date": "2025-08-28",
+        "source_hash": "64d9f36af473fb67900cfb9dea87269a95a2a8e5986f758f49ee001e0bea5932",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DD0D4A3C9069",
+        "local_theme_text": "Trump's removal of Federal Reserve Board governors",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme of removing Fed governors directly concerns central bank governance and political independence.",
+        "local_argument_id": "LA-79996DD3FEBE",
+        "conclusion": "Trump is unable to remove Powell without a legally valid cause, so he is instead replacing other governors to gain a majority.",
+        "premises": [
+          "Trump considered using the cost of renovating Fed buildings as a justification to fire Powell but that reasoning seemed insufficient to hold up in court.",
+          "Trump may need to wait until Powell's successor is appointed."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D2BB8F1A17D1",
+            "item": "Trump considered cost of renovating Fed buildings as a justification to fire Powell.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or citation for this reported consideration.",
+            "speech_id": "SP-ED1091DFDFFF",
+            "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+            "source_excerpt": "Even looking at the cost of renovating Federal Reserve buildings as a way to justify firing him.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E3A5D7A625277F",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "date": "2025-08-28",
+        "source_hash": "64d9f36af473fb67900cfb9dea87269a95a2a8e5986f758f49ee001e0bea5932",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DD0D4A3C9069",
+        "local_theme_text": "Trump's removal of Federal Reserve Board governors",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme of removing Fed governors directly concerns central bank governance and political independence.",
+        "local_argument_id": "LA-67A206D628CC",
+        "conclusion": "Cougler's unexplained resignation likely resulted from pressure from the Trump administration to make room for a new appointee.",
+        "premises": [
+          "On August 1st, the Federal Reserve Board announced that Adriana Cougler would step down effective August 8th.",
+          "Resignation was given without cause, without reason."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-754BF3EEC525",
+            "item": "Adriana Cougler's resignation announcement.",
+            "status": "Verified",
+            "verification_basis": "The transcript reports the specific announcement from the Federal Reserve Board.",
+            "speech_id": "SP-ED1091DFDFFF",
+            "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+            "source_excerpt": "On August 1st, the Federal Reserve Board announced that Adriana Cougler would step down from her position as a governor of the Federal Reserve Board effective August 8th. Now, this resignation was given without cause, without reason.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-BBD0854BC95069",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "date": "2025-08-28",
+        "source_hash": "64d9f36af473fb67900cfb9dea87269a95a2a8e5986f758f49ee001e0bea5932",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DD0D4A3C9069",
+        "local_theme_text": "Trump's removal of Federal Reserve Board governors",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme of removing Fed governors directly concerns central bank governance and political independence.",
+        "local_argument_id": "LA-884D439B5635",
+        "conclusion": "Trump's firing of Cook is legally questionable because 'cause' is undefined and the alleged misconduct is unrelated to her Fed duties, so the court's ruling is uncertain.",
+        "premises": [
+          "Cook allegedly lied on mortgage applications.",
+          "Nothing defines what counts as cause under the Federal Reserve Act.",
+          "Cook stated 'I will not resign.'"
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-C0DD9D545F10",
+            "item": "Executive order citing Article 2 and Federal Reserve Act to remove Cook.",
+            "status": "Verified",
+            "verification_basis": "The transcript quotes the executive order directly.",
+            "speech_id": "SP-ED1091DFDFFF",
+            "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+            "source_excerpt": "With this executive order, President Trump referred to his authority under article 2 of the Constitution and the Federal Reserve Act of 1913 and said, 'You are hereby removed from your position on the board of governors of the Federal Reserve effective immediately.'",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-6B3C57FE58C4",
+            "item": "Allegation that Cook lied on mortgage applications by claiming two different houses as primary residences.",
+            "status": "Disputed",
+            "verification_basis": "The speaker expresses uncertainty about the allegation and notes no charge or conviction.",
+            "speech_id": "SP-ED1091DFDFFF",
+            "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+            "source_excerpt": "The cause cited here is that Cook allegedly lied on mortgage applications. Within the course of a few weeks, a couple years ago, Cook applied for two mortgages to buy two different houses in two different states, and she stated on both applications that that house would be her main primary residence. Now, I'm not sure whether this is confirmed. I don't know whether she has been charged with a crime yet at this point.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-9EA225C7DEA471",
+        "speech_id": "SP-ED1091DFDFFF",
+        "filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+        "date": "2025-08-28",
+        "source_hash": "64d9f36af473fb67900cfb9dea87269a95a2a8e5986f758f49ee001e0bea5932",
+        "pair_id": "PAIR-CC50-T75",
+        "cc_id": "CC50",
+        "theme_id": "T75",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a concrete instance of the executive branch attacking Fed independence (replacing governors) and implementing a policy (reducing IORB) aimed at supporting government borrowing by lowering long-term interest rates, which aligns with CC50's broader claim about government actions to support borrowing and undermine Fed independence.",
+        "primary_cc_confidence": 0.75,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DD0D4A3C9069",
+        "local_theme_text": "Trump's removal of Federal Reserve Board governors",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme of removing Fed governors directly concerns central bank governance and political independence.",
+        "local_argument_id": "LA-C8004DFE37F1",
+        "conclusion": "The Federal Reserve might not contest Cook's firing because if the court rules in Trump's favor, the Fed could be liable for allowing an improperly appointed person to vote.",
+        "premises": [
+          "If the court rules that Trump had authority to fire Cook, the Fed allowed her to continue serving without authority.",
+          "Trump could then fire Powell for allowing an unauthorized governor to vote."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-A42D73CA25F0",
+            "item": "Speculation about legal liability.",
+            "status": "Unverifiable",
+            "verification_basis": "No factual basis provided in the transcript; purely hypothetical scenario.",
+            "speech_id": "SP-ED1091DFDFFF",
+            "source_speech_filename": "20250828_The Real Reason Trump is Replacing Everyone at the Fed.txt",
+            "source_excerpt": "What if the court rules in Trump's favor and says, 'Yep, he actually does have the authority to fire her, but the Federal Reserve allows her to continue her duties this entire time.' Well, at that point then, it's possible that Trump could fire Powell for allowing somebody to continue operating at the Federal Reserve, voting, making monetary policy decisions who didn't actually have the authority to be there that whole time.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-F905C5D306B3",
+        "local_argument_id": "LA-FD6687448BED",
+        "conclusion": "The current IORB system locks $3.3 trillion of bank reserves at the Fed, which could be redirected to Treasuries if IORB is reduced.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-F905C5D306B3",
+        "local_argument_id": "LA-CB608719D5F3",
+        "conclusion": "The Fed can manage interest rates without IORB, as it did before 2008.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-F905C5D306B3",
+        "local_argument_id": "LA-F5E5A842E4FA",
+        "conclusion": "Trump can achieve the same effect as the congressional bill by using his majority on the Board of Governors to lower IORB without Congress.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      },
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-F905C5D306B3",
+        "local_argument_id": "LA-E120F2521664",
+        "conclusion": "Reducing IORB to zero or significantly lower will drive $3.3 trillion out of the Fed into Treasuries, lowering long-term interest rates and making the Fed profitable again.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "6301d6c50e2842474b56a48f06afab0813760a8c39ba7be6866abfda30b68a60",
+  "complete": true
+}

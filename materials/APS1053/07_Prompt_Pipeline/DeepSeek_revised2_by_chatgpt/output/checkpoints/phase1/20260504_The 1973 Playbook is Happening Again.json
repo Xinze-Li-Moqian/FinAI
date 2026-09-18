@@ -1,0 +1,664 @@
+{
+  "dependencies": {
+    "source_hash": "21d67d6292454689b67db2052e78f70b380993f2f28f422730ac22b4a56342cd",
+    "filename": "20260504_The 1973 Playbook is Happening Again.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-6E47A613F0F8",
+    "filename": "20260504_The 1973 Playbook is Happening Again.txt",
+    "stem": "20260504_The 1973 Playbook is Happening Again",
+    "date": "2026-05-04",
+    "source_hash": "21d67d6292454689b67db2052e78f70b380993f2f28f422730ac22b4a56342cd",
+    "source_character_count": 15952,
+    "central_claim": "The current closure of the Strait of Hormuz is the largest oil supply shock in history and will likely lead to a prolonged period of high energy and food prices, with the situation resembling the 1970s more than 2020, driven by similar monetary expansion and supply constraints.",
+    "themes": [
+      {
+        "local_theme_id": "LT-D43B7DBB1E05",
+        "theme": "Magnitude of the Strait of Hormuz oil supply shock",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FFB04AA6E80B",
+            "local_theme_id": "LT-D43B7DBB1E05",
+            "conclusion": "The closure of the Strait of Hormuz constitutes the largest oil supply shock in history, bigger than 2020 and the 1970s.",
+            "premises": [
+              "The International Energy Agency describes it as the largest oil supply shock in history.",
+              "Oil tankers normally carried about 15 million barrels per day through the strait, about 20% of global oil trade.",
+              "The strait is now running at about 5% of pre-war levels.",
+              "The closure has removed about 9 million barrels per day from the market, versus 5 million in the 1973 embargo."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E4BDDAEFE6F6",
+                "item": "IEA statement calling it the largest oil supply shock in history",
+                "status": "Verified",
+                "verification_basis": "an explicit identifiable source (IEA) is named in the transcript",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Right now, according to the International Energy Agency, what is happening in the Strait of Hormuz is the largest oil supply shock in history.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-4ADB7EF106B8",
+                "item": "15 million barrels per day and 20% of global oil trade",
+                "status": "Unverifiable",
+                "verification_basis": "no source or attribution provided for these specific numbers",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Oil tankers used to carry about 15 million barrels per day of crude and refined products through the Strait of Hormuz, and that equaled about 1/5 of everything the world produced and shipped, about 20% of the entire global oil trade.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-BFD960D46A1B",
+                "item": "Strait running at 5% of pre-war levels",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for this percentage",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "the strait is running at about 5% of its pre-war levels",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9DB85970D8A2",
+                "item": "9 million barrels off market vs 5 million in 1973",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for the 9 million figure, and the 5 million figure for 1973 is given without citation",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "The oil embargo in 1973 took 5 million barrels of oil a day off the market. closure in the Strait of Hormuz has taken about 9 million barrels of oil off the market.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-2DB21EDB1569",
+                "device": "direct numerical comparison to 1973 embargo",
+                "explanation": "highlights that the current shock is larger in absolute terms than the historically impactful 1973 embargo",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "The oil embargo in 1973 took 5 million barrels of oil a day off the market. closure in the Strait of Hormuz has taken about 9 million barrels of oil off the market.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-344C8E4B0F38",
+        "theme": "Historical parallel to the 1970s oil crisis",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F0A913C9AC4F",
+            "local_theme_id": "LT-344C8E4B0F38",
+            "conclusion": "The current crisis will likely resemble the 1970s more than the 2020 supply shock, with sustained high oil prices and inflation.",
+            "premises": [
+              "Both involve war in the Middle East and oil supply shocks.",
+              "Both occur against a backdrop of rapid recent money supply growth.",
+              "The 1970s saw oil quadruple and inflation stay high for a decade.",
+              "The current CPI trend shows a similar upward shift since 2020."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EB5C4B52DBA8",
+                "item": "Oil price response in 1970s vs now",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for the claim that oil quadrupled in the 1970s or that current increase is smaller",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "In 1970s, oil quadrupled. Right now, it has not increased anywhere near that amount.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-54510E770888",
+                "item": "CPI chart showing similar pattern",
+                "status": "Unverifiable",
+                "verification_basis": "the chart is referenced but no data or source is provided",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "You'll notice a similar thing happened in the '70s when prices ticked up higher, and that inflation rate stayed higher for almost the entire decade.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-4187F89D3335",
+                "device": "direct analogy between 1970s and current crisis",
+                "explanation": "used to argue that the current shock will play out like the 1970s (prolonged high prices, inflation) rather than like 2020",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Instead, this is probably going to look a lot more close to the '70s.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-8C7FE8674471",
+                "device": "comparison of war and monetary policy backdrop",
+                "explanation": "reinforces the similarity between the two periods",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "In the '70s, not only did we have war in the Middle East and oil supply shocks, but we also had that against a backdrop of a recent rapid increase in the pace of the growth of the money supply. In the 2020s, we are also now seeing wars in the Middle East, oil supply shocks with a recent rapid increase in the growth of the money supply.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-0351AB9E5A49",
+        "theme": "Similar monetary policy environment",
+        "arguments": [
+          {
+            "local_argument_id": "LA-162DAF5A2D4D",
+            "local_theme_id": "LT-0351AB9E5A49",
+            "conclusion": "The monetary policy environment in the 2020s mirrors the 1970s, with rapid money supply growth following the end of the gold standard analogue (2020 money printing).",
+            "premises": [
+              "In 1971 the US ended the gold standard, leading to accelerated money supply growth.",
+              "In 2020, massive money printing caused the money supply to grow above trend.",
+              "In both periods, the money supply shifted to a higher growth trajectory."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-DDA74B03A6EF",
+                "item": "Money supply growth after 1971 gold standard end",
+                "status": "Unverifiable",
+                "verification_basis": "no source or data provided for the money supply chart or the claim about acceleration",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "You can see the money supply was on a steady trajectory, and then suddenly, starting in 1970, it ticked up and began a new trajectory that was a growth at a much faster pace. You might remember that in 1971, the United States ended the gold standard for good.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CAE738C2736B",
+                "item": "Money supply growth after 2020",
+                "status": "Unverifiable",
+                "verification_basis": "no source or data provided for the claim about money supply continuing above trend",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "the money supply was expanding at a very predictable pace, and then starting in 2020, they unleashed a lot of money printing, and now the money supply is continuing to grow way above trend compared to where it was before.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-8EF57298CA55",
+                "device": "parallel between post-gold-standard acceleration and post-2020 acceleration",
+                "explanation": "used to argue that the monetary backdrop of the current crisis is similar to the 1970s, implying a similar inflationary outcome",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Now, if we take a look at the past couple of decades, we can see the exact same thing has recently happened.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-6C1BFED71F50",
+        "theme": "Impact on fuel, fertilizer, and food prices",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1FE2D328F70B",
+            "local_theme_id": "LT-6C1BFED71F50",
+            "conclusion": "The closure will cause sustained higher fuel prices, which will lead to higher fertilizer costs and, consequently, higher food prices.",
+            "premises": [
+              "Gas prices are already rising across the US and are over $6 in some places and over $4 on average.",
+              "The Persian Gulf accounts for about 1/3 of global fertilizer trade.",
+              "Higher fuel costs increase production costs for fertilizer and food, leading to reduced supply or higher consumer prices."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-ED5419534581",
+                "item": "Gas prices over $6 in California and over $4 nationally",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for these specific price points",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Gas prices are already going up across the country, and in some places in California, you see regular gasoline at over $6 a gallon. And it's over four on average across the nation now.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-59D54A0E2160",
+                "item": "Persian Gulf share of global fertilizer trade",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for the 1/3 figure",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Persian Gulf accounts for about 1/3 of global fertilizer trade.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-92B9B18B9DC9",
+        "theme": "Global shipping congestion and trade disruption",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F982BE8041E4",
+            "local_theme_id": "LT-92B9B18B9DC9",
+            "conclusion": "The closure has caused massive shipping route diversions and port congestion, which will take months to resolve even if the strait opens.",
+            "premises": [
+              "34,000 shipping routes were initially diverted, now likely beyond 100,000.",
+              "Ports like Khor Fakkan, Sohar, and Karachi show severe congestion.",
+              "Clearing mines from the strait could take up to 6 months.",
+              "Container shipping rates have tripled or quadrupled."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-A747A7881172",
+                "item": "Shipping route diversion numbers",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for the 34,000 initial or 100,000+ current number",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "Right now there are 34,000 shipping routes that are diverted from Hormuz. A month ago they were reporting that 34,000 shipping routes had been diverted from Hormuz. And now that number is likely well beyond 100,000.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-889C59CF5994",
+                "item": "Port congestion statistics (Khor Fakkan, Sohar, Karachi)",
+                "status": "Unverifiable",
+                "verification_basis": "no source cited for the port congestion percentages or delay multiples",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "The port of Khor Fakkan has been locked at 100% congestion for over 10 days. Sohar climbed from 67% in February to 70% with average delays peaking at ninefold increase over pre-crisis levels. Congestion in Karachi has risen from 14% to 63%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-94E43461AE67",
+                "item": "Clearing mines could take 6 months",
+                "status": "Verified",
+                "verification_basis": "the statement attributes the timeline to the Pentagon telling Congress, providing an identifiable source",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "the Pentagon just told Congress that clearing the Strait of Hormuz of all the mines could take up to 6 months.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-292C8B8E1F29",
+                "item": "Container shipping rates up triple or quadruple",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for the rate increase multiple",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "container shipping rates are up triple or quadruple compared to what they were before.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-A7925368E34F",
+        "theme": "US market outperformance and global recession risk",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F8F0E93AA9EF",
+            "local_theme_id": "LT-A7925368E34F",
+            "conclusion": "The US stock market is outperforming emerging markets because the US is less affected by the cost increases, while Europe and Asia are on the brink of recession.",
+            "premises": [
+              "European and Asian countries are on the brink of recession.",
+              "The S&P 500 and Nasdaq are at all-time highs while the US has outperformed international markets since the war began.",
+              "The US is a net importer but less dependent on the Persian Gulf for container volume (2-3%)."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CCF8A6059C70",
+                "item": "European and Asian countries on brink of recession",
+                "status": "Unverifiable",
+                "verification_basis": "no source or specific data provided to support this claim",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "European and Asian countries are on the brink of recession.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B3F141CA525F",
+                "item": "S&P 500 up almost 6% and VXUS down half a percent since war began",
+                "status": "Unverifiable",
+                "verification_basis": "no specific date or source provided for these returns",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "With the S&P 500 up almost 6% and VXUS still down a half a percent.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9C78A755436A",
+                "item": "Persian Gulf accounts for only 2-3% of global container volume",
+                "status": "Unverifiable",
+                "verification_basis": "no source provided for this figure",
+                "speech_id": "SP-6E47A613F0F8",
+                "source_speech_filename": "20260504_The 1973 Playbook is Happening Again.txt",
+                "source_excerpt": "the Persian Gulf only accounts for about 2 to 3% of global container volume.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-4088627B14CC",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "European and Asian countries are on the brink of recession.",
+        "reason": "No source, data, or specific evidence is provided in the transcript to support this assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "European and Asian countries are on the brink of recession.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-56BF7A44BFEE",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Thousands of ships are stranded in the Persian Gulf.",
+        "reason": "No specific number or source is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "We have thousands of ships stranded in the Persian Gulf.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A908F240624D",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "The buffers in the system are slowly running out.",
+        "reason": "Vague and unsupported; no definition of 'buffers' or evidence provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "the buffers in the system are slowly running out.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-28088198C3C0",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Gasoline in some places in the United States is over $6 a gallon.",
+        "reason": "No source or location specifics provided; unverifiable within transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "gasoline in some places in the United States is over $6 a gallon.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-097F1239FA56",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "It is over four dollars on average across the nation now.",
+        "reason": "No source or date provided for the national average.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "it's over four on average across the nation now.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9D19C27BD629",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "The fallout from 2020 was a spike in inflation ... many other problems that we are still dealing with today.",
+        "reason": "Causal claim without supporting evidence within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "The fallout from that was a spike in inflation in consumer goods and services, in production to follow up with that demand that was actually a misallocation of resources and malinvestment that led to gluts and a slowdown in the economy that happened in 2022, and many other problems that we are still dealing with today.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F16E31489B8B",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "The overall pathway that we're taking, the debt-to-GDP, the money printing, the QE, the inflation, the asset price impact, the wars, have been predictable for a long time.",
+        "reason": "No supporting evidence or methodology provided to demonstrate predictability.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "Everything going on right now, while the specifics have not been predictable, the overall pathway that we're taking, the debt-to-GDP the money printing, the QE, the inflation, the asset price impact that we're seeing across the board, the wars empires start as they begin their decline. These are things that have been predictable for a long time.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B2DE19420F82",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "I have been generating double and triple, even quadruple digit returns using a conservative risk management strategy without margin, futures, leverage, or naked shorting.",
+        "reason": "No performance records, account statements, or third-party verification are provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "I'm going to show you what I think happens next and how I'm positioned to take advantage of it. I'm going to walk you through the strategy that I use that has allowed me to generate double and triple, even quadruple digit returns. I don't use margin. I don't use futures. I don't leverage up my account. I don't engage in naked shorting.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F7F7A29CAF02",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "The Persian Gulf only accounts for about 2 to 3% of global container volume.",
+        "reason": "No source provided for this percentage.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "the Persian Gulf only accounts for about 2 to 3% of global container volume.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F2C07DC35672",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "The strait is running at about 5% of its pre-war levels.",
+        "reason": "No source provided for this percentage.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "the strait is running at about 5% of its pre-war levels",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0F784624310B",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Saudi Arabia has maxed out the capacity of its East-West pipeline at about 7 million barrels per day.",
+        "reason": "No source provided for the capacity figure or whether it is maxed out.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "They've been diverting a lot of their oil production through this East-West pipeline to get a lot of it over to the Red Sea and they have maxed out the capacity of that pipeline at about 7 million barrels per day now.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-79186D4D1092",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Right now there are 34,000 shipping routes that are diverted from Hormuz. A month ago they were reporting that 34,000 shipping routes had been diverted from Hormuz. And now that number is likely well beyond 100,000.",
+        "reason": "No source for the 34,000 figure; 'well beyond 100,000' is speculative.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "Right now there are 34,000 shipping routes that are diverted from Hormuz. A month ago they were reporting that 34,000 shipping routes had been diverted from Hormuz. And now that number is likely well beyond 100,000.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-51C87A137E44",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "The port of Khor Fakkan has been locked at 100% congestion for over 10 days. Sohar climbed from 67% in February to 70% with average delays peaking at ninefold increase over pre-crisis levels. Congestion in Karachi has risen from 14% to 63%.",
+        "reason": "No source provided for these port congestion statistics.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "The port of Khor Fakkan has been locked at 100% congestion for over 10 days. Sohar climbed from 67% in February to 70% with average delays peaking at ninefold increase over pre-crisis levels. Congestion in Karachi has risen from 14% to 63%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-ACECCFE343BB",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Container shipping rates are up triple or quadruple compared to what they were before.",
+        "reason": "No source or specific index provided for the rate increase.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "container shipping rates are up triple or quadruple compared to what they were before.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-587B2C6162EC",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "S&P 500 up almost 6% and VXUS still down a half a percent since the beginning of the war.",
+        "reason": "No specific start date or source provided for these return figures.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "With the S&P 500 up almost 6% and VXUS still down a half a percent.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E9C756196792",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Given the government's debt to GDP ratio, there is no way they can get out of this without defaulting unless they try to print their way out of it.",
+        "reason": "Opinion without supporting data or analysis; unverifiable assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "given the government's debt to GDP ratio, there is no way they can get out of this without defaulting unless they try to print their way out of it.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2B1B9D05C50C",
+        "speech_id": "SP-6E47A613F0F8",
+        "speech_ref": "20260504_The 1973 Playbook is Happening Again.txt",
+        "claim": "Last time they used the Fed. This time I think they're going to use the banks.",
+        "reason": "Speculative claim about future policy, no evidence provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No internal transcript evidence to verify or contradict this claim.",
+        "source_excerpt": "Last time they used the Fed. This time I think they're going to use the banks.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current closure of the Strait of Hormuz is the largest oil supply shock in history and will likely lead to a prolonged period of high energy and food prices, with the situation resembling the 1970s more than 2020, driven by similar monetary expansion and supply constraints.",
+      "themes": [
+        "Magnitude of the Strait of Hormuz oil supply shock",
+        "Historical parallel to the 1970s oil crisis",
+        "Similar monetary policy environment",
+        "Impact on fuel, fertilizer, and food prices",
+        "Global shipping congestion and trade disruption",
+        "US market outperformance and global recession risk"
+      ],
+      "argument_count": 6,
+      "unverifiable_count": 17
+    },
+    "generated_at": "2026-07-14T23:49:18+00:00",
+    "record_hash": "b7a1dd8bfd425dc9c1064300f2f55faafd4c19c6ff73a7c3b5b74b70870deb41",
+    "analysis_truncated": false
+  },
+  "output_hash": "fd1cf9aa1e6c060db20978ff2467ec238b59b5da7de158497c879d1c739bf201",
+  "complete": true
+}

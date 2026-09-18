@@ -1,0 +1,438 @@
+{
+  "dependencies": {
+    "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+    "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-B7D0DBD11E22",
+    "filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+    "stem": "20260406_New Military Budget is TRYING to Bankrupt the Country",
+    "date": "2026-04-06",
+    "source_hash": "d3a2f6acc409b9918e9e844ebc1dfc4adcf356203a3591d6b4494efc40ee76f7",
+    "source_character_count": 11511,
+    "central_claim": "The proposed 50% increase in military budget will increase spending, widen the deficit, accelerate national debt, and ultimately harm the economy through inflation and unsustainable borrowing.",
+    "themes": [
+      {
+        "local_theme_id": "LT-ECAE267FD279",
+        "theme": "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6F47D3B27D13",
+            "local_theme_id": "LT-ECAE267FD279",
+            "conclusion": "The budget increase will increase spending, widen the deficit, and accelerate national debt.",
+            "premises": [
+              "The proposal increases military budget by about 50%",
+              "Total $2.2 trillion budget proposal",
+              "$1.5 trillion for defense",
+              "$1.1 trillion base DOD, $350 billion mandatory, $200 billion supplemental"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-EB70135931D9",
+                "item": "Budget numbers: $2.2 trillion total, $1.5 trillion defense, $1.1 trillion base, $350 billion mandatory, $200 billion supplemental",
+                "status": "Unverifiable",
+                "verification_basis": "Numbers stated without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "this new budget proposal for 2027, it requests $1.5 trillion for defense, which is about 50% more than the trillion dollars they had for 2026. Breakdown is $1.1 trillion in base discretionary spending for the DOD. ... It also includes another 350 billion for mandatory spending, and then there's a potential $200 billion Pentagon supplemental package.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-18A9A6576747",
+                "device": "Stone and two birds (misquote of hammer and nail)",
+                "explanation": "Illustrates the government using the same tool (military spending) for every problem",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "if all you have is a stone, everything looks like two birds.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-1B848AEC541A",
+            "local_theme_id": "LT-ECAE267FD279",
+            "conclusion": "The military had no idea how to spend the money until a war was started.",
+            "premises": [
+              "In February 2026, officials were scrambling to figure out what to do with $1.5 trillion",
+              "Now with the Iran war, no one questions how to spend it"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2F249D2A3712",
+                "item": "Anonymous sources said military literally has no idea what it would do with that much money",
+                "status": "Unverifiable",
+                "verification_basis": "Relies on anonymous sources not provided in transcript",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "They said the military literally has no idea what it would do with that much money. This was sources who spoke anonymously to characterize internal matters.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-051BBCF33F59",
+        "theme": "Government deficit financing and inflation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E979546719F5",
+            "local_theme_id": "LT-051BBCF33F59",
+            "conclusion": "Government spending is funded by taking money from citizens via taxation or inflation.",
+            "premises": [
+              "2025 revenue $5.23 trillion but spending over $7 trillion",
+              "Deficit of $1.78 trillion is financed by borrowing",
+              "Borrowing creates new money which causes inflation"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F79F27CD7F68",
+                "item": "2025 spending over $7 trillion, revenue $5.23 trillion, deficit $1.78 trillion",
+                "status": "Unverifiable",
+                "verification_basis": "Numbers stated without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "We're looking at the numbers for 2025. We can see they spent a little over $7 trillion. 5.23 trillion of that was what they call revenue...",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-39A24457EF87",
+            "local_theme_id": "LT-051BBCF33F59",
+            "conclusion": "The deficit trend is worsening and may break records.",
+            "premises": [
+              "Current deficit $1.005 trillion vs $1.147 trillion at same point in 2025",
+              "Following 2021 trajectory which ended at $2.77 trillion deficit",
+              "Last annual surplus was in 2001",
+              "Overall trend is worsening"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-03A85D3D76AF",
+                "item": "Deficit comparison numbers and 2001 surplus reference",
+                "status": "Unverifiable",
+                "verification_basis": "Chart references and numbers without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "At this point in 2025, the deficit was at 1.147 trillion. And right now, the deficit's only at 1.005 trillion. ... fiscal year 2021 at a $2.77 trillion deficit. ... the last time we ran a surplus for an entire year was actually 2001.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-EDC09DC5FD3D",
+        "theme": "Social Security trust fund depletion",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8F8EFBE0FEE4",
+            "local_theme_id": "LT-EDC09DC5FD3D",
+            "conclusion": "Social Security will run out in 6-8 years, forcing benefit cuts, tax increases, or inflation.",
+            "premises": [
+              "Less money going into Social Security fund than paid out",
+              "Trust fund will be exhausted in 6-8 years"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-36645DBF83C2",
+                "item": "Claim of Social Security bankruptcy and timeline",
+                "status": "Unverifiable",
+                "verification_basis": "No source or data provided for inflow/outflow or trust fund projections",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "Social Security is bankrupt. There's less money going into the Social Security fund than is getting paid out, which means when it runs out in 6 to 8 years, which it will, either benefit payouts are going to be cut or taxes on everybody else are going to go up or they're going to inflate away the difference.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-692227980A23",
+        "theme": "Proposed defense spending as share of budget and GDP",
+        "arguments": [
+          {
+            "local_argument_id": "LA-15C0A812CC02",
+            "local_theme_id": "LT-692227980A23",
+            "conclusion": "Proposed defense spending as percent of GDP is highest since Reagan.",
+            "premises": [
+              "Chart shows last bar is highest percentage spent on defense going back to Reagan"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3CED15002113",
+                "item": "Chart reference without source",
+                "status": "Unverifiable",
+                "verification_basis": "Chart presented but not sourced",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "you can see this last bar here is the proposed defense spending, and it is the highest percentage spent on defense going back all the way to Reagan.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-E28422427C23",
+            "local_theme_id": "LT-692227980A23",
+            "conclusion": "Cutting other departments to fund defense does not reduce overall spending.",
+            "premises": [
+              "Proposal cuts Interior, HUD, HHS but adds to defense"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9083ED7A2930",
+                "item": "Chart showing areas of cuts and increases",
+                "status": "Unverifiable",
+                "verification_basis": "Chart referenced without source",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "And you can see on this chart here which areas would receive more funding and which areas would receive less funding.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-F06664E7EC44",
+        "theme": "Treasury borrowing difficulties and Federal Reserve response",
+        "arguments": [
+          {
+            "local_argument_id": "LA-22575D8D7B9F",
+            "local_theme_id": "LT-F06664E7EC44",
+            "conclusion": "The government is having trouble borrowing, evidenced by low bid-to-cover in 2-year Treasury auction.",
+            "premises": [
+              "2-year Treasury yield surged after bad auction",
+              "Auction $69 billion, bid-to-cover 2.44 (smallest since May 2024)"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-87E4AAA9049F",
+                "item": "Auction details: $69 billion, bid-to-cover 2.44, yield jump of nine bips to 3.925%",
+                "status": "Unverifiable",
+                "verification_basis": "Specific numbers stated without source citation",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% and it was only a $69 billion auction. The bid-to-cover ratio on that auction was only 2.44, which is the smallest bid-to-cover since May of 2024.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3D6DACAA3390",
+                "device": "Explanation of how Treasury auctions work",
+                "explanation": "Illustrates how low bid-to-cover leads to higher interest rates",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "the way that US Treasury auctions work is that there are certain number of dollars lined up at the auction to participate and buy those bonds. ... If there's a really large bid to cover, that means there's a lot of money lining up... When there's a really small bid to cover ratio, like 2.44, that means that the government might burn through all the dollars... and then they have to start paying a higher and higher interest rate.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-6C34918B3755",
+            "local_theme_id": "LT-F06664E7EC44",
+            "conclusion": "The Federal Reserve is doing QE again because there is insufficient demand for Treasury debt.",
+            "premises": [
+              "Fed balance sheet increasing as of April 1st",
+              "Not enough dollars in system for lending to government"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0DBD7F0CAFC1",
+                "item": "Fed balance sheet increase as of April 1st",
+                "status": "Unverifiable",
+                "verification_basis": "Claim without source for balance sheet data",
+                "speech_id": "SP-B7D0DBD11E22",
+                "source_speech_filename": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+                "source_excerpt": "if you watch the Federal Reserve's balance sheet, it has been increasing over the last couple of months. You can see as of April 1st, it again grew because the Federal Reserve is doing QE again.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-0A721F48E245",
+            "local_theme_id": "LT-F06664E7EC44",
+            "conclusion": "Bank deregulation may be enacted to allow banks to lend unlimited amounts to the government.",
+            "premises": [
+              "Banks currently limited by regulations",
+              "Deregulation would allow unlimited lending to government",
+              "Would provide newly printed dollars and push yields lower"
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7175DB62AE9F",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The military literally has no idea what it would do with that much money.",
+        "reason": "Claim is based on anonymous sources whose credibility and exact statements are not provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No external or internal evidence corroborates or contradicts; relies on reported anonymous sourcing.",
+        "source_excerpt": "They said the military literally has no idea what it would do with that much money. This was sources who spoke anonymously to characterize internal matters.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8E19326CC546",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "Social Security is bankrupt and will run out in 6-8 years.",
+        "reason": "No data on trust fund inflow/outflow or actuarial projections is provided; assertion is unsupported.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Social Security trust fund depletion is a known policy debate but the specific 6-8 year timeline and 'bankrupt' characterization are not verifiable from the transcript alone.",
+        "source_excerpt": "Social Security is bankrupt. There's less money going into the Social Security fund than is getting paid out, which means when it runs out in 6 to 8 years, which it will...",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-25410199424B",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The last time we ran a surplus for an entire year was actually 2001.",
+        "reason": "No source or chart reference is provided for this historical claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Widely known fiscal fact but not verified within transcript.",
+        "source_excerpt": "the last time we ran a surplus for an entire year was actually 2001.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-672DFF4B56F4",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The Federal Reserve is doing QE again.",
+        "reason": "Claim inferred from balance sheet increase but no official Fed statement or specific data source is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Balance sheet increase could reflect other operations; QE characterization is unsubstantiated.",
+        "source_excerpt": "if you watch the Federal Reserve's balance sheet, it has been increasing over the last couple of months. You can see as of April 1st, it again grew because the Federal Reserve is doing QE again.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B64C2A3C5133",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% on a $69 billion auction with bid-to-cover 2.44.",
+        "reason": "Specific market data stated without reference to a primary source or timestamp.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Financial data typically from Reuters, Bloomberg, etc.; not verifiable from transcript alone.",
+        "source_excerpt": "The 2-year Treasury yield jumped more than nine bips on Tuesday to 3.925% and it was only a $69 billion auction. The bid-to-cover ratio on that auction was only 2.44, which is the smallest bid-to-cover since May of 2024.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-73B5306B5E18",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "Proposed defense spending as percent of GDP is highest since Reagan.",
+        "reason": "Chart is shown but no underlying data or source is provided to verify the claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No way to confirm the historical comparison from transcript alone.",
+        "source_excerpt": "you can see this last bar here is the proposed defense spending, and it is the highest percentage spent on defense going back all the way to Reagan.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-13366BBEBCF9",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "Deficit in 2025 at same point was $1.147 trillion and currently $1.005 trillion; 2021 fiscal year deficit was $2.77 trillion.",
+        "reason": "Numbers are stated without attribution to any official budget document or data series.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Fiscal data usually from Treasury or CBO; not sourced here.",
+        "source_excerpt": "At this point in 2025, the deficit was at 1.147 trillion. And right now, the deficit's only at 1.005 trillion. ... fiscal year 2021 at a $2.77 trillion deficit.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-A46B9554A8D9",
+        "speech_id": "SP-B7D0DBD11E22",
+        "speech_ref": "20260406_New Military Budget is TRYING to Bankrupt the Country.txt",
+        "claim": "2025 revenue $5.23 trillion, spending over $7 trillion, deficit $1.78 trillion.",
+        "reason": "Specific fiscal year numbers presented without source citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "These are plausible but unverifiable within transcript.",
+        "source_excerpt": "We're looking at the numbers for 2025. We can see they spent a little over $7 trillion. 5.23 trillion of that was what they call revenue...",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The proposed 50% increase in military budget will increase spending, widen the deficit, accelerate national debt, and ultimately harm the economy through inflation and unsustainable borrowing.",
+      "themes": [
+        "Proposed 50% increase to $1.5 trillion defense budget for 2027",
+        "Government deficit financing and inflation",
+        "Social Security trust fund depletion",
+        "Proposed defense spending as share of budget and GDP",
+        "Treasury borrowing difficulties and Federal Reserve response"
+      ],
+      "argument_count": 10,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T02:07:15+00:00",
+    "record_hash": "163311cf9811fa105c0ce1a9aa9a178b8b9a0c69b5588976c18082b9c94f0946",
+    "analysis_truncated": false
+  },
+  "output_hash": "882b9bcf77ac1b5ad57688110b508b01b0b3f08c49d0a39f14d9fe4cf1d853e7",
+  "complete": true
+}

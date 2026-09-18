@@ -1,0 +1,716 @@
+{
+  "dependencies": {
+    "source_hash": "b065a537010066f513559bcabf4467cf593ae7cad9ede6a76b67a7f85ac68c42",
+    "phase1_record_hash": "965ebe15eb3a805b0f9c0f1d6c28015ce97dd922e0ddeb0658f747c940b005c5",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-003F5F2E0A28",
+    "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+    "stem": "20260107_The Truth about Maduro, Venezuela, and the New Global Order",
+    "date": "2026-01-07",
+    "source_hash": "b065a537010066f513559bcabf4467cf593ae7cad9ede6a76b67a7f85ac68c42",
+    "source_character_count": 8186,
+    "central_claim": "The United States removed Maduro from power in Venezuela to secure access to critical rare earth minerals necessary for its military technology, because the US government is fiscally bankrupt and can no longer afford global hegemony, signaling a new global order focused on regional consolidation in the Western Hemisphere.",
+    "themes": [
+      {
+        "local_theme_id": "LT-C69FF7FF7070",
+        "theme": "US government fiscal bankruptcy",
+        "arguments": [
+          {
+            "local_argument_id": "LA-89E6FDB45FF2",
+            "local_theme_id": "LT-C69FF7FF7070",
+            "conclusion": "The United States government is bankrupt and cannot afford to repay its debt.",
+            "premises": [
+              "Decades of funding endless wars and policing the world required borrowing trillions of dollars.",
+              "The government printed money to pay for spending, causing inflation.",
+              "Mandatory spending of 4.1 trillion dollars in 2024 plus interest on the national debt exceeds total tax revenues."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-FF5DA0AB50A1",
+                "item": "US mandatory spending was 4.1 trillion dollars as of 2024.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides the figure without citing a specific source, making it unverifiable from within the transcript.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "as of 2024, it was 4.1 trillion dollars",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D937AF925795",
+                "item": "US House Budget Committee estimates 120 trillion dollars in unfunded liabilities within 30 years.",
+                "status": "Verified",
+                "verification_basis": "The transcript explicitly names the US House Budget Committee as the source of this estimate.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "the US House Budget Committee estimates that within 30 years, the US will have 120 trillion dollars in unfunded liabilities.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-0E1F59E6C4C9",
+                "item": "Total tax revenues cannot cover mandatory spending plus interest on the national debt.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript asserts this relationship without providing specific revenue figures or sources.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "When you add on top of that just the interest on the national debt alone, you already exceed total tax revenues",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-DA057A78B8DE",
+        "theme": "Strategic importance of Venezuela's rare earth minerals for US military technology",
+        "arguments": [
+          {
+            "local_argument_id": "LA-5A4F90B49BDF",
+            "local_theme_id": "LT-DA057A78B8DE",
+            "conclusion": "The United States removed Maduro to consolidate access to rare earth minerals critical for military technology.",
+            "premises": [
+              "Venezuela is rich in rare earth minerals.",
+              "The United States is heavily import-reliant for critical minerals, and China controls most of the global processing capacity.",
+              "China has shown a willingness to shut off supply chains to the United States.",
+              "These minerals are necessary for US military technology."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2F86DAFA0ED8",
+                "item": "US is 100% import reliant for 12 critical minerals, and over 50% reliant for 28 of 50 minerals essential to national security.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is attributed to Tracy Shuchart's Substack, but the transcript does not provide the original source or independent verification.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "she points out that the United States is 100% import reliant for 12 critical minerals, and over 50% reliant for 28 of the 50 minerals classified as an essential to national security.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-EDBB63AE6F3B",
+                "item": "China controls between 60 and 95% of global processing capacity for most critical minerals, and possesses 91% of rare earth elements globally.",
+                "status": "Unverifiable",
+                "verification_basis": "Same attribution to Tracy Shuchart; no independent data source provided.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "China controls between 60 and 95% of global processing capacity for most of these critical minerals. And on top of that, they possess 91% of rare earth elements globally.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-66462E2F4F89",
+                "item": "China has demonstrated willingness to shut off supply chains to the United States over the last year.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not cite a specific incident or source for this claim.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "over the last year, we've seen China demonstrate a willingness to shut off those supply chains to United States",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-6452CA7A860C",
+        "theme": "Shift to a multipolar, regionalized global order",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4D2AF177179F",
+            "local_theme_id": "LT-6452CA7A860C",
+            "conclusion": "The United States will consolidate power in the Western Hemisphere and abandon global hegemony due to fiscal constraints and historical blowback.",
+            "premises": [
+              "US fiscal bankruptcy prevents maintaining global hegemony.",
+              "Historical intervention in the Middle East created blowback, such as Taliban, Al-Qaeda, and ISIS.",
+              "EU leaders are committing to self-defense after US signals Europe must defend itself."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-CE34CE365D1B",
+                "item": "Taliban, Al-Qaeda, and ISIS were directly or indirectly created by US intervention in the region.",
+                "status": "Disputed",
+                "verification_basis": "The claim is historically contested and the transcript provides no supporting evidence or sources.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "you look at the Taliban, Al-Qaeda, and ISIS, these were either directly or indirectly created by the United States intervention in the region.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-148F6263DDCF",
+                "item": "EU leaders committing to work together after Trump signals Europe must defend itself.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript does not provide specific details, quotes, or sources for this event.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "EU leaders committing to work together after Trump signals that Europe must defend itself.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-235CAD324C0E",
+                "item": "US House Budget Committee estimate of 120 trillion dollars in unfunded liabilities.",
+                "status": "Verified",
+                "verification_basis": "Source identified explicitly in transcript.",
+                "speech_id": "SP-003F5F2E0A28",
+                "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+                "source_excerpt": "the US House Budget Committee estimates that within 30 years, the US will have 120 trillion dollars in unfunded liabilities.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-1D43C3053ED9",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "The United States government is broke and bankrupt.",
+        "reason": "The transcript provides some fiscal data but the overarching assertion of bankruptcy is a strong conclusion not directly supported by the given evidence; no definitive proof is provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Mainstream economics views US government as not bankrupt; it can always issue debt in its own currency.",
+        "source_excerpt": "United States of America is broke. And no, I'm not talking about the people here. The United States is still obviously one of the wealthiest places on Earth. I'm talking about the government, because the United States government is broke. It is bankrupt.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5A6EAA171F98",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "The real reason for removing Maduro is not drugs or oil but consolidating power to secure resources.",
+        "reason": "This is an assertion of hidden motive with no direct evidence or attribution provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No independently verifiable evidence is presented to support this motive claim.",
+        "source_excerpt": "It is about consolidating power where we can still afford to do so, especially and most importantly, in the places where we can't afford to lose it.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D4C99235D6A6",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "China, Iran, and Russia were the reasons Maduro was in power, keeping their dictator in power to benefit from resources.",
+        "reason": "The transcript states this as 'very well known' but provides no specific evidence or sources.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroboration within the transcript; external knowledge varies.",
+        "source_excerpt": "In Venezuela specifically, it is very well known that Iran, Russia, and China have been extremely involved there. In fact, they are the reasons why Maduro was even in power in the first place",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-52AB59C7F39F",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "The US is now running Venezuela for the foreseeable future.",
+        "reason": "No evidence or source is given for this claim of direct US control.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No verification available within the transcript.",
+        "source_excerpt": "The US took out Maduro and is now running Venezuela for the foreseeable future.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D365E1E85393",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "History has proven the more we intervene around the world, the more it pushes back against us.",
+        "reason": "This is a generalisation with no supporting evidence or examples cited in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Historical causality is contested; no data provided.",
+        "source_excerpt": "Because history has proven the more we intervene around the world, the more we force our opinions, set up and tear down regimes, fund groups to topple dictators, and try and control the entire globe, the more it pushes back against us.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-83E653034BA6",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "Taliban, Al-Qaeda, and ISIS were directly or indirectly created by the United States intervention in the region.",
+        "reason": "This is a contested historical claim with no evidence provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Scholars debate the extent of US role; no sources given.",
+        "source_excerpt": "you look at the Taliban, Al-Qaeda, and ISIS, these were either directly or indirectly created by the United States intervention in the region.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0D7BBF5CF6E4",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "This century is going to be more multipolar, a lot less globalization, and maybe even deglobalization.",
+        "reason": "This is a prediction with no supporting evidence or reasoning provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Prediction subject to many factors; not verifiable from transcript.",
+        "source_excerpt": "It is clear that this century is not going to look like the last. It is more multipolar, a lot less globalization, and maybe even deglobalization.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-AE1B76F1F831",
+        "speech_id": "SP-003F5F2E0A28",
+        "speech_ref": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "claim": "Military actions like the one in Venezuela could actually stave off or even prevent larger conflicts or all-out war with countries like Russia or China.",
+        "reason": "This is a speculative claim with no evidence or precedent cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No supporting argument or data in transcript.",
+        "source_excerpt": "Now, ironically, military actions like the one we just did in Venezuela could actually stave off or even prevent larger conflicts or even all-out war with countries like Russia or China.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The United States removed Maduro from power in Venezuela to secure access to critical rare earth minerals necessary for its military technology, because the US government is fiscally bankrupt and can no longer afford global hegemony, signaling a new global order focused on regional consolidation in the Western Hemisphere.",
+      "themes": [
+        "US government fiscal bankruptcy",
+        "Strategic importance of Venezuela's rare earth minerals for US military technology",
+        "Shift to a multipolar, regionalized global order"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 8
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "0b7cecea35154cd2674a257e55a4cbe7a1b166120156405591e55bd2ed6858c5",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "965ebe15eb3a805b0f9c0f1d6c28015ce97dd922e0ddeb0658f747c940b005c5",
+    "canonical_mapping": {
+      "speech_id": "SP-003F5F2E0A28",
+      "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC57",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly asserts that US fiscal bankruptcy drives the removal of Maduro to secure rare earth minerals and signals a shift to regional hegemony, which is the exact proposition of CC57.",
+      "primary_cc_rationale": "The speech directly asserts that US fiscal bankruptcy drives the removal of Maduro to secure rare earth minerals and signals a shift to regional hegemony, which is the exact proposition of CC57.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T136",
+        "T135"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T136",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-C69FF7FF7070",
+          "rationale": "LT-C69FF7FF7070 addresses US government fiscal bankruptcy, which is directly covered by T136's focus on US fiscal and monetary situation and debt dynamics."
+        },
+        {
+          "theme_id": "T135",
+          "confidence": 0.6,
+          "source_local_theme_id": "LT-6452CA7A860C",
+          "rationale": "LT-6452CA7A860C describes a shift to a multipolar global order, which aligns with T135's coverage of trade deficits, tariffs, and global geopolitics."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC57-T136",
+          "cc_id": "CC57",
+          "theme_id": "T136",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC57-T135",
+          "cc_id": "CC57",
+          "theme_id": "T135",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-003F5F2E0A28",
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "local_cc_text": "The United States removed Maduro from power in Venezuela to secure access to critical rare earth minerals necessary for its military technology, because the US government is fiscally bankrupt and can no longer afford global hegemony, signaling a new global order focused on regional consolidation in the Western Hemisphere.",
+        "canonical_cc_id": "CC57",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly asserts that US fiscal bankruptcy drives the removal of Maduro to secure rare earth minerals and signals a shift to regional hegemony, which is the exact proposition of CC57.",
+        "rationale": "The speech directly asserts that US fiscal bankruptcy drives the removal of Maduro to secure rare earth minerals and signals a shift to regional hegemony, which is the exact proposition of CC57.",
+        "candidate_matches": [
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.7432548999786377
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.3152487277984619
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.2945043444633484
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.2632739543914795
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.2540629506111145
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-003F5F2E0A28",
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "local_theme_id": "LT-C69FF7FF7070",
+        "local_theme_text": "US government fiscal bankruptcy",
+        "canonical_theme_id": "T136",
+        "confidence": 0.85,
+        "rationale": "LT-C69FF7FF7070 addresses US government fiscal bankruptcy, which is directly covered by T136's focus on US fiscal and monetary situation and debt dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.6758580207824707
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.6404417753219604
+          },
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.6028746366500854
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.5140945911407471
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.47187790274620056
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.45753034949302673
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-003F5F2E0A28",
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "local_theme_id": "LT-DA057A78B8DE",
+        "local_theme_text": "Strategic importance of Venezuela's rare earth minerals for US military technology",
+        "canonical_theme_id": "T76",
+        "confidence": 0.5,
+        "rationale": "LT-DA057A78B8DE discusses strategic importance of rare earth minerals as commodities; T76 covers commodities and supply-demand fundamentals, the closest available canonical theme.",
+        "candidate_matches": [
+          {
+            "id": "T6",
+            "text": "Commodities as investment opportunities",
+            "similarity": 0.3467203378677368
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.22232475876808167
+          },
+          {
+            "id": "T76",
+            "text": "Commodities and supply-demand fundamentals",
+            "similarity": 0.2208378165960312
+          },
+          {
+            "id": "T94",
+            "text": "Gold as a global reserve asset",
+            "similarity": 0.21304640173912048
+          },
+          {
+            "id": "T10",
+            "text": "Economic disruption from oil shock",
+            "similarity": 0.1819176822900772
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.15989872813224792
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-003F5F2E0A28",
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "local_theme_id": "LT-6452CA7A860C",
+        "local_theme_text": "Shift to a multipolar, regionalized global order",
+        "canonical_theme_id": "T135",
+        "confidence": 0.6,
+        "rationale": "LT-6452CA7A860C describes a shift to a multipolar global order, which aligns with T135's coverage of trade deficits, tariffs, and global geopolitics.",
+        "candidate_matches": [
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.38736188411712646
+          },
+          {
+            "id": "T123",
+            "text": "Peaceful secession",
+            "similarity": 0.37615323066711426
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.3563750982284546
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.33444035053253174
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.3340206444263458
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.3271991014480591
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-583945385BF60E",
+        "speech_id": "SP-003F5F2E0A28",
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "date": "2026-01-07",
+        "source_hash": "b065a537010066f513559bcabf4467cf593ae7cad9ede6a76b67a7f85ac68c42",
+        "pair_id": "PAIR-CC57-T136",
+        "cc_id": "CC57",
+        "theme_id": "T136",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly asserts that US fiscal bankruptcy drives the removal of Maduro to secure rare earth minerals and signals a shift to regional hegemony, which is the exact proposition of CC57.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C69FF7FF7070",
+        "local_theme_text": "US government fiscal bankruptcy",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "LT-C69FF7FF7070 addresses US government fiscal bankruptcy, which is directly covered by T136's focus on US fiscal and monetary situation and debt dynamics.",
+        "local_argument_id": "LA-89E6FDB45FF2",
+        "conclusion": "The United States government is bankrupt and cannot afford to repay its debt.",
+        "premises": [
+          "Decades of funding endless wars and policing the world required borrowing trillions of dollars.",
+          "The government printed money to pay for spending, causing inflation.",
+          "Mandatory spending of 4.1 trillion dollars in 2024 plus interest on the national debt exceeds total tax revenues."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-FF5DA0AB50A1",
+            "item": "US mandatory spending was 4.1 trillion dollars as of 2024.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides the figure without citing a specific source, making it unverifiable from within the transcript.",
+            "speech_id": "SP-003F5F2E0A28",
+            "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+            "source_excerpt": "as of 2024, it was 4.1 trillion dollars",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-D937AF925795",
+            "item": "US House Budget Committee estimates 120 trillion dollars in unfunded liabilities within 30 years.",
+            "status": "Verified",
+            "verification_basis": "The transcript explicitly names the US House Budget Committee as the source of this estimate.",
+            "speech_id": "SP-003F5F2E0A28",
+            "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+            "source_excerpt": "the US House Budget Committee estimates that within 30 years, the US will have 120 trillion dollars in unfunded liabilities.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-0E1F59E6C4C9",
+            "item": "Total tax revenues cannot cover mandatory spending plus interest on the national debt.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript asserts this relationship without providing specific revenue figures or sources.",
+            "speech_id": "SP-003F5F2E0A28",
+            "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+            "source_excerpt": "When you add on top of that just the interest on the national debt alone, you already exceed total tax revenues",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-D453DEF20429B8",
+        "speech_id": "SP-003F5F2E0A28",
+        "filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+        "date": "2026-01-07",
+        "source_hash": "b065a537010066f513559bcabf4467cf593ae7cad9ede6a76b67a7f85ac68c42",
+        "pair_id": "PAIR-CC57-T135",
+        "cc_id": "CC57",
+        "theme_id": "T135",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly asserts that US fiscal bankruptcy drives the removal of Maduro to secure rare earth minerals and signals a shift to regional hegemony, which is the exact proposition of CC57.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-6452CA7A860C",
+        "local_theme_text": "Shift to a multipolar, regionalized global order",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "LT-6452CA7A860C describes a shift to a multipolar global order, which aligns with T135's coverage of trade deficits, tariffs, and global geopolitics.",
+        "local_argument_id": "LA-4D2AF177179F",
+        "conclusion": "The United States will consolidate power in the Western Hemisphere and abandon global hegemony due to fiscal constraints and historical blowback.",
+        "premises": [
+          "US fiscal bankruptcy prevents maintaining global hegemony.",
+          "Historical intervention in the Middle East created blowback, such as Taliban, Al-Qaeda, and ISIS.",
+          "EU leaders are committing to self-defense after US signals Europe must defend itself."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-CE34CE365D1B",
+            "item": "Taliban, Al-Qaeda, and ISIS were directly or indirectly created by US intervention in the region.",
+            "status": "Disputed",
+            "verification_basis": "The claim is historically contested and the transcript provides no supporting evidence or sources.",
+            "speech_id": "SP-003F5F2E0A28",
+            "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+            "source_excerpt": "you look at the Taliban, Al-Qaeda, and ISIS, these were either directly or indirectly created by the United States intervention in the region.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-148F6263DDCF",
+            "item": "EU leaders committing to work together after Trump signals Europe must defend itself.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript does not provide specific details, quotes, or sources for this event.",
+            "speech_id": "SP-003F5F2E0A28",
+            "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+            "source_excerpt": "EU leaders committing to work together after Trump signals that Europe must defend itself.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-235CAD324C0E",
+            "item": "US House Budget Committee estimate of 120 trillion dollars in unfunded liabilities.",
+            "status": "Verified",
+            "verification_basis": "Source identified explicitly in transcript.",
+            "speech_id": "SP-003F5F2E0A28",
+            "source_speech_filename": "20260107_The Truth about Maduro, Venezuela, and the New Global Order.txt",
+            "source_excerpt": "the US House Budget Committee estimates that within 30 years, the US will have 120 trillion dollars in unfunded liabilities.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-DA057A78B8DE",
+        "local_argument_id": "LA-5A4F90B49BDF",
+        "conclusion": "The United States removed Maduro to consolidate access to rare earth minerals critical for military technology.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "0b7cecea35154cd2674a257e55a4cbe7a1b166120156405591e55bd2ed6858c5",
+  "complete": true
+}

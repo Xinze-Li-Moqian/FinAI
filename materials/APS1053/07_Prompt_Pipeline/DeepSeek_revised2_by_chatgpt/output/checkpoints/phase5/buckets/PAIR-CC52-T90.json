@@ -1,0 +1,98 @@
+{
+  "dependency_hash": "ff39c520431ee8c9e5e1eee6f1461192ccaf369a7da0b5e405a2522996b48be7",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC52-T90",
+    "cc_id": "CC52",
+    "theme_id": "T90",
+    "authoritative_anchor": "cc-cc52-theme-t90",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC52-T90-C7862C963C",
+        "pair_id": "PAIR-CC52-T90",
+        "conclusion": "Historical data from 1960-1980 shows that raising the Fed funds rate preceded rising inflation (the opposite of conventional theory), and since 2000 the simple correlation has broken down, indicating that other factors dominate and the conventional rate-inflation relationship is inverted or unreliable.",
+        "source_contribution_ids": [
+          "CONTRIB-03E414D4839823",
+          "CONTRIB-B857813CABC0C8"
+        ],
+        "source_speech_filenames": [
+          "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+        ],
+        "premise_synthesis": "From 1960 to 1980, interest rates and inflation moved in lock step: when the Fed raised rates in 1961, inflation rose in 1962; when rates were lowered in 1969, inflation fell; when rates rose in 1972, inflation rose; and when rates were lowered in 1974, inflation fell—contradicting the conventional view that higher rates reduce inflation. Since 2000, the simple correlation has broken down: from 2002–2004 the Fed lowered rates yet inflation rose; 2004–2006 rates rose and inflation eventually fell; 2007 rates fell and inflation rose; and after 2020, rates were lowered to zero, inflation spiked, then rates were raised and inflation fell. These later episodes indicate that other factors (such as debt and money supply) now dominate the relationship, but the overall pattern still refutes the textbook claim that higher rates reliably reduce inflation.",
+        "conclusion_supported": "The Fed funds rate and inflation have shown a historically inverted relationship (1960–1980) and a more complex but still non-conventional relationship since 2000, undermining the standard monetary policy framework that assumes raising rates will reduce inflation.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-03E414D4839823",
+              "CONTRIB-B857813CABC0C8"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the conventional relationship between interest rates and inflation is inverted, which is a central point in CC52's claim that the Fed's monetary policy is fundamentally flawed and the rate-inflation relation is inverted."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Chart showing Fed funds rate overlaid with CPI from 1960-1980",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript describes a chart but does not provide raw data or verifiable source; we cannot verify the chart exists or the exact correlation.",
+            "source_contribution_ids": [
+              "CONTRIB-03E414D4839823"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ],
+            "source_excerpt": "I would like to show you a chart of the Federal Reserves interest rates overlaid with the inflation rate as measured by the CPI. ... the time period in between 1960 and 1980."
+          },
+          {
+            "item": "Specific claim that Fed rate changes preceded inflation changes with dates 1961-1962, 1969, 1972, 1974",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript asserts these dates without providing external source; we cannot verify the exact timing without data.",
+            "source_contribution_ids": [
+              "CONTRIB-03E414D4839823"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ],
+            "source_excerpt": "the Federal Reserve began raising interest rates right here in 1961. And then right at the beginning of 1962, inflation started following it up higher. ... here in 1969, the Fed stopped raising interest rates and then started reducing interest rates and shortly after inflation started moving down as well."
+          },
+          {
+            "item": "Claims about Fed rate changes and inflation movement from 2002 to present",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript asserts these relationships without providing data source; we cannot verify the exact inflation responses.",
+            "source_contribution_ids": [
+              "CONTRIB-B857813CABC0C8"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ],
+            "source_excerpt": "The Fed was lowering interest rates from 2002 all the way through 2004. And yet, the inflation rate started to pick up. ... after 2020, the inflation rate spiked to a recent record and then finally the Fed started to raise interest rates again and the inflation rate started to fall."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "The argument spans the period 1960 to the present, all drawn from the same speech (2025-11-19). Within that speech, two distinct sub-periods are analysed: 1960–1980 showing a clear inverted correlation, and 2000–present showing a breakdown of that simple correlation, supporting the conclusion that the conventional rate-inflation relationship is unreliable. No cross-speech evolution can be inferred; the entire analysis is presented in a single speech.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-03E414D4839823",
+      "CONTRIB-B857813CABC0C8"
+    ],
+    "source_speech_filenames": [
+      "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+    ],
+    "generated_at": "2026-07-15T04:05:54+00:00",
+    "record_hash": "8fe800042c59d7fe207bcb6a669c41abe3faed03fa71e0719f8ac4b2f2e9b1ce"
+  },
+  "complete": true
+}

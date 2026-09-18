@@ -1,0 +1,1019 @@
+{
+  "dependencies": {
+    "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+    "phase1_record_hash": "a5c8e01da6cfa1b055d2529a1edbfc62a93a39182a34675b509068769b25cabf",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-E5DF1BAD468D",
+    "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+    "stem": "20251117_Subprime Auto Loans are Imploding",
+    "date": "2025-11-17",
+    "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+    "source_character_count": 15140,
+    "central_claim": "The subprime auto loan market is currently imploding in a manner analogous to the 2008 subprime mortgage crisis, though the scale is smaller and does not threaten major banks, but could prompt Federal Reserve intervention.",
+    "themes": [
+      {
+        "local_theme_id": "LT-BC8BFB94EEEC",
+        "theme": "Subprime auto loan delinquency and borrower trends",
+        "arguments": [
+          {
+            "local_argument_id": "LA-80E8F88AE806",
+            "local_theme_id": "LT-BC8BFB94EEEC",
+            "conclusion": "Subprime auto loan delinquency rates have reached their highest level since 1994.",
+            "premises": [
+              "The percentage of subprime borrowers who are late on their auto loans is over 6.5%.",
+              "This is the highest delinquency rate since 1994."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-873CBE93EE40",
+                "item": "6.5% delinquency rate for subprime borrowers",
+                "status": "Verified",
+                "verification_basis": "Transcript provides a specific statistic and a historical comparison.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "the percentage of subprime borrowers who are late on their auto loans is over 6 and a half% right now, which is the highest delinquency rate that we've seen since 1994.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-C06053EE97AC",
+            "local_theme_id": "LT-BC8BFB94EEEC",
+            "conclusion": "The share of subprime borrowers is increasing, indicating broader economic strain.",
+            "premises": [
+              "Subprime borrowers account for 14.4% of consumers in Q3 2025, up from 13.9% in Q3 2024."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-91B20C0949CF",
+                "item": "14.4% of consumers are subprime borrowers, up from 13.9%",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific percentages and time period.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "Subprime borrowers account for 14.4% of consumers in the third quarter of 2025, which is up from 13.9% in the same period last year.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-43C78068D9BF",
+        "theme": "Understated vehicle price inflation due to CPI quality adjustments",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4E264D0D397F",
+            "local_theme_id": "LT-43C78068D9BF",
+            "conclusion": "Official CPI data understates the true increase in vehicle prices because it adjusts for quality improvements.",
+            "premises": [
+              "BLS adjusts new and used car prices for quality changes such as safety features and mechanical enhancements.",
+              "Even if nominal prices rise, quality adjustments reduce the reported cost.",
+              "In practice, consumers cannot opt out of these features and face higher prices."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D22691C69BCE",
+                "item": "BLS quality adjustment methodology",
+                "status": "Verified",
+                "verification_basis": "Transcript describes the adjustment process and references BLS website.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "You can see that straight from their website when they talk about quality adjustment in the CPI.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-82DF229055B4",
+        "theme": "Risks of extended auto loan terms",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E3DD56F70EF6",
+            "local_theme_id": "LT-82DF229055B4",
+            "conclusion": "144-month auto loans are dangerous because they lead to negative equity and high default risk.",
+            "premises": [
+              "A car loses at least 10% of its value immediately and depreciates further over 12 years.",
+              "Borrowers who need a 144-month loan because they cannot afford shorter terms are likely to be underwater.",
+              "This increases the likelihood of default and repossession."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-49BE821ABCB2",
+                "item": "Cars lose 10% value off the lot",
+                "status": "Unverifiable",
+                "verification_basis": "This is a common belief but no specific source or datum is provided in the transcript.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "The moment you roll it off the lot, it loses at least 10% of its value.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-042E5A4A9318",
+        "theme": "Subprime auto lender failures and investor concern",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4227CC2FD58F",
+            "local_theme_id": "LT-042E5A4A9318",
+            "conclusion": "Subprime auto lenders are already collapsing and investor risk aversion is rising.",
+            "premises": [
+              "Color Holdings and Primolend Capital Partners recently collapsed.",
+              "Automotive Credit Corp has paused new lending.",
+              "Investors demand 0.5% more yield on subprime auto loan ABS compared to 2 months ago."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-640C64FE7F73",
+                "item": "Collapse of Color Holdings and Primolend Capital Partners",
+                "status": "Verified",
+                "verification_basis": "Transcript names specific companies and events.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "Color Holdings and Primolend Capital Partners are two examples of subprime lenders that recently collapsed.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-91F3436CF374",
+                "item": "Investor demand for higher yield",
+                "status": "Verified",
+                "verification_basis": "Transcript provides a specific yield increase and time frame.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "investors are now demanding roughly a half a percent more yield on this lowest trunch of subprime auto loans compared to even just 2 months ago.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-C566D03E9416",
+        "theme": "Systemic risk comparison and potential Federal Reserve intervention",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9B7473555901",
+            "local_theme_id": "LT-C566D03E9416",
+            "conclusion": "The subprime auto loan problem is much smaller than the 2008 mortgage crisis and does not threaten major banks.",
+            "premises": [
+              "Total auto loans are $1.66 trillion vs $9.9 trillion housing debt at peak.",
+              "Only 14.4% of auto loans are subprime vs 30% of mortgages in 2008.",
+              "Banks like JP Morgan have limited exposure to auto loan ABS."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8B202BDE0514",
+                "item": "$1.66 trillion auto debt vs $9.9 trillion housing debt",
+                "status": "Verified",
+                "verification_basis": "Transcript provides these numbers as facts.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "total amount of auto loans right now across US households is only 1.66 trillion.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-6F7BF38CBDDF",
+                "item": "30% of mortgages were subprime in 2008",
+                "status": "Verified",
+                "verification_basis": "Transcript provides the percentage as a fact.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "nearly 30% of all originated mortgages were subprime.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-5D967791C942",
+                "device": "Direct analogy to 2008 subprime mortgage crisis",
+                "explanation": "The speaker compares the current subprime auto loan situation to the 2008 crisis to suggest a similar pattern but smaller scale.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "Do you remember that one time when there were a bunch of subprime borrowers... Well, would you believe me that that same exact thing might be happening again, except this time, not in real estate, but with auto loans.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-4F95CC00B47C",
+                "device": "Reference to Ben Bernanke's 2007 statement",
+                "explanation": "The speaker quotes a JP Morgan analyst's wording that echoes Bernanke's mistaken claim that subprime problems were contained, implying the same overconfidence.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "Maybe a better way to put it is that you think that problems in the subprime market seem likely to be contained. Just in case you didn't get that reference, in 2007, Ben Berneni stated that the problems in subprime mortgage market seem likely to be contained.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-8A2BACF85EE1",
+            "local_theme_id": "LT-C566D03E9416",
+            "conclusion": "The Federal Reserve would intervene to buy auto loan ABS if the problem threatens the banking system.",
+            "premises": [
+              "The Fed has a history of buying bad loans during crises (MBS in 2008, Treasuries in 2023).",
+              "The Fed's balance sheet shows willingness to expand when needed."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-47981044760F",
+                "item": "Fed bought MBS during 2008 crisis and Treasuries in 2023",
+                "status": "Verified",
+                "verification_basis": "Transcript references these historical actions.",
+                "speech_id": "SP-E5DF1BAD468D",
+                "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+                "source_excerpt": "Back in 2023, when the banking system was in trouble... look what they did. They bought a bunch of treasuries... In other words, the Federal Reserve has a wellestablished history and track record of bailing out the banking system by buying bad loans when banks need them to.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-28A21F7D8907",
+        "speech_id": "SP-E5DF1BAD468D",
+        "speech_ref": "20251117_Subprime Auto Loans are Imploding.txt",
+        "claim": "Prices are still going up because the deficit and money printer are not shut down, and inflation will not slow down soon.",
+        "reason": "The transcript does not provide evidence for the causal link between deficit/money printing and current inflation; it is an assertion.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "General economic theory supports a link, but the transcript offers no supporting data for this specific claim.",
+        "source_excerpt": "prices are still going up. That's what happens when you don't shut down the deficit and you don't shut down the money printer. prices continue to go up and it's not going to slow down anytime soon.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FF3BE8AF4180",
+        "speech_id": "SP-E5DF1BAD468D",
+        "speech_ref": "20251117_Subprime Auto Loans are Imploding.txt",
+        "claim": "Insiders of Carvana have unloaded billions of dollars of shares to fund separate companies to buy bad loans off Carvana's books.",
+        "reason": "The transcript only cites a Hindenburg Research short report; no independent verification is provided within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim is based on an external report and is presented as alleged; no internal evidence is given.",
+        "source_excerpt": "insiders have been unloading billions, that is billions of dollars worth of shares, using that money to allegedly fund separate companies to buy bad loans off the books of Carvana.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-195753764D86",
+        "speech_id": "SP-E5DF1BAD468D",
+        "speech_ref": "20251117_Subprime Auto Loans are Imploding.txt",
+        "claim": "The speaker achieved trading returns of 246%, 282%, and 788% in a matter of months.",
+        "reason": "These returns are self-reported and no verification is provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No evidence or third-party confirmation is available in the transcript.",
+        "source_excerpt": "I've used it to take home returns of like 246%, 282%, and 788% in a matter of months.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The subprime auto loan market is currently imploding in a manner analogous to the 2008 subprime mortgage crisis, though the scale is smaller and does not threaten major banks, but could prompt Federal Reserve intervention.",
+      "themes": [
+        "Subprime auto loan delinquency and borrower trends",
+        "Understated vehicle price inflation due to CPI quality adjustments",
+        "Risks of extended auto loan terms",
+        "Subprime auto lender failures and investor concern",
+        "Systemic risk comparison and potential Federal Reserve intervention"
+      ],
+      "argument_count": 7,
+      "unverifiable_count": 3
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "0fba76c0239bb1fa8a08e47257d1239b531d752f02a33dbea95665ef2c47d398",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "a5c8e01da6cfa1b055d2529a1edbfc62a93a39182a34675b509068769b25cabf",
+    "canonical_mapping": {
+      "speech_id": "SP-E5DF1BAD468D",
+      "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC53",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+      "primary_cc_rationale": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T133",
+        "T134",
+        "T106"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T133",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-042E5A4A9318",
+          "rationale": "Subprime auto lender failures and investor concern are core components of the subprime auto loan market and financial stability risks."
+        },
+        {
+          "theme_id": "T134",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-C566D03E9416",
+          "rationale": "Compares systemic risk to 2008 crisis and discusses potential Federal Reserve intervention, fitting the canonical theme of Systemic risks and black swan events."
+        },
+        {
+          "theme_id": "T106",
+          "confidence": 0.7,
+          "source_local_theme_id": "LT-43C78068D9BF",
+          "rationale": "Discusses understated vehicle price inflation due to CPI quality adjustments, which falls under inflation dynamics, though no canonical theme perfectly captures CPI methodology."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC53-T133",
+          "cc_id": "CC53",
+          "theme_id": "T133",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC53-T134",
+          "cc_id": "CC53",
+          "theme_id": "T134",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC53-T106",
+          "cc_id": "CC53",
+          "theme_id": "T106",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "local_cc_text": "The subprime auto loan market is currently imploding in a manner analogous to the 2008 subprime mortgage crisis, though the scale is smaller and does not threaten major banks, but could prompt Federal Reserve intervention.",
+        "canonical_cc_id": "CC53",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "rationale": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "candidate_matches": [
+          {
+            "id": "CC53",
+            "text": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+            "similarity": 0.6526090502738953
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.39317893981933594
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.33782219886779785
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.30092594027519226
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.28178733587265015
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "local_theme_id": "LT-BC8BFB94EEEC",
+        "local_theme_text": "Subprime auto loan delinquency and borrower trends",
+        "canonical_theme_id": "T133",
+        "confidence": 0.9,
+        "rationale": "Directly describes subprime auto loan delinquency and borrower trends, matching the canonical theme of Subprime Auto Loan Market and Financial Stability Risks.",
+        "candidate_matches": [
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.816213071346283
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.3556586802005768
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.2580874562263489
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.24462494254112244
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.21264898777008057
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.19576473534107208
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "local_theme_id": "LT-43C78068D9BF",
+        "local_theme_text": "Understated vehicle price inflation due to CPI quality adjustments",
+        "canonical_theme_id": "T106",
+        "confidence": 0.7,
+        "rationale": "Discusses understated vehicle price inflation due to CPI quality adjustments, which falls under inflation dynamics, though no canonical theme perfectly captures CPI methodology.",
+        "candidate_matches": [
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.3640650510787964
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.3623785376548767
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.3316340446472168
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.31676018238067627
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.31247472763061523
+          },
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.2871991693973541
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "local_theme_id": "LT-82DF229055B4",
+        "local_theme_text": "Risks of extended auto loan terms",
+        "canonical_theme_id": "T133",
+        "confidence": 0.85,
+        "rationale": "Risks of extended auto loan terms are a specific aspect of subprime auto loan market risks, directly aligning with T133.",
+        "candidate_matches": [
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.47050878405570984
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.20540520548820496
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.15170720219612122
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.1094505712389946
+          },
+          {
+            "id": "T10",
+            "text": "Economic disruption from oil shock",
+            "similarity": 0.09040398895740509
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.08630900084972382
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "local_theme_id": "LT-042E5A4A9318",
+        "local_theme_text": "Subprime auto lender failures and investor concern",
+        "canonical_theme_id": "T133",
+        "confidence": 0.95,
+        "rationale": "Subprime auto lender failures and investor concern are core components of the subprime auto loan market and financial stability risks.",
+        "candidate_matches": [
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.8267098665237427
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.38139063119888306
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.3080025911331177
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.28874504566192627
+          },
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.2524494528770447
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.2419634759426117
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "local_theme_id": "LT-C566D03E9416",
+        "local_theme_text": "Systemic risk comparison and potential Federal Reserve intervention",
+        "canonical_theme_id": "T134",
+        "confidence": 0.85,
+        "rationale": "Compares systemic risk to 2008 crisis and discusses potential Federal Reserve intervention, fitting the canonical theme of Systemic risks and black swan events.",
+        "candidate_matches": [
+          {
+            "id": "T134",
+            "text": "Systemic risks and black swan events",
+            "similarity": 0.5662243366241455
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.5258261561393738
+          },
+          {
+            "id": "T89",
+            "text": "Federal Reserve Monetary Policy Tools and Frameworks",
+            "similarity": 0.51703941822052
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.505122184753418
+          },
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.5011626482009888
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.4587498605251312
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-0EAF6F5EBD6D58",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T133",
+        "cc_id": "CC53",
+        "theme_id": "T133",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BC8BFB94EEEC",
+        "local_theme_text": "Subprime auto loan delinquency and borrower trends",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Directly describes subprime auto loan delinquency and borrower trends, matching the canonical theme of Subprime Auto Loan Market and Financial Stability Risks.",
+        "local_argument_id": "LA-80E8F88AE806",
+        "conclusion": "Subprime auto loan delinquency rates have reached their highest level since 1994.",
+        "premises": [
+          "The percentage of subprime borrowers who are late on their auto loans is over 6.5%.",
+          "This is the highest delinquency rate since 1994."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-873CBE93EE40",
+            "item": "6.5% delinquency rate for subprime borrowers",
+            "status": "Verified",
+            "verification_basis": "Transcript provides a specific statistic and a historical comparison.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "the percentage of subprime borrowers who are late on their auto loans is over 6 and a half% right now, which is the highest delinquency rate that we've seen since 1994.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-D287BA4D26EDC6",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T133",
+        "cc_id": "CC53",
+        "theme_id": "T133",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BC8BFB94EEEC",
+        "local_theme_text": "Subprime auto loan delinquency and borrower trends",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Directly describes subprime auto loan delinquency and borrower trends, matching the canonical theme of Subprime Auto Loan Market and Financial Stability Risks.",
+        "local_argument_id": "LA-C06053EE97AC",
+        "conclusion": "The share of subprime borrowers is increasing, indicating broader economic strain.",
+        "premises": [
+          "Subprime borrowers account for 14.4% of consumers in Q3 2025, up from 13.9% in Q3 2024."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-91B20C0949CF",
+            "item": "14.4% of consumers are subprime borrowers, up from 13.9%",
+            "status": "Verified",
+            "verification_basis": "Transcript provides specific percentages and time period.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "Subprime borrowers account for 14.4% of consumers in the third quarter of 2025, which is up from 13.9% in the same period last year.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-48D2A23954639B",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T106",
+        "cc_id": "CC53",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-43C78068D9BF",
+        "local_theme_text": "Understated vehicle price inflation due to CPI quality adjustments",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Discusses understated vehicle price inflation due to CPI quality adjustments, which falls under inflation dynamics, though no canonical theme perfectly captures CPI methodology.",
+        "local_argument_id": "LA-4E264D0D397F",
+        "conclusion": "Official CPI data understates the true increase in vehicle prices because it adjusts for quality improvements.",
+        "premises": [
+          "BLS adjusts new and used car prices for quality changes such as safety features and mechanical enhancements.",
+          "Even if nominal prices rise, quality adjustments reduce the reported cost.",
+          "In practice, consumers cannot opt out of these features and face higher prices."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D22691C69BCE",
+            "item": "BLS quality adjustment methodology",
+            "status": "Verified",
+            "verification_basis": "Transcript describes the adjustment process and references BLS website.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "You can see that straight from their website when they talk about quality adjustment in the CPI.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-FAF480004CDAA9",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T133",
+        "cc_id": "CC53",
+        "theme_id": "T133",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-82DF229055B4",
+        "local_theme_text": "Risks of extended auto loan terms",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Risks of extended auto loan terms are a specific aspect of subprime auto loan market risks, directly aligning with T133.",
+        "local_argument_id": "LA-E3DD56F70EF6",
+        "conclusion": "144-month auto loans are dangerous because they lead to negative equity and high default risk.",
+        "premises": [
+          "A car loses at least 10% of its value immediately and depreciates further over 12 years.",
+          "Borrowers who need a 144-month loan because they cannot afford shorter terms are likely to be underwater.",
+          "This increases the likelihood of default and repossession."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-49BE821ABCB2",
+            "item": "Cars lose 10% value off the lot",
+            "status": "Unverifiable",
+            "verification_basis": "This is a common belief but no specific source or datum is provided in the transcript.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "The moment you roll it off the lot, it loses at least 10% of its value.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-3310168B2FB5DD",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T133",
+        "cc_id": "CC53",
+        "theme_id": "T133",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-042E5A4A9318",
+        "local_theme_text": "Subprime auto lender failures and investor concern",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Subprime auto lender failures and investor concern are core components of the subprime auto loan market and financial stability risks.",
+        "local_argument_id": "LA-4227CC2FD58F",
+        "conclusion": "Subprime auto lenders are already collapsing and investor risk aversion is rising.",
+        "premises": [
+          "Color Holdings and Primolend Capital Partners recently collapsed.",
+          "Automotive Credit Corp has paused new lending.",
+          "Investors demand 0.5% more yield on subprime auto loan ABS compared to 2 months ago."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-640C64FE7F73",
+            "item": "Collapse of Color Holdings and Primolend Capital Partners",
+            "status": "Verified",
+            "verification_basis": "Transcript names specific companies and events.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "Color Holdings and Primolend Capital Partners are two examples of subprime lenders that recently collapsed.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-91F3436CF374",
+            "item": "Investor demand for higher yield",
+            "status": "Verified",
+            "verification_basis": "Transcript provides a specific yield increase and time frame.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "investors are now demanding roughly a half a percent more yield on this lowest trunch of subprime auto loans compared to even just 2 months ago.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-990E029F428119",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T134",
+        "cc_id": "CC53",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C566D03E9416",
+        "local_theme_text": "Systemic risk comparison and potential Federal Reserve intervention",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Compares systemic risk to 2008 crisis and discusses potential Federal Reserve intervention, fitting the canonical theme of Systemic risks and black swan events.",
+        "local_argument_id": "LA-9B7473555901",
+        "conclusion": "The subprime auto loan problem is much smaller than the 2008 mortgage crisis and does not threaten major banks.",
+        "premises": [
+          "Total auto loans are $1.66 trillion vs $9.9 trillion housing debt at peak.",
+          "Only 14.4% of auto loans are subprime vs 30% of mortgages in 2008.",
+          "Banks like JP Morgan have limited exposure to auto loan ABS."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-8B202BDE0514",
+            "item": "$1.66 trillion auto debt vs $9.9 trillion housing debt",
+            "status": "Verified",
+            "verification_basis": "Transcript provides these numbers as facts.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "total amount of auto loans right now across US households is only 1.66 trillion.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-6F7BF38CBDDF",
+            "item": "30% of mortgages were subprime in 2008",
+            "status": "Verified",
+            "verification_basis": "Transcript provides the percentage as a fact.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "nearly 30% of all originated mortgages were subprime.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-5D967791C942",
+            "device": "Direct analogy to 2008 subprime mortgage crisis",
+            "explanation": "The speaker compares the current subprime auto loan situation to the 2008 crisis to suggest a similar pattern but smaller scale.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "Do you remember that one time when there were a bunch of subprime borrowers... Well, would you believe me that that same exact thing might be happening again, except this time, not in real estate, but with auto loans.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-4F95CC00B47C",
+            "device": "Reference to Ben Bernanke's 2007 statement",
+            "explanation": "The speaker quotes a JP Morgan analyst's wording that echoes Bernanke's mistaken claim that subprime problems were contained, implying the same overconfidence.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "Maybe a better way to put it is that you think that problems in the subprime market seem likely to be contained. Just in case you didn't get that reference, in 2007, Ben Berneni stated that the problems in subprime mortgage market seem likely to be contained.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-E99F3CC99CDFF6",
+        "speech_id": "SP-E5DF1BAD468D",
+        "filename": "20251117_Subprime Auto Loans are Imploding.txt",
+        "date": "2025-11-17",
+        "source_hash": "996b70d9d466924481c9b6e391386bea8678a6817bab7d3a815eb0263c2cd27e",
+        "pair_id": "PAIR-CC53-T134",
+        "cc_id": "CC53",
+        "theme_id": "T134",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the subprime auto loan market is imploding in a manner analogous to the 2008 subprime mortgage crisis, which is the central claim of CC53.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-C566D03E9416",
+        "local_theme_text": "Systemic risk comparison and potential Federal Reserve intervention",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Compares systemic risk to 2008 crisis and discusses potential Federal Reserve intervention, fitting the canonical theme of Systemic risks and black swan events.",
+        "local_argument_id": "LA-8A2BACF85EE1",
+        "conclusion": "The Federal Reserve would intervene to buy auto loan ABS if the problem threatens the banking system.",
+        "premises": [
+          "The Fed has a history of buying bad loans during crises (MBS in 2008, Treasuries in 2023).",
+          "The Fed's balance sheet shows willingness to expand when needed."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-47981044760F",
+            "item": "Fed bought MBS during 2008 crisis and Treasuries in 2023",
+            "status": "Verified",
+            "verification_basis": "Transcript references these historical actions.",
+            "speech_id": "SP-E5DF1BAD468D",
+            "source_speech_filename": "20251117_Subprime Auto Loans are Imploding.txt",
+            "source_excerpt": "Back in 2023, when the banking system was in trouble... look what they did. They bought a bunch of treasuries... In other words, the Federal Reserve has a wellestablished history and track record of bailing out the banking system by buying bad loans when banks need them to.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "0fba76c0239bb1fa8a08e47257d1239b531d752f02a33dbea95665ef2c47d398",
+  "complete": true
+}

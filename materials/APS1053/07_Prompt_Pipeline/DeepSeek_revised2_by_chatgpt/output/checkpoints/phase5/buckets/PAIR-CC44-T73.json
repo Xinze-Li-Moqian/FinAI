@@ -1,0 +1,286 @@
+{
+  "dependency_hash": "a853f8706de6175c22dbfcb691d017adb457d3061d3650ac16a412afeb2963b1",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC44-T73",
+    "cc_id": "CC44",
+    "theme_id": "T73",
+    "authoritative_anchor": "cc-cc44-theme-t73",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC44-T73-806A8745FA",
+        "pair_id": "PAIR-CC44-T73",
+        "conclusion": "Intellectual property laws create monopolies that allow big pharma to charge high prices, even though most research is publicly funded.",
+        "source_contribution_ids": [
+          "CONTRIB-A1363D2A270BC1"
+        ],
+        "source_speech_filenames": [
+          "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+        ],
+        "premise_synthesis": "Patents give exclusive rights to produce a drug, preventing competition. A study found that NIH funded research behind every drug approved from 2010–2019, totaling $230 billion. Insulin was discovered in 1921 and its patent sold for $1, but now it is expensive due to monopoly.",
+        "conclusion_supported": "It is established that IP laws create legal monopolies, enabling high prices despite substantial public funding of research.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-A1363D2A270BC1"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how government policies (FDA regulation, intellectual property laws, and lobbying) create monopolies and harm the public in the pharmaceutical sector, exemplifying the broader claim in CC44 that government policies harm the public and violate rights."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "NIH funded research behind every drug approved 2010–2019, $230 billion",
+            "status": "Unverifiable",
+            "verification_basis": "Speaker references a study but does not provide source or specifics.",
+            "source_contribution_ids": [
+              "CONTRIB-A1363D2A270BC1"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "They studied every single drug that the FDA approved during that time. And they found that the NIH had funded research behind every single one. That's over $230 billion of taxpayer money"
+          },
+          {
+            "item": "Insulin patent sold to University of Toronto for $1 in 1921",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for this historical fact.",
+            "source_contribution_ids": [
+              "CONTRIB-A1363D2A270BC1"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "It was discovered back in 1921, again over a century ago. And the original patent was sold to the University of Toronto for $1. Uno."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Hypothetical chemist scenario",
+            "explanation": "Illustrates that even if a chemist can independently produce a drug, patents prevent them from selling it.",
+            "source_contribution_ids": [
+              "CONTRIB-A1363D2A270BC1"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "All contributions originate from a single speech delivered on 2026-03-02; therefore, no cross-speech evolution is present.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC44-T73-11F0999A52",
+        "pair_id": "PAIR-CC44-T73",
+        "conclusion": "Lobbying by big pharma ensures that government policies that protect their monopolies remain in place, preventing market competition.",
+        "source_contribution_ids": [
+          "CONTRIB-1E1C6A8241F49D"
+        ],
+        "source_speech_filenames": [
+          "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+        ],
+        "premise_synthesis": "Lobbying spending has increased year over year, with $37 billion spent since 2015. In 2025, a record $5 billion was spent on lobbying, a 14% increase. Big pharma is the second largest spender, spending $38 million in 2025, up 20%, outspending oil and gas, Wall Street, and the military-industrial complex.",
+        "conclusion_supported": "It is established that lobbying by big pharma reinforces the regulatory and legal barriers to competition by preserving monopolistic policies.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-1E1C6A8241F49D"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how government policies (FDA regulation, intellectual property laws, and lobbying) create monopolies and harm the public in the pharmaceutical sector, exemplifying the broader claim in CC44 that government policies harm the public and violate rights."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "$37 billion spent on lobbying since 2015",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "source_contribution_ids": [
+              "CONTRIB-1E1C6A8241F49D"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "Lobbyists have spent almost $ 37 billion since 2015."
+          },
+          {
+            "item": "2025 record $5 billion in lobbying, 14% increase",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "source_contribution_ids": [
+              "CONTRIB-1E1C6A8241F49D"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "in 2025, we had a record-breaking surge in the amount of money spent on lobbying. a 14% increase... with a record $5 billion just in 2025 alone"
+          },
+          {
+            "item": "Big pharma spent $38 million in 2025, up 20%",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided.",
+            "source_contribution_ids": [
+              "CONTRIB-1E1C6A8241F49D"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "pharmaceutical and research manufacturers increased its spending to 38 million, which was up about 20% from the year before."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "All contributions originate from a single speech delivered on 2026-03-02; therefore, no cross-speech evolution is present.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC44-T73-6748024BE1",
+        "pair_id": "PAIR-CC44-T73",
+        "conclusion": "Pharmacy benefit managers (PBMs) add to drug costs by negotiating rebates that encourage higher list prices and by skimming money from drug spending.",
+        "source_contribution_ids": [
+          "CONTRIB-6A8460D4EFD9FE"
+        ],
+        "source_speech_filenames": [
+          "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+        ],
+        "premise_synthesis": "41 of every $100 spent on drugs never reaches the manufacturer; 11 of every $100 goes to pharmacy profit and 25 of every $100 goes to PBM. The rebate system incentivizes manufacturers to raise list prices to offer larger rebates, which PBMs pocket.",
+        "conclusion_supported": "It is established that PBMs, as intermediaries, increase drug costs and further burden consumers through opaque rebate mechanisms.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-6A8460D4EFD9FE"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how government policies (FDA regulation, intellectual property laws, and lobbying) create monopolies and harm the public in the pharmaceutical sector, exemplifying the broader claim in CC44 that government policies harm the public and violate rights."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "41 of every $100 spent on drugs never reaches manufacturer",
+            "status": "Unverifiable",
+            "verification_basis": "Speaker references a recent analysis but no source.",
+            "source_contribution_ids": [
+              "CONTRIB-6A8460D4EFD9FE"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "A recent analysis on medication costs showed that 41 of every $100 spent on drugs never reaches the manufacturer. 11 out of every $100 goes to the pharmacy profit and 25 out of every $100 goes to the PBM."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "All contributions originate from a single speech delivered on 2026-03-02; therefore, no cross-speech evolution is present.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC44-T73-7A6E9EBE74",
+        "pair_id": "PAIR-CC44-T73",
+        "conclusion": "The FDA's high regulatory costs and lengthy approval process block competition by making it impossible for small companies to enter the market.",
+        "source_contribution_ids": [
+          "CONTRIB-67D6FCC74472BB"
+        ],
+        "source_speech_filenames": [
+          "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+        ],
+        "premise_synthesis": "The cost to file a new drug with the FDA is over $4 million, and the cost to bring a new drug to market is between $1 billion and $2.5 billion, taking 10–15 years. These costs are regulatory, not production or testing costs, and they prevent small companies and individual chemists from bringing drugs to market.",
+        "conclusion_supported": "It is established that FDA regulatory costs and approval duration create a high barrier to entry, effectively blocking competition from smaller entities.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-67D6FCC74472BB"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how government policies (FDA regulation, intellectual property laws, and lobbying) create monopolies and harm the public in the pharmaceutical sector, exemplifying the broader claim in CC44 that government policies harm the public and violate rights."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "$4 million cost to file with FDA using clinical data",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides a specific number but no source or corroboration.",
+            "source_contribution_ids": [
+              "CONTRIB-67D6FCC74472BB"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "the cost to just file a new drug with the FDA using clinical data is over $4 million."
+          },
+          {
+            "item": "$1-2.5 billion and 10-15 years to bring a new drug to market",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for these figures.",
+            "source_contribution_ids": [
+              "CONTRIB-67D6FCC74472BB"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ],
+            "source_excerpt": "to bring a new drug to market in the United States, it costs anywhere between a billion dollars and $2.5 billion and takes somewhere between 10 to 15 years."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Comparison to other industries self-regulating without government",
+            "explanation": "Illustrates that safety can be achieved without government regulation through liability and market forces.",
+            "source_contribution_ids": [
+              "CONTRIB-67D6FCC74472BB"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ]
+          },
+          {
+            "device": "Comparison of prescription drugs to over-the-counter drugs like Advil",
+            "explanation": "Shows that removing regulatory barriers leads to lower prices and easier access, as with OTC drugs.",
+            "source_contribution_ids": [
+              "CONTRIB-67D6FCC74472BB"
+            ],
+            "source_speech_filenames": [
+              "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "All contributions originate from a single speech delivered on 2026-03-02; therefore, no cross-speech evolution is present.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-1E1C6A8241F49D",
+      "CONTRIB-67D6FCC74472BB",
+      "CONTRIB-6A8460D4EFD9FE",
+      "CONTRIB-A1363D2A270BC1"
+    ],
+    "source_speech_filenames": [
+      "20260302_The Real Reason Medicine Is Unaffordable in America.txt"
+    ],
+    "generated_at": "2026-07-15T03:39:31+00:00",
+    "record_hash": "c0d6390fd0697629c6ee20966a023f2d34d627f1767cf4230a6775c235e45d4a"
+  },
+  "complete": true
+}

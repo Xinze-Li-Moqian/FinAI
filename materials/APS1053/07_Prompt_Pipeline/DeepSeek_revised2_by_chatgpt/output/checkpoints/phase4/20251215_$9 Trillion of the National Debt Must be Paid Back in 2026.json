@@ -1,0 +1,603 @@
+{
+  "dependencies": {
+    "source_hash": "d05464971fe0a9ea96ee620074fed4214a2b4e20f9ed27fab57cea178b1e1d93",
+    "phase1_record_hash": "56df1c417e61e3967b27a0b79cff6436a8d5ff766c9d85211a508d870a298942",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-B3F09532C46B",
+    "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+    "stem": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026",
+    "date": "2025-12-15",
+    "source_hash": "d05464971fe0a9ea96ee620074fed4214a2b4e20f9ed27fab57cea178b1e1d93",
+    "source_character_count": 15264,
+    "central_claim": "The $9 trillion of US national debt maturing in 2026 is not a crisis because it will be largely automatically rolled over via money market funds and Fed actions, and will not drastically increase interest costs.",
+    "themes": [
+      {
+        "local_theme_id": "LT-91EB1782E0FB",
+        "theme": "Debt rollover mechanics and default risk",
+        "arguments": [
+          {
+            "local_argument_id": "LA-D48C2847ECD4",
+            "local_theme_id": "LT-91EB1782E0FB",
+            "conclusion": "The maturity of $9 trillion in 2026 will not cause a default because the vast majority will be automatically rolled over.",
+            "premises": [
+              "Most of the maturing debt is short-term T-bills that are held in money market funds and similar vehicles.",
+              "Money market funds routinely roll over T-bills at maturity.",
+              "The Federal Reserve is restarting quantitative easing and lowering short-term rates, providing new demand for T-bills.",
+              "Cash in the financial system almost always ends up in treasuries, especially through money market funds and bank sweeps."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7FDE2AF3C29E",
+                "item": "US has $9 trillion of debt maturing in 2026 out of $38 trillion total national debt.",
+                "status": "Verified",
+                "verification_basis": "Transcript cites a chart of maturity by year and gives specific numbers.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "The government has $9 trillion of debt maturing this next year. The entire national debt load is $38 trillion.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-A3086FB05924",
+                "item": "There is $7.5 trillion in money market funds as of Q2 2025.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific amount and cites chart.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "as of the second quarter of 2025 there's 7.4 million millions of dollars in money market funds. A million million is a trillion. So there's about $7.5 trillion just in money market funds right now.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-10912ECA8250",
+                "item": "The Fed has ended QT and restarted QE by buying bills and short-term notes.",
+                "status": "Verified",
+                "verification_basis": "Explicit statement in transcript.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "the Federal Reserve is lowering interest rates at the short end... and ended QT just now, and has restarted QE by buying bills and short-term notes",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-7C7DD3BC9020",
+                "device": "Money movement analogy (Bitcoin, gold, stocks)",
+                "explanation": "Illustrates that dollars in financial system do not disappear; they just move between accounts, so money market funds continue to lend to government.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "When you buy Bitcoin from somebody, dollars are leaving your bank or brokerage account and going into somebody else's bank or brokerage account. But the dollars, same number of dollars still exist.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-A1EBA23A3E8D",
+        "theme": "Interest cost implications of debt refinancing",
+        "arguments": [
+          {
+            "local_argument_id": "LA-7FF1B86D0BD9",
+            "local_theme_id": "LT-A1EBA23A3E8D",
+            "conclusion": "The refinancing of $9 trillion maturing in 2026 will not drastically increase interest costs and may even slightly lower them.",
+            "premises": [
+              "Most of the maturing debt is short-term T-bills whose current average interest rate (3.983%) is higher than current bill yields (~3.6%), so rolling over would reduce cost.",
+              "The Federal Reserve is expected to continue lowering short-term rates, further reducing borrowing costs.",
+              "The government has deliberately kept debt short-term to take advantage of future lower rates."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5AC6036B0D9B",
+                "item": "Average interest rate on bills is 3.983%; current bill yields are around 3.6-3.8%.",
+                "status": "Verified",
+                "verification_basis": "Transcript cites joint economic committee dashboard and treasury.gov for current rates.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "Bills 3.983%. That is the current average interest rate on bills... We know the vast majority of this has to be T bills. Why? Well, because T bills right now have an average yield of like 3.6%.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-4A77C7251BC4",
+                "item": "Average interest rates on notes (3.13%) and bonds (3.346%) are lower than current long-term yields (2-year 3.5%, 10-year 4.1%, 30-year 4.79%).",
+                "status": "Verified",
+                "verification_basis": "Transcript provides specific numbers from dashboard and current yields.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "Notes, which are 2 to 10year loans, have an average interest rate of 3.13%. And bonds... 3.346%... current interest rate on the 30-year Treasury is 4.79%.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-AA5BFA1839E1",
+                "item": "If 100% of maturing debt is bills and rates stay same, cost could slightly decrease.",
+                "status": "Verified",
+                "verification_basis": "Explicit calculation example in transcript.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "if 100% of the $9 trillion maturing in 2026 was bills and interest rates don't move at all from here, then everything that's in bills costing 3.98% right now will be able to be rolled over into bills that cost somewhere in between 3 1/2 and 3.8%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-793FD57C27F5",
+                "device": "Mortgage refinance analogy",
+                "explanation": "Illustrates that refinancing into higher rate is bad, but for bills the current rate is lower than average, so it's beneficial.",
+                "speech_id": "SP-B3F09532C46B",
+                "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+                "source_excerpt": "just look at your mortgage rate and let's say you've got a 4% mortgage rate. If you went out and refinanced that to a new mortgage right now, you'd be paying like 6%. That'd be a bad deal.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-D68808D0ADF6",
+        "speech_id": "SP-B3F09532C46B",
+        "speech_ref": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "claim": "The vast majority of that $9 trillion will automatically be rolled over and no one will be the wiser.",
+        "reason": "This is a prediction about future market behavior that is not supported by specific evidence within the transcript; it is an assertion of inevitability.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a speculative claim about future rollover behavior, not a factual statement that can be checked against the transcript's internal evidence.",
+        "source_excerpt": "The reality is most of that $9 trillion will automatically be rolled over and no one will be the wiser.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8124CB713854",
+        "speech_id": "SP-B3F09532C46B",
+        "speech_ref": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "claim": "The plan has been on the fiscal side we are going to everything as possible we're going to as it matures roll it into short-term debt.",
+        "reason": "This claim about government fiscal planning is stated without citation or evidence from the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No supporting evidence provided; it is an attribution of intent.",
+        "source_excerpt": "for the last year two maybe 3 years now the plan has been on the fiscal side we are going to everything as possible we're going to as it matures roll it into short-term debt.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A26C70203DD1",
+        "speech_id": "SP-B3F09532C46B",
+        "speech_ref": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "claim": "The Federal Reserve is not done lowering interest rates.",
+        "reason": "This is forward-looking speculation without evidence in the transcript that the Fed will continue cutting.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript only states that the Fed is currently lowering rates, not that it will continue.",
+        "source_excerpt": "But we know that the Fed is not done lowering interest rates.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-76A5C874D22C",
+        "speech_id": "SP-B3F09532C46B",
+        "speech_ref": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "claim": "Inflation expectations I think will continue to move higher.",
+        "reason": "This is an opinion about future inflation expectations, not a factual claim supported by data in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Expressed as personal belief, no evidence provided.",
+        "source_excerpt": "inflation expectations I think will continue to move higher",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-2960315C7B0D",
+        "speech_id": "SP-B3F09532C46B",
+        "speech_ref": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "claim": "Money never goes into anything or out of anything.",
+        "reason": "This is a conceptual/philosophical claim about the nature of money that is not a factual assertion that can be verified within the transcript's analytical framework.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a rhetorical device to explain money movement, not a verifiable factual claim.",
+        "source_excerpt": "Money never goes into anything or out of anything.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The $9 trillion of US national debt maturing in 2026 is not a crisis because it will be largely automatically rolled over via money market funds and Fed actions, and will not drastically increase interest costs.",
+      "themes": [
+        "Debt rollover mechanics and default risk",
+        "Interest cost implications of debt refinancing"
+      ],
+      "argument_count": 2,
+      "unverifiable_count": 5
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "bba0256be18c31b00d3b8674a8f5d32d762705a69aa13732fa8c092d14526b8a",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "56df1c417e61e3967b27a0b79cff6436a8d5ff766c9d85211a508d870a298942",
+    "canonical_mapping": {
+      "speech_id": "SP-B3F09532C46B",
+      "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC54",
+      "primary_cc_confidence": 0.72,
+      "primary_cc_relationship_type": "opposition",
+      "primary_cc_relationship_explanation": "The speech argues that the $9 trillion debt maturity in 2026 is not a crisis because automatic rollover through money market funds and Fed actions will prevent default and avoid drastically increasing interest costs. This directly counters CC54's claim that accelerating deficit spending forces the Fed to adopt policies leading to inflation, dollar erosion, and wealth transfer. The speech presents the rollover as a benign, non-inflationary mechanism, opposing the notion of negative consequences from debt-financed Fed intervention.",
+      "primary_cc_rationale": "The speech argues that the $9 trillion debt maturity in 2026 is not a crisis because automatic rollover through money market funds and Fed actions will prevent default and avoid drastically increasing interest costs. This directly counters CC54's claim that accelerating deficit spending forces the Fed to adopt policies leading to inflation, dollar erosion, and wealth transfer. The speech presents the rollover as a benign, non-inflationary mechanism, opposing the notion of negative consequences from debt-financed Fed intervention.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T131",
+        "T108"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T131",
+          "confidence": 0.65,
+          "source_local_theme_id": "LT-91EB1782E0FB",
+          "rationale": "The local theme 'Debt rollover mechanics and default risk' directly pertains to sovereign debt management and the avoidance of a crisis, aligning with T131's focus on sovereign debt crisis and crisis absorption."
+        },
+        {
+          "theme_id": "T108",
+          "confidence": 0.6,
+          "source_local_theme_id": "LT-A1EBA23A3E8D",
+          "rationale": "The local theme 'Interest cost implications of debt refinancing' deals with the expected impact of refinancing on interest rates, which is captured by T108's focus on interest rate policy and market expectations for rate dynamics."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC54-T131",
+          "cc_id": "CC54",
+          "theme_id": "T131",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC54-T108",
+          "cc_id": "CC54",
+          "theme_id": "T108",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-B3F09532C46B",
+        "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "local_cc_text": "The $9 trillion of US national debt maturing in 2026 is not a crisis because it will be largely automatically rolled over via money market funds and Fed actions, and will not drastically increase interest costs.",
+        "canonical_cc_id": "CC54",
+        "confidence": 0.72,
+        "relationship_type": "opposition",
+        "relationship_explanation": "The speech argues that the $9 trillion debt maturity in 2026 is not a crisis because automatic rollover through money market funds and Fed actions will prevent default and avoid drastically increasing interest costs. This directly counters CC54's claim that accelerating deficit spending forces the Fed to adopt policies leading to inflation, dollar erosion, and wealth transfer. The speech presents the rollover as a benign, non-inflationary mechanism, opposing the notion of negative consequences from debt-financed Fed intervention.",
+        "rationale": "The speech argues that the $9 trillion debt maturity in 2026 is not a crisis because automatic rollover through money market funds and Fed actions will prevent default and avoid drastically increasing interest costs. This directly counters CC54's claim that accelerating deficit spending forces the Fed to adopt policies leading to inflation, dollar erosion, and wealth transfer. The speech presents the rollover as a benign, non-inflationary mechanism, opposing the notion of negative consequences from debt-financed Fed intervention.",
+        "candidate_matches": [
+          {
+            "id": "CC57",
+            "text": "The US government's fiscal bankruptcy drives geopolitical actions (removing Maduro in Venezuela) to secure resources, signaling a shift toward regional hegemony and imperial decline.",
+            "similarity": 0.5036167502403259
+          },
+          {
+            "id": "CC19",
+            "text": "The current government shutdown threat is a budget-related shutdown with no long-term economic or market consequences.",
+            "similarity": 0.45373111963272095
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.41808241605758667
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.37210649251937866
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.3491170108318329
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B3F09532C46B",
+        "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "local_theme_id": "LT-91EB1782E0FB",
+        "local_theme_text": "Debt rollover mechanics and default risk",
+        "canonical_theme_id": "T131",
+        "confidence": 0.65,
+        "rationale": "The local theme 'Debt rollover mechanics and default risk' directly pertains to sovereign debt management and the avoidance of a crisis, aligning with T131's focus on sovereign debt crisis and crisis absorption.",
+        "candidate_matches": [
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.2626120448112488
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.22990016639232635
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.2242661416530609
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.2024812549352646
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.20161820948123932
+          },
+          {
+            "id": "T127",
+            "text": "Private credit, banking regulation, and systemic risk",
+            "similarity": 0.19657069444656372
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-B3F09532C46B",
+        "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "local_theme_id": "LT-A1EBA23A3E8D",
+        "local_theme_text": "Interest cost implications of debt refinancing",
+        "canonical_theme_id": "T108",
+        "confidence": 0.6,
+        "rationale": "The local theme 'Interest cost implications of debt refinancing' deals with the expected impact of refinancing on interest rates, which is captured by T108's focus on interest rate policy and market expectations for rate dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.16918231546878815
+          },
+          {
+            "id": "T10",
+            "text": "Economic disruption from oil shock",
+            "similarity": 0.11115259677171707
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.10551342368125916
+          },
+          {
+            "id": "T108",
+            "text": "Interest Rate Policy and Market Expectations",
+            "similarity": 0.09754049777984619
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.09175782650709152
+          },
+          {
+            "id": "T120",
+            "text": "Monetary policy rates and interest rate dynamics",
+            "similarity": 0.09171585738658905
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-22F020E831BE84",
+        "speech_id": "SP-B3F09532C46B",
+        "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "date": "2025-12-15",
+        "source_hash": "d05464971fe0a9ea96ee620074fed4214a2b4e20f9ed27fab57cea178b1e1d93",
+        "pair_id": "PAIR-CC54-T131",
+        "cc_id": "CC54",
+        "theme_id": "T131",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "opposition",
+        "primary_cc_relationship_explanation": "The speech argues that the $9 trillion debt maturity in 2026 is not a crisis because automatic rollover through money market funds and Fed actions will prevent default and avoid drastically increasing interest costs. This directly counters CC54's claim that accelerating deficit spending forces the Fed to adopt policies leading to inflation, dollar erosion, and wealth transfer. The speech presents the rollover as a benign, non-inflationary mechanism, opposing the notion of negative consequences from debt-financed Fed intervention.",
+        "primary_cc_confidence": 0.72,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-91EB1782E0FB",
+        "local_theme_text": "Debt rollover mechanics and default risk",
+        "theme_mapping_confidence": 0.65,
+        "theme_mapping_rationale": "The local theme 'Debt rollover mechanics and default risk' directly pertains to sovereign debt management and the avoidance of a crisis, aligning with T131's focus on sovereign debt crisis and crisis absorption.",
+        "local_argument_id": "LA-D48C2847ECD4",
+        "conclusion": "The maturity of $9 trillion in 2026 will not cause a default because the vast majority will be automatically rolled over.",
+        "premises": [
+          "Most of the maturing debt is short-term T-bills that are held in money market funds and similar vehicles.",
+          "Money market funds routinely roll over T-bills at maturity.",
+          "The Federal Reserve is restarting quantitative easing and lowering short-term rates, providing new demand for T-bills.",
+          "Cash in the financial system almost always ends up in treasuries, especially through money market funds and bank sweeps."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7FDE2AF3C29E",
+            "item": "US has $9 trillion of debt maturing in 2026 out of $38 trillion total national debt.",
+            "status": "Verified",
+            "verification_basis": "Transcript cites a chart of maturity by year and gives specific numbers.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "The government has $9 trillion of debt maturing this next year. The entire national debt load is $38 trillion.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-A3086FB05924",
+            "item": "There is $7.5 trillion in money market funds as of Q2 2025.",
+            "status": "Verified",
+            "verification_basis": "Transcript provides specific amount and cites chart.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "as of the second quarter of 2025 there's 7.4 million millions of dollars in money market funds. A million million is a trillion. So there's about $7.5 trillion just in money market funds right now.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-10912ECA8250",
+            "item": "The Fed has ended QT and restarted QE by buying bills and short-term notes.",
+            "status": "Verified",
+            "verification_basis": "Explicit statement in transcript.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "the Federal Reserve is lowering interest rates at the short end... and ended QT just now, and has restarted QE by buying bills and short-term notes",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-7C7DD3BC9020",
+            "device": "Money movement analogy (Bitcoin, gold, stocks)",
+            "explanation": "Illustrates that dollars in financial system do not disappear; they just move between accounts, so money market funds continue to lend to government.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "When you buy Bitcoin from somebody, dollars are leaving your bank or brokerage account and going into somebody else's bank or brokerage account. But the dollars, same number of dollars still exist.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-2A30E8989DA376",
+        "speech_id": "SP-B3F09532C46B",
+        "filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+        "date": "2025-12-15",
+        "source_hash": "d05464971fe0a9ea96ee620074fed4214a2b4e20f9ed27fab57cea178b1e1d93",
+        "pair_id": "PAIR-CC54-T108",
+        "cc_id": "CC54",
+        "theme_id": "T108",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "opposition",
+        "primary_cc_relationship_explanation": "The speech argues that the $9 trillion debt maturity in 2026 is not a crisis because automatic rollover through money market funds and Fed actions will prevent default and avoid drastically increasing interest costs. This directly counters CC54's claim that accelerating deficit spending forces the Fed to adopt policies leading to inflation, dollar erosion, and wealth transfer. The speech presents the rollover as a benign, non-inflationary mechanism, opposing the notion of negative consequences from debt-financed Fed intervention.",
+        "primary_cc_confidence": 0.72,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-A1EBA23A3E8D",
+        "local_theme_text": "Interest cost implications of debt refinancing",
+        "theme_mapping_confidence": 0.6,
+        "theme_mapping_rationale": "The local theme 'Interest cost implications of debt refinancing' deals with the expected impact of refinancing on interest rates, which is captured by T108's focus on interest rate policy and market expectations for rate dynamics.",
+        "local_argument_id": "LA-7FF1B86D0BD9",
+        "conclusion": "The refinancing of $9 trillion maturing in 2026 will not drastically increase interest costs and may even slightly lower them.",
+        "premises": [
+          "Most of the maturing debt is short-term T-bills whose current average interest rate (3.983%) is higher than current bill yields (~3.6%), so rolling over would reduce cost.",
+          "The Federal Reserve is expected to continue lowering short-term rates, further reducing borrowing costs.",
+          "The government has deliberately kept debt short-term to take advantage of future lower rates."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5AC6036B0D9B",
+            "item": "Average interest rate on bills is 3.983%; current bill yields are around 3.6-3.8%.",
+            "status": "Verified",
+            "verification_basis": "Transcript cites joint economic committee dashboard and treasury.gov for current rates.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "Bills 3.983%. That is the current average interest rate on bills... We know the vast majority of this has to be T bills. Why? Well, because T bills right now have an average yield of like 3.6%.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-4A77C7251BC4",
+            "item": "Average interest rates on notes (3.13%) and bonds (3.346%) are lower than current long-term yields (2-year 3.5%, 10-year 4.1%, 30-year 4.79%).",
+            "status": "Verified",
+            "verification_basis": "Transcript provides specific numbers from dashboard and current yields.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "Notes, which are 2 to 10year loans, have an average interest rate of 3.13%. And bonds... 3.346%... current interest rate on the 30-year Treasury is 4.79%.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-AA5BFA1839E1",
+            "item": "If 100% of maturing debt is bills and rates stay same, cost could slightly decrease.",
+            "status": "Verified",
+            "verification_basis": "Explicit calculation example in transcript.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "if 100% of the $9 trillion maturing in 2026 was bills and interest rates don't move at all from here, then everything that's in bills costing 3.98% right now will be able to be rolled over into bills that cost somewhere in between 3 1/2 and 3.8%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-793FD57C27F5",
+            "device": "Mortgage refinance analogy",
+            "explanation": "Illustrates that refinancing into higher rate is bad, but for bills the current rate is lower than average, so it's beneficial.",
+            "speech_id": "SP-B3F09532C46B",
+            "source_speech_filename": "20251215_$9 Trillion of the National Debt Must be Paid Back in 2026.txt",
+            "source_excerpt": "just look at your mortgage rate and let's say you've got a 4% mortgage rate. If you went out and refinanced that to a new mortgage right now, you'd be paying like 6%. That'd be a bad deal.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "bba0256be18c31b00d3b8674a8f5d32d762705a69aa13732fa8c092d14526b8a",
+  "complete": true
+}

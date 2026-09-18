@@ -1,0 +1,620 @@
+{
+  "dependencies": {
+    "source_hash": "089042c738b421a928155c1bd46f3b3fc3248a8cc6abb0aa51dbabfce8d4af03",
+    "phase1_record_hash": "e7237699ae514077385da9f9b280a0b786a2a39c8ac11c47c4beada575b7d3a3",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-D8CAB2457228",
+    "filename": "20251203_The End of Bitcoin.txt",
+    "stem": "20251203_The End of Bitcoin",
+    "date": "2025-12-03",
+    "source_hash": "089042c738b421a928155c1bd46f3b3fc3248a8cc6abb0aa51dbabfce8d4af03",
+    "source_character_count": 16211,
+    "central_claim": "The current Bitcoin sell-off is driven by leveraged unwinds and narrative shifts, but Bitcoin remains an asymmetric bet with unchanged fundamentals and is not necessarily dying.",
+    "themes": [
+      {
+        "local_theme_id": "LT-58268DE965A4",
+        "theme": "Micro Strategy's financial leverage",
+        "arguments": [
+          {
+            "local_argument_id": "LA-48EF2C80272D",
+            "local_theme_id": "LT-58268DE965A4",
+            "conclusion": "Micro Strategy's financial structure may force it to sell Bitcoin if MNAV drops below 1, triggering a cascading price decline.",
+            "premises": [
+              "Micro Strategy lacks cash flows and pays dividends from new investor money",
+              "CEO stated they could sell Bitcoin below MNAV",
+              "They raised $1.5B cash reserves to cover 24 months of dividends",
+              "A forced sale would cause a snowball effect on Bitcoin price"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-B12E442E4B92",
+                "item": "MSTR shares trade at ~$170, MNAV just above 1",
+                "status": "Verified",
+                "verification_basis": "Transcript explicitly states these figures.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "at the current price that Micro Strategy is trading at at around $170 per share, they're currently at a little over one MNAV.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-23CFCACE70C8",
+                "item": "Micro Strategy has 69 years of Bitcoin to sell at current price to cover payments",
+                "status": "Verified",
+                "verification_basis": "Transcript provides this calculation.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "they have about 69 years worth of Bitcoin that they could sell to cover payments.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-75CF60BE994A",
+                "item": "Micro Strategy sold shares for $1.5B cash reserves, covering 24 months dividends",
+                "status": "Verified",
+                "verification_basis": "Transcript states this explicitly.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "Strategy just announced that they recently sold shares in order to secure about $1.5 billion worth of just dollar reserves.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-6B034DCC01F8",
+                "device": "Ponzi scheme",
+                "explanation": "Illustrates that new investor money is the only source for dividend payments, similar to a Ponzi structure, but notes dividends can be halted.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "If this sounds like a Ponzi scheme, it's because it is very close. The main difference here is all of these preferreds can shut off their dividend payments.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-8C82849603CF",
+                "device": "fire sale",
+                "explanation": "Describes the incentive for other players to force Micro Strategy to unwind in order to buy Bitcoin at deeply discounted prices.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "there's a financial incentive for other players in the industry to do whatever they can to get that player to be forced to unwind. Especially if you are bullish on that asset because then you will be able to pick up that asset at a fire sale price.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-4B63DAC81B57",
+        "theme": "Original Bitcoin holder transactions",
+        "arguments": [
+          {
+            "local_argument_id": "LA-19B101D59213",
+            "local_theme_id": "LT-4B63DAC81B57",
+            "conclusion": "OG whale selling is not necessarily bearish; it could be diversification, internal transfer, or a strategy to trigger a Micro Strategy unwind.",
+            "premises": [
+              "OG whales have large gains after 15 years",
+              "On-chain transactions are ambiguous regarding intent",
+              "Some may want to cause a cascade to buy Bitcoin cheaper"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-021F5659B8E4",
+                "item": "A Satoshi-era whale sold $1.5B worth of Bitcoin after 15 years.",
+                "status": "Verified",
+                "verification_basis": "Transcript reports this specific event.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "a Satashi era whale sold about $1.5 billion dollar worth of Bitcoin after holding for 15 years.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9DBB3AAB88E3",
+        "theme": "Yen carry trade unwinding",
+        "arguments": [
+          {
+            "local_argument_id": "LA-C1CD8FCAD5B0",
+            "local_theme_id": "LT-9DBB3AAB88E3",
+            "conclusion": "The yen carry trade unwinding is a systemic factor contributing to Bitcoin's decline.",
+            "premises": [
+              "Japanese 10-year yield has risen from below 0% to 1.8-1.9%",
+              "A similar unwind in July 2024 caused a 10% market drop",
+              "Crypto leverage was built on cheap yen"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-02141F0686B5",
+                "item": "Japanese 10-year yield now at 1.8-1.9%, reversed from below 0%.",
+                "status": "Verified",
+                "verification_basis": "Transcript provides these yield levels.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "the yield on the 10-year government bond in Japan ... now trading at the exact same levels it was before. Back in 2006, the yield ... was around 1.8 1.9%.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-7CBF34CA11B7",
+                "item": "July 2024 market drop of 10% occurred due to yen carry trade unwind.",
+                "status": "Verified",
+                "verification_basis": "Transcript states this historical event.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "In fact, you may remember in July of 2024, the market dropped 10% over the course of just a couple of weeks. This drop occurred as the original yen carry trade unwound.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-046E99B6E1D0",
+                "device": "Lightning never strikes the same place twice",
+                "explanation": "Warning that the exact same unwind pattern may not repeat.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "Just like lightning, it never strikes in the same way in the same place twice.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-9BEAA42107B8",
+        "theme": "Shift in adoption narrative",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6D3EA80FE08E",
+            "local_theme_id": "LT-9BEAA42107B8",
+            "conclusion": "The unmet expectations for sovereign and institutional Bitcoin adoption have caused a narrative shift and selling pressure.",
+            "premises": [
+              "Expectations of US government buying Bitcoin for sovereign wealth fund were not met",
+              "Institutional adoption has been limited to retail ETF buying",
+              "Bills for government purchase have not passed"
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-686BCD4DBFE0",
+                "item": "US government's plan was to hold existing Bitcoin, not buy more.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript does not provide a source or direct quote for this claim.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "When they did announce their plans with Bitcoin, the plan was, hey, we're just going to keep what we have. We're not going to sell it, but we're not going to buy anymore.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-164A714C8771",
+                "item": "Bills introduced but not passed.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific bills or legislative outcomes are cited.",
+                "speech_id": "SP-D8CAB2457228",
+                "source_speech_filename": "20251203_The End of Bitcoin.txt",
+                "source_excerpt": "bills have been introduced to Congress in order to change that ... Some of those bills have come and gone and some of them are still in the works.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-E7C01E8A284E",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Micro Strategy does not have cash flows or profits; its only source of money is from new investors.",
+        "reason": "The transcript asserts this without any source or verifiable financial data.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Transcript contains this claim but provides no external evidence or citation.",
+        "source_excerpt": "Micro Strategy does not have cash flows. They do not have profits. which means every cent they pay out as a dividend does not come from profits. It comes from raising money from new investors.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-109372F6D46B",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Micro Strategy CEO said they can sell Bitcoin if needed below MNAV.",
+        "reason": "The transcript paraphrases a statement without a direct quote or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Statement is attributed but not directly quoted; no date or venue provided.",
+        "source_excerpt": "Which is why Strategies CEO recently said that we can sell Bitcoin and we would sell Bitcoin if we needed to fund our dividend payments below MNAV.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BDAA2867DC53",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Institutional adoption has largely been concentrated to retail investors buying ETFs, not large-scale allocations.",
+        "reason": "The transcript makes this claim without providing any data or studies.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Assertion about institutional behavior is unsupported.",
+        "source_excerpt": "institutional adoption has largely been concentrated to retail investors buying Bitcoin through things like ETFs. That is not true institutional adoption. ... we're not seeing anything like large-scale allocations across pensions and 401ks with any meaningful percentages.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-B3E939FA2587",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "The US government announced plans to keep but not buy more Bitcoin.",
+        "reason": "The transcript refers to an announcement but gives no source or official document.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Claim about government policy is unsupported.",
+        "source_excerpt": "When they did announce their plans with Bitcoin, the plan was, hey, we're just going to keep what we have. We're not going to sell it, but we're not going to buy anymore.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-BD9F101C7EF9",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Bills have been introduced to Congress to buy Bitcoin; some have passed, some are pending.",
+        "reason": "No specific legislation or status cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Vague reference without bill names or outcomes.",
+        "source_excerpt": "bills have been introduced to Congress in order to change that so that the US government will start buying Bitcoin. Some of those bills have come and gone and some of them are still in the works.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6B2DBFCA75DD",
+        "speech_id": "SP-D8CAB2457228",
+        "speech_ref": "20251203_The End of Bitcoin.txt",
+        "claim": "Bitcoin is down 31% from all-time highs in 60 days and down 7-12% year to date.",
+        "reason": "Transcript gives these numbers but no price source is referenced.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Price data is stated but not sourced.",
+        "source_excerpt": "it is down 31% from its all-time highs in just about 60 days. ... down about 7 12% year to date.",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The current Bitcoin sell-off is driven by leveraged unwinds and narrative shifts, but Bitcoin remains an asymmetric bet with unchanged fundamentals and is not necessarily dying.",
+      "themes": [
+        "Micro Strategy's financial leverage",
+        "Original Bitcoin holder transactions",
+        "Yen carry trade unwinding",
+        "Shift in adoption narrative"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 6
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "bd420be9984ccefcdc3b6d23b69c10116563cb123c0a7ba505e9eb2769e2900f",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "e7237699ae514077385da9f9b280a0b786a2a39c8ac11c47c4beada575b7d3a3",
+    "canonical_mapping": {
+      "speech_id": "SP-D8CAB2457228",
+      "filename": "20251203_The End of Bitcoin.txt",
+      "status": "uncategorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": null,
+      "primary_cc_confidence": 0.0,
+      "primary_cc_relationship_type": null,
+      "primary_cc_relationship_explanation": "None of the candidate CCs provide an argumentative home for this speech. The speech focuses exclusively on a current Bitcoin sell-off driven by leverage unwinding, whale transactions, carry trade, and narrative shifts, and argues that Bitcoin fundamentals remain unchanged. The CC candidates cover government shutdowns, AI, gold/dollar system, Fed policy, and broad market signals, but none address cryptocurrency market dynamics or Bitcoin's resilience specifically. While CC52 and CC43 mention Bitcoin as an alternative monetary system, the speech does not engage with Fed policy, sovereign debt, or dollar erosion; it is a narrow market commentary on Bitcoin's price action. No candidate proposition is supported, instantiated, explained, applied, qualified, or opposed by the speech's central claim.",
+      "primary_cc_rationale": "None of the candidate CCs provide an argumentative home for this speech. The speech focuses exclusively on a current Bitcoin sell-off driven by leverage unwinding, whale transactions, carry trade, and narrative shifts, and argues that Bitcoin fundamentals remain unchanged. The CC candidates cover government shutdowns, AI, gold/dollar system, Fed policy, and broad market signals, but none address cryptocurrency market dynamics or Bitcoin's resilience specifically. While CC52 and CC43 mention Bitcoin as an alternative monetary system, the speech does not engage with Fed policy, sovereign debt, or dollar erosion; it is a narrow market commentary on Bitcoin's price action. No candidate proposition is supported, instantiated, explained, applied, qualified, or opposed by the speech's central claim.",
+      "classification_rejection_reasons": [
+        "No supplied canonical CC was selected.",
+        "The unchanged classification confidence threshold of 0.70 was not cleared.",
+        "No valid controlled argumentative relationship type was returned."
+      ],
+      "theme_ids": [],
+      "theme_assignments": [],
+      "best_cc_candidates": [
+        {
+          "id": "CC43",
+          "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+          "similarity": 0.4749246835708618
+        },
+        {
+          "id": "CC48",
+          "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+          "similarity": 0.36228570342063904
+        },
+        {
+          "id": "CC52",
+          "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+          "similarity": 0.3001726269721985
+        },
+        {
+          "id": "CC45",
+          "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+          "similarity": 0.296114981174469
+        },
+        {
+          "id": "CC49",
+          "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+          "similarity": 0.25520747900009155
+        }
+      ],
+      "bucket_memberships": [],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-D8CAB2457228",
+        "filename": "20251203_The End of Bitcoin.txt",
+        "local_cc_text": "The current Bitcoin sell-off is driven by leveraged unwinds and narrative shifts, but Bitcoin remains an asymmetric bet with unchanged fundamentals and is not necessarily dying.",
+        "canonical_cc_id": null,
+        "confidence": 0.0,
+        "relationship_type": null,
+        "relationship_explanation": "None of the candidate CCs provide an argumentative home for this speech. The speech focuses exclusively on a current Bitcoin sell-off driven by leverage unwinding, whale transactions, carry trade, and narrative shifts, and argues that Bitcoin fundamentals remain unchanged. The CC candidates cover government shutdowns, AI, gold/dollar system, Fed policy, and broad market signals, but none address cryptocurrency market dynamics or Bitcoin's resilience specifically. While CC52 and CC43 mention Bitcoin as an alternative monetary system, the speech does not engage with Fed policy, sovereign debt, or dollar erosion; it is a narrow market commentary on Bitcoin's price action. No candidate proposition is supported, instantiated, explained, applied, qualified, or opposed by the speech's central claim.",
+        "rationale": "None of the candidate CCs provide an argumentative home for this speech. The speech focuses exclusively on a current Bitcoin sell-off driven by leverage unwinding, whale transactions, carry trade, and narrative shifts, and argues that Bitcoin fundamentals remain unchanged. The CC candidates cover government shutdowns, AI, gold/dollar system, Fed policy, and broad market signals, but none address cryptocurrency market dynamics or Bitcoin's resilience specifically. While CC52 and CC43 mention Bitcoin as an alternative monetary system, the speech does not engage with Fed policy, sovereign debt, or dollar erosion; it is a narrow market commentary on Bitcoin's price action. No candidate proposition is supported, instantiated, explained, applied, qualified, or opposed by the speech's central claim.",
+        "candidate_matches": [
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.4749246835708618
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.36228570342063904
+          },
+          {
+            "id": "CC52",
+            "text": "The Federal Reserve's monetary policy is fundamentally flawed (it does not control rates, low rates destroy wealth, rate-inflation relation is inverted), a sovereign debt crisis is inevitable and cannot be inflated away, prompting interest in alternative monetary systems such as gold and Bitcoin.",
+            "similarity": 0.3001726269721985
+          },
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.296114981174469
+          },
+          {
+            "id": "CC49",
+            "text": "The dollar's reserve currency status is at risk from a dollar shortage crisis and deflationary debt spiral, and the US government is using stablecoin regulation and swap lines to protect dollar dominance.",
+            "similarity": 0.25520747900009155
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D8CAB2457228",
+        "filename": "20251203_The End of Bitcoin.txt",
+        "local_theme_id": "LT-58268DE965A4",
+        "local_theme_text": "Micro Strategy's financial leverage",
+        "canonical_theme_id": "T79",
+        "confidence": 0.55,
+        "rationale": "Micro Strategy's financial leverage is directly related to cryptocurrency markets and financial leverage.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.4707660675048828
+          },
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.27096790075302124
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.19970417022705078
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.15126743912696838
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.15101483464241028
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.13967540860176086
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D8CAB2457228",
+        "filename": "20251203_The End of Bitcoin.txt",
+        "local_theme_id": "LT-4B63DAC81B57",
+        "local_theme_text": "Original Bitcoin holder transactions",
+        "canonical_theme_id": "T79",
+        "confidence": 0.5,
+        "rationale": "Original Bitcoin holder transactions are part of cryptocurrency market dynamics and can involve financial leverage.",
+        "candidate_matches": [
+          {
+            "id": "T79",
+            "text": "Cryptocurrency markets and financial leverage",
+            "similarity": 0.3244916498661041
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.23326286673545837
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.22880029678344727
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.19895586371421814
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.18856710195541382
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.18344859778881073
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D8CAB2457228",
+        "filename": "20251203_The End of Bitcoin.txt",
+        "local_theme_id": "LT-9DBB3AAB88E3",
+        "local_theme_text": "Yen carry trade unwinding",
+        "canonical_theme_id": null,
+        "confidence": 0.0,
+        "rationale": "The yen carry trade unwinding is a monetary policy and liquidity condition affecting markets.",
+        "candidate_matches": [
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.2737891674041748
+          },
+          {
+            "id": "T81",
+            "text": "Dollar system vulnerabilities",
+            "similarity": 0.19347314536571503
+          },
+          {
+            "id": "T96",
+            "text": "Gold Revaluation and Central Bank Gold Accumulation",
+            "similarity": 0.18858475983142853
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.17489120364189148
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.1501312404870987
+          },
+          {
+            "id": "T140",
+            "text": "Wealth Transfer and Tax Policy",
+            "similarity": 0.13927412033081055
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D8CAB2457228",
+        "filename": "20251203_The End of Bitcoin.txt",
+        "local_theme_id": "LT-9BEAA42107B8",
+        "local_theme_text": "Shift in adoption narrative",
+        "canonical_theme_id": "T115",
+        "confidence": 0.6,
+        "rationale": "Shift in adoption narrative relates to market sentiment and technology adoption.",
+        "candidate_matches": [
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.33605414628982544
+          },
+          {
+            "id": "T115",
+            "text": "Market sentiment and technology",
+            "similarity": 0.32578417658805847
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.30747199058532715
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.29642030596733093
+          },
+          {
+            "id": "T114",
+            "text": "Market dynamics and investor behavior",
+            "similarity": 0.27846604585647583
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.2596264183521271
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "bd420be9984ccefcdc3b6d23b69c10116563cb123c0a7ba505e9eb2769e2900f",
+  "complete": true
+}

@@ -1,0 +1,260 @@
+{
+  "dependencies": {
+    "source_hash": "5d1715405018c3ea9f5ea33590c9b109113da199a5a2f182286d389fb57713c1",
+    "filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+    "model": "deepseek-v4-flash",
+    "prompt_version": "2.0",
+    "schema_version": "2.0",
+    "max_transcript_chars": 120000
+  },
+  "record": {
+    "record_kind": "speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-18F3B4E5CC65",
+    "filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+    "stem": "20260209_The Market at All Time Highs - Don’t Make This Mistake",
+    "date": "2026-02-09",
+    "source_hash": "5d1715405018c3ea9f5ea33590c9b109113da199a5a2f182286d389fb57713c1",
+    "source_character_count": 12648,
+    "central_claim": "Investing at all-time highs historically outperforms investing on random days over long time horizons, and any investing strategy, even with poor timing, beats staying in cash.",
+    "themes": [
+      {
+        "local_theme_id": "LT-ADACA7935A49",
+        "theme": "Investing at all-time highs",
+        "arguments": [
+          {
+            "local_argument_id": "LA-1386FFAFA1EF",
+            "local_theme_id": "LT-ADACA7935A49",
+            "conclusion": "Investing only on days when the market makes new all-time highs leads to better long-term returns than investing on random days.",
+            "premises": [
+              "Chart study going back to 1988 shows green bars (investing at highs) outperform gray bars (random days) over longer time frames.",
+              "The market is often at all-time highs, so buying at those times capitalizes on rising trends."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E15D7FCE45F5",
+                "item": "A chart study going back to 1988 comparing average returns from investing on random days versus investing only on days with new all-time highs.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript describes a chart and its results but provides no source, data values, or methodology to verify.",
+                "speech_id": "SP-18F3B4E5CC65",
+                "source_speech_filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+                "source_excerpt": "Take a look at this chart which did a study going back to 1988. We have two colored bars here. We've got the green bars and we've got the gray bars. The gray bars represent the average returns that you would have over a given time frame investing on any random day. Whereas the green bars represent only investing on days where new all-time highs are being made in the market.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-1051008674EE",
+        "theme": "Market timing and investment strategies",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E5D7347ECE36",
+            "local_theme_id": "LT-1051008674EE",
+            "conclusion": "Keeping money in cash results in the worst investment performance among all strategies.",
+            "premises": [
+              "In the Charles Schwab study, Larry (cash) had the absolute worst performance.",
+              "People waiting in cash often miss opportunities because fear prevents them from investing even during market crashes."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7C638A12A8D1",
+                "item": "Charles Schwab study with five hypothetical characters: Peter, Ashley, Matthew, Rosie, and Larry, showing Larry (cash) at the bottom.",
+                "status": "Unverifiable",
+                "verification_basis": "The study is referenced but no specific data, dates, or methodology are provided to verify the performance rankings.",
+                "speech_id": "SP-18F3B4E5CC65",
+                "source_speech_filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+                "source_excerpt": "Coming in at the bottom with the absolute worst performance was Larry, who just kept his money in cash.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-3B93F44E0523",
+                "device": "Lizard brain",
+                "explanation": "Metaphor for primitive fear-based decision making that leads to staying in cash and missing investment opportunities.",
+                "speech_id": "SP-18F3B4E5CC65",
+                "source_speech_filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+                "source_excerpt": "Moral of the story is don't be Larry, who let his lizard brain guide his investing actions and missed out on the ability to generate wealth.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          },
+          {
+            "local_argument_id": "LA-ABDEF5047E29",
+            "local_theme_id": "LT-1051008674EE",
+            "conclusion": "Dollar cost averaging generally outperforms bad timing but underperforms lump sum investing over the long run.",
+            "premises": [
+              "Matthew (dollar cost averaging) outperforms Rosie (bad timing).",
+              "Ashley (lump sum) outperforms Matthew because the market usually rises."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5FFCC23B3E74",
+                "item": "Performance ordering from the Charles Schwab study: Matthew beats Rosie, but Ashley beats Matthew.",
+                "status": "Unverifiable",
+                "verification_basis": "The study is referenced but no specific data or methodology is provided to verify these relative performances.",
+                "speech_id": "SP-18F3B4E5CC65",
+                "source_speech_filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+                "source_excerpt": "Next up on the list, we have Matthew. And his strategy was dollar cost averaging. So, the amount of money he was going to invest throughout the year, he did that throughout the year, even amounts each month. And you can see statistically that ends up beating bad timing… Now we get to Ashley and her strategy was actually lump sum investing. So instead of spreading out the amount she was going to invest over the entire year, invested it all at the beginning of the year. The reason why that outperforms dollar cost averaging on average is because the market usually goes up.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          },
+          {
+            "local_argument_id": "LA-4462B7EEA12C",
+            "local_theme_id": "LT-1051008674EE",
+            "conclusion": "Timing the market, even if done poorly, still results in significantly better outcomes than staying in cash.",
+            "premises": [
+              "Rosie (bad timing) had worse performance than DCA and lump sum but still drastically better than cash.",
+              "Peter (good timing) outperformed all others."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-972895039309",
+                "item": "Performance of Rosie and Peter in the Charles Schwab study relative to Larry (cash).",
+                "status": "Unverifiable",
+                "verification_basis": "The study is referenced but no specific data or methodology is provided to verify these relative performances.",
+                "speech_id": "SP-18F3B4E5CC65",
+                "source_speech_filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+                "source_excerpt": "Investing with bad timing beats not investing.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7B00027D11BE",
+        "theme": "Current market valuations and the PEG ratio",
+        "arguments": [
+          {
+            "local_argument_id": "LA-FE3560817B42",
+            "local_theme_id": "LT-7B00027D11BE",
+            "conclusion": "Mega cap valuations, as measured by the PEG ratio, are not at extreme levels.",
+            "premises": [
+              "For mega caps (Apple, Amazon, Broadcom, Google, Meta, Microsoft, Nvidia), the PEG ratio is at the lowest since about 2019.",
+              "There was a brief point in the 2022 bear market where PEG ratios were slightly lower, but current levels are not extreme."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-14A5D1A8E673",
+                "item": "Claim about PEG ratio levels for listed mega caps.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific PEG ratio numbers, data source, or timeframe are provided to verify the claim.",
+                "speech_id": "SP-18F3B4E5CC65",
+                "source_speech_filename": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+                "source_excerpt": "if you look at mega caps right now, Apple, Amazon, Broadcom, Google, Meta, Microsoft, and Nvidia, the PEG ratio is at the lowest place that it's been since about 2019. There was a brief point at the bottom of the bare market in 2022 when the PEG ratios were slightly lower, but we are nowhere near extreme territories.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-A77FFA3749E7",
+        "speech_id": "SP-18F3B4E5CC65",
+        "speech_ref": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+        "claim": "Investing at all-time highs historically outperforms investing on random days over long time horizons, and any investing strategy, even with poor timing, beats staying in cash.",
+        "reason": "The central claim is supported by references to unspecified studies with no verifiable data or methodology provided in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The claim refers to historical data and study results not present in training knowledge.",
+        "source_excerpt": "",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-4353AD1554F0",
+        "speech_id": "SP-18F3B4E5CC65",
+        "speech_ref": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+        "claim": "The market crashed 20% in April of 2025.",
+        "reason": "The transcript provides no source or evidence for this specific market event.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This event is in the future relative to training data, so no basis to corroborate or contradict.",
+        "source_excerpt": "And even when it does, like the market crashed 20% in April of 2025...",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-BEE14665BB7B",
+        "speech_id": "SP-18F3B4E5CC65",
+        "speech_ref": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+        "claim": "For mega caps (Apple, Amazon, Broadcom, Google, Meta, Microsoft, Nvidia), the PEG ratio is at the lowest place it has been since about 2019.",
+        "reason": "No specific PEG ratio values or data source are provided to verify the claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific financial data for 2026 is available in training.",
+        "source_excerpt": "if you look at mega caps right now, Apple, Amazon, Broadcom, Google, Meta, Microsoft, and Nvidia, the PEG ratio is at the lowest place that it's been since about 2019.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-265C042FD2F5",
+        "speech_id": "SP-18F3B4E5CC65",
+        "speech_ref": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+        "claim": "There was a brief point at the bottom of the bear market in 2022 when the PEG ratios were slightly lower than current levels.",
+        "reason": "No specific PEG ratio values or data source are provided to verify.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No specific financial data for 2022 aggregated as described is available in training.",
+        "source_excerpt": "There was a brief point at the bottom of the bare market in 2022 when the PEG ratios were slightly lower...",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-F1544CAD606B",
+        "speech_id": "SP-18F3B4E5CC65",
+        "speech_ref": "20260209_The Market at All Time Highs - Don’t Make This Mistake.txt",
+        "claim": "Berkshire Hathaway with its record cash pile still has less than 30% of its total assets in cash, and that cash is in treasuries, making its portfolio more aggressive than a standard 60/40 stock-to-bond portfolio.",
+        "reason": "No source or data is provided to verify Berkshire's asset allocation or the comparison to a 60/40 portfolio.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Berkshire's cash position evolves over time; specific 2026 data is not part of training knowledge.",
+        "source_excerpt": "Because even Berkshire Hathway with its record cash pile right now still has less than 30% of its total assets in cash. And considering that that is in treasuries, not just cash, that means compared to a standard 6040 stock to bond portfolio right now, Berkshire Hathway is more aggressive than that.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Investing at all-time highs historically outperforms investing on random days over long time horizons, and any investing strategy, even with poor timing, beats staying in cash.",
+      "themes": [
+        "Investing at all-time highs",
+        "Market timing and investment strategies",
+        "Current market valuations and the PEG ratio"
+      ],
+      "argument_count": 5,
+      "unverifiable_count": 5
+    },
+    "generated_at": "2026-07-14T23:18:38+00:00",
+    "record_hash": "a328da09c5f985cfd10a7b59b0f458502901e99061484962b40fc367fbb48a4c",
+    "analysis_truncated": false
+  },
+  "output_hash": "2b60325532eab38087a147a9fbcedb5d50e397447c6e810e632b7e77a7cea1eb",
+  "complete": true
+}

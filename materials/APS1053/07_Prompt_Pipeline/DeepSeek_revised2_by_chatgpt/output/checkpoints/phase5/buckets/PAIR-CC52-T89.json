@@ -1,0 +1,139 @@
+{
+  "dependency_hash": "34396acae70460fb786b8d5ddd37b5f0a10c49e4454f9ba11ee3b3a67190d4f6",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC52-T89",
+    "cc_id": "CC52",
+    "theme_id": "T89",
+    "authoritative_anchor": "cc-cc52-theme-t89",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC52-T89-9E8FDB0F1C",
+        "pair_id": "PAIR-CC52-T89",
+        "conclusion": "Quantitative easing does not directly set interest rates because it targets the quantity of purchases, not the price of bonds.",
+        "source_contribution_ids": [
+          "CONTRIB-5D4C71B58DB088"
+        ],
+        "source_speech_filenames": [
+          "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+        ],
+        "premise_synthesis": "Quantitative easing involves decisions on how many bonds to buy or sell, targeting quantity rather than price. The size of purchases determines market impact; small purchases may not move markets, while large ones can push interest rates down. Thus, QE does not directly set interest rates.",
+        "conclusion_supported": "The Federal Reserve's quantitative easing tool is not a direct means of setting interest rates, further indicating the limitations of its monetary policy framework.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-5D4C71B58DB088"
+            ],
+            "source_speech_filenames": [
+              "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "For example, if the Federal Reserve decides to buy $100 billion worth of treasuries over a couple of years, it's not really going to move the markets at all.",
+            "status": "Unverifiable",
+            "verification_basis": "Hypothetical scenario, not a factual claim.",
+            "source_contribution_ids": [
+              "CONTRIB-5D4C71B58DB088"
+            ],
+            "source_speech_filenames": [
+              "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+            ],
+            "source_excerpt": "For example, if the Federal Reserve decides to go out there and buy a hundred billion dollars worth of treasuries over the course of a couple of years, it's not really going to move the markets at all."
+          },
+          {
+            "item": "when the Fed buys $5 trillion worth of treasuries from 2020 through 2022, that had a huge impact, pushing interest rates down.",
+            "status": "Unverifiable",
+            "verification_basis": "No source for the $5 trillion figure or the causal impact.",
+            "source_contribution_ids": [
+              "CONTRIB-5D4C71B58DB088"
+            ],
+            "source_speech_filenames": [
+              "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+            ],
+            "source_excerpt": "when the Fed goes out and buys $5 trillion worth of treasuries from 2020 through 2022, that's going to have a huge impact on the market, and that's going to push interest rates down."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Brokerage account analogy for Fed's balance sheet",
+            "explanation": "Describes the Fed creating money to buy assets, analogous to a brokerage account.",
+            "source_contribution_ids": [
+              "CONTRIB-5D4C71B58DB088"
+            ],
+            "source_speech_filenames": [
+              "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech from 2025-10-27 is present, so no cross-speech evolution can be inferred; the argument is presented as a single-time assertion.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC52-T89-0BBE63D4F8",
+        "pair_id": "PAIR-CC52-T89",
+        "conclusion": "The federal funds rate does not affect consumer or long-term interest rates because it only applies to overnight bank lending.",
+        "source_contribution_ids": [
+          "CONTRIB-E890F219E636E3"
+        ],
+        "source_speech_filenames": [
+          "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+        ],
+        "premise_synthesis": "The federal funds rate is the rate banks pay on overnight lending to each other, and it has nothing to do with T-bills, treasuries, auto loans, or mortgages. Therefore, changes in the federal funds rate do not directly influence consumer or long-term interest rates.",
+        "conclusion_supported": "The Federal Reserve's primary tool, the federal funds rate, does not control consumer or long-term interest rates, indicating a fundamental flaw in its monetary policy toolkit.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-E890F219E636E3"
+            ],
+            "source_speech_filenames": [
+              "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the Federal Reserve does not actually control interest rates due to limited tools, which is a key component of the claim in CC52 that Fed monetary policy is fundamentally flawed and does not control rates. The speech provides reasoning about market forces, fiscal deficits, and yield curve control, reinforcing the conclusion that Fed's control is limited and that a sovereign debt crisis is inevitable."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "The effective federal funds rate right now is 4.22%.",
+            "status": "Unverifiable",
+            "verification_basis": "No external source provided for this statistic.",
+            "source_contribution_ids": [
+              "CONTRIB-E890F219E636E3"
+            ],
+            "source_speech_filenames": [
+              "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+            ],
+            "source_excerpt": "The effective federal funds rate right now is 4.22%."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Only one speech from 2025-10-27 is present, so no cross-speech evolution can be inferred; the argument is presented as a single-time assertion.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-5D4C71B58DB088",
+      "CONTRIB-E890F219E636E3"
+    ],
+    "source_speech_filenames": [
+      "20251027_It’s Not the Fed Who Actually Controls Interest Rates.txt"
+    ],
+    "generated_at": "2026-07-15T04:05:34+00:00",
+    "record_hash": "22202adc405ddf231d39253a1b4c7a41d4c6d3fb8726f6890d9ae2e36ce5e267"
+  },
+  "complete": true
+}

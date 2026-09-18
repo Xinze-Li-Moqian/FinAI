@@ -1,0 +1,127 @@
+{
+  "dependency_hash": "58f73f983b228bbd971abf2dea86d05b6accdf622569f92e43202b38b37a62e9",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC48-T117",
+    "cc_id": "CC48",
+    "theme_id": "T117",
+    "authoritative_anchor": "cc-cc48-theme-t117",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC48-T117-1F4AC83E3E",
+        "pair_id": "PAIR-CC48-T117",
+        "conclusion": "Investing at all-time highs historically outperforms investing on other days, so selling based on highs is counterproductive.",
+        "source_contribution_ids": [
+          "CONTRIB-8BCCF5ED54F0E7"
+        ],
+        "source_speech_filenames": [
+          "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+        ],
+        "premise_synthesis": "A chart indicates that for timeframes from 3 months to 5 years, investing on days when the market hits a new high yields better returns than investing on other days. This outperformance is attributed to the fact that assets in uptrends frequently reach new highs.",
+        "conclusion_supported": "The historical outperformance of investing at all-time highs relative to other days is established, suggesting that selling based on new highs is counterproductive.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-8BCCF5ED54F0E7"
+            ],
+            "source_speech_filenames": [
+              "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that the yield curve uninversion has already predicted and resulted in a recession and bear market, directly supporting CC48's claim that yield curve uninversion signals impending recession."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Chart showing performance of investing at new highs vs other days",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript describes a chart but no specific data or source.",
+            "source_contribution_ids": [
+              "CONTRIB-8BCCF5ED54F0E7"
+            ],
+            "source_speech_filenames": [
+              "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+            ],
+            "source_excerpt": "take a look at this chart, which indicates your performance investing in the market by only buying on days where you hit a new high versus buying on any other day. And you can see that on time frames varying from 3 months all the way to 5 years, generally investing on new highs gets you better performance"
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Both contributions come from a single speech delivered on 2026-01-20. Within this single data point, the reasoning is consistent and no longitudinal evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC48-T117-1DCA176412",
+        "pair_id": "PAIR-CC48-T117",
+        "conclusion": "Timing the market based on yield curve uninversion is nearly impossible because the lag is variable and markets are forward-looking.",
+        "source_contribution_ids": [
+          "CONTRIB-F24BCCC88E36DD"
+        ],
+        "source_speech_filenames": [
+          "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+        ],
+        "premise_synthesis": "Historical examples demonstrate that bear markets can start before, during, or after recessions, indicating an inconsistent lag. Additionally, the stock market acts as a forward-looking discounting machine, immediately pricing in expectations before signals are confirmed.",
+        "conclusion_supported": "The difficulty and near impossibility of timing the market based on yield curve uninversion is supported by historical variability and forward-looking market behavior.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-F24BCCC88E36DD"
+            ],
+            "source_speech_filenames": [
+              "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that the yield curve uninversion has already predicted and resulted in a recession and bear market, directly supporting CC48's claim that yield curve uninversion signals impending recession."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "List of historical bear markets relative to recessions (started before, after, or with)",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript describes a historical chart but no specific data points.",
+            "source_contribution_ids": [
+              "CONTRIB-F24BCCC88E36DD"
+            ],
+            "source_speech_filenames": [
+              "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+            ],
+            "source_excerpt": "Let's go back through history the other way, and we can see this bear market started before the recession, whereas this bear market started well after the recession. This bear market started well before the recession. This one started well before the recession. This one started at the same time as the recession. This one started before the recession. This bear market happened with no recession. This bear market started before the recession. This bear market started before the recession and continued well after the recession. This bear market started before the recession and ended before the recession ended. This bear market started before and ended during. This bear market happened with no r"
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Stock market as a forward-looking machine",
+            "explanation": "It illustrates that the market prices in future expectations, so selling after a signal may be too late.",
+            "source_contribution_ids": [
+              "CONTRIB-F24BCCC88E36DD"
+            ],
+            "source_speech_filenames": [
+              "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Both contributions come from a single speech delivered on 2026-01-20. Within this single data point, the reasoning is consistent and no longitudinal evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-8BCCF5ED54F0E7",
+      "CONTRIB-F24BCCC88E36DD"
+    ],
+    "source_speech_filenames": [
+      "20260120_A Recession (and bear market) Happens EVERY TIME the Fed Does This.txt"
+    ],
+    "generated_at": "2026-07-15T03:50:56+00:00",
+    "record_hash": "9c9469984da46cd2308eec4c49c8c545845deedb75f0127898bbdcde934cc384"
+  },
+  "complete": true
+}

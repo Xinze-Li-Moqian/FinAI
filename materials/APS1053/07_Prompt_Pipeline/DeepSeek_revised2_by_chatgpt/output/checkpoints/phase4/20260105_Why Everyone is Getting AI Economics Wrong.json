@@ -1,0 +1,864 @@
+{
+  "dependencies": {
+    "source_hash": "1f34949afdaafe31f599210841428eaf046bcf6cacfee2e60092b93d20c47a80",
+    "phase1_record_hash": "40c3b894dd3fc27085607b48299d8bd411e48f4e3ca7a2efb45009ca7982027f",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-D983DF3C79CF",
+    "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+    "stem": "20260105_Why Everyone is Getting AI Economics Wrong",
+    "date": "2026-01-05",
+    "source_hash": "1f34949afdaafe31f599210841428eaf046bcf6cacfee2e60092b93d20c47a80",
+    "source_character_count": 23028,
+    "central_claim": "The fundamental misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the modern economy is built on an inflationary monetary system.",
+    "themes": [
+      {
+        "local_theme_id": "LT-E4FF9B16022E",
+        "theme": "Historical pattern of technological deflation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DDD6FEE00168",
+            "local_theme_id": "LT-E4FF9B16022E",
+            "conclusion": "Technological progress consistently reduces the real cost of wealth, making deflation and real growth synonymous.",
+            "premises": [
+              "Fire allowed humans to get more nutrients and warmth with less food and labor.",
+              "Farming created food abundance with less human effort than hunting and foraging.",
+              "Tractors and steam engines multiplied output per worker during the Industrial Revolution.",
+              "Electricity and plastic made goods cheaper and more accessible.",
+              "The transition from human computers to programmers shows displaced workers using machines to become more productive rather than jobless."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-5E2D16680AD1",
+                "item": "Human history narrative of fire, farming, tractors, electricity, plastic, and computers as examples of getting more for less.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript provides no external sources or citations for these historical claims.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "The story of all of human history. By the way, as humans invent and as humans innovate and as humans find new ways to produce more things more efficiently, the cost of acquiring the stuff that we want, in other words, wealth goes down.",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-14FB2217080B",
+                "device": "All-inclusive cruise ship",
+                "explanation": "Used to illustrate the utopian vision of AI where machines provide all wants and needs, implying effortless abundance.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "There will be universal high income available for everybody where all of your wants and needs are met by robots. Essentially, all of life will be like an all-inclusive cruise ship that is managed by machines.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-7FA55FF8A746",
+                "device": "Creative destruction (Schumpeter)",
+                "explanation": "Highlights that job losses from innovation are a necessary counterpart to progress, not a sign of failure.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "Joseph Schumpeter famously coined the term creative destruction and it's because those are two sides of the coin of progress.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3591EAD0B555",
+        "theme": "Inflationary monetary system",
+        "arguments": [
+          {
+            "local_argument_id": "LA-35882411A9B0",
+            "local_theme_id": "LT-3591EAD0B555",
+            "conclusion": "The modern economy is built on an inflationary foundation where money creation through debt requires constant expansion, and the Fed actively prevents deflation to avoid collapse.",
+            "premises": [
+              "Every dollar is lent into existence through fractional reserve banking.",
+              "The Federal Reserve targets 2-3% inflation to keep the money supply expanding and avoid deflationary crashes like the Great Depression.",
+              "Before 1913, prices fell naturally over time; after 1913, fiat currency made inflation systemic.",
+              "If money supply stops growing, it violently contracts, leading to a collapse larger than the Great Depression."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-0ED076958548",
+                "item": "Description of fractional reserve banking: deposits are relent repeatedly, and money is not fully available if everyone withdraws at once.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific sources or data are provided; the explanation is presented as general knowledge.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "Today, money is lent into existence. Every dollar in circulation, every dollar in every bank account and brokerage account and 401k came into existence through a loan.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-7A1EA1A102E8",
+                "item": "Claim that in 2020 the US money supply expanded by 25% in one year.",
+                "status": "Unverifiable",
+                "verification_basis": "No source or reference is given for this statistic.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "in 2020, they expanded the US money supply by 25% in one year.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-960B905A05E1",
+                "item": "Claim that prices fell throughout the 1800s (excluding the Civil War greenback period).",
+                "status": "Unverifiable",
+                "verification_basis": "No historical data source is cited.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "the entire 1800s, basically up until about 1910, maybe 1913, prices went down.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-544829D423F7",
+        "theme": "Interaction of AI deflation with inflationary system",
+        "arguments": [
+          {
+            "local_argument_id": "LA-20751F8C4222",
+            "local_theme_id": "LT-544829D423F7",
+            "conclusion": "The government will likely intervene with stimulus or universal basic income to offset AI-driven deflation, potentially accelerating currency decline or only partially offsetting deflation (threading the needle).",
+            "premises": [
+              "Historically, deflationary forces always eventually win, but the process takes decades or centuries.",
+              "The government and central bank are committed to preventing job losses and falling prices.",
+              "A possible outcome is that the government inflates just enough to offset deflation, similar to what happened during the internet era.",
+              "If the government over-inflates, it could accelerate the end of the dollar's use."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-93547240A2D5",
+                "item": "The 2020 money supply expansion did not lead to hyperinflation within five years, showing that the process can be slow.",
+                "status": "Unverifiable",
+                "verification_basis": "No data is cited beyond the speaker's observation; the claim is unverifiable within the transcript.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "And there were a couple of years of pretty high inflation, and we're still feeling the effects of that. But the dollar is still being used globally, still being used domestically. ... we're 5 years in now.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-6310BAC6D36C",
+                "item": "The internet era saw rapid cost decreases in goods like TVs but overall inflation was partially offset by monetary policy.",
+                "status": "Unverifiable",
+                "verification_basis": "No specific data or sources are provided for the internet era comparison.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "similar to what we saw with the internet. Just like the cost of TVs decreased insanely rapidly over the last couple of decades, we should have seen the same cost decrease across the board with everything. But the money printer fired up basically just enough to prevent that from happening.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-91DC615EEB46",
+                "device": "Unstoppable deflationary force vs immovable inflationary wall",
+                "explanation": "Used to characterize the clash between deflationary AI technology and the inflationary monetary system.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "So what happens when an unstoppable deflationary force impacts an immovable inflationary wall?",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-FBA7552E9066",
+                "device": "Thread the needle",
+                "explanation": "Describes the possibility that the government's monetary response will be calibrated to only partially offset deflation, maintaining stability.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "there is kind of a thread the needle possibility that I think a lot of people are not considering that the government inflates just enough to just mostly offset the deflation.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "device_id": "RD-E96FA2AFD2EC",
+                "device": "Race to the bottom",
+                "explanation": "Describes how competition will drive profit margins down as firms pass on cost savings from AI to consumers.",
+                "speech_id": "SP-D983DF3C79CF",
+                "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+                "source_excerpt": "If I can get the business from the consumer by decreasing my profit margin a little bit and I will and it causes a race to the bottom.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-89A21515A72E",
+        "theme": "Individual investment strategy for inflation and deflation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F04AD5A82F94",
+            "local_theme_id": "LT-89A21515A72E",
+            "conclusion": "To succeed regardless of whether inflation or deflation dominates, individuals must increase their income annually, never outspend it, and invest in assets that protect against both scenarios.",
+            "premises": [
+              "The future is uncertain and cannot be controlled; history provides guidance but no guarantees.",
+              "Relying on a single skill or static income is insufficient in a dynamic economic environment.",
+              "Assets must maintain or increase real purchasing power whether prices rise (inflation) or fall (deflation)."
+            ],
+            "evidence": [],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-05F62C409D15",
+        "speech_id": "SP-D983DF3C79CF",
+        "speech_ref": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "claim": "The US money supply expanded by 25% in 2020.",
+        "reason": "No source or data citation is provided in the transcript.",
+        "memory_check": "Corroborated",
+        "memory_note": "M2 money supply growth in 2020 was indeed approximately 25% (widely reported).",
+        "source_excerpt": "in 2020, they expanded the US money supply by 25% in one year.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1D97E29F08A9",
+        "speech_id": "SP-D983DF3C79CF",
+        "speech_ref": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "claim": "Before 1913, prices went down over time throughout the 1800s (excluding the Civil War).",
+        "reason": "No historical price series or source is cited.",
+        "memory_check": "Corroborated",
+        "memory_note": "It is generally accepted that price levels in the US trended downward in the late 19th century, though there were fluctuations.",
+        "source_excerpt": "the entire 1800s, basically up until about 1910, maybe 1913, prices went down.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-C9D26FFB2C56",
+        "speech_id": "SP-D983DF3C79CF",
+        "speech_ref": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "claim": "Turtles were on the verge of extinction because their shells were used for products now made with plastic, and plastic saved them.",
+        "reason": "No evidence or source is provided for this ecological claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "There is no widely known conservation narrative linking plastic to turtle extinction reversal; the claim seems highly contestable.",
+        "source_excerpt": "turtles were on the verge of going extinct because we were using their shells for things that we use plastic for today. And that allowed the turtles to start thriving again because we no longer needed to go through the costly process of acquiring turtles just for their shells.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1FA7DEEBEFD8",
+        "speech_id": "SP-D983DF3C79CF",
+        "speech_ref": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "claim": "Milton Friedman said the Federal Reserve should have printed money to stop the Great Depression.",
+        "reason": "No direct source or quotation is given; it is an attributed summary.",
+        "memory_check": "Corroborated",
+        "memory_note": "Friedman and Schwartz argued that the Fed should have expanded the money supply to prevent bank failures and deflation.",
+        "source_excerpt": "even Milton Friedman, the person that many people say, you know, champion of free markets, when he made the claim that inflation is always and everywhere a monetary phenomenon, when he was making that claim, he was saying that because he was saying the Federal Reserve should have never let the Great Depression happen because inflation is the opposite of deflation. It's a monetary phenomenon. They should have just printed the money to stop it.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-644CE89B6E03",
+        "speech_id": "SP-D983DF3C79CF",
+        "speech_ref": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "claim": "Every dollar in circulation came into existence through a loan (fractional reserve described as 'lent into existence').",
+        "reason": "The description is a simplified model of monetary creation; no specific source or data supports the absolutist phrasing.",
+        "memory_check": "Corroborated",
+        "memory_note": "While most money is created by commercial banks through lending, not all dollars (e.g., currency in circulation) are created solely through loans; the claim is stylized.",
+        "source_excerpt": "Today, money is lent into existence. Every dollar in circulation, every dollar in every bank account and brokerage account and 401k came into existence through a loan.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-FC9CCD5AF6DF",
+        "speech_id": "SP-D983DF3C79CF",
+        "speech_ref": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "claim": "All inflation today is future deflation baked into the cake.",
+        "reason": "This is a theoretical assertion about monetary dynamics, not a factual claim verifiable within the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The relationship between current inflation and future deflation is a contested economic theory; not a settled fact.",
+        "source_excerpt": "all inflation today is future deflation baked into the cake.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The fundamental misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the modern economy is built on an inflationary monetary system.",
+      "themes": [
+        "Historical pattern of technological deflation",
+        "Inflationary monetary system",
+        "Interaction of AI deflation with inflationary system",
+        "Individual investment strategy for inflation and deflation"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 6
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "09405e1ddee546f7d2f55112db975821ea3af27e6845c2763eb5aecb8f095307",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "40c3b894dd3fc27085607b48299d8bd411e48f4e3ca7a2efb45009ca7982027f",
+    "canonical_mapping": {
+      "speech_id": "SP-D983DF3C79CF",
+      "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC38",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+      "primary_cc_rationale": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T106"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T106",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-3591EAD0B555",
+          "rationale": "Inflationary monetary system is a core component of inflation and deflation dynamics."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC38-T106",
+          "cc_id": "CC38",
+          "theme_id": "T106",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "local_cc_text": "The fundamental misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the modern economy is built on an inflationary monetary system.",
+        "canonical_cc_id": "CC38",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+        "rationale": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+        "candidate_matches": [
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.7179173827171326
+          },
+          {
+            "id": "CC37",
+            "text": "AI cannot solve poverty because poverty is relative and follows a power distribution, and parents should fully fund their retirement before investing for children, with UGMA/UTMA being the best option.",
+            "similarity": 0.42749732732772827
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.4254797101020813
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.4087783694267273
+          },
+          {
+            "id": "CC43",
+            "text": "Gold's price surge is an anticipatory indicator of future monetary policy easing and an impending sovereign debt crisis, and the erosion of the dollar system suggests gold-backed digital money and Bitcoin as successors.",
+            "similarity": 0.39286690950393677
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "local_theme_id": "LT-E4FF9B16022E",
+        "local_theme_text": "Historical pattern of technological deflation",
+        "canonical_theme_id": "T106",
+        "confidence": 0.9,
+        "rationale": "Historical pattern of technological deflation directly relates to inflation and deflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.608110785484314
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.5449318885803223
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5096453428268433
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.4483294188976288
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.42436453700065613
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.4196072816848755
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "local_theme_id": "LT-3591EAD0B555",
+        "local_theme_text": "Inflationary monetary system",
+        "canonical_theme_id": "T106",
+        "confidence": 0.95,
+        "rationale": "Inflationary monetary system is a core component of inflation and deflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.7587507367134094
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.6790311336517334
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.6280909180641174
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.616597056388855
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.6048226356506348
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5869916677474976
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "local_theme_id": "LT-544829D423F7",
+        "local_theme_text": "Interaction of AI deflation with inflationary system",
+        "canonical_theme_id": "T106",
+        "confidence": 0.9,
+        "rationale": "The interaction of AI deflation with the inflationary system is exactly about inflation and deflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.7544628381729126
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.65887451171875
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5108234882354736
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.4427565634250641
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.36042338609695435
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.3482637405395508
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "local_theme_id": "LT-89A21515A72E",
+        "local_theme_text": "Individual investment strategy for inflation and deflation",
+        "canonical_theme_id": "T106",
+        "confidence": 0.85,
+        "rationale": "Individual investment strategy for inflation and deflation is a practical application of inflation and deflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.6650028228759766
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.535323977470398
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.37419643998146057
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.33022135496139526
+          },
+          {
+            "id": "T128",
+            "text": "Recession risk and yield curve signals",
+            "similarity": 0.3067942261695862
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.2872639000415802
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-B3A12EFE20A83F",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "date": "2026-01-05",
+        "source_hash": "1f34949afdaafe31f599210841428eaf046bcf6cacfee2e60092b93d20c47a80",
+        "pair_id": "PAIR-CC38-T106",
+        "cc_id": "CC38",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E4FF9B16022E",
+        "local_theme_text": "Historical pattern of technological deflation",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Historical pattern of technological deflation directly relates to inflation and deflation dynamics.",
+        "local_argument_id": "LA-DDD6FEE00168",
+        "conclusion": "Technological progress consistently reduces the real cost of wealth, making deflation and real growth synonymous.",
+        "premises": [
+          "Fire allowed humans to get more nutrients and warmth with less food and labor.",
+          "Farming created food abundance with less human effort than hunting and foraging.",
+          "Tractors and steam engines multiplied output per worker during the Industrial Revolution.",
+          "Electricity and plastic made goods cheaper and more accessible.",
+          "The transition from human computers to programmers shows displaced workers using machines to become more productive rather than jobless."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-5E2D16680AD1",
+            "item": "Human history narrative of fire, farming, tractors, electricity, plastic, and computers as examples of getting more for less.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript provides no external sources or citations for these historical claims.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "The story of all of human history. By the way, as humans invent and as humans innovate and as humans find new ways to produce more things more efficiently, the cost of acquiring the stuff that we want, in other words, wealth goes down.",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-14FB2217080B",
+            "device": "All-inclusive cruise ship",
+            "explanation": "Used to illustrate the utopian vision of AI where machines provide all wants and needs, implying effortless abundance.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "There will be universal high income available for everybody where all of your wants and needs are met by robots. Essentially, all of life will be like an all-inclusive cruise ship that is managed by machines.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "device_id": "RD-7FA55FF8A746",
+            "device": "Creative destruction (Schumpeter)",
+            "explanation": "Highlights that job losses from innovation are a necessary counterpart to progress, not a sign of failure.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "Joseph Schumpeter famously coined the term creative destruction and it's because those are two sides of the coin of progress.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-4634FF2D7FE32B",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "date": "2026-01-05",
+        "source_hash": "1f34949afdaafe31f599210841428eaf046bcf6cacfee2e60092b93d20c47a80",
+        "pair_id": "PAIR-CC38-T106",
+        "cc_id": "CC38",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-3591EAD0B555",
+        "local_theme_text": "Inflationary monetary system",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Inflationary monetary system is a core component of inflation and deflation dynamics.",
+        "local_argument_id": "LA-35882411A9B0",
+        "conclusion": "The modern economy is built on an inflationary foundation where money creation through debt requires constant expansion, and the Fed actively prevents deflation to avoid collapse.",
+        "premises": [
+          "Every dollar is lent into existence through fractional reserve banking.",
+          "The Federal Reserve targets 2-3% inflation to keep the money supply expanding and avoid deflationary crashes like the Great Depression.",
+          "Before 1913, prices fell naturally over time; after 1913, fiat currency made inflation systemic.",
+          "If money supply stops growing, it violently contracts, leading to a collapse larger than the Great Depression."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-0ED076958548",
+            "item": "Description of fractional reserve banking: deposits are relent repeatedly, and money is not fully available if everyone withdraws at once.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific sources or data are provided; the explanation is presented as general knowledge.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "Today, money is lent into existence. Every dollar in circulation, every dollar in every bank account and brokerage account and 401k came into existence through a loan.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-7A1EA1A102E8",
+            "item": "Claim that in 2020 the US money supply expanded by 25% in one year.",
+            "status": "Unverifiable",
+            "verification_basis": "No source or reference is given for this statistic.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "in 2020, they expanded the US money supply by 25% in one year.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-960B905A05E1",
+            "item": "Claim that prices fell throughout the 1800s (excluding the Civil War greenback period).",
+            "status": "Unverifiable",
+            "verification_basis": "No historical data source is cited.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "the entire 1800s, basically up until about 1910, maybe 1913, prices went down.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-966CA5AF15F0CB",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "date": "2026-01-05",
+        "source_hash": "1f34949afdaafe31f599210841428eaf046bcf6cacfee2e60092b93d20c47a80",
+        "pair_id": "PAIR-CC38-T106",
+        "cc_id": "CC38",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-544829D423F7",
+        "local_theme_text": "Interaction of AI deflation with inflationary system",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The interaction of AI deflation with the inflationary system is exactly about inflation and deflation dynamics.",
+        "local_argument_id": "LA-20751F8C4222",
+        "conclusion": "The government will likely intervene with stimulus or universal basic income to offset AI-driven deflation, potentially accelerating currency decline or only partially offsetting deflation (threading the needle).",
+        "premises": [
+          "Historically, deflationary forces always eventually win, but the process takes decades or centuries.",
+          "The government and central bank are committed to preventing job losses and falling prices.",
+          "A possible outcome is that the government inflates just enough to offset deflation, similar to what happened during the internet era.",
+          "If the government over-inflates, it could accelerate the end of the dollar's use."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-93547240A2D5",
+            "item": "The 2020 money supply expansion did not lead to hyperinflation within five years, showing that the process can be slow.",
+            "status": "Unverifiable",
+            "verification_basis": "No data is cited beyond the speaker's observation; the claim is unverifiable within the transcript.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "And there were a couple of years of pretty high inflation, and we're still feeling the effects of that. But the dollar is still being used globally, still being used domestically. ... we're 5 years in now.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-6310BAC6D36C",
+            "item": "The internet era saw rapid cost decreases in goods like TVs but overall inflation was partially offset by monetary policy.",
+            "status": "Unverifiable",
+            "verification_basis": "No specific data or sources are provided for the internet era comparison.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "similar to what we saw with the internet. Just like the cost of TVs decreased insanely rapidly over the last couple of decades, we should have seen the same cost decrease across the board with everything. But the money printer fired up basically just enough to prevent that from happening.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-91DC615EEB46",
+            "device": "Unstoppable deflationary force vs immovable inflationary wall",
+            "explanation": "Used to characterize the clash between deflationary AI technology and the inflationary monetary system.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "So what happens when an unstoppable deflationary force impacts an immovable inflationary wall?",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-FBA7552E9066",
+            "device": "Thread the needle",
+            "explanation": "Describes the possibility that the government's monetary response will be calibrated to only partially offset deflation, maintaining stability.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "there is kind of a thread the needle possibility that I think a lot of people are not considering that the government inflates just enough to just mostly offset the deflation.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "device_id": "RD-E96FA2AFD2EC",
+            "device": "Race to the bottom",
+            "explanation": "Describes how competition will drive profit margins down as firms pass on cost savings from AI to consumers.",
+            "speech_id": "SP-D983DF3C79CF",
+            "source_speech_filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+            "source_excerpt": "If I can get the business from the consumer by decreasing my profit margin a little bit and I will and it causes a race to the bottom.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-4B0FCBC27463E5",
+        "speech_id": "SP-D983DF3C79CF",
+        "filename": "20260105_Why Everyone is Getting AI Economics Wrong.txt",
+        "date": "2026-01-05",
+        "source_hash": "1f34949afdaafe31f599210841428eaf046bcf6cacfee2e60092b93d20c47a80",
+        "pair_id": "PAIR-CC38-T106",
+        "cc_id": "CC38",
+        "theme_id": "T106",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the critical misunderstanding about AI's economic impact is the failure to recognize that AI is deflationary while the economy is built on an inflationary monetary system, which is the central claim of CC38. It supports this by giving historical patterns of technological deflation, explaining the inflationary system, discussing how the government may intervene, and suggesting individual investment strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-89A21515A72E",
+        "local_theme_text": "Individual investment strategy for inflation and deflation",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Individual investment strategy for inflation and deflation is a practical application of inflation and deflation dynamics.",
+        "local_argument_id": "LA-F04AD5A82F94",
+        "conclusion": "To succeed regardless of whether inflation or deflation dominates, individuals must increase their income annually, never outspend it, and invest in assets that protect against both scenarios.",
+        "premises": [
+          "The future is uncertain and cannot be controlled; history provides guidance but no guarantees.",
+          "Relying on a single skill or static income is insufficient in a dynamic economic environment.",
+          "Assets must maintain or increase real purchasing power whether prices rise (inflation) or fall (deflation)."
+        ],
+        "evidence": [],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "09405e1ddee546f7d2f55112db975821ea3af27e6845c2763eb5aecb8f095307",
+  "complete": true
+}

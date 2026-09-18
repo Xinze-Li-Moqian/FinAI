@@ -1,0 +1,841 @@
+{
+  "dependencies": {
+    "source_hash": "aed5fc45525a25502415be51f82de44ab32ad4c30f20bfaa477c8d4c775ede3f",
+    "phase1_record_hash": "522fc0124a2549df09ad01f4e79e0e0198218cea83f33ca3cd0511f3b69f7a17",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-56CD6CED4392",
+    "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+    "stem": "20251022_The Truth about the Overwhelming Size of the Government",
+    "date": "2025-10-22",
+    "source_hash": "aed5fc45525a25502415be51f82de44ab32ad4c30f20bfaa477c8d4c775ede3f",
+    "source_character_count": 17331,
+    "central_claim": "The government's workforce is overwhelmingly larger than commonly portrayed, at over 32 million people, and this vast workforce is a net drain on the economy funded by involuntary taxation.",
+    "themes": [
+      {
+        "local_theme_id": "LT-83F781262D3B",
+        "theme": "Underestimation of federal workforce by excluding contractors and grants",
+        "arguments": [
+          {
+            "local_argument_id": "LA-F2A01F8A9E2D",
+            "local_theme_id": "LT-83F781262D3B",
+            "conclusion": "The commonly cited 3 million federal employees is a deceptive figure that hides the true federal workforce of 11.3 million.",
+            "premises": [
+              "The official federal civil service is about 2.1 million, military 1 million, postal 0.5 million.",
+              "In addition, there are 5.2 million contractors and 2.3 million grant workers.",
+              "These add up to 11.3 million."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-7A11D01A654E",
+                "item": "Numbers: 2.1 million civil service, 1 million military, 0.5 million postal, 5.2 million contractors, 2.3 million grants sum to 11.3 million",
+                "status": "Unverifiable",
+                "verification_basis": "No external source provided for these figures",
+                "speech_id": "SP-56CD6CED4392",
+                "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+                "source_excerpt": "As of 2023, there were 2.1 million people employed for the federal government in civil service roles. There are over 1 million people employed in the military, about half a million people for the post office, and a staggering 5.2 2 million people who work for the government as a contractor and on top of that an additional 2.3 million people who work for the US government through grants.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-2DB93D97541F",
+                "device": "W2 vs 1099 contractor comparison",
+                "explanation": "Illustrates that the legal distinction between employee and contractor is irrelevant for determining who works for the government; both are funded by the government.",
+                "speech_id": "SP-56CD6CED4392",
+                "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+                "source_excerpt": "When I make money and I want to pay people to work in my business, I can either hire them as a W2 employee or as a 1099 contractor. There are legal distinctions about the type of work, how much they're allowed to work, what kind of rules I have for the time that they work, and the deliverables. There are rules about this. So, it's not just a tax thing, but at the end of the day, I'm giving somebody money to do work for me. And so the legal and the tax distinctions between a W2 employee or a 1099 contractor doesn't matter for the overall point of this video that the government has way more people working for it than we like to admit.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7B86B9A5FFB6",
+        "theme": "True size of total government workforce when including state and local",
+        "arguments": [
+          {
+            "local_argument_id": "LA-BE6CAAE4B675",
+            "local_theme_id": "LT-7B86B9A5FFB6",
+            "conclusion": "When state and local employees are added, the total government workforce exceeds 32 million.",
+            "premises": [
+              "State governments employ 5.1 million, local governments 15 million.",
+              "Adding these to the 11.3 million federal (including contractors and grants) and military gives 32 million.",
+              "The official number of 23.12 million for state/local/federal official is incomplete."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1843074F4BD9",
+                "item": "Numbers: state 5.1 million, local 15 million, plus federal and military yields over 32 million",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for these figures",
+                "speech_id": "SP-56CD6CED4392",
+                "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+                "source_excerpt": "In fact, when you look at state employees and local government employees, you have to add on over 20 million more employees to this total number. 5 1.5 million work for state governments around the country and 15 million people work for local governments.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-73FAD40916BC",
+        "theme": "Government workforce as a proportion of population and employed",
+        "arguments": [
+          {
+            "local_argument_id": "LA-0A2B0CADF437",
+            "local_theme_id": "LT-73FAD40916BC",
+            "conclusion": "Government workers constitute 10% of the US population and 20% of all job holders, meaning one government worker is supported by four private sector workers.",
+            "premises": [
+              "Total US population is 334 million.",
+              "Total employed people is about 163 million.",
+              "Government workforce is about 32 million.",
+              "Therefore 10% of population, 20% of job holders, and ratio of 1:4 government to private workers."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-91ECFAC636CB",
+                "item": "Population 334 million, employed 163 million, government 32 million",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for population and Federal Reserve employment figure",
+                "speech_id": "SP-56CD6CED4392",
+                "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+                "source_excerpt": "the current population of the United States is about 334 million people means 10% of the entire US population citizens plus non-citizens included. 10% of all people work for the government. For every 10 people, there's one person who gets a paycheck by taking money from the other nine. But guess what? All 330 million people in the United States don't work. In fact, the majority of people in the United States do not have jobs. This makes sense, right? There's kids, there's stay-at-home moms, there's some stay-at-home dads, there's retired people who live off of their own savings and investments. There's retired people who also live off of money from other working people, but that's a whole ot",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-BDAD84144ED5",
+        "theme": "Government as a net drain on wealth",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E0AEA82DE2AA",
+            "local_theme_id": "LT-BDAD84144ED5",
+            "conclusion": "All government jobs are a net drain on wealth because they are funded by involuntary taxation from the productive private sector and do not produce voluntarily demanded goods/services.",
+            "premises": [
+              "Private sector operates through voluntary exchange, producing wealth.",
+              "Government takes money by force (taxation) and uses it to pay workers.",
+              "Government-funded activities often are those the private sector deemed unprofitable.",
+              "Even necessary government functions are still a net transfer, not wealth creation."
+            ],
+            "evidence": [],
+            "analogies": [
+              {
+                "device_id": "RD-23F8F4FE3EE6",
+                "device": "Sports team stadium example",
+                "explanation": "Shows that government steps in to fund projects when the private sector determines they are not profitable, illustrating how government spending is a net draw on resources that would otherwise be allocated voluntarily.",
+                "speech_id": "SP-56CD6CED4392",
+                "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+                "source_excerpt": "For example, if I'm a sports team, a private company, and I want a new stadium, I might run the numbers and come up with the math on what my return on that investment will be. And I might think, you know what, this is not going to be a great investment because I'm going to have to spend all these hundreds of millions of dollars and the return that I'm going to get might be negative, might be really low. Either way, it's just not worth it for me. So, as a sports team, I'm going to go to the local government and I'm going to say, 'Hey, you should involuntarily take money from other people to build this stadium for us. And don't worry, there's going to be a lot of extra business activity from t",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-1314A46302E1",
+                "device": "Private sector greed hierarchy",
+                "explanation": "Contrasts voluntary profit-seeking behavior with involuntary government funding to argue that government involvement always means robbing productive people.",
+                "speech_id": "SP-56CD6CED4392",
+                "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+                "source_excerpt": "When I engage in business, when I sell somebody a product or a service, when I give my time to somebody for a paycheck, the transaction that's happening is one where money is changing hands. So, if I'm going to go get a job somewhere and one person will pay me $30 an hour, but the other person would pay me $40 an hour for the same job, I'm going to take the $40 an hour job. All else being equal. Obviously, there are other things involved, but if they're equal, I'll take the higher paying option. This is how business works. If I can sell a product for $100 and I can sell a,000 of them or I could sell a,000 of the exact same product for $150, I'm going to sell it for $150. Which means if a pro",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-AABFB6A111E6",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "As of 2023, there were 2.1 million people employed for the federal government in civil service roles.",
+        "reason": "The transcript provides the figure but does not cite any source for verification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "As of 2023, there were 2.1 million people employed for the federal government in civil service roles.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-A7C0361781DB",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "There are over 1 million people employed in the military.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "There are over 1 million people employed in the military,",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0CA3745A332C",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "About half a million people for the post office.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "about half a million people for the post office",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-94B9EEF9E469",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "5.2 million people who work for the government as a contractor.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "a staggering 5.2 2 million people who work for the government as a contractor",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D6CFADF4254D",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "2.3 million people who work for the US government through grants.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "an additional 2.3 million people who work for the US government through grants.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-6F341E3CE30C",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "5.1 million work for state governments around the country.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "5 1.5 million work for state governments around the country",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AE0C731D5F7E",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "15 million people work for local governments.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "15 million people work for local governments.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8CBF6606EDFD",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "As of August of 2025, there are over 23.12 million full-time employees of local, state, and federal governments.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "As of August of 2025, there are over 23 12 million full-time employees of local, state, and federal governments.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DD5E841EDBD4",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "The current population of the United States is about 334 million.",
+        "reason": "No source is provided for this figure.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "the current population of the United States is about 334 million people",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0A39B4AD16D5",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "According to the Federal Reserve, the number of people with jobs is about 163 million.",
+        "reason": "The claim attributes a figure to the Federal Reserve but provides no specific citation or detail for verification.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "According to the Federal Reserve, that number is about 163 million",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-9A81939F0183",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "10% of the entire US population work for the government.",
+        "reason": "Derived from unverified numbers; no source for the population or government workforce totals.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "which means 10% of the entire US population citizens plus non-citizens included. 10% of all people work for the government.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1B3A0F0A0960",
+        "speech_id": "SP-56CD6CED4392",
+        "speech_ref": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "claim": "20% of all job holders work for a government.",
+        "reason": "Derived from unverified numbers; no source for the employment totals or government workforce.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No corroborating information in transcript; external verification needed.",
+        "source_excerpt": "20% of all job holders working for a government.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The government's workforce is overwhelmingly larger than commonly portrayed, at over 32 million people, and this vast workforce is a net drain on the economy funded by involuntary taxation.",
+      "themes": [
+        "Underestimation of federal workforce by excluding contractors and grants",
+        "True size of total government workforce when including state and local",
+        "Government workforce as a proportion of population and employed",
+        "Government as a net drain on wealth"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 12
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "2fcc1f2e04b2ab29c8962f91671716ef5af78b10f5be1007f5eb3445557b3e7f",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "522fc0124a2549df09ad01f4e79e0e0198218cea83f33ca3cd0511f3b69f7a17",
+    "canonical_mapping": {
+      "speech_id": "SP-56CD6CED4392",
+      "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC56",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "specific_instance",
+      "primary_cc_relationship_explanation": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+      "primary_cc_rationale": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T100",
+        "T83"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T100",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-83F781262D3B",
+          "rationale": "Focuses on underestimation of federal workforce by excluding contractors, directly addressing government workforce composition."
+        },
+        {
+          "theme_id": "T83",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-BDAD84144ED5",
+          "rationale": "Argues government is a net drain on wealth funded by involuntary taxation, directly engaging with economic responsibility and productivity."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC56-T100",
+          "cc_id": "CC56",
+          "theme_id": "T100",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC56-T83",
+          "cc_id": "CC56",
+          "theme_id": "T83",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "local_cc_text": "The government's workforce is overwhelmingly larger than commonly portrayed, at over 32 million people, and this vast workforce is a net drain on the economy funded by involuntary taxation.",
+        "canonical_cc_id": "CC56",
+        "confidence": 0.9,
+        "relationship_type": "specific_instance",
+        "relationship_explanation": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+        "rationale": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+        "candidate_matches": [
+          {
+            "id": "CC56",
+            "text": "The US government's entitlement programs (Social Security and Medicare) and massive workforce constitute a net drain on the economy, transferring wealth from younger poorer workers to older richer retirees.",
+            "similarity": 0.5817643404006958
+          },
+          {
+            "id": "CC29",
+            "text": "The rich pay almost all federal income taxes while the poor pay none, contradicting the unfair share narrative, and the U.S. has implemented many communist policies, making it closer to communism than capitalism.",
+            "similarity": 0.45234543085098267
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.3818032145500183
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.3492696285247803
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.3160848021507263
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "local_theme_id": "LT-83F781262D3B",
+        "local_theme_text": "Underestimation of federal workforce by excluding contractors and grants",
+        "canonical_theme_id": "T100",
+        "confidence": 0.95,
+        "rationale": "Focuses on underestimation of federal workforce by excluding contractors, directly addressing government workforce composition.",
+        "candidate_matches": [
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.5848016142845154
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.3869626224040985
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.37357792258262634
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.2629874348640442
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.2608988285064697
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.2585345208644867
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "local_theme_id": "LT-7B86B9A5FFB6",
+        "local_theme_text": "True size of total government workforce when including state and local",
+        "canonical_theme_id": "T100",
+        "confidence": 0.95,
+        "rationale": "Discusses the true total size of government workforce including state and local, a core aspect of workforce composition.",
+        "candidate_matches": [
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.6350647211074829
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.31497275829315186
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.3124067187309265
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.2915254831314087
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.26363494992256165
+          },
+          {
+            "id": "T32",
+            "text": "Government shutdown and budget gridlock",
+            "similarity": 0.2156943678855896
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "local_theme_id": "LT-73FAD40916BC",
+        "local_theme_text": "Government workforce as a proportion of population and employed",
+        "canonical_theme_id": "T100",
+        "confidence": 0.9,
+        "rationale": "Measures workforce as a proportion of population and employed, further detailing composition and costs.",
+        "candidate_matches": [
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.7567917704582214
+          },
+          {
+            "id": "T110",
+            "text": "Labor market and household sector",
+            "similarity": 0.4549996554851532
+          },
+          {
+            "id": "T111",
+            "text": "Labor market conditions and employment trends",
+            "similarity": 0.44298025965690613
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.37173378467559814
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.3079800009727478
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.29881250858306885
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "local_theme_id": "LT-BDAD84144ED5",
+        "local_theme_text": "Government as a net drain on wealth",
+        "canonical_theme_id": "T83",
+        "confidence": 0.85,
+        "rationale": "Argues government is a net drain on wealth funded by involuntary taxation, directly engaging with economic responsibility and productivity.",
+        "candidate_matches": [
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.5531182289123535
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.48194360733032227
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.46891018748283386
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.43117859959602356
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.4078378975391388
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.3638651669025421
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-8CC17C6C46A3C6",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "date": "2025-10-22",
+        "source_hash": "aed5fc45525a25502415be51f82de44ab32ad4c30f20bfaa477c8d4c775ede3f",
+        "pair_id": "PAIR-CC56-T100",
+        "cc_id": "CC56",
+        "theme_id": "T100",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-83F781262D3B",
+        "local_theme_text": "Underestimation of federal workforce by excluding contractors and grants",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Focuses on underestimation of federal workforce by excluding contractors, directly addressing government workforce composition.",
+        "local_argument_id": "LA-F2A01F8A9E2D",
+        "conclusion": "The commonly cited 3 million federal employees is a deceptive figure that hides the true federal workforce of 11.3 million.",
+        "premises": [
+          "The official federal civil service is about 2.1 million, military 1 million, postal 0.5 million.",
+          "In addition, there are 5.2 million contractors and 2.3 million grant workers.",
+          "These add up to 11.3 million."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-7A11D01A654E",
+            "item": "Numbers: 2.1 million civil service, 1 million military, 0.5 million postal, 5.2 million contractors, 2.3 million grants sum to 11.3 million",
+            "status": "Unverifiable",
+            "verification_basis": "No external source provided for these figures",
+            "speech_id": "SP-56CD6CED4392",
+            "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+            "source_excerpt": "As of 2023, there were 2.1 million people employed for the federal government in civil service roles. There are over 1 million people employed in the military, about half a million people for the post office, and a staggering 5.2 2 million people who work for the government as a contractor and on top of that an additional 2.3 million people who work for the US government through grants.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-2DB93D97541F",
+            "device": "W2 vs 1099 contractor comparison",
+            "explanation": "Illustrates that the legal distinction between employee and contractor is irrelevant for determining who works for the government; both are funded by the government.",
+            "speech_id": "SP-56CD6CED4392",
+            "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+            "source_excerpt": "When I make money and I want to pay people to work in my business, I can either hire them as a W2 employee or as a 1099 contractor. There are legal distinctions about the type of work, how much they're allowed to work, what kind of rules I have for the time that they work, and the deliverables. There are rules about this. So, it's not just a tax thing, but at the end of the day, I'm giving somebody money to do work for me. And so the legal and the tax distinctions between a W2 employee or a 1099 contractor doesn't matter for the overall point of this video that the government has way more people working for it than we like to admit.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-81E02F7F657753",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "date": "2025-10-22",
+        "source_hash": "aed5fc45525a25502415be51f82de44ab32ad4c30f20bfaa477c8d4c775ede3f",
+        "pair_id": "PAIR-CC56-T100",
+        "cc_id": "CC56",
+        "theme_id": "T100",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7B86B9A5FFB6",
+        "local_theme_text": "True size of total government workforce when including state and local",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Discusses the true total size of government workforce including state and local, a core aspect of workforce composition.",
+        "local_argument_id": "LA-BE6CAAE4B675",
+        "conclusion": "When state and local employees are added, the total government workforce exceeds 32 million.",
+        "premises": [
+          "State governments employ 5.1 million, local governments 15 million.",
+          "Adding these to the 11.3 million federal (including contractors and grants) and military gives 32 million.",
+          "The official number of 23.12 million for state/local/federal official is incomplete."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-1843074F4BD9",
+            "item": "Numbers: state 5.1 million, local 15 million, plus federal and military yields over 32 million",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for these figures",
+            "speech_id": "SP-56CD6CED4392",
+            "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+            "source_excerpt": "In fact, when you look at state employees and local government employees, you have to add on over 20 million more employees to this total number. 5 1.5 million work for state governments around the country and 15 million people work for local governments.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E2797892DFCCAF",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "date": "2025-10-22",
+        "source_hash": "aed5fc45525a25502415be51f82de44ab32ad4c30f20bfaa477c8d4c775ede3f",
+        "pair_id": "PAIR-CC56-T100",
+        "cc_id": "CC56",
+        "theme_id": "T100",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-73FAD40916BC",
+        "local_theme_text": "Government workforce as a proportion of population and employed",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Measures workforce as a proportion of population and employed, further detailing composition and costs.",
+        "local_argument_id": "LA-0A2B0CADF437",
+        "conclusion": "Government workers constitute 10% of the US population and 20% of all job holders, meaning one government worker is supported by four private sector workers.",
+        "premises": [
+          "Total US population is 334 million.",
+          "Total employed people is about 163 million.",
+          "Government workforce is about 32 million.",
+          "Therefore 10% of population, 20% of job holders, and ratio of 1:4 government to private workers."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-91ECFAC636CB",
+            "item": "Population 334 million, employed 163 million, government 32 million",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for population and Federal Reserve employment figure",
+            "speech_id": "SP-56CD6CED4392",
+            "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+            "source_excerpt": "the current population of the United States is about 334 million people means 10% of the entire US population citizens plus non-citizens included. 10% of all people work for the government. For every 10 people, there's one person who gets a paycheck by taking money from the other nine. But guess what? All 330 million people in the United States don't work. In fact, the majority of people in the United States do not have jobs. This makes sense, right? There's kids, there's stay-at-home moms, there's some stay-at-home dads, there's retired people who live off of their own savings and investments. There's retired people who also live off of money from other working people, but that's a whole ot",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-438B2F5536FBBC",
+        "speech_id": "SP-56CD6CED4392",
+        "filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+        "date": "2025-10-22",
+        "source_hash": "aed5fc45525a25502415be51f82de44ab32ad4c30f20bfaa477c8d4c775ede3f",
+        "pair_id": "PAIR-CC56-T83",
+        "cc_id": "CC56",
+        "theme_id": "T83",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "specific_instance",
+        "primary_cc_relationship_explanation": "The speech provides a detailed quantification of the government workforce size and argues it is a net drain on the economy, which is a specific instantiation of CC56's claim that the massive workforce constitutes a net drain.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BDAD84144ED5",
+        "local_theme_text": "Government as a net drain on wealth",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Argues government is a net drain on wealth funded by involuntary taxation, directly engaging with economic responsibility and productivity.",
+        "local_argument_id": "LA-E0AEA82DE2AA",
+        "conclusion": "All government jobs are a net drain on wealth because they are funded by involuntary taxation from the productive private sector and do not produce voluntarily demanded goods/services.",
+        "premises": [
+          "Private sector operates through voluntary exchange, producing wealth.",
+          "Government takes money by force (taxation) and uses it to pay workers.",
+          "Government-funded activities often are those the private sector deemed unprofitable.",
+          "Even necessary government functions are still a net transfer, not wealth creation."
+        ],
+        "evidence": [],
+        "analogies": [
+          {
+            "device_id": "RD-23F8F4FE3EE6",
+            "device": "Sports team stadium example",
+            "explanation": "Shows that government steps in to fund projects when the private sector determines they are not profitable, illustrating how government spending is a net draw on resources that would otherwise be allocated voluntarily.",
+            "speech_id": "SP-56CD6CED4392",
+            "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+            "source_excerpt": "For example, if I'm a sports team, a private company, and I want a new stadium, I might run the numbers and come up with the math on what my return on that investment will be. And I might think, you know what, this is not going to be a great investment because I'm going to have to spend all these hundreds of millions of dollars and the return that I'm going to get might be negative, might be really low. Either way, it's just not worth it for me. So, as a sports team, I'm going to go to the local government and I'm going to say, 'Hey, you should involuntarily take money from other people to build this stadium for us. And don't worry, there's going to be a lot of extra business activity from t",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-1314A46302E1",
+            "device": "Private sector greed hierarchy",
+            "explanation": "Contrasts voluntary profit-seeking behavior with involuntary government funding to argue that government involvement always means robbing productive people.",
+            "speech_id": "SP-56CD6CED4392",
+            "source_speech_filename": "20251022_The Truth about the Overwhelming Size of the Government.txt",
+            "source_excerpt": "When I engage in business, when I sell somebody a product or a service, when I give my time to somebody for a paycheck, the transaction that's happening is one where money is changing hands. So, if I'm going to go get a job somewhere and one person will pay me $30 an hour, but the other person would pay me $40 an hour for the same job, I'm going to take the $40 an hour job. All else being equal. Obviously, there are other things involved, but if they're equal, I'll take the higher paying option. This is how business works. If I can sell a product for $100 and I can sell a,000 of them or I could sell a,000 of the exact same product for $150, I'm going to sell it for $150. Which means if a pro",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "2fcc1f2e04b2ab29c8962f91671716ef5af78b10f5be1007f5eb3445557b3e7f",
+  "complete": true
+}

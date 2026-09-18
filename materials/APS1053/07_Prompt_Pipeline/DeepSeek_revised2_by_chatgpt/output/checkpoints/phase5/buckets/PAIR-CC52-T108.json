@@ -1,0 +1,82 @@
+{
+  "dependency_hash": "12f915368264d2d09359c5244218cce28f0a6375e40a0282757350f32c7cb17f",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC52-T108",
+    "cc_id": "CC52",
+    "theme_id": "T108",
+    "authoritative_anchor": "cc-cc52-theme-t108",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC52-T108-345CC8EB55",
+        "pair_id": "PAIR-CC52-T108",
+        "conclusion": "In a free market without central bank intervention, interest rates are determined by the supply and demand for loanable funds (savings pool), leading to a self-correcting cycle of borrowing and saving.",
+        "source_contribution_ids": [
+          "CONTRIB-B0F735531FFF6F"
+        ],
+        "source_speech_filenames": [
+          "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+        ],
+        "premise_synthesis": "In a free market without central bank intervention, interest rates are determined by the supply and demand for loanable funds (savings pool). When savings are abundant, borrower competition for funds leads to low interest rates. As borrowing increases, savings are depleted, causing interest rates to rise. Higher rates then incentivize saving and debt repayment, which replenishes the savings pool, creating a self-correcting cycle.",
+        "conclusion_supported": "The argument establishes that in a free market, interest rates are naturally determined by the savings pool cycle without central bank intervention, implying that Fed policy disrupts this natural mechanism.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-B0F735531FFF6F"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that the conventional relationship between interest rates and inflation is inverted, which is a central point in CC52's claim that the Fed's monetary policy is fundamentally flawed and the rate-inflation relation is inverted."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Hypothetical scenario of a gold-based economy to illustrate free market interest rate mechanics",
+            "status": "Unverifiable",
+            "verification_basis": "This is a theoretical model, not an empirical claim; no evidence provided.",
+            "source_contribution_ids": [
+              "CONTRIB-B0F735531FFF6F"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ],
+            "source_excerpt": "Imagine we have a hypothetical small economy with no market regulations and they use gold coins for money."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Hypothetical gold-based economy analogy",
+            "explanation": "Illustrates how interest rates would naturally fluctuate based on savings and borrowing without central bank interference.",
+            "source_contribution_ids": [
+              "CONTRIB-B0F735531FFF6F"
+            ],
+            "source_speech_filenames": [
+              "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is based solely on a single speech from 2025-11-19. No cross-temporal evolution can be inferred from the available data.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-B0F735531FFF6F"
+    ],
+    "source_speech_filenames": [
+      "20251119_Everything You Think About Interest Rates and Inflation is Wrong.txt"
+    ],
+    "generated_at": "2026-07-15T04:07:18+00:00",
+    "record_hash": "8e94abc93a9653a5a96d2e95678b6e94911c65704d0eb82764f0fde1dab09d7f"
+  },
+  "complete": true
+}

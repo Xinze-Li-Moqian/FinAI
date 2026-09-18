@@ -1,0 +1,94 @@
+{
+  "dependency_hash": "8307f54e0c648ddf252c6b4aed5b61c5679f79fa7446ea5a198319725bb8edd8",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC53-T82",
+    "cc_id": "CC53",
+    "theme_id": "T82",
+    "authoritative_anchor": "cc-cc53-theme-t82",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC53-T82-26DE41F29F",
+        "pair_id": "PAIR-CC53-T82",
+        "conclusion": "Regulatory uncertainty caused by potential reversals of executive actions deters automakers from making long-term production changes, perpetuating high prices.",
+        "source_contribution_ids": [
+          "CONTRIB-A02AB22062A715"
+        ],
+        "source_speech_filenames": [
+          "20251208_Did Trump Just Make Cars Cheap Again.txt"
+        ],
+        "premise_synthesis": "Executive actions are easily reversible by a subsequent administration, creating uncertainty. Manufacturers are reluctant to invest in long-term production changes because the costs of adapting to policy reversals would be wasted if policies are reversed again.",
+        "conclusion_supported": "Regulatory uncertainty from potential policy reversals is a barrier to making cars cheap, even if CAFE standards are rolled back.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-A02AB22062A715"
+            ],
+            "source_speech_filenames": [
+              "20251208_Did Trump Just Make Cars Cheap Again.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Executive actions can be easily reversed by a future administration.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is presented as a general truth.",
+            "source_contribution_ids": [
+              "CONTRIB-A02AB22062A715"
+            ],
+            "source_speech_filenames": [
+              "20251208_Did Trump Just Make Cars Cheap Again.txt"
+            ],
+            "source_excerpt": "if something can be done by one president, it can just as easily be undone by the next."
+          },
+          {
+            "item": "Uncertainty from potential policy reversals causes innovation and progress to grind to a halt.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is asserted as an economic effect.",
+            "source_contribution_ids": [
+              "CONTRIB-A02AB22062A715"
+            ],
+            "source_speech_filenames": [
+              "20251208_Did Trump Just Make Cars Cheap Again.txt"
+            ],
+            "source_excerpt": "But the uncertainty of never knowing what's going to happen next and what changes you're going to have to make and costs you're going to have to incur in order to just do business and things you're going to have to undo that you already undid the other way before means that sometimes innovation and progress grinds to a halt."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Hidden costs of uncertainty",
+            "explanation": "The speaker characterizes regulatory uncertainty as an additional hidden cost that governments impose on the free market.",
+            "source_contribution_ids": [
+              "CONTRIB-A02AB22062A715"
+            ],
+            "source_speech_filenames": [
+              "20251208_Did Trump Just Make Cars Cheap Again.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is based on a single speech from 2025-12-08; no cross-speech evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-A02AB22062A715"
+    ],
+    "source_speech_filenames": [
+      "20251208_Did Trump Just Make Cars Cheap Again.txt"
+    ],
+    "generated_at": "2026-07-15T04:08:59+00:00",
+    "record_hash": "c793b46738a5e41ab10b6edc66fff4f8ef8b6f663027e553fce527ed0211953e"
+  },
+  "complete": true
+}

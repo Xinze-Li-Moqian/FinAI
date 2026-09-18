@@ -1,0 +1,83 @@
+{
+  "dependency_hash": "c7048b361e6aa486191a892f3a90da166a38bd105727936dd14af1bf4d643151",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC56-T103",
+    "cc_id": "CC56",
+    "theme_id": "T103",
+    "authoritative_anchor": "cc-cc56-theme-t103",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC56-T103-A750DBDA74",
+        "pair_id": "PAIR-CC56-T103",
+        "conclusion": "86% of all retirees never have to draw down on their own wealth.",
+        "source_contribution_ids": [
+          "CONTRIB-50EC1D060E65BA"
+        ],
+        "source_speech_filenames": [
+          "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt"
+        ],
+        "premise_synthesis": "The argument draws on two key statistics: 26% of retirees withdraw up to the amount their portfolio earns, and 58% withdraw less than their investments earn. Cumulatively, these show that 86% of retirees do not spend down their own wealth, implying that Social Security and Medicare provide sufficient income to cover retirement expenses, thus supporting the broader claim of a wealth transfer from younger, poorer workers to older, richer retirees.",
+        "conclusion_supported": "It establishes that the vast majority of retirees have sufficient income from Social Security and Medicare such that they do not deplete their personal savings, confirming the wealth transfer from younger workers to older retirees.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-50EC1D060E65BA"
+            ],
+            "source_speech_filenames": [
+              "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that Social Security and Medicare are wealth transfer systems from younger poorer workers to older richer retirees, and that most retirees do not need to use their savings because these programs fund their expenses, exactly supporting the canonical claim."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "26% withdraw up to portfolio earnings",
+            "status": "Verified",
+            "verification_basis": "Transcript cites dollarsendata.com as source for this statistic",
+            "source_contribution_ids": [
+              "CONTRIB-50EC1D060E65BA"
+            ],
+            "source_speech_filenames": [
+              "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt"
+            ],
+            "source_excerpt": "We can see that 26% of retirees are withdrawing up to the amount that their portfolio earns"
+          },
+          {
+            "item": "58% withdraw less than investments earn",
+            "status": "Verified",
+            "verification_basis": "Transcript cites dollarsendata.com as source",
+            "source_contribution_ids": [
+              "CONTRIB-50EC1D060E65BA"
+            ],
+            "source_speech_filenames": [
+              "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt"
+            ],
+            "source_excerpt": "an astonishing 58% of all retirees are actually withdrawing less than their investments earn"
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "Only one speech (2025-11-08) supports this argument, so no cross-speech evolution can be inferred; the reasoning is presented as a static observation from that single source.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-50EC1D060E65BA"
+    ],
+    "source_speech_filenames": [
+      "20251108_Why Most Retirees Don’t Have to Use their Retirement Savings.txt"
+    ],
+    "generated_at": "2026-07-15T04:24:55+00:00",
+    "record_hash": "34c56fef8dd9435a93e300da5e8e690d6023f89e0c80862d660d9bcebb09ee06"
+  },
+  "complete": true
+}

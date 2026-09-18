@@ -1,0 +1,926 @@
+{
+  "dependencies": {
+    "source_hash": "9dc96ae05bf5208905cd3d16db40530d5d944be3165b989a2fcdc8c4b79e902e",
+    "phase1_record_hash": "4018d04a7484e3a7678629e9ba96d3a28b8c544f73c251fc6199ac5736389e80",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-28905DEEE6E9",
+    "filename": "20260403_Are We About to See Stagflation in the US.txt",
+    "stem": "20260403_Are We About to See Stagflation in the US",
+    "date": "2026-04-03",
+    "source_hash": "9dc96ae05bf5208905cd3d16db40530d5d944be3165b989a2fcdc8c4b79e902e",
+    "source_character_count": 13591,
+    "central_claim": "The risk of 1970s-style stagflation in the US is overblown because the high debt-to-GDP ratio prevents the Fed from raising rates as in the 1970s, and alternative policies like bank deregulation could foster production that reduces inflation and debt.",
+    "themes": [
+      {
+        "local_theme_id": "LT-F6EC71993E9C",
+        "theme": "Historical stagflation in the US (1965-1985)",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8278D743EBB5",
+            "local_theme_id": "LT-F6EC71993E9C",
+            "conclusion": "The 1970s stagflation was characterized by rising inflation and unemployment, volatile GDP growth, and was ultimately ended by Volcker's high interest rates.",
+            "premises": [
+              "Inflation peaked at 12.4% in 1980 and rose in multiple waves from 1965.",
+              "GDP growth was volatile, with negative growth in 1974-75 and 1980-82.",
+              "Unemployment rose until peaking in 1982.",
+              "Fed funds rate peaked at 20% in 1981 to crush inflation."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-D78CC334293D",
+                "item": "CPI rose from 1.2% in 1965 to peaks of 6.3% in 1970, 9.1% in 1975, and 12.4% in 1980.",
+                "status": "Verified",
+                "verification_basis": "Exact percentages from transcript.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "1965 inflation was reading at 1.2% rose before it peaked in 1970 at 6.3% ... rose again to a peak of 9.1% in 1975 ... peaked for the last time at 12.4% in 1980",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-3D37E65D88F7",
+                "item": "GDP growth dipped to 0.2% in 1970 and had negative growth in 1974-75 and 1980-82.",
+                "status": "Verified",
+                "verification_basis": "Exact figures provided in transcript.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "GDP was well above 5% and then dipped to a bottom of 0.2% in 1970 ... declining GDP in 74 and 75 ... dipped below to negative growth again in 1980 and in 1982",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-8B88BD601BF4",
+                "item": "Unemployment rose until peaking in 1982.",
+                "status": "Verified",
+                "verification_basis": "Explicit statement from transcript.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "unemployment was dropping until about 1969, and then it started rising before it peaked in 1982",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CB35209A562D",
+                "item": "Fed funds rate peaked at almost 20% in 1981.",
+                "status": "Verified",
+                "verification_basis": "Exact figure from transcript.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "they hiked it finally to a peak of almost 20% in 1981",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-543EBC760CB8",
+        "theme": "Current constraints due to high US debt-to-GDP ratio",
+        "arguments": [
+          {
+            "local_argument_id": "LA-3C8147589DE4",
+            "local_theme_id": "LT-543EBC760CB8",
+            "conclusion": "The high debt-to-GDP ratio prevents the Fed from raising interest rates as Volcker did because the government cannot afford the debt service costs.",
+            "premises": [
+              "Current debt-to-GDP ratio is above 120%.",
+              "Post-WWII debt-to-GDP was above 120% but was reduced to 30% by various means.",
+              "If interest rates rose significantly, interest on national debt would go to $2-$3 trillion or more.",
+              "The government currently cannot make minimum payments and must borrow more."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-1E9DC5A978CD",
+                "item": "Debt-to-GDP post-WWII was above 120%, fell to around 30%.",
+                "status": "Verified",
+                "verification_basis": "Historical figures provided in transcript.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "The debt-to-GDP ratio following World War II was up above 120% ... and it bottomed around 30%",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-1036E740B764",
+                "item": "Current debt-to-GDP is above 120%.",
+                "status": "Unverifiable",
+                "verification_basis": "Transcript asserts current ratio but does not provide a source or exact recent figure.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "right now with the Fed funds rate sitting under 4%, you do not have the ability for the Fed to do the same thing ... when your debt is above 120%",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-019DE482B0D2",
+                "item": "Interest alone on national debt would go to $2 trillion, $3 trillion or more.",
+                "status": "Unverifiable",
+                "verification_basis": "Projection without calculation or source.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "Just the interest alone on the national debt would go to $2 trillion, $3 trillion, or way more if the Federal Reserve tried to do anything close to what they did in the '70s",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-61CF1B53004D",
+                "item": "The US government right now can't even make their minimum payments. They have to borrow more from a new credit card.",
+                "status": "Unverifiable",
+                "verification_basis": "Strong fiscal claim with no supporting data or source.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "the US government right now can't even make their minimum payments. They have to borrow more from a new credit card just to make their minimum payments",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-62FD162F80AC",
+                "device": "Personal debt and income analogy",
+                "explanation": "Illustrates that with low debt-to-income, rate hikes are manageable, but with high debt-to-income, even modest rate increases can bankrupt.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "It'd be like if you made a hundred grand a year and you had $30,000 worth of debt... if you make a hundred grand a year and you owe $120,000 in debt, even a modest increase in the interest rate might bankrupt you",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-3C2DBF25B994",
+        "theme": "Money supply growth versus oil price shocks",
+        "arguments": [
+          {
+            "local_argument_id": "LA-58EB0D2147B9",
+            "local_theme_id": "LT-3C2DBF25B994",
+            "conclusion": "Oil shocks do not cause sustained broad inflation without money supply growth; they redirect purchasing power.",
+            "premises": [
+              "Inflation is largely driven by money supply outpacing production.",
+              "2020-2021 money supply increased 25%, causing inflation.",
+              "Money supply is not increasing massively recently.",
+              "An oil shock is like a rent doubling: you cut other spending, not all prices rise."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-C94FD6140131",
+                "item": "Money supply increased by a record 25% in 2020 and 2021.",
+                "status": "Verified",
+                "verification_basis": "Exact percentage provided in transcript.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "they increased the money supply by a record 25% in 2020 and 2021",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D5E6A6F784C9",
+                "item": "Money supply is increasing again but no massive increase recently.",
+                "status": "Unverifiable",
+                "verification_basis": "No data or timeframe provided to verify recent growth rate.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "the money supply is increasing, but there is no massive increase happening recently that is any different than what's been going on for the last couple of years",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-ABA7236230AD",
+                "item": "During the Great Financial Crisis, money supply did not increase much because they printed base money but not overall money supply.",
+                "status": "Unverifiable",
+                "verification_basis": "Explanation offered but no numeric comparison or source.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "Even though they did a lot of money printing, it didn't result in the overall money supply increasing",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-95D6E4F957AE",
+                "device": "Rent doubling analogy",
+                "explanation": "Shows that a single price increase forces consumers to cut other spending, preventing broad inflation without money growth.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "For example, if your rent today doubled, you might be able to continue paying the same amount of money for all the other stuff ... you will have to cut back spending in other areas",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-7FF5A6008AD3",
+        "theme": "Potential for production-led growth through bank deregulation",
+        "arguments": [
+          {
+            "local_argument_id": "LA-58B330985B4A",
+            "local_theme_id": "LT-7FF5A6008AD3",
+            "conclusion": "Bank deregulation could allow banks to buy treasuries, lower interest rates, and increase lending for production, leading to higher real GDP and lower inflation.",
+            "premises": [
+              "The Fed wants to move away from QE and needs banks to buy treasuries.",
+              "Regulatory tweaks can enable banks to buy treasuries freely.",
+              "Increased lending for production can bring down prices through production outpacing money supply.",
+              "This could lower debt-to-GDP and inflation simultaneously."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-4F1589EF0367",
+                "item": "Bank deregulation is coming.",
+                "status": "Unverifiable",
+                "verification_basis": "Prediction stated as fact without evidence or timeline.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "bank deregulation is coming",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "exact",
+                  "character_start": 11500,
+                  "character_end": 11527,
+                  "line_start": 301
+                }
+              },
+              {
+                "evidence_id": "EV-B5B77F689853",
+                "item": "Federal Reserve wants to get away from managing monetary policy via balance sheet and QE.",
+                "status": "Unverifiable",
+                "verification_basis": "Claim about Fed intentions without attribution or supporting statement.",
+                "speech_id": "SP-28905DEEE6E9",
+                "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+                "source_excerpt": "Federal Reserve wants to get away from trying to manage monetary policy by manipulating its balance sheet and sending it higher through QE",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-9D7453165A5B",
+        "speech_id": "SP-28905DEEE6E9",
+        "speech_ref": "20260403_Are We About to See Stagflation in the US.txt",
+        "claim": "The US government right now can't even make their minimum payments. They have to borrow more from a new credit card just to make their minimum payments and also pay their other bills.",
+        "reason": "No source or data provided to verify this assertion about current fiscal condition.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "This is a strong claim about government solvency not supported by evidence in the transcript.",
+        "source_excerpt": "the US government right now can't even make their minimum payments. They have to borrow more from a new credit card just to make their minimum payments and also pay their other bills",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E721858560D4",
+        "speech_id": "SP-28905DEEE6E9",
+        "speech_ref": "20260403_Are We About to See Stagflation in the US.txt",
+        "claim": "Just the interest alone on the national debt would go to $2 trillion, $3 trillion, or way more if the Federal Reserve tried to do anything close to what they did in the '70s with the federal funds rate.",
+        "reason": "Projection without calculation or source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No basis for the specific figures given.",
+        "source_excerpt": "Just the interest alone on the national debt would go to $2 trillion, $3 trillion, or way more if the Federal Reserve tried to do anything close to what they did in the '70s with the federal funds rate",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DC4AF2B213F9",
+        "speech_id": "SP-28905DEEE6E9",
+        "speech_ref": "20260403_Are We About to See Stagflation in the US.txt",
+        "claim": "Bank deregulation is coming.",
+        "reason": "Prediction asserted as fact, no evidence or timeline.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No support within transcript for this policy prediction.",
+        "source_excerpt": "bank deregulation is coming",
+        "source_match": true,
+        "source_location": {
+          "match_type": "exact",
+          "character_start": 11500,
+          "character_end": 11527,
+          "line_start": 301
+        }
+      },
+      {
+        "unverifiable_id": "UV-F5740059797D",
+        "speech_id": "SP-28905DEEE6E9",
+        "speech_ref": "20260403_Are We About to See Stagflation in the US.txt",
+        "claim": "Federal Reserve wants to get away from trying to manage monetary policy by manipulating its balance sheet and sending it higher through QE.",
+        "reason": "Claim about Fed's intentions without attribution or evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No source cited for Fed's preference.",
+        "source_excerpt": "Federal Reserve wants to get away from trying to manage monetary policy by manipulating its balance sheet and sending it higher through QE",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-B71BBB2E62CF",
+        "speech_id": "SP-28905DEEE6E9",
+        "speech_ref": "20260403_Are We About to See Stagflation in the US.txt",
+        "claim": "The money supply is increasing, but there is no massive increase happening recently that is any different than what's been going on for the last couple of years.",
+        "reason": "No data presented to support claim about money supply growth rate.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Assertion about recent money supply dynamics without figures.",
+        "source_excerpt": "the money supply is increasing, but there is no massive increase happening recently that is any different than what's been going on for the last couple of years",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1B53DD5827A9",
+        "speech_id": "SP-28905DEEE6E9",
+        "speech_ref": "20260403_Are We About to See Stagflation in the US.txt",
+        "claim": "Current debt-to-GDP is above 120%.",
+        "reason": "No source for the current ratio; historical ratio given but not current.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript provides historical context but does not cite a source for the current figure.",
+        "source_excerpt": "right now with the Fed funds rate sitting under 4%, you do not have the ability for the Fed to do the same thing that they did in the '70s if inflation starts running out of control ... when your debt is above 120%",
+        "source_match": false,
+        "source_location": null
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The risk of 1970s-style stagflation in the US is overblown because the high debt-to-GDP ratio prevents the Fed from raising rates as in the 1970s, and alternative policies like bank deregulation could foster production that reduces inflation and debt.",
+      "themes": [
+        "Historical stagflation in the US (1965-1985)",
+        "Current constraints due to high US debt-to-GDP ratio",
+        "Money supply growth versus oil price shocks",
+        "Potential for production-led growth through bank deregulation"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 6
+    },
+    "generated_at": "2026-07-15T03:13:20+00:00",
+    "record_hash": "78e77bc0bbc02d11e381312ea928d312967f96db1a59231d8c7cc4c4d8436773",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "4018d04a7484e3a7678629e9ba96d3a28b8c544f73c251fc6199ac5736389e80",
+    "canonical_mapping": {
+      "speech_id": "SP-28905DEEE6E9",
+      "filename": "20260403_Are We About to See Stagflation in the US.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC39",
+      "primary_cc_confidence": 0.85,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+      "primary_cc_rationale": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T86",
+        "T107",
+        "T136"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T86",
+          "confidence": 0.95,
+          "source_local_theme_id": "LT-7FF5A6008AD3",
+          "rationale": "The local theme of production-led growth through bank deregulation is directly matched by the canonical theme of Federal Reserve and banking deregulation."
+        },
+        {
+          "theme_id": "T107",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-F6EC71993E9C",
+          "rationale": "The local theme historical stagflation maps directly to the canonical theme of inflation and stagflation dynamics."
+        },
+        {
+          "theme_id": "T136",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-543EBC760CB8",
+          "rationale": "The local theme of high debt-to-GDP ratio constraints aligns closely with the canonical theme of US fiscal and monetary situation and debt dynamics."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC39-T86",
+          "cc_id": "CC39",
+          "theme_id": "T86",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T107",
+          "cc_id": "CC39",
+          "theme_id": "T107",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC39-T136",
+          "cc_id": "CC39",
+          "theme_id": "T136",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "local_cc_text": "The risk of 1970s-style stagflation in the US is overblown because the high debt-to-GDP ratio prevents the Fed from raising rates as in the 1970s, and alternative policies like bank deregulation could foster production that reduces inflation and debt.",
+        "canonical_cc_id": "CC39",
+        "confidence": 0.85,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+        "rationale": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+        "candidate_matches": [
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5401999950408936
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.4865790605545044
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.4783174395561218
+          },
+          {
+            "id": "CC39",
+            "text": "Bank deregulation, specifically removing the supplementary leverage ratio, is the most effective solution to prevent a crisis in private credit, reduce stagflation risk, and stimulate economic growth by enabling banks to lend to both the government and the private economy, ultimately benefiting asset owners.",
+            "similarity": 0.46663686633110046
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.46048545837402344
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "local_theme_id": "LT-F6EC71993E9C",
+        "local_theme_text": "Historical stagflation in the US (1965-1985)",
+        "canonical_theme_id": "T107",
+        "confidence": 0.9,
+        "rationale": "The local theme historical stagflation maps directly to the canonical theme of inflation and stagflation dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.49493682384490967
+          },
+          {
+            "id": "T90",
+            "text": "Federal Reserve policy and macroeconomic indicators",
+            "similarity": 0.4202955961227417
+          },
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.41392168402671814
+          },
+          {
+            "id": "T138",
+            "text": "US market outperformance and global recession risk",
+            "similarity": 0.37439531087875366
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.3733665943145752
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.3699606657028198
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "local_theme_id": "LT-543EBC760CB8",
+        "local_theme_text": "Current constraints due to high US debt-to-GDP ratio",
+        "canonical_theme_id": "T136",
+        "confidence": 0.9,
+        "rationale": "The local theme of high debt-to-GDP ratio constraints aligns closely with the canonical theme of US fiscal and monetary situation and debt dynamics.",
+        "candidate_matches": [
+          {
+            "id": "T136",
+            "text": "US Fiscal and Monetary Situation and Debt Dynamics",
+            "similarity": 0.5987488031387329
+          },
+          {
+            "id": "T137",
+            "text": "US fiscal sustainability and policy responses",
+            "similarity": 0.5628548264503479
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5188760161399841
+          },
+          {
+            "id": "T91",
+            "text": "Fiscal debt, Treasury market, and dollar concerns",
+            "similarity": 0.5018982887268066
+          },
+          {
+            "id": "T98",
+            "text": "Government debt management and fiscal policy",
+            "similarity": 0.4575309157371521
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.43732893466949463
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "local_theme_id": "LT-3C2DBF25B994",
+        "local_theme_text": "Money supply growth versus oil price shocks",
+        "canonical_theme_id": "T122",
+        "confidence": 0.85,
+        "rationale": "The local theme comparing money supply growth to oil price shocks is best captured by the canonical theme of oil supply shock and policy context, given the speech's focus on how oil shocks do not cause sustained inflation without monetary expansion.",
+        "candidate_matches": [
+          {
+            "id": "T122",
+            "text": "Oil supply shock and policy context",
+            "similarity": 0.6211504936218262
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.6027328968048096
+          },
+          {
+            "id": "T10",
+            "text": "Economic disruption from oil shock",
+            "similarity": 0.5049803256988525
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.4896329641342163
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.46232712268829346
+          },
+          {
+            "id": "T119",
+            "text": "Monetary policy and liquidity conditions",
+            "similarity": 0.4411039650440216
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "local_theme_id": "LT-7FF5A6008AD3",
+        "local_theme_text": "Potential for production-led growth through bank deregulation",
+        "canonical_theme_id": "T86",
+        "confidence": 0.95,
+        "rationale": "The local theme of production-led growth through bank deregulation is directly matched by the canonical theme of Federal Reserve and banking deregulation.",
+        "candidate_matches": [
+          {
+            "id": "T86",
+            "text": "Federal Reserve and banking deregulation",
+            "similarity": 0.6302070021629333
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.4855337142944336
+          },
+          {
+            "id": "T72",
+            "text": "Banking regulation and capital framework",
+            "similarity": 0.46416544914245605
+          },
+          {
+            "id": "T88",
+            "text": "Federal Reserve balance sheet policy and banking regulation",
+            "similarity": 0.43760809302330017
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.4365983009338379
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.4042275846004486
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-ED8F0FB3734377",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "date": "2026-04-03",
+        "source_hash": "9dc96ae05bf5208905cd3d16db40530d5d944be3165b989a2fcdc8c4b79e902e",
+        "pair_id": "PAIR-CC39-T107",
+        "cc_id": "CC39",
+        "theme_id": "T107",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-F6EC71993E9C",
+        "local_theme_text": "Historical stagflation in the US (1965-1985)",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme historical stagflation maps directly to the canonical theme of inflation and stagflation dynamics.",
+        "local_argument_id": "LA-8278D743EBB5",
+        "conclusion": "The 1970s stagflation was characterized by rising inflation and unemployment, volatile GDP growth, and was ultimately ended by Volcker's high interest rates.",
+        "premises": [
+          "Inflation peaked at 12.4% in 1980 and rose in multiple waves from 1965.",
+          "GDP growth was volatile, with negative growth in 1974-75 and 1980-82.",
+          "Unemployment rose until peaking in 1982.",
+          "Fed funds rate peaked at 20% in 1981 to crush inflation."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-D78CC334293D",
+            "item": "CPI rose from 1.2% in 1965 to peaks of 6.3% in 1970, 9.1% in 1975, and 12.4% in 1980.",
+            "status": "Verified",
+            "verification_basis": "Exact percentages from transcript.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "1965 inflation was reading at 1.2% rose before it peaked in 1970 at 6.3% ... rose again to a peak of 9.1% in 1975 ... peaked for the last time at 12.4% in 1980",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-3D37E65D88F7",
+            "item": "GDP growth dipped to 0.2% in 1970 and had negative growth in 1974-75 and 1980-82.",
+            "status": "Verified",
+            "verification_basis": "Exact figures provided in transcript.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "GDP was well above 5% and then dipped to a bottom of 0.2% in 1970 ... declining GDP in 74 and 75 ... dipped below to negative growth again in 1980 and in 1982",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-8B88BD601BF4",
+            "item": "Unemployment rose until peaking in 1982.",
+            "status": "Verified",
+            "verification_basis": "Explicit statement from transcript.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "unemployment was dropping until about 1969, and then it started rising before it peaked in 1982",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-CB35209A562D",
+            "item": "Fed funds rate peaked at almost 20% in 1981.",
+            "status": "Verified",
+            "verification_basis": "Exact figure from transcript.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "they hiked it finally to a peak of almost 20% in 1981",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-AC3B95CFBC7168",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "date": "2026-04-03",
+        "source_hash": "9dc96ae05bf5208905cd3d16db40530d5d944be3165b989a2fcdc8c4b79e902e",
+        "pair_id": "PAIR-CC39-T136",
+        "cc_id": "CC39",
+        "theme_id": "T136",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-543EBC760CB8",
+        "local_theme_text": "Current constraints due to high US debt-to-GDP ratio",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "The local theme of high debt-to-GDP ratio constraints aligns closely with the canonical theme of US fiscal and monetary situation and debt dynamics.",
+        "local_argument_id": "LA-3C8147589DE4",
+        "conclusion": "The high debt-to-GDP ratio prevents the Fed from raising interest rates as Volcker did because the government cannot afford the debt service costs.",
+        "premises": [
+          "Current debt-to-GDP ratio is above 120%.",
+          "Post-WWII debt-to-GDP was above 120% but was reduced to 30% by various means.",
+          "If interest rates rose significantly, interest on national debt would go to $2-$3 trillion or more.",
+          "The government currently cannot make minimum payments and must borrow more."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-1E9DC5A978CD",
+            "item": "Debt-to-GDP post-WWII was above 120%, fell to around 30%.",
+            "status": "Verified",
+            "verification_basis": "Historical figures provided in transcript.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "The debt-to-GDP ratio following World War II was up above 120% ... and it bottomed around 30%",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-1036E740B764",
+            "item": "Current debt-to-GDP is above 120%.",
+            "status": "Unverifiable",
+            "verification_basis": "Transcript asserts current ratio but does not provide a source or exact recent figure.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "right now with the Fed funds rate sitting under 4%, you do not have the ability for the Fed to do the same thing ... when your debt is above 120%",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-019DE482B0D2",
+            "item": "Interest alone on national debt would go to $2 trillion, $3 trillion or more.",
+            "status": "Unverifiable",
+            "verification_basis": "Projection without calculation or source.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "Just the interest alone on the national debt would go to $2 trillion, $3 trillion, or way more if the Federal Reserve tried to do anything close to what they did in the '70s",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-61CF1B53004D",
+            "item": "The US government right now can't even make their minimum payments. They have to borrow more from a new credit card.",
+            "status": "Unverifiable",
+            "verification_basis": "Strong fiscal claim with no supporting data or source.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "the US government right now can't even make their minimum payments. They have to borrow more from a new credit card just to make their minimum payments",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-62FD162F80AC",
+            "device": "Personal debt and income analogy",
+            "explanation": "Illustrates that with low debt-to-income, rate hikes are manageable, but with high debt-to-income, even modest rate increases can bankrupt.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "It'd be like if you made a hundred grand a year and you had $30,000 worth of debt... if you make a hundred grand a year and you owe $120,000 in debt, even a modest increase in the interest rate might bankrupt you",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-27C3CE6AB2C57A",
+        "speech_id": "SP-28905DEEE6E9",
+        "filename": "20260403_Are We About to See Stagflation in the US.txt",
+        "date": "2026-04-03",
+        "source_hash": "9dc96ae05bf5208905cd3d16db40530d5d944be3165b989a2fcdc8c4b79e902e",
+        "pair_id": "PAIR-CC39-T86",
+        "cc_id": "CC39",
+        "theme_id": "T86",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that the risk of 1970s-style stagflation is overblown, and proposes bank deregulation as a key policy to foster production, reduce inflation, and lower debt, thereby supporting CC39's claim that bank deregulation (removing SLR) is the most effective solution to reduce stagflation risk and stimulate economic growth.",
+        "primary_cc_confidence": 0.85,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-7FF5A6008AD3",
+        "local_theme_text": "Potential for production-led growth through bank deregulation",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "The local theme of production-led growth through bank deregulation is directly matched by the canonical theme of Federal Reserve and banking deregulation.",
+        "local_argument_id": "LA-58B330985B4A",
+        "conclusion": "Bank deregulation could allow banks to buy treasuries, lower interest rates, and increase lending for production, leading to higher real GDP and lower inflation.",
+        "premises": [
+          "The Fed wants to move away from QE and needs banks to buy treasuries.",
+          "Regulatory tweaks can enable banks to buy treasuries freely.",
+          "Increased lending for production can bring down prices through production outpacing money supply.",
+          "This could lower debt-to-GDP and inflation simultaneously."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-4F1589EF0367",
+            "item": "Bank deregulation is coming.",
+            "status": "Unverifiable",
+            "verification_basis": "Prediction stated as fact without evidence or timeline.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "bank deregulation is coming",
+            "source_match": true,
+            "source_location": {
+              "match_type": "exact",
+              "character_start": 11500,
+              "character_end": 11527,
+              "line_start": 301
+            }
+          },
+          {
+            "evidence_id": "EV-B5B77F689853",
+            "item": "Federal Reserve wants to get away from managing monetary policy via balance sheet and QE.",
+            "status": "Unverifiable",
+            "verification_basis": "Claim about Fed intentions without attribution or supporting statement.",
+            "speech_id": "SP-28905DEEE6E9",
+            "source_speech_filename": "20260403_Are We About to See Stagflation in the US.txt",
+            "source_excerpt": "Federal Reserve wants to get away from trying to manage monetary policy by manipulating its balance sheet and sending it higher through QE",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [
+      {
+        "flag": "UNMAPPED_ARGUMENT",
+        "local_theme_id": "LT-3C2DBF25B994",
+        "local_argument_id": "LA-58EB0D2147B9",
+        "conclusion": "Oil shocks do not cause sustained broad inflation without money supply growth; they redirect purchasing power.",
+        "reason": "The owning local Theme did not map to a selected canonical Theme/pair."
+      }
+    ],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "78e77bc0bbc02d11e381312ea928d312967f96db1a59231d8c7cc4c4d8436773",
+  "complete": true
+}

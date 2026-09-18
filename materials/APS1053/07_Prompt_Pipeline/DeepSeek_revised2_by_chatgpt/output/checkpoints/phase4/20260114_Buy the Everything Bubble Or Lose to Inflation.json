@@ -1,0 +1,991 @@
+{
+  "dependencies": {
+    "source_hash": "9a0ef8175321d3b1b218be00dde17fa4e3e2304ee3f13b3ec843a3ca1359ed79",
+    "phase1_record_hash": "2dee85cbce746f1c086c8236a9956100b73adcf0ad05e7c34f970e6a8ba1457f",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-2D1B38FA523A",
+    "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+    "stem": "20260114_Buy the Everything Bubble Or Lose to Inflation",
+    "date": "2026-01-14",
+    "source_hash": "9a0ef8175321d3b1b218be00dde17fa4e3e2304ee3f13b3ec843a3ca1359ed79",
+    "source_character_count": 15102,
+    "central_claim": "The everything bubble is not a true bubble but a symptom of the dollar losing purchasing power, so investors should invest using a diversified, rebalanced portfolio and an aggressive trading strategy rather than stay in cash.",
+    "themes": [
+      {
+        "local_theme_id": "LT-6CDF4D1D5086",
+        "theme": "Dollar devaluation as the cause of the everything bubble",
+        "arguments": [
+          {
+            "local_argument_id": "LA-9E199C7BD035",
+            "local_theme_id": "LT-6CDF4D1D5086",
+            "conclusion": "The apparent everything bubble is actually the result of the dollar losing purchasing power, not speculative overvaluation.",
+            "premises": [
+              "All asset classes are at all-time highs when priced in dollars, but when priced in gold they are not at bubble levels.",
+              "The dollar is losing value relative to all assets and goods, as shown by rising prices across the board.",
+              "The Federal Reserve has restarted QE and the money supply is increasing, which will further devalue the dollar."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E471A5B09C8F",
+                "item": "Gold at over $4,500 per ounce, an all-time high.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source for the price claim; it is stated as fact without citation.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "gold, which not only is gold at an all-time high, it has had an incredible run at over $4,500 per ounce right now.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-FEE3521669A2",
+                "item": "Silver at just under $80 per ounce, an all-time high.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided for the price claim.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "Silver as well is at an all-time high at just under $80 per ounce.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C0E67F845F52",
+                "item": "S&P 500 at almost $7,000, an all-time high.",
+                "status": "Unverifiable",
+                "verification_basis": "No source provided; price claim is asserted without evidence.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "The S&P 500 is now at almost $7,000, again, at an all-time high.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-CFE7534BBD41",
+                "item": "Chart of S&P 500 priced in gold shows it is not at bubble levels and has actually become cheaper relative to gold over the last couple of years.",
+                "status": "Unverifiable",
+                "verification_basis": "The chart is referenced but not provided; the conclusion depends on an unseen visual.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "And you can see that while the long-term trend is up, which is something that you would expect, we are nowhere near bubble level territories.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-12E6487D773E",
+                "item": "Federal Reserve balance sheet is increasing again because the Fed started QE last month.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is about a recent policy action; no source is cited, and the transcript itself admits the chart requires close inspection.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "they just last month started QE again. That is injecting new liquidity.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-F12A7890520B",
+                "device": "Comparison to historical isolated bubbles (tulip, housing, .com, crypto 2017)",
+                "explanation": "Illustrates that past bubbles were isolated to a single asset class, whereas the everything bubble suggests the measurement unit (dollar) is the problem.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "the thing about bubbles is they tend to be isolated. Whether you want to look at the tulip bubble, the housing bubble ... those things were demonstrably more expensive relative to pretty much every other asset class.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "device_id": "RD-80D335568AA2",
+                "device": "Hyperinflation hockey-stick chart analogy",
+                "explanation": "Shows that extreme currency devaluation leads to asset prices skyrocketing, justifying buying at any price.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "when you look at the stock market charts in places that have experienced the worst of currency devaluation, in other words, hyperinflation, they look like hockey sticks.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-E744C6BA05CA",
+        "theme": "Rebalancing between uncorrelated asset classes",
+        "arguments": [
+          {
+            "local_argument_id": "LA-E654DD9BFA97",
+            "local_theme_id": "LT-E744C6BA05CA",
+            "conclusion": "Maintaining a fixed allocation to three to five uncorrelated asset classes and rebalancing periodically allows investors to buy low and sell high without timing the market.",
+            "premises": [
+              "Stocks and gold have alternated in relative performance over different periods.",
+              "Rebalancing forces selling the overvalued asset and buying the undervalued one relative to the target allocation.",
+              "This strategy works even when both assets are rising over the long term."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-23C56F0FF951",
+                "item": "From 2011 to 2020, stocks became more expensive relative to gold; from the last couple of years, gold outperformed and reversed the trend.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is a narrative summary; no specific data or source is provided for the relative performance.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "During the time period from about 2011 through about 2020, stocks were increasingly getting more and more expensive relative to gold.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-DED03C18CFA0",
+        "theme": "Aggressive trading strategy for boosted portfolio returns",
+        "arguments": [
+          {
+            "local_argument_id": "LA-42D10DE5E30A",
+            "local_theme_id": "LT-DED03C18CFA0",
+            "conclusion": "Allocating a small portion of a portfolio to an extremely aggressive trading strategy can significantly boost overall returns, as demonstrated by a claimed 36.4% annualized return over five years.",
+            "premises": [
+              "The speaker claims to have achieved a 36.4% annualized return over the last 5 years.",
+              "The strategy leverages chaotic events and volatility to generate high returns.",
+              "This small allocation enhances the total portfolio without requiring market timing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-381B6F49CB10",
+                "item": "Speaker claims a 36.4% annualized return over the last 5 years, leading to a 372% cumulative return.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is self-reported and no independent verification or audited track record is provided.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "for the last 5 years, I have averaged an annualized 36.4% return, which as you can see is significantly better than every single major index.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-D9ADB00F656F",
+                "item": "Speaker claims S&P 500 averaged 14.8% over the same 5-year period.",
+                "status": "Unverifiable",
+                "verification_basis": "The S&P 500 return is asserted without source; even if approximately correct, the exact figure is not verified in the transcript.",
+                "speech_id": "SP-2D1B38FA523A",
+                "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+                "source_excerpt": "over that exact same time frame, indexes like the S&P 500 have averaged 14.8%.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-3A05EEA4EAB1",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Gold is at over $4,500 per ounce (all-time high).",
+        "reason": "The transcript provides no source or evidence for this specific price level.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data up to early 2025 shows gold around $2,400; the 2026 price cannot be verified from training knowledge.",
+        "source_excerpt": "gold, which not only is gold at an all-time high, it has had an incredible run at over $4,500 per ounce right now.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-D88BB6FE8352",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Silver is at just under $80 per ounce (all-time high).",
+        "reason": "No source or evidence provided for the claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows silver under $35; 2026 price unknown.",
+        "source_excerpt": "Silver as well is at an all-time high at just under $80 per ounce.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-98918C8A9237",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "S&P 500 is at almost $7,000 (all-time high).",
+        "reason": "No source provided for the index level.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows S&P 500 around 5,800 in early 2025; future level cannot be confirmed.",
+        "source_excerpt": "The S&P 500 is now at almost $7,000, again, at an all-time high.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-7F69F73C1F50",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "NASDAQ is near 26,000 (all-time high).",
+        "reason": "No source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows NASDAQ around 18,000; 2026 level unknown.",
+        "source_excerpt": "NASDAQ near an all-time high at almost 26,000.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-AACF613B791A",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Dow Jones Industrial Average is at an all-time high.",
+        "reason": "No specific level or source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows Dow around 44,000; all-time high claim without number is vague.",
+        "source_excerpt": "The Dow's at an all-time high.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-E59C0B2CC7A9",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Russell 2000 is at an all-time high.",
+        "reason": "No level or source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows Russell around 2,200; future level unknown.",
+        "source_excerpt": "Small caps, the Russell 2000 at an all-time high.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8C4A5CFAF544",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "US home prices are at an all-time high.",
+        "reason": "No index or data source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows home prices near peaks; claim cannot be precisely verified.",
+        "source_excerpt": "US home prices are at an all-time high.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8A67FAC00594",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Copper is breaking records; platinum has broken out to all-time highs; energy stocks and more are at all-time highs.",
+        "reason": "No specific prices or sources provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows copper and platinum below previous highs; 2026 levels unknown.",
+        "source_excerpt": "Copper is breaking records. Platinum has broken out to all-time highs. Energy stocks and more.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-DBE790B8DCD6",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Ground beef prices continue to make all-time highs.",
+        "reason": "No data source or timeframe provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows ground beef prices elevated but not necessarily all-time; claim is unsubstantiated.",
+        "source_excerpt": "the price of ground beef in the US, which continues to make all-time highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-34A67BB92A8C",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Cost of electricity in US cities on average continues to move higher, and the surge started around 2020 due to non-AI causes.",
+        "reason": "No specific data or attribution provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data shows electricity prices rising; the 2020 inflection and causation are unsupported.",
+        "source_excerpt": "the cost of electricity in US cities on average continues to move higher. And if you take a look at when it really started to take off recently, that was in about 2020.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-4CD4174AAE01",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Health insurance and medical costs continue to make all-time highs.",
+        "reason": "No index or source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge indicates medical costs rise but 'all-time highs' is vague and unverifiable.",
+        "source_excerpt": "health insurance and medical costs continue to make all-time highs.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-99F38D175C96",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Big Macs, coffee, oil, and real estate have become cheaper compared to gold.",
+        "reason": "No numeric data or source provided; the claim is based on an unshown chart.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge cannot confirm relative price trends without specific data.",
+        "source_excerpt": "Big Macs have gotten cheaper compared to gold. Coffee has gotten cheaper compared to gold. Oil has gotten cheaper compared to gold. And even real estate has gotten cheaper compared to gold.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-108F18F9429B",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "There have been three 20%+ bear market crashes in the stock market within the last 5 years (or 6 years).",
+        "reason": "No specific dates or index references; the timeframe is inconsistent and no source is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge recalls two major drawdowns (2020 COVID and 2022); a third is not clearly identifiable without precise definition.",
+        "source_excerpt": "If you are invested only in the S&P 500 within the last 5 years, there have been three 20% plus bare market crashes in the stock market.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1C687ABF8AA5",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "The Federal Reserve just last month started QE again (as of January 2026).",
+        "reason": "The claim is about a recent policy action with no cited source or official announcement; the transcript relies on a chart description.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data ends in early 2025 when the Fed was still doing QT; no knowledge of 2026 actions.",
+        "source_excerpt": "they just last month started QE again. That is injecting new liquidity.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3FD51D3BCBC7",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "The money supply has been increasing again for the last couple of years.",
+        "reason": "No specific measure or source provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge shows M2 stabilized or declined slightly after 2022; 'increasing again' is vague.",
+        "source_excerpt": "the money supply has already been increasing again for the last couple of years.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-5B1E7FED1F67",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Interest rates will be decreased more this year (2026).",
+        "reason": "Speculative future claim with no source.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training data cannot confirm future Fed actions.",
+        "source_excerpt": "they're going to be decreasing interest rates more this year",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F63DFB90D2BA",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "Scott Bessent (presumably Treasury Secretary nominee or official) is planning to deregulate banks, and banks will buy an unlimited number of US Treasuries.",
+        "reason": "No source or official policy announcement is cited.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge includes Scott Bessent as a nominee for Treasury; specific deregulation plan is not in training data.",
+        "source_excerpt": "Scott Bessant is just on the news again talking about their plan to deregulate the banks. ... The banks are going to be buying an unlimited number of US treasuries.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-24129CD3B852",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "The speaker averaged 36.4% annualized return over the last 5 years, outperforming all major indexes.",
+        "reason": "Self-reported performance without independent verification or audited track record.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No way to verify from training data; typical index returns are far lower.",
+        "source_excerpt": "for the last 5 years, I have averaged an annualized 36.4% return, which as you can see is significantly better than every single major index.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-564E7A16E7C5",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "The S&P 500 averaged 14.8% return over the same 5-year period.",
+        "reason": "No source provided; the exact return is asserted but may be approximate.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Training knowledge roughly matches S&P returns from 2021-2025 (mid-teens), but exact figure unverified.",
+        "source_excerpt": "indexes like the S&P 500 have averaged 14.8%.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-59FC3D07C4AE",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "The speaker has over a thousand students in a private coaching group who follow his trading strategies to beat the markets.",
+        "reason": "Self-claimed without independent evidence.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No way to verify from training data.",
+        "source_excerpt": "I have a private coaching group where I have over a thousand students who follow my trading strategies in order to beat the markets.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-3B47690732CA",
+        "speech_id": "SP-2D1B38FA523A",
+        "speech_ref": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "claim": "The speaker was a stock broker for years and worked with the top 1% on managing their wealth.",
+        "reason": "Unsourced personal background claim.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No verification available.",
+        "source_excerpt": "I was a stock broker for years, worked with the top 1% on managing their wealth",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The everything bubble is not a true bubble but a symptom of the dollar losing purchasing power, so investors should invest using a diversified, rebalanced portfolio and an aggressive trading strategy rather than stay in cash.",
+      "themes": [
+        "Dollar devaluation as the cause of the everything bubble",
+        "Rebalancing between uncorrelated asset classes",
+        "Aggressive trading strategy for boosted portfolio returns"
+      ],
+      "argument_count": 3,
+      "unverifiable_count": 21
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "c0db609709303d79327ed3d00d278c985be3894c4ab98264597f4278ccb7a7d0",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "2dee85cbce746f1c086c8236a9956100b73adcf0ad05e7c34f970e6a8ba1457f",
+    "canonical_mapping": {
+      "speech_id": "SP-2D1B38FA523A",
+      "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC46",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+      "primary_cc_rationale": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T70",
+        "T126",
+        "T118"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T70",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-6CDF4D1D5086",
+          "rationale": "The theme of dollar devaluation causing the everything bubble corresponds directly to canonical theme T70 'Asset price inflation and monetary expansion', which captures the link between monetary expansion and asset price inflation."
+        },
+        {
+          "theme_id": "T126",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-E744C6BA05CA",
+          "rationale": "Rebalancing between uncorrelated asset classes is a core portfolio allocation practice, best mapped to canonical theme T126 'Portfolio allocation and risk management'."
+        },
+        {
+          "theme_id": "T118",
+          "confidence": 0.8,
+          "source_local_theme_id": "LT-DED03C18CFA0",
+          "rationale": "The aggressive trading strategy to boost returns aligns with canonical theme T118 'Market volatility, speculation, and trading strategies'."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC46-T70",
+          "cc_id": "CC46",
+          "theme_id": "T70",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC46-T126",
+          "cc_id": "CC46",
+          "theme_id": "T126",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC46-T118",
+          "cc_id": "CC46",
+          "theme_id": "T118",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "local_cc_text": "The everything bubble is not a true bubble but a symptom of the dollar losing purchasing power, so investors should invest using a diversified, rebalanced portfolio and an aggressive trading strategy rather than stay in cash.",
+        "canonical_cc_id": "CC46",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+        "rationale": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+        "candidate_matches": [
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.47052228450775146
+          },
+          {
+            "id": "CC46",
+            "text": "Investors should adopt defensive strategies—moving wealth outside the financial system, diversifying, trading aggressively, and staying invested—to protect against inflation, systemic risk, and market bubbles.",
+            "similarity": 0.45368489623069763
+          },
+          {
+            "id": "CC55",
+            "text": "The US economy faces high risk of a severe downturn due to structural weakening in the jobs market and supply shocks like the oil crisis from the Strait of Hormuz closure, which also drives gold crash via liquidity crisis, and investors should prepare with reserve strategies.",
+            "similarity": 0.40682345628738403
+          },
+          {
+            "id": "CC48",
+            "text": "Specific market indicators and assets—silver bubble, yield curve uninversion, trade deficit collapse, and gold price surge—signal impending bubbles, recession, dollar shortage, and systemic decline.",
+            "similarity": 0.30832910537719727
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.29224520921707153
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "local_theme_id": "LT-6CDF4D1D5086",
+        "local_theme_text": "Dollar devaluation as the cause of the everything bubble",
+        "canonical_theme_id": "T70",
+        "confidence": 0.85,
+        "rationale": "The theme of dollar devaluation causing the everything bubble corresponds directly to canonical theme T70 'Asset price inflation and monetary expansion', which captures the link between monetary expansion and asset price inflation.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.6203155517578125
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.5618182420730591
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.5590547323226929
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5480459928512573
+          },
+          {
+            "id": "T107",
+            "text": "Inflation and stagflation dynamics",
+            "similarity": 0.5225436687469482
+          },
+          {
+            "id": "T97",
+            "text": "Gold Standard and Monetary System Evolution",
+            "similarity": 0.5034492015838623
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "local_theme_id": "LT-E744C6BA05CA",
+        "local_theme_text": "Rebalancing between uncorrelated asset classes",
+        "canonical_theme_id": "T126",
+        "confidence": 0.9,
+        "rationale": "Rebalancing between uncorrelated asset classes is a core portfolio allocation practice, best mapped to canonical theme T126 'Portfolio allocation and risk management'.",
+        "candidate_matches": [
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.3076222538948059
+          },
+          {
+            "id": "T113",
+            "text": "Liquidity Conditions and Repo Market Dynamics",
+            "similarity": 0.1798374056816101
+          },
+          {
+            "id": "T74",
+            "text": "Boom-bust debt cycle theory",
+            "similarity": 0.16726204752922058
+          },
+          {
+            "id": "T92",
+            "text": "Fiscal Deficit, Debt, and Budget Allocation",
+            "similarity": 0.16191808879375458
+          },
+          {
+            "id": "T131",
+            "text": "Sovereign debt crisis and crisis absorption",
+            "similarity": 0.14571383595466614
+          },
+          {
+            "id": "T130",
+            "text": "Social Entitlement Programs and Transfer Systems",
+            "similarity": 0.1410844624042511
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "local_theme_id": "LT-DED03C18CFA0",
+        "local_theme_text": "Aggressive trading strategy for boosted portfolio returns",
+        "canonical_theme_id": "T118",
+        "confidence": 0.8,
+        "rationale": "The aggressive trading strategy to boost returns aligns with canonical theme T118 'Market volatility, speculation, and trading strategies'.",
+        "candidate_matches": [
+          {
+            "id": "T112",
+            "text": "Leveraged and Alternative Investment Strategies",
+            "similarity": 0.2758099138736725
+          },
+          {
+            "id": "T126",
+            "text": "Portfolio allocation and risk management",
+            "similarity": 0.22504714131355286
+          },
+          {
+            "id": "T118",
+            "text": "Market volatility, speculation, and trading strategies",
+            "similarity": 0.20973902940750122
+          },
+          {
+            "id": "T109",
+            "text": "Investment philosophy and risk management",
+            "similarity": 0.15635816752910614
+          },
+          {
+            "id": "T69",
+            "text": "Artificial intelligence in financial markets",
+            "similarity": 0.15526224672794342
+          },
+          {
+            "id": "T93",
+            "text": "Gold and Precious Metals Investment Strategies",
+            "similarity": 0.13201528787612915
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-6B7191BC956B51",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "date": "2026-01-14",
+        "source_hash": "9a0ef8175321d3b1b218be00dde17fa4e3e2304ee3f13b3ec843a3ca1359ed79",
+        "pair_id": "PAIR-CC46-T70",
+        "cc_id": "CC46",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-6CDF4D1D5086",
+        "local_theme_text": "Dollar devaluation as the cause of the everything bubble",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The theme of dollar devaluation causing the everything bubble corresponds directly to canonical theme T70 'Asset price inflation and monetary expansion', which captures the link between monetary expansion and asset price inflation.",
+        "local_argument_id": "LA-9E199C7BD035",
+        "conclusion": "The apparent everything bubble is actually the result of the dollar losing purchasing power, not speculative overvaluation.",
+        "premises": [
+          "All asset classes are at all-time highs when priced in dollars, but when priced in gold they are not at bubble levels.",
+          "The dollar is losing value relative to all assets and goods, as shown by rising prices across the board.",
+          "The Federal Reserve has restarted QE and the money supply is increasing, which will further devalue the dollar."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E471A5B09C8F",
+            "item": "Gold at over $4,500 per ounce, an all-time high.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source for the price claim; it is stated as fact without citation.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "gold, which not only is gold at an all-time high, it has had an incredible run at over $4,500 per ounce right now.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-FEE3521669A2",
+            "item": "Silver at just under $80 per ounce, an all-time high.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided for the price claim.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "Silver as well is at an all-time high at just under $80 per ounce.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C0E67F845F52",
+            "item": "S&P 500 at almost $7,000, an all-time high.",
+            "status": "Unverifiable",
+            "verification_basis": "No source provided; price claim is asserted without evidence.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "The S&P 500 is now at almost $7,000, again, at an all-time high.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-CFE7534BBD41",
+            "item": "Chart of S&P 500 priced in gold shows it is not at bubble levels and has actually become cheaper relative to gold over the last couple of years.",
+            "status": "Unverifiable",
+            "verification_basis": "The chart is referenced but not provided; the conclusion depends on an unseen visual.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "And you can see that while the long-term trend is up, which is something that you would expect, we are nowhere near bubble level territories.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-12E6487D773E",
+            "item": "Federal Reserve balance sheet is increasing again because the Fed started QE last month.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim is about a recent policy action; no source is cited, and the transcript itself admits the chart requires close inspection.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "they just last month started QE again. That is injecting new liquidity.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-F12A7890520B",
+            "device": "Comparison to historical isolated bubbles (tulip, housing, .com, crypto 2017)",
+            "explanation": "Illustrates that past bubbles were isolated to a single asset class, whereas the everything bubble suggests the measurement unit (dollar) is the problem.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "the thing about bubbles is they tend to be isolated. Whether you want to look at the tulip bubble, the housing bubble ... those things were demonstrably more expensive relative to pretty much every other asset class.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "device_id": "RD-80D335568AA2",
+            "device": "Hyperinflation hockey-stick chart analogy",
+            "explanation": "Shows that extreme currency devaluation leads to asset prices skyrocketing, justifying buying at any price.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "when you look at the stock market charts in places that have experienced the worst of currency devaluation, in other words, hyperinflation, they look like hockey sticks.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-54BF3094EC1CAA",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "date": "2026-01-14",
+        "source_hash": "9a0ef8175321d3b1b218be00dde17fa4e3e2304ee3f13b3ec843a3ca1359ed79",
+        "pair_id": "PAIR-CC46-T126",
+        "cc_id": "CC46",
+        "theme_id": "T126",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-E744C6BA05CA",
+        "local_theme_text": "Rebalancing between uncorrelated asset classes",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Rebalancing between uncorrelated asset classes is a core portfolio allocation practice, best mapped to canonical theme T126 'Portfolio allocation and risk management'.",
+        "local_argument_id": "LA-E654DD9BFA97",
+        "conclusion": "Maintaining a fixed allocation to three to five uncorrelated asset classes and rebalancing periodically allows investors to buy low and sell high without timing the market.",
+        "premises": [
+          "Stocks and gold have alternated in relative performance over different periods.",
+          "Rebalancing forces selling the overvalued asset and buying the undervalued one relative to the target allocation.",
+          "This strategy works even when both assets are rising over the long term."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-23C56F0FF951",
+            "item": "From 2011 to 2020, stocks became more expensive relative to gold; from the last couple of years, gold outperformed and reversed the trend.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim is a narrative summary; no specific data or source is provided for the relative performance.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "During the time period from about 2011 through about 2020, stocks were increasingly getting more and more expensive relative to gold.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-E52B701C7E2AC8",
+        "speech_id": "SP-2D1B38FA523A",
+        "filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+        "date": "2026-01-14",
+        "source_hash": "9a0ef8175321d3b1b218be00dde17fa4e3e2304ee3f13b3ec843a3ca1359ed79",
+        "pair_id": "PAIR-CC46-T118",
+        "cc_id": "CC46",
+        "theme_id": "T118",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly advocates the same defensive strategies (diversification, rebalancing, aggressive trading, avoiding cash) as CC46, and provides the causal reasoning (dollar devaluation causing the everything bubble) that justifies those strategies.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-DED03C18CFA0",
+        "local_theme_text": "Aggressive trading strategy for boosted portfolio returns",
+        "theme_mapping_confidence": 0.8,
+        "theme_mapping_rationale": "The aggressive trading strategy to boost returns aligns with canonical theme T118 'Market volatility, speculation, and trading strategies'.",
+        "local_argument_id": "LA-42D10DE5E30A",
+        "conclusion": "Allocating a small portion of a portfolio to an extremely aggressive trading strategy can significantly boost overall returns, as demonstrated by a claimed 36.4% annualized return over five years.",
+        "premises": [
+          "The speaker claims to have achieved a 36.4% annualized return over the last 5 years.",
+          "The strategy leverages chaotic events and volatility to generate high returns.",
+          "This small allocation enhances the total portfolio without requiring market timing."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-381B6F49CB10",
+            "item": "Speaker claims a 36.4% annualized return over the last 5 years, leading to a 372% cumulative return.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim is self-reported and no independent verification or audited track record is provided.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "for the last 5 years, I have averaged an annualized 36.4% return, which as you can see is significantly better than every single major index.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-D9ADB00F656F",
+            "item": "Speaker claims S&P 500 averaged 14.8% over the same 5-year period.",
+            "status": "Unverifiable",
+            "verification_basis": "The S&P 500 return is asserted without source; even if approximately correct, the exact figure is not verified in the transcript.",
+            "speech_id": "SP-2D1B38FA523A",
+            "source_speech_filename": "20260114_Buy the Everything Bubble Or Lose to Inflation.txt",
+            "source_excerpt": "over that exact same time frame, indexes like the S&P 500 have averaged 14.8%.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": []
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "c0db609709303d79327ed3d00d278c985be3894c4ab98264597f4278ccb7a7d0",
+  "complete": true
+}

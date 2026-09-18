@@ -1,0 +1,322 @@
+{
+  "dependency_hash": "1e3fc02859558e31c6b6ac372a3684b2eee581883df6e5fe5962dab8b35bd383",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC42-T92",
+    "cc_id": "CC42",
+    "theme_id": "T92",
+    "authoritative_anchor": "cc-cc42-theme-t92",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC42-T92-B262EE3D4B",
+        "pair_id": "PAIR-CC42-T92",
+        "conclusion": "Confiscating all billionaire wealth cannot sustainably fund the government.",
+        "source_contribution_ids": [
+          "CONTRIB-DC78DD2C263008"
+        ],
+        "source_speech_filenames": [
+          "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+        ],
+        "premise_synthesis": "Total US billionaire wealth is just over $8 trillion, and the annual federal budget is over $7 trillion. Confiscating all that wealth would fund the budget for only slightly more than one year, and such confiscation would destroy asset values and the future tax base.",
+        "conclusion_supported": "Even extreme taxation of all billionaire wealth cannot provide a sustainable funding source for the government.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-DC78DD2C263008"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a specific instance and evidence that excessive government spending (a form of intervention) causes high fiscal deficits, directly supporting the CC42 claim that excessive government intervention causes economic problems such as fiscal deficits."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Billionaire wealth $8.2 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited in transcript",
+            "source_contribution_ids": [
+              "CONTRIB-DC78DD2C263008"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "the total wealth of all US billionaires reach just over $8 trillion in early 2026."
+          },
+          {
+            "item": "Annual budget over $7 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "Derived from earlier unverified spending claim",
+            "source_contribution_ids": [
+              "CONTRIB-DC78DD2C263008"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "it would fund the US government's budget for one year, a little bit over."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Hypothetical confiscation scenario",
+            "explanation": "Illustrates that even extreme taxation cannot cover the budget permanently",
+            "source_contribution_ids": [
+              "CONTRIB-DC78DD2C263008"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is based on a single speech from 2026-02-04. Cross-speech evolution cannot be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC42-T92-AD1AAA7AD2",
+        "pair_id": "PAIR-CC42-T92",
+        "conclusion": "It is impossible for tariff revenue to reach a level that meaningfully reduces the deficit because high tariffs would eliminate imports.",
+        "source_contribution_ids": [
+          "CONTRIB-1935A6B211B6EB"
+        ],
+        "source_speech_filenames": [
+          "20260206_The Effect of Tariffs After One Year.txt"
+        ],
+        "premise_synthesis": "Taxes disincentivize behavior, so high tariffs would discourage imports. If imports are eliminated, tariff revenue disappears. Therefore, tariff revenue cannot meaningfully reduce the deficit.",
+        "conclusion_supported": "Tariffs cannot meaningfully reduce the deficit because high tariffs would destroy the import base that generates revenue.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-1935A6B211B6EB"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a concrete instance of how tariff policy, as a form of government intervention, fails to deliver fiscal benefits and harms consumers, directly illustrating CC42's claim that excessive intervention causes economic problems."
+            ]
+          }
+        ],
+        "evidence": [],
+        "rhetorical_devices": [
+          {
+            "device": "Taxes on alcohol and cigarettes as examples of disincentivizing taxes",
+            "explanation": "Illustrates that taxes are used to discourage certain behaviors.",
+            "source_contribution_ids": [
+              "CONTRIB-1935A6B211B6EB"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ]
+          },
+          {
+            "device": "Comparison of tariffs to punishments on earned income",
+            "explanation": "Shows that taxing earned income discourages people from earning income in that form.",
+            "source_contribution_ids": [
+              "CONTRIB-1935A6B211B6EB"
+            ],
+            "source_speech_filenames": [
+              "20260206_The Effect of Tariffs After One Year.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "This argument is based on a single speech from 2026-02-06. Cross-speech evolution cannot be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC42-T92-1D627B7545",
+        "pair_id": "PAIR-CC42-T92",
+        "conclusion": "Spending is the driver of deficits; reducing spending to levels seen in 2019 or 2022 would yield surplus or much lower deficit.",
+        "source_contribution_ids": [
+          "CONTRIB-362F5D263FE2D6"
+        ],
+        "source_speech_filenames": [
+          "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+        ],
+        "premise_synthesis": "Federal spending in 2025 was over $7 trillion, while tax revenue was $5.3 trillion. In 2019, spending was $4.7 trillion; in 2022, spending was $6.1 trillion. If spending were reduced to 2019 levels, a surplus would be achieved; if reduced to 2022 levels, the deficit would be much lower.",
+        "conclusion_supported": "Spending is the primary driver of deficits and reducing it to historical levels would substantially reduce or eliminate deficits.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-362F5D263FE2D6"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a specific instance and evidence that excessive government spending (a form of intervention) causes high fiscal deficits, directly supporting the CC42 claim that excessive government intervention causes economic problems such as fiscal deficits."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "2025 spending over $7 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited in transcript",
+            "source_contribution_ids": [
+              "CONTRIB-362F5D263FE2D6"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "we can see that it topped out over $7 trillion."
+          },
+          {
+            "item": "2025 tax revenue $5.3 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited",
+            "source_contribution_ids": [
+              "CONTRIB-362F5D263FE2D6"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "In 2025, the federal government took $5.3 trillion from people in taxes."
+          },
+          {
+            "item": "2019 spending $4.7 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited",
+            "source_contribution_ids": [
+              "CONTRIB-362F5D263FE2D6"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "In 2019, the federal government only spent $4.7 trillion."
+          },
+          {
+            "item": "2022 spending $6.1 trillion",
+            "status": "Unverifiable",
+            "verification_basis": "No source cited",
+            "source_contribution_ids": [
+              "CONTRIB-362F5D263FE2D6"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "in 2022, only $6.1 trillion."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is based on a single speech from 2026-02-04. Cross-speech evolution cannot be inferred.",
+        "disagreements_or_qualifications": []
+      },
+      {
+        "argument_id": "ARG-PAIR-CC42-T92-7079A78617",
+        "pair_id": "PAIR-CC42-T92",
+        "conclusion": "The deficit has not decreased under new policies and remains around $1.7-1.8 trillion.",
+        "source_contribution_ids": [
+          "CONTRIB-C95786D5D10660"
+        ],
+        "source_speech_filenames": [
+          "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+        ],
+        "premise_synthesis": "Fiscal year deficits from 2021 to 2025: 2021 at $2.7 trillion, 2022 at $1.37 trillion, 2023 at $1.69 trillion, 2024 at $1.8 trillion, and 2025 at $1.775 trillion. The deficit remains elevated around $1.7-1.8 trillion despite new policies.",
+        "conclusion_supported": "The deficit has not decreased under new policies and remains around $1.7-1.8 trillion.",
+        "relationship_roles": [
+          {
+            "relationship_type": "specific_instance",
+            "source_contribution_ids": [
+              "CONTRIB-C95786D5D10660"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "relationship_explanations": [
+              "The speech provides a specific instance and evidence that excessive government spending (a form of intervention) causes high fiscal deficits, directly supporting the CC42 claim that excessive government intervention causes economic problems such as fiscal deficits."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "2021 deficit $2.7 trillion",
+            "status": "Verified",
+            "verification_basis": "Transcript references bipartisanpolicy.org chart",
+            "source_contribution_ids": [
+              "CONTRIB-C95786D5D10660"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "you can see we ended fiscal year 2021 with a $2.7 trillion deficit."
+          },
+          {
+            "item": "2022 deficit $1.37 trillion",
+            "status": "Verified",
+            "verification_basis": "Same chart",
+            "source_contribution_ids": [
+              "CONTRIB-C95786D5D10660"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "We ended 2022 with a deficit of only $1.37 trillion."
+          },
+          {
+            "item": "2023 deficit $1.69 trillion",
+            "status": "Verified",
+            "verification_basis": "Same chart",
+            "source_contribution_ids": [
+              "CONTRIB-C95786D5D10660"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "2023, which we ended the year with a $1.69 trillion deficit."
+          },
+          {
+            "item": "2024 deficit $1.8 trillion",
+            "status": "Verified",
+            "verification_basis": "Same chart",
+            "source_contribution_ids": [
+              "CONTRIB-C95786D5D10660"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "2024 was just about the same, a $1.8 trillion deficit."
+          },
+          {
+            "item": "2025 deficit $1.775 trillion",
+            "status": "Verified",
+            "verification_basis": "Same chart",
+            "source_contribution_ids": [
+              "CONTRIB-C95786D5D10660"
+            ],
+            "source_speech_filenames": [
+              "20260204_The Budget Deficit - Still Headed Towards Disaster.txt"
+            ],
+            "source_excerpt": "ending the fiscal year 2025 with a deficit that was just slightly below 2024, with a grand total of $1.775 trillion deficit."
+          }
+        ],
+        "rhetorical_devices": [],
+        "evolution_over_time": "This argument is based on a single speech from 2026-02-04. Cross-speech evolution cannot be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-1935A6B211B6EB",
+      "CONTRIB-362F5D263FE2D6",
+      "CONTRIB-C95786D5D10660",
+      "CONTRIB-DC78DD2C263008"
+    ],
+    "source_speech_filenames": [
+      "20260204_The Budget Deficit - Still Headed Towards Disaster.txt",
+      "20260206_The Effect of Tariffs After One Year.txt"
+    ],
+    "generated_at": "2026-07-15T03:33:19+00:00",
+    "record_hash": "dfbf45008d8f07fb8517ff13cb01d28ea7c785641ba8598cea57cb7ec77972ca"
+  },
+  "complete": true
+}

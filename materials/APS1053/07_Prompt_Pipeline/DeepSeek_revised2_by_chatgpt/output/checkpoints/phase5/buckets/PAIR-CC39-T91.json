@@ -1,0 +1,94 @@
+{
+  "dependency_hash": "02b19518145957bd4dc561e1397a48b6901fc59c32afccdfc01d785858a3f1be",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC39-T91",
+    "cc_id": "CC39",
+    "theme_id": "T91",
+    "authoritative_anchor": "cc-cc39-theme-t91",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC39-T91-8FE35D5B31",
+        "pair_id": "PAIR-CC39-T91",
+        "conclusion": "Removing the SLR would dramatically lower Treasury yields across the curve, allowing the government to borrow more cheaply and save hundreds of billions in interest costs.",
+        "source_contribution_ids": [
+          "CONTRIB-0435D2D1A518CA"
+        ],
+        "source_speech_filenames": [
+          "20260218_Get Ready for Bank Deregulation.txt"
+        ],
+        "premise_synthesis": "The argument rests on three premises: (1) if the supplementary leverage ratio (SLR) is removed, banks would likely buy unlimited Treasuries, as they did during the 2020 COVID response; (2) this increased demand would push down Treasury yields; and (3) the government could then refinance its debt at the longer end of the curve, achieving substantial interest cost savings.",
+        "conclusion_supported": "The argument establishes that removing the SLR is predicted to lower Treasury yields across the curve and enable the government to borrow more cheaply, thereby saving billions to hundreds of billions of dollars in interest costs over the long term.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-0435D2D1A518CA"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "relationship_explanations": [
+              "The speech directly argues that removing the supplementary leverage ratio will allow banks to buy unlimited treasuries and lend more, lowering Treasury yields and government borrowing costs, which is the core proposition of CC39 that bank deregulation (SLR removal) is the most effective solution to stimulate growth and prevent crisis."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "This could have the effect of dramatically and significantly lowering yields across the entire yield curve.",
+            "status": "Unverifiable",
+            "verification_basis": "Speculative prediction, no evidence provided.",
+            "source_contribution_ids": [
+              "CONTRIB-0435D2D1A518CA"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "source_excerpt": "This could have the effect of dramatically and significantly lowering yields across the entire yield curve for US government borrowing."
+          },
+          {
+            "item": "Saving billions, tens of billions, maybe even hundreds of billions over the long term.",
+            "status": "Unverifiable",
+            "verification_basis": "No calculation or source.",
+            "source_contribution_ids": [
+              "CONTRIB-0435D2D1A518CA"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ],
+            "source_excerpt": "saving billions, tens of billions, maybe even hundreds of billions of dollars over the long term in just interest costs on the debt alone."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "Allowing banks to do QE for the Fed",
+            "explanation": "This analogy illustrates that banks purchasing Treasuries (if the SLR is removed) would have effects similar to the Federal Reserve conducting quantitative easing, namely lowering yields and increasing the money supply, but through private bank action rather than central bank intervention.",
+            "source_contribution_ids": [
+              "CONTRIB-0435D2D1A518CA"
+            ],
+            "source_speech_filenames": [
+              "20260218_Get Ready for Bank Deregulation.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "Only one speech dated 2026-02-18 contributes to this argument. No cross-speech evolution can be inferred; the reasoning is presented as a single forward-looking prediction without indication of change over time.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-0435D2D1A518CA"
+    ],
+    "source_speech_filenames": [
+      "20260218_Get Ready for Bank Deregulation.txt"
+    ],
+    "generated_at": "2026-07-15T03:24:34+00:00",
+    "record_hash": "da4b0c43ef2cb5039166487e2738248287557240b36d99a5882401809d23440d"
+  },
+  "complete": true
+}

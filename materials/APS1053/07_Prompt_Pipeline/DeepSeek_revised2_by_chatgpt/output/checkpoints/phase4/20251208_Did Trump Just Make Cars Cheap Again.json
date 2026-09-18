@@ -1,0 +1,1034 @@
+{
+  "dependencies": {
+    "source_hash": "fdcf795007b362e175ac0fa86891003fdfcc44ee5647c639deda9e7de0024dd5",
+    "phase1_record_hash": "da15c2202a5d6186ab6b981408581154b04b417f506198c3668c73064341d281",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-5AE7D637BF7D",
+    "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+    "stem": "20251208_Did Trump Just Make Cars Cheap Again",
+    "date": "2025-12-08",
+    "source_hash": "fdcf795007b362e175ac0fa86891003fdfcc44ee5647c639deda9e7de0024dd5",
+    "source_character_count": 8044,
+    "central_claim": "The rollback of CAFE standards by the Trump administration is a step in the right direction but will not make cars cheap again due to safety regulations and regulatory uncertainty.",
+    "themes": [
+      {
+        "local_theme_id": "LT-74E998FCEBA4",
+        "theme": "Cost Burden of CAFE Standards",
+        "arguments": [
+          {
+            "local_argument_id": "LA-305829FB2B7C",
+            "local_theme_id": "LT-74E998FCEBA4",
+            "conclusion": "CAFE standards impose costs on consumers through expensive and unreliable vehicles.",
+            "premises": [
+              "Automakers are forced to sell electric vehicles at a loss of $10,000-$40,000 per vehicle to meet fleet mileage averages.",
+              "Downsized turbocharged engines (e.g., V8 to 4-cylinder) fail earlier, often before 100,000 miles, increasing maintenance costs.",
+              "The average new car price has hit $50,000, far exceeding typical household ability to pay without long-term financing."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-F011C793C6DE",
+                "item": "Average new vehicle price in October reached $50,000 for the first time ever.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "the average new vehicle price in October just hit $50,000 for the first time ever",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-C1E9F80A9F77",
+                "item": "Median household income in America is $83,000.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "The median household income in America is $83,000 right now",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-8E26A90CD270",
+                "item": "Auto loans with 120-month terms exist.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "you're seeing crazy things like 120month terms on auto loans",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-B23DEEF5C1B6",
+                "item": "Automakers are selling electric vehicles at a loss of $10,000 to $40,000 per vehicle.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "they are forced to make these cars in order to have their average fuel efficiency across all their cars meet these crazy standards. It's preposterous. The other thing that you see a lot lately is a lot of hybrids. A lot of cars that used to be V8s or V6s are now going down to four cylinder turbos. Again, all so that they can meet these crazy gas mileage standards. And whatever it saves you at the pump, it is costing you in terms of maintenance from these engines being way more complicated, way more costly to service, and the fact that you're squeezing so much power out of such a small engine that it dies at 100,000 mi. ... that meant that every other car got way more expensive so that the ca",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": []
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-BE8B14CDFA98",
+        "theme": "Safety Regulations and the Absence of Low-Cost Vehicles",
+        "arguments": [
+          {
+            "local_argument_id": "LA-017362BB1011",
+            "local_theme_id": "LT-BE8B14CDFA98",
+            "conclusion": "Safety regulations are the primary reason low-cost vehicles are not available in the United States.",
+            "premises": [
+              "Vehicles like the Toyota Hilux Champ (IVMO) lack basic safety features required for US sale.",
+              "Adding mandated safety technology to such stripped-down vehicles raises the minimum price to roughly $30,000.",
+              "Cheap cars available in other countries (Mexico, Europe, India, China) cannot be sold in the US due to safety standards."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-9D02B1B982C8",
+                "item": "Toyota Hilux Champ described as having no side curtain airbags, likely no anti-lock brakes, no automated braking, minimal computer parts, and being illegal in the US.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this description; it is presented as known by the speaker without citation.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "This is a truck that Toyota is making called the IVMO, otherwise called the Hilux Champ. It's a more budget work-friendly version. And you can see it is entirely stripped down. There is no tech. It is a manual. There's no big screens. This thing has no side curtain airbags. It has probably no anti-lock brakes, no automated braking system. I don't know. It might have cruise control, but I would be willing to bet it probably won't. No annoying beeping and next to no computer parts. That is the reason why they can make something that is reliable, that works, its transportation, gets you from point A to point B, but it can't be sold in the US. It's illegal.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-F42EFAD5863A",
+                "item": "Adding safety tech to meet US standards results in a minimum $30,000 car.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this estimate; it is stated as a general rule by the speaker.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "by the time you pack all that additional tech into a vehicle, you're looking at a $30,000 car minimum.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-A0AD4C1453E3",
+                "item": "Specific foreign car prices: Ram in Mexico for 17k, Dacia Sandero in Europe for 12k, Suzuki Alto in India for 6k, and a Chinese mini EV for 4k.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for these prices; they are claimed without citation.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "But right now in Mexico, you can buy a Ram for like 17 grand. In Europe, you can buy the Dossia Sanderero for 12 grand. In India, you can buy a Suzuki Alto for six grand. And in China, you can buy a mini electric vehicle four-seater for about four grand.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-1AFBE01A63A0",
+                "device": "Legalized monopoly",
+                "explanation": "The speaker analogizes US protectionist policies for automakers to a legalized monopoly that forces consumers to buy from domestic manufacturers only.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-B8D05DE17144",
+        "theme": "Import Restrictions and Protectionism",
+        "arguments": [
+          {
+            "local_argument_id": "LA-DC8B811E0A3A",
+            "local_theme_id": "LT-B8D05DE17144",
+            "conclusion": "Import restrictions (tariffs, taxes, regulations) artificially prop up US automakers and prevent consumers from accessing cheaper foreign cars.",
+            "premises": [
+              "Cars are significantly cheaper in other countries but are not sold in the US due to import barriers.",
+              "China is explicitly not allowed to sell cars in the US.",
+              "This system amounts to a legalized monopoly benefiting US automakers at consumer expense."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-E06F169077E8",
+                "item": "China not allowed to sell cars in the US.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "China is not allowed to sell cars in the US.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-43B93E0658F6",
+                "item": "The US government artificially props up US automakers, creating a legalized monopoly.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this interpretation of government intent; it is asserted as fact.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-0B20C7733B29",
+                "device": "Legalized monopoly",
+                "explanation": "Analogizes protectionist import restrictions to a legalized monopoly granted to US automakers, denying consumers cheaper alternatives.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D1F2069324E6",
+        "theme": "Regulatory Uncertainty from Political Reversals",
+        "arguments": [
+          {
+            "local_argument_id": "LA-6DC55F281191",
+            "local_theme_id": "LT-D1F2069324E6",
+            "conclusion": "Regulatory uncertainty caused by potential reversals of executive actions deters automakers from making long-term production changes, perpetuating high prices.",
+            "premises": [
+              "Actions by one president can be easily undone by the next.",
+              "Manufacturers will not invest in production changes if policies may soon reverse, as the costs of redoing changes would be wasted."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-12A0111D0724",
+                "item": "Executive actions can be easily reversed by a future administration.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is presented as a general truth.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "if something can be done by one president, it can just as easily be undone by the next.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-9E2963B9E7B6",
+                "item": "Uncertainty from potential policy reversals causes innovation and progress to grind to a halt.",
+                "status": "Unverifiable",
+                "verification_basis": "The transcript provides no source or external verification for this claim; it is asserted as an economic effect.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "But the uncertainty of never knowing what's going to happen next and what changes you're going to have to make and costs you're going to have to incur in order to just do business and things you're going to have to undo that you already undid the other way before means that sometimes innovation and progress grinds to a halt.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-1C3BEB699F45",
+                "device": "Hidden costs of uncertainty",
+                "explanation": "The speaker characterizes regulatory uncertainty as an additional hidden cost that governments impose on the free market.",
+                "speech_id": "SP-5AE7D637BF7D",
+                "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+                "source_excerpt": "And this is another one of the hidden costs that governments impose on the free market is the uncertainty.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-7B944025BAD9",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "The average new vehicle price in October just hit $50,000 for the first time ever.",
+        "reason": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "the average new vehicle price in October just hit $50,000 for the first time ever",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F612810C27C6",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "The median household income in America is $83,000 right now.",
+        "reason": "No source is provided for this statistic; it is asserted without reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "The median household income in America is $83,000 right now",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-565EA0E5EC18",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "Auto loans with 120-month terms exist.",
+        "reason": "No source or evidence is given; the speaker refers to them as 'crazy things' but presents them as a factual recent development.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "you're seeing crazy things like 120month terms on auto loans",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-0E2106BBB0B9",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "Automakers are selling electric vehicles at a loss of $10,000 to $40,000 per vehicle.",
+        "reason": "The transcript provides no source or external verification; it is stated as a reason for price increases.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "they are forced to make these cars in order to have their average fuel efficiency across all their cars meet these crazy standards. ... they're selling them at 10, 20, 30, $40,000 losses per vehicle",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-1872D66E3D70",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "Small high-output engines die at 100,000 miles.",
+        "reason": "No source or data is provided for this generalization about engine lifespan.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "you're squeezing so much power out of such a small engine that it dies at 100,000 mi.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-190DC4184B75",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "In Mexico, you can buy a Ram for about 17 grand. In Europe, you can buy the Dacia Sandero for 12 grand. In India, you can buy a Suzuki Alto for six grand. In China, you can buy a mini electric four-seater for about four grand.",
+        "reason": "No source is provided for these specific prices; they are presented as current market facts without citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "But right now in Mexico, you can buy a Ram for like 17 grand. In Europe, you can buy the Dossia Sanderero for 12 grand. In India, you can buy a Suzuki Alto for six grand. And in China, you can buy a mini electric vehicle four-seater for about four grand.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-1183EC28DCFA",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "Adding all required safety tech to a basic vehicle results in a minimum $30,000 car.",
+        "reason": "This is an estimate without substantiation; no breakdown or source is given.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "by the time you pack all that additional tech into a vehicle, you're looking at a $30,000 car minimum.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BF155FAD6F98",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "China is not allowed to sell cars in the US.",
+        "reason": "No regulatory source or citation is provided; stated as an absolute fact.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "China is not allowed to sell cars in the US.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-BDC3C66D0DAA",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "Congress is gridlocked and barely ever makes any significant moves.",
+        "reason": "This is presented as common knowledge without any evidence or supporting example in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "We all know that Congress is gridlocked. They barely ever make any significant large moves.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-55A0FD40ADD1",
+        "speech_id": "SP-5AE7D637BF7D",
+        "speech_ref": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "claim": "The US government artificially props up US automakers, creating a legalized monopoly that forces consumers to buy from them only.",
+        "reason": "This is an interpretation of government policy and intent, not supported by cited evidence in the transcript.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "The transcript itself does not provide any corroborating or contradicting information for this claim.",
+        "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "The rollback of CAFE standards by the Trump administration is a step in the right direction but will not make cars cheap again due to safety regulations and regulatory uncertainty.",
+      "themes": [
+        "Cost Burden of CAFE Standards",
+        "Safety Regulations and the Absence of Low-Cost Vehicles",
+        "Import Restrictions and Protectionism",
+        "Regulatory Uncertainty from Political Reversals"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 10
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "b6149c143f1c262e71506c9c6902a2765b17ed132b449884e8c559ca1f31511f",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "da15c2202a5d6186ab6b981408581154b04b417f506198c3668c73064341d281",
+    "canonical_mapping": {
+      "speech_id": "SP-5AE7D637BF7D",
+      "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC53",
+      "primary_cc_confidence": 0.9,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+      "primary_cc_rationale": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T71",
+        "T135",
+        "T82"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T71",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-BE8B14CDFA98",
+          "rationale": "Safety regulations preventing low-cost vehicles are a core part of automotive industry regulatory burden."
+        },
+        {
+          "theme_id": "T135",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-B8D05DE17144",
+          "rationale": "Import restrictions and protectionism directly relate to trade deficits, tariffs, and global geopolitics."
+        },
+        {
+          "theme_id": "T82",
+          "confidence": 0.85,
+          "source_local_theme_id": "LT-D1F2069324E6",
+          "rationale": "Regulatory uncertainty from political reversals is a key aspect of economic freedom and regulatory policy."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC53-T71",
+          "cc_id": "CC53",
+          "theme_id": "T71",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC53-T135",
+          "cc_id": "CC53",
+          "theme_id": "T135",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC53-T82",
+          "cc_id": "CC53",
+          "theme_id": "T82",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "local_cc_text": "The rollback of CAFE standards by the Trump administration is a step in the right direction but will not make cars cheap again due to safety regulations and regulatory uncertainty.",
+        "canonical_cc_id": "CC53",
+        "confidence": 0.9,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+        "rationale": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+        "candidate_matches": [
+          {
+            "id": "CC53",
+            "text": "The subprime auto market is imploding similarly to the 2008 mortgage crisis, while the rollback of CAFE standards is a positive step but insufficient to make cars cheap.",
+            "similarity": 0.7375457882881165
+          },
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.25364530086517334
+          },
+          {
+            "id": "CC45",
+            "text": "Historical patterns and the absence of pre-crash indicators (euphoria, insane valuations, tightening monetary policy, widespread amateur speculation) suggest that a major stock market crash or recession is not imminent, and disciplined long-term investing remains advisable, especially since stock markets recover quickly from geopolitical events and household balance sheets are not overleveraged.",
+            "similarity": 0.2129477560520172
+          },
+          {
+            "id": "CC47",
+            "text": "Specific market developments—including the elimination of the pattern day trader rule benefiting traders, a hedge fund cornering of Avis Budget shares triggering a short squeeze, and the Mythos AI incident revealing digital dollar system vulnerability to catastrophic collapse—highlight distinct risks and opportunities in financial markets.",
+            "similarity": 0.1840008944272995
+          },
+          {
+            "id": "CC38",
+            "text": "AI is deflationary in an inflationary monetary system, and it will democratize financial markets, increase volatility, and shift alpha to higher skill levels.",
+            "similarity": 0.17500419914722443
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "local_theme_id": "LT-74E998FCEBA4",
+        "local_theme_text": "Cost Burden of CAFE Standards",
+        "canonical_theme_id": "T71",
+        "confidence": 0.85,
+        "rationale": "The cost burden of CAFE standards is a direct aspect of automotive industry regulatory burden.",
+        "candidate_matches": [
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.3405032157897949
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.3147727847099304
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.3103783428668976
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.28612667322158813
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.2374075949192047
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.23349010944366455
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "local_theme_id": "LT-BE8B14CDFA98",
+        "local_theme_text": "Safety Regulations and the Absence of Low-Cost Vehicles",
+        "canonical_theme_id": "T71",
+        "confidence": 0.85,
+        "rationale": "Safety regulations preventing low-cost vehicles are a core part of automotive industry regulatory burden.",
+        "candidate_matches": [
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.4980018734931946
+          },
+          {
+            "id": "T133",
+            "text": "Subprime Auto Loan Market and Financial Stability Risks",
+            "similarity": 0.31461644172668457
+          },
+          {
+            "id": "T139",
+            "text": "Wealth inequality, poverty, and consumption",
+            "similarity": 0.2332800030708313
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.21711042523384094
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.1982455551624298
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.18945404887199402
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "local_theme_id": "LT-B8D05DE17144",
+        "local_theme_text": "Import Restrictions and Protectionism",
+        "canonical_theme_id": "T135",
+        "confidence": 0.9,
+        "rationale": "Import restrictions and protectionism directly relate to trade deficits, tariffs, and global geopolitics.",
+        "candidate_matches": [
+          {
+            "id": "T135",
+            "text": "Trade deficits, tariffs, and global geopolitics",
+            "similarity": 0.6282878518104553
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.5499334335327148
+          },
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.5054210424423218
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.38163846731185913
+          },
+          {
+            "id": "T63",
+            "text": "Tariff refund profiteering",
+            "similarity": 0.3748205304145813
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.3624599575996399
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "local_theme_id": "LT-D1F2069324E6",
+        "local_theme_text": "Regulatory Uncertainty from Political Reversals",
+        "canonical_theme_id": "T82",
+        "confidence": 0.85,
+        "rationale": "Regulatory uncertainty from political reversals is a key aspect of economic freedom and regulatory policy.",
+        "candidate_matches": [
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.610969066619873
+          },
+          {
+            "id": "T75",
+            "text": "Central Bank Governance and Political Independence",
+            "similarity": 0.47790735960006714
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.4648161828517914
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.4281907081604004
+          },
+          {
+            "id": "T129",
+            "text": "Regulatory impact and securities reporting",
+            "similarity": 0.42367079854011536
+          },
+          {
+            "id": "T101",
+            "text": "Historical market performance during geopolitical conflict",
+            "similarity": 0.4100337624549866
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-3ACD643A01E434",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "date": "2025-12-08",
+        "source_hash": "fdcf795007b362e175ac0fa86891003fdfcc44ee5647c639deda9e7de0024dd5",
+        "pair_id": "PAIR-CC53-T71",
+        "cc_id": "CC53",
+        "theme_id": "T71",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-74E998FCEBA4",
+        "local_theme_text": "Cost Burden of CAFE Standards",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "The cost burden of CAFE standards is a direct aspect of automotive industry regulatory burden.",
+        "local_argument_id": "LA-305829FB2B7C",
+        "conclusion": "CAFE standards impose costs on consumers through expensive and unreliable vehicles.",
+        "premises": [
+          "Automakers are forced to sell electric vehicles at a loss of $10,000-$40,000 per vehicle to meet fleet mileage averages.",
+          "Downsized turbocharged engines (e.g., V8 to 4-cylinder) fail earlier, often before 100,000 miles, increasing maintenance costs.",
+          "The average new car price has hit $50,000, far exceeding typical household ability to pay without long-term financing."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-F011C793C6DE",
+            "item": "Average new vehicle price in October reached $50,000 for the first time ever.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "the average new vehicle price in October just hit $50,000 for the first time ever",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-C1E9F80A9F77",
+            "item": "Median household income in America is $83,000.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "The median household income in America is $83,000 right now",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-8E26A90CD270",
+            "item": "Auto loans with 120-month terms exist.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "you're seeing crazy things like 120month terms on auto loans",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-B23DEEF5C1B6",
+            "item": "Automakers are selling electric vehicles at a loss of $10,000 to $40,000 per vehicle.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact by the speaker without citation.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "they are forced to make these cars in order to have their average fuel efficiency across all their cars meet these crazy standards. It's preposterous. The other thing that you see a lot lately is a lot of hybrids. A lot of cars that used to be V8s or V6s are now going down to four cylinder turbos. Again, all so that they can meet these crazy gas mileage standards. And whatever it saves you at the pump, it is costing you in terms of maintenance from these engines being way more complicated, way more costly to service, and the fact that you're squeezing so much power out of such a small engine that it dies at 100,000 mi. ... that meant that every other car got way more expensive so that the ca",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": []
+      },
+      {
+        "contribution_id": "CONTRIB-2F3BB44EFB12C7",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "date": "2025-12-08",
+        "source_hash": "fdcf795007b362e175ac0fa86891003fdfcc44ee5647c639deda9e7de0024dd5",
+        "pair_id": "PAIR-CC53-T71",
+        "cc_id": "CC53",
+        "theme_id": "T71",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-BE8B14CDFA98",
+        "local_theme_text": "Safety Regulations and the Absence of Low-Cost Vehicles",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Safety regulations preventing low-cost vehicles are a core part of automotive industry regulatory burden.",
+        "local_argument_id": "LA-017362BB1011",
+        "conclusion": "Safety regulations are the primary reason low-cost vehicles are not available in the United States.",
+        "premises": [
+          "Vehicles like the Toyota Hilux Champ (IVMO) lack basic safety features required for US sale.",
+          "Adding mandated safety technology to such stripped-down vehicles raises the minimum price to roughly $30,000.",
+          "Cheap cars available in other countries (Mexico, Europe, India, China) cannot be sold in the US due to safety standards."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-9D02B1B982C8",
+            "item": "Toyota Hilux Champ described as having no side curtain airbags, likely no anti-lock brakes, no automated braking, minimal computer parts, and being illegal in the US.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this description; it is presented as known by the speaker without citation.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "This is a truck that Toyota is making called the IVMO, otherwise called the Hilux Champ. It's a more budget work-friendly version. And you can see it is entirely stripped down. There is no tech. It is a manual. There's no big screens. This thing has no side curtain airbags. It has probably no anti-lock brakes, no automated braking system. I don't know. It might have cruise control, but I would be willing to bet it probably won't. No annoying beeping and next to no computer parts. That is the reason why they can make something that is reliable, that works, its transportation, gets you from point A to point B, but it can't be sold in the US. It's illegal.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-F42EFAD5863A",
+            "item": "Adding safety tech to meet US standards results in a minimum $30,000 car.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this estimate; it is stated as a general rule by the speaker.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "by the time you pack all that additional tech into a vehicle, you're looking at a $30,000 car minimum.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-A0AD4C1453E3",
+            "item": "Specific foreign car prices: Ram in Mexico for 17k, Dacia Sandero in Europe for 12k, Suzuki Alto in India for 6k, and a Chinese mini EV for 4k.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for these prices; they are claimed without citation.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "But right now in Mexico, you can buy a Ram for like 17 grand. In Europe, you can buy the Dossia Sanderero for 12 grand. In India, you can buy a Suzuki Alto for six grand. And in China, you can buy a mini electric vehicle four-seater for about four grand.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-1AFBE01A63A0",
+            "device": "Legalized monopoly",
+            "explanation": "The speaker analogizes US protectionist policies for automakers to a legalized monopoly that forces consumers to buy from domestic manufacturers only.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-4CC0546B42B04D",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "date": "2025-12-08",
+        "source_hash": "fdcf795007b362e175ac0fa86891003fdfcc44ee5647c639deda9e7de0024dd5",
+        "pair_id": "PAIR-CC53-T135",
+        "cc_id": "CC53",
+        "theme_id": "T135",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-B8D05DE17144",
+        "local_theme_text": "Import Restrictions and Protectionism",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Import restrictions and protectionism directly relate to trade deficits, tariffs, and global geopolitics.",
+        "local_argument_id": "LA-DC8B811E0A3A",
+        "conclusion": "Import restrictions (tariffs, taxes, regulations) artificially prop up US automakers and prevent consumers from accessing cheaper foreign cars.",
+        "premises": [
+          "Cars are significantly cheaper in other countries but are not sold in the US due to import barriers.",
+          "China is explicitly not allowed to sell cars in the US.",
+          "This system amounts to a legalized monopoly benefiting US automakers at consumer expense."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-E06F169077E8",
+            "item": "China not allowed to sell cars in the US.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is stated as fact.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "China is not allowed to sell cars in the US.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-43B93E0658F6",
+            "item": "The US government artificially props up US automakers, creating a legalized monopoly.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this interpretation of government intent; it is asserted as fact.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-0B20C7733B29",
+            "device": "Legalized monopoly",
+            "explanation": "Analogizes protectionist import restrictions to a legalized monopoly granted to US automakers, denying consumers cheaper alternatives.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-A02AB22062A715",
+        "speech_id": "SP-5AE7D637BF7D",
+        "filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+        "date": "2025-12-08",
+        "source_hash": "fdcf795007b362e175ac0fa86891003fdfcc44ee5647c639deda9e7de0024dd5",
+        "pair_id": "PAIR-CC53-T82",
+        "cc_id": "CC53",
+        "theme_id": "T82",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly supports the CC's claim that the rollback of CAFE standards is a positive step but insufficient to make cars cheap, by elaborating on safety regulations and regulatory uncertainty as barriers, and also adds import restrictions as another factor.",
+        "primary_cc_confidence": 0.9,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-D1F2069324E6",
+        "local_theme_text": "Regulatory Uncertainty from Political Reversals",
+        "theme_mapping_confidence": 0.85,
+        "theme_mapping_rationale": "Regulatory uncertainty from political reversals is a key aspect of economic freedom and regulatory policy.",
+        "local_argument_id": "LA-6DC55F281191",
+        "conclusion": "Regulatory uncertainty caused by potential reversals of executive actions deters automakers from making long-term production changes, perpetuating high prices.",
+        "premises": [
+          "Actions by one president can be easily undone by the next.",
+          "Manufacturers will not invest in production changes if policies may soon reverse, as the costs of redoing changes would be wasted."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-12A0111D0724",
+            "item": "Executive actions can be easily reversed by a future administration.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is presented as a general truth.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "if something can be done by one president, it can just as easily be undone by the next.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-9E2963B9E7B6",
+            "item": "Uncertainty from potential policy reversals causes innovation and progress to grind to a halt.",
+            "status": "Unverifiable",
+            "verification_basis": "The transcript provides no source or external verification for this claim; it is asserted as an economic effect.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "But the uncertainty of never knowing what's going to happen next and what changes you're going to have to make and costs you're going to have to incur in order to just do business and things you're going to have to undo that you already undid the other way before means that sometimes innovation and progress grinds to a halt.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-1C3BEB699F45",
+            "device": "Hidden costs of uncertainty",
+            "explanation": "The speaker characterizes regulatory uncertainty as an additional hidden cost that governments impose on the free market.",
+            "speech_id": "SP-5AE7D637BF7D",
+            "source_speech_filename": "20251208_Did Trump Just Make Cars Cheap Again.txt",
+            "source_excerpt": "And this is another one of the hidden costs that governments impose on the free market is the uncertainty.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "b6149c143f1c262e71506c9c6902a2765b17ed132b449884e8c559ca1f31511f",
+  "complete": true
+}

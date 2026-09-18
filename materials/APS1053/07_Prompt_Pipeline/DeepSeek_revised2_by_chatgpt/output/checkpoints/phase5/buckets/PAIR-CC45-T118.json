@@ -1,0 +1,94 @@
+{
+  "dependency_hash": "cdc41d1962b47125231fec7aca96f4ec2bd727c8806b767c1527289762996ed3",
+  "synthesis": {
+    "record_kind": "canonical_pair_synthesis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "bucket_schema_version": "2.1",
+    "bucket_prompt_version": "2.1",
+    "model": "deepseek-v4-flash",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "pair_id": "PAIR-CC45-T118",
+    "cc_id": "CC45",
+    "theme_id": "T118",
+    "authoritative_anchor": "cc-cc45-theme-t118",
+    "arguments": [
+      {
+        "argument_id": "ARG-PAIR-CC45-T118-EA60B9EC54",
+        "pair_id": "PAIR-CC45-T118",
+        "conclusion": "The current 10% stock market decline is within normal historical pullback averages and should not cause investors to doubt their long-term strategies.",
+        "source_contribution_ids": [
+          "CONTRIB-EB0ABAE3A3D2B8"
+        ],
+        "source_speech_filenames": [
+          "20260331_Everything is Crashing - When Will it Bottom.txt"
+        ],
+        "premise_synthesis": "Historical data shows that the average annual pullback in the S&P 500 is 14% from top to bottom. The current decline is 10% from the high, which is less than this average. Unrealistic expectations about the market continuously rising cause investors to panic during normal pullbacks.",
+        "conclusion_supported": "The conclusion that the current 10% decline is within normal historical pullback averages and should not cause investors to doubt their long-term strategies is supported by historical drawdown data and the fact that the current decline is below the average annual maximum drawdown.",
+        "relationship_roles": [
+          {
+            "relationship_type": "supports",
+            "source_contribution_ids": [
+              "CONTRIB-EB0ABAE3A3D2B8"
+            ],
+            "source_speech_filenames": [
+              "20260331_Everything is Crashing - When Will it Bottom.txt"
+            ],
+            "relationship_explanations": [
+              "The speech argues that the current stock market crash is a normal occurrence within historical pullback averages and that disciplined long-term investing yields positive returns even in a lost decade, directly supporting CC45's claim that no major crash is imminent and that disciplined long-term investing remains advisable."
+            ]
+          }
+        ],
+        "evidence": [
+          {
+            "item": "Historical data shows average yearly maximum drawdown of 14% for the S&P 500",
+            "status": "Verified",
+            "verification_basis": "The transcript provides a specific chart reference and the 14% figure.",
+            "source_contribution_ids": [
+              "CONTRIB-EB0ABAE3A3D2B8"
+            ],
+            "source_speech_filenames": [
+              "20260331_Everything is Crashing - When Will it Bottom.txt"
+            ],
+            "source_excerpt": "This shows you the average drawdowns and the average good years that happen in the stock market and you can see these little diamonds and red bars represent the maximum pullbacks that happen from year to year. And then you'll notice this black line drawn all the way across is at -14%. The average pullback in the market that happens from one year to the next is 14% from top to bottom. It feels like the world might be ending right now, but the market is down 10% from its top to its current low."
+          },
+          {
+            "item": "The market is currently down 10% from its top",
+            "status": "Verified",
+            "verification_basis": "The transcript states the market is down 10% from the high and in correction territory.",
+            "source_contribution_ids": [
+              "CONTRIB-EB0ABAE3A3D2B8"
+            ],
+            "source_speech_filenames": [
+              "20260331_Everything is Crashing - When Will it Bottom.txt"
+            ],
+            "source_excerpt": "It is falling off the edge of a cliff currently in correction territory down 10% from the high."
+          }
+        ],
+        "rhetorical_devices": [
+          {
+            "device": "John the Baptist parable",
+            "explanation": "Explains how unmet expectations about the Messiah caused John the Baptist to doubt, paralleling how investors doubt when the market does not meet their expectations.",
+            "source_contribution_ids": [
+              "CONTRIB-EB0ABAE3A3D2B8"
+            ],
+            "source_speech_filenames": [
+              "20260331_Everything is Crashing - When Will it Bottom.txt"
+            ]
+          }
+        ],
+        "evolution_over_time": "The argument is based on a single speech from 2026-03-31; no cross-temporal evolution can be inferred.",
+        "disagreements_or_qualifications": []
+      }
+    ],
+    "source_contribution_ids": [
+      "CONTRIB-EB0ABAE3A3D2B8"
+    ],
+    "source_speech_filenames": [
+      "20260331_Everything is Crashing - When Will it Bottom.txt"
+    ],
+    "generated_at": "2026-07-15T03:43:57+00:00",
+    "record_hash": "1cf080417e1a6d6f7a8685c533ba3995295fd08844de3f93b9b4fc8e65856f40"
+  },
+  "complete": true
+}

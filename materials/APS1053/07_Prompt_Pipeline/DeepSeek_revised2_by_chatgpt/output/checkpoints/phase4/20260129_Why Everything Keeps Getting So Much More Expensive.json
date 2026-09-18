@@ -1,0 +1,855 @@
+{
+  "dependencies": {
+    "source_hash": "ffbd138b98f02232e3c09efc11a9dcdd4b0f55802a73d6e5e209da4e313479c0",
+    "phase1_record_hash": "fa6ca3b58f94c15b7d95a64c509cbc102f0da3468e3bfa0ec8f1c02d5582e7e3",
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "classification_prompt_version": "2.1",
+    "classification_schema_version": "2.1",
+    "primary_cc_relationship_types": [
+      "supports",
+      "specific_instance",
+      "mechanism",
+      "consequence",
+      "qualification",
+      "opposition",
+      "historical_example",
+      "application",
+      "evidence"
+    ],
+    "mapping_configuration": {
+      "classification_confidence_min": 0.7,
+      "theme_mapping_confidence_min": 0.55,
+      "max_themes_per_speech": 3,
+      "allow_secondary_cc_contributions": false
+    }
+  },
+  "record": {
+    "record_kind": "remapped_speech_analysis",
+    "schema_version": "2.0",
+    "prompt_version": "2.0",
+    "model": "deepseek-v4-flash",
+    "speech_id": "SP-BC8AD9532436",
+    "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+    "stem": "20260129_Why Everything Keeps Getting So Much More Expensive",
+    "date": "2026-01-29",
+    "source_hash": "ffbd138b98f02232e3c09efc11a9dcdd4b0f55802a73d6e5e209da4e313479c0",
+    "source_character_count": 13493,
+    "central_claim": "Government intervention – via regulations, government-granted monopolies, and expansion of the money supply – is the primary cause of rising prices for essential goods and services, while free-market sectors experience falling prices.",
+    "themes": [
+      {
+        "local_theme_id": "LT-FBAFC68002F2",
+        "theme": "Government regulations",
+        "arguments": [
+          {
+            "local_argument_id": "LA-44C7ECE2130F",
+            "local_theme_id": "LT-FBAFC68002F2",
+            "conclusion": "Government regulations drive up prices and reduce quality by restricting competition.",
+            "premises": [
+              "In a free market, competition drives quality up and prices down.",
+              "Government intervention (regulations) restricts competition, leading to higher prices."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2FF218C6E8E4",
+                "item": "Prices of hospital services rose 281% from 2000-2025, college tuition and fees, child care, medical care services, housing, food and beverages also rose sharply, while household furniture, clothing, cell phones, computer software, TVs became cheaper.",
+                "status": "Unverifiable",
+                "verification_basis": "The chart is presented without citation or methodology.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "Prices from 2000 through 2025 for most of the things that make the biggest impact on people's lives have continued to get more and more expensive. You can see at the very top of this list we have hospital services which have gotten 281% more expensive. We have college tuition and fees, college textbooks, child care, medical care services, housing and food and beverages all getting wildly more expensive.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-7AB3264483A0",
+                "device": "TV price analogy",
+                "explanation": "Illustrates that free-market goods like TVs become cheaper without government intervention, whereas heavily regulated goods become expensive.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "I tweeted this picture out or posted it on X, saying that I thought whoever was in charge of TV prices should also be put in charge of prices of healthcare, education, and housing. Obviously being facitious here because nobody is in charge of the price of TVs and that's the point.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-FD1893719930",
+        "theme": "Government-granted monopolies",
+        "arguments": [
+          {
+            "local_argument_id": "LA-4315CFEE7704",
+            "local_theme_id": "LT-FD1893719930",
+            "conclusion": "Government-granted monopolies cause higher prices and lower quality by preventing competition.",
+            "premises": [
+              "Government outlaws competition in certain sectors (e.g., internet service providers, pharmaceuticals via patents).",
+              "Patents and exclusive rights allow incumbents to charge high prices without competition."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-3F3F0A4D4796",
+                "item": "Internet service providers have poor quality because government outlaws competition.",
+                "status": "Unverifiable",
+                "verification_basis": "The claim is stated without supporting evidence.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "There's a reason your internet service provider sucks. It's because the government outlaws competition.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              },
+              {
+                "evidence_id": "EV-E40C30D94470",
+                "item": "GLP-1 medications (Ozempic) are extremely easy to manufacture; black market versions cost dollars per month, while official versions cost hundreds or thousands of times more due to patents.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker provides no source for manufacturing ease or black market prices.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "The current GLP-1 or Ozmpic medications are a great example of this because they are extremely easy to manufacture. They are so easy to manufacture in fact that if you get these things through the black market from people who do not care about the law, you can get these medications for literally dollars per month. Whereas if you buy the official ones from Novo Nordis or Eli Liy, you can pay hundreds or even thousands of times more than that because they have the Monopoly on violence getting their back...",
+                "source_match": false,
+                "source_location": null
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-F6F5085A77B2",
+                "device": "Artificial guard rails analogy",
+                "explanation": "Compares the effect of government-enforced monopolies to guard rails that prevent free-market price decreases.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "Without those artificial guard rails set up around free market exchange, pretty much all medication would have the same exact effect on their pricing as TVs do. Better quality, lower prices.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-5ACF839B7F78",
+        "theme": "Money supply growth",
+        "arguments": [
+          {
+            "local_argument_id": "LA-8A38C6EE31A3",
+            "local_theme_id": "LT-5ACF839B7F78",
+            "conclusion": "Expansion of the money supply reduces the purchasing power of money, leading to general price increases.",
+            "premises": [
+              "More money chasing the same amount of goods and services causes prices to rise.",
+              "The Federal Reserve's mandate is to grow the money supply in line with economic growth, but often overshoots."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-8A526B88FB88",
+                "item": "M2 money supply chart shows continuous growth, with a brief decline in 2022-2023 but now surpassing old highs.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker refers to a chart of M2 without providing a source or data series.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "This is a chart of M2, which is the money supply... as you can see, for the most part, this chart only goes up and to the right. There was a brief period of time when the money supply was shrinking, when the Fed was trying to undo their mistakes from all the money printing in 2020 and 2021. But as you can see, it really didn't undo that much of the money printing and it is well on its way past that old all-time high and continuing to increase even today.",
+                "source_match": false,
+                "source_location": null
+              },
+              {
+                "evidence_id": "EV-0E3191E2B953",
+                "item": "Federal Reserve Reform Act of 1977: 'maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production.'",
+                "status": "Verified",
+                "verification_basis": "The speaker provides a direct quote from a legislative act.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "You can see here in the first sentence, it says that they shall maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-5EFA645AC7F8",
+                "device": "Million dollar deposit thought experiment",
+                "explanation": "Illustrates the effect of increasing the money supply on prices and wages.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "Imagine every single person in their bank account got deposited a million dollars. Suddenly, everyone would feel like they were a million dollars richer, but they would soon find out they would go and try and spend that money and they wouldn't be able to buy things at the same prices they used to be able to.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "local_theme_id": "LT-D8343A32C30E",
+        "theme": "Economic freedom",
+        "arguments": [
+          {
+            "local_argument_id": "LA-D2A763D7C0EB",
+            "local_theme_id": "LT-D8343A32C30E",
+            "conclusion": "Greater economic freedom leads to higher income per capita and greater wealth.",
+            "premises": [
+              "Countries with more economic freedom have higher income per capita.",
+              "Government intervention reduces economic freedom and thus wealth."
+            ],
+            "evidence": [
+              {
+                "evidence_id": "EV-2624AC24524D",
+                "item": "List of countries with less economic freedom (Zimbabwe, Iran, Egypt, China, Argentina) have lower income per capita; countries with more freedom (Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand) have higher income per capita.",
+                "status": "Unverifiable",
+                "verification_basis": "The speaker provides a list of countries without citing any economic freedom index or income statistics.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "You can see countries like Zimbabwe, Iran, Egypt, China, Argentina have less economic freedom and therefore their income per capita is much much lower. Whereas countries like Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand have much more economic freedom and therefore much more income per capita.",
+                "source_match": true,
+                "source_location": {
+                  "match_type": "whitespace_normalised"
+                }
+              }
+            ],
+            "analogies": [
+              {
+                "device_id": "RD-EBBBE3844C36",
+                "device": "Historical progress analogy",
+                "explanation": "Demonstrates that free-market innovation and progress have made wealth more accessible over time.",
+                "speech_id": "SP-BC8AD9532436",
+                "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+                "source_excerpt": "A couple thousand years ago, most people, even kings, couldn't really afford that much wealth... You are not going to be able to get even the basic necessities that we have today like air conditioning and running hot water, modern-day hygiene, simple pain reliever medications.",
+                "source_match": false,
+                "source_location": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "unverifiable_claims": [
+      {
+        "unverifiable_id": "UV-D8767AC04652",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "Prices from 2000 through 2025 for most things that make the biggest impact on people's lives have continued to get more expensive, with hospital services up 281%, college tuition, textbooks, child care, medical care, housing, food and beverages all increasing sharply.",
+        "reason": "The transcript presents these as data from an unnamed chart without any citation or methodological detail.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No source provided; cannot be assessed from transcript alone.",
+        "source_excerpt": "Prices from 2000 through 2025 for most of the things that make the biggest impact on people's lives have continued to get more and more expensive. You can see at the very top of this list we have hospital services which have gotten 281% more expensive.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-85408E9FF86B",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "Most medical research is not done by big pharma companies; it is done by universities funded by taxpayers.",
+        "reason": "The speaker states this as a fact without any supporting evidence or citation.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "Common claim but unsubstantiated in transcript.",
+        "source_excerpt": "Most medical research is not done by the big pharma companies. It's done by universities who are by the way funded by taxpayers.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-8EE8B9A7F0AE",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "The current GLP-1 medications (Ozempic) are extremely easy to manufacture.",
+        "reason": "Asserted without any technical or sourcing support.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No evidence provided.",
+        "source_excerpt": "The current GLP-1 or Ozmpic medications are a great example of this because they are extremely easy to manufacture.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-CB186F26DD68",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "If you get GLP-1 medications through the black market, you can get them for literally dollars per month.",
+        "reason": "No source or data is given for black market prices.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No verification possible from transcript.",
+        "source_excerpt": "If you get these things through the black market from people who do not care about the law, you can get these medications for literally dollars per month.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-3C5D3ACAEFE2",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "Throughout all of human history outside of the brief few decades at a time where governments intervene, if the money supply stayed constant, prices of everything would get cheaper over time.",
+        "reason": "Broad historical claim presented without any evidence or reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No historical data provided.",
+        "source_excerpt": "Throughout all of human history outside of the brief few decades at a time where governments intervene drive the money supply up and therefore prices go up as well. In the world we live in today, though, neither the money supply nor the supply of wealth stays exactly the same.",
+        "source_match": false,
+        "source_location": null
+      },
+      {
+        "unverifiable_id": "UV-55EBDBD1CEB7",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "Countries with less economic freedom (Zimbabwe, Iran, Egypt, China, Argentina) have much lower income per capita, while countries with more freedom (Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand) have much higher income per capita.",
+        "reason": "Assertion based on an unspecified economic freedom index; no source or data provided.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No citation; cannot verify rankings or income figures.",
+        "source_excerpt": "You can see countries like Zimbabwe, Iran, Egypt, China, Argentina have less economic freedom and therefore their income per capita is much much lower. Whereas countries like Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand have much more economic freedom and therefore much more income per capita.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      },
+      {
+        "unverifiable_id": "UV-F1FB654C5C2C",
+        "speech_id": "SP-BC8AD9532436",
+        "speech_ref": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "claim": "The Federal Reserve always ensures the money supply grows a little faster than the economy so that prices grow a little bit at a time.",
+        "reason": "Interpretive claim presented as fact; no evidence for systematic overshooting beyond the one chart reference.",
+        "memory_check": "NoInternalBasis",
+        "memory_note": "No data provided to support systematic overshooting.",
+        "source_excerpt": "And just to make sure that the growth of wealth doesn't outpace the growth of the money supply because god forbid prices get a little bit cheaper for everybody, they always make sure the money supply grows a little bit faster so that prices grow a little bit at a time.",
+        "source_match": true,
+        "source_location": {
+          "match_type": "whitespace_normalised"
+        }
+      }
+    ],
+    "claims_inventory": {
+      "central_claim": "Government intervention – via regulations, government-granted monopolies, and expansion of the money supply – is the primary cause of rising prices for essential goods and services, while free-market sectors experience falling prices.",
+      "themes": [
+        "Government regulations",
+        "Government-granted monopolies",
+        "Money supply growth",
+        "Economic freedom"
+      ],
+      "argument_count": 4,
+      "unverifiable_count": 7
+    },
+    "generated_at": "2026-07-15T03:13:19+00:00",
+    "record_hash": "060ed7875f067065a8db3bd48bc644021c8f79463fdb5bf17d5def2ea67be3f8",
+    "analysis_truncated": false,
+    "canonical_model_version": "CM-62F51AB9EAA8948A",
+    "phase1_record_hash": "fa6ca3b58f94c15b7d95a64c509cbc102f0da3468e3bfa0ec8f1c02d5582e7e3",
+    "canonical_mapping": {
+      "speech_id": "SP-BC8AD9532436",
+      "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+      "status": "categorised",
+      "classification_prompt_version": "2.1",
+      "classification_schema_version": "2.1",
+      "primary_cc_id": "CC42",
+      "primary_cc_confidence": 0.95,
+      "primary_cc_relationship_type": "supports",
+      "primary_cc_relationship_explanation": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+      "primary_cc_rationale": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+      "classification_rejection_reasons": [],
+      "theme_ids": [
+        "T82",
+        "T70"
+      ],
+      "theme_assignments": [
+        {
+          "theme_id": "T82",
+          "confidence": 1.0,
+          "source_local_theme_id": "LT-D8343A32C30E",
+          "rationale": "Economic freedom is the exact subject of T82, which discusses economic freedom and regulatory policy."
+        },
+        {
+          "theme_id": "T70",
+          "confidence": 0.9,
+          "source_local_theme_id": "LT-5ACF839B7F78",
+          "rationale": "Money supply growth is a form of monetary expansion that drives asset price inflation, directly corresponding to T70."
+        }
+      ],
+      "best_cc_candidates": [],
+      "bucket_memberships": [
+        {
+          "pair_id": "PAIR-CC42-T82",
+          "cc_id": "CC42",
+          "theme_id": "T82",
+          "membership_type": "primary_default"
+        },
+        {
+          "pair_id": "PAIR-CC42-T70",
+          "cc_id": "CC42",
+          "theme_id": "T70",
+          "membership_type": "primary_default"
+        }
+      ],
+      "canonical_model_version": "CM-62F51AB9EAA8948A"
+    },
+    "local_to_canonical_mappings": [
+      {
+        "mapping_type": "local_cc_to_canonical_cc",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "local_cc_text": "Government intervention – via regulations, government-granted monopolies, and expansion of the money supply – is the primary cause of rising prices for essential goods and services, while free-market sectors experience falling prices.",
+        "canonical_cc_id": "CC42",
+        "confidence": 0.95,
+        "relationship_type": "supports",
+        "relationship_explanation": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+        "rationale": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+        "candidate_matches": [
+          {
+            "id": "CC42",
+            "text": "Excessive government intervention in the form of regulations, tariffs, housing policies, and monetary expansion causes rising prices, housing unaffordability, fiscal deficits, and other economic problems, requiring fundamental reforms like abolishing the Fed and reducing federal involvement.",
+            "similarity": 0.5654610395431519
+          },
+          {
+            "id": "CC51",
+            "text": "The Federal Reserve is covertly or indirectly engaging in quantitative easing to support government borrowing, which will expand the money supply and prevent a debt crisis but cause inflation.",
+            "similarity": 0.5201019644737244
+          },
+          {
+            "id": "CC50",
+            "text": "The Federal Reserve and Treasury are implementing policies (buybacks, deregulation, yield curve control, SLR removal) and the executive branch is attacking Fed independence, all aimed at supporting government borrowing, which will lead to inflation, asset bubbles, and benefit banks at the expense of the public.",
+            "similarity": 0.5152343511581421
+          },
+          {
+            "id": "CC44",
+            "text": "Government policies and systems—including pharmaceutical monopoly through FDA and lobbying, tariff wealth transfers, military budget increases, and employment exploitation—harm the public and violate rights, calling for reform or independence.",
+            "similarity": 0.4921133816242218
+          },
+          {
+            "id": "CC54",
+            "text": "The U.S. government's accelerating deficit spending and borrowing will force the Federal Reserve to adopt unconventional monetary policies such as yield curve control or quantitative easing, leading to inflation, a decline in the purchasing power of the dollar, and a wealth transfer from savers to borrowers.",
+            "similarity": 0.3711327910423279
+          }
+        ],
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "local_theme_id": "LT-FBAFC68002F2",
+        "local_theme_text": "Government regulations",
+        "canonical_theme_id": "T82",
+        "confidence": 0.95,
+        "rationale": "Government regulations are a key example of government intervention in economic freedom and regulatory policy, which T82 directly addresses.",
+        "candidate_matches": [
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.5473757982254028
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.5064082145690918
+          },
+          {
+            "id": "T100",
+            "text": "Government Workforce Composition and Costs",
+            "similarity": 0.4762343168258667
+          },
+          {
+            "id": "T99",
+            "text": "Government Policy Proposals and Structural Reforms",
+            "similarity": 0.47035372257232666
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.44475406408309937
+          },
+          {
+            "id": "T104",
+            "text": "Housing finance and government intervention",
+            "similarity": 0.44439584016799927
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "local_theme_id": "LT-FD1893719930",
+        "local_theme_text": "Government-granted monopolies",
+        "canonical_theme_id": "T82",
+        "confidence": 0.7,
+        "rationale": "Government-granted monopolies represent a barrier to competition and a form of regulatory intervention that limits economic freedom, fitting the scope of T82.",
+        "candidate_matches": [
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.5730074644088745
+          },
+          {
+            "id": "T73",
+            "text": "Barriers to competition in the pharmaceutical industry",
+            "similarity": 0.47587430477142334
+          },
+          {
+            "id": "T55",
+            "text": "Securities regulation and market structure",
+            "similarity": 0.3765706419944763
+          },
+          {
+            "id": "T71",
+            "text": "Automotive industry regulatory burden",
+            "similarity": 0.34023433923721313
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.326534241437912
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.3221700191497803
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "local_theme_id": "LT-5ACF839B7F78",
+        "local_theme_text": "Money supply growth",
+        "canonical_theme_id": "T70",
+        "confidence": 0.9,
+        "rationale": "Money supply growth is a form of monetary expansion that drives asset price inflation, directly corresponding to T70.",
+        "candidate_matches": [
+          {
+            "id": "T84",
+            "text": "Evolution of monetary systems and the dollar",
+            "similarity": 0.5768535137176514
+          },
+          {
+            "id": "T70",
+            "text": "Asset price inflation and monetary expansion",
+            "similarity": 0.5222514867782593
+          },
+          {
+            "id": "T124",
+            "text": "Petrodollar system and dollar dominance",
+            "similarity": 0.48574933409690857
+          },
+          {
+            "id": "T106",
+            "text": "Inflation and deflation dynamics",
+            "similarity": 0.47235462069511414
+          },
+          {
+            "id": "T78",
+            "text": "Critique of the Fiat Monetary System and Alternative Money",
+            "similarity": 0.4450926184654236
+          },
+          {
+            "id": "T80",
+            "text": "Dollar dominance mechanisms",
+            "similarity": 0.4353950321674347
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      },
+      {
+        "mapping_type": "local_theme_to_canonical_theme",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "local_theme_id": "LT-D8343A32C30E",
+        "local_theme_text": "Economic freedom",
+        "canonical_theme_id": "T82",
+        "confidence": 1.0,
+        "rationale": "Economic freedom is the exact subject of T82, which discusses economic freedom and regulatory policy.",
+        "candidate_matches": [
+          {
+            "id": "T82",
+            "text": "Economic freedom and regulatory policy",
+            "similarity": 0.7547873258590698
+          },
+          {
+            "id": "T83",
+            "text": "Economic Responsibility and Productivity",
+            "similarity": 0.5440554022789001
+          },
+          {
+            "id": "T125",
+            "text": "Philosophical foundations of the Declaration of Independence",
+            "similarity": 0.48131081461906433
+          },
+          {
+            "id": "T24",
+            "text": "Financial Repression and Capital Controls",
+            "similarity": 0.4800697863101959
+          },
+          {
+            "id": "T121",
+            "text": "Mutual outcomes of economic transactions",
+            "similarity": 0.42672860622406006
+          },
+          {
+            "id": "T85",
+            "text": "Federal debt management, fiscal sustainability, and trade policy",
+            "similarity": 0.4167965054512024
+          }
+        ],
+        "canonical_model_version": "CM-62F51AB9EAA8948A"
+      }
+    ],
+    "source_contributions": [
+      {
+        "contribution_id": "CONTRIB-52E623BB60F0DA",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "date": "2026-01-29",
+        "source_hash": "ffbd138b98f02232e3c09efc11a9dcdd4b0f55802a73d6e5e209da4e313479c0",
+        "pair_id": "PAIR-CC42-T82",
+        "cc_id": "CC42",
+        "theme_id": "T82",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-FBAFC68002F2",
+        "local_theme_text": "Government regulations",
+        "theme_mapping_confidence": 0.95,
+        "theme_mapping_rationale": "Government regulations are a key example of government intervention in economic freedom and regulatory policy, which T82 directly addresses.",
+        "local_argument_id": "LA-44C7ECE2130F",
+        "conclusion": "Government regulations drive up prices and reduce quality by restricting competition.",
+        "premises": [
+          "In a free market, competition drives quality up and prices down.",
+          "Government intervention (regulations) restricts competition, leading to higher prices."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2FF218C6E8E4",
+            "item": "Prices of hospital services rose 281% from 2000-2025, college tuition and fees, child care, medical care services, housing, food and beverages also rose sharply, while household furniture, clothing, cell phones, computer software, TVs became cheaper.",
+            "status": "Unverifiable",
+            "verification_basis": "The chart is presented without citation or methodology.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "Prices from 2000 through 2025 for most of the things that make the biggest impact on people's lives have continued to get more and more expensive. You can see at the very top of this list we have hospital services which have gotten 281% more expensive. We have college tuition and fees, college textbooks, child care, medical care services, housing and food and beverages all getting wildly more expensive.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-7AB3264483A0",
+            "device": "TV price analogy",
+            "explanation": "Illustrates that free-market goods like TVs become cheaper without government intervention, whereas heavily regulated goods become expensive.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "I tweeted this picture out or posted it on X, saying that I thought whoever was in charge of TV prices should also be put in charge of prices of healthcare, education, and housing. Obviously being facitious here because nobody is in charge of the price of TVs and that's the point.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-A41B4DF91C96BB",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "date": "2026-01-29",
+        "source_hash": "ffbd138b98f02232e3c09efc11a9dcdd4b0f55802a73d6e5e209da4e313479c0",
+        "pair_id": "PAIR-CC42-T82",
+        "cc_id": "CC42",
+        "theme_id": "T82",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-FD1893719930",
+        "local_theme_text": "Government-granted monopolies",
+        "theme_mapping_confidence": 0.7,
+        "theme_mapping_rationale": "Government-granted monopolies represent a barrier to competition and a form of regulatory intervention that limits economic freedom, fitting the scope of T82.",
+        "local_argument_id": "LA-4315CFEE7704",
+        "conclusion": "Government-granted monopolies cause higher prices and lower quality by preventing competition.",
+        "premises": [
+          "Government outlaws competition in certain sectors (e.g., internet service providers, pharmaceuticals via patents).",
+          "Patents and exclusive rights allow incumbents to charge high prices without competition."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-3F3F0A4D4796",
+            "item": "Internet service providers have poor quality because government outlaws competition.",
+            "status": "Unverifiable",
+            "verification_basis": "The claim is stated without supporting evidence.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "There's a reason your internet service provider sucks. It's because the government outlaws competition.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          },
+          {
+            "evidence_id": "EV-E40C30D94470",
+            "item": "GLP-1 medications (Ozempic) are extremely easy to manufacture; black market versions cost dollars per month, while official versions cost hundreds or thousands of times more due to patents.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker provides no source for manufacturing ease or black market prices.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "The current GLP-1 or Ozmpic medications are a great example of this because they are extremely easy to manufacture. They are so easy to manufacture in fact that if you get these things through the black market from people who do not care about the law, you can get these medications for literally dollars per month. Whereas if you buy the official ones from Novo Nordis or Eli Liy, you can pay hundreds or even thousands of times more than that because they have the Monopoly on violence getting their back...",
+            "source_match": false,
+            "source_location": null
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-F6F5085A77B2",
+            "device": "Artificial guard rails analogy",
+            "explanation": "Compares the effect of government-enforced monopolies to guard rails that prevent free-market price decreases.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "Without those artificial guard rails set up around free market exchange, pretty much all medication would have the same exact effect on their pricing as TVs do. Better quality, lower prices.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-CA4FD20FEDC3E7",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "date": "2026-01-29",
+        "source_hash": "ffbd138b98f02232e3c09efc11a9dcdd4b0f55802a73d6e5e209da4e313479c0",
+        "pair_id": "PAIR-CC42-T70",
+        "cc_id": "CC42",
+        "theme_id": "T70",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-5ACF839B7F78",
+        "local_theme_text": "Money supply growth",
+        "theme_mapping_confidence": 0.9,
+        "theme_mapping_rationale": "Money supply growth is a form of monetary expansion that drives asset price inflation, directly corresponding to T70.",
+        "local_argument_id": "LA-8A38C6EE31A3",
+        "conclusion": "Expansion of the money supply reduces the purchasing power of money, leading to general price increases.",
+        "premises": [
+          "More money chasing the same amount of goods and services causes prices to rise.",
+          "The Federal Reserve's mandate is to grow the money supply in line with economic growth, but often overshoots."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-8A526B88FB88",
+            "item": "M2 money supply chart shows continuous growth, with a brief decline in 2022-2023 but now surpassing old highs.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker refers to a chart of M2 without providing a source or data series.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "This is a chart of M2, which is the money supply... as you can see, for the most part, this chart only goes up and to the right. There was a brief period of time when the money supply was shrinking, when the Fed was trying to undo their mistakes from all the money printing in 2020 and 2021. But as you can see, it really didn't undo that much of the money printing and it is well on its way past that old all-time high and continuing to increase even today.",
+            "source_match": false,
+            "source_location": null
+          },
+          {
+            "evidence_id": "EV-0E3191E2B953",
+            "item": "Federal Reserve Reform Act of 1977: 'maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production.'",
+            "status": "Verified",
+            "verification_basis": "The speaker provides a direct quote from a legislative act.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "You can see here in the first sentence, it says that they shall maintain long-run growth of the monetary and credit aggregates commensurate with the economy's long-run potential to increase production.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-5EFA645AC7F8",
+            "device": "Million dollar deposit thought experiment",
+            "explanation": "Illustrates the effect of increasing the money supply on prices and wages.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "Imagine every single person in their bank account got deposited a million dollars. Suddenly, everyone would feel like they were a million dollars richer, but they would soon find out they would go and try and spend that money and they wouldn't be able to buy things at the same prices they used to be able to.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ]
+      },
+      {
+        "contribution_id": "CONTRIB-D75986EA680143",
+        "speech_id": "SP-BC8AD9532436",
+        "filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+        "date": "2026-01-29",
+        "source_hash": "ffbd138b98f02232e3c09efc11a9dcdd4b0f55802a73d6e5e209da4e313479c0",
+        "pair_id": "PAIR-CC42-T82",
+        "cc_id": "CC42",
+        "theme_id": "T82",
+        "membership_type": "primary_default",
+        "primary_cc_relationship_type": "supports",
+        "primary_cc_relationship_explanation": "The speech directly argues that government intervention—through regulations, government-granted monopolies, and money supply expansion—is the primary cause of rising prices, which is the central proposition of CC42.",
+        "primary_cc_confidence": 0.95,
+        "classification_prompt_version": "2.1",
+        "classification_schema_version": "2.1",
+        "local_theme_id": "LT-D8343A32C30E",
+        "local_theme_text": "Economic freedom",
+        "theme_mapping_confidence": 1.0,
+        "theme_mapping_rationale": "Economic freedom is the exact subject of T82, which discusses economic freedom and regulatory policy.",
+        "local_argument_id": "LA-D2A763D7C0EB",
+        "conclusion": "Greater economic freedom leads to higher income per capita and greater wealth.",
+        "premises": [
+          "Countries with more economic freedom have higher income per capita.",
+          "Government intervention reduces economic freedom and thus wealth."
+        ],
+        "evidence": [
+          {
+            "evidence_id": "EV-2624AC24524D",
+            "item": "List of countries with less economic freedom (Zimbabwe, Iran, Egypt, China, Argentina) have lower income per capita; countries with more freedom (Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand) have higher income per capita.",
+            "status": "Unverifiable",
+            "verification_basis": "The speaker provides a list of countries without citing any economic freedom index or income statistics.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "You can see countries like Zimbabwe, Iran, Egypt, China, Argentina have less economic freedom and therefore their income per capita is much much lower. Whereas countries like Singapore, Switzerland, Hong Kong, Canada, Denmark, Norway, Ireland, Luxembourg, New Zealand have much more economic freedom and therefore much more income per capita.",
+            "source_match": true,
+            "source_location": {
+              "match_type": "whitespace_normalised"
+            }
+          }
+        ],
+        "analogies": [
+          {
+            "device_id": "RD-EBBBE3844C36",
+            "device": "Historical progress analogy",
+            "explanation": "Demonstrates that free-market innovation and progress have made wealth more accessible over time.",
+            "speech_id": "SP-BC8AD9532436",
+            "source_speech_filename": "20260129_Why Everything Keeps Getting So Much More Expensive.txt",
+            "source_excerpt": "A couple thousand years ago, most people, even kings, couldn't really afford that much wealth... You are not going to be able to get even the basic necessities that we have today like air conditioning and running hot water, modern-day hygiene, simple pain reliever medications.",
+            "source_match": false,
+            "source_location": null
+          }
+        ]
+      }
+    ],
+    "unmapped_arguments": [],
+    "secondary_cc_contributions": []
+  },
+  "output_hash": "060ed7875f067065a8db3bd48bc644021c8f79463fdb5bf17d5def2ea67be3f8",
+  "complete": true
+}
