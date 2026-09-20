@@ -1,0 +1,98 @@
+[
+  {
+    "theme": "Central banking and monetary transmission",
+    "subtopics": "Policy rates; quantitative easing and tightening; central-bank balance sheets; liquidity facilities; monetary versus fiscal policy.",
+    "pattern": "\\bfed\\b|federal reserve|central banks?\\b|bank of (?:england|japan)|\\b(?:qe|qt|fomc|ycc)\\b|rate (?:cut|hike)s?|rates? (?:cut|hiked?)|money (?:supply|print\\w*|velocity)|print\\w*.*money|monetary|\\b(?:powell|volcker|warsh)\\b",
+    "boundary": "Explicit policy institutions and tools; general money history also belongs under Monetary history and the nature of money."
+  },
+  {
+    "theme": "Inflation, deflation and purchasing power",
+    "subtopics": "CPI measurement; headline versus lived inflation; wage purchasing power; hyperinflation; historical comparisons and forecasts.",
+    "pattern": "inflation|deflation|stagflation|\\bcpi\\b|purchasing power|cost of living|price (?:increases?|stability|controls?|gouging)|food prices|gas prices|everything.*expensive|things.*(?:cheaper|expensive)|real incomes",
+    "boundary": "General purchasing power and price-level discussions; an asset price alone does not imply inflation."
+  },
+  {
+    "theme": "Sovereign debt and fiscal policy",
+    "subtopics": "Treasury issuance; government financing; deficits and debt ceilings; taxation; spending; fiscal sustainability and financial repression.",
+    "pattern": "treasur(?:y|ies)|deficit|national debt|sovereign|government debt|debt (?:ceiling|limit)|\\btax(?:es|ation)?\\b|fiscal|government spending|financial repression|\\bus (?:debt|borrowing)\\b|\\bus.*(?:pay its debt|defaults? on its debt)|military budget|spending bill|stimulus checks?|infrastructure bill|\\birs\\b|yellen.*default",
+    "boundary": "Public financing and taxation; unspecified debt requires context before assigning it to government or households."
+  },
+  {
+    "theme": "Bonds, interest rates and funding markets",
+    "subtopics": "Bond prices and yields; yield-curve inversion; duration exposure; repo markets; funding stress and liquidity.",
+    "pattern": "\\bbonds?\\b|bondholder|\\byields?\\b|interest rates?|\\brepo\\b|liquidity|duration|long.term rates|the 10 year|\\bycc\\b|t.bills?",
+    "boundary": "Debt-security prices, yields, funding, and liquidity; can overlap with monetary policy."
+  },
+  {
+    "theme": "Banking, leverage and systemic fragility",
+    "subtopics": "Bank failures; deposits and withdrawals; credit creation; contagion; bailouts; leverage and deleveraging.",
+    "pattern": "\\bbanks?\\b|banking|deposits?|bailouts?|leverag\\w*|deleverag\\w*|\\bcredit\\b|lehman|financial crisis|maturity transformation|basel iii|systemic risk",
+    "boundary": "Banking institutions, credit intermediation, and systemic exposure; the substring in bankruptcy or bankrupt is not enough."
+  },
+  {
+    "theme": "The dollar and the international monetary system",
+    "subtopics": "Reserve currencies; de-dollarization; currency competition; exchange rates; international payment networks; dollar liquidity and swap lines.",
+    "pattern": "\\bdollars?\\b|currenc(?:y|ies)|\\byen\\b|\\byuan\\b|\\beuro\\b|swap lines?|\\bswift\\b|reserve currenc|de.dollari|capital (?:controls|flight)|cross.border.*payment|turkish lira",
+    "boundary": "International currency and payment arrangements; Federal Reserve, bank reserves, and oil reserves are not standalone currency-system indicators."
+  },
+  {
+    "theme": "Cryptoassets, CBDCs and digital money",
+    "subtopics": "Bitcoin valuation narratives; crypto policy; CBDCs versus decentralized assets; ETFs; stablecoins and dollar demand; payment and settlement design.",
+    "pattern": "bitcoin|crypto|\\bcbdcs?\\b|stablecoins?|blockchain|digital money|digital currenc|\\bnfts?\\b|worldcoin|coinbase|microstrategy",
+    "boundary": "Digital assets, digital payment systems, and related regulation; references are discussion topics, not investment endorsements."
+  },
+  {
+    "theme": "Gold, silver and commodities",
+    "subtopics": "Precious metals as monetary assets; commodity prices; gold backing and revaluation; silver squeezes; energy-market shocks.",
+    "pattern": "\\bgold\\b|silver|commodit\\w*|\\boil\\b|energy|copper|uranium|nickel|diesel|gasoline|precious metals",
+    "boundary": "Commodity supply and pricing, precious metals as monetary assets, and energy shocks."
+  },
+  {
+    "theme": "Housing, mortgages and property markets",
+    "subtopics": "Housing affordability; mortgage rates and financing; rents and evictions; home sales and construction; property cycles and foreclosures.",
+    "pattern": "\\bhousing\\b|(?<!white )\\bhouses?\\b|mortgage|real estate|\\brent(?:s|ing)?\\b|foreclos\\w*|home (?:prices|sales)|buy a home|single family homes|homebuilder|landlords?|evictions?",
+    "boundary": "Property and housing finance; White House and household alone do not identify this theme."
+  },
+  {
+    "theme": "Financial markets, trading and portfolio construction",
+    "subtopics": "Market valuation and bubbles; active versus passive investing; drawdowns; diversification; options and short selling; benchmarks and investment discipline.",
+    "pattern": "\\bstocks?\\b|equities|\\bequity\\b|portfolio|invest(?:ing|ments?|ors?)\\b|trad(?:ing|ers?)\\b|\\bbubbles?\\b|\\boptions?\\b|short (?:sell|squeeze)|shorting|benchmarks?|\\betfs?\\b|\\bipo\\b|\\bspac\\b|hedg(?:ing|e funds?)|index funds?|shares|technical analysis|fundamental analysis|volatil\\w*|sucker.s rally|buy the dip|gamma squeeze|s&p\\s?500|warren buffett|\\bputs\\b|stock market|financial markets?|bear market|bull market|sell.off|arbitrage",
+    "boundary": "Asset selection, valuation, trading, and portfolio risk; generic mentions of a market are queued for context instead of automatically labeling labor or housing markets as investment strategy."
+  },
+  {
+    "theme": "Employment, productivity and the real economy",
+    "subtopics": "Labor statistics; unemployment; wages; recession signals; business conditions; productivity; automation and AI-related market narratives.",
+    "pattern": "\\bjobs?\\b|employ\\w*|wages?|recession|productiv\\w*|business|\\bai\\b|automation|economic (?:growth|collapse|crisis|cycle)|\\beconomy\\b|\\blabor\\b|layoffs?|manufacturing|retail sales|consumer sentiment|great depression|\\bmacro\\b|going on strike|great resignation|declining population",
+    "boundary": "Labor, production, business cycles, and AI’s economic effects; an unspecified crisis alone is insufficient."
+  },
+  {
+    "theme": "Geopolitics, trade and supply constraints",
+    "subtopics": "Tariffs; sanctions; energy security; war and financial markets; supply chains; economic relationships among the US, China, Russia and other economies.",
+    "pattern": "tariffs?|sanctions?|\\bwar\\b|russia|ukraine|china|iran|venezuela|taiwan|supply (?:chain|bottleneck)|trade war|globalization|\\bports\\b|food (?:crisis|shortage)|military draft",
+    "boundary": "International conflict, trade, and supply disruptions; the title does not establish causal effects."
+  },
+  {
+    "theme": "Institutions, incentives and political economy",
+    "subtopics": "Capitalism and inequality; regulation and state power; institutional incentives; wealth concentration; redistribution and competing economic arguments.",
+    "pattern": "capitalis\\w*|socialis\\w*|communis\\w*|inequality|regulat\\w*|federal power|government|congress|supreme court|freedom|poverty|oligarchy|secession|tyranny|chevron deference|\\bsec\\b|intellectual property|censorship|central planning|monopol\\w*",
+    "boundary": "Political institutions, rules, distribution, and incentives; rich or wealth alone does not identify a political-economy argument."
+  },
+  {
+    "theme": "Personal finance, retirement and financial resilience",
+    "subtopics": "Saving and budgeting; household debt and auto loans; retirement accounts and pensions; life and health insurance; financial education; wealth-building habits and family decisions.",
+    "pattern": "retir\\w*|\\bpensions?\\b|\\broth\\b|savings?|\\bsavers\\b|life insurance|health insurance|learn to budget|personal financ|household|consumer debt|student loans?|auto loans?|pay off.*debt|get out of debt|your debt|college fund|financial (?:decision|mistakes|success)|earn more or spend less|path to wealth|raise wealthy kids|money.*school|what is a liability",
+    "boundary": "Household decisions and protection; military budgets and budget deficits belong to public finance."
+  },
+  {
+    "theme": "Monetary history and the nature of money",
+    "subtopics": "Money creation and destruction; fiat and sound money; monetary backing; legal tender and Gresham’s law; counterfeiting; historical monetary systems and resets.",
+    "pattern": "fiat|sound money|history of money|origin of.*money|what is money|money (?:is|cannot be|can be|actually).*backed|money is created|monetary systems?|legal tender|gresham|counterfeit|money dies|future of money",
+    "boundary": "Concepts and history of money; contemporary central-bank operations may receive an additional policy label."
+  },
+  {
+    "theme": "Economic reasoning, value and economic education",
+    "subtopics": "Subjective value and value creation; opportunity costs; seen and unseen effects; production and profit; broken-window reasoning; introductory economics books and educational discussions.",
+    "pattern": "\\beconomics\\b|economic laws|value creation|ordinal and subjective|broken window|seen.*unseen|\\bper bylund\\b|money books|books about money|books.*economics",
+    "boundary": "Explanations of economic concepts or educational resources; a vague book recommendation or personal update requires further context."
+  }
+]

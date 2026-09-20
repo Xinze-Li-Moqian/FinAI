@@ -1,41 +1,41 @@
-# FinAI
+# APS1053 — Case Studies in AI in Finance
 
-Learning notes and research questions on financial modelling, reinforcement learning, formal verification, and resource allocation for AI agents.
+Course materials and coursework for APS1053, Fall 2026 · Xinze Li.
 
-## Research question
+This repository contains the instructor materials received so far, readable lecture copies, and my work on the course assignments. [Course requirements and schedule](course-info/README.md) · [Piazza](https://piazza.com/class/mtus078qonq1qb)
 
-How can collaborative AI systems allocate compute and complete verification tasks efficiently, while preserving explicit guarantees about budgets, authorization, and settlement?
+## Assignments
 
-This repository records learning and exploratory work. Proposed mechanisms are not established results, and no improvement in allocation efficiency is claimed without evaluation.
+| Assignment | Weight | Open |
+|---|---|---|
+| AI-Agent / Generative AI homework | 10% | [Instructions and workspace](assignments/generative-ai/README.md) · [Part 1 progress](assignments/generative-ai/part1/README.md#current-progress) |
+| First case presentation | 45% | [Case 44 candidate workspace](assignments/presentations/01-case44-candidate/README.md) |
+| Second case presentation | 45% | [Second presentation workspace](assignments/presentations/02-unassigned/README.md) |
 
-## Contents
+These weights follow the tentative administrative scheme. Case assignments and presentation dates still need instructor confirmation. The syllabus also mentions a final-project alternative; its availability has not been confirmed. See [assessment details](course-info/README.md#assessment-and-deliverables).
 
-- [APS1053 Generative AI homework — Part 1](courses/APS1053/assignments/generative-ai/part1/README.md): transcript preparation, source index and a preliminary theme map.
+Progress and next steps are recorded within each assignment. [All assignments](assignments/README.md) · [Presentation requirements](assignments/presentations/REQUIREMENTS.md) · [Case-selection guide](assignments/presentations/cases/README.md)
 
-- **[APS1053 案例选题指南：23 个案例的 Markdown 阅读版](courses/APS1053/cases/README.md)** — 中文总览、英文原文、书目与原始页码。
+## Materials and books
 
-- [Course overview](courses/README.md): APS1050, APS1053, and Mathematics for AI Safety.
-- [APS1053 presentation workspace](courses/APS1053/presentations/README.md): requirements, candidate Case 44, upstream notebooks, and an executed tabular-RL warm-up.
-- [APS1053 study notes](courses/APS1053/notes.md): course tasks, case selection, and reading priorities.
-- [Material coverage](materials/COVERAGE.md): received packages and outstanding material.
-- [Course material index](materials/INDEX.md): descriptions and local links to original attachments.
-- [RL and preference optimization](reading/rl-and-preference-optimization.md): PPO, GRPO, DPO, and GraphGPO.
-- [Research questions](questions/research-directions.md): allocation, incentives, and verifiable constraints.
-- [Experiments](experiments/README.md): proposed small experiments.
-- [Discussions](discussions/README.md): space for shareable discussion notes.
+- **[Course materials](materials/README.md)** — syllabus, slides, instructor code, supplied transcripts, books, and sample outputs, with an explanation of what is included.
+- **[Reading guide](readings/README.md)** — Markdown lecture copies, concepts, and references for reading in the browser.
+- **[Book availability](materials/README.md#books)** — the supplied Prolog and prompting books are saved locally. The six case-reference textbooks currently have access links; their full texts have not been found in the received files. This includes the book used for Case 44.
+- [Attachment archives](https://github.com/Xinze-Li-Moqian/FinAI/releases/tag/course-materials-2026-09-18) — the packaged downloads accompanying the extracted materials.
 
-## Course materials — browse and download
+## Repository layout
 
-- **[Read the course material in Markdown](knowledge/APS1053/README.md)**
-- **[Browse all received attachments](materials/APS1053/README.md)**: Word, PowerPoint, reference books, Python/Notebook files, prompts, transcripts and sample outputs.
-- **[Download the attachment packages](https://github.com/Xinze-Li-Moqian/FinAI/releases/tag/course-materials-2026-09-18)**
+| Folder | Purpose |
+|---|---|
+| `assignments/` | All assessed work: the AI-Agent homework and both case presentations |
+| `course-info/` | Course rules, schedule, and organization notes |
+| `materials/` | Instructor attachments and sample outputs in their source package structure |
+| `readings/` | Reading guide and Markdown versions of the lectures |
+| `notes/` | My learning notes |
+| `research/` | Optional research ideas and earlier background notes |
 
-These files are uploaded to this repository and its GitHub Release. The original local backup remains separate. Credentials, personal correspondence and administrative records are excluded; a sanitized ZIP replaces the archive containing a credential. Instructor materials retain their attribution and are not presented as original work by this repository's owner. Third-party rights are unchanged.
+Instructor sample results remain in `materials/`; my own code, data, and results stay with the relevant assignment. Rebuildable Part 1 transcript copies live in its Git-ignored `generated/` directory.
 
-Coverage is limited to materials received so far; see [coverage](materials/COVERAGE.md). Conversion and static inspection do not establish correctness or reproducibility.
+`private/` and `.env` are local-only backups and API configuration, excluded from Git. Original material attribution is retained. This is a student workspace, and the files received so far do not represent all materials that may be issued during the term.
 
-## Working method
-
-For each reading, record the problem, assumptions, main mechanism, remaining questions, and relevance to the research question. Keep formal guarantees separate from empirical performance, and proposals separate from implemented or evaluated results.
-
-LeanSwap implementation remains in its own repository. FinAI is for the underlying learning, models, and research questions.
+Our own documentation and code comments are written in English. Preserve source attribution and distinguish proposed ideas, experimental results, and formal guarantees.
