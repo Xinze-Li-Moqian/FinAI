@@ -5,9 +5,9 @@ Inspected on 2026-09-18. The package was downloaded and extracted, and 640 files
 ## Reading order
 
 1. `prompt_reorganized.md`: the fuller natural-language task and constraints.
-2. `prompt_prolog_version.txt`: a Prolog-style representation; determine which statements are executable and which are explanatory.
-3. `compendium_StructuralDescription_relationshiptypes.txt`: entity and relationship structure.
-4. `StructuralAndIntegrityRules_reference.txt` and `PipelineAndIntermediateOutputs_reference.txt`: rules and intermediate outputs. The latter describes itself as reference material, not another actual pipeline input.
+2. `prompt_prolog_version.md`: a Prolog-style representation; determine which statements are executable and which are explanatory.
+3. `compendium_StructuralDescription_relationshiptypes.md`: entity and relationship structure.
+4. `StructuralAndIntegrityRules_reference.md` and `PipelineAndIntermediateOutputs_reference.md`: rules and intermediate outputs. The latter describes itself as reference material, not another actual pipeline input.
 5. Main program, evaluator, and verification program; then existing results in `output/`. The correspondence between sample outputs and the current code version remains unverified.
 
 See the [catalog](../readings/library/COURSE_CATALOG.md) for file links and the [source map](python-source-map.json) for function locations. Original files are in `materials/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/`.

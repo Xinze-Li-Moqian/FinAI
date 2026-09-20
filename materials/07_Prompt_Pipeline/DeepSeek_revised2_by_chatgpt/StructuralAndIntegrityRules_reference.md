@@ -1,11 +1,11 @@
 StructuralAndIntegrityRules.txt
 STRUCTURAL AND INTEGRITY RULES
-Split out of compendium_StructuralDescription_relationshiptypes.txt
+Split out of compendium_StructuralDescription_relationshiptypes.md
 
 [Editorial note: this document is a reference only. It is not being used as
 an input to the pipeline-construction prompt. It holds the 17 rules
 originally gathered under a single "Structural and Integrity Rules" heading
-in compendium_StructuralDescription_relationshiptypes.txt, split into two
+in compendium_StructuralDescription_relationshiptypes.md, split into two
 groups: rules stating properties of the finished ER model (checkable by
 inspecting the model itself), and rules constraining pipeline/LLM behavior
 during processing (checkable only by watching the process, not the finished
@@ -36,7 +36,7 @@ second independent source of it:
 
 The remaining rules below (1, 2, 4, 5, 6, 7, 10, 11, 12, 13, 14, 16, 17)
 overlap in substance with material already present in
-compendium_StructuralDescription_relationshiptypes.txt (their content
+compendium_StructuralDescription_relationshiptypes.md (their content
 motivated several of that document's Definitions, its Section 2 "Junction
 Tables and Runtime Buckets," and its ER cardinality tables) and, to varying
 degrees, with prompt_reorganized.md's own Structural Rules and Objective —
@@ -61,7 +61,7 @@ Compendium
 → Canonical Argument Conclusion
 → premises, evidence, devices, evolution, provenance
 
-[Already reflected in compendium_StructuralDescription_relationshiptypes.txt,
+[Already reflected in compendium_StructuralDescription_relationshiptypes.md,
 Section 1.A and Section 3 (Nested Hierarchy Structure of Entities), and in
 prompt_reorganized.md's Publication Architecture definition and Output
 Fidelity Rules ("Canonical CC chapters are authoritative").]
@@ -84,7 +84,7 @@ b. theme_index.md
 Neither index is allowed to become a second authoritative copy of the full
 compendium text.
 
-[Already reflected in compendium_StructuralDescription_relationshiptypes.txt,
+[Already reflected in compendium_StructuralDescription_relationshiptypes.md,
 Section 1.A and 1.B, and in prompt_reorganized.md's Theme Index / Theme View
 definition.]
 
@@ -103,7 +103,7 @@ A shared Theme does not automatically place the speech under every CC
 associated with that Theme.
 
 [Restates cardinalities C8–C11, C31–C32 in
-compendium_StructuralDescription_relationshiptypes.txt, Section 5.A; the
+compendium_StructuralDescription_relationshiptypes.md, Section 5.A; the
 "all default pair memberships under the same primary CC" clause and the
 shared-Theme clause are reflected in that document's Entity-Relationship
 Cardinalities bullet list.]
@@ -121,7 +121,7 @@ Secondary contributions:
 – must not alter the speech's primary CC assignment.
 
 [Restates cardinality C27 in
-compendium_StructuralDescription_relationshiptypes.txt, Section 5.A; the
+compendium_StructuralDescription_relationshiptypes.md, Section 5.A; the
 detail clauses are reflected in that document's Entity-Relationship
 Cardinalities bullet list.]
 
@@ -142,7 +142,7 @@ The runtime CC × T bucket:
 – is not contained inside a speech.
 
 [This is the authoritative source for
-compendium_StructuralDescription_relationshiptypes.txt, Section 2, "Junction
+compendium_StructuralDescription_relationshiptypes.md, Section 2, "Junction
 Tables and Runtime Buckets," which cross-references this rule rather than
 restating it.]
 
@@ -156,7 +156,7 @@ as related propositions, but they must not share one canonical argument ID
 unless they belong to the same exact pair.
 
 [Restates cardinalities C6–C7 in
-compendium_StructuralDescription_relationshiptypes.txt, Section 5.A; also
+compendium_StructuralDescription_relationshiptypes.md, Section 5.A; also
 reflected in prompt_reorganized.md's Entity-Relationship Cardinalities
 bullet list.]
 
@@ -170,7 +170,7 @@ Evolution Over Time statement must be traceable to source speech records.
 Relationship-role records must likewise be traceable to the exact source
 contributions from which they were deterministically derived.
 
-[Reflected in compendium_StructuralDescription_relationshiptypes.txt's
+[Reflected in compendium_StructuralDescription_relationshiptypes.md's
 Provenance role definition and in prompt_reorganized.md's Provenance
 definition.]
 
@@ -198,7 +198,7 @@ supplied CC provides a meaningful argumentative home:
 – is not placed in an "Uncategorised Speeches" chapter.
 
 [Restates cardinality C9 in
-compendium_StructuralDescription_relationshiptypes.txt, Section 5.A; also
+compendium_StructuralDescription_relationshiptypes.md, Section 5.A; also
 reflected in prompt_reorganized.md's Output Fidelity Rules and Phase 4
 description.]
 

@@ -93,7 +93,7 @@ Youtube_AI\transcripts_ids
 Each transcript will be a text file named:
 
 ```text
-YYYYMMDD_VIDEOID.txt
+YYYYMMDD_VIDEOID.md
 ```
 
 The directory `transcripts_upto_20260514` contains video transcripts up to **2026-05-14**. The notebook downloads transcripts starting from the most recent one.
@@ -190,7 +190,7 @@ Youtube_AI_students\transcripts
 The video transcripts will be saved with filenames in this format:
 
 ```text
-YYYYMMDD_VIDEOTITLE.txt
+YYYYMMDD_VIDEOTITLE.md
 ```
 
 ## Step 7: Prepare DeepSeek for Part 2

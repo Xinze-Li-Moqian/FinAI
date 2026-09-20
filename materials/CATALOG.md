@@ -6,7 +6,7 @@ The extracted files listed below can be accessed directly.
 
 ## 00_Original_Archives
 
-- [00_Original_Archives/HowToUnzipARAR.txt](00_Original_Archives/HowToUnzipARAR.txt)
+- [00_Original_Archives/HowToUnzipARAR.md](00_Original_Archives/HowToUnzipARAR.md)
 - [00_Original_Archives/README.md](00_Original_Archives/README.md)
 
 ## 01_Course_Info
@@ -21,12 +21,12 @@ The extracted files listed below can be accessed directly.
 
 ## 03_Generative_AI_Assignment
 
-- [03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt](03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt)
+- [03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.md](03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.md)
 - [03_Generative_AI_Assignment/Youtube_AI_students/1.youtube_transcripts_YYYYMMDD_identifier.ipynb](03_Generative_AI_Assignment/Youtube_AI_students/1.youtube_transcripts_YYYYMMDD_identifier.ipynb)
 - [03_Generative_AI_Assignment/Youtube_AI_students/2.youtube_id_title_date_mapper.py](03_Generative_AI_Assignment/Youtube_AI_students/2.youtube_id_title_date_mapper.py)
 - [03_Generative_AI_Assignment/Youtube_AI_students/3.rename_transcripts.py](03_Generative_AI_Assignment/Youtube_AI_students/3.rename_transcripts.py)
 - [Part 1 instructions — formatted English reading copy](03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md)
-- [03_Generative_AI_Assignment/Youtube_AI_students/conda_list.txt](03_Generative_AI_Assignment/Youtube_AI_students/conda_list.txt)
+- [03_Generative_AI_Assignment/Youtube_AI_students/conda_list.md](03_Generative_AI_Assignment/Youtube_AI_students/conda_list.md)
 - [03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api.yml](03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api.yml)
 - [03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api_mac.yml](03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api_mac.yml)
 - [03_Generative_AI_Assignment/Youtube_AI_students/transcripts_ids_upto_20260514/20211103_6InGALCVKIk.md](<../assignments/generative-ai/notes/Transcripts/20211103_AND... It Begins. The Fed Starts the Taper, Sets Off Countdown to Crash_6InGALCVKIk.md>)
@@ -985,11 +985,11 @@ The extracted files listed below can be accessed directly.
 ## 04_Prolog_and_Prompts
 
 - [04_Prolog_and_Prompts/PromptProlog/Other/Prompt Engineering in Practice MEAP V06 -- Richard Davies, Rafael Fischer -- all 11 chapters, 2026 -- Manning Publications -- 501a9e07b8c604ed1b41316d399a516a -- Anna’s Archive.pdf](04_Prolog_and_Prompts/PromptProlog/Other/Prompt%20Engineering%20in%20Practice%20MEAP%20V06%20--%20Richard%20Davies%2C%20Rafael%20Fischer%20--%20all%2011%20chapters%2C%202026%20--%20Manning%20Publications%20--%20501a9e07b8c604ed1b41316d399a516a%20--%20Anna%E2%80%99s%20Archive.pdf)
-- [04_Prolog_and_Prompts/PromptProlog/Other/PromptStructure.txt](04_Prolog_and_Prompts/PromptProlog/Other/PromptStructure.txt)
+- [04_Prolog_and_Prompts/PromptProlog/Other/PromptStructure.md](04_Prolog_and_Prompts/PromptProlog/Other/PromptStructure.md)
 - [04_Prolog_and_Prompts/PromptProlog/Programming_in_Prolog.pdf](04_Prolog_and_Prompts/PromptProlog/Programming_in_Prolog.pdf)
 - [04_Prolog_and_Prompts/PromptProlog/PrologAndPrompts.docx](04_Prolog_and_Prompts/PromptProlog/PrologAndPrompts.docx)
 - [04_Prolog_and_Prompts/PromptProlog/Prompting_Claude_A_Logic_Programmers_Guide.pptx](04_Prolog_and_Prompts/PromptProlog/Prompting_Claude_A_Logic_Programmers_Guide.pptx)
-- [04_Prolog_and_Prompts/ReadingAssignmentOnPromptsAndProlog.txt](04_Prolog_and_Prompts/ReadingAssignmentOnPromptsAndProlog.txt)
+- [04_Prolog_and_Prompts/ReadingAssignmentOnPromptsAndProlog.md](04_Prolog_and_Prompts/ReadingAssignmentOnPromptsAndProlog.md)
 
 ## 06_Research_Drafts
 
@@ -1008,19 +1008,19 @@ The extracted files listed below can be accessed directly.
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/Prompt Engineering in Practice MEAP V06 -- Richard Davies, Rafael Fischer -- all 11 chapters, 2026 -- Manning Publications -- 501a9e07b8c604ed1b41316d399a516a -- Anna’s Archive.pdf](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/Prompt%20Engineering%20in%20Practice%20MEAP%20V06%20--%20Richard%20Davies%2C%20Rafael%20Fischer%20--%20all%2011%20chapters%2C%202026%20--%20Manning%20Publications%20--%20501a9e07b8c604ed1b41316d399a516a%20--%20Anna%E2%80%99s%20Archive.pdf)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptEngineeringLLMBerryman.epub](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptEngineeringLLMBerryman.epub)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptEngineeringLLMBerryman.pdf](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptEngineeringLLMBerryman.pdf)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptStructure.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptStructure.txt)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptStructure.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Other/PromptStructure.md)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Programming_in_Prolog.pdf](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Programming_in_Prolog.pdf)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/PrologAndPrompts.docx](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/PrologAndPrompts.docx)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/PrologPromptArchitecture.docx](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/PrologPromptArchitecture.docx)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Prompting_Claude_A_Logic_Programmers_Guide.pptx](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/Document/PromptProlog/Prompting_Claude_A_Logic_Programmers_Guide.pptx)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/PipelineAndIntermediateOutputs_reference.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/PipelineAndIntermediateOutputs_reference.txt)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/SettingTheSpyderIntepreter.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/SettingTheSpyderIntepreter.txt)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/StructuralAndIntegrityRules_reference.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/StructuralAndIntegrityRules_reference.txt)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/compendium_StructuralDescription_relationshiptypes.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/compendium_StructuralDescription_relationshiptypes.txt)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/PipelineAndIntermediateOutputs_reference.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/PipelineAndIntermediateOutputs_reference.md)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/SettingTheSpyderIntepreter.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/SettingTheSpyderIntepreter.md)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/StructuralAndIntegrityRules_reference.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/StructuralAndIntegrityRules_reference.md)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/compendium_StructuralDescription_relationshiptypes.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/compendium_StructuralDescription_relationshiptypes.md)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_api.yml](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_api.yml)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_program2_verify_claims_revised.py](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_program2_verify_claims_revised.py)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_speech_processing_program1_notree_revised2.py](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_speech_processing_program1_notree_revised2.py)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/note_on_deepseek_program2_verify_claims.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/note_on_deepseek_program2_verify_claims.txt)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/note_on_deepseek_program2_verify_claims.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/note_on_deepseek_program2_verify_claims.md)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/checkpoints/phase1/20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.json](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/checkpoints/phase1/20250811_Shocking%20Report%20The%20Treasury%20Needs%20%241.6%20Trillion%20by%20End%20of%20Year.json)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/checkpoints/phase1/20250813_What I Learned Losing a Million Dollars.json](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/checkpoints/phase1/20250813_What%20I%20Learned%20Losing%20a%20Million%20Dollars.json)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/checkpoints/phase1/20250814_It's Time to Get Your Wealth Outside the System.json](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/checkpoints/phase1/20250814_It%27s%20Time%20to%20Get%20Your%20Wealth%20Outside%20the%20System.json)
@@ -1532,7 +1532,7 @@ The extracted files listed below can be accessed directly.
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/logs/pipeline.log](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/logs/pipeline.log)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/theme_index.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/theme_index.md)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/unverifiable_claims.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/output/unverifiable_claims.md)
-- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/prompt_prolog_version.txt](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/prompt_prolog_version.txt)
+- [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/prompt_prolog_version.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/prompt_prolog_version.md)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/prompt_reorganized.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/prompt_reorganized.md)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/standalone_evaluation_script_notree_revised2.py](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/standalone_evaluation_script_notree_revised2.py)
 - [07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/transcripts/20250811_Shocking Report The Treasury Needs $1.6 Trillion by End of Year.md](07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/transcripts/20250811_Shocking%20Report%20The%20Treasury%20Needs%20%241.6%20Trillion%20by%20End%20of%20Year.md)

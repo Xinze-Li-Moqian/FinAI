@@ -1,4 +1,4 @@
-compendium_StructuralDescription_relationshiptypes.txt
+compendium_StructuralDescription_relationshiptypes.md
 
 
 Notation

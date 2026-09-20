@@ -9,8 +9,8 @@ Published course attachments are in `materials/`; reading copies are in `reading
 ## Files expected from the package
 
 - `prompt_reorganized.md`
-- `prompt_prolog_version.txt`
-- `compendium_StructuralDescription_relationshiptypes.txt`
+- `prompt_prolog_version.md`
+- `compendium_StructuralDescription_relationshiptypes.md`
 - `deepseek_speech_processing_program1_notree_revised2.py`
 
 Record hashes and preserve originals before making modifications. Inspect code without importing it or making paid API requests.

@@ -63,7 +63,7 @@ Install the pinned download dependencies in an isolated environment:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
+python -m pip install -r requirements.md
 ```
 
 Resume a small batch after access is available. Already downloaded IDs are skipped; blocking stops the run:
@@ -75,7 +75,7 @@ python scripts/download_gap.py --limit 2 --delay 25
 Alternatively, use the existing `uv` environment:
 
 ```bash
-uv run --with-requirements requirements.txt python scripts/download_gap.py --limit 2 --delay 25
+uv run --with-requirements requirements.md python scripts/download_gap.py --limit 2 --delay 25
 ```
 
 Rebuild and check the local corpus, then refresh the title-theme reports. These steps use only the standard library and make no network or paid API requests:
@@ -101,7 +101,7 @@ The personal DeepSeek key belongs only in the repository-root `.env`, using `DEE
 
 ## Assignment sources
 
-- [Part 1 handout](../../../materials/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt)
+- [Part 1 handout](../../../materials/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.md)
 - [Instructor instructions](../../../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md)
 - [Assessment and course arrangements](../../../course-info/README.md)
 

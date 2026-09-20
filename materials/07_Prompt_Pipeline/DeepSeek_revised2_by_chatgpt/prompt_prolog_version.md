@@ -113,9 +113,9 @@
 % ============================================================
 
 % --- Attached Files ---
-fact(requirements_file, "conda_list.txt").
-fact(example_input, "20211111_The Cost of Money.txt").
-fact(structural_description_file, "compendium_StructuralDescription_relationshiptypes.txt").
+fact(requirements_file, "conda_list.md").
+fact(example_input, "20211111_The Cost of Money.md").
+fact(structural_description_file, "compendium_StructuralDescription_relationshiptypes.md").
 fact(governs, structural_description_file, over(implementation_conflicts)).
 
 % --- Definitions ---
@@ -146,7 +146,7 @@ fact(controlled_vocabulary_closed(relationship_type)).
 
 % --- Inputs ---
 fact(input_type, plain_text_txt).
-fact(filename_pattern, "YYYYMMDD_Title.txt").
+fact(filename_pattern, "YYYYMMDD_Title.md").
 fact(corpus_size_approx, 900).
 fact(title_is_hint_not_literal_cc).
 

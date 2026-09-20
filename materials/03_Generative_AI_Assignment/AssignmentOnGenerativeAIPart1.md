@@ -4,7 +4,7 @@ Youtube_AI_students.rarDownload Youtube_AI_students.rar
 
 To unzip the files you may use this free software: https://www.7-zip.org/download.html
 
-Follow the steps in INSTRUCTIONS.txt
+Follow the steps in INSTRUCTIONS.md
 
 Let us know if you have issues via Piazza, but we checked the downloading program and it is working fine.
 

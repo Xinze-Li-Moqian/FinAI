@@ -1,9 +1,9 @@
 PipelineAndIntermediateOutputs.txt
 PIPELINE MECHANICS AND INTERMEDIATE-OUTPUT RECORDS
-Split out of compendium_StructuralDescription_relationshiptypes.txt
+Split out of compendium_StructuralDescription_relationshiptypes.md
 
 [Editorial note: this document holds everything from the original
-compendium_StructuralDescription_relationshiptypes.txt that describes
+compendium_StructuralDescription_relationshiptypes.md that describes
 pipeline processing, phase-by-phase mechanics, and intermediate/checkpoint
 records — as opposed to the entity-relationship (ER) structure of the final
 compendium model, which remains in compendium_StructuralDescription_

@@ -51,7 +51,7 @@ The program must be designed to minimise unnecessary LLM discretion and maximise
 
 ### Many-to-Many Relationship Materialization
 
-For every Many-to-Many relationship in the Entity-Relation model described in compendium_StructuralDescription_relationshiptypes.txt, determine whether its membership depends on a judgment call — canonical-entity discovery (deduplicating local claims/themes into canonical CCs and Themes) or speech-to-CC classification (selecting a speech's best argumentative home) — rather than on deterministic computation. Whenever a judgment call is involved, materialize that relationship's membership as a persistent artifact tagged with a canonical_model_version (a content-derived version, not a manually incremented one — it must change automatically if any canonical entity, classification, relationship type, relationship explanation, pair definition, classification prompt/schema version, or bucket prompt/schema version changes). Downstream phases must consume this artifact and must not: (a) re-derive membership from raw speech text, or (b) reinterpret, upgrade, or reassign a stored relationship type once accepted. Any phase consuming an artifact must first confirm its canonical_model_version matches the current one; on mismatch, regenerate rather than reuse.
+For every Many-to-Many relationship in the Entity-Relation model described in compendium_StructuralDescription_relationshiptypes.md, determine whether its membership depends on a judgment call — canonical-entity discovery (deduplicating local claims/themes into canonical CCs and Themes) or speech-to-CC classification (selecting a speech's best argumentative home) — rather than on deterministic computation. Whenever a judgment call is involved, materialize that relationship's membership as a persistent artifact tagged with a canonical_model_version (a content-derived version, not a manually incremented one — it must change automatically if any canonical entity, classification, relationship type, relationship explanation, pair definition, classification prompt/schema version, or bucket prompt/schema version changes). Downstream phases must consume this artifact and must not: (a) re-derive membership from raw speech text, or (b) reinterpret, upgrade, or reassign a stored relationship type once accepted. Any phase consuming an artifact must first confirm its canonical_model_version matches the current one; on mismatch, regenerate rather than reuse.
 
 This directive's concrete embodiment in the present pipeline is the CC × Theme junction table (cc_theme_pairs.json) and the Speech × Canonical CC classification artifact (speech_classifications.json) from which it is deterministically derived; see the Objective bullet on the CC × T junction table (QUERY), Phase 3 and Phase 5 (QUERY — Query Elaboration, Five-Phase Pipeline), and Entity-Relationship Cardinalities (RULES — Structural Rules).
 
@@ -90,7 +90,7 @@ The values of MODEL, BASE_URL, API_KEY_ENV_VAR, and MIN_MAX_TOKENS are declared 
 - **API_KEY_ENV_VAR** names the environment variable the key must be read from. The key itself must be loaded at runtime from a `.env` file via `python-dotenv`; it must never be hardcoded, logged, or embedded in checkpoint or output files.
 - **MIN_MAX_TOKENS** sets a floor enforced on every LLM call (see LLM Prompt Rules: "Always specify max_tokens ≥ 8 000 on every API call") — a truncated response is a process failure, not a property of a finished compendium, which is why the floor lives here rather than in Rules.
 
-API compatibility: The DeepSeek V4 Flash endpoint is OpenAI-compatible. Use the openai Python SDK (already in conda_list.txt) with base_url and api_key overrides — do not use a custom HTTP client.
+API compatibility: The DeepSeek V4 Flash endpoint is OpenAI-compatible. Use the openai Python SDK (already in conda_list.md) with base_url and api_key overrides — do not use a custom HTTP client.
 
 Temperature: Set temperature=0 (see TEMPERATURE in FACTS — Configuration Block) on all LLM calls to maximise reproducibility and determinism. Do not expose temperature as a user-configurable parameter.
 
@@ -113,8 +113,8 @@ Thinking mode: Disable the model's extended-thinking/reasoning mode on every API
 ## Compatibility Rules
 
 - Compatible with Python Spyder IDE (no top-level asyncio.run(); use synchronous calls or a \_\_main\_\_ guard).
-- Use only libraries present in conda_list.txt.
-- Do not import any library not listed in conda_list.txt.
+- Use only libraries present in conda_list.md.
+- Do not import any library not listed in conda_list.md.
 - Use os.path and pathlib for all file paths to ensure Windows/POSIX compatibility. Never hard-code path separators.
 - Avoid f-strings with backslashes inside the braces (Python < 3.12 incompatibility). Use a variable to hold the value before embedding it in the f-string.
 
@@ -135,10 +135,10 @@ Facts state the domain's vocabulary and the static, given data of the pipeline �
 
 ## Attached Files
 
-- **Requirements:** conda_list.txt
-- **Example input:** 20211111_The Cost of Money.txt
+- **Requirements:** conda_list.md
+- **Example input:** 20211111_The Cost of Money.md
 - **Example outputs:** compendium_model.md, unverifiable_claims_model.md, theme_index.md, integrity_report.json
-- **Output structure description:** compendium_StructuralDescription_relationshiptypes.txt — defines the nested hierarchy of levels/entities, their roles, their relationsips and entity-relationship cardinalities.
+- **Output structure description:** compendium_StructuralDescription_relationshiptypes.md — defines the nested hierarchy of levels/entities, their roles, their relationsips and entity-relationship cardinalities.
 - Current implementation for comparison (when supplied): speech_processing_program_notree.py. If the implementation conflicts with this specification, this specification governs.
 
 ## Definitions
@@ -203,11 +203,11 @@ The explicit argumentative role that a categorised speech plays relative to its 
 
 ## Inputs
 
-**Type:** Plain text (.txt)
+**Type:** Markdown (.md)
 
 **Location:** transcripts/ folder
 
-**Filename structure:** YYYYMMDD_Title.txt
+**Filename structure:** YYYYMMDD_Title.md
 
 - **YYYYMMDD** = date of the speech (used to populate Evolution Over Time)
 - **Title** = speech title (a strong hint of the central claim, not a literal statement of it)
@@ -304,12 +304,12 @@ Rules state properties a correct finished output must have — content checkable
 
 ### Entity-Relationship Cardinalities
 
-Defined authoritatively in compendium_StructuralDescription_relationshiptypes.txt (Section 5, Tables A and B). Key constraints:
+Defined authoritatively in compendium_StructuralDescription_relationshiptypes.md (Section 5, Tables A and B). Key constraints:
 
 - Canonical CC and canonical Theme have a many-to-many relationship implemented through cc_theme_pairs.json: one CC may have many Themes, and one Theme may occur under many CCs.
 - One canonical CC × T pair → one authoritative rendered Theme section and one or more canonical argument conclusions. The pair/bucket is a junction and aggregation object, not a paragraph and not a child entity stored inside a speech.
 - One confidently categorised speech → exactly one primary canonical CC and 1–3 canonical Themes; one uncategorised speech → zero CCs and zero valid buckets. Default runtime bucket memberships are (primary CC, each assigned Theme). Global Theme sharing does not by itself create multi-CC speech assignment. All default CC × T pair memberships for a categorised speech are under that same primary CC.
-- One CC × T pair → many speech contributions; one speech → one or more bucket memberships under its primary CC. Use a separate secondary_cc_contributions relation only when explicitly enabled and supported at the argument level. A secondary contribution applies to a specific local argument, premise, evidence item, or rhetorical device — not automatically to the whole speech — and requires its own provenance and rationale; it must never alter the speech's primary CC assignment. The persistent record schema for this relation is defined in compendium_StructuralDescription_relationshiptypes.txt, Section 1.D (secondary_cc_contributions.json) and Section 5.A (cardinalities C27, C37).
+- One CC × T pair → many speech contributions; one speech → one or more bucket memberships under its primary CC. Use a separate secondary_cc_contributions relation only when explicitly enabled and supported at the argument level. A secondary contribution applies to a specific local argument, premise, evidence item, or rhetorical device — not automatically to the whole speech — and requires its own provenance and rationale; it must never alter the speech's primary CC assignment. The persistent record schema for this relation is defined in compendium_StructuralDescription_relationshiptypes.md, Section 1.D (secondary_cc_contributions.json) and Section 5.A (cardinalities C27, C37).
 - Every canonical argument conclusion belongs to exactly one CC × T pair in the canonical model, though source-level arguments may contribute to more than one canonical conclusion only when the mappings explicitly record that fact. Near-identical canonical argument conclusions arising in different CC × T pair contexts may be linked as related propositions, but must not share one canonical argument ID unless they belong to the same exact pair.
 - Every canonical argument conclusion must retain at least one Evidence & Support item (C18: 1 → 1..many). Phase 5 must reject a canonical argument conclusion — not render it with a placeholder such as "no evidence item was retained" — if bucket assembly and synthesis leave it with zero validated evidence items.
 - One speech → 0..many unverifiable claims (C16).
@@ -342,7 +342,7 @@ The Query is the actual task being requested — everything above states the voc
 
 ## Objective
 
-Write a Python program using the libraries available in conda_list.txt that:
+Write a Python program using the libraries available in conda_list.md that:
 
 - Processes a folder of single-speaker finance, economics, and investment transcripts into a structured compendium and a structured list of unverifiable claims.
 - Uses a Large Language Model as a financial speech-analysis assistant in a five-phase "map-reduce-summarisation" pipeline with phases: Summarize → Inventory → Consolidate → Remap → Assemble.
@@ -363,7 +363,7 @@ Files: compendium.md, theme_index.md, unverifiable_claims.md, and integrity_repo
 
 ### compendium.md
 
-Must follow the structure of compendium_model.md and the authoritative hierarchy in compendium_StructuralDescription_relationshiptypes.txt. The rendered hierarchy is Compendium → Canonical CC chapter → Canonical Theme section → canonical argument conclusion. Every CC chapter and every CC × T section must have a stable, deterministic Markdown/HTML anchor that can be linked from theme_index.md.
+Must follow the structure of compendium_model.md and the authoritative hierarchy in compendium_StructuralDescription_relationshiptypes.md. The rendered hierarchy is Compendium → Canonical CC chapter → Canonical Theme section → canonical argument conclusion. Every CC chapter and every CC × T section must have a stable, deterministic Markdown/HTML anchor that can be linked from theme_index.md.
 
 Each canonical argument conclusion additionally renders a **Speech-to-Chapter Relationship Roles** subsection: a deterministically generated list of every controlled relationship type (see FACTS — Speech-to-Canonical-CC Relationship Type) represented among the argument's validated source contributions, with the source speech filenames, source-contribution IDs, and stored relationship explanations for each role. Every one of the argument's own source contributions must appear under exactly one role — none may be silently left out of the subsection, and none may appear under a role other than its validated type. Where the represented roles include qualification or opposition contributions, the argument also presents them in a **Disagreements and Qualifications** subsection so that limiting, conditioning, or contrary contributions remain visible as such rather than being absorbed into the affirmative synthesis. The checkable requirements for both subsections are stated in RULES — Structural Rules, Relationship-Type Integrity; the behavioral constraint on the LLM while producing them is stated in DIRECTIVES — Relationship-Type Preservation.
 
@@ -419,7 +419,7 @@ For each transcript, call the LLM once to produce a per-speech structured JSON s
 - Notable analogies and rhetorical devices
 - Unverifiable claims (SPEECH_REF, CLAIM, REASON, MEMORY), retained in full regardless of the MEMORY value
 
-Output format: Each Phase 1 result must be saved as a JSON file (one file per speech) in checkpoints/phase1/. The JSON schema must mirror the per-speech fields in compendium_StructuralDescription_relationshiptypes.txt (Section 5.B, S1–S11) and must also include speech_id, date, source_hash, source_excerpt/source_match fields, and a schema_version. Validate required keys and value types before writing the checkpoint.
+Output format: Each Phase 1 result must be saved as a JSON file (one file per speech) in checkpoints/phase1/. The JSON schema must mirror the per-speech fields in compendium_StructuralDescription_relationshiptypes.md (Section 5.B, S1–S11) and must also include speech_id, date, source_hash, source_excerpt/source_match fields, and a schema_version. Validate required keys and value types before writing the checkpoint.
 
 Phase 1 must not canonicalise, rename, merge, or discard local cc, t, argument, premise, or evidence wording. It is a source-analysis phase, not a corpus-normalisation phase.
 
@@ -440,7 +440,7 @@ Discover canonical Central Claims (CC) and canonical Themes (T) separately from 
 - Cross-indexing: model CC and Theme as a many-to-many relationship through an explicit junction record for each observed CC × T pair. Each pair must have a stable pair_id, cc_id, theme_id, source_speech_ids, and later its canonical argument_conclusion_ids.
 - Canonical mappings: save local_cc → canonical_cc and local_t → canonical_t mapping records, including similarity/confidence, rationale, aliases, and source speech IDs. Canonical IDs must be unique and referentially valid.
 - Speech classification: for every speech, return exactly one primary cc_id when confidence is at or above CLASSIFICATION_CONFIDENCE_MIN, plus 1–3 canonical theme_ids. Also return confidence scores and a concise rationale. If no CC clears the threshold, classify the speech as uncategorised rather than forcing a poor match.
-- Bucket membership: by default, create one membership for each (speech.primary_cc_id, assigned_theme_id) pair. Do not infer that a speech belongs to multiple CCs merely because a Theme is globally shared. Optional secondary cross-CC contributions require a separate, explicitly enabled mapping at the argument level, per the secondary_cc_contributions.json schema in compendium_StructuralDescription_relationshiptypes.txt, Section 1.D.
+- Bucket membership: by default, create one membership for each (speech.primary_cc_id, assigned_theme_id) pair. Do not infer that a speech belongs to multiple CCs merely because a Theme is globally shared. Optional secondary cross-CC contributions require a separate, explicitly enabled mapping at the argument level, per the secondary_cc_contributions.json schema in compendium_StructuralDescription_relationshiptypes.md, Section 1.D.
 - Optional grammatical decomposition: where semantically reliable, store each canonical CC as subject_theme_ids + predicate + object_theme_ids in addition to its full proposition. This decomposition supports analysis but does not replace the full CC text and must not be forced when the claim has a different logical form.
 - Canonical stability: compute a semantic fingerprint for every canonical CC and Theme. When reconsolidating, preserve an old ID where the entity remains materially the same; otherwise record superseded_by / merged_from relationships so links and prior checkpoints can be audited.
 
