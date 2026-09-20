@@ -6,6 +6,8 @@
 
 ## Markdown reading copies
 
+- [Generative AI Part 1 — step-by-step instructions](../../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md)
+
 **[Case selection guide: compare 23 cases by topic](../../assignments/presentations/cases/README.md)** — English explanations, expandable source excerpts, original page references, and reading links.
 
 - [ADMINISTRATIVE_APS1053](documents/ADMINISTRATIVE_APS1053/index.md)

@@ -13,12 +13,13 @@ Updated 2026-09-20. Part 1 is in progress; this is not a submission record.
 - **980 transcripts prepared:** 952 supplied by the instructor and 28 additional downloads. All titles match; no files are empty or byte-identical duplicates; generated copies match source SHA-256 checksums.
 - **12 of 40 update candidates remain.** The latest retries returned `IpBlocked`. The fixed update window is 2026-05-15 through 2026-09-18; see the [per-video backlog](manifests/BACKLOG.md) and [download log](manifests/download_log.json).
 - **Theme list prepared:** 16 themes from 1,468 channel titles. There are 185 unmatched titles in the review queue; 119 have prepared transcripts. Keyword matches also need transcript-level evidence review.
+- **First reading pilot completed:** [Three QT/QE transcripts](analysis/monetary-policy-pilot/README.md) reviewed, with 10 selected speaker-attributed claims and source-line evidence. All three already had the correct primary-theme suggestion; the unmatched-title queue is unchanged. This is a learning sample, not the Part 2 submission or external fact-checking.
 - **Piazza:** the download problem was posted on 2026-09-20, as reported by the user. An instructor reply has not been checked.
 - **DeepSeek:** the personal key is configured locally. Account credit and API authentication have not been verified; no paid API calls have been made for this work. The instructor requests CAD 12–15 of credit for later work.
 
 ### Next steps
 
-1. Review a small group of related transcripts, correcting theme labels and preserving the author's claims, dates, and supporting passages.
+1. Read the [completed monetary-policy pilot](analysis/monetary-policy-pilot/README.md), then apply the same method to an available transcript with an ambiguous title. Preserve the author's claims, dates, uncertainty, and supporting passages.
 2. Resume the remaining downloads when access is available or follow the instructor's Piazza guidance; then rebuild the corpus and theme index.
 3. Confirm the detailed Part 2 requirements, submission arrangements, and deadline before running the full knowledge-base workflow and evaluation.
 
@@ -28,7 +29,7 @@ Updated 2026-09-20. Part 1 is in progress; this is not a submission record.
 |---|---|
 | 2026-09-18 | Prepared the Python environment, indexed 952 supplied transcripts and 1,468 titles, downloaded 16 additions, and built the first merged corpus and theme map |
 | 2026-09-19 | Downloaded 12 more transcripts, expanded the taxonomy to 16 themes, prepared the review queue, configured the local API key, and validated the 980-transcript corpus |
-| 2026-09-20 | Retried blocked downloads without new files; recorded the user-reported Piazza post; reorganized the workspace, rebuilt the corpus, and revalidated paths and checksums |
+| 2026-09-20 | Retried blocked downloads without new files; recorded the user-reported Piazza post; reorganized and revalidated the workspace; completed a three-transcript reading pilot with 10 traceable claims |
 
 ## Start here
 
@@ -36,6 +37,7 @@ Updated 2026-09-20. Part 1 is in progress; this is not a submission record.
 |---|---|
 | Remaining downloads and latest retry | [Download backlog](manifests/BACKLOG.md) |
 | Exact corpus counts and quality checks | [Inventory](manifests/inventory.json) |
+| Study a transcript-level example | [QT/QE reading pilot](analysis/monetary-policy-pilot/README.md) and [structured claims](analysis/monetary-policy-pilot/claims.json) |
 | Read the thematic findings | [Theme map](analysis/THEMES.md) and [review notes](analysis/THEME_REVIEW.md) |
 | Review ambiguous titles | [Review queue](analysis/title_review_queue.csv) |
 | Trace a transcript to its source | [Transcript manifest](manifests/transcript_manifest.csv) |
@@ -100,7 +102,7 @@ The personal DeepSeek key belongs only in the repository-root `.env`, using `DEE
 ## Assignment sources
 
 - [Part 1 handout](../../../materials/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt)
-- [Instructor instructions](../../../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.txt)
+- [Instructor instructions](../../../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md)
 - [Assessment and course arrangements](../../../course-info/README.md)
 
 Theme matches are navigation aids. Read the transcript and preserve supporting passages before extracting claims for the later knowledge base.

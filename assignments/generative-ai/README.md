@@ -8,7 +8,7 @@ The complete homework prepares a structured investment-channel knowledge base wi
 
 Open the [Part 1 workspace](part1/README.md) for scripts, data, theme analysis, and reproducible commands. Its [progress section](part1/README.md#current-progress) records completed work, blockers, and next steps.
 
-Sources: [Part 1 handout](../../materials/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt) · [Instructor steps 1–7](../../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.txt).
+Sources: [Part 1 handout](../../materials/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt) · [Instructor steps 1–7](../../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md).
 
 ## Later knowledge-base work
 

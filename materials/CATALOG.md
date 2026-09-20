@@ -25,7 +25,7 @@ The extracted files listed below can be accessed directly.
 - [03_Generative_AI_Assignment/Youtube_AI_students/1.youtube_transcripts_YYYYMMDD_identifier.ipynb](03_Generative_AI_Assignment/Youtube_AI_students/1.youtube_transcripts_YYYYMMDD_identifier.ipynb)
 - [03_Generative_AI_Assignment/Youtube_AI_students/2.youtube_id_title_date_mapper.py](03_Generative_AI_Assignment/Youtube_AI_students/2.youtube_id_title_date_mapper.py)
 - [03_Generative_AI_Assignment/Youtube_AI_students/3.rename_transcripts.py](03_Generative_AI_Assignment/Youtube_AI_students/3.rename_transcripts.py)
-- [03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.txt](03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.txt)
+- [Part 1 instructions — formatted English reading copy](03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md)
 - [03_Generative_AI_Assignment/Youtube_AI_students/conda_list.txt](03_Generative_AI_Assignment/Youtube_AI_students/conda_list.txt)
 - [03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api.yml](03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api.yml)
 - [03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api_mac.yml](03_Generative_AI_Assignment/Youtube_AI_students/deepseek_api_mac.yml)

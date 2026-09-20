@@ -40,7 +40,7 @@ Each case presentation also needs at least a couple of slides extending the disc
 **[Generative AI Assignment — Part 1](../assignments/generative-ai/part1/README.md)** prepares the AI-Agent homework through financial-video transcript downloads, corpus merging, title matching, theme extraction, and file preparation.
 
 - [Original Part 1 handout](../materials/03_Generative_AI_Assignment/AssignmentOnGenerativeAIPart1.txt)
-- [Instructor instructions](../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.txt)
+- [Instructor instructions](../materials/03_Generative_AI_Assignment/Youtube_AI_students/INSTRUCTIONS.md)
 - [Part 1 progress](../assignments/generative-ai/part1/README.md#current-progress)
 - [Per-video download backlog](../assignments/generative-ai/part1/manifests/BACKLOG.md)
 - [Current theme map](../assignments/generative-ai/part1/analysis/THEMES.md)

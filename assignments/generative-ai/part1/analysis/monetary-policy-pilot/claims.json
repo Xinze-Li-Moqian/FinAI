@@ -1,0 +1,309 @@
+{
+  "schema_version": "learning-pilot-v1",
+  "prepared_on": "2026-09-20",
+  "purpose": "Bounded transcript-reading exercise and preparation for later knowledge-base work; not the formal Part 2 output schema.",
+  "selection": "Three available transcripts whose titles explicitly concern QT/QE; purposive and not representative of the corpus.",
+  "corpus_size": 980,
+  "source_count": 3,
+  "external_verification": "not performed",
+  "sources": [
+    {
+      "video_id": "SDzVzd6JVdg",
+      "title": "The Fed Just Announced When QT Will End",
+      "source_date": "20251016",
+      "date_provenance": "instructor-provided filename; not independently verified",
+      "url": "https://www.youtube.com/watch?v=SDzVzd6JVdg",
+      "source_path": "materials/03_Generative_AI_Assignment/Youtube_AI_students/transcripts_ids_upto_20260514/20251016_SDzVzd6JVdg.txt",
+      "sha256": "2591eac6fb6ffa7242ea1377ae57953edaa169c8d8260a58c64310ca3aaa4b82",
+      "primary_theme": "Central banking and monetary transmission",
+      "review_status": "transcript read for this bounded pilot; primary theme supported",
+      "coverage": "selected claims only; not exhaustive extraction"
+    },
+    {
+      "video_id": "58vA8WGCYEE",
+      "title": "The Real Reason the Fed Just Ended QT",
+      "source_date": "20251210",
+      "date_provenance": "instructor-provided filename; not independently verified",
+      "url": "https://www.youtube.com/watch?v=58vA8WGCYEE",
+      "source_path": "materials/03_Generative_AI_Assignment/Youtube_AI_students/transcripts_ids_upto_20260514/20251210_58vA8WGCYEE.txt",
+      "sha256": "b8a551bedd914addb083c165e107f7e79fac716a7b9260d9507eebc0c4ed2637",
+      "primary_theme": "Central banking and monetary transmission",
+      "review_status": "transcript read for this bounded pilot; primary theme supported",
+      "coverage": "selected claims only; not exhaustive extraction"
+    },
+    {
+      "video_id": "IQ--1laVPFE",
+      "title": "The Fed is About to Do QE Without Calling it QE",
+      "source_date": "20260709",
+      "date_provenance": "YouTube video metadata via yt-dlp",
+      "url": "https://www.youtube.com/watch?v=IQ--1laVPFE",
+      "source_path": "assignments/generative-ai/part1/data/new_transcripts/20260709_IQ--1laVPFE.txt",
+      "sha256": "da96d871ec2fc83a2e3d144dae92233bd33d0cac851bdf58cb208a6bc090678c",
+      "primary_theme": "Central banking and monetary transmission",
+      "review_status": "transcript read for this bounded pilot; primary theme supported",
+      "coverage": "selected claims only; not exhaustive extraction"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "video_id": "SDzVzd6JVdg",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "reported_policy_outlook",
+      "statement": "The speaker reports Powell saying balance-sheet runoff may stop in coming months when reserves are somewhat above the level judged ample.",
+      "argument_in_transcript": "The quoted reserve condition is presented as the reason to approach the end of QT, rather than a fixed calendar deadline.",
+      "temporal_scope": "Coming months relative to the October 2025 transcript; no exact end date in this passage.",
+      "evidence": [
+        {
+          "start_line": 6,
+          "end_line": 12,
+          "excerpt": "Philadelphia, and he said, \"Our\nlong-stated plan is to stop balance\nsheet runoff when reserves are somewhat\nabove the level we judge consistent with\nample reserve conditions.\" He went on to\nsay, \"We may approach that point in\ncoming months.\" So, what in the world is",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "This is a quotation relayed through the speaker and an imperfect transcript, not a directly checked Fed statement.",
+      "external_verification": "not performed",
+      "what_to_check": "Locate the original speech, its date, and the exact wording of the reserve condition."
+    },
+    {
+      "claim_id": "C02",
+      "video_id": "SDzVzd6JVdg",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "speaker_interpretation",
+      "statement": "The speaker interprets near-zero reverse-repo usage together with renewed regular-repo usage as evidence that QT has drained excess liquidity.",
+      "argument_in_transcript": "He treats the first facility as an overflow indicator and the second as an indicator of institutions seeking cash.",
+      "temporal_scope": "Contemporaneous chart interpretation in the October 2025 transcript.",
+      "evidence": [
+        {
+          "start_line": 314,
+          "end_line": 329,
+          "excerpt": "And now there is no more excess\nliquidity in the financial system\nanymore. If you zoom in on this chart\njust recently over the last couple of\nmonths, you can see that it is basically\nempty. It'll still have a little bit of\nusage here and there, but for practical\npurposes, there is no more excess\nliquidity in the financial system. And\nso the Federal Reserve bleeding down its\nbalance sheet has done its job. It has\ndrained the excess liquidity out of the\nfinancial system as shown by the reverse\nrepo facility going to basically zero.\nand as shown by the regular repo\nfacility starting to see usage again. So",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "The referenced charts are not included in the text. Loss of excess liquidity is not itself evidence of an imminent crisis.",
+      "external_verification": "not performed",
+      "what_to_check": "Check the chart dates, the separate facility definitions, and whether their usage supports this inference."
+    },
+    {
+      "claim_id": "C03",
+      "video_id": "SDzVzd6JVdg",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "speaker_forecast",
+      "statement": "The speaker expects renewed QE to provide demand for government borrowing over the long term.",
+      "argument_in_transcript": "He dismisses stablecoins and changes to interest on reserves as sufficient alternatives and anticipates monetary expansion.",
+      "temporal_scope": "Long-term outlook; the excerpt gives no falsifiable date for QE restarting.",
+      "evidence": [
+        {
+          "start_line": 440,
+          "end_line": 460,
+          "excerpt": "of course, the Fed needs to restart QE.\nAnd that is where their balance sheet\nstarts to rise again. And of course, if\nyou've been following me, then you know\nthis as well that that is the only\nsustainable long-term solution for the\ngovernment. Obviously, not good for the\nrest of us. But if the government wants\nall the demand that they need for their\ntreasuries, for their giant appetite for\nborrowing, it's not going to come from\ngimmicks. It's not going to come from\nstable coins. It's not going to come\nfrom reducing interest or eliminating\ninterest on reserve balances at the Fed.\nIt's going to come from QE. It's going\nto come from printing. And so all roads\nlead there, which is why I think we're\nin for many years ahead of us of higher\nprices, higher inflation, higher\ninterest rates, and higher asset prices.",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "This is the speaker's financing thesis, not an announced purchase program or a measured financing requirement.",
+      "external_verification": "not performed",
+      "what_to_check": "Define what counts as QE, a time horizon, and the financing assumptions before evaluating the forecast."
+    },
+    {
+      "claim_id": "C04",
+      "video_id": "58vA8WGCYEE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "reported_policy_event",
+      "statement": "The speaker says QT ended on December 1, 2025.",
+      "argument_in_transcript": "He subsequently describes rolling over Treasury principal and reinvesting agency principal into Treasury bills.",
+      "temporal_scope": "Claimed policy effective date: 2025-12-01; source filename date: 2025-12-10.",
+      "evidence": [
+        {
+          "start_line": 70,
+          "end_line": 73,
+          "excerpt": "system is declining. As of December 1st,\n2025, QT has officially ended, which\nmeans their balance sheet will no longer\nbe headed down like it has been for the",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        },
+        {
+          "start_line": 139,
+          "end_line": 147,
+          "excerpt": "some areas and actually starting up QE\nagain in other areas. If we look at the\nFederal Reserve's implementation notes\nfrom their last FOMC meeting, we can see\nthey announced their plan to end\nquantitative tightening here where they\nsaid that on December 1st, they would\njust roll over at auction all principal\npayments from the Federal Reserve's",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "The claimed event date and the source date are distinct. No original implementation note has been independently checked here.",
+      "external_verification": "not performed",
+      "what_to_check": "Check the relevant FOMC implementation note and its effective date."
+    },
+    {
+      "claim_id": "C05",
+      "video_id": "58vA8WGCYEE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "speaker_interpretation",
+      "statement": "The speaker argues that the removal of excess liquidity does not by itself imply an approaching liquidity shortage or crisis.",
+      "argument_in_transcript": "He goes on to argue that the Fed facility supplies needed overnight liquidity, which he treats as protection against an acute shortage.",
+      "temporal_scope": "Near-term risk assessment in the December 2025 transcript.",
+      "evidence": [
+        {
+          "start_line": 99,
+          "end_line": 103,
+          "excerpt": "have excess liquidity. But the removal\nof excess liquidity from the financial\nsystem doesn't mean that we are about to\nface a shortage of liquidity or a crisis\nthere. And in response to that, a lot of",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        },
+        {
+          "start_line": 121,
+          "end_line": 133,
+          "excerpt": "themselves. This is something that the\nFed established during 2020. Their\nstanding repo facility so that we\nwouldn't have any sort of an acute\nliquidity crisis where banks would be at\nrisk of toppling over just because they\ncan't access the overnight funds that\nthey need from each other. So now any\namount that banks need overnight, they\ncan just get that from the Fed. And when\nyou have an unlimited liquidity source\nthat you can tap at any moment, you're\nnot going to run into a liquidity crisis",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "His further claim about unlimited accessible liquidity is broad and unverified; this review does not adopt it as fact.",
+      "external_verification": "not performed",
+      "what_to_check": "Check facility eligibility, collateral requirements, pricing, limits, and whether access actually prevents the claimed failure mode."
+    },
+    {
+      "claim_id": "C06",
+      "video_id": "58vA8WGCYEE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "speaker_interpretation",
+      "statement": "The speaker describes reallocating mortgage-related principal into Treasury bills as easing for Treasuries even if the total balance sheet stays steady.",
+      "argument_in_transcript": "He separates the composition of assets from the total balance-sheet level and argues that the change makes government borrowing easier.",
+      "temporal_scope": "Interpretation of the policy configuration described as effective from 2025-12-01.",
+      "evidence": [
+        {
+          "start_line": 211,
+          "end_line": 234,
+          "excerpt": "also been selling those off and letting\nthose roll off their balance sheet. As\nof December 1st, they will still be\ndoing that. their holdings of mortgage\nback securities will continue to\ndecline. And when they get paid back,\nthey will take that cash and put it\ninstead into treasury bills, which means\nthey will continue sucking liquidity out\nof the mortgage market and instead\nthey're just injecting it into the\nbroader economy by loaning it to the US\ngovernment and making the US\ngovernment's borrowing easier. So, this\nis continued QT specifically for\nmortgage back securities and increased\neasing that'll have a broader effect\neverywhere else. It'll keep short-term\ninterest rates down and it'll make\ngovernment borrowing easier and cheaper.\nSo, the effect of this is actually QE\nfor treasuries and QT for mortgages. In\nthis way, the Fed can keep their balance\nsheet steady. Which means for the",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        },
+        {
+          "start_line": 238,
+          "end_line": 246,
+          "excerpt": "look and see it's just moving sideways,\nthey'll be like, well, the Fed's not\ninjecting liquidity. And technically,\noverall, that will be true. But what's\nhappening behind the scenes is they're\nsucking more money out of mortgages and\nhanding it to the US government instead.\nSo QT for mortgages, QE for the\ngovernment. Now, the next couple of",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "The phrase QE for Treasuries is the speaker's characterization. The transcript alone does not establish the scale or causal effects.",
+      "external_verification": "not performed",
+      "what_to_check": "Check reinvestment rules and distinguish aggregate reserve creation from a shift in the composition of purchases."
+    },
+    {
+      "claim_id": "C07",
+      "video_id": "IQ--1laVPFE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "reported_observation",
+      "statement": "The speaker reports that the Fed holds about 11.5% of national debt at the time discussed.",
+      "argument_in_transcript": "He compares the reported share with earlier periods and uses the comparison to motivate his prediction of further purchases.",
+      "temporal_scope": "Contemporaneous observation in the source dated 2026-07-09; the underlying chart date is unspecified.",
+      "evidence": [
+        {
+          "start_line": 164,
+          "end_line": 175,
+          "excerpt": "December of 2021. And since then, the\nnational debt has continued to go up,\nthe Federal Reserve has bled off their\nbalance sheet up until recently, and\nthey're sitting right now at 11 and\n1/2%. So, of all of the national debt,\n11 and 1/2% of it sits on the Federal\nReserve's balance sheet. Now, you may\nargue that that is too much. Some may\nargue that that is too little. And I\nwould argue that the Federal Reserve is\ngoing to argue that it's not enough.",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "The transcript does not provide the data series, exact numerator, or denominator. A percentage is not an absolute holdings level.",
+      "external_verification": "not performed",
+      "what_to_check": "Obtain the underlying series and define whether the denominator is gross debt, marketable Treasuries, or another measure."
+    },
+    {
+      "claim_id": "C08",
+      "video_id": "IQ--1laVPFE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "speaker_forecast",
+      "statement": "The speaker considers continued growth in the Fed's total balance sheet very likely over the coming quarters.",
+      "argument_in_transcript": "His proposed mechanism is maintaining a consistent share of outstanding Treasury ownership while the debt stock grows.",
+      "temporal_scope": "Coming quarters relative to the July 2026 source; no exact forecast cutoff is given.",
+      "evidence": [
+        {
+          "start_line": 313,
+          "end_line": 318,
+          "excerpt": "over the coming quarters, what we are\nvery likely to see is the Federal\nReserve's balance sheet overall continue\nto grow so that they can maintain a\nconsistent percentage of outstanding\nTreasury ownership. And it is also very",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "The proposed share target is the speaker's scenario, not a confirmed Fed target in this review.",
+      "external_verification": "not performed",
+      "what_to_check": "Define the evaluation window and compare announced policy and subsequent balance-sheet data with the forecast."
+    },
+    {
+      "claim_id": "C09",
+      "video_id": "IQ--1laVPFE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "speaker_forecast",
+      "statement": "The speaker says it is very possible that much of the purchasing continues at the short end of the Treasury market.",
+      "argument_in_transcript": "He suggests purchases could move the maturity mix of Fed holdings toward the mix of Treasuries outstanding.",
+      "temporal_scope": "Same coming-quarters discussion as C08, with weaker probability language.",
+      "evidence": [
+        {
+          "start_line": 318,
+          "end_line": 324,
+          "excerpt": "Treasury ownership. And it is also very\npossible that we continue to see a lot\nof that purchasing be done at the short\nend in order to make sure that they own\nthe right mix, so that their mix of\nTreasuries matches what exists on the\nopen market. Now, what they are unlikely",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "A maturity-composition forecast is separate from the aggregate-growth forecast; one can occur without the other.",
+      "external_verification": "not performed",
+      "what_to_check": "Check maturity-bucket holdings and purchases separately from total balance-sheet growth."
+    },
+    {
+      "claim_id": "C10",
+      "video_id": "IQ--1laVPFE",
+      "attributed_to": "Heresy Financial speaker",
+      "theme": "Central banking and monetary transmission",
+      "claim_type": "conditional_speaker_forecast",
+      "statement": "If the Fed sells long-dated Treasuries to change its balance sheet, the speaker expects accompanying bank deregulation to help banks absorb them.",
+      "argument_in_transcript": "He says outright long-term sales are unlikely and argues that otherwise buyer demand and upward pressure on yields would be problems.",
+      "temporal_scope": "Conditional future scenario; the speaker does not say the long-term sales will occur.",
+      "evidence": [
+        {
+          "start_line": 324,
+          "end_line": 342,
+          "excerpt": "open market. Now, what they are unlikely\nto do, in my opinion, is accomplish this\ngoal by selling long-term Treasuries.\nThat would push long-term interest rates\nhigher. That would not accomplish the\ngoals they are wanting to accomplish.\nAnd the biggest problem with that is\nthere's nobody out there to buy those\nthings, which means if that is the way\nthey choose to handle this and try and\nsolve their balance sheet trilemma by\nselling long-dated Treasuries, it would\nmost likely be accompanied with bank\nderegulation, so that bank balance\nsheets would be unrestricted and could\ngo on a buying binge, a lending\nto the US government like they did in\n2020 and 2021 and absorb everything that\nwas leaving the Fed's balance sheet. So,",
+          "role": "Textual support for speaker attribution; not independent corroboration"
+        }
+      ],
+      "limitations": "The condition must remain attached. Bank deregulation and bank purchases are distinct events that have not been verified here.",
+      "external_verification": "not performed",
+      "what_to_check": "Check whether the antecedent occurs, then evaluate any rule change, bank demand, and timing separately."
+    }
+  ],
+  "relationships": [
+    {
+      "from_claim": "C01",
+      "to_claim": "C04",
+      "relation": "later_report_of_related_policy_event",
+      "interpretation": "The narrative changes from a conditional possible end to a reported end. The later video is another statement by the same source, not independent verification that the earlier outlook was correct."
+    },
+    {
+      "from_claim": "C02",
+      "to_claim": "C05",
+      "relation": "qualification_of_risk_interpretation",
+      "interpretation": "Loss of excess liquidity and imminent crisis are different propositions. The December statement limits the inference; it is not automatically a retraction or contradiction."
+    },
+    {
+      "from_claim": "C06",
+      "to_claim": "C08",
+      "relation": "different_time_and_balance_sheet_dimension",
+      "interpretation": "December emphasizes composition with a steady aggregate; July forecasts aggregate growth. Different horizons and dimensions prevent labeling this a direct contradiction without further evidence."
+    },
+    {
+      "from_claim": "C03",
+      "to_claim": "C08",
+      "relation": "recurring_financing_thesis",
+      "interpretation": "The speaker returns to a monetary-expansion thesis with a different proposed mechanism. Repetition by the same speaker does not provide independent confirmation."
+    },
+    {
+      "from_claim": "C08",
+      "to_claim": "C09",
+      "relation": "separate_forecast_components",
+      "interpretation": "Aggregate growth and short-maturity purchases need separate evaluation and preserve different likelihood language."
+    }
+  ]
+}
