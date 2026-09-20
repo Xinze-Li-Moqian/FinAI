@@ -1,0 +1,44 @@
+---
+title: "Sovereign Debt Defaults in Emerging Markets About to Sweep the Globe"
+video_id: "bBZgo_6p--U"
+recorded_date: "2022-07-13"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=bBZgo_6p--U"
+source_path: "Transcripts/20220713_Sovereign Debt Defaults in Emerging Markets About to Sweep the Globe_bBZgo_6p--U.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "f9c7a7dc7402b2eccddccc9d3b1fbe489cfb81dd131f5c0986711dda2ab5494d"
+original_source_line_count: 194
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Sovereign Debt Defaults in Emerging Markets About to Sweep the Globe
+
+what's up everybody my name is joe brown this is the heresy financial show and as reported by bloomberg recently a historic cascade of defaults is coming for emerging markets this is because the dollar on the screen behind me the dollar index has been getting so strong recently stronger than it's been in years in over 10 years it is making it more and more difficult for emerging markets to get dollars and so if it's harder and harder to get dollars it means it's more expensive that means it is starting to bankrupt some of these emerging markets and it's only a matter of time before that spills over into developed markets ready let's dive in
+
+[Music]
+
+a few months ago i was speaking with greg foss he's a fantastic follower on twitter he's always talking about [[Finance/04 Bonds and Funding Markets/Bonds|bonds]] and [[Finance/07 Crypto and Digital Money/Bitcoin|bitcoin]] if you don't like [[Finance/07 Crypto and Digital Money/Bitcoin|bitcoin]] just ignore the stuff he says about [[Finance/07 Crypto and Digital Money/Bitcoin|bitcoin]] very smart long career here and i was talking with him about the dollar in emerging markets because he pointed out to me hey look every time the dollar goes up every time the dollar spikes and has a huge rise you start to get problems in emerging markets they just can't afford to get dollars anymore and that's exactly what has started to happen
+
+now we are seeing a cascade of defaults potentially coming for emerging markets take a look at these countries el salvador ghana egypt pakistan all vulnerable and it's not as if there's just countries that are vulnerable we are already seeing countries like sri lanka who have already stopped paying foreign bondholders this year and in fact reinhart recently said in an interview on bloomberg that the low-income countries the debt risks and debt crises they're not hypothetical we are pretty much already there i mean just take a look at these government [[Finance/04 Bonds and Funding Markets/Bonds|bond]] yields right
+
+now el salvador 31 ghana 17 egypt 13 argentina 20 very very expensive debt as the dollar gets stronger and yes just in case you're wondering this is relatively recent this isn't the way that it's just always been if we take a look at the number of emerging markets that have [[Finance/03 Government Debt and Fiscal Policy/Sovereign Debt|sovereign debt]] that yield more than 10 percentage points higher than similar maturity [[Finance/03 Government Debt and Fiscal Policy/Treasury Securities and Issuance|treasuries]] that indicates that investors believe default is a real possibility that number has more than doubled in the past six months it's not like these are tiny nations either if we take a look at collectively those 19 nations they are home to over 900 million people almost 1 8 of the global population
+
+now i'm really glad that this bloomberg article pointed this out that the crises like these the real risk here is that they can create a domino effect known as contagion basically what's going on here is that you have an interconnected global financial system you've got large banks that are interconnected in all markets around the world whether from business or just from their balance sheets that if something crazy and unexpected starts to happen it could bleed over to their balance sheet in a very bad way why is this well it's because the way that balance sheets on large banks are constructed is using something called relative value trades
+
+so they buy and they short something that have a relative value to each other that should be almost identical so all things should go up together and both things should fall together so this would be similar to you shorting class a shares of google and buying class c shares of google they're both shares the same company so they should move up and down together and so if you buy one and short the other your losses and your gains on each are going to offset each other as the shares move but if you watch the arbitrage take place between the two sometimes they move a little bit different
+
+so sometimes you might get a little bit of a bigger spread between the shares so if you enter into the position right there where there's a bigger spread then you can close them out when that spread converges close out that trade and you've basically entered into a risk-free trade the problem is sometimes unexpected things happen so they try and model this and say hey we're going to use a model that looks back at all the unexpected things that have ever happened before and make sure that we're not overextending ourselves so that
+
+if something like those happen again that will still be fine what they overlook though is that every time in the past something unexpected happened it wouldn't have been in the model prior to that because at that point that it happened it was unexpected it had never happened before so now we are using that past data but what if something happens again that is worse than what has ever happened before or different that means by nature you cannot model the unexpected because it's never happened before and so
+
+when you see something like this take place where hey the [[Finance/01 Central Banking/Federal Reserve|federal reserve]] is tightening more than most investors ever thought they would it's making dollars more expensive than many people thought they could get that's making debt defaults more and more and more likely for dozens of countries all around the world that contain hundreds and hundreds of millions of people this means that there are banks that own this debt that could get defaulted on so you have a bank that has debt that could get defaulted on that means a trade could do an unexpected thing they have to close it out well once this starts happening you get contagion spreading that losses start to appear on these balance sheets why is that a problem
+
+because most of these globally systemically important banks have balance sheets that are dozens of times larger than their entire market cap this means that a five percent loss on the balance sheet could wipe out the entire market cap of these banks that's basically like if you went into your brokerage account leveraged up with margin so that if you had a five percent loss it would wipe out your entire net worth that's probably not the wisest position to be in you don't want to be that leveraged up and the only reason they are is because they look at their trades as being risk-free but they're only risk-free
+
+because what they're saying can never happen has never happened before but what if it happens next time to be clear nothing like this has happened yet so we are still waiting on the sidelines to see if this gets bad enough where defaults do start to sweep across the planet but if things keep on going the way they are it's really only a matter of time if the dollar continues to get more expensive if we have more [[Finance/12 Trade and Geopolitics/Supply Chains|supply chain]] disruptions if we have more wars and rumors of wars if we have more indications of the world not resolving these problems
+
+but starting to see them get worse it is more and more likely every day that we see debt defaults sweep the planet which would result in major losses on bank's balance sheets which would then result in [[Finance/05 Banking and Systemic Risk/Financial Contagion|financial contagion]] across the global financial system and that's something that i think would probably prompt a turnaround and a pivot from [[Finance/01 Central Banking/Central Banks|central banks]] at least to bail out the financial system if not bail out everyone else as well hope this helps let me know if you have any questions in the description below and as always i really appreciate you guys thank you so much for watching have a great day
+
+[Music]
+
+you

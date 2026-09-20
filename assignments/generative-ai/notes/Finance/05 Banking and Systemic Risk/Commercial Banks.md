@@ -1,0 +1,4 @@
+---
+aliases:
+- commercial bank
+---

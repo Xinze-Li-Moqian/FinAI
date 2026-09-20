@@ -1,0 +1,80 @@
+---
+title: "62% of Households Earning Over $300k Can't Pay Their Bills"
+video_id: "a0jPJS0I3TY"
+recorded_date: "2025-08-06"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=a0jPJS0I3TY"
+source_path: "Transcripts/20250806_62% of Households Earning Over $300k Can't Pay Their Bills_a0jPJS0I3TY.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "1307bc27210c91f5235ac21b3b61a8665dc62a88fca4a93f32418763118a4650"
+original_source_line_count: 329
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# 62% of Households Earning Over $300k Can't Pay Their Bills
+
+Are you earning $300,000 a year and still struggling to make ends meet? Well, if so, you're not alone. A recent study by BHG Financial found that 62% of high earners still struggle with credit card debt. And in this study, they defined high earners as those with salaries over $300,000 per year.
+
+And a whopping 62% of them still struggled with credit card debt. This is why basic personal finance skills are necessary because it is actually easy to outspend any income. I'm sure you've all heard of the lottery winners and the professional athletes that a few years after they win the lottery or a few years after they leave the league, they are broke. They are bankrupt.
+
+They are selling their Super Bowl rings just to be able to pay the rent. Now, don't get me wrong, this isn't something that you should feel guilty or ashamed about if you are in this boat. Like I said, it is easy to outspend any income. That's why they call it a hedonic treadmill.
+
+You're walking. In other words, you're performing actions that feel like you're getting ahead, but you're staying in place. You get that raise. You get that promotion. You get that new job. You start making more money. And so, you sell the beater and get a new Beamer.
+
+You move into the nicer neighborhood, but that also means that you're going to have to send your kids to a different school. And it's a private school. Your wife sees your new car. She wants the Lexus. And man, that stress of that new job, you need to unwind.
+
+So, you're taking more than one vacation per year, and you're not going to the places that you used to go. That new house in that new neighborhood that you just moved into wasn't quite what you were expecting. And there's some little remodel projects, some little renovations that you have to do along the way. And before you know it, you look up and you've got 20 to $30,000 a month just in payments that you can't get out of.
+
+You look around and realize all this money that you've been making is just going out the door and you've got nothing to show for it. You thought making $300 or $400,000 a year would make you set. You thought it would allow you to retire early, but it feels like you're in an even worse financial position than you used to be when you were making far less. Now, it may not be entirely your fault that you're in this situation.
+
+Maybe you have a spouse or you have kids or there's [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]]. There's political things that are going against you. But guess what? It is your responsibility whether it's your fault or not. In a recent study that the [[Finance/01 Central Banking/Federal Reserve|Federal Reserve]] just did, they found that those who are making at least $150,000 annually are seeing the biggest jumps in delinquencies on their debt payments.
+
+Right now, you can see a direct correlation between the more money households are making and the faster they are missing payments on their debt. Again, if this is you, you shouldn't be feeling guilt or shame. This should be a wake-up call that if you live the way everybody else does, you'll be experiencing the consequences that everybody else does. Financial discipline and making the correct decisions with your money is important.
+
+Not because skipping Starbucks in the morning is going to make you a millionaire, but because at some point in your life, you are very likely to be a high income earner. And if you don't already know the right things to do with your money and have the discipline to actually do it, you will waste those high income earning years. In his book, Skin in the Game, author Nim Taleb pointed out research that in the United States of America, about 10% of Americans will spend at least one year in the top 1% of income earners.
+
+And he found that more than half of all Americans will spend at least a year in the top 10%. Broken down even further, he found that 39% of Americans will spend at least a year in the top 5% of income. And almost 3/4, 73% of people will spend at least a year in the top 20% of income earners. Income mobility in the United States is still among the best in the world, which means you have a very high likelihood of achieving a high income for at least some number of years in your life.
+
+And if you haven't already built the skills to save, to delay gratification, to budget, to stay out of debt, and to invest well what you keep, then you will waste those high income earning years. You'll spend the money on comfort, convenience, upgrading your lifestyle, and you'll be left with nothing to show for it but regret. If you can't save 5,000 from 50,000, you'll never save 50,000 from 500,000. Now, quick note, when I say save, what I mean is keep.
+
+The difference between what you earn and what you spend. I'm assuming that you know you have to do something with the money that you keep other than just letting it stay in cash because [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]] will burn away your [[Finance/02 Inflation and Purchasing Power/Purchasing Power|purchasing power]]. you have to invest it and make that money work for you. I'll talk more on that in a moment.
+
+Just for now, understand when I say save, I'm just meaning keep and doing well with it. Okay. So, if it is so easy to make a really fantastic income and just spend it all, how important is income to total wealth? Well, it's actually very important.
+
+In a recent article from Nick Majiuli from of Dollars and Data, he points out that the strongest predictive indicator of total wealth is your income. In other words, the median income for people with a net worth of $10,000 or less was only $32,000. The median income for households with a net worth between $10,000 and $100,000 was an income of $47,000. the median income increases along with net worth without a break in the pattern.
+
+In other words, it's rare to have high income with low wealth. It's also rare to have low wealth with high income. He points out data from another study which tracks household income and net worth over time and found that for households that were able to increase their net worth from one level to the next like going from under a million to over a million on average had 52% higher incomes than people who stayed stuck under a million. So it is clear income is absolutely necessary to wealth creation.
+
+Where are you going to get your wealth from if you don't have income? It is also self-evident that the more income you have, the easier on paper it is to increase your total wealth. But you still have to do the right thing with it. In other words, keep it and invest it.
+
+So income is necessary for wealth production. It is not sufficient. Also, financial discipline is necessary to wealth creation. It is also not sufficient because here's the other harsh truth. It is not possible to coupon clip your way to wealth. It doesn't matter how many years you scrimp and save and you shop at the dollar store and you invest every penny if you're only making $40,000 a year.
+
+You might become a millionaire by the time you're 81. Alternatively, you could focus all of that time and energy and attention on increasing your income. And as long as you have the basics down of staying out of highinterest debt, keeping your expenses low instead of riding that hydonic treadmill and investing everything you keep, then you will produce wealth far faster. Now, I mentioned highinterest debt, and I mean that specifically, not just all debt, because we saw right now that households earning over $150,000 are experiencing a faster increase in debt defaults and delinquencies than lower income households.
+
+And if you are delinquent or missing payments on credit card debt, that means you are carrying a credit card balance. And today, the average credit card [[Finance/04 Bonds and Funding Markets/Interest and Interest Rates|interest rate]] is over 21%. Now, 21% is what you're paying to keep debt on a car. In other words, you're increasing all of those expenses by 21%.
+
+You are an investment to the credit card company, earning them 21%. Now, this is how crazy this is. Warren Buffett is widely considered to be one of, if not the greatest investor of all time. His lifetime compound annual growth rate on his investments from 1965 through 2024 is 19.9%.
+
+Which means unless you are a better investor than Warren Buffett, there is no better return for you than paying off your credit card debt as quickly as possible. Mathematically, you will get farther ahead fastest by paying that off with every extra penny you have because it is taking you into the hole at 21% every year. And the best investor of all time can't even outperform that. Once you get that debt paid off and ideally other highinterest rate debt like personal loans and [[Finance/14 Personal Finance and Retirement/Auto Loans|auto loans]] as well because those are also costing you money, you're actually going to be able to afford purchasing nicer things faster because when you save up for purchases first, that money, as long as you're doing the right thing with it, is earning you money along the way, which means it takes you less time and less of your labor in order to be able to afford the things that you want.
+
+Now, if you're sitting there in a decent financial position and you're thinking, "Man, this is actually really terrible for our country and our economy. It's a bad sign." Don't worry. Let me show you a few pieces of data that will show you statistically nationwide, we're actually not doing too bad.
+
+So, first, if you just look at the total dollar amounts of debt, like total credit card debt in the US, you'll look at this chart and think, man, we're doing terrible. Credit card debt just keeps on growing. But also the total number of dollars in circulation is higher than it used to be. It's always growing.
+
+The size of the economy is always growing. People's incomes are always growing, especially because of [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]]. So you have to compare the total debt to something. And if we compare it to GDP, you can see that really over the last 15 years or so, credit card debt compared to GDP has not really changed that much.
+
+If anything, on average, it's drifted slightly lower. So, while there are certainly some households out there that are still making bad decisions and are suffering as a result, it doesn't necessarily indicate that overall the entire economy that our nation is facing any sort of economic doom as a result. And just to prove that, let's look at one other data point. This is US [[Finance/14 Personal Finance and Retirement/Household Debt|household debt]] to assets.
+
+And when I first saw this chart, I was absolutely shocked. I couldn't believe it. But if you take all of the [[Finance/14 Personal Finance and Retirement/Household Debt|household debt]] in the United States and you compare that to the dollar value of the assets that American households own, the ratio is the best it's been in almost 50 years. The debt to asset ratio was getting worse from pretty much the time we left the [[Finance/15 Monetary History/Gold Standard|gold standard]] until the great financial crisis when US households topped out on debt and their asset values crashed.
+
+But that was the peak and really ever since then especially I think brought on partly because of the pain that a lot of people financial pain a lot of people grew up with and they saw I don't never want to have to deal with that again. The [[Finance/14 Personal Finance and Retirement/Household Debt|household debt]] to asset ratio has just been plummeting and obviously these are totals. So there are some households that have a lot of debt compared to their assets. There are other households that have a lot of assets compared to their debt.
+
+But it is still a fact that this chart being lower is a lot better than it being higher. If this video does anything for you, I hope it encourages you to control the controllables despite the economic uncertainty, despite [[Finance/04 Bonds and Funding Markets/Interest and Interest Rates|interest rates]], despite [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]], despite incomes, despite AI or anything like that. The only person who is responsible for your financial future is you. You can't control what the president does.
+
+You can't control what Jerome Powell does. You can't control what your boss or your company does. The only thing you can control is what you do with what you have. And people who were dealt far worse hands than you have done far better.
+
+And people who have been dealt far better hands than you have done far worse. And it's up to you to decide what you are going to do with what you have from here on out despite where you've been before. And if you are not currently on track with a proven plan to become financially free, I have a step-by-step guide for you. It's called the Hyperrowth Portfolio Blueprint.
+
+It'll take you from zero to hero. give you every step you need to produce lifechanging wealth that lasts. It's linked in the description below and it's on sale right now. So, go ahead and grab it right now. As always, thank you guys so much for watching.
+
+Have a great day.

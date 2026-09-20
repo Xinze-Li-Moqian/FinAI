@@ -1,0 +1,48 @@
+---
+title: "Are Stocks Cheap Yet?"
+video_id: "pSZXSPwROHk"
+recorded_date: "2022-10-27"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=pSZXSPwROHk"
+source_path: "Transcripts/20221027_Are Stocks Cheap Yet_pSZXSPwROHk.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "460ebf2f8993144fe0cda492d5fb703fff35f7792d7701152cc2beb0dea0a6b4"
+original_source_line_count: 221
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Are Stocks Cheap Yet?
+
+depending on the [[Finance/10 Markets and Portfolios/Stocks|stocks]] that you are looking at right now you might think [[Finance/10 Markets and Portfolios/Stocks|stocks]] are going crazy but if you're looking at others you might think that they've done absolutely nothing some people are saying hey [[Finance/10 Markets and Portfolios/Stocks|stocks]] are cheaper than they've ever been right now and they're cheaper than they will be for decades yet other times people are saying we haven't even begun to see the Carnage yet so which one is true and how can you know when [[Finance/10 Markets and Portfolios/Stocks|stocks]] are actually cheap so that you know when to buy ready let's dive in
+
+[Music]
+
+let's look at a few examples of some [[Finance/10 Markets and Portfolios/Stocks|stocks]] that I'm talking about here just so we can get an idea of the differences depending on the stock that you're looking at because just by looking at the index you do not get a good picture of what is going on first let's look at coinbase you can see here that coinbase as recently as November of 2021 so under a year ago well it was priced at 342 dollars per share whereas right now it is at 75 now that is a massive drop and
+
+if you've been around the channel for any length of time you know that I absolutely hate coinbase and no matter what price it's at I would probably still say it's too expensive even if this thing was one cent I'm never touching this stock with a 10 foot pole because I hate the product I hate the leadership I do not like that anything that the company does now let's look at another stock right here we are looking at Square renamed to block now they have payment processors they have a [[Finance/07 Crypto and Digital Money/Bitcoin|Bitcoin]] purchasing app and you can see here that as recently as August of last year
+
+so a little over a year ago they were at 275 dollars per share and now they are down at 59 per share again a massive drop but the question remains does that mean that they're cheap does that mean they're on sale does that mean that they're at a good price and that you should buy we have to take a two-pronged approach to this we have to understand things from the actual price not the price per share and we have to look at the thing through the lens of valuation most investors most retail investors will take a look at a stock price and say one is ten dollars one is a thousand dollars that means that one is cheaper raw
+
+when we look at a company like Amazon or apple those are massive companies they're trading at you know Apple's at a hundred thirty dollars a share right now you take a look at a company like Berkshire Hathaway Warren Buffett's company is trading at 250 000 per share does that mean that Berkshire Hathaway is more expensive absolutely not what that means is that there are far fewer shares of Berkshire Hathaway so the company is divided up into fewer pieces which are larger percentages of the total you would have to to know how many shares there are and you'd have to know the market cap what is the overall dollar value of the entire company right
+
+now so that's the first place to start from you have to understand what the total value of the company is the price per share by itself is absolutely 100 percent meaningless especially when you're comparing the price per share to the price per share of other companies with different market caps and different numbers of shares now the second thing that you have to do is look at this through the lens evaluation when we're taking a look at a company like block we can see that it is down from its high of 275 and is currently trading around 59
+
+so most retail investors would say this stock is cheap compared to what it used to be but you can't know that from the price alone all you can know is that in the past investors were valuing this company at a much higher valuation you don't know whether it is a good valuation now based on that it might just be that a year ago investors were paying a thousand times more than they should for the price for the stock and now investors are paying a hundred times more than they should for the stock you don't actually know whether it's a good price right now
+
+so you have to answer the question of valuation what is this company actually worth and unfortunately most people would admit this this is subjective so you have to answer the question how much would you pay for a money printer this is a very good example and if you want more details about this by the way and you want some actual calculators and some numbers that you can use and the easiest intrinsic value calculators available fundamental analysis check out my bear Market investing course 99 right now it teaches you how to identify bear markets identify the best companies in the world and then figure out what price you should be paying for them
+
+so that you can actually wait for them to hit that price so that you know that you're buying these world-class assets at the best deal but you have to answer the question of how much are these companies actually worth which you do by answering the question how much do you pay for a money printer let's say you have a magic printer that prints out one hundred dollars a year how much would you pay for that printer would you pay ten dollars for that printer absolutely everybody would pay ten dollars for a magic printer that prints out a hundred dollars per year you'd probably try and buy as many of those printers as you can it's a no-brainer
+
+because after one year you've 10xed your money now how much would you pay a thousand dollars for that printer well most people probably wouldn't because you'd have to wait 10 years for that printer to print out the money that you spent on it so then you have to wonder okay well what's the risk the printer breaks what's the risk it runs out of ink and I have to spend more money on ink to be able to continue to print more money so maybe that hundred dollars a year that it prints out maybe it's only worth eighty dollars to me
+
+because it cost me twenty dollars for paper and ink every year so you have to ask these questions what are the chances that something might happen to increase the amount of cash that it's printing out every year has the amount that it's printing been exactly the same every year is it a brand new printer or is there an old track record I can look back at and see how many dollars it has printed out in the past so you have to answer all these questions and then determine for you how much that hundred dollars a year is worth and that's where things get subjective
+
+so you have to look at a company and you have to look at its prospects of growth in the future look at how much money it's making how much money it's losing what is it losing that money on is it spending that money on things that it has to spend and if it doesn't it's bankrupt does it spend that money on things that it just wants to spend that money on for potential and proven growth so what is it spending the money on where are those [[Finance/16 Economic Reasoning/Profit|profits]] coming from how resilient is it how much of a track record does it have and
+
+when you weigh all those factors together then you come up with your subjective valuation and opinion on how much you think that company is worth how much you should be paying for that company and only then can you know whether Square whether block is on sale right now at 59 it makes no difference that it was at 275 dollars a year ago and only then can you know the answer to whether apple is worth a hundred thirty dollars per share it makes no difference than it used to be trading at 150 per share that it used to be trading at eighty dollars per share you have to figure out for yourself what that future cash flow that future potential value is worth to you right
+
+now in the present so don't pay attention just to stock prices just to market caps just to past prices you have to do the work yourself to know whether something is on sale or not and as one final kicker here I believe that within the next six months we're getting very close to some sort of a cataclysmic financial event that will prompt a pivot and that prices very soon here will be at a point where they will not be as low for potentially decades because once the money printer turns back on prices go through the roof we risk a crack-up boom We risk [[Finance/02 Inflation and Purchasing Power/Hyperinflation|hyperinflation]] where the value of something being determined against the value of the dollar that is losing value extremely quickly means that that thing is worth more than those dollars at pretty much any price which means the price can go to Infinity as always I really appreciate you guys thank you so much for watching have a great day
+
+[Music]
+
+foreign

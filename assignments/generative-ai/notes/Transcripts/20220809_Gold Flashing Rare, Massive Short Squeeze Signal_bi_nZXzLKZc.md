@@ -1,0 +1,50 @@
+---
+title: "Gold Flashing Rare, Massive Short Squeeze Signal"
+video_id: "bi_nZXzLKZc"
+recorded_date: "2022-08-09"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=bi_nZXzLKZc"
+source_path: "Transcripts/20220809_Gold Flashing Rare, Massive Short Squeeze Signal_bi_nZXzLKZc.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "00f60ba3d6283d51f0ac17fc223cd00c8f76dba13e076da6671db2800e243924"
+original_source_line_count: 231
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Gold Flashing Rare, Massive Short Squeeze Signal
+
+gold markets are flashing multiple signals right now that are indicating we could be on the cusp of a major historic move up from a huge [[Finance/08 Gold Silver and Commodities/Short Squeezes|short squeeze]] in gold and one of these signals has only happened a few times in the last decade and every single time it has happened we have seen a major move upwards in the price of gold ready let's dive in
+
+[Music]
+
+over the last few days i've been talking with my friends over at vaulted and we were talking about this article that they recently published and by the way i've got an affiliate link if you're looking for a place to start buying gold i love the team over there they've got great integrity love the way they run their business you can sign up with my affiliate link in the description below and we were talking about this article that they sent out that has the indications of a [[Finance/08 Gold Silver and Commodities/Short Squeezes|short squeeze]] developing right now in gold for a number of reasons but
+
+first we have to understand what has been going on with the price of gold recently let's take a look at this chart of the price of gold and we can see here since 2020 it's been locked in this channel it has touched a high of about 2070 bucks two times and it has retested this low pretty strong support and resistance at this point since it was resistance back here support all through there here and here and now it just touched that support again within the last few weeks and has rallied off one thing to note though is that since the invasion of russia began
+
+when it first had that spike up again it has been locked in this downwards trend this downwards channel and we are currently hitting the top of that channel and so technical analysis would suggest that we have a higher likelihood of coming back down since we have not yet confirmed a breakout of that channel and we would then expect a retest of support or the lower end of the channel which i would guess would stop at about 1680 before we finally break out of this channel once and for all so that's the first warning that technically speaking it looks like we probably do have a little bit of downside immediately the
+
+second warning about the price of gold here before we get into the good stuff is the major positioning of bullion bank traders as you can see from this chart the blue line shows the net short position of swaps which is going to be mainly bullion bank traders you can see this blue line is lower than it's been for years and it's back down nearing into that channel where it was from 2010 through about 2018 and so these swaps the net shorts have been reduced by a massive amount lower than these shorts have been for a very long time now
+
+if you don't know what relevance this has basically what we're looking at is all the potential buyers and all the potential sellers on any market will come together aggregate the consensus supply and demand and the equilibrium will be the current market price now if that current market price is expected to be too high compared to the future expectations of the market more market participants will engage in selling and then if they're right this would then push the price down and vice versa as well but instead of just buying and then selling what you bought another way that you can trade is shorting which is borrowing
+
+first and then selling well in order to close out that trade you're going to have to buy it back from somebody to deliver it back to whoever you borrowed it from bullion bank traders engage in shorts all the time and they have drastically as you can see again by this chart reduce their amount of shorts so over the past few months they have been buying a lot of gold to close out these short positions now the trend is down so they could continue this path here and get down to some of the more normal levels that they were at in between 2010 and 2018 below that 10 line there
+
+so we could still see some more purchasing coming from these swaps but given the area that they like to be in with their shorts over the last couple of years we might expect them to turn back on net to some more selling instead so that is the second major warning here technically speaking and looking at the swaps we might have some selling pressure ahead and now for the good news they're not the only traders out there and those are not the only two forces at play when you're looking at the potential price movement of something so
+
+when we're looking at gold one of the things that we're looking at is insiders stockpiling gold and standing for delivery if we take a look at the comex open interest we can see a drastic decline here in open interest we're also seeing a massive number of contracts standing for delivery 26 000 in just the last few trading sessions which is only slightly less than the whole of july on top of that [[Finance/01 Central Banking/Central Banks|central banks]] added 59 tons to their reserves last month and no reported selling took place so right now big buyers are buying and standing for delivery and we are seeing that result in the comex vaults being drained of their goal if you take a look at this chart from mike say 98 on twitter we can see that comex vaults volumes are currently at the lowest level they've been since june of 2020.
+
+so we have bullion bank traders who have positioned themselves to be more long than they have in a couple of years potentially a bearish signal but potentially a bullish signal if they're trying to get ahead of a new bull run that they know is about to take place we've also seen a massive drop in open interest on contracts we've seen the vaults the comex vaults start to get drained lowest levels in a couple of years and finally the big kicker here this is the big signal that has only happened a few times within the last decade this one is speculative bets against gold we are currently sitting at the second highest level on record you can see the last time it was higher than where it's at right now was near the end of 2018.
+
+and if we take a look at this chart of gold where gold was at during the end of 2018 that was one of if not the best times in recent history to go long gold as it was trading at just about twelve hundred dollars at that point right as speculative bets became most short so who are these speculative bets this is managed money if you take a look at this chart we can see the red line shows the net longs and there have been a few times
+
+when managed money got net short over the past decade one of those was in 2015 and then 2016 and then another time in late 2018 and we've just become net short again from managed money zooming out a little bit further to 2006 this is a little bit of an easier chart to see every time it turns red there those are where managed money become net short if we take a look at this chart we can see the 52 week performance of every single time that this speculative [[Finance/10 Markets and Portfolios/Short Selling|short selling]] hit that net short of surge in speculative [[Finance/10 Markets and Portfolios/Short Selling|short selling]] there was only one time where we did not have a return after 52 weeks the orange line initially spiked and then came back down to have a net return at one year of basically zero
+
+but every time after that there was a large increase in the value of gold every time speculative shorts surged we can see the gray line there nine percent return after a year the purple line about 18 after a year the green line about 21 after a year and then the blue and red over 30 after just one year and if we take two years into account when september of 2018 when speculative shorts reached that all-time high we had a two-year performance of just about 75 and percentage-wise
+
+if we had a repeat of a two year performance of 75 percent as we had from 2018 to 2020 that would take us from current levels up to just about 3 000 per ounce is this guaranteed absolutely not but given the fact that we are seeing signs of capitulation we are seeing the vaults getting drained down to levels they haven't been in a few years we are seeing positioning changes by the bullion bank traders we're also seeing a very big contrarian signal from managed money which is historically wrong every time it becomes net short this is flashing some major buy signals for me and it doesn't even take into account any potential black swan issues like a china taiwan thing escalating
+
+so in my opinion right now is a time where i'm looking at buying and buying and buying especially every time we get a little bit of a dip it looks like one of the best times in recent history to start to accumulate more gold at a discount don't take my word for it i'm just some guy on the internet if you'd like my gold buying resources i've got links in the description below as always i really appreciate you guys thank you so much for watching have a great day
+
+[Music]
+
+you

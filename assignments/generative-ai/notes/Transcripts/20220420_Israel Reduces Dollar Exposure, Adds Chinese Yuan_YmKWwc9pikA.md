@@ -1,0 +1,40 @@
+---
+title: "Israel Reduces Dollar Exposure, Adds Chinese Yuan"
+video_id: "YmKWwc9pikA"
+recorded_date: "2022-04-20"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=YmKWwc9pikA"
+source_path: "Transcripts/20220420_Israel Reduces Dollar Exposure, Adds Chinese Yuan_YmKWwc9pikA.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "260e44af3e0e817605747553d735dab0cdeb8bcb186635ae4881f858965a2ee8"
+original_source_line_count: 168
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Israel Reduces Dollar Exposure, Adds Chinese Yuan
+
+the world is de-dollarizing and even the united states closest allies around the world are making moves to reduce their exposure to the u.s dollar in the latest news israel has announced that they will be reducing their exposure to the u.s dollar adding other currencies into their foreign currency holdings most notably the chinese you want to their foreign currency holdings is this going to move the needle by itself absolutely not but it is a signpost pointing towards the world that we are headed towards ready let's dive in all right
+
+so israel recently announced that they are adding the yuan to their foreign currency reserves in addition to that they are adding the canadian dollar the australian dollar the yen in addition to the yuan and if we take a look at this chart we can see here in 2020 and 2021 where they were majority was u.s dollars at about 67 percent uh there was a big chunk of the euro at about 30 percent and a tiny chunk of the british pound at two and a half percent that was largely unchanged in 2021 and there has been a massive shift going into the target for 2022.
+
+you can see here they have added the uh a big amount to the british pound here going doubling it going from two and a half percent to five percent we can see here that uh this uh darker gray one is the japanese yen at five percent we are also seeing the canadian dollar added we are seeing the australian dollar added and the chinese renminbi the uh chinese yuan added as well now the major hit here is going to come to the u.s dollar going from 66 67 percent down to 61 and then also a major hit to the exposure to the euro going from 30 31 down to 20 here
+
+so it really looks like they are trying to diversify here obviously the massive chunk here is still us dollars but we're seeing a shift in mentality a shift around the globe this is just a signpost of what everybody is doing right now watching how things are unfolding between russia and ukraine looking around and seeing hey saudi arabia and china are in talks to uh you know price oil in the yuan we're seeing different relationships start different alliances fail different currency reserves held in other countries get locked off regardless of what these countries think about what's going on right
+
+now whether they think it's good or it's bad nobody wants to have the potential for it to happen to them so even countries like israel they're starting to reduce their exposure to one or just a couple single currencies gonna try and spread that risk out across the board so that if they need to they can continue to do trade with the countries that they need to do trade with if we take a look at this chart we can see that over the last couple of years the shekel dollar [[Finance/06 Dollar and International Money/Exchange Rates|exchange rate]] has moved lower as they've been accumulating foreign currency reserves
+
+now to the point where it's worth just about one-third of their gdp they've been loading up on foreign currencies now even if the dollar sticks around for a long time which i believe it probably will when you look at the rise and fall of great powers of empires that have [[Finance/06 Dollar and International Money/Reserve Currencies|global reserve currencies]] over the last few hundred years one thing you tend to see is that the world keeps on using that currency as the [[Finance/06 Dollar and International Money/Reserve Currencies|global reserve currency]] for quite some time far after that country is done being the global superpower the reigning power now keep in mind most of the time it's still going to be gold or [[Finance/08 Gold Silver and Commodities/Silver|silver]] coins
+
+when you're looking back at world history so this time might be different however given the cycles of history we might expect the dollar to stick around a little bit longer than a lot of us might expect now one thing to keep in mind about this is that even if the dollar sticks around for quite a while its share in [[Finance/12 Trade and Geopolitics/International Trade|global trade]] might have to decline simply because the united states share in [[Finance/12 Trade and Geopolitics/International Trade|global trade]] is far lower than the amount of trade that is denominated in u.s dollars so
+
+if u.s dollar exposure around the world and the usage of the [[Finance/06 Dollar and International Money/US Dollar in Global Finance|us dollar]] comes in line with u.s gdp and participation in [[Finance/12 Trade and Geopolitics/International Trade|global trade]] we will see a drastic reduction around the world in dollars just from that alone and many people think that that is in the cards regardless of what happens with [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]] [[Finance/02 Inflation and Purchasing Power/Deflation|deflation]] devaluation debasing currencies around the world and to highlight this we're talking about israel and how they've just added exposure to the one in their foreign currency reserves one of the reasons is because of the trade that they do with china if we look here we can see that overall volumes with china has doubled between 2016 and 2021
+
+so the united states is still israel's biggest trade partner but the amount of trade that they do at china has doubled over the last five years so is the one going to replace the dollar globally probably not if we take a look at this chart we can see that the yuan was included in the sdr basket back in 2015 here really hasn't changed much in terms of the share of global payments it is still under three percent
+
+however we are likely headed towards a period of less centralization less dominance by one central currency more of a fractured global financial system with multiple currencies being used multiple [[Finance/06 Dollar and International Money/Reserve Currencies|reserve currencies]] in fact [[Finance/01 Central Banking/Federal Reserve|federal reserve]] chairman jerome powell recently within the last couple of months talking to congress said there would be nothing wrong with him he said i would not be surprised at all if we saw multiple [[Finance/06 Dollar and International Money/Reserve Currencies|global reserve currencies]] and so people are talking about this the policy makers the people pulling the strings from behind the scenes they are talking about this i would not be surprised at all to see multiple [[Finance/06 Dollar and International Money/Reserve Currencies|global reserve currencies]] more of a fractured global financial system more decentralization less
+
+centralization more redundancy less just in time across the entire world it is more likely than not at this point given where things have been and where it looks like things are headed and finally in just a couple of weeks i'm going to be speaking at the market disruptors live conference in dallas from may 6th through may 8th is the conference i would love to see you there i've got a link to sign up in the description below as always i really appreciate guys thank you so much for watching have a great day
+
+[Music]
+
+you

@@ -1,0 +1,5 @@
+---
+aliases:
+- mortgage
+- mortgage loan
+---

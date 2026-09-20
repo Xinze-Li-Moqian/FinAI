@@ -107,7 +107,7 @@ MAX_RETRIES = 5
 RETRY_DELAY_SECONDS = 10
 BUCKET_VALIDATION_MAX_ATTEMPTS = 3
 
-TRANSCRIPTS_DIR = Path("transcripts")
+TRANSCRIPTS_DIR = Path(__file__).resolve().parents[3] / "assignments/generative-ai/notes/Transcripts"
 OUTPUT_DIR = Path("output")
 CHECKPOINTS_DIR = OUTPUT_DIR / "checkpoints"
 LOGS_DIR = OUTPUT_DIR / "logs"
@@ -362,7 +362,14 @@ def _read_json_if_exists(path: Path) -> Optional[Any]:
 def _load_transcript(path: Path) -> str:
     for encoding in ("utf-8", "utf-8-sig", "latin-1"):
         try:
-            return path.read_text(encoding=encoding)
+            text = path.read_text(encoding=encoding).lstrip("\ufeff")
+            if text.startswith("---\n"):
+                text = text.split("\n---\n", 1)[1]
+                text = re.sub(r"^\s*# [^\n]+\n+", "", text, count=1)
+                text = re.sub(r"(?m) \^[a-zA-Z0-9-]+$", "", text)
+            text = re.sub(r'(?<!!)\[\[([^\]\n]+)\]\]', lambda m: m[1].split('|', 1)[1] if '|' in m[1] else m[1].split('#', 1)[0], text)
+            text = text.replace('\\$', '$')
+            return text
         except UnicodeDecodeError:
             continue
     raise UnicodeDecodeError("unknown", b"", 0, 1, "Cannot decode {0}".format(path))
@@ -1176,7 +1183,7 @@ Return ONLY one top-level JSON OBJECT with this shape:
     {{
       "conclusion": "one canonical declarative, falsifiable conclusion",
       "source_contribution_ids": ["CONTRIB-..."],
-      "source_speech_filenames": ["YYYYMMDD_Title.txt"],
+      "source_speech_filenames": ["YYYYMMDD_Title.md"],
       "premise_synthesis": "paragraph combining premises and preserving variation",
       "conclusion_supported": "precise statement of what is established",
       "evidence": [
@@ -1185,7 +1192,7 @@ Return ONLY one top-level JSON OBJECT with this shape:
           "status": "Verified | Unverifiable | Disputed",
           "verification_basis": "basis retained or carefully synthesised",
           "source_contribution_ids": ["CONTRIB-..."],
-          "source_speech_filenames": ["source.txt"],
+          "source_speech_filenames": ["source.md"],
           "source_excerpt": "exact source excerpt when retained"
         }}
       ],
@@ -1194,7 +1201,7 @@ Return ONLY one top-level JSON OBJECT with this shape:
           "device": "analogy or rhetorical device",
           "explanation": "what it illustrates",
           "source_contribution_ids": ["CONTRIB-..."],
-          "source_speech_filenames": ["source.txt"]
+          "source_speech_filenames": ["source.md"]
         }}
       ],
       "evolution_over_time": "date-aware longitudinal synthesis",
@@ -4739,10 +4746,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             PHASE5_SUBGROUPS_DIR.mkdir(parents=True, exist_ok=True)
             log.info("Cleared Phase 5 synthesis cache.")
 
-        transcripts = sorted(TRANSCRIPTS_DIR.glob("*.txt"))
+        transcripts = sorted(TRANSCRIPTS_DIR.glob("*.md"))
         if not transcripts:
             log.error(
-                "No .txt transcripts found in '%s'. Place source files there and rerun.",
+                "No .md transcripts found in '%s'. Place source files there and rerun.",
                 TRANSCRIPTS_DIR,
             )
             return 2

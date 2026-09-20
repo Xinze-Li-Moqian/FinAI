@@ -17,7 +17,7 @@ lines = ['# Title-based theme map', '',
          'Prepared for APS1053 Generative AI Assignment, Part 1. Taxonomy reviewed on 2026-09-19; channel-title snapshot retrieved on 2026-09-18.', '',
          f'This preliminary taxonomy uses the **{len(rows):,} public video titles** in [the channel index](../data/youtube_channel_videos.csv). It does not assert that a title is true, or that its argument has been checked. The source is one financial-commentary channel, not an independently verified financial dataset.', '',
          'The 16 themes and their subtopics were refined through an AI-assisted review of the earlier unmatched titles and selected ambiguous matches. Counts and examples below are deterministic keyword suggestions, not a claim that every title has been individually classified. Matches overlap. Titles without a clear rule match remain in the review queue rather than receiving a guessed label.', '',
-         '[Review notes](THEME_REVIEW.md) · [Title review queue](title_review_queue.csv) · [Match evidence](title_theme_matches.csv)', '',
+         '[Title review queue](title_review_queue.csv) · [Match evidence](title_theme_matches.csv)', '',
          'For Part 2, read the actual transcript before extracting claims, preserve source attribution, distinguish predictions from observations, and keep the date on every claim. Opposing claims over time should remain visible rather than being silently reconciled.', '']
 matched = set()
 assignments = []

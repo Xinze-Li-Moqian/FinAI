@@ -1,0 +1,5 @@
+---
+aliases:
+- pension
+- pension plan
+---

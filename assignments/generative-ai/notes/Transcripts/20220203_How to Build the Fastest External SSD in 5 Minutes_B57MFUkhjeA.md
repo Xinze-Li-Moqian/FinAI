@@ -1,0 +1,32 @@
+---
+title: "How to Build the Fastest External SSD in 5 Minutes"
+video_id: "B57MFUkhjeA"
+recorded_date: "2022-02-03"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=B57MFUkhjeA"
+source_path: "Transcripts/20220203_How to Build the Fastest External SSD in 5 Minutes_B57MFUkhjeA.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "f798f3cf251df192fe421606888964b97baa1b030374c36b04ee4a91ec33b61e"
+original_source_line_count: 130
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# How to Build the Fastest External SSD in 5 Minutes
+
+am i really making a video about a hard drive that i just built yes yes i am no economics here today i just built this trebley hard drive and i kind of geek out over this stuff and it's so good that i thought i would share it with any of you who might be interested in looking for the best the fastest hard drive external [[Technology/Solid-State Drives (SSD)|ssd]] available for about the last two years i have been on the hunt for an extremely fast [[Technology/Solid-State Drives (SSD)|ssd]] specifically one that is [[Technology/Thunderbolt|thunderbolt]] and so usbc [[Technology/Thunderbolt|thunderbolt]] they've got the same connection but they've got different internal parts and so [[Technology/Thunderbolt|thunderbolt]] is much faster
+
+now in my searching i came across obviously a lot of pre-built ones but i always ran into issues once i started looking at the reviews and looking at the how the speed slows down depending on the file size and obviously since i do work with video i'm constantly using very large files and so any of these hard drives when you get large file sizes sometimes 10 gigs 50 gigs 100 gigs the speed slows down and you're not able to use any of the [[Technology/Thunderbolt|thunderbolt]] speeds so when i came across this video from max tech i just had to try it out for myself
+
+now normally keep in mind i am not the type of person that would ever build something like this just for fun in fact i'd probably pay double to have this thing built for me and pre-assembled but after seeing how easy it was i just couldn't resist so what exactly is this well it's two parts basically it's an enclosure kit and it's the actual [[Technology/Solid-State Drives (SSD)|ssd]] one that you would just put in a computer and so essentially all you have to do is open this up and stick in your hard drive your [[Technology/Solid-State Drives (SSD)|ssd]] of choice and then put it back together and i'm going to show you exactly how fast that was right
+
+now okay i'm opening up the box and it's pretty good packaging it's got a screwdriver and the screws that you need that blue strip is going to be a thermal tape it's got two cords one is usb c to usb a the other one is [[Technology/Thunderbolt|thunderbolt]] now we've got the enclosure here just take out the screws with the provided screwdriver pretty easy take it apart and now we open up the [[Technology/Solid-State Drives (SSD)|ssd]] itself really really great packaging here that's a nice case there's the drive stick it in it goes in one way put this provided screw in to hold it in place open up the thermal tape place it on top and then we put the top back on the enclosure there put the four screws that are provided back in and uh easy peasy
+
+now we are done just like that so how fast is this thing well you can see from my screenshot of my read and write tests that i exceeded the 2527 read and write speed got about 26 on right and 27 on read now other drives that are pre-built will advertise this as their top speed but what they don't tell you is that if you have a large file size it can't reach anywhere near that speed and this is because of technical bottlenecks like literally imagine a bottleneck if something's too big to fit through a bottleneck you have to move it through piece by piece
+
+if something's small enough to fit through the bottleneck it can just go right through at any speed and so this based on whatever technical wizardry they built into this enclosure doesn't have as small of a bottleneck and so the large file sizes can still zip on through at the full speed now it comes with a high quality high speed actual [[Technology/Thunderbolt|thunderbolt]] cable which is nice because this is the only bottleneck then so you get the full speeds out of [[Technology/Thunderbolt|thunderbolt]] instead of being artificially limited by whatever the enclosure can do now the other cool feature about this drive is that it can also connect with usb
+
+instead of [[Technology/Thunderbolt|thunderbolt]] which again it's the same size connector and so that's nice because some [[Technology/Thunderbolt|thunderbolt]] drives if you use a regular usb and stick it into a computer with usb and not [[Technology/Thunderbolt|thunderbolt]] it won't be able to work so this does both now it's slower with usbc but you can still use it so how much does this all cost well the enclosure itself is 150 and the one terabyte drive that i have inside is 130 i'll have both of these amazon links in the description below just in case you're interested in building it yourself this puts the total for this drive at right about 280 dollars which is cheaper than most one terabyte [[Technology/Thunderbolt|thunderbolt]] drives
+
+now not only is it cheaper but it also blows them out of the water in speed tests especially with large files so all in all if you are in the market for an extremely fast external [[Technology/Solid-State Drives (SSD)|ssd]] you regularly deal with large files and you have [[Technology/Thunderbolt|thunderbolt]] on your devices you just can't beat this option but you let me know this obviously isn't my area of expertise i've been shopping for a fast [[Technology/Solid-State Drives (SSD)|ssd]] for a couple of years now and this is the best option i've found but there might be some better options out there let me know in the comments if i've missed something as always really appreciate you guys thanks so much for watching have a great day
+
+[Music]

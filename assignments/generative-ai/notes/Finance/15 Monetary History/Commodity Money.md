@@ -1,0 +1,4 @@
+---
+aliases:
+- commodity money
+---

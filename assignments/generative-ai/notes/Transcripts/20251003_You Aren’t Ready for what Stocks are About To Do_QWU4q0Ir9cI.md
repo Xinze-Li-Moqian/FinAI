@@ -1,0 +1,98 @@
+---
+title: "You Aren’t Ready for what Stocks are About To Do"
+video_id: "QWU4q0Ir9cI"
+recorded_date: "2025-10-03"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=QWU4q0Ir9cI"
+source_path: "Transcripts/20251003_You Aren’t Ready for what Stocks are About To Do_QWU4q0Ir9cI.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "574ec70d52ecf628144592207baffc26b348000a21d90009441790a5e3debce7"
+original_source_line_count: 450
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# You Aren’t Ready for what Stocks are About To Do
+
+Is it possible that a massive bull market, a rip your face off rally, a blowoff top is about to start in the stock market? Well, that's what it looks like the data is pointing to. So, I'm going to show you the data that I'm looking at, and obviously you can make up your own mind. First, I'd like to take a trip back in time to around May of this year, 2025.
+
+pointing you to this chart at the end here is retail buying in the stock market. This is the number of consecutive weeks that retail individuals, small investors, dumb money were just plowing into [[Finance/10 Markets and Portfolios/Stocks|stocks]]. Which means that during the entire bare market and recovery, it was small investors, retail individuals who were buying, buying, buying like crazy. Obviously, you can see that since then, retail individuals have done very well.
+
+The crazy part about this is it wasn't just that retail investors were buying, it's who was selling. Kobesci letter pointed out that according to Bank of America during that time, hedge funds had sold a record $1.5 billion and institutional clients had dumped approximately $2.7 billion, which was the second largest amount in history. Which means this entire dump happened as institutional investors were selling and retail investors were buying it all up as fast as they could. Now, you might think, well, now would be a good time for retail investors to cash out then because it's not that common that small money beats dumb money.
+
+And you might be thinking that by now with the stock market at all-time highs, having a very impressive bull market behind it, that institutional money must be fully allocated at this point. And surprisingly, that's not what the data shows right now. First of all, this is the Goldman Sachs US equity sentiment indicator. And you can see that Goldman Sachs sentiment indicator shows some pretty significant negative territory for sentiment on the stock market right now, despite the fact that the market's at all-time highs.
+
+This is something that it takes a lot of investors a long time to understand. But markets climb a wall of worry. It's when everybody expects the market to continue to go up. Everybody is greedy. everybody is euphoric. That's when you want to be afraid and that's when you want to start maybe pairing down your positions or hedging or putting in some stop- losses.
+
+But when sentiment is really low, it doesn't really matter that the market's at all-time highs. Markets climb walls of worry. Goldman Sachs pointed out their sentiment indicator is so low because of widespread concern about an equity market bubble and that none of the nine positioning measures in this indicator are in stretched territory. Goldman Sachs also pointed out that they continue to highlight that institutional investor positioning remains light.
+
+In other words, despite the market being at all-time highs and sitting on the back of a massive bull run, institutional allocation is still light because they're afraid the market's in a bubble. Sentiment is still in the dump. And Chris Sadial, who is the co-CIO of Ambress, they're a volatility fund, confirms this, saying that they're a good chunk of wealth advisor platforms that have derisked their exposure since April. Remember, April was when the market was dumping, and they have not gotten back to their normal levels of equity exposure, which means in Q4 of this year, a lot of these assets are going to have to start making their way back into [[Finance/10 Markets and Portfolios/Stocks|equities]], buying on any dips, chasing [[Finance/10 Markets and Portfolios/Stocks|equities]] higher to make up ground for underperforming the benchmark.
+
+This is something that most people don't realize about the vast majority of money management out there. The standard operating procedure is that it's better to be safe than sorry. Instead of going out on a limb and chasing better returns, taking on excess risk that could wind up losing you money, it's better to just fall a little bit behind the curve. At least you're going along with the crowd.
+
+That way when somebody compares you to the benchmark, yeah, you might be underperforming a little bit, but at least you're going down with everybody else and up with everybody else, which means most people are not going to pull their assets from you because if they put them somewhere else, they're going to have similar performance anyway. As a result, you get a lot of money managers who end up just chasing trends, and the market is sitting at all-time highs after a big crash, and they're still not positioned in [[Finance/10 Markets and Portfolios/Stocks|equities]] the way they need to be.
+
+Now, in another sign that people are not overly invested in the stock market right now, is the fact that leverage is actually being taken off the table. If you look at a fund like SOXL, which is a triple leveraged ETF tied to semiconductor [[Finance/10 Markets and Portfolios/Stocks|stocks]], you see that for months now there have been massive outflows and that's despite the fact that this fund has been making significant gains that entire time. Weak institutional allocation and traders taking leverage off the table are not usually things you see at market tops. They're things you see before giant rallies.
+
+Now, by the way, if you're interested in learning more about how to use this situation to make money yourself, I am going to cover some standard practices at the end of this video that anybody can apply to their own portfolio. However, I am also about to launch a new beta test for a service where I'm going to be tracking a very special type of trade. These are trades that I believe could soar as this all plays out over the coming months and even years. And in the past when I've run these beta tests, the people who did join had the chance to take home some pretty impressive returns.
+
+And so now that I'm running a beta test part two, I'd like to extend that invitation to you. That's why on October 9th at 700 p.m. Eastern time, I'm going to be hosting a live Zoom call to explain what this is all about. We're going to cover things like number one, details on a specific category of assets in the market that I believe is about to explode over the coming months and quarters. Number two, I'm going to cover how I'm already using these assets to generate double and tripledigit returns, sometimes in a matter of months.
+
+And finally, number three, I'm also going to be giving away two free stock picks on the call to anybody who shows up just for joining. If you're interested in seeing what this is all about, go ahead and just click on the link in the description below to sign up. Attendance on the call is free, but my beta test spots are limited. Okay.
+
+Now, I'd like to point you to this chart, which is another piece of evidence that we are nowhere near the top in the market. This is a table that shows every single time the [[Finance/01 Central Banking/Federal Reserve|Federal Reserve]] has cut [[Finance/04 Bonds and Funding Markets/Interest and Interest Rates|interest rates]] while they've been near all-time highs. And by near, I mean within 2% of an all-time high. You can see they've done this plenty of times all the way since 1980 until now.
+
+And if you look at the column all the way on the right, you can see the returns over the following 12 months, 100% positive. So far, there has never been a situation where the [[Finance/01 Central Banking/Federal Reserve|Federal Reserve]] has cut rates near an all-time high and the market has not been higher one year later. Now, obviously, if we look at shorter time periods like 6 months, 3 months, or even 1 month, there are plenty of red numbers on this table. Some standouts are when the market plummeted by 20% in 1990 within 3 months following a rate cut at all-time highs or in 2019 when the stock market plummeted almost 20% when the Fed cut near all-time highs.
+
+And that took place over the next 6 months. But the vast majority of the time, even 3 and 6 months later, the market is higher after a rate cut near all-time highs. And historically, the longest you'd have to wait to have a gain would be 1 year. And obviously, we just had another Fed rate cut with the market at all-time highs.
+
+Historically speaking, this would indicate we've got room to the upside. But it's not just institutional positioning. It's not just [[Finance/05 Banking and Systemic Risk/Deleveraging|deleveraging]]. It's not just Fed rate cuts. We're also seeing some of the most and fastest buybacks for [[Finance/10 Markets and Portfolios/Stocks|stocks]] that we've seen ever. So far, [[Finance/10 Markets and Portfolios/Stocks|stocks]] have bought back more shares this year than they have for the last 20 years.
+
+And by the end of the year, stock buybacks are projected to hit a new fullear record. One crazy example of stock buybacks that I've been watching for almost a decade now is Apple. You can see this chart from Creative Planning shows both the number of buybacks that Apple is doing and the number of shares that Apple has left in the market. You can see for over a decade now, Apple has been decreasing the number of shares that are available on the market as they've been ramping up buybacks.
+
+So, one thing most people get wrong about buybacks is they think that it artificially inflates the stock price. That could not be further from the truth. It is simply a way to return value from [[Finance/16 Economic Reasoning/Profit|profits]] to shareholders. That can be done through dividends.
+
+That can be done through stock buybacks, but it doesn't artificially or manipulate the stock price because in order to do a buyback, the company has to purchase those shares. And so the share price goes up, all else being equal, for the exact same amount that their cash goes down. It's the same thing like when you get paid a dividend from a stock. If you go watch the stock market on that date, the stock will actually drop by the exact amount of the dividend that they paid.
+
+If a company does not produce [[Finance/16 Economic Reasoning/Profit|profits]] or revenues sufficient to buy back shares, it cannot have anything to return to shareholders through buybacks. And in the case of Apple, it will be very interesting to watch how this plays out because at this pace of buybacks, they could actually take themselves private. They're on track to do so by about 2035. So, companies overwhelmingly deciding to return their value to their shareholders by purchasing their own shares instead of paying it out in dividends.
+
+That value stays in the market. That drives share prices higher. Again, all else being equal, is another indication of a lot more buying to come. Now, if you're sitting there thinking, "Man, I hate this. I want the stock market to crash. It shouldn't be this high.
+
+It's so expensive. Valuations are crazy." I want you to recognize that emotion in yourself because it's probably a similar emotion that many people have right now, which is a good indication that we're not at a top. Usually at tops, everybody is euphoric. Everybody is greedy.
+
+Everybody is trying to pile in as fast as they can because they think it's easy money and they're getting rich. And if that's not the feeling you're having right now, there's a good chance most other people are not as well, which is a good indication we're not at a top. Markets climb walls of worry. But the other thing is you always have to ask whenever somebody says it's expensive, you have to ask compared to what.
+
+This is a chart of the S&P 500 going back many, many decades. Obviously, it's at an all-time high, but you can't just use that to say it's expensive. Yes, it takes more dollars to buy those [[Finance/10 Markets and Portfolios/Stocks|stocks]] than it ever has before. But what if the dollars themselves are losing value?
+
+Now you have to compare [[Finance/10 Markets and Portfolios/Stocks|stocks]] to something else. And if we compare the value of the S&P 500 to the value of gold, in other words, we're pricing [[Finance/10 Markets and Portfolios/Stocks|stocks]] in gold instead of dollars, you get a very different picture. The blue line that you're looking at here is the S&P 500 priced in gold. And you can see that while it might look slightly elevated, it is nowhere near incredibly expensive territory.
+
+It's nowhere near where it was at the top of the market in 2021. It's nowhere near where it was obviously at the peak of the dot bubble and it's also nowhere near where it was right before we delin from the [[Finance/15 Monetary History/Gold Standard|gold standard]]. But I have two other lines on here, a pink one and a yellow one. And the yellow line is the 200 month moving average.
+
+You can see we are literally right there at the 200-month moving average and this pink line is the 500month moving average. We are just below the 500month moving average. So zooming out looking at the S&P 500 priced in gold for the last century or so, you can see [[Finance/10 Markets and Portfolios/Stocks|stocks]] are not extremely overvalued. They're not expensive in gold terms.
+
+Now, if you're still sitting there thinking, "I just don't like to invest at all-time highs. I've been sitting in cash for six months. I've been sitting in cash for a year, waiting for a crash." I would like to ask you a couple of things.
+
+What kind of a crash are you waiting for? What price are you looking for? Were you sitting in cash through the April crash and you let it come and go? If so, how do you know you'll take advantage of the next crash? How will you know when it has fallen far enough for you to view it as [[Finance/10 Markets and Portfolios/Stocks|stocks]] being on sale?
+
+Most of the time, people are very bad at this, which is why the data shows stats like this. You see four names here. I'm going to explain what each one of these people did. These are hypothetical imaginary people in a study from Charles Schwab.
+
+But I want you to notice that the investment performance from Peter, Ashley, Matthew, and Rosie are all pretty similar. Obviously, Rosie did the worst of these four, but not significantly worse. Larry, on the other hand, did do significantly worse. So, what were the choices that these five hypothetical investors made?
+
+Again, these were made through analyzing market data, looking at historical market performance, and assigning behavior and decision-making characteristics to five hypothetical people. So, they looked at 80 separate 20-year periods. And then they created somebody called Peter who always timed his investments perfectly. These were annual investments and so of the amount that he was going to invest every single year, he did it at the market bottom.
+
+He ended his 20-year period with 186,000, which is why he came out on top. Ashley, however, simply put her money to work as soon as she received it each year. In other words, Ashley was not trying to time the market at all whatsoever. Anytime she had cash available, she just invested it.
+
+And you can see that while she did underperform, it was pretty close. Next, we have Matthew, who decided to dollar cost average, which meant that instead of investing as soon as he had the cash available, he would take his cash and just slowly invest it in equal amounts over the course of the year. Matthew also underperformed a little bit more and that simply comes down to the fact that most of the time markets are going up. There are certain periods where the market goes down, but the vast majority of the time markets are going up.
+
+So, the vast majority of the time, dollar cost averaging will have worse performance than lumpsum investing if you have the cash available. So, over most 20-year periods, Matthew slightly underperformed, but again, not that bad. Next, we have Rosie, who tried to time the market, but she timed it poorly. In other words, she was trying to mimic Peter, but she wasn't buying the bottoms, she was buying the tops.
+
+and that did lead her to underperform, but still really not bad, especially considering the last person, Larry, who kept on waiting for a better opportunity and never bought at all. What is the takeaway from this? Depending on how you measure the stock market, it's not really expensive right now. But even if you measure it in dollars and even if you're looking at valuations and even if you're looking at the economy and you're saying, "We're at a market top.
+
+Everything is about to crumble." Statistically, you do better to act like Rosie by being a poor timer of the market than being Larry who thinks you can time the market and just never actually invests. Obviously, I am not saying that you should just throw your money in blindly to any asset just because in the past it has gone up. I am one of the biggest proponents of [[Finance/10 Markets and Portfolios/Active and Passive Investing|active investing]].
+
+I don't like the advice to just dollar cost average into index funds, bury your head in the sand, and hope everything turns out okay. When markets are up, when markets are frothy, when volatility is low, when hedging is cheap, I think you should hedge. I think you should take [[Finance/16 Economic Reasoning/Profit|profits]] off the table. I think you should use basic risk management tools like even trailing stop orders.
+
+But most people are not going to do any of that. Most people are either going to be all in the market or they're going to be in cash. And the people who wait to try and time it so that they can get those bottoms rarely ever do. And if you want to be one of those individual investors who just clobbers institutions, this is what it looks like.
+
+It means buying when things are down, buying when things are going up, not sitting on the sidelines hoping for a bigger crash next time. And again, if you'd like a special invitation to my beta test, so you can see how I'm playing this next leg up in the market, the specific assets that I'm targeting that look like they have the potential to pay big [[Finance/16 Economic Reasoning/Profit|profits]] for the coming quarters and years. Don't forget to sign up for my free Zoom call. It's October 9th, 700 p.m. Eastern time.
+
+Link is in the description below. See you there. Thanks so much for watching.

@@ -1,0 +1,4 @@
+---
+aliases:
+- legal tender
+---

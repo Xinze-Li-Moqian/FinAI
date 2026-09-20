@@ -1,0 +1,5 @@
+---
+aliases:
+- deleveraging
+- de-leveraging
+---

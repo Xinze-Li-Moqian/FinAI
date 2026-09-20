@@ -1,6 +1,8 @@
 """Resume a bounded, serial public-transcript download; stop on blocking."""
 import argparse
 import json
+import re
+import hashlib
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -26,15 +28,18 @@ def main():
     entries = json.loads((root / 'data/channel.json').read_text())['entries']
     boundary = next(i for i, e in enumerate(entries) if e['id'] == '6Voa_CRRc2M')
     candidates = entries[:boundary]
-    dest = root / 'data/new_transcripts'
+    dest = root.parent / 'notes/Transcripts'
     dest.mkdir(parents=True, exist_ok=True)
     log = root / 'manifests/download_log.json'
     log.parent.mkdir(parents=True, exist_ok=True)
     state = json.loads(log.read_text()) if log.exists() else {}
     api = YouTubeTranscriptApi(http_client=TimeoutSession())
+    existing_ids = {p.stem[-11:] for p in dest.glob('*.md')}
     count = 0
     for e in candidates:
         vid = e['id']
+        if vid in existing_ids:
+            continue
         if state.get(vid, {}).get('status') in ('downloaded', 'unavailable', 'outside_window'):
             continue
         if count >= args.limit:
@@ -55,8 +60,23 @@ def main():
                 text = '\n'.join(s.text.strip() for s in transcript if s.text.strip()) + '\n'
                 if not text.strip():
                     raise ValueError('Empty transcript')
-                filename = f'{date}_{vid}.txt'
-                (dest / filename).write_text(text)
+                safe = re.sub(r'[\\/*?:"<>|\[\]#^\x00-\x1f]', '_', info['title']).strip(' .')
+                safe = safe.encode('utf-8')[:170].decode('utf-8', errors='ignore')
+                filename = f'{date}_{safe}_{vid}.md'
+                target = dest / filename
+                props = dict(title=info['title'], video_id=vid,
+                             recorded_date=f'{date[:4]}-{date[4:6]}-{date[6:]}',
+                             date_source='YouTube video metadata via yt-dlp',
+                             source_url=f'https://www.youtube.com/watch?v={vid}',
+                             source_path=str(target.relative_to(root.parent / 'notes')),
+                             original_source_sha256=hashlib.sha256(text.encode()).hexdigest(),
+                             reading_format='Subtitle lines joined into paragraphs; original words and punctuation preserved.')
+                words = text.split()
+                body = '\n\n'.join(' '.join(words[i:i+110]) for i in range(0, len(words), 110)) + '\n'
+                markdown = '---\n' + ''.join(k + ': ' + json.dumps(v, ensure_ascii=False) + '\n' for k,v in props.items()) + '---\n\n# ' + info['title'] + '\n\n' + body
+                with target.open('x', encoding='utf-8') as handle:
+                    handle.write(markdown)
+                existing_ids.add(vid)
                 state[vid] = dict(status='downloaded', upload_date=date, video_title=info['title'],
                                   filename=filename, language=transcript.language,
                                   is_generated=transcript.is_generated, downloaded_at=stamp)

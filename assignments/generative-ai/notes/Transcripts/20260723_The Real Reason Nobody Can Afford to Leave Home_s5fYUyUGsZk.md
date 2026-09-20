@@ -1,0 +1,130 @@
+---
+title: "The Real Reason Nobody Can Afford to Leave Home"
+video_id: "s5fYUyUGsZk"
+recorded_date: "2026-07-23"
+date_source: "YouTube video metadata via yt-dlp"
+source_url: "https://www.youtube.com/watch?v=s5fYUyUGsZk"
+source_path: "Transcripts/20260723_The Real Reason Nobody Can Afford to Leave Home_s5fYUyUGsZk.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "4b1e323962ed5b731d8dcf35dda6dc21544c3e46773061bcbc47868be3ef594f"
+original_source_line_count: 636
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# The Real Reason Nobody Can Afford to Leave Home
+
+A rapidly growing number of young American adults are now living at home with their parents and relying on their parents for financial assistance. The big question is, why? Is this just a change in cultural preferences, or is this a major sign of major problems with the economy and wealth overall? Recent report from CNBC showed that 42% of adults are now relying on their parents for financial support.
+
+And specifically, if we want to take a look at the number of people who are living with their parents, I think it is important to break it down a little bit more than just young adults. And so that's exactly what I did here. You can see this is ages 18 through 24 broken down by men and women going back all the way to 1960. You can see that really since about the mid-80s, the number of men who are living with their parents, that are again age 18 to 24, has very, very slightly drifted lower.
+
+Looks like it bottomed around mid-2000s, maybe 2005 or six, and then has rebounded since then, but is still slightly lower than it was in the 80s. You can see here the number of women age 18 to 24 was steady from about the 1980s through the mid-2000s, and has pretty dramatically risen since then, and is almost equal to the number of men living at home with their parents. But that's ages 18 through 24, and that is not the area that has shown the biggest change. If we look at ages 25 through 34, we see a much bigger jump.
+
+Going back again all the way to 1960 broken down by men versus women, we can see that back in 1960, the percentage of men living with their parents who are ages 25 to 34 was just over 10%, and for women it was about 7%. But over the last one to two decades, we've seen a dramatic rise in this age group from both men and women, and now we see about 20% of men ages 25 to 34 living with their parents and almost 14% of women. Going back to the younger cohort, this number does make a little bit more sense because the younger you are, the harder it is to get a good job that pays good money, especially when rent prices and insurance prices and all that are increasing.
+
+So, for that younger crowd, it does make more sense to have a higher percentage of them living with their parents. But, the older crowd, 25 to 34, this is the one that is the most concerning, especially because we see this one is the one that has the most dramatic rise. So, let's take a look at a couple more pieces of data to try and pick apart whether this is just a change in cultural preferences. Again, parents saying, "Hey, we've got the money, we've got the space.
+
+Why don't you come live with us cuz we really like you being around." And younger people saying, "You know what? I really do like being around my parents 24/7. So, let's do that." Or whether this is a sign of just economic hardship. One way that we can look at this is by comparing incomes to gold because we know that in the past gold was used as money and gold does a much better job of preserving its [[Finance/02 Inflation and Purchasing Power/Purchasing Power|purchasing power]] over time.
+
+Now, it's not going to be a perfect comparison, so this is not the only comparison we are going to look at, but it is helpful to get a little bit of a more solid [[Finance/02 Inflation and Purchasing Power/Purchasing Power|purchasing power]] anchor over time to compare incomes. Let's start off with the year 2025. We can see the median household income in the United States in dollars is just over 80,000 US dollars, and because we're starting in 2025, it's the same for dollars versus gold. As you go back in time, look at the dollar number, obviously, the median household income in US dollars is going to go down over time.
+
+We go back just over 100 years to the median household income back in the 1920s was $2,160. The gold adjusted equivalent of that was $352,000. Now, obviously, there are some problems with this because when you look at the gold-adjusted median income in 1970, that number is a staggering $753,000. And just 10 years later, it drops to 90% lower at 71,000.
+
+And so, this data is skewed because of what the price of gold relative to US dollars has done over time from government pegging the price of gold to dollars. So, this data is not completely accurate, but it does give you a close approximation that measured in gold, or at least if we were still using [[Finance/08 Gold Silver and Commodities/Gold as a Monetary Asset|gold as money]] today, the [[Finance/02 Inflation and Purchasing Power/Purchasing Power|purchasing power]] of the median income should be a little bit higher at least than what it is today. But like I said, that's not the only comparison we need to make. Let's take a look at median incomes versus things that people actually buy.
+
+Some of the categories that people spend the most money on, like housing. And I guess since we're talking about people living with their parents, looking at the price of housing makes a little bit of sense. So, first, let's take a look at this chart. This is the [[Finance/02 Inflation and Purchasing Power/Consumer Price Index (CPI)|CPI]] index for rent of primary residence that is adjusted for median income going back to the 1980s. So, these are both the raw numbers, and neither of these are adjusted for [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]] because we just want to look at how much income at that time was needed to buy how much rent at that time.
+
+And you can see that back in the 1980s, it took a lot less of the median purchase the median rent. And again, starting around the late 2000s, wonder if it had something to do with the financial crisis and the regulation and the money printing, that started to soar. And now, it takes a much larger chunk of the median income to afford the median rent. So, it's very clear, over the past couple of decades, rent has gotten more expensive even when you adjust for incomes going up.
+
+But we can also look at home price-to-income ratio, and this chart is specifically the median [[Finance/09 Housing and Mortgages/Home Sales and Housing Construction|home sale]] price adjusted for the median household income. And you can see this data goes all the way back to the 1950s. You can see that through the 50s into about 1975, home prices got cheaper and cheaper and cheaper compared to incomes. In other words, even if home prices, raw home prices were going up, it was more affordable because incomes were rising faster. However, that's when they bottomed and with volatility, home prices compared to incomes have been going up since then and they are more expensive than they have ever been on an income adjusted basis.
+
+Meaning yes, incomes have gone up over that time, house prices have gone up more. Now, you'll see some people try and make very unintelligent comparisons saying that no, houses aren't actually more expensive. They were way more expensive in the 1950s if you look at how many hours of work it took to buy a square foot of house. And obviously, that's true.
+
+But guess what? It doesn't matter how big the houses are. It matters what the entry price is, what the threshold is for getting into a house. It's no secret that houses have gotten a lot bigger. But that doesn't help the person who's trying to buy a smaller house.
+
+That doesn't help the person who's just trying to get their foot in the door, literally and figuratively. The fact that houses have gotten bigger and therefore it doesn't matter that they've gotten more expensive is ludicrous. Anybody who's struggling to afford a home would prefer to be able to buy a home rather than just feel warm and cuddly because well, at least the people who can afford the homes have bigger homes. That doesn't matter here.
+
+Just because there's more square footage available doesn't make it easier or doesn't make it cheaper. There's still the cost of entry to get into a home is to buy the home. So, stats like this are just irrelevant. Hey, real quick, if you are an active investor and your portfolio's not growing as fast as you'd like, then I would like to give you a free gift.
+
+This is something I've been working on for a long time. My team and I put together a portfolio stress test. We looked at the top six risks that people are exposed to in their portfolios many times without even knowing it. And most importantly, what you can do to fix it.
+
+So, we built this really cool questionnaire quiz on my website where you can input all the information about your portfolio, your investing goals, and then it's going to spit out for you a customized blueprint that shows you where you're currently at and what you need to do to get to the next level. So, no matter what is holding your portfolio back and no matter what risks you're exposed to, maybe without even knowing, I want to help you find and fix your vulnerabilities. Again, completely free. Once you go through this little 1-minute questionnaire on my website, it's going to send you a customized blueprint to your email PDF you can download and you can keep it forever.
+
+And that's going to give you access to all of my courses. I've created literally hundreds of hours worth of educational content that I used to sell for hundreds, sometimes even thousands of dollars. This is now my free gift to you. You can access it 100% completely free of charge.
+
+It's going to give you all the education, all the strategies and tactics that you need in order to fix your portfolio. All you need to do is go through the questionnaire, open up the email, save that PDF, and get to work. So, if you like to take advantage of this, all you have to do is go to my website heresy.financial/stresstest. The link is in the description below as well.
+
+It's heresy.financial/stresstest. Plug in your portfolio information and I'll send you your custom blueprint 100% free. Now, I asked the question at the beginning of the video whether this was a cultural issue, whether everybody was just changing their preferences, or whether this was a wealth and economic issue. And I think the data is pretty clear.
+
+I'll show you here that this is a wealth issue. This is an income issue. This is an economic issue. This is not a cultural one. I understand that some places around the world, you have much higher percentages of adults choosing to live with their parents.
+
+And a lot of people like to say, "That's a cultural thing. Those people want to live with family members." And maybe so, but as you're going to see here, there's a very high correlation between wealth in countries and the countries with the high percentage of people living with their parents. Meaning, maybe those cultural preferences are driven by the fact that they can't afford to do anything otherwise.
+
+So, first let's take a look at this map of Europe. And we're taking a look at Europe first because we've got a pretty high number of countries here with fairly large dispersion of wealth and percentages of people living at home. And you can see the dispersion here. Up here, we've got the countries with the lowest percentage of adults age 25 through 29 living with their parents.
+
+Down here, we've got kind of the middle ground. And then throughout the bottom here, we've got the highest percentages of people living with parents. Now, I've switched over to a chart that shows median wealth per adult. And you can see it is not a perfect correlation, but it's pretty close.
+
+We've got the highest amount of wealth in these countries, the next highest amount of wealth per person in these countries, and then we've got the lowest amount of wealth over here. Again, putting these charts side by side, we can see that again, even though it's not perfect, there's a pretty high correlation. The wealthier countries are per capita, the more likely it is that young adults don't choose to live with their parents. Probably because they don't have to.
+
+And if you don't like median wealth per adult, you can also look at GDP per capita. And you can see it's pretty much the exact same dispersion. You've got the wealthiest GDP per capita countries up here. Down here, you've got the next. And then you've got the poorest spread over here.
+
+Again, pretty much the exact same dispersion. So, that's just Europe, but how does this look across the globe? Because European countries tend to have pretty similar cultures, at least when you compare it to the cultural differences around the rest of the world. This is the chart that shows median wealth per adult by country around the world.
+
+You can see the richest countries, you're going to see it in Europe, you're going to see Canada, the United States, and Australia, and then over here in Japan. You have the highest concentration of poverty in Africa, over here in Asia, and then a little bit in South America, as well. Now, this is the chart that I put together that shows the percentage of young adults living with their parents. Now, just a quick note about this chart.
+
+This chart did not exist. I put this together. I had to pull data like census data from many different sources, compile it, and then create this interactive map with that data, which means that some of the places are measuring things differently. For example, when you see the highest number of young adults living with parents coming out of Singapore, it's because the way that they measure that is ages 15 through 30.
+
+So, they're obviously going to have a really high number of young adults living at home if you're measuring people who everybody else are measuring as kids. And then you're also going to have a lot of countries that have missing data, like a lot of these countries in Africa, we just don't have the data for anywhere. So, I say all that just so you can take this chart with a grain of salt, but as you can see, the places that have the lowest number of adults living at home are going to be the darkest blue countries.
+
+So, you've got like the United States, you've got the countries in Europe. We've got really high percentages of people living at home in places like Russia, some of the countries in Africa, some of the countries in South America, some of the countries in Asia. Now, again, like I said, it's not perfect, but putting these charts side by side, you see a very close correlation between the countries that are the richest per person countries and the countries with the lowest number of young adults living with their parents. So, this trend that we are seeing over the last couple of decades of more and more young adults in the United States living with their parents does not seem to be one of cultural preferences changing.
+
+It seems to be one of necessities changing because young adults just cannot afford to go out and live on their own anymore. Now, I think it's very clear that there is a big chunk of this that is just a discipline issue. Yes, things have gotten a lot more expensive, but people still have the ability to make choices. Personal responsibility and agency is not gone just because things have gotten more pricey.
+
+For example, if you look at the average savings by age, people under the age of 35 have an average transaction account balance, like their main checking account balance, of $20,000, but only a median account balance of 5,400, which means this 20,000, since it's average, it is heavily skewed by the people who have the most amount of money. The median is a lot more close to reality for the vast majority of Americans. And $5,400 in your checking account is maybe for most people enough to last 1 month. Meaning most Americans, most young adults, are spending everything they earn.
+
+Anything that comes in goes out. There's not a surplus that's being accumulated there. Now, at this point, you might be thinking, well, that's still just because everything is too expensive. And I'm going to show you a couple things here that looks like, hey, well, if we made different choices, we'd have different outcomes.
+
+For example, today 78.8% of Americans use delivery services for food. The average American spends $35 per order and orders food from delivery services almost four times a month. They spend over $1,500 on food annually. You can see the breakdown by state, and you can see places like Arizona, and New York, and California, and Texas.
+
+Some of these states that are green have the highest rates of spending on food delivery services. And I picked this out specifically because when you order food from a food delivery service, not only are you paying somebody else to buy your groceries for you, but you're paying somebody else to turn those groceries, those ingredients, into edible food, into recipes, into meals for you. And not only are you doing that, but you are also paying somebody to go deliver it to you, to go drive over there, pick it up, and drop it off at your door.
+
+If you eliminate the expenses of having somebody go drive and personally deliver your food to you, and paying the expenses of having somebody actually make your meals for you, all you're left with is the cost of the actual ingredients. And if you are strapped for cash, if you are not able to afford things, if you are getting feeling like you're getting left behind, you have no business living like a rich person, paying other people to do those things for you. It makes much more sense to buy the ingredients yourself, meal prep for yourself, and save that money.
+
+Now, I know it sounds like I play both sides here, I'm going to do it again because it's not like across the board. Young people get a really bad reputation from old people for just spending money willy-nilly on luxuries and things that old people say, "You know what? I didn't buy any of that stuff when I was young. I saved all my money and I just put it to work and I bought a house and I built it myself and I just, you know, pulled myself up by my bootstraps."
+
+And part of that perception is because a lot of things that used to be very expensive luxuries 50 years ago, today are super inexpensive commodities. For example, you've got old people saying, "Don't go out there and buy yourself expensive electronics like TVs." But price [[Finance/02 Inflation and Purchasing Power/Inflation|inflation]] for TVs has been negative pretty much every year for the last 75 years straight, meaning in consistent price dollars, the price of TVs has dropped dramatically for almost 100 years. This means that between 1950 and 2026, TVs that cost $1,000 in the year 1950 would cost literally $5.98 in 2026 for an equivalent purchase.
+
+And the same is true of many things like clothes and furniture. So, a lot of things that young people are spending a lot of money on in terms of their income, it's actually pretty cheap. And older people just don't get that because when they were young, those things were actually very expensive compared to their income. But, the things that are the largest and most expensive categories, like rent compared to income and [[Finance/09 Housing and Mortgages/Home Sales and Housing Construction|home sale]] prices compared to income, have gotten dramatically more expensive.
+
+And so, the rise of young adults who are living at home with their parents does not seem to be influenced mainly by cultural preferences changing or strictly due to bad budgeting or bad spending practices. It seems largely driven by the fact that young adults are having a much harder time affording their own place to live. And at this point, if you are in that situation, you're probably feeling a little bit of desperation, a little bit of a lack of hope. Especially after seeing the data, you may even feel vindicated.
+
+I knew it. The system is broken. They're all out to get me. It's not my fault. And guess what? At least partly, you're right. But, now what? What if it's not your fault at all? What are you going to do about it? Do you have an excuse?
+
+Of course you have an excuse. By many measures, financially things are much harder today than they were 30 years ago, 40 years ago, 50 years ago. But, the reality is that even though it may not be your fault, it's still your responsibility if you want to get ahead. Nobody else is coming to save you.
+
+No president is going to fix this. If you're going to get ahead, the only person who's going to be able to do it is you. And the harsh truth is that many people who have done far better than you and I started off with hands that were much worse than the hands that you and I have. You can only play with the hand you were dealt.
+
+You don't get to do over, and you can't force the universe to give you a different situation. Whatever strengths you have, it's up to you to use them. And whatever weaknesses you have, it's up to you to find a way around them, fix them. If something is standing in your way, go around it or knock it down.
+
+Do whatever it takes. The truth is, even though things are getting harder, the United States is still the best place in the world with the most opportunities to create wealth. Just this last year, over half of all new millionaires created in the world came out of just the United States. Out of 8 billion people on Earth, 300 million live in the United States.
+
+And yet, half of all of the millionaires produced around the world came out of one country with 300 million people, just the US. Yes, it's harder than it used to be. Yes, the opportunity is still here. Even if it takes you time to get where you want to go.
+
+Even if it takes you a year. Even if it takes you 5 years. Even if it takes you multiple decades. Guess what? The time will pass anyway. Might as well be closer to your goal in 5 or 10 years than the same place as you are right now because you threw up your hand and said, "Well, it'll take too long.
+
+Might as well yolo, live a little right now, and give up because I'm never going to get where I would want to be." Because many young people today are just saying, "Well, you know what? It's not worth the cost. It's not worth sacrificing my young years."
+
+And that might be true. But, make no mistake, there's always a cost. There's always a sacrifice. You're not avoiding sacrifice, you're choosing a different one. Because you are either giving up what you want most for what you want right now. You're either giving up financial freedom in the future for being able to live a little right now.
+
+Or, you can give up what you want right now in order to gain what you want most. There's always a sacrifice. The good thing is, you get to choose what it is. And when you get to the end of your life, would you rather look back with regret, with vindication, with bitterness and resentment, with your list of reasons why you weren't able to make it, why somebody else was able to hold you back.
+
+Would you rather be able to complain, rightfully so, with justification that all of your excuses were valid, or would you rather say, "Screw them. I did it anyway. Screw the system. Screw the elites. Screw the kleptocrats. Screw the politicians. Screw the parasites who only tried to regulate and control my life and siphon my [[Finance/02 Inflation and Purchasing Power/Purchasing Power|purchasing power]] away from me in order to keep me down and live off of the backs of my labor."
+
+Screw them because despite all them and despite the roadblocks they placed in my way, I did it anyway. Despite the fact that I had a bunch of excuses that were valid. Despite how hard everybody else made it for me, I still did it. I still won.
+
+And at least, even if you fail and you spend your entire life sacrificing what you want right now for what you ultimately want and you still don't achieve it, at least you didn't submit. At least you didn't surrender. You never gave up. It is far better to die on your feet fighting than it is to live on your knees.
+
+So, get after it. Do whatever it takes. One last note, if you're an active investor and your portfolio is not growing as fast as you'd like, my team and I put together a completely free gift for you. It's called the portfolio stress test.
+
+All you have to do is answer some questions about your portfolio and your investing goals and then it will email you a custom blueprint that will help you fix the vulnerabilities in your portfolio that you maybe didn't even know were there. It's also going to give you access to all of my courses, hundreds of hours of education, strategies, tactics on investing and trading that you need in order to fix your portfolio. Again, this is all completely free stuff I used to charge a lot of money for. Your gift free.
+
+To access it, just go to heresy.financial/stresstest. The link is in the description below. Fill out the questionnaire, plug in your information, I'll send you that custom blueprint, you can get started. As always, thank you so much for watching. Have a great day.

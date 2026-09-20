@@ -1,0 +1,5 @@
+---
+aliases:
+- quantitative easing
+- QE
+---

@@ -1,0 +1,4 @@
+---
+aliases:
+- geopolitical risk
+---

@@ -1,0 +1,102 @@
+---
+title: "What I Learned Losing a Million Dollars"
+video_id: "O3DGQvyepUQ"
+recorded_date: "2025-08-13"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=O3DGQvyepUQ"
+source_path: "Transcripts/20250813_What I Learned Losing a Million Dollars_O3DGQvyepUQ.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "0b3b3d1c559e9b268b0a4bfe96384d3acfa1144e635d07b837877087faef8c84"
+original_source_line_count: 454
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# What I Learned Losing a Million Dollars
+
+Have you ever lost a lot of money? And I mean lost so much that you can't sleep at night. Lost so much money that you have a knot, a pit in the bottom of your stomach for days, weeks, or even months? Lost so much that you can't stop replaying it in your mind, wondering why you didn't sell sooner or buy later or do something different.
+
+You find yourself daydreaming about what if there was a way to go back in time and make different choices. and the dread, the nagging feeling in the back of your mind that won't go away, wondering if you'll ever be able to recover. If that description gives you PTSD, you know the feeling. I know it, too.
+
+And let me tell you, the only thing worse than having a big loss like that is not learning the right lesson from it and having another big loss later. Now, the best thing is obviously learning the right lessons from somebody else who took those losses so that you can learn it without experiencing it yourself. That's why today I'm going to share with you the three largest losses I've ever had and the proper lessons to take away from them so that you never have to go through it yourself. Each of these losses got progressively bigger for me in terms of dollar amount, but smaller for me in terms of percentage of my net worth.
+
+If you don't know me, my name is Joe Brown. I was a stock broker for years before I left that went out on my own to start Heresy Financial where I make videos for you teaching you about how to make more money. And I also have a private group where I publish investment research and trade ideas. My first big loss happened when I just began being a trader and I started trading [[Finance/10 Markets and Portfolios/Options|options]].
+
+Now, if you know anything about options, you know that there are very safe and conservative strategies that you can do with options. And there are some very dangerous ones that can land you in a lot of hot water. And I was getting pretty close to those more dangerous strategies. At the time, I was making just about $40,000 a year, but I was making way more money trading [[Finance/10 Markets and Portfolios/Options|options]] than I was from my salary.
+
+I had people warn me, "Hey, what you're doing is risky." But I thought I was smarter than everybody else. I thought that they just didn't know how to do it. And for the ones who did know how to do it that I knew I wasn't smarter than, I just thought, well, I've got bigger, let's say, more guts than them.
+
+Now, this went on for just a couple of months, which is enough time to start to feel invincible. I was participating in trades that were almost guaranteed to win. Now, if you know anything about investments and trades, if there is something that is virtually guaranteed to make money, the amount of money you can make on it is pretty small. Which means in order for me to make any significant amount of money, I had to load up on the contracts.
+
+In other words, the leverage. This meant that in the rare case that something would go wrong that I would lose a lot of money. But I'd done the math. I'd run the numbers. I'd looked at the odds. only a one in 100year, potentially one ina,000year event could cause me to lose money.
+
+And sure enough, that's exactly what happened. Basically, overnight, I lost about $25,000, which might not sound like a lot, but to me at the time, it was about 90% of my net worth. And when you're making only $40,000 with a wife and new baby at home, you're not exactly just a few months away from saving up to that amount again. So, what are the takeaways and the lessons from this that I was able to apply so that I never run into a situation like this again and that you can take yourself?
+
+Number one, you're not smarter than everybody else. In fact, there's a great book called When Genius Failed by Roger Loenstein. And it's a book about pretty much the smartest people in the world who basically started a fund doing a very similar in structure strategy to what I was doing. In other words, very small bets, very likely to pay off.
+
+load up on a bunch of leverage for virtually guaranteed money. Something unexpected happens, you blow up. If you think you're the smartest person in the world, that's a red flag that you're probably doing something very dangerous. Every other trader and investor in the world with a lot more resources than you have is trying to take everything from you.
+
+You can never know the odds. You can only know the risk. And so do not define risk as volatility or a probability. Risk is what is the worstc case scenario. That's the only thing you can actually know. And if you trade and invest in a way to protect yourself against whatever the worst case scenario is, then you are much more likely to succeed in building a lot of wealth over your career.
+
+This is why the best investors and traders throughout history all have the same number one rule, which is don't lose money. You have to manage your risk. You have to make sure that the worst case scenario can't happen to you or if it does, it's not actually going to ruin you. Which means that the proper way to trade is basically the opposite of what I was doing there, where you need to be making investments and trades that maybe have a lower probability or likelihood of paying off, but if they do, they make you a lot of money.
+
+And if they don't pay off, they only lose you a little. And by the way, if you're sitting there thinking, I have no idea how to do that, you're in luck. On Sunday, this coming Sunday, August 17th, at 7:00 p.m. Eastern time, I'm hosting a free live Zoom call to teach you exactly how to do this. Especially with everything going on in the world right now, from macroeconomics to geopolitics to the [[Finance/01 Central Banking/Federal Reserve|Federal Reserve]], [[Finance/01 Central Banking/Monetary Policy|monetary policy]], [[Finance/03 Government Debt and Fiscal Policy/Fiscal Policy|fiscal policy]], debt spiral, everything like that.
+
+We are entering into a period of time where trading the correct way will allow you to [[Finance/16 Economic Reasoning/Profit|profit]] no matter what the market does, whether it melts up, melts down, or just is volatile in between. I've used this strategy myself in virtually every market environment there is to take home some massive returns over the past year and a half. Returns as high as 297% 733% and even 1,354% on a single trade in as little as 9 months. These are trades with very small limited downside where if they don't work out, it's not going to ruin you.
+
+In fact, it will barely make a dent on your portfolio if you do it right. But when they do pan out, they can be extremely beneficial. If you're interested in understanding how this works and learning what asymmetric trades I'm looking at right now, click the link in the description below to sign up for my event. Again, it's coming up this Sunday, August 17th, 700 p.m. Eastern time.
+
+This is a completely free call. It is live and the spots are limited. So, don't wait to sign up. I'll see you there. Okay. So, the next large amount of money that I lost this time ramped up to $100,000. This was a private investment that I made in a gold miner.
+
+And if any of you have ever invested in minors, then uh you know why that made me laugh. Now in this particular situation, it was a private investment and it was only open for a few investors and it was closing very very soon. Looking at the numbers, the amount that we were investing, the current share price, and the plan for what the business was going to do going forward, it looked to me like an opportunity that could take my $100,000 and potentially turn it into a million, 10 million, or even more.
+
+The problem was the opportunity was closing very quickly. I had to scramble sell a bunch of things that I didn't really want to sell to free up the liquidity to make this investment before the deadline. The whole thing took place over the course of about 2 to 3 days. And as soon as the investment was locked in, management went dark, went quiet, and everything that we had planned on and everything that I had heard of before in terms of a plan started to evaporate.
+
+that pit in your stomach, that nagging feeling in the back of your head started to creep up and I wondered, did I just get scammed? And the answer to that question was yes. I lost $100,000 on that investment. And here are the things that would have prevented me from getting into that situation that hopefully prevent you from having the same thing.
+
+Number one, if it sounds too good to be true, it probably is. There are very few easy money investments, especially ones that are available to regular everyday people. If this was such a slam dunk, it probably would have already been invested in by much larger investors than me. And the key thing here was that I had a fear of missing out.
+
+The deadline was just a couple of days away, so I didn't have time to do my due diligence. Never ever make any investment decision if your main emotion is fear of missing out. Now, be real about this because everybody experiences this thought or this emotion at some point in their investing journey. probably many times the fear that this is the last opportunity or the only opportunity to make this much of a [[Finance/16 Economic Reasoning/Profit|profit]].
+
+Here's the reality though. There's always another opportunity. That's how markets work. That's how they've worked since the beginning of time. And that's how they will work until humanity no longer exists. There's always going to be an opportunity to make money. Whether on the long side or the short side, opportunities will never go away, which means you never have to feel the fear of missing out.
+
+You missed the market crash in 2020. Don't worry about it. There's going to be another one. There was another one in 2022. There will be another one in the future. Whatever the thing is that you are afraid of missing out on, you're not going to miss out.
+
+That fear will only drive you to make a choice or a decision that is illinformed. And if you don't have the opportunity to do the due diligence and do the research to make sure that it's a quality investment, stay away. Now, don't get me wrong. I'm not telling you that you need to be certain.
+
+Certainty doesn't exist in markets either. There's a great story in the book, The Richest Man in Babylon, which by the way, best beginner book for understanding money and investing, but there's a story in there about a man at night who encounters another man who wants to sell him his herd of sheep because the other man needs some money really quick. He can hear the sheep and he can kind of get a sense of, hey, there's probably a lot of sheep here and it's nighttime, so the other man is willing to take a big discount because he needs the money fast.
+
+But the one man just lolly gags and he tries to figure out, oh, am I, you know, am I just getting, you know, scammed here? Are there actually this many sheep? What if I pay this guy what sounds like a discount and it turns out that I'm actually buying a far fewer sheep than I think? And he delays until sunlight.
+
+Well, once the sun is up, everybody can see how many sheep there are, and he's able to get full price for his herd. So, the guy misses out on the opportunity. By the time certainty exists in any opportunity, that means the [[Finance/16 Economic Reasoning/Profit|profit]] opportunity is gone. I'm not telling you to look for certainty, but that fear of any potential loss is equally as powerful as the fear of missing out.
+
+And there is no investment without risk. Like I said earlier, all you can do is figure out what is the worst case scenario and is that going to ruin me or is that going to be okay if that happens. So never make an investment decision based on fear. Always do your due diligence and if you don't have enough time to do the research, there's going to be another opportunity in the future.
+
+All right, last and biggest loss that I've ever had was when I lost a million. Now, this one, to be fair, it was a loss of a million dollars of [[Finance/16 Economic Reasoning/Profit|profit]]. In other words, I made a trade and just the gains on that trade at one point was about 1.6 1.5 million. Now, at the time when I was sitting on an unrealized gain on this one trade of a little over $1.5 million, I knew I should sell.
+
+In fact, for about a week, a week and a half, multiple times a day, I would go in and I would mock up a trade to I was got I was on the edge. I was ready to click the button to sell. But like I said, this was close to the end of the year. And in my mind, I was thinking, if I sell now, I'm going to have this much more capital gains for the end of this year.
+
+I'm going to have to pay [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] on it by, you know, this month. What I want to do is just wait six more weeks until the year turns over. That way, this gain will be next year and I won't have to worry about paying [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] on this amount until another year has passed. I know if you're sitting there thinking, "Well, that's the stupidest reason to not sell."
+
+You're right. It is. But I held I waited on it. And over the next six weeks until the turn of the year, I watched that 1.5 $1.6 million gain shrink down to about a 500 a little over a $500,000 gain. So, I did sell once the year turned over and I still walked away with a really good gain on the trade over $500,000.
+
+But in investing and trading, it's just mental accounting to separate like realized gains and losses from unrealized gains and losses. They still actually happened. In other words, if I had taken the gain near the top and I had rolled that over into a completely new investment and then that new investment had lost me a million dollars, we would look at that and say, "Okay, yeah, you actually had a million dollar loss." But it's the same way cuz the net result is that there was over a million dollars in gains that evaporated.
+
+Now, if you're sitting there thinking, "Well, man, what in the world is the lesson from this?" It's like, how could you have known that it wasn't going to continue to go up? That it wasn't going to uh, you know, that it was going to crash, it wasn't just going to stay the same. What possibly could you have learned from this to avoid this in the future?
+
+And the answer is never make an investment decision based off of [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] alone ever. Every time you let the [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] tail wag the investment dog, you will end up with less money than you would have otherwise if you had just done the thing to make the money, pay the [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]], and then keep on focusing on doing the things to make money every time. Now, I have other stories as well about things that I have done focused exclusively and solely on saving money on [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] that in retrospect, counting up the hours, the time, the amount of money spent, all of that, I would have done better off if I would have just ignored the thing to save the money on [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] and just focused on making money instead.
+
+And this is the largest example of that. Never make a decision based solely on the [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] considerations alone. [[Finance/03 Government Debt and Fiscal Policy/Taxation|Taxes]] are the cherry on top of the ice cream sundae. You don't want a whole bucket or a bowl just of the cherries. Now, to be clear, I am not saying that you shouldn't consider [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] at all.
+
+You absolutely should. I am one of the largest proponents of making sure the government has as little of my money and your money as possible. They don't deserve it. It's not theirs. They don't own it. They don't do anything good with it. It doesn't belong to them, and they don't have any right to it.
+
+But if you don't give them what they want, then they put you in jail. And so, I am one of the biggest fans of making sure that legally they get as little as possible. However, when that becomes the sole focus, you end up in a much worse financial position than you would be if you focused first and mainly on just making money. And if I had sold any of those times when I knew I should sell, I just don't want to pay the [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] yet, then I would have ended up much better off even after paying the [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]].
+
+And even larger than [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]] here, the lesson is to control the controllables. It's easy to get distracted and focus on the things that are outside of our control. even things like [[Finance/01 Central Banking/Monetary Policy|monetary policy]] and [[Finance/03 Government Debt and Fiscal Policy/Fiscal Policy|fiscal policy]]. Those are very helpful to understand because those can help us make better investment decisions.
+
+But if we focus on them too much, it can drive us to think, well, man, this should be happening and I'm at a disadvantage because it's not happening the way that it should. Ignore it. Control the controllables. Focus on what we can change.
+
+Focus on what you can control. managing your risk, doing your research, checking your emotions, and making financial decisions based off of the only financial metric that matters, maximizing total long-term wealth. Anything else will land you with worse returns. So, that's what I learned losing a million dollars.
+
+And I hope that it helps you and that you take these lessons and run with them because if you prioritize the things that I've talked about in this video, it will prevent you from having large losses, which will only help you build wealth faster and more securely over the long term. And on top of making sure you don't have large losses, if you are also interested in learning how to trade for big wins, again, I'm holding a free live Zoom class called my asymmetric trading master class coming up this Sunday, August 17th, 700 p.m. Eastern time.
+
+Don't miss it. Sign up now with the link in the description below. As always, thanks so much for watching. Have a great time.

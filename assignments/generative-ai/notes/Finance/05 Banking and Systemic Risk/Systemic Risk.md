@@ -1,0 +1,4 @@
+---
+aliases:
+- systemic risk
+---

@@ -1,0 +1,36 @@
+---
+title: "Giving Back This Christmas"
+video_id: "BO-DIAN2uiE"
+recorded_date: "2021-12-24"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=BO-DIAN2uiE"
+source_path: "Transcripts/20211224_Giving Back This Christmas_BO-DIAN2uiE.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "671ee5fefd182a0fa858b3e40d335e9cee1ec90222dcb7795b960caee9edf506"
+original_source_line_count: 145
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Giving Back This Christmas
+
+what's up everybody merry christmas just wanted to wish you all merry christmas happy holidays i'll be taking the next couple of days off from posting videos here and i also wanted to let you guys know about a couple of great ways to give back this holiday season give generously many of us are much better off than we think we are especially in light of how the desperate situations that so many people are in both in our country and around the world so two ways that i'd like to point out one of them is kind of a long-term option and the other one is a local option here
+
+so the first one is called daffy if you've never heard of a donor advised fund a donor advice fund itself is a charitable organization and so when you put money into an account like this called a donor advised fund a daf or a deaf what you're doing is making a legal contribution to a charity now when you donate this money it stays inside this account and then you can choose many times how it's invested you can't pick individual [[Finance/10 Markets and Portfolios/Stocks|stocks]] because there are managed portfolios but you can choose kind of the allocation or the general strategy
+
+now most donor advised funds number one have fairly large minimums five ten fifteen thousand dollars and they have outrageous fees especially considering places like vanguard who are known to have great fees their donor advised funds are just stupid with how much they charge daffy is a new donor advised fund company you can find them at daffy.org i've got them linked in the description below it's not an affiliate link i'm not getting paid at all for this not sponsored it's just a donor advice fund that charges three dollars per month
+
+so especially once you start building this account up it is preposterous how much more places like schwab or fidelity or vanguard charge for their donor advised funds further they have a feature either they're rolling it out soon or they have it out right now where you can select crypto investments inside the portfolio as well if that's something that you're interested in and so basically you donate into this account if you don't have somebody or somewhere already that you would like to give money to number one that gives you the [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] break
+
+because you're making a charitable donation number two this money then grows inside this account and this is key you cannot take it out yourself it's irrevocable you cannot get it back you are making a donation to a 501c3 charitable organization and then from that account you send money out of that account and it can only go to other charities only go to other 501c3 organizations so anytime you find a good cause you hear of a good organization a good charity and you want to send them money you could just use this as your entity to send it out and that way come the end of the year your uh your [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] it's very very simple
+
+because all of your charitable donations just cut all your [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] forms just come from this one and then since they're just transfers from one organization to another out outside of that account then you don't have to deal with that messy [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] situation collecting all of your you know keeping track of all your donations from multiple sources and then finally since that money grows in there eventually you can get this to a point where it continues to grow and you can just pay out to charities what the growth is and so then you have this this machine this perpetual machine that's just [[Finance/15 Monetary History/Money Creation and Destruction|creating money]] that's just going to handing out and giving and being generous and giving back
+
+so for me this is a fantastic long-term solution to creating a perpetual giving machine now the second thing i'd like to point you to is more of a local solution here because that's an easy thing to do is just to put money into a donor-advised fund but then the question is where do you give it after that and i was thinking about finding a charity that i could link in the description of this video or there's the usual youtube has that fundraiser button option but charity is something that has done most effectively at the local level the larger the charity the more bureaucratic it gets the more administrative expenses they get and
+
+so everybody in your area you've got homeless shelters you've got halfway houses you've got food kitchens that hand out food to homeless people on a daily basis or a weekly basis so in local areas there are all sorts of organizations that are local that know the people they have programs to help people get out of their situation and the money goes a lot further in in doing things like that it even goes further than just giving money out to people like on the sidewalk around the corner of the street because if you give somebody five bucks they might be able to buy a burger with it
+
+but when you give it to like a food kitchen what they're able to do they buy groceries and they make meals and that money goes a lot further you create a lot more meals than even if you donate like cans if they do canned food drives normally the money goes a lot further if you just give the money to the local homeless shelter or food kitchen so that's all i have for you guys today i'm wishing you guys merry christmas happy holidays and hopefully you guys can help me in spreading the love around and making it a happy holiday for everybody even if they don't have a lot giving back and being generous because let's be honest we are so much better off than a lot of people are as always thank you so much for watching have a great day
+
+[Music]
+
+you

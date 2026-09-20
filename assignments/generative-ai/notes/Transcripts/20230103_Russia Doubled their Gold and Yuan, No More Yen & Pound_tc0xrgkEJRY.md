@@ -1,0 +1,28 @@
+---
+title: "Russia Doubled their Gold and Yuan, No More Yen & Pound"
+video_id: "tc0xrgkEJRY"
+recorded_date: "2023-01-03"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=tc0xrgkEJRY"
+source_path: "Transcripts/20230103_Russia Doubled their Gold and Yuan, No More Yen & Pound_tc0xrgkEJRY.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "d8a89c6743e91da201740c89a98df88987d943eff1adf3259f5373fc0564896f"
+original_source_line_count: 105
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Russia Doubled their Gold and Yuan, No More Yen & Pound
+
+Russia's making some big moves heading into the new year with its relationship with China we know that the two are getting closer and closer and strengthening the tie the relationship between them but Russia's Sovereign wealth fund just made a move to strengthen this even more their finance ministry just doubled the amount of Juan and gold that it can hold in the National wealth fund prior to this move the maximum amount of the Chinese currency that Russia could hold in this fund was 30 percent of the funds worth now that is doubled to 60 percent this follows a long line of increasing the amount that Russia reserves holds in one over the last decade
+
+now this isn't exactly surprising considering what happens to its foreign exchange reserves in other currencies over the last year any of its assets that were denominated in dollars Euros pounds and Yen were frozen if you won day woke up and you logged into your bank account and you saw a message there saying you can no longer access any of the money in your bank account your assets have been frozen because the government that controls this money doesn't like the actions that you're taking now here I'm not making any statement about the actions that you've actually taken who knows maybe I actually did something very bad
+
+but the result would be the same your incentive to find another way to make and receive payments would be huge following that event you'd be much more likely to try and use something like [[Finance/07 Crypto and Digital Money/Bitcoin|Bitcoin]] try and use something like physical gold following that because you just can't trust that that money is going to be yours to use anymore and that's exactly what Russia is doing right now as they've also re increased their gold amount to 40 percent this increase to 40 percent for gold was also an increase from the prior limit of 20 and as a result of these limits going up that means other limits have to go down and that's exactly what happened
+
+to the British pound and the Japanese Yen which have been reduced to zero this is not exactly surprising given the performance of the N over the last decade meaning that both from a [[Finance/02 Inflation and Purchasing Power/Purchasing Power|purchasing power]] perspective and from the security perspective of being able to use it when and if you need it it just is not an attractive option anymore now this marks a shift in how other countries are treating the one and I know that Russia is not every country and it's not even close to the majority of other countries
+
+but it does Mark a shift in viewing the one as an international [[Finance/06 Dollar and International Money/Reserve Currencies|Reserve currency]] the finance minister in Russia said from among the currencies of friendly countries the one has the characteristics of a [[Finance/06 Dollar and International Money/Reserve Currencies|reserve currency]] to the greatest extent as well as sufficient liquidity in our domestic Foreign Exchange Market now obviously this doesn't mean that China is going to control the [[Finance/06 Dollar and International Money/Reserve Currencies|global Reserve currency]] anytime soon that the rest of the world is going to dump the dollar and use the one instead but it is a signpost it is something to watch
+
+because this is not something that would have been said a year and a half ago even a year ago by anybody and while the wand is not in a place to be a [[Finance/06 Dollar and International Money/Reserve Currencies|global Reserve currency]] for Many Nations Beyond Russia this is a sign that they could be headed that direction I've said it before and I'll say it again if a government can remove the use of a currency from another country they can remove the use of the currency from you one of their citizens if you don't have a way to transact or to keep some of your wealth outside the official Financial system before you need to you won't be able to
+
+if the day ever comes where you do need it and finally I will be speaking in Scottsdale Arizona from January 27 through 29th at Jason Hartman's empowered investor live conference alongside Jason himself and many others it's going to be a great event I would love to see you there if you can join me get your tickets with the link in the description below as always really appreciate you guys thanks so much for watching have a great day

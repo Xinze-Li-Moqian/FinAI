@@ -1,0 +1,6 @@
+---
+aliases:
+- profit
+- profits
+- profitable
+---

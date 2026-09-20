@@ -1,0 +1,37 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#node/theme",
+      "color": {
+        "a": 1,
+        "rgb": 15241266
+      }
+    },
+    {
+      "query": "(path:\"Finance/\" OR tag:#node/concept) -tag:#node/theme",
+      "color": {
+        "a": 1,
+        "rgb": 4952529
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.1846298219980361,
+  "close": true
+}

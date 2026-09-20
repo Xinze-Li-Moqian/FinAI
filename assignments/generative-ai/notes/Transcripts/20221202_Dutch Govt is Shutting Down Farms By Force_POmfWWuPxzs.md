@@ -1,0 +1,32 @@
+---
+title: "Dutch Govt is Shutting Down Farms By Force"
+video_id: "POmfWWuPxzs"
+recorded_date: "2022-12-02"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=POmfWWuPxzs"
+source_path: "Transcripts/20221202_Dutch Govt is Shutting Down Farms By Force_POmfWWuPxzs.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "c40871ac73281b3ceaeb241b4f6352f47e5a064772f8b8a07836989b3e9baeb2"
+original_source_line_count: 140
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# Dutch Govt is Shutting Down Farms By Force
+
+Ronald Reagan once said that the most terrifying nine words in the English language are I'm from the government and I'm here to help in one place that this Rings especially true today is in the Netherlands because in order to comply with EU rules the Netherlands are going to buy up and close down 3 000 Farms to make matters worse if they refuse the purchases will be compulsory that's right during a food shortage a government is saying hey I would like to buy your farm from you not because they delusionally think that they can do it better and produce more food at a cheaper cost and provide more food for more people no
+
+so that they can shut it down and a real quick word to some people out there who I've seen comment on videos like this saying well it's about time this is a good thing humans are just raping the planet and it's a good idea that we shut it down first of all you're evil that's an anti-human stance and if you think there should be less people on this planet instead of shutting down the [[Finance/16 Economic Reasoning/Production|production of food]] and hurting the poor people the most how about you first because maybe you don't actually have compassion for poor people or the planet maybe you just hate the people who are productive and successful
+
+because it shines a light on your own incompetence now apparently farmers will be proposed to deal well over the value of the farm up to 120 percent of the Farm's value but this kind of reminds me of when FDR confiscated the gold of American citizens and said don't worry I'm gonna pay you for it I'll pay you the current stated value in paper and then as soon as he confiscated all that gold and made it illegal for people to own gold then he jacked up the price and declared now it's worth a lot more and gave the government a nice big paycheck
+
+now the reason that they're doing this is to comply with the conservation rules from the EU about how much nitrogen could be emitted which is just genius as the world food program named 2022 a year of unprecedented hunger where the world is facing a food crisis of unprecedented proportions and so while for most modern history the world has gotten better at producing more and more food and started working closer and closer to eradicating world hunger we have now very quickly reversed that amidst these idiotic policies where governments are now having to shut down [[Finance/16 Economic Reasoning/Production|food production]] because of nitrogen getting into the air
+
+so here's a question let's say we start doing this and in order to fix the environment we cancel all the nitrogen emissions all the CO2 emissions and we get this thing under control in our whole world let's say is zero who is going to be the most at risk of dying when there's not enough food to go around is it gonna be the people at Davos on their private jets is it going to be the politicians the bureaucrats the billionaires no it's going to start off with the 828 million poor people around the world who go to bed hungry every night
+
+so then what is the purpose of reducing emissions well the ultimate if you buy the argument is that at some point in the distant future temperatures will change enough where it will be harder to live on earth and in the future people might die from actual climate change so on one hand you have in the distant future potential deaths so the solution is to kill a billion poor people today that's evil and just in case you think this wouldn't be that big of a deal it's just the Netherlands after all well the Dutch farmers are the world's
+
+second biggest exporters by value after the United States luckily we are seeing Farmers staging Mass protests burning hay bales picketing help ministers houses and pointing out the hypocrisy of this that these nitrogen cuts are not going to be applied to things like the airline industry or other large businesses but you could bet your last dollar on the fact that after something like this these policies cause the crisis of let's say world hunger to get even worse that governments will jump on the chance to take more power and say hey well the private sector wasn't able to solve this problem by themselves
+
+so we've got to step in and save the day knowing full well that they're the ones who cause the problem in the first place now this is why I say that you have to be as an individual robust to downside risks you have to cover your bases even things as simple as having you know enough water in case the utilities don't work a way to heat or cool depending on your ride your the climate that you live in some food how dependent are you on the grocery store shelves being full how long could you feed your family if those grocery store shelves go empty or
+
+if there are rations below the amount that you actually need but apart from just being robust to downside risk with your life you also have to do that with your Investment Portfolio it does no good if your Investments go up by a thousand percent over the next 30 years if right now you get wiped out and you have to sell at the bottom because you had no Hedges to protect you on the way down that's what I'll teach you to do with my portfolio allocation Mastery course but I teach you the full way to hedge your portfolio be robust to downside risks across all asset classes and get that discount link for a limited time only in the description below as always really appreciate you guys thank you so much for watching have a great day

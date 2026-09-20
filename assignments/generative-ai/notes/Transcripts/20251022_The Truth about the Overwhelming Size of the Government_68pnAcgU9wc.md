@@ -1,0 +1,98 @@
+---
+title: "The Truth about the Overwhelming Size of the Government"
+video_id: "68pnAcgU9wc"
+recorded_date: "2025-10-22"
+date_source: "instructor-provided filename; not independently verified"
+source_url: "https://www.youtube.com/watch?v=68pnAcgU9wc"
+source_path: "Transcripts/20251022_The Truth about the Overwhelming Size of the Government_68pnAcgU9wc.md"
+reading_format: "Subtitle lines joined into paragraphs; original words and punctuation preserved. Obsidian block IDs, where present, are citation metadata."
+original_source_sha256: "80605e1d1ed75e47248880a1291b6c8999641d66359ce46c6823f5282f6589ca"
+original_source_line_count: 458
+provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
+---
+
+# The Truth about the Overwhelming Size of the Government
+
+You may have heard that the size of the federal government's workforce has not really changed in years, even decades. That it's remained fairly steady. And in fact, because of the terrible layoffs happening right now under Trump, the federal workforce is actually declining. In fact, you may have seen charts like this floating around the internet recently with a staggering 51,000 federal workers being laid off.
+
+51,000 out of the 3 million official federal government employees. But wait, you say, because of the government shutdown that's happening right now, we are now starting to see massive layoffs, except for the fact that judges literally just blocked and shut down these layoffs. Now, it's true that Trump is going ahead and trying to proceed with some of these layoffs anyway, but we'll see how far along this goes, especially if the shutdown ends soon. But despite all that, you'll still see charts like this showing that the federal government's workforce is not actually out of proportion.
+
+Since the year 2000, we've still only had around 3 million total federal employees. Considering the growth in the population and GDP, everybody says, "Look at this. It's benign. It's not a problem." But I'm going to show you how that is completely untrue. It is fictional.
+
+It is a misdirection. And that 3 million number pales in comparison to the number of people who actually work for the government and are funded and supported by you. The number of official employees of the federal government has not changed much in decades. This goes back far beyond just the year 2000.
+
+In fact, from about 1950 through about 1990, the number was increasing, but only from about 2 million to 3 million. And the number has fluctuated but stayed fairly steady since the '90s. Now, you might be thinking, how in the world could the federal workforce stay the same size given all of the growth and all the changes that have happened over decades? And the answer is contractors. As of 2023, there were 2.1 million people employed for the federal government in civil service roles.
+
+There are over 1 million people employed in the military, about half a million people for the post office, and a staggering 5.2 2 million people who work for the government as a contractor and on top of that an additional 2.3 million people who work for the US government through grants. Now, I know you're going to say, "Hey, this doesn't count." But what counts as an employee? When I make money and I want to pay people to work in my business, I can either hire them as a W2 employee or as a 1099 contractor.
+
+There are legal distinctions about the type of work, how much they're allowed to work, what kind of rules I have for the time that they work, and the deliverables. There are rules about this. So, it's not just a [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] thing, but at the end of the day, I'm giving somebody money to do work for me. And so the legal and the [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] distinctions between a W2 employee or a 1099 contractor doesn't matter for the overall point of this video that the government has way more people working for it than we like to admit.
+
+Well, I like to admit it, but than most people like to acknowledge. And now you might say, well, these are contractors. These are private individuals, private businesses, and the government is just their customer. But it's like how many of these contractors would exist without the government being their customer?
+
+We don't have any way to look at that data, but I'm assuming it's not zero. Given the size and the scope of the growth of our government and the regulatory burden being imposed on our country over the last 100 years, it would have been impossible to keep up with this by maintaining the same federal workforce size of just a couple million people. That's why so many have grown through contracts. And to the extent that a private company has the government as its customer, it's not a private company.
+
+It is just an extension of the government. It's not going out into the free market to convince other free individuals to voluntarily pay for a product or service. A contractor gets a government contract, meaning they know somebody or they paid somebody who gives them the ability to capitalize on [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxation]], taking money from individuals by force involuntarily and just handing it out to somebody else. Is it an exchange for a product or service?
+
+Yes, sometimes. But it's involuntary, which means that people wouldn't have chosen it otherwise. Therefore, definitionally, it is part of the government, not a private free market company. Again, this is a spectrum. I understand there are lots of companies who also participate in the free market and the government is just one of their customers.
+
+But to the extent that the government is the customer of a contractor, it is not a free market business. It is just an extension of the government. Now, I also pointed out the staggering number of people who are employed by the government through grants. And again, this is just another extension of the US government handing money to people to tell them to do things.
+
+We are not debating here whether or not any of these are necessary or good or bad. I'm just pointing out that they exist. If you get your paycheck by the government handing you money, you work for the government. Doesn't matter what research you're doing or university you work for, studies you're participating in, you belong and should be counted as a government employee.
+
+When you add all these categories up, as of 2023, the full federal workforce was an a staggering 11.3 million. Far larger than the 3 million that everybody always talks about that's been the same for decades. They get their growth through outside work, which is still the government. And now there's 11.3 million of them that are being funded and supported by taking money from your paycheck.
+
+You work in the free market, you are producing a good or a service that is greater than the value of what you are being paid. That's why that free exchange happens because your work is worth more to your employer than the money they're giving up to keep you employed. And to you, your work, your labor, your time is worth less than the amount that you are getting in return for the paycheck. Otherwise, you would go somewhere else.
+
+That voluntary arrangement, the government is taking some of that from you by force. have no choice in the matter on the amount or where it goes to and they are handing that out to 11.3 million people who are not producing a good or service that somebody else is voluntarily asking for. But 11.3 still doesn't scratch the surface because we're just talking about federal here. There's other things called states and cities that also have many government employees.
+
+In fact, when you look at state employees and local government employees, you have to add on over 20 million more employees to this total number. 5 1.5 million work for state governments around the country and 15 million people work for local governments. Now, I'll be the first to admit I would far rather have more emphasis being on local government than on federal government. The more local you are, the more skin in the game there is.
+
+People often live in or near the places that they are ruling over. So they have to deal with the consequences more. Often times they're aware of the problems that the local communities are facing and they can have greater authority over changing the things that the people in the local communities actually care about. In fact, I think the entire structure of both size and power should be completely flipped.
+
+Cities should have much more power than state governments and state governments should have much more power than the federal government. That's the way the Constitution originally designed it. It should be a bottom-up government. But that's not the world we live in today. We live in a top- down government.
+
+And yet, despite that, local governments workforce have absolutely exploded over the past 75 years. State governments have actually done the best. And I know that on this chart, it looks like it's above the federal workforce, but remember this federal workforce number doesn't count the contractors. The true federal workforce size is around 11 million.
+
+And so we'd have to place the 11 million for the federal government right around here. So despite the fact that we don't have a bottom-up government, local governments actually employ more people than the federal government. And keep in mind, every single person who receives their paycheck as a result of the government handing them money is a person who financially, definitionally speaking, is not contributing. They are receiving something somebody else has produced.
+
+Again, you can argue that some of these jobs are necessary or beneficial or good. But it is the free market. It is the pure private sector that actually produces the money and the capital and the wealth and the goods and the services. From that pool that is being produced, governments will take altogether large percentages when you consider both local and state and federal government [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]].
+
+And they will use that to pay anybody who works for them to do a job that the private sector is not doing. And here's the thing people don't understand about the private sector. The private sector operates out of greed. Okay, maybe people do understand that, but here's what I mean by that.
+
+When I engage in business, when I sell somebody a product or a service, when I give my time to somebody for a paycheck, the transaction that's happening is one where money is changing hands. So, if I'm going to go get a job somewhere and one person will pay me $30 an hour, but the other person would pay me $40 an hour for the same job, I'm going to take the $40 an hour job. All else being equal. Obviously, there are other things involved, but if they're equal, I'll take the higher paying option.
+
+This is how business works. If I can sell a product for $100 and I can sell a,000 of them or I could sell a,000 of the exact same product for $150, I'm going to sell it for $150. Which means if a product or a service is not being taken care of by the free market, it's because all potential free market actors have looked at that opportunity and decided that it is not worth the cost. It is not worth the risk.
+
+It is not worth the investment. For example, if I'm a sports team, a private company, and I want a new stadium, I might run the numbers and come up with the math on what my return on that investment will be. And I might think, you know what, this is not going to be a great investment because I'm going to have to spend all these hundreds of millions of dollars and the return that I'm going to get might be negative, might be really low. Either way, it's just not worth it for me.
+
+So, as a sports team, I'm going to go to the local government and I'm going to say, "Hey, you should involuntarily take money from other people to build this stadium for us. And don't worry, there's going to be a lot of extra business activity from the sports games and everything that's happening there. You can run events there. It'll be a great investment for your city.
+
+I pay off the right people. I know the right people in power." So the city decides, "Yep, we are going to build this stadium." In a situation where the free market had decided the [[Finance/10 Markets and Portfolios/Investment Returns|return on investment]] wouldn't be worth it, somebody with a monopoly on violence who can use force to pay for things decides to actually do it.
+
+This is why everything that the government does, fundamentally speaking, is a drain on resources. It is a net destruction of wealth. Again, I have to reiterate just because it is a cost. It is a net drain on wealth. I am not making the argument that it all shouldn't happen.
+
+You can make a compelling case that there are many government jobs that are necessary or beneficial. But you cannot mathematically state that it is not a drain on wealth because it is only funded by taking from what somebody else has produced. And I know you've probably already started to do the math, but when you add up the entire government workforce, the number is not pretty. This chart puts together all employees of the federal government, but just the 3 million, the official employees.
+
+And it also puts together the local government employees and the state government employees. As of August of 2025, there are over 23 12 million full-time employees of local, state, and federal governments. It's important to note this data set does not include military. It does not include the CIA, the NSA.
+
+For some reason, the National Imagery and Mapping Agency or the Defense Intelligence Agency, we know the military is a little over 1 million. So, we can immediately add 1 million to this number. So, now we're at 24 1.5 million. Postal workers were included.
+
+Contractors were not, so we can add another 5.2. And grant workers are another 2.3, so we can add another 2.3, which brings our total to over 32 million people. And we know that number is conservative because some of this data comes from 2023 and parts of the government have expanded since then. Just to put in perspective how many 32 million people is the current population of the United States is about 334 million people which means 10% of the entire US population citizens plus non-citizens included.
+
+10% of all people work for the government. For every 10 people, there's one person who gets a paycheck by taking money from the other nine. But guess what? All 330 million people in the United States don't work. In fact, the majority of people in the United States do not have jobs.
+
+This makes sense, right? There's kids, there's stay-at-home moms, there's some stay-at-home dads, there's retired people who live off of their own savings and investments. There's retired people who also live off of money from other working people, but that's a whole other bucket that we don't have time to get into today. Of the 330 million people in America, how many people do you think have jobs?
+
+Now, I'm not talking about how many jobs there are in the United States, because that's a deceiving number. One person might have two or three jobs. If you work at Taco Bell and McDonald's and Burger King all part-time, that's counted as three jobs, but it's still just one person. So, how many people have jobs?
+
+Any job whatsoever? According to the [[Finance/01 Central Banking/Federal Reserve|Federal Reserve]], that number is about 163 million. And that includes a 16-year-old who just got their first part-time job sweeping floors at a movie theater. It includes a single mom who's working a couple of jobs to put food on the table for her kids at home.
+
+But it's almost half the population which means that for every 10 people there are in the United States five of them are actively working doing jobs making money but one of those people works for the government which means they are getting paid by four of the people who are actually working producing because 10% of the population works for the government. Half the population works in total. So, for every 10 people, four people are actually producing. And then there's one who looks like they have a job because they go in and they clock in and clock out every day and they do work and they follow procedures and they attend meetings, but they are only getting paid by money being taken away from the four who produce who are also, by the way, taking care of the other five because the other five are kids and other people who can't work.
+
+which means 40% approximately of the entire population is producing enough to actually take care of everybody else. So, the next time you hear somebody say that we need to raise [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]], that the government going broke or running a deficit is because we're not taxing people enough, how about the first thing we do is stop taking so much away from the minority of people who are actually producing, who are actually making the money, making the goods, making the services that support literally everybody. And that one person who is in power, who is living off of the four people producing, maybe we should have less of them.
+
+And maybe they should be forced to come up with a skill, sell a product or a service that people in the real world actually would want and voluntarily pay for. And maybe 10% of the entire US population being employed by a government and 20% of all job holders working for a government. Maybe it's time we look at that and say, "You know what? That number's a little too high.
+
+Maybe we should try going in the other direction for a little while." Because at the end of the day, even if all of them were to get laid off, and none of them could find a job and they all went, let's say, on welfare, the four people working would still be paying for them and supporting them. So nothing would change except for the fact that our lives would get easier because we wouldn't have so many people regulating us and breathing down our backs, telling us what we can and cannot do with our own property.
+
+Even then, life would be easier. If you like this video, send it to somebody you think would appreciate it, or just keep it in your back pocket cuz those holidays are coming up and you might need some good conversation to start start a political talk at your next family holiday. As always, thanks so much for watching. Have a great day.
