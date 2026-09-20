@@ -15,7 +15,6 @@ This repository records learning and exploratory work. Proposed mechanisms are n
 - **[APS1053 course home](../../README.md)**: course requirements, the 10% homework, presentations, readings, notes, and personal research.
 - **[Part 1 progress](../../assignments/generative-ai/part1/README.md#current-progress)**: current progress, next actions, blockers, and completed work.
 - [Other courses](other-course-interests.md): APS1050 and Mathematics for AI Safety.
-- [RL and preference optimization](../../notes/rl-and-preference-optimization.md): PPO, GRPO, DPO, and GraphGPO.
 - [Research questions](../research-directions.md): allocation, incentives, and verifiable constraints.
 - [Experiments](../experiment-ideas.md) and [discussions](../discussion-notes.md).
 

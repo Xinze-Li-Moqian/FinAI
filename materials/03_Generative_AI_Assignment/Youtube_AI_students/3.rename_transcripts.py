@@ -1,14 +1,14 @@
 """
 rename_transcripts.py
 
-INPUT1: Transcript .txt files in transcripts_ids/ folder (working directory)
-        Filename format: YYYYMMDD_VIDEOID.txt
+INPUT1: Transcript .md files in transcripts_ids/ folder (working directory)
+        Filename format: YYYYMMDD_VIDEOID.md
 
 INPUT2: youtube_channel_videos.csv in working directory
         Columns: video_id, upload_date, video_title
 
 OUTPUT: transcripts/ folder containing renamed transcripts:
-        Filename format: YYYYMMDD_VIDEOTITLE.txt
+        Filename format: YYYYMMDD_VIDEOTITLE.md
 """
 
 import os
@@ -64,9 +64,9 @@ def main():
     print(f"Output directory: {output_dir}")
 
     # ── Process each transcript ────────────────────────────────────────────
-    txt_files = [f for f in os.listdir(transcripts_ids) if f.endswith('.txt')]
+    txt_files = [f for f in os.listdir(transcripts_ids) if f.endswith('.md')]
     if not txt_files:
-        print("No .txt files found in transcripts_ids/. Nothing to do.")
+        print("No .md files found in transcripts_ids/. Nothing to do.")
         return
 
     success = skipped = 0
@@ -96,7 +96,7 @@ def main():
             continue
 
         video_title   = sanitize_filename(video_lookup[video_id])
-        new_filename  = f"{date_part}_{video_title}.txt"
+        new_filename  = f"{date_part}_{video_title}.md"
         src_path      = os.path.join(transcripts_ids, filename)
         dst_path      = os.path.join(output_dir, new_filename)
 

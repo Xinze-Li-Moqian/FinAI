@@ -1,4 +1,0 @@
----
-aliases:
-- political economy
----

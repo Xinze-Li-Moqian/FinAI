@@ -4,6 +4,8 @@
 
 Formatted version of the instructor's instructions. The original steps, commands, filenames, and links are retained. Paths below refer to the instructor's package.
 
+Current project transcripts are kept once in [the canonical Obsidian corpus](../../../assignments/generative-ai/notes/Transcripts/). Package paths in the historical instructions below are not duplicate storage locations. Use the [current Part 1 scripts](../../../assignments/generative-ai/part1/README.md) for preparation.
+
 ## Contents
 
 1. [Install the Python environment](#step-1-install-the-python-environment)

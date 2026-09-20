@@ -1,5 +1,0 @@
----
-aliases:
-- unemployment
-- unemployment rate
----

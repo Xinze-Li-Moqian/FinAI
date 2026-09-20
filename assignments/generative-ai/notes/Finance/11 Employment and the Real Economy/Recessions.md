@@ -1,5 +1,0 @@
----
-aliases:
-- recession
-- economic recession
----

@@ -9,7 +9,7 @@ reading_format: "Subtitle lines joined into paragraphs; original words and punct
 original_source_sha256: "d0be88890a390338218f70925ce0a79a03abfb308b7189edce8106fc396ab282"
 original_source_line_count: 23
 provenance: "Canonical transcript. Duplicate local copies were removed after matching the video identity and every non-whitespace body character. Original source hashes describe the former input; old source line numbers are no longer file locations."
-concepts: ["[[Finance/08 Gold Silver and Commodities/Commodity Prices]]"]
+concepts: ["[[Concepts/Economics/Microeconomics/Commodity Prices]]"]
 classification_method: "Manual classification from full transcript: gold commodity price movements; not a lexical alias for monetary gold."
 ---
 

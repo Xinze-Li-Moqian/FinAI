@@ -1,0 +1,8 @@
+---
+aliases:
+- financial leverage
+- investment leverage
+- leveraged investing
+tags:
+  - node/concept
+---

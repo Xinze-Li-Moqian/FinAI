@@ -31,7 +31,6 @@ Progress and next steps are recorded within each assignment. [All assignments](a
 | `course-info/` | Course rules, schedule, and organization notes |
 | `materials/` | Instructor attachments and sample outputs in their source package structure |
 | `readings/` | Reading guide and Markdown versions of the lectures |
-| `notes/` | My learning notes |
 | `research/` | Optional research ideas and earlier background notes |
 
 Instructor sample results remain in `materials/`; my own code, data, and results stay with the relevant assignment. Rebuildable Part 1 transcript copies live in its Git-ignored `generated/` directory.

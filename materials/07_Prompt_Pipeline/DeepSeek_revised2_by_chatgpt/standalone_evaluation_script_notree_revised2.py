@@ -122,7 +122,7 @@ silhouette_score = None
 # ═════════════════════════════════════════════════════════════════════════════
 
 DEFAULT_PIPELINE_SCRIPT = "./speech_processing_program_notree_revised.py"
-DEFAULT_TRANSCRIPTS_DIR = "./transcripts"
+DEFAULT_TRANSCRIPTS_DIR = str(Path(__file__).resolve().parents[3] / "assignments/generative-ai/notes/Transcripts")
 DEFAULT_OUTPUT_DIR = "./output"
 DEFAULT_METRICS_OUTPUT = "./output/evaluation_metrics.json"
 
@@ -777,7 +777,7 @@ def _manifest_output_hash_checks(
 
 
 def phase_and_manifest_health(paths: Paths, data: EvaluationData) -> Dict[str, Any]:
-    transcript_count = len(list(paths.transcripts_dir.glob("*.txt"))) if paths.transcripts_dir.exists() else 0
+    transcript_count = len(list(paths.transcripts_dir.glob("*.md"))) if paths.transcripts_dir.exists() else 0
     phase1_count = len(data.phase1_records)
     inventory_count = len(data.inventory)
     classification_count = len(data.classifications)
@@ -4593,7 +4593,7 @@ def _parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser.add_argument(
         "--transcripts",
         default=DEFAULT_TRANSCRIPTS_DIR,
-        help="Directory containing source .txt transcripts.",
+        help="Directory containing source .md transcripts.",
     )
     parser.add_argument(
         "--output-dir",

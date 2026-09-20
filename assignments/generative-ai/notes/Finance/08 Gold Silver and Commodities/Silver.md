@@ -1,5 +1,0 @@
----
-aliases:
-- silver
-- silver bullion
----

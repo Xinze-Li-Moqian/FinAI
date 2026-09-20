@@ -10,7 +10,7 @@ Updated 2026-09-20. The entire **FinAI** repository is the APS1053 workspace. [R
 | `assignments/` | All assessed work: 10% AI-Agent homework under `generative-ai/`; both case presentations, their case-selection materials, notebooks, and experiments under `presentations/` |
 | `materials/` | Received instructor attachments and sample outputs, retaining their package structure and attribution |
 | `readings/` | Reading guide and the `library/` of Markdown conversions, assets, concepts, and references |
-| `notes/` | Personal course reflections and supplemental learning notes |
+| `assignments/generative-ai/notes/` | Obsidian vault for financial concepts used in the Generative AI homework |
 | `research/` | Optional verification research and historical background; not additional course requirements |
 | `private/` | Ignored local source backups and the earlier private knowledge base |
 
@@ -18,7 +18,9 @@ The old `courses/APS1053/`, `materials/APS1053/`, and `knowledge/APS1053/` wrapp
 
 ## Adding files
 
-Write our own filenames, documentation, and code comments in English. Preserve the filenames and attribution of received originals. Add new instructor versions under distinct names, recording their provenance. Link to shared source material instead of copying it into each assignment.
+Use Chinese for conversation with the user. Write our own filenames, documentation, code, code comments, and program output in English. Preserve the filenames and attribution of received originals. Add new instructor versions under distinct names, recording their provenance. Link to shared source material instead of copying it into each assignment.
+
+Do not create `.txt` files, including temporary notes, reports, and Git commit-message files. Use `.md` for these text artifacts. Keep executable code and structured data in their appropriate native formats.
 
 In each homework stage, use `scripts/` for code, `data/` for inputs and collected source text, `manifests/` for state and provenance, `analysis/` for our interpretation, and `generated/` for rebuildable outputs. Instructor sample outputs stay in `materials/`; our outputs belong to the relevant working area.
 
@@ -36,7 +38,7 @@ Keep transcript and generated-output folders collapsed during normal browsing. A
 | `courses/APS1053/cases/` before the first cleanup | `assignments/presentations/cases/` |
 | `materials/APS1053/` | `materials/`, retaining package subdirectories |
 | `knowledge/APS1053/` | `readings/library/`; personal code reviews and research plans are in `research/` |
-| `reading/` | Supplemental note in `notes/` |
+| `reading/` | Former supplemental note; removed from the assignment concept vault |
 | `questions/`, `experiments/`, `discussions/` | Background files in `research/` |
 | Earlier root README and multi-course index | `research/archive/` |
 | Standalone task list and dashboard | Retired from the public workspace; progress consolidated into the relevant assignment README |

@@ -1,0 +1,192 @@
+--- assignments/generative-ai/part1/scripts/prepare.py (before)
++++ assignments/generative-ai/part1/scripts/prepare.py (Markdown)
+@@ -38,13 +38,13 @@
+         generated.mkdir(parents=True, exist_ok=True)
+         # This directory contains reproducible copies only; fail on foreign files.
+         for old in generated.iterdir():
+-            if not old.is_file() or not re.fullmatch(r'\d{8}_.+\.txt', old.name):
++            if not old.is_file() or not re.fullmatch(r'\d{8}_.+\.md', old.name):
+                 raise ValueError(f'Unexpected generated entry; inspect manually: {old}')
+     download_log = out / 'manifests/download_log.json'
+     downloads = json.loads(download_log.read_text()) if download_log.exists() else {}
+-    sources = sorted(source.glob('*.txt')) + sorted((out / 'data/new_transcripts').glob('*.txt'))
++    sources = sorted(source.glob('*.md')) + sorted((out / 'data/new_transcripts').glob('*.md'))
+     for file in sources:
+-        match = re.fullmatch(r'(\d{8})_([\w-]{11})\.txt', file.name)
++        match = re.fullmatch(r'(\d{8})_([\w-]{11})\.md', file.name)
+         if not match:
+             raise ValueError(f'Unexpected filename: {file.name}')
+         date, video_id = match.groups()
+@@ -58,7 +58,7 @@
+         dates[date[:4]] += 1
+         title = downloads.get(video_id, {}).get('video_title') or metadata.get(video_id, {}).get('title') or ''
+         safe = re.sub(r'[\\/*?:"<>|\x00-\x1f]', '_', title).strip(' .')[:110]
+-        filename = f'{date}_{safe}_{video_id}.txt' if safe else file.name
++        filename = f'{date}_{safe}_{video_id}.md' if safe else file.name
+         if args.materialize:
+             target = generated / filename
+             if target.exists() and target.read_bytes() != raw:
+--- assignments/generative-ai/part1/scripts/download_gap.py (before)
++++ assignments/generative-ai/part1/scripts/download_gap.py (Markdown)
+@@ -55,7 +55,7 @@
+                 text = '\n'.join(s.text.strip() for s in transcript if s.text.strip()) + '\n'
+                 if not text.strip():
+                     raise ValueError('Empty transcript')
+-                filename = f'{date}_{vid}.txt'
++                filename = f'{date}_{vid}.md'
+                 (dest / filename).write_text(text)
+                 state[vid] = dict(status='downloaded', upload_date=date, video_title=info['title'],
+                                   filename=filename, language=transcript.language,
+--- materials/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_speech_processing_program1_notree_revised2.py (before)
++++ materials/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/deepseek_speech_processing_program1_notree_revised2.py (Markdown)
+@@ -1176,7 +1176,7 @@
+     {{
+       "conclusion": "one canonical declarative, falsifiable conclusion",
+       "source_contribution_ids": ["CONTRIB-..."],
+-      "source_speech_filenames": ["YYYYMMDD_Title.txt"],
++      "source_speech_filenames": ["YYYYMMDD_Title.md"],
+       "premise_synthesis": "paragraph combining premises and preserving variation",
+       "conclusion_supported": "precise statement of what is established",
+       "evidence": [
+@@ -1185,7 +1185,7 @@
+           "status": "Verified | Unverifiable | Disputed",
+           "verification_basis": "basis retained or carefully synthesised",
+           "source_contribution_ids": ["CONTRIB-..."],
+-          "source_speech_filenames": ["source.txt"],
++          "source_speech_filenames": ["source.md"],
+           "source_excerpt": "exact source excerpt when retained"
+         }}
+       ],
+@@ -1194,7 +1194,7 @@
+           "device": "analogy or rhetorical device",
+           "explanation": "what it illustrates",
+           "source_contribution_ids": ["CONTRIB-..."],
+-          "source_speech_filenames": ["source.txt"]
++          "source_speech_filenames": ["source.md"]
+         }}
+       ],
+       "evolution_over_time": "date-aware longitudinal synthesis",
+@@ -4739,10 +4739,10 @@
+             PHASE5_SUBGROUPS_DIR.mkdir(parents=True, exist_ok=True)
+             log.info("Cleared Phase 5 synthesis cache.")
+ 
+-        transcripts = sorted(TRANSCRIPTS_DIR.glob("*.txt"))
++        transcripts = sorted(TRANSCRIPTS_DIR.glob("*.md"))
+         if not transcripts:
+             log.error(
+-                "No .txt transcripts found in '%s'. Place source files there and rerun.",
++                "No .md transcripts found in '%s'. Place source files there and rerun.",
+                 TRANSCRIPTS_DIR,
+             )
+             return 2
+--- materials/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/standalone_evaluation_script_notree_revised2.py (before)
++++ materials/07_Prompt_Pipeline/DeepSeek_revised2_by_chatgpt/standalone_evaluation_script_notree_revised2.py (Markdown)
+@@ -777,7 +777,7 @@
+ 
+ 
+ def phase_and_manifest_health(paths: Paths, data: EvaluationData) -> Dict[str, Any]:
+-    transcript_count = len(list(paths.transcripts_dir.glob("*.txt"))) if paths.transcripts_dir.exists() else 0
++    transcript_count = len(list(paths.transcripts_dir.glob("*.md"))) if paths.transcripts_dir.exists() else 0
+     phase1_count = len(data.phase1_records)
+     inventory_count = len(data.inventory)
+     classification_count = len(data.classifications)
+@@ -4593,7 +4593,7 @@
+     parser.add_argument(
+         "--transcripts",
+         default=DEFAULT_TRANSCRIPTS_DIR,
+-        help="Directory containing source .txt transcripts.",
++        help="Directory containing source .md transcripts.",
+     )
+     parser.add_argument(
+         "--output-dir",
+--- materials/03_Generative_AI_Assignment/Youtube_AI_students/3.rename_transcripts.py (before)
++++ materials/03_Generative_AI_Assignment/Youtube_AI_students/3.rename_transcripts.py (Markdown)
+@@ -1,14 +1,14 @@
+ """
+ rename_transcripts.py
+ 
+-INPUT1: Transcript .txt files in transcripts_ids/ folder (working directory)
+-        Filename format: YYYYMMDD_VIDEOID.txt
++INPUT1: Transcript .md files in transcripts_ids/ folder (working directory)
++        Filename format: YYYYMMDD_VIDEOID.md
+ 
+ INPUT2: youtube_channel_videos.csv in working directory
+         Columns: video_id, upload_date, video_title
+ 
+ OUTPUT: transcripts/ folder containing renamed transcripts:
+-        Filename format: YYYYMMDD_VIDEOTITLE.txt
++        Filename format: YYYYMMDD_VIDEOTITLE.md
+ """
+ 
+ import os
+@@ -64,9 +64,9 @@
+     print(f"Output directory: {output_dir}")
+ 
+     # ── Process each transcript ────────────────────────────────────────────
+-    txt_files = [f for f in os.listdir(transcripts_ids) if f.endswith('.txt')]
++    txt_files = [f for f in os.listdir(transcripts_ids) if f.endswith('.md')]
+     if not txt_files:
+-        print("No .txt files found in transcripts_ids/. Nothing to do.")
++        print("No .md files found in transcripts_ids/. Nothing to do.")
+         return
+ 
+     success = skipped = 0
+@@ -96,7 +96,7 @@
+             continue
+ 
+         video_title   = sanitize_filename(video_lookup[video_id])
+-        new_filename  = f"{date_part}_{video_title}.txt"
++        new_filename  = f"{date_part}_{video_title}.md"
+         src_path      = os.path.join(transcripts_ids, filename)
+         dst_path      = os.path.join(output_dir, new_filename)
+ 
+--- materials/03_Generative_AI_Assignment/Youtube_AI_students/1.youtube_transcripts_YYYYMMDD_identifier.ipynb (before)
++++ materials/03_Generative_AI_Assignment/Youtube_AI_students/1.youtube_transcripts_YYYYMMDD_identifier.ipynb (Markdown)
+@@ -13472,9 +13472,9 @@
+     "YouTube Channel Transcript Downloader (Safe + Scheduled + Resumable)\n",
+     "\n",
+     "Changes in this version:\n",
+-    "- Saves each transcript as: YYYYMMDD_<video_id>.txt\n",
++    "- Saves each transcript as: YYYYMMDD_<video_id>.md\n",
+     "- Uses the video's YouTube upload date before the identifier.\n",
+-    "- If an older file named <video_id>.txt already exists, it renames it to the\n",
++    "- If an older file named <video_id>.md already exists, it renames it to the\n",
+     "  new date-based filename instead of downloading the transcript again.\n",
+     "\n",
+     "Features:\n",
+@@ -13632,28 +13632,28 @@
+     "\n",
+     "def transcript_file(video_id: str, upload_date: str) -> Path:\n",
+     "    \"\"\"New filename format: upload date followed by identifier.\"\"\"\n",
+-    "    return OUTPUT_DIR / f\"{upload_date}_{video_id}.txt\"\n",
++    "    return OUTPUT_DIR / f\"{upload_date}_{video_id}.md\"\n",
+     "\n",
+     "\n",
+     "def legacy_transcript_file(video_id: str) -> Path:\n",
+     "    \"\"\"Old filename format used by the original script.\"\"\"\n",
+-    "    return OUTPUT_DIR / f\"{video_id}.txt\"\n",
++    "    return OUTPUT_DIR / f\"{video_id}.md\"\n",
+     "\n",
+     "\n",
+     "def previous_date_style_file(video_id: str, upload_date: str) -> Path:\n",
+-    "    \"\"\"Previous date-prefixed format: YYYY-MM-DD_<video_id>.txt.\"\"\"\n",
++    "    \"\"\"Previous date-prefixed format: YYYY-MM-DD_<video_id>.md.\"\"\"\n",
+     "    if _DATE_YYYYMMDD.match(upload_date):\n",
+     "        dashed = f\"{upload_date[0:4]}-{upload_date[4:6]}-{upload_date[6:8]}\"\n",
+-    "        return OUTPUT_DIR / f\"{dashed}_{video_id}.txt\"\n",
+-    "    return OUTPUT_DIR / f\"{upload_date}_{video_id}.txt\"\n",
++    "        return OUTPUT_DIR / f\"{dashed}_{video_id}.md\"\n",
++    "    return OUTPUT_DIR / f\"{upload_date}_{video_id}.md\"\n",
+     "\n",
+     "\n",
+     "def new_style_file_exists(video_id: str) -> bool:\n",
+     "    \"\"\"Check if this video already has a date-prefixed transcript file.\"\"\"\n",
+     "    if not OUTPUT_DIR.exists():\n",
+     "        return False\n",
+-    "    return any(OUTPUT_DIR.glob(f\"????????_{video_id}.txt\")) or any(\n",
+-    "        OUTPUT_DIR.glob(f\"unknown-date_{video_id}.txt\")\n",
++    "    return any(OUTPUT_DIR.glob(f\"????????_{video_id}.md\")) or any(\n",
++    "        OUTPUT_DIR.glob(f\"unknown-date_{video_id}.md\")\n",
+     "    )\n",
+     "\n",
+     "\n",

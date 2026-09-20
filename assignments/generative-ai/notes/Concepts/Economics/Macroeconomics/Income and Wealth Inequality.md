@@ -1,0 +1,8 @@
+---
+aliases:
+- income and wealth inequality
+- income inequality
+- wealth inequality
+tags:
+  - node/concept
+---

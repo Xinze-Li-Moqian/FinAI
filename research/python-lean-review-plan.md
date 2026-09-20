@@ -4,7 +4,7 @@ Status: 2026-09-18. The archive is downloaded and indexed; three Python scripts 
 
 ## Repository layout
 
-Published course attachments are in `materials/`; reading copies are in `readings/library/` and study notes in `notes/`. Credential files and personal correspondence are excluded.
+Published course attachments are in `materials/`; reading copies are in `readings/library/` and financial concept notes in `assignments/generative-ai/notes/`. Credential files and personal correspondence are excluded.
 
 ## Files expected from the package
 

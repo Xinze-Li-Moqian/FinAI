@@ -31,7 +31,7 @@ so when sentiment gets to extremes like it's at right now of extreme fear that m
 
 but it doesn't look like the crash is here just yet it does look like we've got another big rally to go further than that we haven't had the sort of catalyst that it would take to cause a major crash in the stock market yet cause a crash in a liquidity event the type of crisis that i'm forecasting that will really cause some major panic selling nothing like that has happened yet and it takes time for that rot to bubble its way up to the surface once the easy money starts getting pulled back it takes some time for those things to work themselves to the surface and for something completely unexpected to pop then it prompts
 
-the vicious unwind then it causes the fed to have to reverse the taper to unleash the mother of all [[Finance/01 Central Banking/Quantitative Easing (QE)|qe]] just not quite yet it's coming just not here yet and despite what i would like to believe about myself i do not have a crystal ball so i could be wrong i've been wrong before i'll be wrong plenty of times again so don't take my word for it i'm just some guy on the internet as always really appreciate guys thanks for watching have a great day
+the vicious unwind then it causes the fed to have to reverse the taper to unleash the mother of all [[Concepts/Finance/Central Banking/Quantitative Easing (QE)|qe]] just not quite yet it's coming just not here yet and despite what i would like to believe about myself i do not have a crystal ball so i could be wrong i've been wrong before i'll be wrong plenty of times again so don't take my word for it i'm just some guy on the internet as always really appreciate guys thanks for watching have a great day
 
 [Music]
 

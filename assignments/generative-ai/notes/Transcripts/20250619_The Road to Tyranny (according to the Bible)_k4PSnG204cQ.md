@@ -13,7 +13,7 @@ provenance: "Canonical transcript. Duplicate local copies were removed after mat
 
 # The Road to Tyranny (according to the Bible)
 
-Did you know that the Bible lays out exactly how nations fall from freedom into tyranny? I'm going to show you how it happens, and I'm also going to give you a game plan that you can implement to keep yourself free like we were designed to be. I'm Joe Brown. I run Heresy Financial, where I teach active investors to decrease [[Finance/10 Markets and Portfolios/Volatility and Risk|portfolio risk]] and increase long-term returns.
+Did you know that the Bible lays out exactly how nations fall from freedom into tyranny? I'm going to show you how it happens, and I'm also going to give you a game plan that you can implement to keep yourself free like we were designed to be. I'm Joe Brown. I run Heresy Financial, where I teach active investors to decrease [[Concepts/Finance/Investing and Portfolios/Volatility and Risk|portfolio risk]] and increase long-term returns.
 
 But before that, I was a stock broker for years. And before that, I actually went to Bible school to go into Christian ministry. Most people are unaware how much the Bible has to say about wealth and freedom. Now, you may be familiar with the Exodus story as told in great movies like the Ten Commandments and The Prince of Egypt.
 

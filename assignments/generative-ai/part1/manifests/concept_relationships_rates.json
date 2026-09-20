@@ -1,0 +1,266 @@
+{
+  "created_on": "2026-09-20",
+  "scope": "Eight-concept rates, inflation and bonds cluster",
+  "sources": {
+    "ecb_rates": {
+      "title": "ECB: Nominal and real interest rates",
+      "url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html",
+      "accessed_on": "2026-09-20"
+    },
+    "ecb_transmission": {
+      "title": "ECB: Transmission mechanism",
+      "url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "accessed_on": "2026-09-20"
+    },
+    "fed_policy": {
+      "title": "Federal Reserve: Monetary policy goals and implementation",
+      "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+      "accessed_on": "2026-09-20"
+    },
+    "fed_explained": {
+      "title": "Federal Reserve: How we conduct monetary policy",
+      "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+      "accessed_on": "2026-09-20"
+    },
+    "bls_cpi": {
+      "title": "BLS: CPI concepts",
+      "url": "https://www.bls.gov/opub/hom/cpi/concepts.htm",
+      "accessed_on": "2026-09-20"
+    },
+    "sec_bonds": {
+      "title": "SEC Investor Bulletin: Interest rates and fixed-rate bond prices",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86",
+      "accessed_on": "2026-09-20"
+    },
+    "finra_duration": {
+      "title": "FINRA: Duration and interest-rate risk",
+      "url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+      "accessed_on": "2026-09-20"
+    }
+  },
+  "relationships": [
+    {
+      "id": "rates-rel-01",
+      "source": "Concepts/Economics/Monetary Economics/Interest and Interest Rates",
+      "target": "Concepts/Economics/Monetary Economics/Nominal and Real Interest Rates",
+      "type": "has_measurement_distinction",
+      "statement": "Nominal rates describe money payments; real rates adjust the comparison for inflation.",
+      "conditions": "Use the same time horizon for the rate and inflation.",
+      "source_url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html",
+      "note_block": "Concepts/Economics/Monetary Economics/Interest and Interest Rates#^rates-rel-01",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-02",
+      "source": "Concepts/Economics/Monetary Economics/Interest and Interest Rates",
+      "target": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields",
+      "type": "affects_discounted_value",
+      "statement": "A higher required yield lowers the present value of unchanged positive fixed cash flows.",
+      "conditions": "Plain fixed-rate bond; hold cash flows and other pricing assumptions constant.",
+      "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86",
+      "note_block": "Concepts/Economics/Monetary Economics/Interest and Interest Rates#^rates-rel-02",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-03",
+      "source": "Concepts/Economics/Monetary Economics/Nominal and Real Interest Rates",
+      "target": "Concepts/Economics/Monetary Economics/Interest and Interest Rates",
+      "type": "adjusts_measure",
+      "statement": "A real rate expresses an interest rate in purchasing-power terms.",
+      "conditions": "Distinguish a realized rate from an expectation-based estimate.",
+      "source_url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html",
+      "note_block": "Concepts/Economics/Monetary Economics/Nominal and Real Interest Rates#^rates-rel-03",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-04",
+      "source": "Concepts/Economics/Monetary Economics/Nominal and Real Interest Rates",
+      "target": "Concepts/Economics/Macroeconomics/Inflation",
+      "type": "adjusts_for",
+      "statement": "Subtracting inflation gives the usual approximate real rate.",
+      "conditions": "Match periods; the exact realized gross-return ratio is shown below.",
+      "source_url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html",
+      "note_block": "Concepts/Economics/Monetary Economics/Nominal and Real Interest Rates#^rates-rel-04",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-05",
+      "source": "Concepts/Economics/Macroeconomics/Inflation",
+      "target": "Concepts/Economics/Monetary Economics/Nominal and Real Interest Rates",
+      "type": "affects_real_return",
+      "statement": "Higher realized inflation reduces a fixed nominal return in purchasing-power terms.",
+      "conditions": "Hold the nominal return and horizon constant.",
+      "source_url": "https://www.ecb.europa.eu/ecb-and-you/explainers/tell-me/html/nominal_and_real_interest_rates.en.html",
+      "note_block": "Concepts/Economics/Macroeconomics/Inflation#^rates-rel-05",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-06",
+      "source": "Concepts/Economics/Macroeconomics/Inflation",
+      "target": "Concepts/Finance/Central Banking/Monetary Policy",
+      "type": "is_policy_objective",
+      "statement": "Price stability is an objective of monetary policy.",
+      "conditions": "Mandates vary; the US mandate also includes maximum employment.",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+      "note_block": "Concepts/Economics/Macroeconomics/Inflation#^rates-rel-06",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-07",
+      "source": "Concepts/Finance/Central Banking/Monetary Policy",
+      "target": "Concepts/Finance/Central Banking/Policy Interest Rates",
+      "type": "uses_instrument",
+      "statement": "Policy rates are an instrument for changing monetary conditions.",
+      "conditions": "The federal funds target range is the US example, not a universal operating framework.",
+      "source_url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+      "note_block": "Concepts/Finance/Central Banking/Monetary Policy#^rates-rel-07",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-08",
+      "source": "Concepts/Finance/Central Banking/Monetary Policy",
+      "target": "Concepts/Finance/Central Banking/Monetary Transmission",
+      "type": "operates_through",
+      "statement": "Policy decisions work through financing conditions and decisions about spending.",
+      "conditions": "Effects depend on expectations and economic circumstances.",
+      "source_url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+      "note_block": "Concepts/Finance/Central Banking/Monetary Policy#^rates-rel-08",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-09",
+      "source": "Concepts/Finance/Central Banking/Policy Interest Rates",
+      "target": "Concepts/Economics/Monetary Economics/Interest and Interest Rates",
+      "type": "is_a",
+      "statement": "A policy rate is a particular interest-rate benchmark or administered rate.",
+      "conditions": "Identify the central bank, instrument and maturity; it is not every market rate.",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+      "note_block": "Concepts/Finance/Central Banking/Policy Interest Rates#^rates-rel-09",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-10",
+      "source": "Concepts/Finance/Central Banking/Policy Interest Rates",
+      "target": "Concepts/Finance/Central Banking/Monetary Transmission",
+      "type": "initiates_channel",
+      "statement": "Policy-rate changes can affect money-market and bank lending rates.",
+      "conditions": "Pass-through can be incomplete and vary across borrowers.",
+      "source_url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "note_block": "Concepts/Finance/Central Banking/Policy Interest Rates#^rates-rel-10",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-11",
+      "source": "Concepts/Finance/Central Banking/Monetary Transmission",
+      "target": "Concepts/Economics/Macroeconomics/Inflation",
+      "type": "influences",
+      "statement": "Changes in financing conditions and spending can affect inflation.",
+      "conditions": "The effect has variable lags; no fixed timetable or guaranteed size is implied.",
+      "source_url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "note_block": "Concepts/Finance/Central Banking/Monetary Transmission#^rates-rel-11",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-12",
+      "source": "Concepts/Finance/Central Banking/Monetary Transmission",
+      "target": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields",
+      "type": "influences_via_yields",
+      "statement": "Policy and expectations can change market yields and consequently bond valuations.",
+      "conditions": "Long-term yields need not move one-for-one with the current policy rate.",
+      "source_url": "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "note_block": "Concepts/Finance/Central Banking/Monetary Transmission#^rates-rel-12",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-13",
+      "source": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields",
+      "target": "Concepts/Economics/Monetary Economics/Interest and Interest Rates",
+      "type": "uses_discount_rate",
+      "statement": "Bond valuation discounts future cash flows using a required yield.",
+      "conditions": "A single yield-to-maturity is a summary; a full valuation may use maturity-specific discount rates.",
+      "source_url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-86",
+      "note_block": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields#^rates-rel-13",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-14",
+      "source": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields",
+      "target": "Concepts/Finance/Investing and Portfolios/Bond Duration",
+      "type": "has_sensitivity_measure",
+      "statement": "Duration summarizes local price sensitivity to a yield change.",
+      "conditions": "Specify the duration measure and cash-flow assumptions.",
+      "source_url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+      "note_block": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields#^rates-rel-14",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    },
+    {
+      "id": "rates-rel-15",
+      "source": "Concepts/Finance/Investing and Portfolios/Bond Duration",
+      "target": "Concepts/Finance/Markets and Instruments/Bond Prices and Yields",
+      "type": "measures_sensitivity_of",
+      "statement": "Higher modified duration implies a larger first-order percentage price response to the same yield change.",
+      "conditions": "Small yield change, unchanged cash flows; a single duration does not capture every yield-curve movement.",
+      "source_url": "https://syndication.finra.org/content/duration-what-interest-rate-hike-could-do-your-bond-portfolio",
+      "note_block": "Concepts/Finance/Investing and Portfolios/Bond Duration#^rates-rel-15",
+      "basis": "editorial synthesis of cited primary/official educational source"
+    }
+  ],
+  "transcripts_used_as_attributed_examples": [
+    "CEXa_YaJzus",
+    "B9KoZrouVW4"
+  ],
+  "transcripts_byte_identical": 980,
+  "concept_aliases_preserved": true,
+  "graph_config_before": {
+    "collapse-filter": true,
+    "search": "",
+    "showTags": false,
+    "showAttachments": false,
+    "hideUnresolved": false,
+    "showOrphans": true,
+    "collapse-color-groups": true,
+    "colorGroups": [
+      {
+        "query": "tag:#node/theme",
+        "color": {
+          "a": 1,
+          "rgb": 15241266
+        }
+      },
+      {
+        "query": "path:\"Concepts/\" -tag:#node/theme",
+        "color": {
+          "a": 1,
+          "rgb": 4952529
+        }
+      }
+    ],
+    "collapse-display": true,
+    "showArrow": false,
+    "textFadeMultiplier": 0,
+    "nodeSizeMultiplier": 1,
+    "lineSizeMultiplier": 1,
+    "collapse-forces": true,
+    "centerStrength": 0.518713248970312,
+    "repelStrength": 10,
+    "linkStrength": 1,
+    "linkDistance": 250,
+    "scale": 0.2754641649795583,
+    "close": true
+  },
+  "graph_filter_after": "path:\"Concepts/\" tag:#cluster/rates-and-bonds",
+  "note": "Relationship directions refer to the labeled predicate. Not every edge is causal. No corpus-wide semantic extraction is claimed.",
+  "validation": {
+    "all_wikilink_targets_resolve": true,
+    "relationship_registry_matches_note_edges": true,
+    "relationship_conditions_and_sources_present": true,
+    "cluster_connected": true,
+    "cluster_nodes": 8,
+    "directed_concept_edges": 15,
+    "unique_undirected_concept_pairs": 11,
+    "numeric_examples_checked": true,
+    "concept_count": 165,
+    "navigation_pages": 50,
+    "remaining_concepts_without_direct_concept_links": 157
+  }
+}

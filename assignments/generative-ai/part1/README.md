@@ -10,10 +10,10 @@ Prepare financial-video transcripts and a detailed title-based theme list for th
 
 Updated 2026-09-20. Part 1 is in progress; this is not a submission record.
 
-- **980 transcripts prepared:** 952 supplied by the instructor and 28 additional downloads. All titles match; no files are empty or byte-identical duplicates; generated copies match source SHA-256 checksums.
+- **980 transcripts prepared:** 952 supplied by the instructor and 28 additional downloads. All titles match. The 980 canonical Markdown files live in `../notes/Transcripts/`; verified duplicate copies have been removed.
 - **12 of 40 update candidates remain.** The latest retries returned `IpBlocked`. The fixed update window is 2026-05-15 through 2026-09-18; see the [per-video backlog](manifests/BACKLOG.md) and [download log](manifests/download_log.json).
 - **Theme list prepared:** 16 themes from 1,468 channel titles. There are 185 unmatched titles in the review queue; 119 have prepared transcripts. Keyword matches also need transcript-level evidence review.
-- **First reading pilot completed:** [Three QT/QE transcripts](analysis/monetary-policy-pilot/README.md) reviewed, with 10 selected speaker-attributed claims and source-line evidence. All three already had the correct primary-theme suggestion; the unmatched-title queue is unchanged. This is a learning sample, not the Part 2 submission or external fact-checking.
+- **First reading pilot completed:** [Three QT/QE transcripts](analysis/monetary-policy-pilot/README.md) reviewed, with 10 selected speaker-attributed claims and verified paragraph evidence. All three already had the correct primary-theme suggestion; the unmatched-title queue is unchanged. This is a learning sample, not the Part 2 submission or external fact-checking.
 - **Piazza:** the download problem was posted on 2026-09-20, as reported by the user. An instructor reply has not been checked.
 - **DeepSeek:** the personal key is configured locally. Account credit and API authentication have not been verified; no paid API calls have been made for this work. The instructor requests CAD 12–15 of credit for later work.
 
@@ -38,7 +38,7 @@ Updated 2026-09-20. Part 1 is in progress; this is not a submission record.
 | Remaining downloads and latest retry | [Download backlog](manifests/BACKLOG.md) |
 | Exact corpus counts and quality checks | [Inventory](manifests/inventory.json) |
 | Study a transcript-level example | [QT/QE reading pilot](analysis/monetary-policy-pilot/README.md) and [structured claims](analysis/monetary-policy-pilot/claims.json) |
-| Read the thematic findings | [Theme map](analysis/THEMES.md) and [review notes](analysis/THEME_REVIEW.md) |
+| Read the thematic findings | [Theme map](analysis/THEMES.md) |
 | Review ambiguous titles | [Review queue](analysis/title_review_queue.csv) |
 | Trace a transcript to its source | [Transcript manifest](manifests/transcript_manifest.csv) |
 
@@ -47,12 +47,12 @@ Updated 2026-09-20. Part 1 is in progress; this is not a submission record.
 | Directory | Contents | How to maintain it |
 |---|---|---|
 | `scripts/` | Download, preparation, and theme-processing Python code | Update code here; the workspace root is resolved from each script's location |
-| `data/` | Saved channel snapshot, title index, and newly downloaded transcripts | Preserve the snapshot and downloaded source text; the title CSV is rebuilt from metadata and the corpus |
+| `data/` | Saved channel snapshot and title index | Preserve the snapshot; the title CSV is rebuilt from metadata and the canonical corpus |
 | `manifests/` | Download state, backlog, transcript checksums, and inventory | Downloader and preparation scripts update machine records; record retry outcomes in the backlog |
-| `analysis/` | Theme rules, theme report, match evidence, and review queue | Edit theme rules and review notes; rebuild deterministic outputs with `build_themes.py` |
-| `generated/` | Combined transcripts with date, title, and video ID filenames | Rebuildable local copies; ignored by Git |
+| `analysis/` | Theme rules, theme report, match evidence, and review queue | Edit theme rules; rebuild deterministic outputs with `build_themes.py` |
+| `../notes/Transcripts/` | Canonical transcripts with YAML properties and readable paragraphs | One Markdown per video; downloads and readers use this directory |
 
-The instructor's source corpus stays in [the original materials](../../../materials/03_Generative_AI_Assignment/Youtube_AI_students/transcripts_ids_upto_20260514/). The original dates come from supplied filenames, while new transcript dates come from YouTube metadata; the manifest records that distinction. Auto-generated subtitles may contain errors.
+The [canonical corpus](../notes/Transcripts/) contains the instructor transcripts and later downloads. Dates from instructor filenames remain unverified; downloaded dates come from YouTube metadata. The manifest records this distinction. Auto-generated subtitles may contain errors.
 
 The downloader covers the fixed **2026-05-15 through 2026-09-18** snapshot for `@HeresyFinancial`. It does not audit older missing videos, Shorts, or livestreams. Do not replace `data/channel.json` with a later listing without reviewing the window and boundary.
 
@@ -81,11 +81,11 @@ uv run --with-requirements requirements.txt python scripts/download_gap.py --lim
 Rebuild and check the local corpus, then refresh the title-theme reports. These steps use only the standard library and make no network or paid API requests:
 
 ```bash
-python3 scripts/prepare.py --repo ../../.. --metadata data/channel.json --materialize
+python3 scripts/prepare.py --repo ../../.. --metadata data/channel.json
 python3 scripts/build_themes.py
 ```
 
-Materialization verifies each generated copy against its source SHA-256. Inspect `manifests/inventory.json` after rebuilding for unmatched titles, empty files, duplicates, and unresolved update candidates.
+Preparation reads subtitle bodies without YAML, titles or citation block IDs, and indexes the canonical files without creating copies. Inspect `manifests/inventory.json` after rebuilding for unmatched titles, empty files, duplicates, and unresolved update candidates.
 
 To collect metadata for a **future** snapshot, save it separately first:
 

@@ -4,6 +4,12 @@
 
 The complete homework prepares a structured investment-channel knowledge base with evaluation metrics. The current received Part 1 handout covers preparation and says nothing needs to be submitted yet.
 
+The knowledge base is in [notes](notes/), a standalone Obsidian vault. Open that folder as a vault in Obsidian and start at the [Knowledge Map](notes/Topics/Index.md).
+
+Concepts live in `notes/Concepts/<domain>/<topic>/<concept>.md`, with eight domains covering economics, finance, business, politics and law, natural sciences and environment, technology and infrastructure, psychology and behavior, and health and wellbeing. Every domain uses the same topic layer. Each concept has one primary location; cross-domain connections use wikilinks.
+
+`notes/Topics/` contains domain and topic navigation, including the original 16 thematic reading maps. `notes/Transcripts/` contains the canonical sources. Concept pages use `node/concept`; navigation pages use `node/theme`. Existing concept definitions and aliases are preserved; many concepts still need explanatory content. The [reorganization record](part1/manifests/vault_reorganization.json) maps old paths to current locations and records link and source-text checks.
+
 ## Part 1: transcript and theme preparation
 
 Open the [Part 1 workspace](part1/README.md) for scripts, data, theme analysis, and reproducible commands. Its [progress section](part1/README.md#current-progress) records completed work, blockers, and next steps.

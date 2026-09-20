@@ -25,7 +25,7 @@ A lot of cars that used to be V8s or V6s are now going down to four cylinder tur
 
 But because they said gas mileage was the most important thing and they forced auto manufacturers to comply, consumers were forced to foot the bill. And that meant that every other car got way more expensive so that the car manufacturers wouldn't go out of business after they're forced to sell electric cars at 20 30 $40,000 losses a pop. In fact, the average new vehicle price in October just hit $50,000 for the first time ever. The median household income in America is $83,000 right now.
 
-Which means after [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]], if you're buying a new car and you're the median household, you're spending basically every dollar of your after [[Finance/03 Government Debt and Fiscal Policy/Taxation|tax]] money on a car. Now, most people obviously cannot afford to do that all in one year. They're financing it over longer and longer periods of time now, which is why you're seeing crazy things like 120month terms on [[Finance/14 Personal Finance and Retirement/Auto Loans|auto loans]]. That's 10 years.
+Which means after [[Concepts/Economics/Public Economics/Taxation|taxes]], if you're buying a new car and you're the median household, you're spending basically every dollar of your after [[Concepts/Economics/Public Economics/Taxation|tax]] money on a car. Now, most people obviously cannot afford to do that all in one year. They're financing it over longer and longer periods of time now, which is why you're seeing crazy things like 120month terms on [[Concepts/Finance/Household Finance/Auto Loans|auto loans]]. That's 10 years.
 
 [laughter]
 
@@ -33,9 +33,9 @@ Your car will die before it lasts 120 months, especially given the number of com
 
 Shameless plug. If you're not getting that in your email inbox, this is stuff that I don't talk about on YouTube. So, sign up if you haven't already. But right now in Mexico, you can buy a Ram for like 17 grand. In Europe, you can buy the Dossia Sanderero for 12 grand.
 
-In India, you can buy a Suzuki Alto for six grand. And in China, you can buy a mini electric vehicle four-seater for about four grand. And none of these cars are available in the United States. Some of that has to do with [[Finance/12 Trade and Geopolitics/Tariffs|tariffs]].
+In India, you can buy a Suzuki Alto for six grand. And in China, you can buy a mini electric vehicle four-seater for about four grand. And none of these cars are available in the United States. Some of that has to do with [[Concepts/Economics/International Economics/Tariffs|tariffs]].
 
-Some of that has to do with [[Finance/03 Government Debt and Fiscal Policy/Taxation|taxes]]. Some of that has to do with regulations on who can import cars where. No matter what, China is not allowed to sell cars in the US. Even though we as consumers would benefit by their misallocation of resources, we could buy very cheap cars and be benefited from it.
+Some of that has to do with [[Concepts/Economics/Public Economics/Taxation|taxes]]. Some of that has to do with regulations on who can import cars where. No matter what, China is not allowed to sell cars in the US. Even though we as consumers would benefit by their misallocation of resources, we could buy very cheap cars and be benefited from it.
 
 The US government would rather artificially prop up US automakers and force us consumers to buy from them only. legalized monopoly. But the main reason why we're never going to see cheap cars again here unless we get crazy congressional action is the safety standards. This is a truck that Toyota is making called the IVMO, otherwise called the Hilux Champ.
 
@@ -43,7 +43,7 @@ It's a more budget work-friendly version. And you can see it is entirely strippe
 
 It might have cruise control, but I would be willing to bet it probably won't. No annoying beeping and next to no computer parts. That is the reason why they can make something that is reliable, that works, its transportation, gets you from point A to point B, but it can't be sold in the US. It's illegal. It's not roadw worthy here.
 
-Even though there are plenty of people who would want it, who would want something that just works, that they can just drive, the government says, "No, we think you need something that has more safety features. We think you're too dumb to make your own decisions for yourself about how safe you want to be." Which is why for any car manufacturer anywhere in the world that does want to build something that can be sold here in the states, number one, they have to deal with the additional [[Finance/12 Trade and Geopolitics/Tariffs|tariffs]], but number two, they not only have to deal with all the gas mileage stuff, they also have to deal with the safety standards.
+Even though there are plenty of people who would want it, who would want something that just works, that they can just drive, the government says, "No, we think you need something that has more safety features. We think you're too dumb to make your own decisions for yourself about how safe you want to be." Which is why for any car manufacturer anywhere in the world that does want to build something that can be sold here in the states, number one, they have to deal with the additional [[Concepts/Economics/International Economics/Tariffs|tariffs]], but number two, they not only have to deal with all the gas mileage stuff, they also have to deal with the safety standards.
 
 And by the time you pack all that additional tech into a vehicle, you're looking at a $30,000 car minimum. And here's the real problem. We all know that Congress is gridlocked. They barely ever make any significant large moves. Which means anytime you do get political changes from regulation or laws or action, it's typically coming out of the White House because you have far fewer people involved in making a decision happen and carrying out those decisions.
 

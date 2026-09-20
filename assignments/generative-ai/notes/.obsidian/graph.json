@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "(path:\"Finance/\" OR tag:#node/concept) -tag:#node/theme",
+      "query": "path:\"Concepts/\" -tag:#node/theme",
       "color": {
         "a": 1,
         "rgb": 4952529
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1846298219980361,
+  "scale": 8,
   "close": true
 }

@@ -1,5 +1,0 @@
----
-aliases:
-- quantitative tightening
-- QT
----

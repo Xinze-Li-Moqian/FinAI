@@ -1,5 +1,0 @@
----
-aliases:
-- stablecoin
-- stable coin
----

@@ -13,7 +13,7 @@ provenance: "Canonical transcript. Duplicate local copies were removed after mat
 
 # The Market at All Time Highs - Don’t Make This Mistake
 
-The market is trading at all-time highs again. And in fact, it seems like it always does. However, this time around, it seems like there is heightened fear because of fears of an AI bubble, [[Finance/12 Trade and Geopolitics/Geopolitical Risk|geopolitical risks]], the dollar failing, the yen failing. There are a mountain of worries in front of us that are causing concern about investing right now.
+The market is trading at all-time highs again. And in fact, it seems like it always does. However, this time around, it seems like there is heightened fear because of fears of an AI bubble, [[Concepts/Politics and Law/International Relations/Geopolitical Risk|geopolitical risks]], the dollar failing, the yen failing. There are a mountain of worries in front of us that are causing concern about investing right now.
 
 Does it make any sense to buy the market when valuations seem so stretched, when prices seem so high? And is there any way to actually know? Well, the answer is obviously no. We cannot see the future, but we can see the past and that can give us an indication of what usually happens when similar circumstances are present. In other words, studying the past doesn't guarantee that we make the right decision for the future, but it can increase our odds of success.
 
@@ -59,7 +59,7 @@ Sometimes will be better. So, if it helps you sleep at night and helps you stay 
 
 And if you time the market poorly, guess what? It's not going to ruin you. And the more you do it, odds are the better you will get as long as you continue to learn and improve along the way. Now, I know everybody right now is thinking, "Well, that's all fine and dandy for past results, but right now we have a lot of things to worry about."
 
-And you're absolutely right. We have AI bubble fears. We have [[Finance/12 Trade and Geopolitics/Geopolitical Risk|geopolitical risks]]. We have dollar fears. Heck, we have the price of gold looking like a penny stock, signaling there might be deeper and potentially very dangerous issues deep in the financial system. But guess what?
+And you're absolutely right. We have AI bubble fears. We have [[Concepts/Politics and Law/International Relations/Geopolitical Risk|geopolitical risks]]. We have dollar fears. Heck, we have the price of gold looking like a penny stock, signaling there might be deeper and potentially very dangerous issues deep in the financial system. But guess what?
 
 There's always something to worry about. And that's a good thing because once we get to the point where there is nothing to worry about and everybody feels like investing right now is the right decision, that means most people have invested, which means the buyers have dried up. We've gotten to the euphoria phase. That means the markets have probably topped at least temporarily.
 
@@ -73,7 +73,7 @@ And just in case you're curious, the PEG ratio is taking the price to earnings r
 
 This isn't financial advice. I don't know you. I don't know your situation. But if you think you're just following in the footsteps of Warren Buffett and keeping everything in cash because that's what the big guys are doing, well, you're not exactly right. Because even Berkshire Hathway with its record cash pile right now still has less than 30% of its total assets in cash.
 
-And considering that that is in [[Finance/03 Government Debt and Fiscal Policy/Treasury Securities and Issuance|treasuries]], not just cash, that means compared to a standard 6040 stock to [[Finance/04 Bonds and Funding Markets/Bonds|bond]] portfolio right now, Berkshire Hathway is more aggressive than that. So you sitting in 90 or 100% cash is not following in the footsteps of Warren Buffett who has less than a third of his assets in cash, but actually it's in [[Finance/03 Government Debt and Fiscal Policy/Treasury Securities and Issuance|treasuries]]. The point is that historically speaking, the people who make the most money by investing in markets do it by buying great companies as early as they can and as often as they can.
+And considering that that is in [[Concepts/Finance/Markets and Instruments/Treasury Securities and Issuance|treasuries]], not just cash, that means compared to a standard 6040 stock to [[Concepts/Finance/Markets and Instruments/Bonds|bond]] portfolio right now, Berkshire Hathway is more aggressive than that. So you sitting in 90 or 100% cash is not following in the footsteps of Warren Buffett who has less than a third of his assets in cash, but actually it's in [[Concepts/Finance/Markets and Instruments/Treasury Securities and Issuance|treasuries]]. The point is that historically speaking, the people who make the most money by investing in markets do it by buying great companies as early as they can and as often as they can.
 
 Great timing can help, but it's absolutely not necessary.
 

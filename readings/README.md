@@ -13,4 +13,4 @@
 
 Use the original Word, PowerPoint, or PDF when checking equations and visual layout. The full catalog is a reference shelf, not a requirement to read every attachment. Instructor transcripts and sample output folders are data, not separate readings.
 
-Write personal reading reflections in [notes](../notes/README.md). Keep speculative verification work in [research](../research/README.md).
+Financial concept notes for the Generative AI homework are in its [Obsidian vault](../assignments/generative-ai/notes/). Keep speculative verification work in [research](../research/README.md).

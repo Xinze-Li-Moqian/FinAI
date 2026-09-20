@@ -1,4 +1,0 @@
----
-aliases:
-- life insurance
----

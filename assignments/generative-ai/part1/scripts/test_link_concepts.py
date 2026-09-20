@@ -1,6 +1,28 @@
 """Focused regression checks for transcript linking; no network or corpus writes."""
 import unittest
-from link_concepts import Linker, display_text, protected_spans
+import tempfile
+from pathlib import Path
+from link_concepts import Linker, display_text, protected_spans, load_aliases
+
+class VaultLayoutTests(unittest.TestCase):
+    def test_domains_load_and_navigation_is_excluded(self):
+        with tempfile.TemporaryDirectory() as directory:
+            vault = Path(directory)
+            for relative in ('Concepts/Economics/Macroeconomics/Inflation.md',
+                             'Concepts/Technology and Infrastructure/Computing/SSD.md'):
+                file = vault / relative
+                file.parent.mkdir(parents=True, exist_ok=True)
+                file.write_text('---\naliases: ["' + file.stem + '"]\n---\n')
+            topic = vault / 'Topics/Economics.md'
+            topic.parent.mkdir()
+            topic.write_text('---\ntags: [node/theme]\n---\n# Economics\n')
+            (vault / 'README.md').write_text('# Vault\n')
+            aliases, themes = load_aliases(vault)
+            self.assertEqual(set(aliases), {
+                'Concepts/Economics/Macroeconomics/Inflation',
+                'Concepts/Technology and Infrastructure/Computing/SSD',
+            })
+            self.assertEqual(themes, [topic])
 
 class LinkingTests(unittest.TestCase):
     def test_boundaries_case_possessive_and_hyphen(self):

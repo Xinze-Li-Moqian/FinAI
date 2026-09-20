@@ -1,4 +1,0 @@
----
-aliases:
-- broken window fallacy
----

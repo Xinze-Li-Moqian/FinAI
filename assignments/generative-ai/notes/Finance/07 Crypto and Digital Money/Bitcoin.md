@@ -1,5 +1,0 @@
----
-aliases:
-- Bitcoin
-- BTC
----

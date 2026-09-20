@@ -67,7 +67,7 @@ Case 44 remains a candidate and warm-up direction. See the presentation workspac
 - [Coverage of received materials](../materials/README.md#coverage)
 - [Original administrative and marking information](../readings/library/documents/ADMINISTRATIVE_APS1053/index.md)
 - [References](../readings/library/references/README.md)
-- [Personal study notes](../notes/README.md)
+- [Generative AI homework concept notes](../assignments/generative-ai/notes/)
 
 ## Items requiring clarification
 

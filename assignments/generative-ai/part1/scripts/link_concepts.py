@@ -93,7 +93,7 @@ def load_aliases(vault):
         if 'node/theme' in tags:
             themes.append(file)
             continue
-        if relative.parts[0] != 'Finance' and 'node/concept' not in tags:
+        if relative.parts[0] != 'Concepts' and 'node/concept' not in tags:
             continue
         values = meta.get('aliases', [])
         if not isinstance(values, list) or not values or not all(isinstance(x, str) and x.strip() for x in values):

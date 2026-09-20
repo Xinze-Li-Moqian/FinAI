@@ -1,4 +1,0 @@
----
-aliases:
-- monetary policy
----
